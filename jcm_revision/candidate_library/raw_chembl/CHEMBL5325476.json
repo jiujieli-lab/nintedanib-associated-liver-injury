@@ -1,0 +1,24 @@
+{
+  "abstract": "A series of novel substituted 4-anilinoquinazolines and their related compounds were designed and prepared by 3D modeling as potential inhibitors of VEGFR-2. Evaluation of VEGFR inhibitory activities suggested that compound I10 was a more potent (IC<sub>50</sub>\u00a0=\u00a00.11\u00a0nM) VEGFR-2 inhibitor than most of the listed drugs. Kinase panel assays demonstrated that compound I10 was the selective VEGFR-2 inhibitor. The prediction of 3D modeling unveiled a unique binding mode of this lead compound to VEGFR-2. Compound I10 exhibited remarkable anti-angiogenesis and anti-proliferation in HUVEC at low nanomolar concentrations. PK studies indicated that the lead compound possessed adequate oral bioavailability in various species. In vivo subcutaneous tumor model demonstrated that oral administration of I10 demonstrated potent efficacy in inhibiting tumor growth and angiogenesis. All these results suggested compound I10 is a potential drug candidate for cancer treatment.",
+  "authors": "Hou F, Yao Y, Wei Y, Wang Y, Cao Y, Liu X, Zheng L, Zhang Q, Jiao Y, Chen Y, Meng Y, Sun Y, Wu Y, Wang J, Wang J, Wu Z, Zhang K, Wei M, Yang G.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_35",
+    "creation_date": "2024-12-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5325476",
+  "doi": "10.1016/j.bmc.2023.117404",
+  "doi_chembl": null,
+  "first_page": "117404",
+  "issue": null,
+  "journal": "Bioorg Med Chem",
+  "journal_full_title": "Bioorganic & medicinal chemistry.",
+  "last_page": "117404",
+  "patent_id": null,
+  "pubmed_id": 37429211,
+  "src_id": 1,
+  "title": "Design and discovery of new selective and potent VEGF receptor 2 tyrosine kinase inhibitors.",
+  "volume": "91",
+  "year": 2023
+}

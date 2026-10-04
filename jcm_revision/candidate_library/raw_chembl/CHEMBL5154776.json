@@ -1,0 +1,24 @@
+{
+  "abstract": "Platelet-derived growth factor receptors (PDGFRs) are now considered promising targets for the treatment of osteosarcoma. Herein, the design, synthesis, and structure-activity relationships (SAR) of novel pyrimidine-2,4-diamine derivatives that selectively inhibit PDGFR\u03b1/\u03b2 kinases have been studied. The screening cascades revealed that <b>7m</b> was the preferred compound among these derivatives, with IC<sub>50</sub> values of 2.4 and 0.9 nM for PDGFR\u03b1 and PDGFR\u03b2, respectively. Moreover, the 3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazolium bromide (MTT) experiment revealed that <b>7m</b> has a substantial cytotoxic effect against all osteosarcoma cancer cell lines; <b>7m</b> also displayed robust antitumor effects and low toxicity in a xenograft model. Additionally, <b>7m</b> showed excellent bioavailability (<i>F</i> = 62.9%), suitable half-life (<i>T</i><sub>1/2</sub> = 2.12 h), satisfactory metabolic stability, and weak CYP isoform inhibitory activity, suggesting that <b>7m</b> is a potential drug candidate for PDGFR-driven osteosarcoma.",
+  "authors": "Chen X, Liu L, Liu P, Chen Y, Lin D, Yan H, Yan Q, Wang Y, Qiu Y, Fang B, Huang H, Qian J, Zhao Y, Du Z, Zhang Q, Li X, Zheng X, Liu Z.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_33",
+    "creation_date": "2023-05-31"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5154776",
+  "doi": "10.1021/acs.jmedchem.1c01732",
+  "doi_chembl": null,
+  "first_page": "5374",
+  "issue": "7.0",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "5391",
+  "patent_id": null,
+  "pubmed_id": 35239349,
+  "src_id": 1,
+  "title": "Discovery of Potent and Orally Bioavailable Platelet-Derived Growth Factor Receptor (PDGFR) Inhibitors for the Treatment of Osteosarcoma.",
+  "volume": "65",
+  "year": 2022
+}

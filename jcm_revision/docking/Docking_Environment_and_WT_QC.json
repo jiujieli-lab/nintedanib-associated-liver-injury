@@ -1,0 +1,21 @@
+{
+  "PDGFRA_coordinate_residues": 279,
+  "PDGFRA_reference_sequence_mismatches": [],
+  "D842_identity": "D",
+  "T674_identity": "T",
+  "versions": {
+    "vina": "1.2.7",
+    "rdkit": "2026.3.6",
+    "meeko": "0.8.0",
+    "gemmi": "0.7.5",
+    "biopython": "1.88",
+    "numpy": "2.5.3",
+    "scipy": "1.17.0"
+  },
+  "receptor_sha256": {
+    "PDGFRA_6JOL_receptor.pdbqt": "b137a5329d86095b5c615571726d30d711b4ef238bfd9712ff383e33ac5dcd38",
+    "FLT4_AF_receptor.pdbqt": "7ec18bf969a7dd8b83f8989dff7ee969f5b473be249cd6a69c046eec69d32214",
+    "PDGFRA_6JOL_receptor.pdb": "6495c51c05225943bda5feb7ebae119f86a2d2cb2d8f619ff3350099e9a94d6d",
+    "FLT4_AF_receptor.pdb": "4cfaeec72ac5a90e205e864dc43038d4ad71598f7f112b82d817674ebebeb871"
+  }
+}

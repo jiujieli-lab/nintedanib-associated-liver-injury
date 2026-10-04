@@ -1,0 +1,98 @@
+{
+  "decision": "PASS",
+  "n_checks": 23,
+  "checks": [
+    {
+      "check": "exact 19 choose 10 allocation count",
+      "pass": true
+    },
+    {
+      "check": "same 12 targets for all algorithms",
+      "pass": true
+    },
+    {
+      "check": "independent Spearman legacy_consensus",
+      "pass": true
+    },
+    {
+      "check": "all unique allocations legacy_consensus",
+      "pass": true
+    },
+    {
+      "check": "exact P from persisted null legacy_consensus",
+      "pass": true
+    },
+    {
+      "check": "independent Spearman median",
+      "pass": true
+    },
+    {
+      "check": "all unique allocations median",
+      "pass": true
+    },
+    {
+      "check": "exact P from persisted null median",
+      "pass": true
+    },
+    {
+      "check": "independent Spearman mean",
+      "pass": true
+    },
+    {
+      "check": "all unique allocations mean",
+      "pass": true
+    },
+    {
+      "check": "exact P from persisted null mean",
+      "pass": true
+    },
+    {
+      "check": "independent Spearman geometric",
+      "pass": true
+    },
+    {
+      "check": "all unique allocations geometric",
+      "pass": true
+    },
+    {
+      "check": "exact P from persisted null geometric",
+      "pass": true
+    },
+    {
+      "check": "independent Spearman maximin",
+      "pass": true
+    },
+    {
+      "check": "all unique allocations maximin",
+      "pass": true
+    },
+    {
+      "check": "exact P from persisted null maximin",
+      "pass": true
+    },
+    {
+      "check": "independent Spearman RRA",
+      "pass": true
+    },
+    {
+      "check": "all unique allocations RRA",
+      "pass": true
+    },
+    {
+      "check": "exact P from persisted null RRA",
+      "pass": true
+    },
+    {
+      "check": "six-method BH",
+      "pass": true
+    },
+    {
+      "check": "19 independent animals",
+      "pass": true
+    },
+    {
+      "check": "frozen ranks unchanged",
+      "pass": true
+    }
+  ]
+}

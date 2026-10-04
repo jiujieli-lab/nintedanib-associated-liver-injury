@@ -1,0 +1,68 @@
+{
+  "accession": "GSE115469",
+  "retrieval_date": "2026-09-04",
+  "expression_sha256": "9d20630b98dba970ef3ec616d48a18857d94aa38e29886ab358a6dbdb10cbdde",
+  "metadata_sha256": "a83f30e231059abeed2e1a95c4a0677fcdeea905d80ecc3a8d7eb3371bb2ad07",
+  "n_cells": 8444,
+  "n_genes": 20007,
+  "n_donors": 5,
+  "cell_type_counts": {
+    "Hepatocyte_1": 1006,
+    "alpha-beta_T_Cells": 961,
+    "Hepatocyte_2": 909,
+    "Inflammatory_Macrophage": 813,
+    "Hepatocyte_3": 629,
+    "Hepatocyte_4": 603,
+    "Plasma_Cells": 511,
+    "NK-like_Cells": 488,
+    "gamma-delta_T_Cells_1": 464,
+    "Non-inflammatory_Macrophage": 379,
+    "Periportal_LSECs": 327,
+    "Central_venous_LSECs": 306,
+    "Portal_endothelial_Cells": 211,
+    "Hepatocyte_5": 202,
+    "Hepatocyte_6": 152,
+    "Mature_B_Cells": 129,
+    "Cholangiocytes": 119,
+    "gamma-delta_T_Cells_2": 105,
+    "Erythroid_Cells": 93,
+    "Hepatic_Stellate_Cells": 37
+  },
+  "compartment_counts": {
+    "Hepatocyte": 3501,
+    "Immune_other": 2751,
+    "Macrophage": 1192,
+    "Endothelial": 844,
+    "Cholangiocyte": 119,
+    "Stellate": 37
+  },
+  "dili_anchors": [
+    "ACO1",
+    "ASS1",
+    "FAH",
+    "CPS1",
+    "ALDOB",
+    "HPD",
+    "OTC",
+    "DMGDH",
+    "GSTA1",
+    "FBP1",
+    "PCK2",
+    "CES1",
+    "LECT2"
+  ],
+  "canonical_nintedanib_targets": [
+    "KDR",
+    "FLT1",
+    "FLT4",
+    "FGFR1",
+    "FGFR2",
+    "FGFR3",
+    "PDGFRA",
+    "PDGFRB"
+  ],
+  "missing_forced_genes": [
+    "NTRK1"
+  ],
+  "statistical_unit": "donor for uncertainty summaries; cells descriptive only"
+}

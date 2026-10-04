@@ -1,0 +1,24 @@
+{
+  "abstract": "Herein a novel series of pazopanib hybrids as polypharmacological antitumor agents were developed based on the crosstalk between histone deacetylases (HDACs) and vascular endothelial growth factor (VEGF) pathway. Among them, one ortho-aminoanilide 6d and one hydroxamic acid 13f exhibited considerable total HDACs and VEGFR-2 inhibitory activities. The HDAC inhibitory activities endowed 6d and 13f with potent antiproliferative activities, which was not observed in the approved VEGFR inhibitor pazopanib. Compounds 6d and 13f possessed comparable HDAC isoform selectivity profiles to the clinical class I HDAC inhibitor MS-275 and the approved pan-HDAC inhibitor SAHA, respectively. 6d and 13f also exhibited uncompromised multiple tyrosine kinases inhibitory activities relative to pazopanib. The intracellular dual inhibition to HDAC and VEGFR of 6d and 13f was validated by Western blot analysis. In both HUVECs tube formation assay and rat thoracic aorta rings assay, 6d and 13f showed comparable antiangiogenic potencies to pazopanib. What's more, 6d possessed desirable pharmacokinetic profiles with the oral bioavailability of 72% in SD rats and considerable in vivo antitumor efficacy in a human colorectal adenocarcinoma (HT-29) xenograft model.",
+  "authors": "Zang J, Liang X, Huang Y, Jia Y, Li X, Xu W, Chou CJ, Zhang Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_26",
+    "creation_date": "2020-01-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4190394",
+  "doi": "10.1021/acs.jmedchem.8b00384",
+  "doi_chembl": null,
+  "first_page": "5304",
+  "issue": "12",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "5322",
+  "patent_id": null,
+  "pubmed_id": 29787262,
+  "src_id": 1,
+  "title": "Discovery of Novel Pazopanib-Based HDAC and VEGFR Dual Inhibitors Targeting Cancer Epigenetics and Angiogenesis Simultaneously.",
+  "volume": "61",
+  "year": 2018
+}

@@ -1,0 +1,480 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-0005-4864",
+      "name": "Cho, R.E.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-4175-5181",
+      "name": "Ahn, J.S.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Kim, H.M.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "citation": [
+    {
+      "country": "DE",
+      "id": "primary",
+      "journal_abbrev": "Adv Sci",
+      "journal_id_ISSN": "2198-3844",
+      "page_first": "e77728",
+      "page_last": "e77728",
+      "pdbx_database_id_DOI": "10.1002/advs.77728",
+      "pdbx_database_id_PubMed": 42717534,
+      "rcsb_authors": [
+        "Cho, R.",
+        "Ahn, J.",
+        "Yang, J.",
+        "Lee, D.S.",
+        "Hong, G.",
+        "Lee, S.",
+        "Kim, H.M."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Adv Sci (Weinh)",
+      "title": "Structural Basis of Lymphangiogenic Receptor VEGFR-3 Activation Mediated by Distinctive Clustering of the Ligand-Receptor Complex.",
+      "year": 2026
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "21ES",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb21es/pdb",
+      "pdbx_database_accession": "pdb_000021es"
+    },
+    {
+      "database_code": "D_1300067092",
+      "database_id": "WWPDB"
+    },
+    {
+      "database_code": "EMD-67618",
+      "database_id": "EMDB"
+    }
+  ],
+  "em_3d_fitting": [
+    {
+      "id": "1"
+    }
+  ],
+  "em_3d_reconstruction": [
+    {
+      "id": "1",
+      "image_processing_id": "1",
+      "num_particles": 580022,
+      "resolution": 3.3,
+      "resolution_method": "FSC 0.5 CUT-OFF",
+      "symmetry_type": "POINT"
+    }
+  ],
+  "em_ctf_correction": [
+    {
+      "em_image_processing_id": "1",
+      "id": "1",
+      "type": "PHASE FLIPPING ONLY"
+    }
+  ],
+  "em_entity_assembly": [
+    {
+      "entity_id_list": [
+        "1",
+        "2"
+      ],
+      "id": "1",
+      "name": "VEGFR-3/VEGF-C",
+      "parent_id": 0,
+      "source": "RECOMBINANT",
+      "type": "COMPLEX"
+    }
+  ],
+  "em_experiment": {
+    "aggregation_state": "3D ARRAY",
+    "entity_assembly_id": "1",
+    "id": "1",
+    "reconstruction_method": "SINGLE PARTICLE"
+  },
+  "em_image_recording": [
+    {
+      "avg_electron_dose_per_image": 67.3,
+      "film_or_detector_model": "GATAN K3 BIOQUANTUM (6k x 4k)",
+      "id": "1",
+      "imaging_id": "1"
+    }
+  ],
+  "em_imaging": [
+    {
+      "accelerating_voltage": 300,
+      "electron_source": "FIELD EMISSION GUN",
+      "id": "1",
+      "illumination_mode": "FLOOD BEAM",
+      "microscope_model": "TFS KRIOS",
+      "mode": "BRIGHT FIELD",
+      "nominal_defocus_max": 1900.0,
+      "nominal_defocus_min": 700.0,
+      "specimen_id": "1"
+    }
+  ],
+  "em_software": [
+    {
+      "category": "PARTICLE SELECTION",
+      "id": "1",
+      "image_processing_id": "1",
+      "name": "cryoSPARC"
+    },
+    {
+      "category": "MODEL REFINEMENT",
+      "id": "2",
+      "name": "PHENIX",
+      "version": "1.21.2_5419"
+    },
+    {
+      "category": "IMAGE ACQUISITION",
+      "fitting_id": "1",
+      "id": "3",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "MASKING",
+      "fitting_id": "1",
+      "id": "4",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "CTF CORRECTION",
+      "id": "5",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "LAYERLINE INDEXING",
+      "fitting_id": "1",
+      "id": "6",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "DIFFRACTION INDEXING",
+      "fitting_id": "1",
+      "id": "7",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "MODEL FITTING",
+      "fitting_id": "1",
+      "id": "8",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "OTHER",
+      "fitting_id": "1",
+      "id": "9",
+      "image_processing_id": "1",
+      "imaging_id": "1"
+    },
+    {
+      "category": "INITIAL EULER ASSIGNMENT",
+      "id": "10",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "FINAL EULER ASSIGNMENT",
+      "id": "11",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "CLASSIFICATION",
+      "id": "12",
+      "image_processing_id": "1"
+    },
+    {
+      "category": "RECONSTRUCTION",
+      "id": "13",
+      "image_processing_id": "1",
+      "name": "cryoSPARC"
+    }
+  ],
+  "em_specimen": [
+    {
+      "concentration": 1.0,
+      "embedding_applied": "NO",
+      "experiment_id": "1",
+      "id": "1",
+      "shadowing_applied": "NO",
+      "staining_applied": "NO",
+      "vitrification_applied": "YES"
+    }
+  ],
+  "em_vitrification": [
+    {
+      "cryogen_name": "ETHANE",
+      "humidity": 100.0,
+      "id": "1",
+      "specimen_id": "1"
+    }
+  ],
+  "entry": {
+    "id": "21ES"
+  },
+  "exptl": [
+    {
+      "method": "ELECTRON MICROSCOPY"
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2026-09-30T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "Korea, Republic Of",
+      "funding_organization": "National Research Foundation (NRF, Korea)",
+      "grant_number": "RS-2024-00397681",
+      "ordinal": 1
+    },
+    {
+      "country": "Korea, Republic Of",
+      "funding_organization": "National Research Foundation (NRF, Korea)",
+      "grant_number": "RS-2025-00523575",
+      "ordinal": 2
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "21EI",
+      "db_name": "PDB",
+      "details": "Trans-clustering of VEGFR-3 and VEGF-C"
+    },
+    {
+      "content_type": "associated EM volume",
+      "db_id": "EMD-67618",
+      "db_name": "EMDB",
+      "details": "Structural and Functional Insights into VEGFR-3-Mediated Lymphangiogenesis : Unraveling the clustering mechanism of VEGFR-3/VEGF-C"
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBJ",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBJ",
+    "recvd_initial_deposition_date": "2025-12-10T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "visualanalysis,molprobity,validation-pack,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-09-22T09:18:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_em": [
+    {
+      "Q_score": 0.247,
+      "atom_inclusion_all_atoms": 0.848,
+      "atom_inclusion_backbone": 0.917,
+      "author_provided_fsc_resolution_by_cutoff_halfbit": 3.86,
+      "author_provided_fsc_resolution_by_cutoff_onebit": 4.05,
+      "author_provided_fsc_resolution_by_cutoff_pt_143": 3.8,
+      "author_provided_fsc_resolution_by_cutoff_pt_333": 4.04,
+      "author_provided_fsc_resolution_by_cutoff_pt_5": 4.26,
+      "author_provided_fsc_resolution_by_cutoff_threesigma": 3.41,
+      "calculated_fsc_resolution_by_cutoff_halfbit": 3.83,
+      "calculated_fsc_resolution_by_cutoff_onebit": 4.03,
+      "calculated_fsc_resolution_by_cutoff_pt_143": 3.78,
+      "calculated_fsc_resolution_by_cutoff_pt_333": 4.02,
+      "calculated_fsc_resolution_by_cutoff_pt_5": 4.24,
+      "calculated_fsc_resolution_by_cutoff_threesigma": 3.4,
+      "contour_level_primary_map": 0.0023,
+      "exp_method": "electron microscopy"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.38,
+      "bonds_RMSZ": 0.15,
+      "clashscore": 5.0,
+      "num_H_reduce": 15155,
+      "num_angles_RMSZ": 21560,
+      "num_bonds_RMSZ": 15823,
+      "percent_ramachandran_outliers": 0.05,
+      "percent_rotamer_outliers": 5.45
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2025-12-10T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2026-09-30T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 0,
+    "revision_date": "2026-09-30T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "emdb_ids": [
+      "EMD-67618"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "21ES",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1",
+      "2"
+    ],
+    "pubmed_id": 42717534,
+    "rcsb_id": "21ES"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 12,
+    "deposited_atom_count": 15431,
+    "deposited_branched_entity_instance_count": 0,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 1946,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 8,
+    "deposited_polymer_monomer_count": 3612,
+    "deposited_solvent_atom_count": 0,
+    "deposited_unmodeled_polymer_monomer_count": 1666,
+    "disulfide_bond_count": 30,
+    "entity_count": 2,
+    "experimental_method": "EM",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 405.26,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "heteromeric protein",
+    "polymer_entity_count": 2,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 2,
+    "polymer_entity_taxonomy_count": 2,
+    "polymer_molecular_weight_maximum": 87.5,
+    "polymer_molecular_weight_minimum": 13.81,
+    "polymer_monomer_count_maximum": 778,
+    "polymer_monomer_count_minimum": 125,
+    "resolution_combined": [
+      3.3
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "CRYOSPARC",
+      "PHENIX"
+    ],
+    "solvent_entity_count": 0,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10
+  },
+  "rcsb_external_references": [
+    {
+      "id": "EMD-67618",
+      "link": "https://www.emdataresource.org/EMD-67618",
+      "type": "EM DATA RESOURCE"
+    }
+  ],
+  "rcsb_primary_citation": {
+    "country": "DE",
+    "id": "primary",
+    "journal_abbrev": "Adv Sci",
+    "journal_id_ISSN": "2198-3844",
+    "page_first": "e77728",
+    "page_last": "e77728",
+    "pdbx_database_id_DOI": "10.1002/advs.77728",
+    "pdbx_database_id_PubMed": 42717534,
+    "rcsb_ORCID_identifiers": [
+      "0000-0002-0005-4864",
+      "0000-0002-4175-5181",
+      "0000-0003-0484-6639",
+      "?",
+      "0009-0009-7531-2141",
+      "0000-0002-6916-3372",
+      "0000-0003-0029-3643"
+    ],
+    "rcsb_authors": [
+      "Cho, R.",
+      "Ahn, J.",
+      "Yang, J.",
+      "Lee, D.S.",
+      "Hong, G.",
+      "Lee, S.",
+      "Kim, H.M."
+    ],
+    "rcsb_journal_abbrev": "Adv Sci (Weinh)",
+    "title": "Structural Basis of Lymphangiogenic Receptor VEGFR-3 Activation Mediated by Distinctive Clustering of the Ligand-Receptor Complex.",
+    "year": 2026
+  },
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.003,
+      "number": 15834,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.672,
+      "number": 21575,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 7.854,
+      "number": 2153,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_dihedral_angle_d"
+    },
+    {
+      "dev_ideal": 0.047,
+      "number": 2430,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.006,
+      "number": 2742,
+      "pdbx_refine_id": "ELECTRON MICROSCOPY",
+      "type": "f_plane_restr"
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "Structural and Functional Insights into VEGFR-3-Mediated Lymphangiogenesis : Unraveling the clustering mechanism of VEGFR-3/VEGF-C"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "SIGNALING PROTEIN",
+    "text": "VEGFR-3, VEGF-C, cis-clustering, trans-clustering, VEGFR-3/VEGF-C signaling, receptor tyrosine kinases, SIGNALING PROTEIN"
+  },
+  "rcsb_id": "21ES"
+}

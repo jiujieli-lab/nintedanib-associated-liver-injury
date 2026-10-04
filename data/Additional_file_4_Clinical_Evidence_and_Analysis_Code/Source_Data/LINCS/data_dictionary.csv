@@ -1,0 +1,16 @@
+field,definition
+spearman_rho,Spearman rank correlation between Level 5 z score and log10 dose across six composite signatures.
+spearman_exact_p,Two-sided exact P value from all 6! dose-label permutations.
+bh_q_all_genes,"Benjamini-Hochberg q value across 12,328 genes."
+bh_q_measurement_family,"BH q value within measured-landmark, BING, or other-inferred family."
+auc_log10dose,Trapezoidal integral of Level 5 z score over log10 concentration.
+auc_log10dose_normalized,Log-dose AUC divided by the observed log10-dose range; interpretable as log-dose-weighted mean z.
+max_abs_z,Maximum absolute Level 5 z score across six doses.
+direction_consistency,Fraction of six z scores sharing the sign of normalized log-dose AUC.
+trend_magnitude,Descriptive ranking score |Spearman rho| multiplied by maximum |z|; not a test statistic.
+loo_sign_stability,Fraction of six leave-one-dose-out correlations sharing the full-series direction.
+stratum_response_percentile,Percentile of trend_magnitude within L1000 measurement stratum.
+competitive_z,"Observed gene-set mean response percentile minus matched-null mean, divided by matched-null SD."
+permutation_p_one_sided,"Plus-one corrected proportion of 25,000 measurement-stratum-matched null sets at least as large as observed."
+sciplex sign_concordance,Fraction of overlapping genes with the same response sign in HepG2 and the truncated MCF7 Sci-Plex signature.
+max_pchembl,Maximum valid exact pChEMBL value for a human single-protein target.

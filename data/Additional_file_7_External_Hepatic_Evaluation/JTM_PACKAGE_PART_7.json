@@ -1,0 +1,211 @@
+{
+  "additional_number": 7,
+  "archive_name": "Additional_file_7_External_Hepatic_Evaluation.zip",
+  "files": [
+    {
+      "path": "Analysis/heldout_rank_association/analyze_frozen_rank_association.py",
+      "size": 5644,
+      "sha256": "f2086fcae375c822a680be64fa137ba6ced349648b1280c156edbd3a346336ef"
+    },
+    {
+      "path": "Analysis/heldout_rank_association/deposited_matrix/analysis_configuration.json",
+      "size": 1139,
+      "sha256": "5523ba98223ed6e3337913363160bd2dd35afb9261d1495c92dc8a19bc75f358"
+    },
+    {
+      "path": "Analysis/heldout_rank_association/deposited_matrix/animal_permutation_rank_statistics.csv.gz",
+      "size": 2488650,
+      "sha256": "f20175775a8bcd55c481060be744b3f81af26c5792509a466dd85369a189ced4"
+    },
+    {
+      "path": "Analysis/heldout_rank_association/deposited_matrix/external_candidate_expression_snapshot.csv",
+      "size": 2985,
+      "sha256": "421d3452ff9b7bb2b8ea9854cca47d655f3fcafa082c84def58d946a61d6e508"
+    },
+    {
+      "path": "Analysis/heldout_rank_association/deposited_matrix/external_candidate_sample_metadata.csv",
+      "size": 10751,
+      "sha256": "705d59fc411ca313cb891cc4c395edca9a6f83bbf249a486eca3d654e2dadee1"
+    },
+    {
+      "path": "Analysis/heldout_rank_association/deposited_matrix/external_rank_association_summary.csv",
+      "size": 1813,
+      "sha256": "e10e2c817edd6a5ebbf1486fdf390feb534a87a9ba0d0e7ae6c0443e8c50a31d"
+    },
+    {
+      "path": "Analysis/heldout_rank_association/deposited_matrix/external_target_rank_effect_pairs.csv",
+      "size": 4371,
+      "sha256": "5091377d30d4aa69d2b3cf34b61972625458fecba98631b317eaa11f00427e0d"
+    },
+    {
+      "path": "Analysis/heldout_rank_association/deposited_matrix/fixed_candidate_coverage.csv",
+      "size": 1047,
+      "sha256": "fbf2860db639cd37a66c0a5b64a1c80e13791a0a615994a9e4b9115c28c6790e"
+    },
+    {
+      "path": "Analysis/heldout_rank_association/deposited_matrix/input_manifest.csv",
+      "size": 480,
+      "sha256": "3c661f18f12ba90c2321d737e451d3fb75c5b183815c8a999080f8c94b5c38a1"
+    },
+    {
+      "path": "Analysis/heldout_rank_association/deposited_matrix/validation.json",
+      "size": 1926,
+      "sha256": "6d64536e033e876138f3587fdcc92deea458354a816d6bc8696598b7119a3f04"
+    },
+    {
+      "path": "Analysis/independent_liver/CEL_file_manifest.csv",
+      "size": 12745,
+      "sha256": "0ae12470fc7000968d09b8de903d5fecc4c86cbd49fd2ef043c55f76e31b45c1"
+    },
+    {
+      "path": "Analysis/independent_liver/CEL_run_date_fixed_panel_sensitivity.csv",
+      "size": 11207,
+      "sha256": "e9c5d9982b7f02f9e350041db05f050f83129b9a9f8a45f90cab7dcb92400055"
+    },
+    {
+      "path": "Analysis/independent_liver/DISEASE_vs_CONTROL_all_genes.csv",
+      "size": 3273767,
+      "sha256": "7ef198786c6904e1d1142abc225347a413e6b146f948b8b1a90ca0793224fb02"
+    },
+    {
+      "path": "Analysis/independent_liver/GPL21382.txt",
+      "size": 1051174,
+      "sha256": "48bb51cf65b9418173a0e2aa19446c3895438d376288a60ba0b71f8441384a92"
+    },
+    {
+      "path": "Analysis/independent_liver/NINT_vs_CONTROL_all_genes.csv",
+      "size": 3248526,
+      "sha256": "0dc0bab3f454cde83165954f20578fd46bfd2238045fd3b7da2b64de54f05d8d"
+    },
+    {
+      "path": "Analysis/independent_liver/NINT_vs_DISEASE_all_genes.csv",
+      "size": 3250584,
+      "sha256": "afec22d35206725c6d1ff8d1afdf4d39820e8c858fdf1ac869938ef5a34649fe"
+    },
+    {
+      "path": "Analysis/independent_liver/analysis_input_manifest.csv",
+      "size": 1238,
+      "sha256": "1182966e32c080d805460a1c8c58341e1a749e7594d2aaf64a29d435c4e7c233"
+    },
+    {
+      "path": "Analysis/independent_liver/analysis_status.json",
+      "size": 591,
+      "sha256": "9dde3213131ada515c162e15fa327ce73e0f3034e694517aaf392d8427de0c99"
+    },
+    {
+      "path": "Analysis/independent_liver/analysis_summary.json",
+      "size": 2088,
+      "sha256": "b50094a728053dbc2569a8f598417536d85c19749396bda71969ff786262c687"
+    },
+    {
+      "path": "Analysis/independent_liver/analyze_independent_liver.py",
+      "size": 11423,
+      "sha256": "25aa27ed7d4ecd36b30d5eb114e7abfb1825c06b3b875ec2d305bace2cfcc062"
+    },
+    {
+      "path": "Analysis/independent_liver/batch_adjusted_gene_sensitivity.csv",
+      "size": 1147121,
+      "sha256": "943c67060d72512dc63c44acb0092e2e2182ff1371abda8c7e559d62ef01c624"
+    },
+    {
+      "path": "Analysis/independent_liver/batch_sensitivity.py",
+      "size": 3022,
+      "sha256": "c06a1e7f25c4e259e372cb01f1d033b5c5799b1cf4631073daf042c49465bd51"
+    },
+    {
+      "path": "Analysis/independent_liver/batch_sensitivity_summary.json",
+      "size": 401,
+      "sha256": "79b39239a31a537fee3e0876494a51e655ac99b21996ba241dda188f341814e9"
+    },
+    {
+      "path": "Analysis/independent_liver/dilimap_membership_audit.json",
+      "size": 21599,
+      "sha256": "291d1f8ab4a2f270042592fed0f0d32a519e199ee545f696cab9674de0c26654"
+    },
+    {
+      "path": "Analysis/independent_liver/disjoint_disease_reference_sensitivity.csv",
+      "size": 12826,
+      "sha256": "18901855394112becd991406f89c45aa29b2aa466d1a5c374c1ce828e1afaa2b"
+    },
+    {
+      "path": "Analysis/independent_liver/expression_RMA_entrez.csv.gz",
+      "size": 1646923,
+      "sha256": "51d525176a8b0987c6f2b218d62b14048f788b95d892c2ee15804b9bda64be42"
+    },
+    {
+      "path": "Analysis/independent_liver/expression_RMA_symbols.csv.gz",
+      "size": 1649331,
+      "sha256": "905de9faf2c3aaf44153b9a86582eee68072454c6b4f9dd19f5925ec49da6b59"
+    },
+    {
+      "path": "Analysis/independent_liver/feature_annotation.csv",
+      "size": 467038,
+      "sha256": "cd416619fc200ee5a0d83c82fd6ce499bccf14db9cb76caecb3bd42743f7fc52"
+    },
+    {
+      "path": "Analysis/independent_liver/fixed_targets_and_clinical_proteins.csv",
+      "size": 23794,
+      "sha256": "375f856d2cbbc2cf3b80ecfb14e8b3725b6de9d1650fab9c7bbd662b56b7c7a0"
+    },
+    {
+      "path": "Analysis/independent_liver/gene_info.gz",
+      "size": 3931451,
+      "sha256": "21e4ebd2ccfd561940f0d922196faf5ea25e97addbaa65444d4d4f0c4649721f"
+    },
+    {
+      "path": "Analysis/independent_liver/independent_source_reference.json",
+      "size": 1142,
+      "sha256": "d3332580ba9189d9c70d8417b14edc4d5b5262266431a08f0e32669a5e5c2127"
+    },
+    {
+      "path": "Analysis/independent_liver/matrix.txt.gz",
+      "size": 1666306,
+      "sha256": "d3d6317da957c655452167f7e50fe42a6e709351fde2e325e5ba4606cb20bb67"
+    },
+    {
+      "path": "Analysis/independent_liver/module_contrasts.csv",
+      "size": 3613,
+      "sha256": "97ea7a1c8e798218060856aa0ddfc4cef05cc0ad8649814d1db90c4d43d7d0c1"
+    },
+    {
+      "path": "Analysis/independent_liver/module_gene_membership.csv",
+      "size": 1895,
+      "sha256": "5a2dede3bad7c9c9027ad3daeee59a494fb23b64ac541375022818a00716461b"
+    },
+    {
+      "path": "Analysis/independent_liver/module_scores_by_animal.csv",
+      "size": 3410,
+      "sha256": "96d6ea755c2a6ceb6542e75f080ac2d8bb6e76cd99f0e75f9019785a4be3032f"
+    },
+    {
+      "path": "Analysis/independent_liver/numeric_QA.json",
+      "size": 3544,
+      "sha256": "d558a1a70f748409cf4862420068e4c4eaf108bd3a6a595656a4dd8ffa6ce9b3"
+    },
+    {
+      "path": "Analysis/independent_liver/provenance_checksums.csv",
+      "size": 5413,
+      "sha256": "b244d998c933d497a8b43483ee1d9e76a3f6e85e10e79a8463c8a28fe41f7bc1"
+    },
+    {
+      "path": "Analysis/independent_liver/sample_PCA.csv",
+      "size": 2220,
+      "sha256": "5121076eccf723adfd07a704f1b7ac2d1df7ebc101bf4f5435583c4f2b6479cc"
+    },
+    {
+      "path": "Analysis/independent_liver/sample_QC.csv",
+      "size": 1135,
+      "sha256": "82b125751d8545fd167bfb12e2ceca2c37e007bc8a5c92ba2036cbbc51f11397"
+    },
+    {
+      "path": "Analysis/independent_liver/sample_metadata.csv",
+      "size": 11847,
+      "sha256": "7b6470e9a174d72075eae4ee0ee3b52706ef178f7b412a2dbf4ce52b0aaf728c"
+    },
+    {
+      "path": "Analysis/independent_liver/soft.gz",
+      "size": 2847969,
+      "sha256": "6540e9cbd7db08bffbae60a7ee0fb5a4078f5b8ed14ad275f9c649ea5c753e67"
+    }
+  ]
+}

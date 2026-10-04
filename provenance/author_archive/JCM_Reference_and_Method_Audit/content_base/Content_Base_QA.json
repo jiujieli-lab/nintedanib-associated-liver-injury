@@ -1,0 +1,17 @@
+{
+  "source_author_order_unchanged": true,
+  "source_funding_exact": true,
+  "source_IRB_statement_exact": true,
+  "source_contribution_assignments_exact": true,
+  "source_tables_xml_exact": true,
+  "reference_numbers_exact_1_to_97": true,
+  "reference_set_all_cited_in_main_or_tables": true,
+  "figures_embedded": false,
+  "main_figure_7_reserved_not_claimed": true,
+  "process_phrase_check_passed": true,
+  "abstract_word_count": 243,
+  "results_word_count": 2640,
+  "source_results_word_count": 3337,
+  "supplement_moved_original_passages": 10,
+  "render_pending_root_final_composition": true
+}

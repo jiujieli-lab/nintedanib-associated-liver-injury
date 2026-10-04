@@ -1,0 +1,24 @@
+{
+  "abstract": "It has been realized that FDA approved drugs may have more molecular targets than is commonly thought. Thus, to find the exact drug-target interactions (DTIs) is of great significance for exploring the new molecular mechanism of drugs. Here, we developed a multi-scale system pharmacology (MSSP) method for the large-scale prediction of DTIs. We used MSSP to integrate drug-related and target-related data from multiple levels, the network structural data formed by known drug-target relationships for predicting likely unknown DTIs. Prediction results revealed that Ixabepilone, an epothilone B analog for treating breast cancer patients, may target Bcl-2, an oncogene that contributes to tumor progression and therapy resistance by inhibiting apoptosis. Furthermore, we demonstrated that Ixabepilone could bind with Bcl-2 and decrease its protein expression in breast cancer cells. The down-regulation of Bcl-2 by Ixabepilone is resulted from promoting its degradation by affecting p-Bcl-2. We further found that Ixabepilone could induce autophagy by releasing Beclin1 from Beclin1/Bcl-2 complex. Inhibition of autophagy by knockdown of Beclin1 or pharmacological inhibitor augmented apoptosis, thus enhancing the antitumor efficacy of Ixabepilone against breast cancer cells in\u00a0vitro and in\u00a0vivo. In addition, Ixabepilone also decreases Bcl-2 protein expression and induces cytoprotective autophagy in human hepatic carcinoma and glioma cells. In conclusion, this study not only provides a feasible and alternative way exploring new molecular mechanisms of drugs by combing computation DTI prediction, but also reveals an effective strategy to reinforce the antitumor efficacy of Ixabepilone.",
+  "authors": "Cao DS,Jiang SL,Guan YD,Chen XS,Zhang LX,Zhang Y,Chen AF,Yang JM,Cheng Y",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_30",
+    "creation_date": "2022-02-22"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4765332",
+  "doi": "10.1016/j.ejmech.2020.112421",
+  "doi_chembl": null,
+  "first_page": "112421",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "112421",
+  "patent_id": null,
+  "pubmed_id": 32428794,
+  "src_id": 1,
+  "title": "A multi-scale systems pharmacology approach uncovers the anti-cancer molecular mechanism of Ixabepilone.",
+  "volume": "199",
+  "year": 2020
+}

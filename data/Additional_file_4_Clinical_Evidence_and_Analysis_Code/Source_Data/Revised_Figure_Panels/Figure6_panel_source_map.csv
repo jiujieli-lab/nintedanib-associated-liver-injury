@@ -1,0 +1,13 @@
+figure,panel,source_file,statistical_unit,analysis
+Figure 6,A,Independent_liver/sample_PCA.csv,animal; all 22,"PCA of 2,000 variable genes"
+Figure 6,B,Independent_liver/NINT_vs_DISEASE_all_genes.csv,19 treated/disease animals; variance model all 22,"moderated-test BH across 13,392 features"
+Figure 6,C,Independent_liver/fixed_targets_and_clinical_proteins.csv,19 treated/disease animals; variance model all 22,moderated CI; star exact BH across full fixed 17-candidate family
+Figure 6,D,Independent_liver/Figure6_animal_expression_source.csv,22 individual animals; exact treatment test 19,"points individual animals, bars group means; exact BH family 17"
+Figure 6,E,Independent_liver/Figure6_animal_expression_source.csv,22 individual animals; exact treatment test 19,"points individual animals, bars group means; exact BH family 17"
+Figure 6,F,Independent_liver/Figure6_animal_expression_source.csv,22 individual animals; exact treatment test 19,"points individual animals, bars group means; exact BH family 17"
+Figure 6,G,Independent_liver/fixed_targets_and_clinical_proteins.csv,each omitted disease/treated animal,full-sample effect and 19 omission estimate min/max; not confidence intervals
+Figure 6,H,Independent_liver/module_contrasts.csv; module_gene_membership.csv,19 disease/treated animals; standardized over all 22,Welch CI; exact BH across seven modules; measured/requested member coverage
+Figure 6,I,Independent_liver/analysis_summary.json,22 independent animals,three contrast-specific genome-wide multiplicity families
+Figure 6,J,Independent_liver/DISEASE_vs_CONTROL_all_genes.csv; NINT_vs_DISEASE_all_genes.csv,genes descriptive; shared disease animals,disease q<.05 and abs log2 effect≥.5; no independent-feature inference
+Figure 6,K,Independent_liver/disjoint_disease_reference_sensitivity.csv,oriented 4/5 disease-animal reference partition,"126 overlapping splits, effect-only feature selection; descriptive sensitivity"
+Figure 6,L,Independent_liver/Heldout_rank/external_rank_association_summary.csv,12 measured candidates; 19 disease/treated animals,"frozen negative-rank priority versus absolute effect; two-sided exact animal-label P, BH across six algorithms"

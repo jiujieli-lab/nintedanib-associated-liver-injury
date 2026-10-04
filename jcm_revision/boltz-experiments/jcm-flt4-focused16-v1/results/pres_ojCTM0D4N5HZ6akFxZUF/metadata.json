@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 3.488534450531006,
+    "permeability": 0.41367247700691223,
+    "solubility": "high-risk"
+  },
+  "created_at": "2026-10-02T15:16:11.327Z",
+  "external_id": "ripretinib",
+  "id": "pres_ojCTM0D4N5HZ6akFxZUF",
+  "metrics": {
+    "binding_confidence": 0.7368612289428711,
+    "complex_iplddt": 0.8336489796638489,
+    "complex_plddt": 0.7596878409385681,
+    "iptm": 0.9018450975418091,
+    "optimization_score": 0.5168637633323669,
+    "ptm": 0.7610937356948853,
+    "structure_confidence": 0.7881193161010742
+  },
+  "smiles": "CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21"
+}

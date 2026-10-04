@@ -1,0 +1,114 @@
+script,line,flag,code_excerpt
+new_virtual/run_target_pair_perturbation.py,17,relative_root_assumption,ROOT=Path(__file__).resolve().parents[1]
+jcm_revision/candidate_library/retrieve_library.py,10,network_or_external_service,"with urllib.request.urlopen(url,timeout=50) as r: return json.load(r)"
+jcm_revision/docking/prepare_8pqj_sensitivity.py,8,relative_root_assumption,native=json.loads((P.parent.parent/'binding_analysis'/'PDGFRA_UniProt.json').read_text())['sequence']['value']
+jcm_revision/figures/screening/molecular/render_boltzmol_panels.py,21,relative_root_assumption,BASE=HERE.parents[2]
+jcm_revision/figures/screening/molecular/render_molecular_panels.py,24,relative_root_assumption,ROOT = HERE.parents[2] / 'docking'
+jcm_revision/figures/screening/plot_fixed_evidence.py,13,relative_root_assumption,ROOT = HERE.parents[1]
+jcm_revision/screening/code/summarize_boltz.py,5,relative_root_assumption,ROOT=Path(__file__).resolve().parents[2]
+jcm_revision/screening/code/summarize_inductive.py,6,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+jcm_revision/tables/build_screening_tables.mjs,4,runtime_dependency_or_root_assumption,"import {Workbook, SpreadsheetFile} from '@oai/artifact-tool';"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/analyze_gse299128_blood.py,22,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/analyze_lincs_dose_and_figure3.py,47,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/audit_main_manuscript_docx.py,14,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_main_manuscript_docx.py,24,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_release_qa_reports.py,35,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_reproducibility_notebook.py,61,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_supplementary_information.py,33,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_supplementary_tables.mjs,5,runtime_dependency_or_root_assumption,"import { fileURLToPath } from ""node:url"";"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_supplementary_tables.mjs,7,runtime_dependency_or_root_assumption,"import { SpreadsheetFile, Workbook } from ""@oai/artifact-tool"";"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_supplementary_tables.mjs,9,runtime_dependency_or_root_assumption,"const PACKAGE_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ""../.."");"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_supplementary_tables.mjs,10,runtime_dependency_or_root_assumption,const ROOT = process.env.NINTEDANIB_DILI_DEVELOPMENT_ROOT
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_supplementary_tables.mjs,11,runtime_dependency_or_root_assumption,? path.resolve(process.env.NINTEDANIB_DILI_DEVELOPMENT_ROOT)
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_supplementary_tables.mjs,1320,runtime_dependency_or_root_assumption,"freeze_panes_export_note: ""The documented freezeRows(1) request was issued for every worksheet, including a final post-formatting re-assertion, but @oai/artifact-tool 2.8.6 did not serialize worksheet <pane> records. This is disclosed as a non-scientific navigation limitation and is not treated as a passed artifact property."","
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_supplementary_tables.mjs,1358,runtime_dependency_or_root_assumption,"""All data blocks are filterable, banded Excel tables with visible headers. The documented freezeRows(1) request was issued for every worksheet but @oai/artifact-tool 2.8.6 did not persist worksheet <pane> records; this non-scientific navigation limitation is disclosed and not evaluated as a PASS property. Blocks above 10,000 rows retain native numeric values on General format to avoid artifact-too"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_virtual_integration_figures.py,35,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/execute_notebook_fallback.py,21,relative_root_assumption,PACKAGE_ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/finalize_s6_s7_figure_exports.py,21,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/make_blood_sensitivity_figure.py,10,relative_root_assumption,ROOT = Path(__file__).resolve().parents[1]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/make_graphical_abstract.py,11,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/make_proteomics_figures.py,21,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/prepare_liver_singlecell.py,21,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/prepare_pharmacology_and_perturbation.py,22,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/prepare_pharmacology_and_perturbation.py,73,network_or_external_service,response = requests.get(
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/prepare_submission_package.py,20,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/refresh_extension_manifests.py,17,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/refresh_faers_manifest.py,17,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/refresh_release_manifests.py,16,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/run_liver_virtual_knockout.py,24,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_lincs_figure3_outputs.py,17,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_supplementary_tables.mjs,6,runtime_dependency_or_root_assumption,"import { FileBlob, SpreadsheetFile } from ""@oai/artifact-tool"";"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_supplementary_tables.mjs,7,runtime_dependency_or_root_assumption,"import { fileURLToPath } from ""node:url"";"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_supplementary_tables.mjs,9,runtime_dependency_or_root_assumption,"const PACKAGE_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ""../.."");"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_supplementary_tables.mjs,10,runtime_dependency_or_root_assumption,const ROOT = process.env.NINTEDANIB_DILI_DEVELOPMENT_ROOT
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_supplementary_tables.mjs,11,runtime_dependency_or_root_assumption,? path.resolve(process.env.NINTEDANIB_DILI_DEVELOPMENT_ROOT)
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_supplementary_tables.mjs,200,runtime_dependency_or_root_assumption,"? ""All data blocks are filterable, banded Excel tables with visible headers. The documented freezeRows(1) request was issued for every worksheet but @oai/artifact-tool 2.8.6 did not persist worksheet <pane> records; this non-scientific navigation limitation is disclosed and not evaluated as a PASS property. Blocks above 10,000 rows retain native numeric values on General format to avoid artifact-t"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_supplementary_tables.mjs,209,runtime_dependency_or_root_assumption,"freeze_panes_export_note: ""The documented freezeRows(1) request was issued for every worksheet, including a final post-formatting re-assertion, but @oai/artifact-tool 2.8.6 did not serialize worksheet <pane> records. This is a non-scientific navigation limitation; AutoFilter remains available on all 107 tables."","
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_virtual_integration_outputs.py,23,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/verify_release_capsule.py,21,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/audit_year_heterogeneity.py,28,relative_root_assumption,PACKAGE_ROOT = HERE.parents[1]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/migrate_frozen_faers_semantics.py,19,relative_root_assumption,PACKAGE_ROOT = HERE.parents[1]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/run_openfda_faers.py,33,network_or_external_service,from urllib.parse import urlencode
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/run_openfda_faers.py,185,network_or_external_service,"self.api_key = os.environ.get(""OPENFDA_API_KEY"")"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/run_openfda_faers.py,195,network_or_external_service,if self.api_key:
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/run_openfda_faers.py,196,network_or_external_service,"params[""api_key""] = self.api_key"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/run_openfda_faers.py,197,network_or_external_service,"cache_params = {k: v for k, v in params.items() if k != ""api_key""}"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/run_openfda_faers.py,213,network_or_external_service,"response = requests.get(BASE_URL, params=params, timeout=240)"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/run_openfda_faers.py,216,network_or_external_service,"url = response.url.replace(f""api_key={self.api_key}"", ""api_key=REDACTED"") if self.api_key else response.url"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Figures/make_faers_figures.py,23,relative_root_assumption,ROOT = HERE.parents[1]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/GSE151374/analyze_gse151374.py,32,relative_root_assumption,ROOT = Path(__file__).resolve().parents[1]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/GSE151374/analyze_gse151374.py,36,relative_root_assumption,"FIGURES = ROOT.parents[1] / ""figures"""
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/GSE151374/analyze_gse151374.py,683,relative_root_assumption,"""inputs"": [{""path"": str(p.relative_to(ROOT.parents[2])), ""bytes"": p.stat().st_size, ""sha256"": sha256(p)} for p in input_paths],"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/GSE151374/analyze_gse151374.py,684,relative_root_assumption,"""outputs"": [{""path"": str(p.relative_to(ROOT.parents[2])), ""bytes"": p.stat().st_size, ""sha256"": sha256(p)} for p in output_paths if p.is_file()],"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/GSE151374/analyze_gse151374.py,691,relative_root_assumption,"path = ROOT.parents[2] / item[""path""]"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/GSE151374/analyze_gse151374.py,694,relative_root_assumption,"detached = {""manifest_path"": str(manifest_path.relative_to(ROOT.parents[2])),"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Human_DILI_Proteomics/analyze_dili_proteomics.py,33,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Human_DILI_Proteomics/validate_proteomics_outputs.py,15,relative_root_assumption,ROOT = HERE.parents[1]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/PXD052594/analyze_pxd052594.py,27,relative_root_assumption,ROOT = Path(__file__).resolve().parents[1]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/PXD052594/analyze_pxd052594.py,29,relative_root_assumption,"FIGURES = ROOT.parents[1] / ""figures"""
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/PXD052594/analyze_pxd052594.py,433,relative_root_assumption,"""inputs"": [{""path"": str(p.relative_to(ROOT.parents[2])), ""bytes"": p.stat().st_size, ""sha256"": sha256(p)}"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/PXD052594/analyze_pxd052594.py,435,relative_root_assumption,"""outputs"": [{""path"": str(p.relative_to(ROOT.parents[2])), ""bytes"": p.stat().st_size, ""sha256"": sha256(p)}"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/PXD052594/analyze_pxd052594.py,442,relative_root_assumption,"path = ROOT.parents[2] / item[""path""]"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/PXD052594/analyze_pxd052594.py,445,relative_root_assumption,"detached = {""manifest_path"": str(manifest_path.relative_to(ROOT.parents[2])),"
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Public_Preclinical_Core/analyze_public_preclinical.py,43,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/References/audit_manuscript_tokens.py,19,relative_root_assumption,ROOT = Path(__file__).resolve().parents[2]
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/References/build_references.py,11,network_or_external_service,import urllib.parse
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/References/build_references.py,12,network_or_external_service,import urllib.request
+data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/References/build_references.py,202,network_or_external_service,"with urllib.request.urlopen(req, timeout=50) as response:"
+data/Additional_file_7_External_Hepatic_Evaluation/Analysis/independent_liver/analyze_independent_liver.py,14,relative_root_assumption,ROOT=P.parents[1]
+data/Additional_file_8_Pulmonary_Sensitivity_Data/Analysis/pulmonary_sensitivity/analyze_shared_reference.py,102,relative_root_assumption,"parser.add_argument('--source-root', type=Path, default=Path(__file__).resolve().parents[2])"
+provenance/author_archive/Figure_Assembly/assemble_final_assets.py,6,historical_absolute_path,BASE=Path('/workspace/scratch/c5634a2d588f')
+provenance/author_archive/Figure_Assembly/build_workflow_figures.py,10,relative_root_assumption,BASE = ROOT.parents[2]
+provenance/author_archive/Figure_Assembly/export_verified_originals.py,5,relative_root_assumption,ROOT=Path(__file__).resolve().parents[3]
+provenance/author_archive/Figure_Assembly/verify_final_assets.py,6,historical_absolute_path,BASE=Path('/workspace/scratch/c5634a2d588f');REV=BASE/'work/jcm_revision';QA=REV/'figures/asset_qa';ART=REV/'artwork_archive'
+provenance/author_archive/Final_Packaging/build_archives.py,3,relative_root_assumption,R=Path(__file__).resolve().parents[1];W=R.parent;BASE=W.parent
+provenance/author_archive/Final_Packaging/build_author_archive.py,3,relative_root_assumption,R=Path(__file__).resolve().parents[1];BASE=R.parent.parent;A=R/'author_archive';A.mkdir(exist_ok=True)
+provenance/author_archive/Final_Packaging/finalize_delivery.py,5,relative_root_assumption,R=Path(__file__).resolve().parents[1];S=R/'submission';D=R.parent.parent/'JCM_Delivery';D.mkdir(exist_ok=True)
+provenance/author_archive/Final_Packaging/sanitize_transport_metadata.py,3,relative_root_assumption,R=Path(__file__).resolve().parents[1];audit=[]
+provenance/author_archive/JCM_Reference_and_Method_Audit/build_targeted_supplement.py,9,historical_absolute_path,src=Path('/workspace/scratch/c5634a2d588f/deliverables/Supplementary_Materials/Additional_file_4_Targeted_Analyses.docx')
+provenance/author_archive/JCM_Reference_and_Method_Audit/content_base/build_jcm_content_base.py,9,historical_absolute_path,SOURCE=Path('/workspace/scratch/c5634a2d588f/deliverables/Manuscript/Revised_Manuscript_Clean.docx')
+provenance/author_archive/JCM_Reference_and_Method_Audit/patch_supplement_reference_numbers.py,8,historical_absolute_path,fontdir=Path('/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype')
+provenance/author_archive/JCM_Reference_and_Method_Audit/verify_dataset_sources.py,1,network_or_external_service,"from urllib.request import Request,urlopen"
+provenance/author_archive/JCM_Reference_and_Method_Audit/verify_dataset_sources.py,2,network_or_external_service,from urllib.parse import quote
+provenance/author_archive/JCM_Reference_and_Method_Audit/verify_dataset_sources.py,18,network_or_external_service,"res=urlopen(Request(u,headers={'User-Agent':'Scholarly dataset citation verification'}),timeout=40);b=res.read();(B/'metadata'/f'ref_{n:03d}_details.txt').write_bytes(b)"
+provenance/author_archive/JCM_Reference_and_Method_Audit/verify_new_references.py,2,network_or_external_service,"from urllib.request import Request,urlopen"
+provenance/author_archive/JCM_Reference_and_Method_Audit/verify_new_references.py,3,network_or_external_service,from urllib.parse import quote
+provenance/author_archive/JCM_Reference_and_Method_Audit/verify_new_references.py,10,network_or_external_service,"r=urlopen(Request(u,headers={'User-Agent':'Scholarly bibliographic verification'}),timeout=45);raw=r.read();p=B/f'new_ref_{n}.json';p.write_bytes(raw);m=json.loads(raw);o.update(status='fetched',file=str(p))"
+provenance/author_archive/JCM_Reference_and_Method_Audit/verify_references.py,2,network_or_external_service,"from urllib.request import Request,urlopen"
+provenance/author_archive/JCM_Reference_and_Method_Audit/verify_references.py,3,network_or_external_service,from urllib.parse import quote
+provenance/author_archive/JCM_Reference_and_Method_Audit/verify_references.py,19,network_or_external_service,"res=urlopen(Request(u,headers={'User-Agent':'Scholarly bibliographic metadata audit'}),timeout=40);b=res.read();http=res.status;p.write_bytes(b);break"
+provenance/author_archive/Manuscript_Assembly/build_jcm_manuscript.py,11,relative_root_assumption,ROOT=Path(__file__).resolve().parents[1]
+provenance/author_archive/Manuscript_Assembly/build_jcm_manuscript.py,126,relative_root_assumption,"images={1:ROOT/'figures/final/Current_Figure_1.png',2:ROOT/'figures/repaired_quantitative/Figure_2.png',3:ROOT/'figures/repaired_quantitative/Figure_3.png',4:ROOT.parents[1]/'figure4_repair/Figure_4_Repaired_1200dpi.tiff',5:ROOT/'figures/final/Current_Figure_6.png',6:ROOT/'figures/final/Current_Figure_7.png',7:ROOT/'figures/screening/final/Figure_7_Compound_Comparison.png'}"
+provenance/author_archive/Manuscript_Assembly/build_jcm_manuscript.py,128,relative_root_assumption,images[4]=ROOT.parents[1]/'figure4_repair/Figure_4_Repaired_1200dpi.tiff'
+provenance/author_archive/Manuscript_Assembly/build_screening_supplement.py,10,historical_absolute_path,ROOT=Path('/workspace/scratch/c5634a2d588f/work/jcm_revision')
+provenance/author_archive/Source_Reproducibility/Revision_Audit/assemble_materials.py,5,relative_root_assumption,ROOT=Path(__file__).resolve().parents[2];SRC=ROOT/'work/source/转化医学投稿20260922';OUT=ROOT/'deliverables';SUP=OUT/'Supplementary_Materials'
+provenance/author_archive/Source_Reproducibility/Revision_Audit/build_support_documents.py,7,relative_root_assumption,ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'deliverables'
+provenance/author_archive/Source_Reproducibility/Revision_Audit/build_targeted_tables.mjs,4,runtime_dependency_or_root_assumption,"import {Workbook, SpreadsheetFile} from '@oai/artifact-tool';"
+provenance/author_archive/Source_Reproducibility/Revision_Audit/build_targeted_tables.mjs,6,runtime_dependency_or_root_assumption,const root=process.argv[2] || '/workspace/scratch/c5634a2d588f';
+provenance/author_archive/Source_Reproducibility/Revision_Audit/revise_manuscript.py,11,relative_root_assumption,ROOT=Path(__file__).resolve().parents[2]
+provenance/author_archive/Supplementary_Information_Audit/build_source_crosswalk.py,7,relative_root_assumption,R=Path(__file__).resolve().parents[1];out=R/'supplementary_information/Source_Figure_Crosswalk.pdf'
+provenance/author_archive/Supplementary_Information_Audit/build_supplement1.py,4,relative_root_assumption,ROOT=Path(__file__).resolve().parents[1];WORK=ROOT.parent
+provenance/author_archive/Supplementary_Information_Audit/build_supplement1.py,17,historical_absolute_path,fontdir=Path('/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype')
+provenance/author_archive/Independent_Source_Panels/Original_Panel_Archive/scripts/extract_original_panels.py,5,relative_root_assumption,ROOT=Path(__file__).resolve().parents[3]
+provenance/author_archive/Independent_Source_Panels/Original_Panel_Archive/scripts/reassemble_delivered_panels.py,8,relative_root_assumption,PANEL_ROOT=Path(__file__).resolve().parents[1]
+provenance/author_archive/Independent_Source_Panels/Original_Panel_Archive/scripts/verify_panel_reconstruction.py,5,relative_root_assumption,ROOT=Path(__file__).resolve().parents[3]

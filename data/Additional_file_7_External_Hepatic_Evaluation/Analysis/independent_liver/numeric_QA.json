@@ -1,0 +1,120 @@
+{
+  "status": "passed",
+  "reconstruction_date": "2026-09-22",
+  "description": "New recovery QA record; not the original unavailable numeric_QA.json. The original archived analysis script was rerun in an isolated directory using the exact recovered GEO matrix, exact sample metadata, and the 2026-09-22 NCBI mouse annotation download.",
+  "original_QA_sha256": "9cc5b98840a32c72b10980f0ce69cbab383da6c889f8df8a029b1c245979a93f",
+  "annotation_check": {
+    "downloaded_gene_info_sha256": "21e4ebd2ccfd561940f0d922196faf5ea25e97addbaa65444d4d4f0c4649721f",
+    "original_archived_gene_info_sha256": "5e0ab796f17f03c4a57785ead427a8411c469a57385536eb17f268eb7c3ed49a",
+    "analyzed_features": 13392,
+    "symbol_mapping_changes": [],
+    "conclusion": "Updated public annotation download maps every analyzed feature exactly as archived feature_annotation.csv."
+  },
+  "output_checks": [
+    {
+      "file": "NINT_vs_DISEASE_all_genes.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0.0,
+      "sha_exact": true
+    },
+    {
+      "file": "module_contrasts.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0.0,
+      "sha_exact": true
+    },
+    {
+      "file": "DISEASE_vs_CONTROL_all_genes.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0.0,
+      "sha_exact": true
+    },
+    {
+      "file": "feature_annotation.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0.0,
+      "sha_exact": true
+    },
+    {
+      "file": "module_gene_membership.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0,
+      "sha_exact": true
+    },
+    {
+      "file": "sample_PCA.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0.0,
+      "sha_exact": true
+    },
+    {
+      "file": "fixed_targets_and_clinical_proteins.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0.0,
+      "sha_exact": true
+    },
+    {
+      "file": "sample_QC.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0.0,
+      "sha_exact": true
+    },
+    {
+      "file": "module_scores_by_animal.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0.0,
+      "sha_exact": true
+    },
+    {
+      "file": "sample_metadata.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0,
+      "sha_exact": true
+    },
+    {
+      "file": "disjoint_disease_reference_sensitivity.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0.0,
+      "sha_exact": true
+    },
+    {
+      "file": "NINT_vs_CONTROL_all_genes.csv",
+      "same_shape": true,
+      "same_columns": true,
+      "numerics_equal_1e12": true,
+      "max_abs_delta": 0.0,
+      "sha_exact": true
+    }
+  ],
+  "all_csv_outputs_byte_identical": true,
+  "analysis_summary_byte_identical": false,
+  "analysis_summary_differences": {
+    "analysis_version": {
+      "archived": null,
+      "replay": "deposited_RMA_matrix_Python_EB"
+    }
+  },
+  "all_original_summary_fields_identical": true
+}

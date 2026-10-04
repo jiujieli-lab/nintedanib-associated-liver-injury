@@ -1,0 +1,24 @@
+{
+  "abstract": "Activating mutations of FMS-like tyrosine kinase 3 (FLT3) are present in approximately one third of acute myeloid leukemia (AML) patients, which has been proposed as a promising drug target for AML therapy. A series of indolin-2-one derivatives bearing different groups at the solvent interface position based on sunitinib as FLT3 inhibitors were designed, synthesized and evaluated in FLT3-dependent human AML cell line MV4-11. Structure-activity relationship (SAR)analysis showed that heterocyclic alkane at the solvent interface position could significantly increase the potency for the inhibition of proliferation of MV4-11\u00a0cell line. Compound 10a and 10d exhibited better efficacy (MV4-11, IC50: 14.7\u00a0nM for 10a and 24.8\u00a0nM for 10d) than positive control sunitinib (MV4-11, IC50: 38.5\u00a0nM). The kinase and cellular inhibition assay exhibited that 10d (FLT3, IC50: 5.3\u00a0nM) was a potent and selective FLT3 inhibitor. Furthermore, the pharmacokinetic experiments showed that 10d had good properties of oral bioavailability, Cmax, Tmax, T1/2 and AUC in mice, respectively. The in\u00a0vivo study indicated that 10d could significantly suppress tumor growth in MV4-11 xenografts nude mice model and occupied with a commendable therapeutic window compared to sunitinib.",
+  "authors": "Ma F, Liu P, Lei M, Liu J, Wang H, Zhao S, Hu L.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_25",
+    "creation_date": "2018-12-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4007390",
+  "doi": "10.1016/j.ejmech.2016.12.038",
+  "doi_chembl": null,
+  "first_page": "72",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "86",
+  "patent_id": null,
+  "pubmed_id": 28038328,
+  "src_id": 1,
+  "title": "Design, synthesis and biological evaluation of indolin-2-one-based derivatives as potent, selective and efficacious inhibitors of FMS-like tyrosine kinase3 (FLT3).",
+  "volume": "127",
+  "year": 2017
+}

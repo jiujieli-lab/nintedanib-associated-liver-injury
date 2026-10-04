@@ -1,0 +1,10 @@
+{
+  "accession": "GSE299128",
+  "retrieval_date": "2026-09-04",
+  "n_samples": 57,
+  "n_participants": 7,
+  "n_genes_tested": 30,
+  "primary_test": "two-sided exact participant-level sign-flip test of the mean within-participant slope, enumerating all 2^7 assignments",
+  "multiplicity": "Benjamini-Hochberg across prespecified genes",
+  "interpretation_boundary": "Whole blood from a small single-arm nintedanib study without adjudicated DILI; results assess systemic longitudinal detectability, not liver-specific toxicity."
+}

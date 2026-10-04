@@ -1,0 +1,24 @@
+{
+  "abstract": "A series of novel pazopanib derivatives, 7a-m, were designed and synthesized by modification of terminal benzene and indazole rings in pazopanib. The structures of all the synthesized compounds were confirmed by (1)H NMR and MS. Their inhibitory activity against VEGFR-2, PDGFR-\u03b1 and c-kit tyrosine kinases were evaluated. All the compounds exhibited definite kinase inhibition, in which compound 7l was most potent with IC50 values of 12 nM against VEGFR-2. Furthermore, compounds 7c, 7d and 7m demonstrated comparable inhibitory activity against three tyrosine kinases to pazopanib, and compound 7f showed superior inhibitory effects than that of pazopanib.",
+  "authors": "Qi H, Chen L, Liu B, Wang X, Long L, Liu D.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_19",
+    "creation_date": "2014-07-03"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL3112549",
+  "doi": "10.1016/j.bmcl.2014.01.003",
+  "doi_chembl": null,
+  "first_page": "1108",
+  "issue": "4",
+  "journal": "Bioorg Med Chem Lett",
+  "journal_full_title": "Bioorganic & medicinal chemistry letters.",
+  "last_page": "1110",
+  "patent_id": null,
+  "pubmed_id": 24456902,
+  "src_id": 1,
+  "title": "Synthesis and biological evaluation of novel pazopanib derivatives as antitumor agents.",
+  "volume": "24",
+  "year": 2014
+}

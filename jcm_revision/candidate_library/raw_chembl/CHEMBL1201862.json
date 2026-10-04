@@ -1,0 +1,24 @@
+{
+  "abstract": "",
+  "authors": null,
+  "chembl_release": {
+    "chembl_release": "CHEMBL_9",
+    "creation_date": "2011-01-20"
+  },
+  "contact": null,
+  "doc_type": "DATASET",
+  "document_chembl_id": "CHEMBL1201862",
+  "doi": null,
+  "doi_chembl": null,
+  "first_page": null,
+  "issue": null,
+  "journal": null,
+  "journal_full_title": null,
+  "last_page": null,
+  "patent_id": null,
+  "pubmed_id": null,
+  "src_id": 7,
+  "title": "PubChem BioAssay data set",
+  "volume": null,
+  "year": null
+}

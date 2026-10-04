@@ -1,0 +1,40 @@
+{
+  "retrieval_date": "2026-10-02",
+  "compounds": 16,
+  "activity_records": 191,
+  "documents": 78,
+  "exact_nonvariant_records": 62,
+  "biochemical_records": 56,
+  "disposition_counts": {
+    "eligible": 62,
+    "endpoint_outside_Kd_Ki_IC50;no_numeric_nM_value": 29,
+    "secondary_source": 12,
+    "potential_duplicate": 27,
+    "no_numeric_nM_value;nonexact_relation": 1,
+    "endpoint_outside_Kd_Ki_IC50": 1,
+    "nonexact_relation": 4,
+    "potential_duplicate;nonexact_relation": 2,
+    "variant_or_fusion;endpoint_outside_Kd_Ki_IC50": 12,
+    "variant_or_fusion;endpoint_outside_Kd_Ki_IC50;nonexact_relation": 1,
+    "endpoint_outside_Kd_Ki_IC50;no_numeric_nM_value;nonexact_relation": 10,
+    "variant_or_fusion;potential_duplicate;endpoint_outside_Kd_Ki_IC50": 1,
+    "variant_or_fusion": 13,
+    "endpoint_outside_Kd_Ki_IC50;no_numeric_nM_value;secondary_source": 1,
+    "variant_or_fusion;secondary_source": 3,
+    "variant_or_fusion;potential_duplicate": 2,
+    "variant_or_fusion;nonexact_relation": 2,
+    "potential_duplicate;secondary_source": 4,
+    "potential_duplicate;endpoint_outside_Kd_Ki_IC50;no_numeric_nM_value": 3,
+    "validity_flag;endpoint_outside_Kd_Ki_IC50;no_numeric_nM_value": 1
+  },
+  "rules": [
+    "human target mapping required; exact relation and quantitative nM Kd/Ki/IC50 analyzed separately",
+    "assay variant metadata and description identify mutation/fusion records, which are excluded from nonvariant summaries",
+    "no variant described does not prove an experimentally verified wild-type construct",
+    "potential duplicates, validity flags, and clearly identified secondary-source reviews excluded from primary exact summaries",
+    "all censored, duplicate, variant, nonquantitative and nonstandard endpoint records retained in full disposition",
+    "Davis2011 benchmark preserves duplicated earlier-source values for matched-panel use; duplicates must not be counted as independent evidence",
+    "Sf9 extracted-protein HTRF descriptions override conflicting cellular BAO classification, with raw BAO retained",
+    "no synthetic potency values or artificial nonbinder labels for absent records"
+  ]
+}

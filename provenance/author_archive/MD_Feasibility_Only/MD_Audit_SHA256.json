@@ -1,0 +1,125 @@
+{
+  "purpose": "Runtime and preparation audit only; excludes reproducible installed environment, package caches and executables",
+  "files": [
+    {
+      "file": "Structure_Preparation_QA.json",
+      "bytes": 32312,
+      "sha256": "68daa0a047f77212006c49b46ae77fd4ea5e466f077a6b73caf37f63968d269e"
+    },
+    {
+      "file": "Resource_and_Installation_Audit.json",
+      "bytes": 616,
+      "sha256": "c7ee6d04374d260bb8a82ddbfc8f17060dc72216b7c2207d265d332d28cce259"
+    },
+    {
+      "file": "micromamba_source.json",
+      "bytes": 179,
+      "sha256": "e78c7055bb5905da5dab5d4a0f51ba836874d846e2b7d0a7a4e5820cc17b11ee"
+    },
+    {
+      "file": "Boltz_All24_Contacts.csv",
+      "bytes": 36855,
+      "sha256": "3ede8c8b39a46a5ecc0de77fb3202113654f8e4955284d3a240d39c3263e3948"
+    },
+    {
+      "file": "pdbfixer_conda_metadata.json",
+      "bytes": 15501,
+      "sha256": "28a76db3402da78732297a301e4c08e3cba2d14a116192896b2fd02e00a0c93e"
+    },
+    {
+      "file": "Boltz_All24_Structure_QA.json",
+      "bytes": 361147,
+      "sha256": "507ba12a92417eb6362f04a27b9a3c4136b87fad7d0eeef7b5d048f0f6df5433"
+    },
+    {
+      "file": "openmm_conda_metadata.json",
+      "bytes": 9234051,
+      "sha256": "78fc4f85434e5c0365cf96d00c7c61f521a11d00d55a24e49580797de760e34b"
+    },
+    {
+      "file": "benchmark.log",
+      "bytes": 367,
+      "sha256": "5b7027b6162fed4f48b6cdf53172b1b1c5541e04ce8352e0680d93d0bb4fc0a7"
+    },
+    {
+      "file": "Boltz_All24_Structure_QA.md",
+      "bytes": 3549,
+      "sha256": "00380f227e48256641e7c72026d8804013f6e49266cd75527fb204d4d6adca7a"
+    },
+    {
+      "file": "Boltz_Priority_Pair_Contacts.csv",
+      "bytes": 1670,
+      "sha256": "b1ed160a5b9bc685dbb96c93cef73350f1f882342f0cfb193389e3b1493c1106"
+    },
+    {
+      "file": "openmmforcefields_conda_metadata.json",
+      "bytes": 46487,
+      "sha256": "9018faf72e24686357ebd7168d99805c4a2a8dae50b626a3851d3adb0a5d8a4a"
+    },
+    {
+      "file": "openff-toolkit_conda_metadata.json",
+      "bytes": 150064,
+      "sha256": "f9db1e22ae0d3be5fda128eaca561d35d4d98b5b883305006c9ce3cccd631f85"
+    },
+    {
+      "file": "MD_Feasibility_and_Prospective_Protocol.md",
+      "bytes": 15058,
+      "sha256": "8e70bf41a2cbdcecc5f10fdbdf2cd0a1441e3a3b7b147e62141953ba5e599bad"
+    },
+    {
+      "file": "environment_solve.json",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "MD_Resource_Estimate.json",
+      "bytes": 2170,
+      "sha256": "a418845d3f9cd09bc9ad08140bdc65840d5f0689015eaa3e70d4a9b316c777df"
+    },
+    {
+      "file": "pip_install.log",
+      "bytes": 361,
+      "sha256": "5632a33540f96b240e2c643332aed8de3f8310c94926e43c16294c07dc6299a3"
+    },
+    {
+      "file": "Boltz_Priority_Pair_Structure_QA.json",
+      "bytes": 103250,
+      "sha256": "40dc79b6a3a911ee7c17601353c565914dc24232cce92dc13b49685c901d80dd"
+    },
+    {
+      "file": "openff-forcefields_conda_metadata.json",
+      "bytes": 40416,
+      "sha256": "305daed7031ddf164d4cf8fe68652ab33196575913a41daa78e0d80720961872"
+    },
+    {
+      "file": "benchmark_cpu.py",
+      "bytes": 3945,
+      "sha256": "deaa3055ab39f5f43d26341eec01eb8b1a2470d8fb566f84fab220eaaee7d31b"
+    },
+    {
+      "file": "Structure_Preparation_QA.md",
+      "bytes": 3795,
+      "sha256": "d4950cc550712de0fc9e266163a0d4df33e4de51428b6ec364e274183925b4ca"
+    },
+    {
+      "file": "ambertools_conda_metadata.json",
+      "bytes": 4085590,
+      "sha256": "0b6cb66cf491836169fe382cdcbe354c068ec7399de08fe33c2f7b4c0c51e4c2"
+    },
+    {
+      "file": "requirements_cpu_benchmark.txt",
+      "bytes": 185,
+      "sha256": "9d73be15ffc781e4448eab56a87937c07a5b7be8b528c66873eebd0c53e97a6d"
+    },
+    {
+      "file": "benchmark/prepared_protein_only_benchmark.pdb",
+      "bytes": 3998710,
+      "sha256": "597a9f2c07dc1bf3ead2b570aec217d4e0d634970d064508ba5829ea3fd41195"
+    },
+    {
+      "file": "benchmark/benchmark_manifest.json",
+      "bytes": 1687,
+      "sha256": "ab13604912de6f26bb8a90706be99a0d678d6ec54368806144294e08914d56d7"
+    }
+  ]
+}

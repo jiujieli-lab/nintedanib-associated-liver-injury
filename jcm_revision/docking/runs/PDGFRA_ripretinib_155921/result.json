@@ -1,0 +1,100 @@
+{
+  "target": "PDGFRA",
+  "name": "ripretinib",
+  "canonical_smiles": "CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21",
+  "formal_charge": 0,
+  "seed": 155921,
+  "exhaustiveness": 32,
+  "cpu": 2,
+  "n_poses": 10,
+  "energy_range": 5,
+  "scoring_function": "vina",
+  "ligand_MMFF_converged": true,
+  "receptor": "PDGFRA_6JOL_receptor.pdbqt",
+  "box_center": [
+    -38.4125,
+    157.04899999999998,
+    0.794
+  ],
+  "box_size": [
+    22.0,
+    28.72200000000001,
+    25.84
+  ],
+  "elapsed_seconds": 96.365905329003,
+  "pose_energies": [
+    [
+      -9.921,
+      -12.82,
+      -0.677,
+      2.9,
+      -0.677
+    ],
+    [
+      -9.906,
+      -13.246,
+      -0.233,
+      2.896,
+      -0.677
+    ],
+    [
+      -9.006,
+      -13.169,
+      0.854,
+      2.632,
+      -0.677
+    ],
+    [
+      -8.502,
+      -11.362,
+      -0.301,
+      2.485,
+      -0.677
+    ],
+    [
+      -8.466,
+      -10.685,
+      -0.933,
+      2.475,
+      -0.677
+    ],
+    [
+      -8.37,
+      -10.324,
+      -1.17,
+      2.447,
+      -0.677
+    ],
+    [
+      -8.34,
+      -10.462,
+      -0.992,
+      2.438,
+      -0.677
+    ],
+    [
+      -8.285,
+      -11.407,
+      0.023,
+      2.422,
+      -0.677
+    ],
+    [
+      -8.232,
+      -10.213,
+      -1.102,
+      2.406,
+      -0.677
+    ],
+    [
+      -7.945,
+      -9.948,
+      -0.996,
+      2.322,
+      -0.677
+    ]
+  ],
+  "best_vina_score_kcal_mol": -9.921,
+  "reference_RMSD_A_receptor_frame": [],
+  "output_dir": "runs/PDGFRA_ripretinib_155921"
+}

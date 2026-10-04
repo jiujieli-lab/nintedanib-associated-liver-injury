@@ -1,0 +1,45 @@
+{
+  "dataset": "GSE125975",
+  "endpoint": "absolute nintedanib-versus-disease-control liver transcriptomic response",
+  "interpretation": "pharmacodynamic rank association; not DILI target causality, accuracy or injury prediction",
+  "algorithms_fixed_before_external_inspection": [
+    "legacy_consensus",
+    "median",
+    "mean",
+    "geometric",
+    "maximin",
+    "RRA"
+  ],
+  "n_original_candidates": 17,
+  "measured_genes": [
+    "ABL1",
+    "AXL",
+    "FGFR1",
+    "FGFR2",
+    "FGFR3",
+    "FGFR4",
+    "FLT1",
+    "FLT3",
+    "FLT4",
+    "KDR",
+    "LRRK2",
+    "PDGFRA"
+  ],
+  "unrepresented_genes": [
+    "CDK4",
+    "JAK1",
+    "LYN",
+    "MET",
+    "TYK2"
+  ],
+  "n_allocations": 92378,
+  "tested_groups": {
+    "DISEASE": 9,
+    "NINT": 10
+  },
+  "no_ranking_retraining": true,
+  "all_candidates_same_measurement_subset": true,
+  "Pvalue": "whole-animal exact sharp-null allocation test; treatment-label exchangeability required",
+  "multiplicity": "six methods together; primary two-sided family, directional family secondary",
+  "frozen_ranking_sha256": "2d44583010c09d071d628339cd42bba2bd345c1f32f503541d7c4b30256a0539"
+}

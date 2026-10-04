@@ -1,0 +1,67 @@
+{
+  "validation_passed": true,
+  "n_checks": 8,
+  "n_failed": 0,
+  "checks": [
+    {
+      "check": "GSE278200 independent-animal group sizes",
+      "passed": true,
+      "detail": {
+        "BLM": 4,
+        "NINT": 4,
+        "SAL": 4
+      }
+    },
+    {
+      "check": "GSE308578 GEO/ARRIVE group sizes",
+      "passed": true,
+      "detail": {
+        "BLM_vehicle": 16,
+        "CTRL": 10,
+        "NINT": 17
+      }
+    },
+    {
+      "check": "Unique independent-animal identifiers",
+      "passed": true,
+      "detail": "GSE278200 and GSE308578"
+    },
+    {
+      "check": "Genome-wide q values bounded",
+      "passed": true,
+      "detail": "all independent-animal contrasts"
+    },
+    {
+      "check": "Independent-animal module permutations present",
+      "passed": true,
+      "detail": "exact for GSE278200; 50,000 Monte Carlo permutations for GSE308578"
+    },
+    {
+      "check": "Seven prespecified modules per contrast",
+      "passed": true,
+      "detail": {
+        "GSE278200": 21,
+        "GSE308578": 21
+      }
+    },
+    {
+      "check": "Cross-model matrix complete shape",
+      "passed": true,
+      "detail": {
+        "rows": 115,
+        "expected": 115
+      }
+    },
+    {
+      "check": "Figure 6 four formats",
+      "passed": true,
+      "detail": "PDF/SVG/PNG/TIFF"
+    }
+  ],
+  "scientific_boundary_warnings": [
+    "GSE120804 and GSE120679 slice observations derive from pooled rat tissues and cannot support animal-population inference.",
+    "PXD024058 replicate provenance is internally inconsistent; its effects are descriptive only.",
+    "GSE308578 source main-Figure-6 caption reverses nintedanib/vehicle n values; GEO SOFT and ARRIVE Supplementary Figure S1 agree on 17/16, which was used without relabelling.",
+    "Reversal geometry treats genes as display units; gene correlation precludes interpreting its nominal correlation p value as biological inference."
+  ]
+}

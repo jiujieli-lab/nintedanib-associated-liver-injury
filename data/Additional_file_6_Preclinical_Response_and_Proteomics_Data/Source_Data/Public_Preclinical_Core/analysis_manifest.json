@@ -1,0 +1,661 @@
+{
+  "generated_utc": "2026-09-04",
+  "seed": 20260904,
+  "python": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "files": [
+    {
+      "path": "fresh_analysis/figures/Figure_6_Public_Preclinical_Constraints.pdf",
+      "bytes": 2545285,
+      "sha256": "60f9c9f48a71c253cf209c92edfc988b997c674ab61a71006debae0cc9e6a477",
+      "release_path": "Figures/Figure_6_Public_Preclinical_Constraints.pdf",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/figures/Figure_6_Public_Preclinical_Constraints.png",
+      "bytes": 2746414,
+      "sha256": "e6dfc5c549d27455b45addf9b8075bf967240fae9a5fd1910504e37f25625576",
+      "release_path": "Figures/Figure_6_Public_Preclinical_Constraints.png",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/figures/Figure_6_Public_Preclinical_Constraints.svg",
+      "bytes": 2404440,
+      "sha256": "4f6a8d3881da8e3f8fea4336cabfa265dc0557d128a3f37965b494488b12293f",
+      "release_path": "Figures/Figure_6_Public_Preclinical_Constraints.svg",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/figures/Figure_6_Public_Preclinical_Constraints.tiff",
+      "bytes": 3542174,
+      "sha256": "db199476cfc46642bff6d2a064730640e50f4d6bb89d5d6197ef42faf504fddf",
+      "release_path": "Figures/Figure_6_Public_Preclinical_Constraints.tiff",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/Figure_6_caption.md",
+      "bytes": 3069,
+      "sha256": "dd15818d97a26d329a18edfc75a0cf0eca367802f62ebb3f853dbd249b2c049e",
+      "release_path": "Source_Data/Public_Preclinical_Core/Figure_6_caption.md",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/Methods_Results_Preclinical.md",
+      "bytes": 15246,
+      "sha256": "6786d167188d05710c33878eeb5122f687ce0586bfa24af4c7bffd434fcbdb68",
+      "release_path": "Source_Data/Public_Preclinical_Core/Methods_Results_Preclinical.md",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/README.md",
+      "bytes": 4040,
+      "sha256": "485a063578a36e7d47d56cd7f18dce5b17c059f1d28c498c03a22bc49e174048",
+      "release_path": "Source_Data/Public_Preclinical_Core/README.md",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/dataset_screening_ledger.csv",
+      "bytes": 10632,
+      "sha256": "eec37c1c9a5d496668eccf74ca90d16cb425a7ead8390d56805a61f4789b8a91",
+      "release_path": "Source_Data/Public_Preclinical_Core/dataset_screening_ledger.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/metadata/GSE120679_family.soft.gz",
+      "bytes": 4194,
+      "sha256": "b1573ca5f0dfaa6e7f57271aecc659e4fefd1a3ab0085552120e09478da81337",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/metadata/GSE120804_family.soft.gz",
+      "bytes": 4579,
+      "sha256": "bcc0909ad4a66aa6e8121ebea4394f1e5d2a912702b8e57707b80bba497e1d11",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/metadata/GSE124786_family.soft.gz",
+      "bytes": 3022,
+      "sha256": "dfe7515a6154ae65b08543f8ba4a633d5c111b1512eb2b57251fbb270d979435",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/metadata/GSE124787_family.soft.gz",
+      "bytes": 2953,
+      "sha256": "87d3ecc9f0e32a87bf3ea11fb9f10c7f3ba687bf1b7a98f51debe3a0d7ffcd41",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/metadata/GSE124788_family.soft.gz",
+      "bytes": 3252,
+      "sha256": "3e4acb6798bf7f723b6b0e7ab4b43438d2134158e2a08876d24d803eba7800ea",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/metadata/GSE218575_family.soft.gz",
+      "bytes": 3024,
+      "sha256": "2c6c5e1134418ab11259650dcd9525c597b72fea88f18310085e9eb664c19504",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/metadata/GSE278200_family.soft.gz",
+      "bytes": 4212,
+      "sha256": "f168425a4ddbc40009d700de0d44d213c6396f17a3f8898ddcf9b73cb9d441c9",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/metadata/GSE308578_family.soft.gz",
+      "bytes": 4556,
+      "sha256": "a136107ba79cfa5657c8b34b4facbb22e288bcf17281d24401d5940a7f5b45da",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/metadata/GSE322959_family.soft.gz",
+      "bytes": 4720,
+      "sha256": "7615e0d957b79feab8be0329b5b50a8417ae5d001d2a346473a140445f5bfd8d",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/preclinical_key_findings.csv",
+      "bytes": 4816,
+      "sha256": "6781a1d66c9fa5f9dd67def88660c74dba8b6c09f0241aa654944e7a77a78f1a",
+      "release_path": "Source_Data/Public_Preclinical_Core/preclinical_key_findings.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/public_preclinical_dataset_audit.csv",
+      "bytes": 9993,
+      "sha256": "05a0dcb0933980be51e5071609338c5cd4ccbaa4421310bacb743be2df4422bc",
+      "release_path": "Source_Data/Public_Preclinical_Core/public_preclinical_dataset_audit.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/public_preclinical_dataset_audit.md",
+      "bytes": 9142,
+      "sha256": "87a4e89d156341fbb59ba04eb3db7e44301de808f6823f8247022a9842caa0a2",
+      "release_path": "Source_Data/Public_Preclinical_Core/public_preclinical_dataset_audit.md",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/BCPT-138-0-s001.pdf",
+      "bytes": 546261,
+      "sha256": "30f3f17f4b7d4ddd180b99cf99c70cec7b186a61b64efda4a31a32dda201b240",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/BCPT-138-0-s001.txt",
+      "bytes": 36733,
+      "sha256": "cdc49c33ea43731f38c232ad71db7828e6325964f9f6a054a8a54f4c26c6ff0c",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/BCPT-138-0-s002.pdf",
+      "bytes": 122342,
+      "sha256": "37d82b36f65f3b931229d1331be59f00fd7ebeb613de8008e2331563370a7475",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/BCPT-138-0-s002.txt",
+      "bytes": 12635,
+      "sha256": "0312352277533040c33648d94d6c0142f4b13b1ca39c6dda21c2ed19d01e9799",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE120679_ENA_runinfo.tsv",
+      "bytes": 7634,
+      "sha256": "7fcac01f7eaa0acb42da72d1ce67fc0cca1425b1682c061abb70d1653a4428d1",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE120679_counts.txt.gz",
+      "bytes": 1600013,
+      "sha256": "00a844a5b3d856545d0e6ad8cbb397be5aaf1c3115bd23ab42aace5cebb27206",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE120679_directory.html",
+      "bytes": 779,
+      "sha256": "44cdab8d12bc7d7300f3b4905351fef072fa63ab5bb996297bec15f832ab6ab3",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE120679_logCPM_expressed_protein_coding.txt.gz",
+      "bytes": 4287212,
+      "sha256": "afc48c4e358807dad9d7d2b66176cd6e9de1c48cc1773ca7250ae77fb6777ac5",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE120679_series_matrix.txt.gz",
+      "bytes": 3832,
+      "sha256": "e4948acc0fe635392e288d25e74924cf72d7bef241a0efd430b20e82d4d7f9af",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE120804_counts.txt.gz",
+      "bytes": 1886996,
+      "sha256": "85290cb208bbb128ba04c491da98b4cae9fb98ae0139904df9e978fbf39c6319",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE120804_geo_sample_annotation_edit.csv.gz",
+      "bytes": 1004,
+      "sha256": "536e9a9b54899c6a3594e5c9ed100b280715a2a74f0001175273ee8046be2bfa",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE120804_qc_metrics.txt.gz",
+      "bytes": 22175,
+      "sha256": "633de4bf8596eac4c98a6c31205d48f5b214d842712bf71d8594e468f171c6c0",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE124788_directory.html",
+      "bytes": 673,
+      "sha256": "eecc0f8603c8c03259f68d560d21a13440effa87602542388c462bf70607fbe9",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE124788_filelist.txt",
+      "bytes": 610,
+      "sha256": "14a8a2ccc449e683760224ce540ee68291524bb6c96ab0d88eeb6fdce94d217f",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE278200_NINT_raw_counts.txt.gz",
+      "bytes": 476719,
+      "sha256": "5ae68a0a8b4ab253105e27df215af424e44ca3563c52f22edd1981d5253eebfb",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE278200_directory.html",
+      "bytes": 603,
+      "sha256": "d79b2ec0dab9e9f057e8d263fcbf906438b85cfef87bd7a0e135e9274fa81fcc",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE278200_series_matrix.txt.gz",
+      "bytes": 3971,
+      "sha256": "c7f1e499faecee710a3a853faa8f22039e9c4147d1b1d62ee9b014ff01ef6e50",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE308578_Gene_counts.csv.gz",
+      "bytes": 1456563,
+      "sha256": "a46808f90410796adc84738e4045aaeee311bf7445c71c39c1ee47e08da47a9c",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE322959_directory.html",
+      "bytes": 982,
+      "sha256": "944fcf489144a941bc716ac042584bb8cf190ae169af76cd90ed6486eb6e4da4",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/GSE322959_series_matrix.txt.gz",
+      "bytes": 4570,
+      "sha256": "86180c0385cb4cc720139ebc0b56a9e2143a5a432b94bfbd3f1dc9ed4fd495d1",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/Mus_musculus.GRCm39.113.gtf.gz",
+      "bytes": 40537437,
+      "sha256": "b9fb3539f9883ae1c4b38a4e26d61e8a5367d59b175edf74fb2dadf0866840cf",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/PMC12987715_fulltext.xml",
+      "bytes": 140357,
+      "sha256": "8b23bd9dd5dfd084375f21689f5cc14eb20380bf316e3b64e70e1097beadf101",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/PMC12987715_oa.xml",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/PMC12987715_supp.zip",
+      "bytes": 1241163,
+      "sha256": "01347a8b750f1878de4d42aa34be8c8a18115091f416a6754a82ec59c2905d36",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/PMC6397434_fulltext.xml",
+      "bytes": 114680,
+      "sha256": "4850a40e7e79145a42fdabf459f223cbb70774f4c59683733956affc04fbc37a",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/PMC8114272_fulltext.xml",
+      "bytes": 123433,
+      "sha256": "5317c058fe0403b85b62c8beb32f46d2ee04b76579e76d84aa8b636b027f7bf2",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/PMID41866841_europepmc.json",
+      "bytes": 1049,
+      "sha256": "df9f9c805674f062e6a1676285d281591b9bd2a3b159d1c7128a1fd302a19a5c",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/PXD024058_README.txt",
+      "bytes": 2062,
+      "sha256": "fb63e87e324f8fc95872489a9ff767bdd60de56516cd982f0f9ccc63742d8f64",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/PXD024058_all.protein.xls",
+      "bytes": 1440461,
+      "sha256": "78e477aa84ccbd71def7b1c3cb62e501169c626be644afdc4ae817a4ddb7cebe",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/PXD024058_directory.html",
+      "bytes": 5221,
+      "sha256": "a41550cd144511d4b9dca25f2995ecc0c98090252464b8b8b1e57632ef6bec06",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/Rattus_norvegicus.Rnor_6.0.103.gtf.gz",
+      "bytes": 11786733,
+      "sha256": "faed4a294b50473762bd1a096a26e5673bf5405844facb6d1e0d417cf65f939d",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/Rattus_norvegicus.Rnor_6.0.89.gtf.gz",
+      "bytes": 11799184,
+      "sha256": "f574e2915e1a676234421f5e190794bb57fbc40d6174b8fd1bf66ccbe3c1f5b9",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/openalex_ajplung00339.json",
+      "bytes": 21775,
+      "sha256": "2a7b7f63fd1e7a31359031477a9bc3e24c4ea6656e1f40e14877295b3197d9ee",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/raw/source_sha256.txt",
+      "bytes": 750,
+      "sha256": "4f6b3ec93f5d099e40d25badd67fa0c466f8c92c718a35deee50cbcc32a1a60a",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120679_candidate_results.csv",
+      "bytes": 12715,
+      "sha256": "b19873115f3f2180c7a19ae8f723becf818f67ef628b0849f2ba26d9b80eb497",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120679_candidate_results.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120679_differential_expression.csv.gz",
+      "bytes": 1923034,
+      "sha256": "199ab37ef7365f204a2eff54c61d102e1d3e9f74dc7e7307ab3a4f3cafa3a8d1",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120679_differential_expression.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120679_module_contrasts.csv",
+      "bytes": 4724,
+      "sha256": "b5e96329ae200ac7aff82d36974225e4a0fdee6056c5e909cb8dc4531ffa6655",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120679_module_contrasts.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120679_module_coverage.csv",
+      "bytes": 471,
+      "sha256": "b148649258ba66fe3285eb0a2e4069ea1f855d239aeae0997049d7a8210a7eec",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120679_module_coverage.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120679_module_scores.csv",
+      "bytes": 7466,
+      "sha256": "824a96496f53951b25747060277be135d9b61b2cd5d14713156b120868fabba1",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120679_module_scores.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120679_sample_metadata.csv",
+      "bytes": 7852,
+      "sha256": "e72422d224a65a54274584ee9b20978f15c72a99af91b2be542a802bc654ce73",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120679_sample_metadata.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120804_candidate_results.csv",
+      "bytes": 12915,
+      "sha256": "74525881d0f21710729ef3035da0ccaee4eac3804ff30028533af696c5170940",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120804_candidate_results.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120804_differential_expression.csv.gz",
+      "bytes": 1928155,
+      "sha256": "98c6cef3281e1e28fd1c8949788f0c7b13a2d137684e609cc090f7e91830a8b2",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120804_differential_expression.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120804_expression_filter.csv.gz",
+      "bytes": 347042,
+      "sha256": "3e22a059778ec8fa2a108e7ca5f98d07eb2533a075b9b6c1fd01529cb8b805e3",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120804_expression_filter.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120804_module_contrasts.csv",
+      "bytes": 4721,
+      "sha256": "a2dba620ac3632b897d4cae5749e996a72c32be68697d200da37c67e95ec4aa5",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120804_module_contrasts.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120804_module_coverage.csv",
+      "bytes": 487,
+      "sha256": "57d7522cb8697913f5bed745ab89da62ecd24c44afcf3d710753c8db6b4c8b35",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120804_module_coverage.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120804_module_scores.csv",
+      "bytes": 7844,
+      "sha256": "ef25c93b0ac2abbcf9116df46198d681bcb83c0db4b21b588cc6b9260e1548be",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120804_module_scores.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120804_normalization_factors.csv",
+      "bytes": 3812,
+      "sha256": "7f03e3874019972256944f6524cb323294b30471335edec59f954418e6228465",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120804_normalization_factors.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120804_reversal_geometry.csv.gz",
+      "bytes": 833950,
+      "sha256": "ac2aaf07bd0632b45c037a9b86e5c95f89ba68e7765272f1294da9a1a91b403e",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120804_reversal_geometry.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE120804_sample_metadata.csv",
+      "bytes": 14977,
+      "sha256": "593136a57a2c4da3a8f7117c6d92cc1b4aeaeb82e19ca77fe16b16c749a5e707",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE120804_sample_metadata.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE278200_candidate_results.csv",
+      "bytes": 10139,
+      "sha256": "15ec35127cd0460b5dbb3832e83b0a70b621dc287eb28bbf49ffcfd80ba8a5a1",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE278200_candidate_results.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE278200_differential_expression.csv.gz",
+      "bytes": 3141082,
+      "sha256": "42d942d14ac38543d1e00d4596910fb3790954370c77cb82625dad104374d42b",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE278200_differential_expression.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE278200_expression_filter.csv.gz",
+      "bytes": 317547,
+      "sha256": "1418b7ddbb6f8f501d689bf456169da0832141b528c4684be63c634d9cf542d7",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE278200_expression_filter.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE278200_module_contrasts.csv",
+      "bytes": 3915,
+      "sha256": "4df29cc478820102203ad8338c8cffaf885327f1472845448d12c1a51beeec49",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE278200_module_contrasts.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE278200_module_coverage.csv",
+      "bytes": 447,
+      "sha256": "30c1dbd64659c09d0e1276ed159611585750ab1be854c144d0d97dd5a270abd7",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE278200_module_coverage.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE278200_module_scores.csv",
+      "bytes": 1852,
+      "sha256": "461bd39c01329beb0b35daa058d6f00c623764e3e71677e2baa6cfa8aa85b4e4",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE278200_module_scores.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE278200_normalization_factors.csv",
+      "bytes": 674,
+      "sha256": "e3eaa8abe1db7395eafd6a9dcb24dac10677088401ad77d58ef4cb0e33e10fe9",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE278200_normalization_factors.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE278200_pca_coordinates.csv",
+      "bytes": 1799,
+      "sha256": "4de71925431f4d993de23ac528ae20e5efdf147b5f3ef30a0b070e507447fd4b",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE278200_pca_coordinates.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE278200_reversal_geometry.csv.gz",
+      "bytes": 779215,
+      "sha256": "a40fe4b5340b15c1288c391418e54114b6b681c220e23d85d489f600e5510509",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE278200_reversal_geometry.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE278200_sample_metadata.csv",
+      "bytes": 1336,
+      "sha256": "793411e6d892d444e8f0f9bb1413baa64e88a7b5058ed40c2c33c8797c797222",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE278200_sample_metadata.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_candidate_results.csv",
+      "bytes": 9995,
+      "sha256": "039968f082d69754caa5840f15c995436877a2b61d7d7dfb2d5c5d5765aa2e04",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_candidate_results.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_differential_expression.csv.gz",
+      "bytes": 3370075,
+      "sha256": "5302531e7ffc92d9a1654a5ee0d3e16eddbc04204a2ea023a6f203dc18e4c799",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_differential_expression.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_expression_filter.csv.gz",
+      "bytes": 282254,
+      "sha256": "4552f35b87d707f6d430d91c79f9db18eb3769931683c82d32db4b085519519b",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_expression_filter.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_leave_one_animal_out_full.csv.gz",
+      "bytes": 8821,
+      "sha256": "6416431e2ec68dc700072a388406b5a0ee0f09d11390121655960401a79fe643",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_leave_one_animal_out_full.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_leave_one_animal_out_summary.csv",
+      "bytes": 1664,
+      "sha256": "f93e7c66c56cd6bcb51d392fc254f191e1b95d93169078cff0b5123b31eb7cb4",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_leave_one_animal_out_summary.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_module_contrasts.csv",
+      "bytes": 4344,
+      "sha256": "ed45318a2446e086c75b4e52793545e3d0f0c3dc37a21488b99f82ccfb5a40e4",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_module_contrasts.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_module_coverage.csv",
+      "bytes": 454,
+      "sha256": "b518afc92976277d93227cd9e29e97e905e9a35ee06168d4b3ed9eb135994ceb",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_module_coverage.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_module_scores.csv",
+      "bytes": 6542,
+      "sha256": "cad766fc8236b39ef737674c7567647715572f1ccf8c1336c8b6992807a7d298",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_module_scores.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_normalization_factors.csv",
+      "bytes": 2526,
+      "sha256": "33f523bdefbe8aaf384ec3d67b604ac35a2a2e68b4305ab75e797920a233300e",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_normalization_factors.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_pca_coordinates.csv",
+      "bytes": 10242,
+      "sha256": "20ceb6c1031523dd317e9647bfe011afcd0a86c99172391268c23087df20d9a2",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_pca_coordinates.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_reversal_geometry.csv.gz",
+      "bytes": 835701,
+      "sha256": "6907a093afc143ec7ddb4f3c695546a237eedfc50ac53f62c2b0e784617ed96e",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_reversal_geometry.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/GSE308578_sample_metadata.csv",
+      "bytes": 8595,
+      "sha256": "ce29869a42287043af23ef82d23ce6ba6b24e0c1d524089e5b9d9496cd53147d",
+      "release_path": "Source_Data/Public_Preclinical_Core/GSE308578_sample_metadata.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/PXD024058_candidate_effects_descriptive.csv",
+      "bytes": 2077,
+      "sha256": "5e979b286cbb12383e6b1ab921d1fcabc6576d00ffb76c241dde745f4f7aca33",
+      "release_path": "Source_Data/Public_Preclinical_Core/PXD024058_candidate_effects_descriptive.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/PXD024058_protein_effects_descriptive.csv.gz",
+      "bytes": 150783,
+      "sha256": "8572fa3e97db7f653a219b2432417b4f53e483c748316bfe43014e4f83ab5f67",
+      "release_path": "Source_Data/Public_Preclinical_Core/PXD024058_protein_effects_descriptive.csv.gz",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/analysis_summary.json",
+      "bytes": 3377,
+      "sha256": "388a5296d180f007b9636b636244ff02fb388082f08c3df4a0ef9a8d7dd907d2",
+      "release_path": "Source_Data/Public_Preclinical_Core/analysis_summary.json",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/cross_model_candidate_module_effects.csv",
+      "bytes": 10535,
+      "sha256": "1bb7cc942bf568715d1e15627c135acd64a6124aa477244b028ba86bb169cb5e",
+      "release_path": "Source_Data/Public_Preclinical_Core/cross_model_candidate_module_effects.csv",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/preclinical_quality_audit.json",
+      "bytes": 1925,
+      "sha256": "9d1cbfd6d399e790ce0dc12bff78fbdb8a8773447c5e484cf04e9c5cfb48a6d3",
+      "release_path": "Source_Data/Public_Preclinical_Core/preclinical_quality_audit.json",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/results/validation_report.json",
+      "bytes": 1925,
+      "sha256": "9d1cbfd6d399e790ce0dc12bff78fbdb8a8773447c5e484cf04e9c5cfb48a6d3",
+      "release_path": "Source_Data/Public_Preclinical_Core/validation_report.json",
+      "available_in_release": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/scripts/analyze_public_preclinical.py",
+      "bytes": 51267,
+      "sha256": "3decbed226fd6648e10e68b8aff25f78e2c96b5e186d9b253111661a0a833729",
+      "release_path": "Code/Public_Preclinical_Core/analyze_public_preclinical.py",
+      "available_in_release": true
+    }
+  ],
+  "release_manifest_refreshed_utc": "2026-09-05",
+  "release_scope": "release_path identifies the compact distributed counterpart when available; raw and metadata mirrors that are not redistributed retain their original provenance hashes."
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "A series of indolin-2-one analogues were designed and synthesized, and all of them exhibited excellent in vitro potency. The structure and in vivo activity or toxicity relationship (in-vivo SAR) investigation of indolin-2-one structural analogues was carried out. In vivo efficacy studies indicated that 3b significantly suppressed tumor growth in HT-29 and NCI-H460 xenografts without causing significant loss of body weight. Kinase assay showed that compound 3b effectively inhibited the VEGFR-2, VEGFR-3, FLT3, Ret and PDGFR-\u03b2 kinases, but had little effect on the VEGFR-1 kinase. Besides, 3b showed higher selectivity for VEGFR-2 compared with PDGFR-\u03b2. On the basis of its selectivity and safety properties, 3b was identified as a drug candidate for the treatment of cancer.",
+  "authors": "Zhang L, Zheng Q, Yang Y, Zhou H, Gong X, Zhao S, Fan C.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_20",
+    "creation_date": "2015-01-14"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL3286339",
+  "doi": "10.1016/j.ejmech.2014.05.051",
+  "doi_chembl": null,
+  "first_page": "139",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "151",
+  "patent_id": null,
+  "pubmed_id": 24904961,
+  "src_id": 1,
+  "title": "Synthesis and in vivo SAR study of indolin-2-one-based multi-targeted inhibitors as potential anticancer agents.",
+  "volume": "82",
+  "year": 2014
+}

@@ -1,0 +1,21 @@
+{
+  "figure": "7",
+  "size_px": [
+    4320,
+    4050
+  ],
+  "mode": "RGB",
+  "dpi": [
+    600.0,
+    600.0
+  ],
+  "nonzero_tiff_ifd": 1380768,
+  "reopened_after_writer_exit": true,
+  "tiff_png_pixel_identical": true,
+  "tiff_sha256": "1fcb65e90b3677922af59a84317835f0fa023f09d80f6c02c5e4c5d085a24583",
+  "main_plotted_model_scores": 24,
+  "explicit_filtered_entries": 8,
+  "source_record_count_Kd": 12,
+  "pdf_render_visually_verified": true,
+  "pdf_molecular_images_effective_dpi_minimum": 600
+}

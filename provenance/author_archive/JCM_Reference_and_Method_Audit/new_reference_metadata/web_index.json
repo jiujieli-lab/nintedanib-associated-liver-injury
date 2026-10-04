@@ -1,0 +1,30 @@
+[
+  {
+    "file": "new_ref_105.json",
+    "url": "https://api.crossref.org/works/10.1016%2Fj.ajpath.2020.06.006",
+    "resolved_url": "https://api.crossref.org/works/10.1016%2Fj.ajpath.2020.06.006",
+    "status": 200,
+    "bytes": 12067
+  },
+  {
+    "file": "new_ref_104_rcsb.json",
+    "url": "https://data.rcsb.org/rest/v1/core/entry/6JOL",
+    "resolved_url": "https://data.rcsb.org/rest/v1/core/entry/6JOL",
+    "status": 200,
+    "bytes": 10134
+  },
+  {
+    "file": "new_ref_108_boltz.html",
+    "url": "https://api.boltz.bio/docs/guides/small-molecule-library-screen/",
+    "resolved_url": "https://api.boltz.bio/docs/api/guides/small-molecule-library-screen/",
+    "status": 200,
+    "bytes": 183365
+  },
+  {
+    "file": "new_ref_109_inductive.html",
+    "url": "https://www.inductive.bio/mcp-connector",
+    "resolved_url": "https://www.inductive.bio/mcp-connector",
+    "status": 200,
+    "bytes": 77536
+  }
+]

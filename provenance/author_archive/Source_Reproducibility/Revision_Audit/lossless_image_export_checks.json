@@ -1,0 +1,171 @@
+[
+  {
+    "file": "Main_Figures/Figure_4.tiff",
+    "pixels": [
+      10080,
+      10080
+    ],
+    "dpi": [
+      1200.0,
+      1200.0
+    ],
+    "pixel_sha256": "da60300865bffe16d888afd529b6cd5e83923362f05ec7c91d58a2721b31defe",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Graphical_Abstract.tiff",
+    "pixels": [
+      7700,
+      7700
+    ],
+    "dpi": [
+      1200.0,
+      1200.0
+    ],
+    "pixel_sha256": "6bcb49bde85469f03b79b96315ea9d195a9728ea9677b8faa3789750b7e1b4fd",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S1.tiff",
+    "pixels": [
+      11239,
+      15986
+    ],
+    "dpi": [
+      1500.0,
+      1500.0
+    ],
+    "pixel_sha256": "afd45beacc07ff2d64d6daf0b2e75d6421141c90eadb0a214971e6eeea682e22",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S2.tiff",
+    "pixels": [
+      12148,
+      9198
+    ],
+    "dpi": [
+      1500.0,
+      1500.0
+    ],
+    "pixel_sha256": "846531395f5aa90b2ac2b574037edc7decda3f84fe372653e6c2fcd39538feec",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S3.tiff",
+    "pixels": [
+      10418,
+      13607
+    ],
+    "dpi": [
+      1500.0,
+      1500.0
+    ],
+    "pixel_sha256": "f06dd8ad368b8b4ded51a55ce5d2fa51f771e8214d5f8e17db98f84b2c054f0c",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S4.tiff",
+    "pixels": [
+      10211,
+      12381
+    ],
+    "dpi": [
+      1500.0,
+      1500.0
+    ],
+    "pixel_sha256": "b8ebf1759a1a82a370af12ccbf659f57085c93729d235925e504e90e4e7a2d79",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S5.tiff",
+    "pixels": [
+      10576,
+      13729
+    ],
+    "dpi": [
+      1500.0,
+      1500.0
+    ],
+    "pixel_sha256": "833fea0e542ab1b4f75512a132f43c3fb87c19c18580a205dc3cb5555784fb40",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S6.tiff",
+    "pixels": [
+      20348,
+      16341
+    ],
+    "dpi": [
+      1500.0,
+      1500.0
+    ],
+    "pixel_sha256": "4595655c04618ff6481140c00d1d0ae9c1a9cf3813b805e6860b9fd15a0e234a",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S7.tiff",
+    "pixels": [
+      20806,
+      14077
+    ],
+    "dpi": [
+      1500.0,
+      1500.0
+    ],
+    "pixel_sha256": "9ec0268e5bc9027bc3332c19d0818b43e792376d0423d294a10831ec3fc2e321",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S8.tiff",
+    "pixels": [
+      19924,
+      18695
+    ],
+    "dpi": [
+      1500.0,
+      1500.0
+    ],
+    "pixel_sha256": "8bcd89dba61e31599458aafc33261af207773ce5eab57418b17a8701b055c321",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S9.tiff",
+    "pixels": [
+      12625,
+      20192
+    ],
+    "dpi": [
+      1500.0,
+      1500.0
+    ],
+    "pixel_sha256": "777ed6344d984335992d5a38b8833c32a4e1f243664a9627bcabf42035355e13",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S10.tiff",
+    "pixels": [
+      18292,
+      17292
+    ],
+    "dpi": [
+      1500.0,
+      1500.0
+    ],
+    "pixel_sha256": "257e3ca1dc2ef5c03f3a6a94c9fe5c7f25347f5824d902e3d4e5270aa9e9d59d",
+    "source_pixels_unchanged": true
+  },
+  {
+    "file": "Supplementary_Figures/Figure_S11.tiff",
+    "pixels": [
+      10080,
+      10080
+    ],
+    "dpi": [
+      1200.0,
+      1200.0
+    ],
+    "pixel_sha256": "e260d1758217b1e816bfb7388088ec9ccc6c2b0d60575161435c228b19c6eca5",
+    "source_pixels_unchanged": true
+  }
+]

@@ -1,0 +1,26 @@
+RELEASE TRACKED MANUSCRIPT — INCREMENTAL VISUAL QA
+Date: 2026-10-02
+Source DOCX: deliverables/Manuscript/Revised_Manuscript_Tracked.docx (not edited by reviewers)
+Source emitted PDF: work/qa/release_tracked/Revised_Manuscript_Tracked.pdf
+Reference render: work/qa/final_tracked (all 66 pages previously visually reviewed)
+Release render: work/qa/release_tracked
+Native page dimensions: 1547 x 2002 pixels at 182 dpi, 66 pages.
+
+INITIAL PNG INTEGRITY
+PIL Image.load fully loaded all 66 reference PNGs and 59 release PNGs. Release pages 3, 10, 21, 36, 44, 51 and 60 were truncated. Only these seven pages were rerendered individually from the release emitted PDF by pdftoppm at identical 182 dpi. Page 36 required a second individual rerender after a subsequent load failure. Final complete-load check passed on all 66 release PNGs. No damaged image was accepted via a permissive truncated-file flag.
+
+RASTER DIFF
+Every corresponding page was compared pixel-for-pixel in RGB.
+Exactly identical pages (50): 1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 15, 17, 18, 19, 20, 21, 22, 23, 25, 28, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 47, 48, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66.
+Changed pages (16): 10, 14, 16, 24, 26, 27, 29, 43, 44, 45, 46, 49, 50, 51, 52, 53.
+Pages 49-52 differed by only 2-3 pixels each along the left table edge; all were still visually checked.
+Difference counts and bounding boxes are recorded in release_tracked_raster_diff.json and .csv. Full-load checks, repairs and release PNG SHA-256 values are recorded in release_tracked_png_load_check.json.
+
+VISUAL REVIEW OF ALL CHANGED PAGES
+Reviewer panel_inventory: pages 10, 14, 16, 24, 26, 27, 29.
+Reviewer tracked_late_pages: pages 43, 44, 45, 46, 49, 50, 51, 52, 53.
+Every changed page was displayed at original native resolution. No text clipping, page overflow, text overlap, footer collision, broken data row, or illegible tracked insertion/deletion was observed.
+The four inserted subsection headings now use serif type consistent with the original headings. Subscripts in the integration formula on page 14 and negative scientific-notation exponents on pages 26-27 display correctly. Additional-file prose uses appropriate regular weight. Tables retain readable gutters, repeated headers and intact data rows. Track markup remains clear.
+
+RESULT: PASS. No outstanding layout flaw identified. Fifty unchanged pages retain their prior full visual approval; all sixteen changed pages passed new native-resolution visual review. Scientific content is outside this layout-only review.
+This memo supersedes the earlier four-heading typographic observation in tracked_visual_qa.txt for the release version.

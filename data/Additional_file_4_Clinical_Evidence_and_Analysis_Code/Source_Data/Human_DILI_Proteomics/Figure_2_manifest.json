@@ -1,0 +1,16 @@
+{
+  "figure": "Figure 2",
+  "panels": 10,
+  "input_files": [
+    "effect_estimates.csv",
+    "confirmatory_tidy.csv",
+    "correlation_stats.csv",
+    "cross_cohort_concordance_detail.csv",
+    "cross_cohort_concordance_summary.csv",
+    "left_censor_sensitivity.csv",
+    "missingness_stats.csv",
+    "pck2_outlier_sensitivity.csv",
+    "zonal_effect_estimates.csv"
+  ],
+  "interpretation_boundary": "Human multi-drug DILI phenotype evidence; neither nintedanib specificity nor causal target validation."
+}

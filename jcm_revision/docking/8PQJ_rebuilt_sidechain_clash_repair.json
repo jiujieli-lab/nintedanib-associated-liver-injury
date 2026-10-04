@@ -1,0 +1,48 @@
+{
+  "method": "Grid search of chi1 rotations in 15-degree increments for newly rebuilt Asn780 and Asp785 side chains only; minimize sum of squared nonbonded-distance deficits below 2.8 A; no force-field affinity interpretation",
+  "deposited_atoms_moved": 0,
+  "report": [
+    {
+      "cycle": 0,
+      "residue": 780,
+      "rotation_degrees": 165,
+      "clash_penalty": 0.4422326714793846,
+      "min_other_residue_distance_A": 2.2783131089480433
+    },
+    {
+      "cycle": 0,
+      "residue": 785,
+      "rotation_degrees": 75,
+      "clash_penalty": 0.0,
+      "min_other_residue_distance_A": 3.1288098063426895
+    },
+    {
+      "cycle": 1,
+      "residue": 780,
+      "rotation_degrees": 15,
+      "clash_penalty": 0.0,
+      "min_other_residue_distance_A": 2.9480021630921955
+    },
+    {
+      "cycle": 1,
+      "residue": 785,
+      "rotation_degrees": 0,
+      "clash_penalty": 0.0,
+      "min_other_residue_distance_A": 3.1288098063426895
+    },
+    {
+      "cycle": 2,
+      "residue": 780,
+      "rotation_degrees": 0,
+      "clash_penalty": 0.0,
+      "min_other_residue_distance_A": 2.9480021630921955
+    },
+    {
+      "cycle": 2,
+      "residue": 785,
+      "rotation_degrees": 0,
+      "clash_penalty": 0.0,
+      "min_other_residue_distance_A": 3.1288098063426895
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "molecules": [
+    {
+      "atc_classifications": [],
+      "availability_type": null,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 1,
+      "cross_references": [
+        {
+          "xref_id": "129",
+          "xref_name": "NERANDOMILAST",
+          "xref_src": "INN"
+        }
+      ],
+      "dosed_ingredient": false,
+      "first_approval": null,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "2.0",
+      "molecule_chembl_id": "CHEMBL5314532",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL5314532",
+        "molecule_chembl_id": "CHEMBL5314532",
+        "parent_chembl_id": "CHEMBL5314532"
+      },
+      "molecule_properties": {
+        "alogp": "2.29",
+        "aromatic_rings": 2,
+        "full_molformula": "C20H25ClN6O2S",
+        "full_mwt": "448.98",
+        "hba": 8,
+        "hbd": 2,
+        "heavy_atoms": 30,
+        "mw_freebase": "448.98",
+        "np_likeness_score": "-0.82",
+        "num_ro5_violations": 0,
+        "psa": "110.12",
+        "qed_weighted": "0.67",
+        "ro3_pass": "N",
+        "rtb": 5
+      },
+      "molecule_structures": {
+        "canonical_smiles": "[O-][S+]1CCc2nc(N3CCC(c4ncc(Cl)cn4)CC3)nc(NC3(CO)CCC3)c21",
+        "molfile": "\n     RDKit          2D\n\n 30 34  0  0  0  0  0  0  0  0999 V2000\n   -3.8113    3.4913    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0969    2.2538    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0969    3.0788    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3824    1.8413    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6679    2.2538    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6679    3.0788    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3824    3.4913    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9535    1.0162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9535    1.8412    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2390    0.6037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4755    1.0161    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4755    1.8411    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2390    2.2537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1898   -0.2215    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1899    0.6035    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9043   -0.6340    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6188   -0.2216    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6189    0.6034    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9044    1.0160    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.0757   -1.4410    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8962   -1.5273    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2318   -0.7737    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0287   -0.5602    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3333    1.0159    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3333    1.8409    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1355    1.6483    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5141    1.9379    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4303    2.6602    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6110    2.7571    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.3699    0.8573    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  2  3  1  0\n  1  3  1  0\n  4  5  1  0\n  5  6  2  0\n  6  7  1  0\n  2  4  2  0\n  3  7  2  0\n  8  9  1  0\n  5  9  1  0\n 10 11  1  0\n 11 12  1  0\n 12 13  1  0\n  8 10  1  0\n  9 13  1  0\n 14 15  2  0\n 11 15  1  0\n 16 17  2  0\n 17 18  1  0\n 18 19  2  0\n 14 16  1  0\n 15 19  1  0\n 20 21  1  0\n 21 22  1  0\n 16 20  1  0\n 17 22  1  0\n 22 23  1  0\n 18 24  1  0\n 24 25  1  0\n 25 26  1  0\n 25 27  1  0\n 25 28  1  0\n 28 29  1  0\n 29 27  1  0\n 26 30  1  0\nM  CHG  2  22   1  23  -1\nM  END\n> <chembl_id>\nCHEMBL5314532\n\n> <chembl_pref_name>\nNERANDOMILAST",
+        "standard_inchi": "InChI=1S/C20H25ClN6O2S/c21-14-10-22-17(23-11-14)13-2-7-27(8-3-13)19-24-15-4-9-30(29)16(15)18(25-19)26-20(12-28)5-1-6-20/h10-11,13,28H,1-9,12H2,(H,24,25,26)",
+        "standard_inchi_key": "UHYCLWAANUGUMN-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "BI-1015550",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "BI-1015550"
+        },
+        {
+          "molecule_synonym": "Nerandomilast",
+          "syn_type": "INN",
+          "synonyms": "NERANDOMILAST"
+        },
+        {
+          "molecule_synonym": "Nerandomilast",
+          "syn_type": "INN_FRENCH",
+          "synonyms": "NERANDOMILAST"
+        },
+        {
+          "molecule_synonym": "Nerandomilast",
+          "syn_type": "INN_SPANISH",
+          "synonyms": "NERANDOMILAST"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": false,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "NERANDOMILAST",
+      "prodrug": 0,
+      "structure_type": "MOL",
+      "therapeutic_flag": false,
+      "topical": false,
+      "usan_stem": "-ast",
+      "usan_stem_definition": "antiasthmatics/antiallergics (not acting primarily as antihistamines): type IV phosphodiesterase",
+      "usan_substem": "-ast (-milast)",
+      "usan_year": null,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    }
+  ],
+  "page_meta": {
+    "limit": 100,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  }
+}

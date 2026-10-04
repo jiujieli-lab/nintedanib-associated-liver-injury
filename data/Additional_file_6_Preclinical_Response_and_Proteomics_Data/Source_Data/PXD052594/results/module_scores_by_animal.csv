@@ -1,0 +1,116 @@
+sample_id,module,score,n_proteins_used,proteins_used,treatment,animal_id,statistical_unit
+nintedanib_4,ECM remodeling,-0.9085575473427823,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,nintedanib,M4,individual mouse
+nintedanib_5,ECM remodeling,0.16801749337155547,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,nintedanib,M5,individual mouse
+nintedanib_6,ECM remodeling,0.07199388525455791,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,nintedanib,M6,individual mouse
+nintedanib_13,ECM remodeling,-1.0446257958279188,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,nintedanib,M13,individual mouse
+nintedanib_17,ECM remodeling,0.36400505611429446,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,nintedanib,M17,individual mouse
+nintedanib_19,ECM remodeling,0.2796507247886797,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,nintedanib,M19,individual mouse
+nintedanib_21,ECM remodeling,0.46910887317129857,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,nintedanib,M21,individual mouse
+nintedanib_23,ECM remodeling,-0.1475482282637924,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,nintedanib,M23,individual mouse
+nintedanib_32,ECM remodeling,0.17958568257520988,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,nintedanib,M32,individual mouse
+nintedanib_42,ECM remodeling,-1.3003615214792574,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,nintedanib,M42,individual mouse
+vehicle_3,ECM remodeling,0.34993754989110637,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M3,individual mouse
+vehicle_7,ECM remodeling,0.04053787999303698,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M7,individual mouse
+vehicle_12,ECM remodeling,0.8502586374753146,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M12,individual mouse
+vehicle_14,ECM remodeling,-0.6480361633761426,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M14,individual mouse
+vehicle_16,ECM remodeling,-0.06357044248731172,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M16,individual mouse
+vehicle_22,ECM remodeling,0.22351670535422102,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M22,individual mouse
+vehicle_24,ECM remodeling,-0.4575678874733897,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M24,individual mouse
+vehicle_27,ECM remodeling,-0.1057942957354325,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M27,individual mouse
+vehicle_31,ECM remodeling,0.43634161954886397,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M31,individual mouse
+vehicle_34,ECM remodeling,0.017794005375476863,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M34,individual mouse
+vehicle_35,ECM remodeling,-0.43513403104122284,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M35,individual mouse
+vehicle_40,ECM remodeling,0.3860032103810823,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M40,individual mouse
+vehicle_41,ECM remodeling,1.2744445897325067,15,Col1a1;Col1a2;Col3a1;Col5a1;Fn1;Postn;Tnc;Sparc;Lox;Ltbp2;Ltbp4;Mmp2;Mmp9;Timp1;Tgfb1,vehicle,M41,individual mouse
+nintedanib_4,Macrophage repair,-0.36472127142557526,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,nintedanib,M4,individual mouse
+nintedanib_5,Macrophage repair,0.5317406714052566,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,nintedanib,M5,individual mouse
+nintedanib_6,Macrophage repair,-0.03243320224442731,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,nintedanib,M6,individual mouse
+nintedanib_13,Macrophage repair,-1.3918845933659683,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,nintedanib,M13,individual mouse
+nintedanib_17,Macrophage repair,0.2295252587594821,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,nintedanib,M17,individual mouse
+nintedanib_19,Macrophage repair,0.24586880651175166,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,nintedanib,M19,individual mouse
+nintedanib_21,Macrophage repair,-0.0846756680143577,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,nintedanib,M21,individual mouse
+nintedanib_23,Macrophage repair,0.26693325255937217,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,nintedanib,M23,individual mouse
+nintedanib_32,Macrophage repair,0.3986201363156844,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,nintedanib,M32,individual mouse
+nintedanib_42,Macrophage repair,-1.003384923718856,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,nintedanib,M42,individual mouse
+vehicle_3,Macrophage repair,0.3756344724983321,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M3,individual mouse
+vehicle_7,Macrophage repair,0.1944150700142582,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M7,individual mouse
+vehicle_12,Macrophage repair,0.7847011490975961,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M12,individual mouse
+vehicle_14,Macrophage repair,-0.08529189771241821,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M14,individual mouse
+vehicle_16,Macrophage repair,-0.397652813837369,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M16,individual mouse
+vehicle_22,Macrophage repair,0.09274361654966305,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M22,individual mouse
+vehicle_24,Macrophage repair,-1.0608276310143925,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M24,individual mouse
+vehicle_27,Macrophage repair,0.11620955516098642,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M27,individual mouse
+vehicle_31,Macrophage repair,0.21764682827658086,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M31,individual mouse
+vehicle_34,Macrophage repair,-0.11778437032787423,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M34,individual mouse
+vehicle_35,Macrophage repair,0.05495733665023032,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M35,individual mouse
+vehicle_40,Macrophage repair,-0.010197754451085443,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M40,individual mouse
+vehicle_41,Macrophage repair,1.0398579723130923,9,Mrc1;Cd68;Adgre1;Csf1r;Marco;Trem2;Gpnmb;Fabp5;Lgals3,vehicle,M41,individual mouse
+nintedanib_4,Inflammatory,-0.6695610137810656,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,nintedanib,M4,individual mouse
+nintedanib_5,Inflammatory,0.12967888087395352,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,nintedanib,M5,individual mouse
+nintedanib_6,Inflammatory,-0.31648810682694073,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,nintedanib,M6,individual mouse
+nintedanib_13,Inflammatory,-0.75877852051247,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,nintedanib,M13,individual mouse
+nintedanib_17,Inflammatory,0.060244317633350426,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,nintedanib,M17,individual mouse
+nintedanib_19,Inflammatory,0.3385796422760672,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,nintedanib,M19,individual mouse
+nintedanib_21,Inflammatory,0.3075667689190886,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,nintedanib,M21,individual mouse
+nintedanib_23,Inflammatory,-0.32074047940834227,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,nintedanib,M23,individual mouse
+nintedanib_32,Inflammatory,0.6510623799111496,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,nintedanib,M32,individual mouse
+nintedanib_42,Inflammatory,-1.003257899445143,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,nintedanib,M42,individual mouse
+vehicle_3,Inflammatory,0.012454625537257227,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M3,individual mouse
+vehicle_7,Inflammatory,0.22318429434394357,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M7,individual mouse
+vehicle_12,Inflammatory,0.6437770432445331,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M12,individual mouse
+vehicle_14,Inflammatory,0.4244786945326184,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M14,individual mouse
+vehicle_16,Inflammatory,0.0841998242865641,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M16,individual mouse
+vehicle_22,Inflammatory,0.20828326384660317,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M22,individual mouse
+vehicle_24,Inflammatory,-0.36515621286450284,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M24,individual mouse
+vehicle_27,Inflammatory,0.18176836637960103,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M27,individual mouse
+vehicle_31,Inflammatory,0.20752425278438194,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M31,individual mouse
+vehicle_34,Inflammatory,-0.8043719720740746,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M34,individual mouse
+vehicle_35,Inflammatory,-0.4850205428709374,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M35,individual mouse
+vehicle_40,Inflammatory,0.14772512047715483,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M40,individual mouse
+vehicle_41,Inflammatory,1.1028472727372,7,Spp1;Lgals3;S100a8;S100a9;Nfkb1;Nfkbia;Stat3,vehicle,M41,individual mouse
+nintedanib_4,Alveolar homeostasis,-0.484491433118537,3,Marco;Fabp4;Itgax,nintedanib,M4,individual mouse
+nintedanib_5,Alveolar homeostasis,0.5380211777219499,3,Marco;Fabp4;Itgax,nintedanib,M5,individual mouse
+nintedanib_6,Alveolar homeostasis,-0.30284209794668066,3,Marco;Fabp4;Itgax,nintedanib,M6,individual mouse
+nintedanib_13,Alveolar homeostasis,-1.2244871179336732,3,Marco;Fabp4;Itgax,nintedanib,M13,individual mouse
+nintedanib_17,Alveolar homeostasis,-0.02476345075674539,3,Marco;Fabp4;Itgax,nintedanib,M17,individual mouse
+nintedanib_19,Alveolar homeostasis,1.5240961954327574,3,Marco;Fabp4;Itgax,nintedanib,M19,individual mouse
+nintedanib_21,Alveolar homeostasis,-0.5838655454957625,3,Marco;Fabp4;Itgax,nintedanib,M21,individual mouse
+nintedanib_23,Alveolar homeostasis,-0.5029495843576423,3,Marco;Fabp4;Itgax,nintedanib,M23,individual mouse
+nintedanib_32,Alveolar homeostasis,0.17275514329065308,3,Marco;Fabp4;Itgax,nintedanib,M32,individual mouse
+nintedanib_42,Alveolar homeostasis,-0.6936270959414156,3,Marco;Fabp4;Itgax,nintedanib,M42,individual mouse
+vehicle_3,Alveolar homeostasis,0.815450040637791,3,Marco;Fabp4;Itgax,vehicle,M3,individual mouse
+vehicle_7,Alveolar homeostasis,0.09988230745706676,3,Marco;Fabp4;Itgax,vehicle,M7,individual mouse
+vehicle_12,Alveolar homeostasis,0.7570974376857383,3,Marco;Fabp4;Itgax,vehicle,M12,individual mouse
+vehicle_14,Alveolar homeostasis,-0.0952894648733929,3,Marco;Fabp4;Itgax,vehicle,M14,individual mouse
+vehicle_16,Alveolar homeostasis,-0.3165554762568908,3,Marco;Fabp4;Itgax,vehicle,M16,individual mouse
+vehicle_22,Alveolar homeostasis,-0.12827573919344815,3,Marco;Fabp4;Itgax,vehicle,M22,individual mouse
+vehicle_24,Alveolar homeostasis,-1.0728506141023013,3,Marco;Fabp4;Itgax,vehicle,M24,individual mouse
+vehicle_27,Alveolar homeostasis,-0.4456806982781025,3,Marco;Fabp4;Itgax,vehicle,M27,individual mouse
+vehicle_31,Alveolar homeostasis,0.35040649378187544,3,Marco;Fabp4;Itgax,vehicle,M31,individual mouse
+vehicle_34,Alveolar homeostasis,0.7123616124477724,3,Marco;Fabp4;Itgax,vehicle,M34,individual mouse
+vehicle_35,Alveolar homeostasis,0.07297325238988563,3,Marco;Fabp4;Itgax,vehicle,M35,individual mouse
+vehicle_40,Alveolar homeostasis,0.3538362188418462,3,Marco;Fabp4;Itgax,vehicle,M40,individual mouse
+vehicle_41,Alveolar homeostasis,0.4787984385671855,3,Marco;Fabp4;Itgax,vehicle,M41,individual mouse
+nintedanib_4,RTK-response,-0.35145392360650024,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,nintedanib,M4,individual mouse
+nintedanib_5,RTK-response,-0.09697423832801022,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,nintedanib,M5,individual mouse
+nintedanib_6,RTK-response,-0.5935137530700396,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,nintedanib,M6,individual mouse
+nintedanib_13,RTK-response,0.18540002387275742,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,nintedanib,M13,individual mouse
+nintedanib_17,RTK-response,0.15817938768012763,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,nintedanib,M17,individual mouse
+nintedanib_19,RTK-response,0.5202610613533905,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,nintedanib,M19,individual mouse
+nintedanib_21,RTK-response,-0.16484863402391087,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,nintedanib,M21,individual mouse
+nintedanib_23,RTK-response,-0.023177058660807832,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,nintedanib,M23,individual mouse
+nintedanib_32,RTK-response,-0.01727884918783794,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,nintedanib,M32,individual mouse
+nintedanib_42,RTK-response,0.006469411375157059,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,nintedanib,M42,individual mouse
+vehicle_3,RTK-response,-0.07577423476484742,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M3,individual mouse
+vehicle_7,RTK-response,-0.03030694466681727,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M7,individual mouse
+vehicle_12,RTK-response,0.6997425746886067,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M12,individual mouse
+vehicle_14,RTK-response,0.02344479458105993,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M14,individual mouse
+vehicle_16,RTK-response,0.1988215396307614,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M16,individual mouse
+vehicle_22,RTK-response,0.12062466400932174,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M22,individual mouse
+vehicle_24,RTK-response,-0.028206787807299842,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M24,individual mouse
+vehicle_27,RTK-response,0.043429914426635685,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M27,individual mouse
+vehicle_31,RTK-response,0.2548779931611311,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M31,individual mouse
+vehicle_34,RTK-response,-0.33140399601722803,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M34,individual mouse
+vehicle_35,RTK-response,-0.48829925017921344,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M35,individual mouse
+vehicle_40,RTK-response,-0.4096340949306217,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M40,individual mouse
+vehicle_41,RTK-response,0.39962040046415104,9,Fgfr1;Pdgfra;Pdgfrb;Kdr;Flt1;Mapk1;Mapk3;Akt1;Stat3,vehicle,M41,individual mouse

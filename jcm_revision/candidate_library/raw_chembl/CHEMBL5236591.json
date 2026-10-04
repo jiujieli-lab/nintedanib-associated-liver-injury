@@ -1,0 +1,24 @@
+{
+  "abstract": "Clinically acquired resistance is a major challenge in cancer therapies with small-molecule kinase inhibitors (SMKIs). Gatekeeper mutations in the ATP-binding pocket of kinases are the most common mutations leading to acquired resistance. To date, seven new-generation kinase inhibitors targeting gatekeeper mutations have been approved by the FDA; however, the clinical need is still unmet. Here, we systematically summarize the types of gatekeeper mutations across the kinase family, the structural basis for acquired resistance, and newly developed SMKIs targeting gatekeeper mutations as well as highlight the opportunities and challenges of kinase drug discovery for targeting gatekeeper mutations.",
+  "authors": "Zhou Y, Xiang S, Yang F, Lu X.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_34",
+    "creation_date": "2024-03-28"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5236591",
+  "doi": "10.1021/acs.jmedchem.2c01361",
+  "doi_chembl": null,
+  "first_page": "15540",
+  "issue": "23.0",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "15558",
+  "patent_id": null,
+  "pubmed_id": 36395392,
+  "src_id": 1,
+  "title": "Targeting Gatekeeper Mutations for Kinase Drug Discovery.",
+  "volume": "65",
+  "year": 2022
+}

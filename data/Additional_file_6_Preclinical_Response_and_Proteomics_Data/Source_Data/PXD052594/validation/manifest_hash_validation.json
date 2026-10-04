@@ -1,0 +1,172 @@
+{
+  "manifest_path": "Source_Data/PXD052594/results/analysis_manifest.json",
+  "manifest_sha256": "9ef9f38c22ad0da706cd9df455188257e215c82b6ebb76550d0b6a5d2c6d7647",
+  "entries_checked": 20,
+  "release_entries_checked": 17,
+  "omitted_public_raw_inputs_checked_upstream": 3,
+  "all_recorded_hashes_match": true,
+  "all_available_release_hashes_match": true,
+  "audit_scope": "Combined audit: current-file verification for every available release entry and the successful frozen upstream audit for public raw inputs omitted from the capsule.",
+  "entries": [
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/raw/Raw_data_values_Lauer_et_al_2024.xlsx",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/raw/Mus_musculus.gene_info.gz",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/raw/R_Script_Lauer_et_al_2024.R",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/code/analyze_pxd052594.py",
+      "release_path": "Code/PXD052594/analyze_pxd052594.py",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.pdf",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S7_PXD052594.pdf",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.png",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S7_PXD052594.png",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S7_PXD052594.svg",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.tiff",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S7_PXD052594.tiff",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/animal_sample_manifest.csv",
+      "release_path": "Source_Data/PXD052594/results/animal_sample_manifest.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/candidate_contrasts.csv",
+      "release_path": "Source_Data/PXD052594/results/candidate_contrasts.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/candidate_expression_by_animal.csv",
+      "release_path": "Source_Data/PXD052594/results/candidate_expression_by_animal.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/module_contrasts.csv",
+      "release_path": "Source_Data/PXD052594/results/module_contrasts.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/module_protein_membership.csv",
+      "release_path": "Source_Data/PXD052594/results/module_protein_membership.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/module_scores_by_animal.csv",
+      "release_path": "Source_Data/PXD052594/results/module_scores_by_animal.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/phosphoproteome_PCA_and_sample_manifest.csv",
+      "release_path": "Source_Data/PXD052594/results/phosphoproteome_PCA_and_sample_manifest.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/phosphosite_NINT_vs_vehicle_all_deposited_subset_animals.csv",
+      "release_path": "Source_Data/PXD052594/results/phosphosite_NINT_vs_vehicle_all_deposited_subset_animals.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/phosphosite_target_pathway_summary.csv",
+      "release_path": "Source_Data/PXD052594/results/phosphosite_target_pathway_summary.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/proteome_NINT_vs_vehicle_all_animals.csv",
+      "release_path": "Source_Data/PXD052594/results/proteome_NINT_vs_vehicle_all_animals.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/proteome_PCA.csv",
+      "release_path": "Source_Data/PXD052594/results/proteome_PCA.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/validation/validation_checks.json",
+      "release_path": "Source_Data/PXD052594/validation/validation_checks.json",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "Fluorine-containing small molecules have occupied a special position in drug discovery research. The successful clinical use of fluorinated corticosteroids in the 1950s and fluoroquinolones in the 1980s led to an ever-increasing number of approved fluorinated compounds over the last 50 years. They have shown various biological properties such as antitumor, antimicrobial, and anti-inflammatory activities. Fluoro-pharmaceuticals have been considered a strong and practical tool in the rational drug design approach due to their benefits from potency and ADME (absorption, distribution, metabolism, and excretion) points of view. Herein, approved fluorinated drugs from 2015 to 2022 were reviewed.",
+  "authors": "Sheikhi N, Bahraminejad M, Saeedi M, Mirfazli SS.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_36",
+    "creation_date": "2025-07-28"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5634097",
+  "doi": "10.1016/j.ejmech.2023.115758",
+  "doi_chembl": null,
+  "first_page": "115758",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "115758",
+  "patent_id": null,
+  "pubmed_id": 37657268,
+  "src_id": 1,
+  "title": "A review: FDA-approved fluorine-containing small molecules from 2015 to 2022.",
+  "volume": "260",
+  "year": 2023
+}

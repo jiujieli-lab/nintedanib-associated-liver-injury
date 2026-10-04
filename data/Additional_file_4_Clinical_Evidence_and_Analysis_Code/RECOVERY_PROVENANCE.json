@@ -1,0 +1,358 @@
+{
+  "recovery_date_utc": "2026-09-22",
+  "purpose": "Restore missing data/code members after an incomplete transferred supplementary archive; preserve all archived scientific results.",
+  "original_manifest_paths": 578,
+  "exact_original_file_count": 570,
+  "missing_file_count": 0,
+  "changed_paths": [
+    {
+      "path": "Analysis/independent_liver/gene_info.gz",
+      "historical_sha256": "5e0ab796f17f03c4a57785ead427a8411c469a57385536eb17f268eb7c3ed49a",
+      "current_sha256": "21e4ebd2ccfd561940f0d922196faf5ea25e97addbaa65444d4d4f0c4649721f",
+      "byte_identical": false,
+      "exists": true
+    },
+    {
+      "path": "Analysis/independent_liver/independent_source_reference.json",
+      "historical_sha256": "04a91c45536a436c6da1b9d73e10cb611bb773709c45336a01704d3138843719",
+      "current_sha256": "d3332580ba9189d9c70d8417b14edc4d5b5262266431a08f0e32669a5e5c2127",
+      "byte_identical": false,
+      "exists": true
+    },
+    {
+      "path": "Analysis/independent_liver/numeric_QA.json",
+      "historical_sha256": "9cc5b98840a32c72b10980f0ce69cbab383da6c889f8df8a029b1c245979a93f",
+      "current_sha256": "d558a1a70f748409cf4862420068e4c4eaf108bd3a6a595656a4dd8ffa6ce9b3",
+      "byte_identical": false,
+      "exists": true
+    },
+    {
+      "path": "Analysis/independent_liver/provenance_checksums.csv",
+      "historical_sha256": "3f75e9949c10f6cd8711727d560b37176f41c1d592fa77f89b784aa9dbb28583",
+      "current_sha256": "b244d998c933d497a8b43483ee1d9e76a3f6e85e10e79a8463c8a28fe41f7bc1",
+      "byte_identical": false,
+      "exists": true
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/GSE278200_logCPM_raw_features.csv.gz",
+      "historical_sha256": "43ea2ea36125ac1918d72fac9738d02c70de50e4652e947bc78dfee2149f6795",
+      "current_sha256": "b9776741a7f4adf30a3cd3902ac98e3e6c95a19bf392d638f7d8b6d5f302672c",
+      "byte_identical": false,
+      "exists": true
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/GSE308578_logCPM_raw_features.csv.gz",
+      "historical_sha256": "76dbe89b007e09fe58d34205122f7c8f54c5880f7c083f515d2a5954f8b72856",
+      "current_sha256": "3423a9736b5b4ae39dc449b3dede36755b067d1ba4973a31a1a5e0577a9652aa",
+      "byte_identical": false,
+      "exists": true
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/analysis_summary.json",
+      "historical_sha256": "fde8fc22097fba2c5f453a0a9b3d2f50cbb1e833dea6a43507ef04c0c3f3d157",
+      "current_sha256": "e21c17d1156bc84a051b6d1c937efbbdcd3bd9e164ed1ada9850e7347c98ec6a",
+      "byte_identical": false,
+      "exists": true
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/analyze_shared_reference.py",
+      "historical_sha256": "dd0b0c90081d47a5040e81497bb535f5d175e25205a252054a51ad9c3e3eb5a6",
+      "current_sha256": "dc391b579ac8d58e797d3a53de35334d9248c3af0382a7b68a115ac9621abef8",
+      "byte_identical": false,
+      "exists": true
+    }
+  ],
+  "recovered_missing_members": [
+    {
+      "path": "Analysis/independent_liver/gene_info.gz",
+      "historical_sha256": "5e0ab796f17f03c4a57785ead427a8411c469a57385536eb17f268eb7c3ed49a",
+      "current_sha256": "21e4ebd2ccfd561940f0d922196faf5ea25e97addbaa65444d4d4f0c4649721f",
+      "byte_identical": false,
+      "bytes": 3931451,
+      "recovery_source": "Re-downloaded NCBI Mus_musculus.gene_info.gz on 2026-09-22; gzip differs from 2026-09-19 archive, all 13,392 analyzed probe-to-symbol annotations unchanged."
+    },
+    {
+      "path": "Analysis/independent_liver/independent_source_reference.json",
+      "historical_sha256": "04a91c45536a436c6da1b9d73e10cb611bb773709c45336a01704d3138843719",
+      "current_sha256": "d3332580ba9189d9c70d8417b14edc4d5b5262266431a08f0e32669a5e5c2127",
+      "byte_identical": false,
+      "bytes": 1142,
+      "recovery_source": "Reconstructed source reference record explicitly marked as recovery metadata."
+    },
+    {
+      "path": "Analysis/independent_liver/matrix.txt.gz",
+      "historical_sha256": "d3d6317da957c655452167f7e50fe42a6e709351fde2e325e5ba4606cb20bb67",
+      "current_sha256": "d3d6317da957c655452167f7e50fe42a6e709351fde2e325e5ba4606cb20bb67",
+      "byte_identical": true,
+      "bytes": 1666306,
+      "recovery_source": "Re-downloaded GEO GSE125975 series matrix; exact original SHA-256."
+    },
+    {
+      "path": "Analysis/independent_liver/module_contrasts.csv",
+      "historical_sha256": "97ea7a1c8e798218060856aa0ddfc4cef05cc0ad8649814d1db90c4d43d7d0c1",
+      "current_sha256": "97ea7a1c8e798218060856aa0ddfc4cef05cc0ad8649814d1db90c4d43d7d0c1",
+      "byte_identical": true,
+      "bytes": 3613,
+      "recovery_source": "Recovered losslessly from Additional_file_3_Supplementary_Tables.xlsx, Hepatic_Validation sheet; exact original SHA-256. Independently reproduced byte-identically by the archived hepatic script."
+    },
+    {
+      "path": "Analysis/independent_liver/module_gene_membership.csv",
+      "historical_sha256": "5a2dede3bad7c9c9027ad3daeee59a494fb23b64ac541375022818a00716461b",
+      "current_sha256": "5a2dede3bad7c9c9027ad3daeee59a494fb23b64ac541375022818a00716461b",
+      "byte_identical": true,
+      "bytes": 1895,
+      "recovery_source": "Recovered losslessly from Additional_file_3_Supplementary_Tables.xlsx, Hepatic_Validation sheet; exact original SHA-256. Independently reproduced byte-identically by the archived hepatic script."
+    },
+    {
+      "path": "Analysis/independent_liver/module_scores_by_animal.csv",
+      "historical_sha256": "96d6ea755c2a6ceb6542e75f080ac2d8bb6e76cd99f0e75f9019785a4be3032f",
+      "current_sha256": "96d6ea755c2a6ceb6542e75f080ac2d8bb6e76cd99f0e75f9019785a4be3032f",
+      "byte_identical": true,
+      "bytes": 3410,
+      "recovery_source": "Recovered losslessly from Additional_file_3_Supplementary_Tables.xlsx, Hepatic_Validation sheet; exact original SHA-256. Independently reproduced byte-identically by the archived hepatic script."
+    },
+    {
+      "path": "Analysis/independent_liver/numeric_QA.json",
+      "historical_sha256": "9cc5b98840a32c72b10980f0ce69cbab383da6c889f8df8a029b1c245979a93f",
+      "current_sha256": "d558a1a70f748409cf4862420068e4c4eaf108bd3a6a595656a4dd8ffa6ce9b3",
+      "byte_identical": false,
+      "bytes": 3544,
+      "recovery_source": "New isolated replay verification record; 12 archived liver result CSVs reproduced byte-identically; every archived analysis_summary field identical."
+    },
+    {
+      "path": "Analysis/independent_liver/provenance_checksums.csv",
+      "historical_sha256": "3f75e9949c10f6cd8711727d560b37176f41c1d592fa77f89b784aa9dbb28583",
+      "current_sha256": "b244d998c933d497a8b43483ee1d9e76a3f6e85e10e79a8463c8a28fe41f7bc1",
+      "byte_identical": false,
+      "bytes": 5413,
+      "recovery_source": "Current checksum manifest explicitly carrying historical hashes and byte-identity indicators."
+    },
+    {
+      "path": "Analysis/independent_liver/sample_PCA.csv",
+      "historical_sha256": "5121076eccf723adfd07a704f1b7ac2d1df7ebc101bf4f5435583c4f2b6479cc",
+      "current_sha256": "5121076eccf723adfd07a704f1b7ac2d1df7ebc101bf4f5435583c4f2b6479cc",
+      "byte_identical": true,
+      "bytes": 2220,
+      "recovery_source": "Recovered losslessly from Additional_file_3_Supplementary_Tables.xlsx, Hepatic_Validation sheet; exact original SHA-256. Independently reproduced byte-identically by the archived hepatic script."
+    },
+    {
+      "path": "Analysis/independent_liver/sample_QC.csv",
+      "historical_sha256": "82b125751d8545fd167bfb12e2ceca2c37e007bc8a5c92ba2036cbbc51f11397",
+      "current_sha256": "82b125751d8545fd167bfb12e2ceca2c37e007bc8a5c92ba2036cbbc51f11397",
+      "byte_identical": true,
+      "bytes": 1135,
+      "recovery_source": "Recovered losslessly from Additional_file_3_Supplementary_Tables.xlsx, Hepatic_Validation sheet; exact original SHA-256. Independently reproduced byte-identically by the archived hepatic script."
+    },
+    {
+      "path": "Analysis/independent_liver/sample_metadata.csv",
+      "historical_sha256": "7b6470e9a174d72075eae4ee0ee3b52706ef178f7b412a2dbf4ce52b0aaf728c",
+      "current_sha256": "7b6470e9a174d72075eae4ee0ee3b52706ef178f7b412a2dbf4ce52b0aaf728c",
+      "byte_identical": true,
+      "bytes": 11847,
+      "recovery_source": "Reconstructed from exact recovered GEO matrix metadata; exact original SHA-256."
+    },
+    {
+      "path": "Analysis/independent_liver/soft.gz",
+      "historical_sha256": "6540e9cbd7db08bffbae60a7ee0fb5a4078f5b8ed14ad275f9c649ea5c753e67",
+      "current_sha256": "6540e9cbd7db08bffbae60a7ee0fb5a4078f5b8ed14ad275f9c649ea5c753e67",
+      "byte_identical": true,
+      "bytes": 2847969,
+      "recovery_source": "Re-downloaded GEO GSE125975 SOFT archive; exact original SHA-256."
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/GSE278200_logCPM_raw_features.csv.gz",
+      "historical_sha256": "43ea2ea36125ac1918d72fac9738d02c70de50e4652e947bc78dfee2149f6795",
+      "current_sha256": "b9776741a7f4adf30a3cd3902ac98e3e6c95a19bf392d638f7d8b6d5f302672c",
+      "byte_identical": false,
+      "bytes": 1354716,
+      "recovery_source": "Regenerated log2[(count + 0.5)/(full library size + 1) x 1,000,000] matrix from exact recovered raw counts, with CPM >=1 in at least the control-group count, pre-filter library totals and fixed original sample order; compressed bytes differ from historical archive."
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/GSE308578_logCPM_raw_features.csv.gz",
+      "historical_sha256": "76dbe89b007e09fe58d34205122f7c8f54c5880f7c083f515d2a5954f8b72856",
+      "current_sha256": "3423a9736b5b4ae39dc449b3dede36755b067d1ba4973a31a1a5e0577a9652aa",
+      "byte_identical": false,
+      "bytes": 5255650,
+      "recovery_source": "Regenerated log2[(count + 0.5)/(full library size + 1) x 1,000,000] matrix from exact recovered raw counts, with CPM >=1 in at least the control-group count, pre-filter library totals and fixed original sample order; compressed bytes differ from historical archive."
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/analysis_summary.json",
+      "historical_sha256": "fde8fc22097fba2c5f453a0a9b3d2f50cbb1e833dea6a43507ef04c0c3f3d157",
+      "current_sha256": "e21c17d1156bc84a051b6d1c937efbbdcd3bd9e164ed1ada9850e7347c98ec6a",
+      "byte_identical": false,
+      "bytes": 6059,
+      "recovery_source": "Reconstructed analysis configuration and verification metadata; original unavailable bytes are not represented as preserved."
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/analyze_shared_reference.py",
+      "historical_sha256": "dd0b0c90081d47a5040e81497bb535f5d175e25205a252054a51ad9c3e3eb5a6",
+      "current_sha256": "dc391b579ac8d58e797d3a53de35334d9248c3af0382a7b68a115ac9621abef8",
+      "byte_identical": false,
+      "bytes": 13033,
+      "recovery_source": "Reconstructed transparent raw-count analysis and archived-allocation replay program; not the original unavailable script."
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/animal_label_permutations.csv",
+      "historical_sha256": "0bffac65c94cb82500a0ae0e90becc71e2c11cd417611b85165be393e4783bde",
+      "current_sha256": "0bffac65c94cb82500a0ae0e90becc71e2c11cd417611b85165be393e4783bde",
+      "byte_identical": true,
+      "bytes": 83939,
+      "recovery_source": "Recovered losslessly from Additional_file_3_Supplementary_Tables.xlsx, Pulmonary_Sensitivity sheet; exact original SHA-256."
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/disjoint_reference_splits.csv",
+      "historical_sha256": "f1e2c6869926f19e8c33386abad3c6fb19673fb917d6a66e55732291ec14a5e5",
+      "current_sha256": "f1e2c6869926f19e8c33386abad3c6fb19673fb917d6a66e55732291ec14a5e5",
+      "byte_identical": true,
+      "bytes": 127457,
+      "recovery_source": "Recovered losslessly from Additional_file_3_Supplementary_Tables.xlsx, Pulmonary_Sensitivity sheet; exact original SHA-256."
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/shared_reference_summary.csv",
+      "historical_sha256": "d50a5d8026dc963ff30326d70df9afa653aa09b6a995c104879f3c44bdd167d2",
+      "current_sha256": "d50a5d8026dc963ff30326d70df9afa653aa09b6a995c104879f3c44bdd167d2",
+      "byte_identical": true,
+      "bytes": 1770,
+      "recovery_source": "Recovered losslessly from Additional_file_3_Supplementary_Tables.xlsx, Pulmonary_Sensitivity sheet; exact original SHA-256."
+    },
+    {
+      "path": "Source_Data/Pulmonary_Raw/GSE278200_NINT_raw_counts.txt.gz",
+      "historical_sha256": "5ae68a0a8b4ab253105e27df215af424e44ca3563c52f22edd1981d5253eebfb",
+      "current_sha256": "5ae68a0a8b4ab253105e27df215af424e44ca3563c52f22edd1981d5253eebfb",
+      "byte_identical": true,
+      "bytes": 476719,
+      "recovery_source": "Re-downloaded public GEO supplementary raw-count file; exact original SHA-256."
+    },
+    {
+      "path": "Source_Data/Pulmonary_Raw/GSE308578_Gene_counts.csv.gz",
+      "historical_sha256": "a46808f90410796adc84738e4045aaeee311bf7445c71c39c1ee47e08da47a9c",
+      "current_sha256": "a46808f90410796adc84738e4045aaeee311bf7445c71c39c1ee47e08da47a9c",
+      "byte_identical": true,
+      "bytes": 1456563,
+      "recovery_source": "Re-downloaded public GEO supplementary raw-count file; exact original SHA-256."
+    }
+  ],
+  "hepatic_replay": {
+    "status": "passed",
+    "reconstruction_date": "2026-09-22",
+    "description": "New recovery QA record; not the original unavailable numeric_QA.json. The original archived analysis script was rerun in an isolated directory using the exact recovered GEO matrix, exact sample metadata, and the 2026-09-22 NCBI mouse annotation download.",
+    "original_QA_sha256": "9cc5b98840a32c72b10980f0ce69cbab383da6c889f8df8a029b1c245979a93f",
+    "annotation_check": {
+      "downloaded_gene_info_sha256": "21e4ebd2ccfd561940f0d922196faf5ea25e97addbaa65444d4d4f0c4649721f",
+      "original_archived_gene_info_sha256": "5e0ab796f17f03c4a57785ead427a8411c469a57385536eb17f268eb7c3ed49a",
+      "analyzed_features": 13392,
+      "symbol_mapping_changes": [],
+      "conclusion": "Updated public annotation download maps every analyzed feature exactly as archived feature_annotation.csv."
+    },
+    "output_checks": [
+      {
+        "file": "NINT_vs_DISEASE_all_genes.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0.0,
+        "sha_exact": true
+      },
+      {
+        "file": "module_contrasts.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0.0,
+        "sha_exact": true
+      },
+      {
+        "file": "DISEASE_vs_CONTROL_all_genes.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0.0,
+        "sha_exact": true
+      },
+      {
+        "file": "feature_annotation.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0.0,
+        "sha_exact": true
+      },
+      {
+        "file": "module_gene_membership.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0,
+        "sha_exact": true
+      },
+      {
+        "file": "sample_PCA.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0.0,
+        "sha_exact": true
+      },
+      {
+        "file": "fixed_targets_and_clinical_proteins.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0.0,
+        "sha_exact": true
+      },
+      {
+        "file": "sample_QC.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0.0,
+        "sha_exact": true
+      },
+      {
+        "file": "module_scores_by_animal.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0.0,
+        "sha_exact": true
+      },
+      {
+        "file": "sample_metadata.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0,
+        "sha_exact": true
+      },
+      {
+        "file": "disjoint_disease_reference_sensitivity.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0.0,
+        "sha_exact": true
+      },
+      {
+        "file": "NINT_vs_CONTROL_all_genes.csv",
+        "same_shape": true,
+        "same_columns": true,
+        "numerics_equal_1e12": true,
+        "max_abs_delta": 0.0,
+        "sha_exact": true
+      }
+    ],
+    "all_csv_outputs_byte_identical": true,
+    "analysis_summary_byte_identical": false,
+    "analysis_summary_differences": {
+      "analysis_version": {
+        "archived": null,
+        "replay": "deposited_RMA_matrix_Python_EB"
+      }
+    },
+    "all_original_summary_fields_identical": true
+  },
+  "pulmonary_recovery_record": "Analysis/pulmonary_sensitivity/analysis_summary.json",
+  "pulmonary_validation_note": "All observed statistics, null medians, directional P values and BH q values reproduce the archived values; all 506 split identities and values reproduce. Two of 1070 allocation Spearman correlations differ by at most 5.49e-8; the original archived result CSVs are retained byte-identically and the allocation-level discrepancies are documented in the pulmonary recovery record.",
+  "historical_manifest_note": "The historical integrity manifest is retained at Original_Integrity/SHA256SUMS_20260921.txt in the final package. The active SHA256SUMS.txt identifies current packaged bytes; historical hashes remain identifiable for changed reconstruction outputs."
+}

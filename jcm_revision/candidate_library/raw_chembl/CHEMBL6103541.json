@@ -1,0 +1,24 @@
+{
+  "abstract": "Scaffold-based drug design has become increasingly prominent in the pharmaceutical field due to the systematic and effective approach through which it facilitates the development of novel drugs. The identification of key scaffolds provides medicinal chemists with a fundamental framework for subsequent research. With mounting evidence suggesting that increased aromaticity could impede the chances of developmental success for oral drug candidates, there is an imperative need for a more thorough exploration of alternative ring systems to mitigate attrition risks. The unique characteristics exhibited by three-membered rings have led to their application in medicinal chemistry. This review explores the use of cyclopropane-, aziridine-, thiirane-, and epoxide-containing compounds in drug discovery, focusing on their roles in approved medicines and drug candidates. Specifically, the importance of the three-membered ring systems in rending biological activity for each drug molecule was highlighted. The undeniable therapeutic value and intriguing features presented by these compounds suggest significant pharmacological potential, providing justification for their incorporation into the design of novel drug candidates.",
+  "authors": "Uthumange SS, Liew AJH, Chee XW, Yeong KY.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_37",
+    "creation_date": "2026-05-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL6103541",
+  "doi": "10.1016/j.bmc.2024.117980",
+  "doi_chembl": null,
+  "first_page": "117980",
+  "issue": null,
+  "journal": "Bioorg Med Chem",
+  "journal_full_title": "Bioorganic & medicinal chemistry.",
+  "last_page": "117980",
+  "patent_id": null,
+  "pubmed_id": 39536361,
+  "src_id": 1,
+  "title": "Ringing medicinal chemistry: The importance of 3-membered rings in drug discovery.",
+  "volume": "116",
+  "year": 2024
+}

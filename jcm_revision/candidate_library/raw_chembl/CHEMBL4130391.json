@@ -1,0 +1,24 @@
+{
+  "abstract": "A novel series of methyl indolinone-6-carboxylates bearing an indole moiety were identified as potent angiokinase inhibitors. The most active compound, A8, potently targeted the kinase activities of vascular endothelial growth factor receptors 2 and 3, and platelet-derived growth factor receptors \u03b1 and \u03b2, with IC50 values in the nanomolar range. In addition, A8 effectively suppressed the proliferation of human umbilical vein endothelial cells, and HT-29 and MCF-7 cancer cells, by inducing apoptosis. Compound A8 is thus a promising candidate for further investigation.",
+  "authors": "Qin M, Tian Y, Sun X, Yu S, Xia J, Gong P, Zhang H, Zhao Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_26",
+    "creation_date": "2020-01-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4130391",
+  "doi": "10.1016/j.ejmech.2017.08.031",
+  "doi_chembl": null,
+  "first_page": "492",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "502",
+  "patent_id": null,
+  "pubmed_id": 28826084,
+  "src_id": 1,
+  "title": "Novel methyl indolinone-6-carboxylates containing an indole moiety as angiokinase inhibitors.",
+  "volume": "139",
+  "year": 2017
+}

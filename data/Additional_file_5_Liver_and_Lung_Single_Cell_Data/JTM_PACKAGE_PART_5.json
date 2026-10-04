@@ -1,0 +1,176 @@
+{
+  "additional_number": 5,
+  "archive_name": "Additional_file_5_Liver_and_Lung_Single_Cell_Data.zip",
+  "files": [
+    {
+      "path": "Source_Data/GSE151374/docs/GSE151374_methods_results_caption.md",
+      "size": 8919,
+      "sha256": "fa90f99d3cd781188bdcad92e773e2c1571c5e922fd9361fc5ed2ef71a82ec2f"
+    },
+    {
+      "path": "Source_Data/GSE151374/docs/S6_results_callout.md",
+      "size": 804,
+      "sha256": "b004fb3b67436fa61f58e8e963cf0baf4faf8804b2a73a6dbcc3389bce5ab2a2"
+    },
+    {
+      "path": "Source_Data/GSE151374/docs/Supplementary_Figure_S6_caption.md",
+      "size": 2165,
+      "sha256": "6ac61bb10c0e18106dfbccf7fdc335fc37f1341e4025991efb1d1751ed4ea952"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/analysis_manifest.json",
+      "size": 18091,
+      "sha256": "e558f28bdc62172eabf64f5c9e0e969c1a8cc9517d03afdd1947d3da08a749b8"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/candidate_and_phenotype_tracks.csv",
+      "size": 82201,
+      "sha256": "9023aa05424c319bb01dd0f1369da1300ebc5c6cdbb0b0d1b0fec507cf909f00"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/candidate_gene_contrasts.csv",
+      "size": 8775,
+      "sha256": "8d8baca5ebef16ff608c881e2acd50f6068f533c739c3e6ae23bf2cadee687c7"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/celltype_counts_and_proportions_by_library.csv",
+      "size": 35059,
+      "sha256": "4f89a5874ec399aa430eec5586d28d126517a399067e438d0cbeb6f2cf60bab5"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/celltype_proportion_contrasts.csv",
+      "size": 3900,
+      "sha256": "43af67f98d51b864cdbc8d8cde376689f928b6c87cab069f542db3ed5993cfcd"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/library_manifest.csv",
+      "size": 3021,
+      "sha256": "1f8cfec13a50b83dc23df083b04d702521747bb88ff4e39764ff463630ee5e2d"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/macrophage_DE_NINT_vs_BLM_day14.csv",
+      "size": 6305754,
+      "sha256": "c38ff69e01f8dc83c25376c9d398997d2afd50fba2e77f97bbb58a27f5611552"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/macrophage_DE_NINT_vs_BLM_day7.csv",
+      "size": 6374803,
+      "sha256": "6d26499304e770f3ebaae7a0955ea54c5f2dba00b7b4c0673b821135e7d623a1"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/macrophage_module_contrasts.csv",
+      "size": 2030,
+      "sha256": "e24c5749f262508cbd2f2863c4261a8cf4193161062355847c09c3801b52f9a1"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/macrophage_module_scores_by_library.csv",
+      "size": 23049,
+      "sha256": "bf0a107114226e3cc795946ac44909da7372343368545916c2632d89f93ba593"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/module_gene_membership.csv",
+      "size": 1495,
+      "sha256": "3c1ea65c80ca55ac056fe32c88e9d63124fe5a6c6040df923fc27d09d2995c61"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/pca_all_retained_pseudobulk.csv",
+      "size": 4422,
+      "sha256": "4b45743870a87343f53db583045a22cf060f068df06748029aa4ca73574d2a14"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/pca_macrophage_pseudobulk.csv",
+      "size": 4383,
+      "sha256": "75bd8b98e78cd7487a23b2610f2ad49bf8c570eb7fdfed8c80eecfde2ef4b978"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/pseudobulk_all_retained_counts.tsv.gz",
+      "size": 953106,
+      "sha256": "2ab544f10362a6c6f16b3bd2ab784c494e0f444b2dd34a8cd57946512c3f4ce0"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/pseudobulk_macrophage_counts.tsv.gz",
+      "size": 794702,
+      "sha256": "4b12d9e902437a62cae6050862b53d882f5471f0afa8907a5c0bf8976dfd2e17"
+    },
+    {
+      "path": "Source_Data/GSE151374/results/qc_by_library.csv",
+      "size": 4826,
+      "sha256": "25c8bb874e34d375709e194cd278c0b1e2257a55bcadf0b788fa8d030ddb86cc"
+    },
+    {
+      "path": "Source_Data/GSE151374/validation/aggregate_marker_expression_by_celltype.csv",
+      "size": 3312,
+      "sha256": "1c07108bc7bf8402c16da4122a8f9367c27c6261b155c3056b3fed1cf997abcd"
+    },
+    {
+      "path": "Source_Data/GSE151374/validation/manifest_hash_validation.json",
+      "size": 14857,
+      "sha256": "bce33ccdcdc4b4e934aed7ee276386125658249a6d1e4dd01ca32fb16652463d"
+    },
+    {
+      "path": "Source_Data/GSE151374/validation/marker_score_separation_by_library.csv",
+      "size": 34485,
+      "sha256": "041ef151abb866ebb6467b3c9c860d145c158f6c2f4aa2fa3aad78ce0874a5e5"
+    },
+    {
+      "path": "Source_Data/GSE151374/validation/validation_checks.json",
+      "size": 395,
+      "sha256": "ccede087a1ef99b3105c214e181db27e785d95bf9392b1f4a02ca24b1018de2f"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/analysis_manifest.json",
+      "size": 1542,
+      "sha256": "4f5cb1ed40d1b80a71ad082e5f37f857c8bedb3085545aab34aecf4df01d1583"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/cell_metadata.csv",
+      "size": 667033,
+      "sha256": "d94cc143d3075032374493a2fe9848424edb65ab974f49ea456e5c2eea53dfc4"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/descriptive_pca_coordinates.csv",
+      "size": 225692,
+      "sha256": "d2a7675d45c4c64d0ac0c64c036285d1d0de2ce63a68d4b965cc454a21adf99a"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/donor_celltype_target_expression.csv",
+      "size": 340308,
+      "sha256": "20ea051202f9c7c38ee2c73e0e329ae57569229327c99e81fa907f4db85e624c"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/donor_level_target_expression.csv",
+      "size": 125338,
+      "sha256": "78b206561cf3177685edaa6f822aaae90cba49732241aa0e80290eca3f6c3171"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/endothelial_network_matrix.csv.gz",
+      "size": 1389231,
+      "sha256": "b1227a4e090fad260c7264c2fb28d8b3bd86c22c0d8f53ffc02e87ca0ecd7d84"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/forced_gene_audit.csv",
+      "size": 823,
+      "sha256": "ce02b7db8ba64412c2757dca50ee87b82c2530cfbed9ebdb839ab3687ad80c05"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/hepatocyte_network_matrix.csv.gz",
+      "size": 7375543,
+      "sha256": "ca04e809eba7018afb80841fdbc6bf53ce7f40e2cee81983d05ef6285e8c9f4a"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/macrophage_network_matrix.csv.gz",
+      "size": 2084506,
+      "sha256": "506b1c291e43ab5a0c86a46995cac411a6d1b17e592f30486ef174ed0a604b1b"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/network_matrix_manifest.csv",
+      "size": 513,
+      "sha256": "0db16c7fd90434989d3de2d8b13b519a49050cd1414f8dd34b85ee17a4353dac"
+    },
+    {
+      "path": "Source_Data/Liver_Single_Cell/target_expression_by_compartment.csv",
+      "size": 53828,
+      "sha256": "df976be26600a728f53411f149c1f791c78434287792a8cec900fde01a8af1cd"
+    }
+  ]
+}

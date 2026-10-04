@@ -1,0 +1,13 @@
+sample,group,experimental_unit,species,tissue,dose_time
+BLM1,BLM,independent animal,Rattus norvegicus,right lung homogenate,BLM 1 U/kg IT days 0/4 + vehicle; day 28
+SAL1,SAL,independent animal,Rattus norvegicus,right lung homogenate,saline + vehicle; day 28
+SAL3,SAL,independent animal,Rattus norvegicus,right lung homogenate,saline + vehicle; day 28
+BLM3,BLM,independent animal,Rattus norvegicus,right lung homogenate,BLM 1 U/kg IT days 0/4 + vehicle; day 28
+SAL2,SAL,independent animal,Rattus norvegicus,right lung homogenate,saline + vehicle; day 28
+NINT1,NINT,independent animal,Rattus norvegicus,right lung homogenate,BLM + nintedanib 100 mg/kg PO daily days 7–28
+BLM4,BLM,independent animal,Rattus norvegicus,right lung homogenate,BLM 1 U/kg IT days 0/4 + vehicle; day 28
+NINT3,NINT,independent animal,Rattus norvegicus,right lung homogenate,BLM + nintedanib 100 mg/kg PO daily days 7–28
+NINT4,NINT,independent animal,Rattus norvegicus,right lung homogenate,BLM + nintedanib 100 mg/kg PO daily days 7–28
+SAL4,SAL,independent animal,Rattus norvegicus,right lung homogenate,saline + vehicle; day 28
+NINT2,NINT,independent animal,Rattus norvegicus,right lung homogenate,BLM + nintedanib 100 mg/kg PO daily days 7–28
+BLM2,BLM,independent animal,Rattus norvegicus,right lung homogenate,BLM 1 U/kg IT days 0/4 + vehicle; day 28

@@ -1,0 +1,45 @@
+{
+  "review_date": "2026-10-02",
+  "records": [
+    {
+      "compound": "crenolanib",
+      "target": "PDGFRA",
+      "endpoint": "Kd",
+      "assay": "DiscoveRx KINOMEscan Kd ELECT competitive binding; duplicate 11-point concentration-response curves",
+      "wild_type": true,
+      "units": "nM",
+      "results_prose_value": 3.2,
+      "table_1_value": 2.1,
+      "exact_value_for_calibration": null,
+      "disposition": "Internal primary-source discrepancy: prose and Table 1 interchange PDGFRA/PDGFRB Kd values. Qualitative target engagement supported, exact numerical calibration withheld.",
+      "citation": "Heinrich MC et al. Clin Cancer Res. 2012;18:4375-4384.",
+      "doi": "10.1158/1078-0432.CCR-12-0625",
+      "url": "https://aacrjournals.org/clincancerres/article/18/16/4375/15179/Crenolanib-Inhibits-the-Drug-Resistant-PDGFRA",
+      "retrieval_ref": "turn67search0"
+    },
+    {
+      "compound": "MAZ51",
+      "target": "FLT4",
+      "endpoint": "qualitative differential receptor phosphorylation inhibition",
+      "assay": "VEGF-C-stimulated PAE cells expressing VEGFR3 or VEGFR2, assessed by receptor immunoprecipitation and phosphotyrosine immunoblot",
+      "tested_concentration_uM": 5,
+      "result": "Strong suppression of VEGFR3 activation with little or no effect on VEGFR2 at 5 micromolar; at 50 micromolar inhibition was not receptor-selective.",
+      "exact_ic50_nM": null,
+      "disposition": "Mechanistic nonclinical comparator; tested concentration is not an IC50. Authors caution that other RTKs may be inhibited.",
+      "citation": "Kirkin V et al. Eur J Biochem. 2001;268:5530-5540.",
+      "doi": "10.1046/j.1432-1033.2001.02476.x",
+      "url": "https://febs.onlinelibrary.wiley.com/doi/10.1046/j.1432-1033.2001.02476.x",
+      "retrieval_ref": "turn44search0"
+    },
+    {
+      "compound": "MAZ51",
+      "target": "off-target selectivity caution",
+      "endpoint": "cell proliferation/apoptosis",
+      "result": "MAZ51 affected some tumor cells that did not express VEGFR3, showing that a phenotype cannot automatically be attributed to FLT4 inhibition.",
+      "citation": "Kirkin V et al. Int J Cancer. 2004;112:986-993.",
+      "doi": "10.1002/ijc.20509",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15386354/",
+      "retrieval_ref": "turn44search1"
+    }
+  ]
+}

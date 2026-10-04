@@ -1,0 +1,11 @@
+{
+  "matched_kd_records": 12,
+  "matched_kd_compounds": 6,
+  "potential_duplicate_records": 8,
+  "property_rows": 48,
+  "source_sha256": {
+    "candidate_library/Davis2011_Matched_Kd_Benchmark.csv": "ca32f9f86c68cf5d4f2fb47babe3bef3ff524b7dbefee10735836438c2bfc914",
+    "candidate_library/Endpoint_Separated_Experimental_Summary.csv": "2b70f4a8bc284470ccc7b27af57ba9d516dc1abfba72d428b84a27def46b2739",
+    "screening/Inductive_Properties_All16.csv": "679bd6daf3c5afc25cf0605b4824b99fca7442a3e6682fbcf4e6042c4ce953f1"
+  }
+}

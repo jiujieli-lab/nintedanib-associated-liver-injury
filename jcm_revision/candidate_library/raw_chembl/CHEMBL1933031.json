@@ -1,0 +1,24 @@
+{
+  "abstract": "PI3K is a promising therapeutic target for cancer. With PI-103 as the lead compound, we designed and synthesized 4-(2-arylpyrido[3',2':3,4]pyrrolo[1,2-f][1,2,4]triazin-4-yl)morpholine derivatives. 9, 10a, 10d, 10e had the IC(50) against PI3K\u03b1 comparable with PI-103. All of the compounds showed selectivity over 15 tested protein kinases and anti-proliferative activity at micromolar concentration against several cancer cell lines.",
+  "authors": "Wang J, Wang X, Chen Y, Chen S, Chen G, Tong L, Meng L, Xie Y, Ding J, Yang C.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_14",
+    "creation_date": "2012-06-27"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1933031",
+  "doi": "10.1016/j.bmcl.2011.11.003",
+  "doi_chembl": null,
+  "first_page": "339",
+  "issue": "1",
+  "journal": "Bioorg Med Chem Lett",
+  "journal_full_title": "Bioorganic & medicinal chemistry letters.",
+  "last_page": "342",
+  "patent_id": null,
+  "pubmed_id": 22130133,
+  "src_id": 1,
+  "title": "Discovery and bioactivity of 4-(2-arylpyrido[3',2':3,4]pyrrolo[1,2-f][1,2,4]triazin-4-yl) morpholine derivatives as novel PI3K inhibitors.",
+  "volume": "22",
+  "year": 2012
+}

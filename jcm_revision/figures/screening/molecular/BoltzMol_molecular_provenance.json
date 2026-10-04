@@ -1,0 +1,697 @@
+[
+  {
+    "target": "PDGFRA",
+    "ligand": "imatinib",
+    "prediction_id": "pres_El5PkTZ0qk9YvZ8V8XIZ",
+    "ligand_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "ligand_formula": "C29H31N7O",
+    "ligand_heavy_atoms": 37,
+    "ligand_bonds": 41,
+    "residue_number_offset": 592,
+    "protein_coordinate_residues": 199,
+    "submitted_target_residues": 362,
+    "all_coordinate_residues_match_submitted_and_canonical_sequence": true,
+    "all_contacts_match_independent_QC_atom_pairs_and_distances": true,
+    "B_factor_values": [
+      100.0
+    ],
+    "B_factor_used_as_confidence": false,
+    "all_contacts_lt4A": [
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "LEU",
+          "residue_number": 599,
+          "atom_name": "CD1",
+          "index": 51
+        },
+        "ligand_atom_index_zero_based": 31,
+        "ligand_element": "C",
+        "distance_A": 3.707328682892846,
+        "ligand_atom_name": "C46"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ALA",
+          "residue_number": 625,
+          "atom_name": "O",
+          "index": 232
+        },
+        "ligand_atom_index_zero_based": 0,
+        "ligand_element": "C",
+        "distance_A": 3.222919268815153,
+        "ligand_atom_name": "C62"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "VAL",
+          "residue_number": 626,
+          "atom_name": "C",
+          "index": 236
+        },
+        "ligand_atom_index_zero_based": 0,
+        "ligand_element": "C",
+        "distance_A": 3.658290785298511,
+        "ligand_atom_name": "C62"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "LYS",
+          "residue_number": 627,
+          "atom_name": "N",
+          "index": 241
+        },
+        "ligand_atom_index_zero_based": 0,
+        "ligand_element": "C",
+        "distance_A": 3.272225551471047,
+        "ligand_atom_name": "C62"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "GLU",
+          "residue_number": 644,
+          "atom_name": "OE2",
+          "index": 379
+        },
+        "ligand_atom_index_zero_based": 5,
+        "ligand_element": "N",
+        "distance_A": 2.8324325265926458,
+        "ligand_atom_name": "N58"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ILE",
+          "residue_number": 647,
+          "atom_name": "CG2",
+          "index": 403
+        },
+        "ligand_atom_index_zero_based": 12,
+        "ligand_element": "C",
+        "distance_A": 3.9743915613210534,
+        "ligand_atom_name": "C64"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "MET",
+          "residue_number": 648,
+          "atom_name": "SD",
+          "index": 411
+        },
+        "ligand_atom_index_zero_based": 5,
+        "ligand_element": "N",
+        "distance_A": 3.3155890723067603,
+        "ligand_atom_name": "N58"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ILE",
+          "residue_number": 672,
+          "atom_name": "O",
+          "index": 585
+        },
+        "ligand_atom_index_zero_based": 0,
+        "ligand_element": "C",
+        "distance_A": 3.331290135578106,
+        "ligand_atom_name": "C62"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "THR",
+          "residue_number": 674,
+          "atom_name": "OG1",
+          "index": 603
+        },
+        "ligand_atom_index_zero_based": 24,
+        "ligand_element": "N",
+        "distance_A": 2.8066367300561006,
+        "ligand_atom_name": "N59"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "TYR",
+          "residue_number": 676,
+          "atom_name": "CD1",
+          "index": 620
+        },
+        "ligand_atom_index_zero_based": 34,
+        "ligand_element": "N",
+        "distance_A": 3.5408965030201043,
+        "ligand_atom_name": "N34"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "CYS",
+          "residue_number": 677,
+          "atom_name": "N",
+          "index": 626
+        },
+        "ligand_atom_index_zero_based": 34,
+        "ligand_element": "N",
+        "distance_A": 2.9300268100138602,
+        "ligand_atom_name": "N34"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "CYS",
+          "residue_number": 814,
+          "atom_name": "SG",
+          "index": 1115
+        },
+        "ligand_atom_index_zero_based": 14,
+        "ligand_element": "C",
+        "distance_A": 3.6312905028102618,
+        "ligand_atom_name": "C67"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "VAL",
+          "residue_number": 815,
+          "atom_name": "O",
+          "index": 1119
+        },
+        "ligand_atom_index_zero_based": 16,
+        "ligand_element": "N",
+        "distance_A": 3.1830911745031747,
+        "ligand_atom_name": "N60"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "HIS",
+          "residue_number": 816,
+          "atom_name": "O",
+          "index": 1126
+        },
+        "ligand_atom_index_zero_based": 18,
+        "ligand_element": "C",
+        "distance_A": 3.1005801128982307,
+        "ligand_atom_name": "C66"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ARG",
+          "residue_number": 817,
+          "atom_name": "CD",
+          "index": 1139
+        },
+        "ligand_atom_index_zero_based": 17,
+        "ligand_element": "C",
+        "distance_A": 3.5047350551218552,
+        "ligand_atom_name": "C63"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "LEU",
+          "residue_number": 825,
+          "atom_name": "CD1",
+          "index": 1202
+        },
+        "ligand_atom_index_zero_based": 30,
+        "ligand_element": "C",
+        "distance_A": 3.4792008283656175,
+        "ligand_atom_name": "C53"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "CYS",
+          "residue_number": 835,
+          "atom_name": "CA",
+          "index": 1272
+        },
+        "ligand_atom_index_zero_based": 7,
+        "ligand_element": "O",
+        "distance_A": 3.3136159546483355,
+        "ligand_atom_name": "O32"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ASP",
+          "residue_number": 836,
+          "atom_name": "N",
+          "index": 1277
+        },
+        "ligand_atom_index_zero_based": 7,
+        "ligand_element": "O",
+        "distance_A": 3.0323150301708424,
+        "ligand_atom_name": "O32"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "PHE",
+          "residue_number": 837,
+          "atom_name": "CZ",
+          "index": 1295
+        },
+        "ligand_atom_index_zero_based": 28,
+        "ligand_element": "C",
+        "distance_A": 3.4958136338483494,
+        "ligand_atom_name": "C42"
+      }
+    ],
+    "input_sha256": {
+      "boltz-experiments/jcm-pdgfra-focused16-v1/results/pres_El5PkTZ0qk9YvZ8V8XIZ/files/result/pres_El5PkTZ0qk9YvZ8V8XIZ_predicted.cif": "2a4f41a519532c801004371aef855f34a937820bda784e1b6bf884c9992bb7ea",
+      "boltz-experiments/jcm-pdgfra-focused16-v1/results/pres_El5PkTZ0qk9YvZ8V8XIZ/metadata.json": "b9cdd5033fa94ed30540614670a8e43eb525188200166efadee8e65ff7e96b19",
+      "boltz-experiments/jcm-pdgfra-focused16-v1/run.json": "9cb889d422607d155c3b92db2f027b52786d8ff74b28ad3de16c476a96845831",
+      "proto/AF-P16234-F1-model_v6.pdb": "ec00fb28996196b5ba7114e4be11e38282b435edd9d545459722284303541bc1",
+      "candidate_library/Candidate_Screening_Library.csv": "8fd844b0a6abf4033ee0eaf5ce190a5b4c293de890b6b78044d10f09fac4812e",
+      "md/Boltz_Priority_Pair_Contacts.csv": "b1ed160a5b9bc685dbb96c93cef73350f1f882342f0cfb193389e3b1493c1106"
+    },
+    "backbone_trace_segments": 10,
+    "selected_contacts": [
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "GLU",
+          "residue_number": 644,
+          "atom_name": "OE2",
+          "index": 379
+        },
+        "ligand_atom_index_zero_based": 5,
+        "ligand_element": "N",
+        "distance_A": 2.8324325265926458,
+        "ligand_atom_name": "N58"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "CYS",
+          "residue_number": 677,
+          "atom_name": "N",
+          "index": 626
+        },
+        "ligand_atom_index_zero_based": 34,
+        "ligand_element": "N",
+        "distance_A": 2.9300268100138602,
+        "ligand_atom_name": "N34"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ASP",
+          "residue_number": 836,
+          "atom_name": "N",
+          "index": 1277
+        },
+        "ligand_atom_index_zero_based": 7,
+        "ligand_element": "O",
+        "distance_A": 3.0323150301708424,
+        "ligand_atom_name": "O32"
+      }
+    ],
+    "camera_center": [
+      -0.8736572972972972,
+      -4.023003513513513,
+      -0.9695548648648645
+    ],
+    "camera_rotation": [
+      [
+        0.9165029373837313,
+        -0.2813281395993832,
+        -0.28438854343405345
+      ],
+      [
+        0.08373963051462656,
+        -0.5602440228473534,
+        0.8240839211785951
+      ],
+      [
+        -0.3911649780441322,
+        -0.7790899259606462,
+        -0.4899069781278575
+      ]
+    ],
+    "geometry": "Actual mmCIF coordinates; one shared rigid orthographic camera; no ligand fit or coordinate editing",
+    "semantics": "Predicted cropped pocket; selected heavy-atom proximity contacts only; no hydrogen-bond assignment",
+    "backbone": "Uniform gray C-alpha trace; cubic interpolation only within consecutive residue runs; no gaps completed",
+    "figure": {
+      "inches": [
+        2.25,
+        2.4
+      ],
+      "dpi": 600,
+      "pixels": [
+        1350,
+        1440
+      ],
+      "panel_letters": false
+    }
+  },
+  {
+    "target": "FLT4",
+    "ligand": "tivozanib",
+    "prediction_id": "pres_D49fhaQle5QZqdqqr6um",
+    "ligand_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC",
+    "ligand_formula": "C22H19ClN4O5",
+    "ligand_heavy_atoms": 32,
+    "ligand_bonds": 35,
+    "residue_number_offset": 844,
+    "protein_coordinate_residues": 195,
+    "submitted_target_residues": 329,
+    "all_coordinate_residues_match_submitted_and_canonical_sequence": true,
+    "all_contacts_match_independent_QC_atom_pairs_and_distances": true,
+    "B_factor_values": [
+      100.0
+    ],
+    "B_factor_used_as_confidence": false,
+    "all_contacts_lt4A": [
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "LEU",
+          "residue_number": 851,
+          "atom_name": "CB",
+          "index": 52
+        },
+        "ligand_atom_index_zero_based": 30,
+        "ligand_element": "O",
+        "distance_A": 3.543815623378282,
+        "ligand_atom_name": "O26"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "VAL",
+          "residue_number": 859,
+          "atom_name": "CG1",
+          "index": 110
+        },
+        "ligand_atom_index_zero_based": 9,
+        "ligand_element": "O",
+        "distance_A": 3.4968047029395284,
+        "ligand_atom_name": "O24"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ALA",
+          "residue_number": 877,
+          "atom_name": "CB",
+          "index": 234
+        },
+        "ligand_atom_index_zero_based": 6,
+        "ligand_element": "C",
+        "distance_A": 3.535568372313001,
+        "ligand_atom_name": "C29"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "LYS",
+          "residue_number": 879,
+          "atom_name": "CB",
+          "index": 246
+        },
+        "ligand_atom_index_zero_based": 25,
+        "ligand_element": "Cl",
+        "distance_A": 3.3178917251923696,
+        "ligand_atom_name": "CL21"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "GLU",
+          "residue_number": 896,
+          "atom_name": "OE2",
+          "index": 377
+        },
+        "ligand_atom_index_zero_based": 17,
+        "ligand_element": "N",
+        "distance_A": 2.8225342189068323,
+        "ligand_atom_name": "N47"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ILE",
+          "residue_number": 899,
+          "atom_name": "CG2",
+          "index": 401
+        },
+        "ligand_atom_index_zero_based": 21,
+        "ligand_element": "C",
+        "distance_A": 3.6400434202080607,
+        "ligand_atom_name": "C51"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "LEU",
+          "residue_number": 900,
+          "atom_name": "CD2",
+          "index": 410
+        },
+        "ligand_atom_index_zero_based": 23,
+        "ligand_element": "N",
+        "distance_A": 3.553947830525935,
+        "ligand_atom_name": "N22"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ILE",
+          "residue_number": 903,
+          "atom_name": "CD1",
+          "index": 436
+        },
+        "ligand_atom_index_zero_based": 21,
+        "ligand_element": "C",
+        "distance_A": 3.6608250389358954,
+        "ligand_atom_name": "C51"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "VAL",
+          "residue_number": 927,
+          "atom_name": "CG2",
+          "index": 608
+        },
+        "ligand_atom_index_zero_based": 25,
+        "ligand_element": "Cl",
+        "distance_A": 3.6048607465615086,
+        "ligand_atom_name": "CL21"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "GLU",
+          "residue_number": 928,
+          "atom_name": "O",
+          "index": 612
+        },
+        "ligand_atom_index_zero_based": 6,
+        "ligand_element": "C",
+        "distance_A": 3.2153865184297827,
+        "ligand_atom_name": "C29"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "PHE",
+          "residue_number": 929,
+          "atom_name": "C",
+          "index": 620
+        },
+        "ligand_atom_index_zero_based": 5,
+        "ligand_element": "N",
+        "distance_A": 3.883189090747449,
+        "ligand_atom_name": "N23"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "CYS",
+          "residue_number": 930,
+          "atom_name": "N",
+          "index": 629
+        },
+        "ligand_atom_index_zero_based": 5,
+        "ligand_element": "N",
+        "distance_A": 2.9745762273977783,
+        "ligand_atom_name": "N23"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "LYS",
+          "residue_number": 931,
+          "atom_name": "O",
+          "index": 638
+        },
+        "ligand_atom_index_zero_based": 0,
+        "ligand_element": "C",
+        "distance_A": 3.4883298938317173,
+        "ligand_atom_name": "C49"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "GLY",
+          "residue_number": 933,
+          "atom_name": "N",
+          "index": 656
+        },
+        "ligand_atom_index_zero_based": 0,
+        "ligand_element": "C",
+        "distance_A": 3.688511721223074,
+        "ligand_atom_name": "C49"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "LEU",
+          "residue_number": 1044,
+          "atom_name": "CD1",
+          "index": 1268
+        },
+        "ligand_atom_index_zero_based": 7,
+        "ligand_element": "C",
+        "distance_A": 3.5345675584008855,
+        "ligand_atom_name": "C36"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "CYS",
+          "residue_number": 1054,
+          "atom_name": "CB",
+          "index": 1342
+        },
+        "ligand_atom_index_zero_based": 16,
+        "ligand_element": "O",
+        "distance_A": 3.1850211973077984,
+        "ligand_atom_name": "O20"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ASP",
+          "residue_number": 1055,
+          "atom_name": "N",
+          "index": 1344
+        },
+        "ligand_atom_index_zero_based": 16,
+        "ligand_element": "O",
+        "distance_A": 2.9270787948909067,
+        "ligand_atom_name": "O20"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "PHE",
+          "residue_number": 1056,
+          "atom_name": "CE2",
+          "index": 1361
+        },
+        "ligand_atom_index_zero_based": 9,
+        "ligand_element": "O",
+        "distance_A": 3.809964637539304,
+        "ligand_atom_name": "O24"
+      }
+    ],
+    "input_sha256": {
+      "boltz-experiments/jcm-flt4-focused16-v1/results/pres_D49fhaQle5QZqdqqr6um/files/result/pres_D49fhaQle5QZqdqqr6um_predicted.cif": "2f954b8bb518ef6208158ff412b9bf7c948941289dddc2396bffecf754a9b8af",
+      "boltz-experiments/jcm-flt4-focused16-v1/results/pres_D49fhaQle5QZqdqqr6um/metadata.json": "8e2fc80a98ac98e9ee51e5b22df8ba4f2822d2f6a2a18b50b6eb22d799549ec6",
+      "boltz-experiments/jcm-flt4-focused16-v1/run.json": "855ef39a3a52e897041c27620070fe7548332fcc500f16edde87f3a0fce215f6",
+      "proto/AF-P35916-F1-model_v6.pdb": "9cf8f02fc131ff228e1e6a6905249d431aba669b2375f71c07507d5acbfd7696",
+      "candidate_library/Candidate_Screening_Library.csv": "8fd844b0a6abf4033ee0eaf5ce190a5b4c293de890b6b78044d10f09fac4812e",
+      "md/Boltz_Priority_Pair_Contacts.csv": "b1ed160a5b9bc685dbb96c93cef73350f1f882342f0cfb193389e3b1493c1106"
+    },
+    "backbone_trace_segments": 9,
+    "selected_contacts": [
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "GLU",
+          "residue_number": 896,
+          "atom_name": "OE2",
+          "index": 377
+        },
+        "ligand_atom_index_zero_based": 17,
+        "ligand_element": "N",
+        "distance_A": 2.8225342189068323,
+        "ligand_atom_name": "N47"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "CYS",
+          "residue_number": 930,
+          "atom_name": "N",
+          "index": 629
+        },
+        "ligand_atom_index_zero_based": 5,
+        "ligand_element": "N",
+        "distance_A": 2.9745762273977783,
+        "ligand_atom_name": "N23"
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ASP",
+          "residue_number": 1055,
+          "atom_name": "N",
+          "index": 1344
+        },
+        "ligand_atom_index_zero_based": 16,
+        "ligand_element": "O",
+        "distance_A": 2.9270787948909067,
+        "ligand_atom_name": "O20"
+      }
+    ],
+    "camera_center": [
+      2.2433328125000003,
+      -0.5443175000000003,
+      3.136693749999999
+    ],
+    "camera_rotation": [
+      [
+        -0.4173437495378795,
+        -0.2549540790981525,
+        0.8722514616054688
+      ],
+      [
+        0.13311773126674556,
+        0.9323325150392199,
+        0.33620789851375754
+      ],
+      [
+        -0.8989459740963626,
+        0.25642640065300537,
+        -0.355164239055801
+      ]
+    ],
+    "geometry": "Actual mmCIF coordinates; one shared rigid orthographic camera; no ligand fit or coordinate editing",
+    "semantics": "Predicted cropped pocket; selected heavy-atom proximity contacts only; no hydrogen-bond assignment",
+    "backbone": "Uniform gray C-alpha trace; cubic interpolation only within consecutive residue runs; no gaps completed",
+    "figure": {
+      "inches": [
+        2.25,
+        2.4
+      ],
+      "dpi": 600,
+      "pixels": [
+        1350,
+        1440
+      ],
+      "panel_letters": false
+    }
+  }
+]

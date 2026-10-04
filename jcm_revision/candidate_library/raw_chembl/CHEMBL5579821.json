@@ -1,0 +1,24 @@
+{
+  "abstract": "Protein kinases are responsible for a myriad of cellular functions, such as cell cycle, apoptosis, and proliferation. Because of this, kinases make excellent targets for therapeutics. During the process to identify clinical kinase inhibitor candidates, kinase selectivity profiles of lead inhibitors are typically obtained. Such kinome selectivity screening could identify crucial kinase anti-targets that might contribute to drug toxicity and/or reveal additional kinase targets that potentially contribute to the efficacy of the compound via kinase polypharmacology. In addition to kinome panel screening, practitioners also obtain the inhibition profiles of a few non-kinase targets, such as ion-channels and select GPCR targets to identify compounds that might possess potential liabilities. Often ignored is the possibility that identified kinase inhibitors might also inhibit or bind to the other proteins (greater than 20,000) in the cell that are not kinases, which may be relevant to toxicity or even additional mode of drug action. This review highlights various inhibitors, which have been approved by the FDA or are currently undergoing clinical trials, that also inhibit other non-kinase targets. The binding poses of the drugs in the binding sites of the target kinases and off-targets are analyzed to understand if the same features of the compounds are critical for the polypharmacology.",
+  "authors": "Brauer NR, Kempen AL, Hernandez D, Sintim HO.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_36",
+    "creation_date": "2025-07-28"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5579821",
+  "doi": "10.1016/j.ejmech.2024.116540",
+  "doi_chembl": null,
+  "first_page": "116540",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "116540",
+  "patent_id": null,
+  "pubmed_id": 38852338,
+  "src_id": 1,
+  "title": "Non-kinase off-target inhibitory activities of clinically-relevant kinase inhibitors.",
+  "volume": "275",
+  "year": 2024
+}

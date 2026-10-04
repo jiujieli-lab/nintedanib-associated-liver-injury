@@ -1,0 +1,120 @@
+{
+  "molecules": [
+    {
+      "atc_classifications": [
+        "L01EX08"
+      ],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": 2015,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1289601",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1289601",
+        "molecule_chembl_id": "CHEMBL1289601",
+        "parent_chembl_id": "CHEMBL1289601"
+      },
+      "molecule_properties": {
+        "alogp": "4.07",
+        "aromatic_rings": 3,
+        "full_molformula": "C21H19ClN4O4",
+        "full_mwt": "426.86",
+        "hba": 5,
+        "hbd": 3,
+        "heavy_atoms": 30,
+        "mw_freebase": "426.86",
+        "np_likeness_score": "-1.35",
+        "num_ro5_violations": 0,
+        "psa": "115.57",
+        "qed_weighted": "0.55",
+        "ro3_pass": "N",
+        "rtb": 6
+      },
+      "molecule_structures": {
+        "canonical_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O",
+        "molfile": "\n     RDKit          2D\n\n 30 33  0  0  0  0  0  0  0  0999 V2000\n   -3.7429   -5.9567    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.4574   -6.3692    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.1719   -5.9567    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.1719   -5.1317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.4574   -4.7192    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.7429   -5.1317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0285   -4.7192    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3140   -5.1317    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3140   -5.9567    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0285   -6.3692    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.8863   -6.3692    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.8863   -4.7192    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.8863   -3.8942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.6008   -5.1317    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0285   -3.8942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3140   -3.4817    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5995   -3.8942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3140   -2.6567    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5995   -2.2442    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.8850   -2.6567    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.8850   -3.4817    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5995   -1.4192    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -0.1706   -2.2442    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5439   -2.6567    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.5439   -3.4817    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2584   -2.2442    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9728   -2.6567    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7978   -2.6567    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3853   -3.3712    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.8863   -7.1942    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  1  6  2  0\n  1 10  1  0\n  2  3  2  0\n  3  4  1  0\n  4  5  2  0\n  5  6  1  0\n  6  7  1  0\n  7  8  2  0\n  8  9  1  0\n  9 10  2  0\n  3 11  1  0\n  4 12  1  0\n 12 13  2  0\n 12 14  1  0\n  7 15  1  0\n 15 16  1  0\n 17 16  1  0\n 16 18  2  0\n 17 21  2  0\n 18 19  1  0\n 19 20  2  0\n 20 21  1  0\n 19 22  1  0\n 20 23  1  0\n 23 24  1  0\n 24 25  2  0\n 24 26  1  0\n 26 27  1  0\n 27 28  1  0\n 28 29  1  0\n 29 27  1  0\n 11 30  1  0\nM  END\n> <chembl_id>\nCHEMBL1289601\n\n> <chembl_pref_name>\nLENVATINIB",
+        "standard_inchi": "InChI=1S/C21H19ClN4O4/c1-29-19-10-17-13(9-14(19)20(23)27)18(6-7-24-17)30-12-4-5-16(15(22)8-12)26-21(28)25-11-2-3-11/h4-11H,2-3H2,1H3,(H2,23,27)(H2,25,26,28)",
+        "standard_inchi_key": "WOSKHXYHFSIKNG-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "E-7080",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "E-7080"
+        },
+        {
+          "molecule_synonym": "ER-203492-00",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "ER-203492-00"
+        },
+        {
+          "molecule_synonym": "Kisplyx",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "KISPLYX"
+        },
+        {
+          "molecule_synonym": "Lenvatinib",
+          "syn_type": "ATC",
+          "synonyms": "LENVATINIB"
+        },
+        {
+          "molecule_synonym": "Lenvatinib",
+          "syn_type": "BNF",
+          "synonyms": "LENVATINIB"
+        },
+        {
+          "molecule_synonym": "Lenvatinib",
+          "syn_type": "INN",
+          "synonyms": "LENVATINIB"
+        },
+        {
+          "molecule_synonym": "Lenvatinib",
+          "syn_type": "MERCK_INDEX",
+          "synonyms": "LENVATINIB"
+        },
+        {
+          "molecule_synonym": "Lenvatinib",
+          "syn_type": "OTHER",
+          "synonyms": "LENVATINIB"
+        },
+        {
+          "molecule_synonym": "Lenvatinib",
+          "syn_type": "USAN",
+          "synonyms": "LENVATINIB"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "LENVATINIB",
+      "prodrug": 0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-tinib",
+      "usan_stem_definition": "tyrosine kinase inhibitors",
+      "usan_substem": "-tinib",
+      "usan_year": 2010,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    }
+  ],
+  "page_meta": {
+    "limit": 100,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  }
+}

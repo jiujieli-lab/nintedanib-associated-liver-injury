@@ -1,0 +1,24 @@
+{
+  "abstract": "This paper describes the identification of 6-(pyrimidin-4-yloxy)-naphthalene-1-carboxamides as a new class of potent and selective human vascular endothelial growth factor receptor 2 (VEGFR2) tyrosine kinase inhibitors. In biochemical and cellular assays, the compounds exhibit single-digit nanomolar potency toward VEGFR2. Compounds of this series show good exposure in rodents when dosed orally. They potently inhibit VEGF-driven angiogenesis in a chamber model and rodent tumor models at daily doses of less than 3 mg/kg by targeting the tumor vasculature as demonstrated by ELISA for TIE-2 in lysates or by immunohistochemical analysis. This novel series of compounds shows a potential for the treatment of solid tumors and other diseases where angiogenesis plays an important role.",
+  "authors": "Bold G, Schnell C, Furet P, McSheehy P, Br\u00fcggen J, Mestan J, Manley PW, Dr\u00fcckes P, Burglin M, D\u00fcrler U, Loretan J, Reuter R, Wartmann M, Theuer A, Bauer-Probst B, Martiny-Baron G, Allegrini P, Goepfert A, Wood J, Littlewood-Evans A.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_34",
+    "creation_date": "2024-03-28"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5252510",
+  "doi": "10.1021/acs.jmedchem.5b01582",
+  "doi_chembl": null,
+  "first_page": "132",
+  "issue": "1",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "146",
+  "patent_id": null,
+  "pubmed_id": 26629594,
+  "src_id": 1,
+  "title": "A Novel Potent Oral Series of VEGFR2 Inhibitors Abrogate Tumor Growth by Inhibiting Angiogenesis.",
+  "volume": "59",
+  "year": 2016
+}

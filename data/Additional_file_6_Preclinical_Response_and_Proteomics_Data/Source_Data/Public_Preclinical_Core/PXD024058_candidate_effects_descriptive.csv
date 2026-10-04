@@ -1,0 +1,14 @@
+gene,BLM_vs_control_log2FC_descriptive,NIB_vs_BLM_log2FC_descriptive,n_control_columns,n_model_columns,n_nintedanib_columns,direction_consistency_NIB_minus_model,inferential_scope
+ACTA2,0.029038355028933975,0.041540133962896575,3,3,3,1.0,descriptive only; article conflicts on biological versus technical replicate provenance
+ARG1,0.9517093822759888,-0.3577864200003319,3,3,3,0.0,descriptive only; article conflicts on biological versus technical replicate provenance
+ASS1,0.8961173992089648,-0.7908173499439826,3,3,3,0.0,descriptive only; article conflicts on biological versus technical replicate provenance
+CES1D,-0.22683897123615476,-0.029422699091226766,3,3,3,0.1111111111111111,descriptive only; article conflicts on biological versus technical replicate provenance
+COL1A1,0.14733720386234977,-0.27832084226992065,3,3,3,0.0,descriptive only; article conflicts on biological versus technical replicate provenance
+CPS1,1.4729922183723878,-1.6495354187794176,3,3,3,0.0,descriptive only; article conflicts on biological versus technical replicate provenance
+CTGF,-0.11441034272150268,0.26101320257619337,1,1,2,1.0,descriptive only; article conflicts on biological versus technical replicate provenance
+FBP1,0.8257757321862984,-1.054789666039984,3,3,3,0.0,descriptive only; article conflicts on biological versus technical replicate provenance
+FLT1,-0.15348313940024544,0.12309215978621726,2,2,1,1.0,descriptive only; article conflicts on biological versus technical replicate provenance
+FN1,0.9129717496753493,-0.039677428750314436,3,3,3,0.0,descriptive only; article conflicts on biological versus technical replicate provenance
+GSTA1,-0.3566898861461311,0.017037312406365496,3,3,3,0.4444444444444444,descriptive only; article conflicts on biological versus technical replicate provenance
+OTC,1.2177042813018115,-1.285004730847972,3,3,3,0.0,descriptive only; article conflicts on biological versus technical replicate provenance
+POSTN,-0.1316078796857538,-0.10935873551393191,3,3,3,0.0,descriptive only; article conflicts on biological versus technical replicate provenance

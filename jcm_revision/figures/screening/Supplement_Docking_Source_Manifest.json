@@ -1,0 +1,20 @@
+{
+  "run_count": 96,
+  "compound_count": 16,
+  "targets": [
+    "FLT4",
+    "PDGFRA"
+  ],
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "all_groups_have_three_searches": true,
+  "source_sha256": {
+    "docking/Docking_All_Completed_Runs.csv": "ea9c11a1d9c959dcc6457af8be281674572548fcc9a5f420d1b7cafd80d87ad2",
+    "docking/Docking_Summary.csv": "51357512fc4c482907eebfc620afe43dc3c47becdad5c98455de868c79249969",
+    "docking/PDGFRA_nintedanib_pose_hinge_QC.json": "2b8d84ad5e6dd7bbaa25a3f86b6cd55b44febdb959850775027b5408a764c120",
+    "docking/Nintedanib_Pose_QC_All_Searches.csv": "5ae265303fc88fb566c4af3a0524a6ed61abe25819e8a1d08a5bf322af2b7b03"
+  }
+}

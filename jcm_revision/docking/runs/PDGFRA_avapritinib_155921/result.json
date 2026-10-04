@@ -1,0 +1,100 @@
+{
+  "target": "PDGFRA",
+  "name": "avapritinib",
+  "canonical_smiles": "Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1",
+  "formal_charge": 0,
+  "seed": 155921,
+  "exhaustiveness": 32,
+  "cpu": 2,
+  "n_poses": 10,
+  "energy_range": 5,
+  "scoring_function": "vina",
+  "ligand_MMFF_converged": true,
+  "receptor": "PDGFRA_6JOL_receptor.pdbqt",
+  "box_center": [
+    -38.4125,
+    157.04899999999998,
+    0.794
+  ],
+  "box_size": [
+    22.0,
+    28.72200000000001,
+    25.84
+  ],
+  "elapsed_seconds": 117.04502198899718,
+  "pose_energies": [
+    [
+      -9.458,
+      -11.946,
+      -0.367,
+      2.488,
+      -0.367
+    ],
+    [
+      -8.935,
+      -10.838,
+      -0.814,
+      2.35,
+      -0.367
+    ],
+    [
+      -8.786,
+      -10.75,
+      -0.714,
+      2.311,
+      -0.367
+    ],
+    [
+      -8.727,
+      -10.643,
+      -0.748,
+      2.296,
+      -0.367
+    ],
+    [
+      -8.69,
+      -10.704,
+      -0.639,
+      2.286,
+      -0.367
+    ],
+    [
+      -8.458,
+      -10.34,
+      -0.71,
+      2.225,
+      -0.367
+    ],
+    [
+      -8.423,
+      -10.159,
+      -0.847,
+      2.216,
+      -0.367
+    ],
+    [
+      -8.332,
+      -10.62,
+      -0.272,
+      2.192,
+      -0.367
+    ],
+    [
+      -8.239,
+      -10.221,
+      -0.553,
+      2.167,
+      -0.367
+    ],
+    [
+      -8.171,
+      -9.873,
+      -0.815,
+      2.15,
+      -0.367
+    ]
+  ],
+  "best_vina_score_kcal_mol": -9.458,
+  "reference_RMSD_A_receptor_frame": [],
+  "output_dir": "runs/PDGFRA_avapritinib_155921"
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "Could high-quality in silico predictions in drug discovery eventually replace part or most of experimental testing? To evaluate the agreement of selectivity data from different experimental or predictive sources, we introduce the new metric concordance minimum significant ratio (cMSR). Empowered by cMSR, we find the overall level of agreement between predicted and experimental data to be comparable to that found between experimental results from different sources. However, for molecules that are either highly selective or potent, the concordance between different experimental sources is significantly higher than the concordance between experimental and predicted values. We also show that computational models built from one data set are less predictive for other data sources and highlight the importance of bias correction for assessing selectivity data. Finally, we show that small-molecule target space relationships derived from different data sources and predictive models share overall similarity but can significantly differ in details.",
+  "authors": "Gao C, Cahya S, Nicolaou CA, Wang J, Watson IA, Cummins DJ, Iversen PW, Vieth M.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_18",
+    "creation_date": "2014-03-12"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL2417410",
+  "doi": "10.1021/jm400798j",
+  "doi_chembl": null,
+  "first_page": "6991",
+  "issue": "17",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "7002",
+  "patent_id": null,
+  "pubmed_id": 23937569,
+  "src_id": 1,
+  "title": "Selectivity data: assessment, predictions, concordance, and implications.",
+  "volume": "56",
+  "year": 2013
+}

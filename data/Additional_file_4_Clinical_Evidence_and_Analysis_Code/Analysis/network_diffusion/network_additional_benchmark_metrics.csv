@@ -1,0 +1,13 @@
+compartment,comparison,spearman_rho,n_candidates,max_rank_difference
+Endothelial,unshrunk_Pearson_vs_LedoitWolf,0.8205882352941177,16,7.0
+Hepatocyte,unshrunk_Pearson_vs_LedoitWolf,0.5171568627450981,17,13.0
+Macrophage,unshrunk_Pearson_vs_LedoitWolf,0.9240196078431374,17,5.0
+Endothelial,confirmatory_DO_vs_HV_vs_discovery_DO_vs_HV,0.9088235294117648,16,
+Endothelial,confirmatory_DO_vs_NDO_vs_discovery_DO_vs_HV,0.9235294117647058,16,
+Endothelial,discovery_DO_vs_NDO_vs_discovery_DO_vs_HV,0.9823529411764707,16,
+Hepatocyte,confirmatory_DO_vs_HV_vs_discovery_DO_vs_HV,0.8578431372549021,17,
+Hepatocyte,confirmatory_DO_vs_NDO_vs_discovery_DO_vs_HV,0.9754901960784315,17,
+Hepatocyte,discovery_DO_vs_NDO_vs_discovery_DO_vs_HV,0.9705882352941178,17,
+Macrophage,confirmatory_DO_vs_HV_vs_discovery_DO_vs_HV,0.965686274509804,17,
+Macrophage,confirmatory_DO_vs_NDO_vs_discovery_DO_vs_HV,0.8382352941176472,17,
+Macrophage,discovery_DO_vs_NDO_vs_discovery_DO_vs_HV,0.9558823529411765,17,

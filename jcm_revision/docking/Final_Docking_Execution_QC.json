@@ -1,0 +1,22 @@
+{
+  "searches_by_group": {
+    "primary": 96,
+    "apo_sensitivity": 3,
+    "separate_preflight_control": 1
+  },
+  "poses_by_group": {
+    "primary": 955,
+    "apo_sensitivity": 23,
+    "separate_preflight_control": 10
+  },
+  "all_pose_SDFs_parse": true,
+  "all_pose_scores_finite_and_match_raw_results": true,
+  "all_ligand_MMFF_minimizations_converged": true,
+  "primary_and_sensitivity_fixed_seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "library_sha256": "8fd844b0a6abf4033ee0eaf5ce190a5b4c293de890b6b78044d10f09fac4812e",
+  "interpretation": "Empirical rigid-receptor docking; stochastic searches are not biological replicates or MD. Sensitivity results do not replace the primary campaign."
+}

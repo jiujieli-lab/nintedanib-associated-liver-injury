@@ -1,0 +1,1141 @@
+{
+  "tools": [
+    {
+      "tool_key": "ablang-embedding",
+      "category": "masked_models",
+      "summary": "Extract antibody sequence embeddings using AbLang",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "ablang-gradient",
+      "category": "masked_models",
+      "summary": "Compute AbLang masked pseudo-log-likelihood gradient for relaxed antibody sequences",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "ablang-sample",
+      "category": "masked_models",
+      "summary": "Restore masked antibody sequence positions using AbLang",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "ablang-score",
+      "category": "masked_models",
+      "summary": "Score antibody sequences using AbLang language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "alphafold-db-fetch",
+      "category": "database_retrieval",
+      "summary": "Fetch predicted structure (PDB/mmCIF), per-residue pLDDT, and PAE matrix from the AlphaFold Protein Structure Database by UniProt accession",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "alphafold2-gradient",
+      "category": "structure_prediction",
+      "summary": "Differentiable AlphaFold2 scoring of a binder against a fixed target. Returns loss, Structure, and optionally the gradient w.r.t. input logits.",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "alphafold2-prediction",
+      "category": "structure_prediction",
+      "summary": "Protein structure prediction using AlphaFold2 via ColabDesign",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "alphafold3-prediction",
+      "category": "structure_prediction",
+      "summary": "Protein structure prediction using AlphaFold3",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "alphagenome-predict-intervals",
+      "category": "sequence_scoring",
+      "summary": "Predict genomic signals for batched intervals using AlphaGenome",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "alphagenome-predict-sequences",
+      "category": "sequence_scoring",
+      "summary": "Predict genomic signals from batched raw DNA sequences using AlphaGenome",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "alphagenome-predict-variants",
+      "category": "sequence_scoring",
+      "summary": "Predict variant effects in batch using AlphaGenome",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "alphagenome-score-intervals",
+      "category": "sequence_scoring",
+      "summary": "Score genomic intervals in batch with AlphaGenome interval scorers",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "alphagenome-score-ism-variants-batch",
+      "category": "sequence_scoring",
+      "summary": "Run batched in-silico mutagenesis with AlphaGenome variant scorers",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "alphagenome-score-variants",
+      "category": "sequence_scoring",
+      "summary": "Score variant effects in batch with AlphaGenome variant scorers",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "alphamissense-db-fetch",
+      "category": "database_retrieval",
+      "summary": "Fetch per-residue, per-substitution AlphaMissense pathogenicity scores for a human UniProt accession from the AlphaFold Protein Structure Database",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "bindcraft-design",
+      "category": "binder_design",
+      "summary": "End-to-end binder design pipeline: AlphaFold2 hallucination + ProteinMPNN refinement + AlphaFold2 validation + PyRosetta filtering. Returns accepted binders against a target.",
+      "uses_gpu": true,
+      "note": "bindcraft-design is a multi-hour, multi-step design pipeline, which is better run on your own machine than billed to a remote worker for a whole campaign. Run locally with device='cuda'. For a hosted binder-design run, freebindcraft-design is deployable.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "bioemu-sample",
+      "category": "structure_dynamics",
+      "summary": "Protein conformational ensemble sampling using BioEmu",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "blast-create-db",
+      "category": "sequence_alignment",
+      "summary": "Create a local BLAST database from a FASTA file",
+      "uses_gpu": false,
+      "note": "blast-create-db reads a local FASTA and writes database files you need to keep, neither of which is available on a remote worker. Run locally with device='cpu'.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "blast-search",
+      "category": "sequence_alignment",
+      "summary": "Search sequences against BLAST databases (online or local)",
+      "uses_gpu": false,
+      "status": "ready_to_run",
+      "note": "No Modal deployment needed, ready to run"
+    },
+    {
+      "tool_key": "boltz2-affinity",
+      "category": "structure_prediction",
+      "summary": "Predicted binding affinity (log10 IC50 μM) and binder probability for a small molecule against a protein target, via Boltz-2.",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "boltz2-prediction",
+      "category": "structure_prediction",
+      "summary": "Multi-modal structure prediction using Boltz2",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "borzoi-ensemble",
+      "category": "sequence_scoring",
+      "summary": "Regulatory activity prediction using all 4 Borzoi replicates",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "borzoi-prediction",
+      "category": "sequence_scoring",
+      "summary": "Regulatory activity prediction using a single Borzoi replicate",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "ccd-lookup",
+      "category": "database_retrieval",
+      "summary": "Rich result for wwPDB Chemical Component Dictionary entries via pdbeccdutils: returns Fragment objects plus formula, descriptors, parent component, physchem properties, and optional UniChem cross-references and PDB usage.",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "chai1-prediction",
+      "category": "structure_prediction",
+      "summary": "Multi-modal structure prediction using Chai1",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "codonfm-embedding",
+      "category": "masked_models",
+      "summary": "Extract final-layer CLS embeddings for coding sequences with the CodonFM/Encodon model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "codonfm-fitness",
+      "category": "masked_models",
+      "summary": "Score coding-sequence fitness with the upstream CodonFM/Encodon visible-token objective",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "codonfm-gradient",
+      "category": "masked_models",
+      "summary": "Compute the CodonFM/Encodon masked pseudo-log-likelihood gradient for relaxed coding sequences",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "codonfm-sample",
+      "category": "masked_models",
+      "summary": "Resample a subset of codons in coding sequences with the CodonFM/Encodon model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "codonfm-score",
+      "category": "masked_models",
+      "summary": "Score codon substitutions by ref-vs-alt log-likelihood ratio with the CodonFM/Encodon model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "crispr-tracr-rna",
+      "category": "gene_annotation",
+      "summary": "Predict tracrRNA sequences from nucleotide CRISPR loci",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "deeppbs-specificity",
+      "category": "sequence_scoring",
+      "summary": "Predict DNA specificity (PPM) from protein-DNA structures using DeepPBS",
+      "uses_gpu": true,
+      "note": "DeepPBS requires a local DeepPBS checkout and its bundled X3DNA install, neither of which is available on a remote worker. Run locally with device='cpu'.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "dssp-secondary-structure",
+      "category": "structure_scoring",
+      "summary": "Assign helix/sheet/loop percentages using the DSSP binary",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "enformer-prediction",
+      "category": "sequence_scoring",
+      "summary": "Gene expression and regulatory activity prediction using Enformer",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "ensembl-lookup",
+      "category": "database_retrieval",
+      "summary": "Look up an Ensembl gene record by Ensembl gene ID or gene symbol",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "ensembl-overlap",
+      "category": "database_retrieval",
+      "summary": "Fetch features overlapping an Ensembl region (default: gene; supports exon, regulatory, motif, variation, …)",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "ensembl-sequence",
+      "category": "database_retrieval",
+      "summary": "Fetch DNA / cDNA / CDS / protein sequence for an Ensembl ID",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "ensembl-vep",
+      "category": "database_retrieval",
+      "summary": "Predict variant consequences from an HGVS notation via Ensembl's Variant Effect Predictor REST endpoint",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "ensembl-xrefs",
+      "category": "database_retrieval",
+      "summary": "Fetch cross-references from an Ensembl ID to external databases",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "esm-if1-sample",
+      "category": "inverse_folding",
+      "summary": "Sample protein sequences conditioned on backbone structure using ESM-IF1 or ProteinDPO (DPO-aligned for stability). Supports multi-chain complexes.",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esm-if1-score",
+      "category": "inverse_folding",
+      "summary": "Score protein sequences against backbone structures using ESM-IF1 or ProteinDPO. Computes average log-likelihood and perplexity with multi-chain complex support.",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esm2-embedding",
+      "category": "masked_models",
+      "summary": "Extract protein sequence embeddings and logits using ESM2",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esm2-gradient",
+      "category": "masked_models",
+      "summary": "Compute ESM2 masked pseudo-log-likelihood gradient for relaxed protein sequences",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esm2-sample",
+      "category": "masked_models",
+      "summary": "Sample masked positions in protein sequences using ESM2 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esm2-score",
+      "category": "masked_models",
+      "summary": "Score protein sequences using ESM2 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esm3-embedding",
+      "category": "masked_models",
+      "summary": "Extract protein sequence embeddings and logits using ESM3",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esm3-sample",
+      "category": "masked_models",
+      "summary": "Sample masked positions in protein sequences using ESM3 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esm3-score",
+      "category": "masked_models",
+      "summary": "Score protein sequences using ESM3 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esmc-embedding",
+      "category": "masked_models",
+      "summary": "Extract protein sequence embeddings and logits using ESM C (Cambrian)",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esmc-sae-features",
+      "category": "masked_models",
+      "summary": "Decompose ESM C activations into interpretable sparse autoencoder features",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esmfold-gradient",
+      "category": "structure_prediction",
+      "summary": "Differentiable ESMFold confidence loss and gradient w.r.t. target-chain logits",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esmfold-prediction",
+      "category": "structure_prediction",
+      "summary": "Protein structure prediction using ESMFold",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "esmfold2-prediction",
+      "category": "structure_prediction",
+      "summary": "All-atom biomolecular complex structure prediction using ESMFold2 from Biohub.",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "evo1-sample",
+      "category": "causal_models",
+      "summary": "Sample DNA sequences using Evo1 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "evo1-score",
+      "category": "causal_models",
+      "summary": "Score DNA sequences using Evo1 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "evo2-sample",
+      "category": "causal_models",
+      "summary": "Sample DNA sequences using Evo2 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "evo2-score",
+      "category": "causal_models",
+      "summary": "Score DNA sequences using Evo2 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "fampnn-pack",
+      "category": "inverse_folding",
+      "summary": "Pack protein sidechains using FAMPNN with per-atom confidence (pSCE)",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "fampnn-sample",
+      "category": "inverse_folding",
+      "summary": "Design protein sequences with full-atom sidechain co-generation using FAMPNN",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "fampnn-score",
+      "category": "inverse_folding",
+      "summary": "Score protein mutations with full-atom context using FAMPNN",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "fampnn-score-all-mutations",
+      "category": "inverse_folding",
+      "summary": "Score every possible single mutation at every position using FAMPNN",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "foldmason-msa",
+      "category": "structure_alignment",
+      "summary": "Multiple structure alignment via FoldMason — remote (server) or local (CLI)",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "foldmason-score-msa",
+      "category": "structure_alignment",
+      "summary": "Score a structural MSA with average + per-column LDDT using FoldMason msa2lddt",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "foldseek-cluster",
+      "category": "structure_alignment",
+      "summary": "Cluster a set of protein structures by structural similarity using Foldseek easy-cluster",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "foldseek-multimer-search",
+      "category": "structure_alignment",
+      "summary": "Search Foldseek multimer (complex) structural homology — remote (server) or local (CLI)",
+      "uses_gpu": false,
+      "status": "ready_to_run",
+      "note": "No Modal deployment needed, ready to run"
+    },
+    {
+      "tool_key": "foldseek-multimercluster",
+      "category": "structure_alignment",
+      "summary": "Cluster a set of protein complexes by multimer-level structural similarity using Foldseek easy-multimercluster",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "foldseek-rbh",
+      "category": "structure_alignment",
+      "summary": "Find reciprocal best-hit structural alignments between a query and a target DB using Foldseek easy-rbh",
+      "uses_gpu": false,
+      "note": "foldseek-rbh searches a local structure database (local_db), which is not available on a remote worker. Run locally with device='cpu'.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "foldseek-search",
+      "category": "structure_alignment",
+      "summary": "Search Foldseek structural homology against PDB100/AlphaFold DB (remote) or a local DB (local)",
+      "uses_gpu": false,
+      "status": "ready_to_run",
+      "note": "No Modal deployment needed, ready to run"
+    },
+    {
+      "tool_key": "freebindcraft-design",
+      "category": "binder_design",
+      "summary": "PyRosetta-free de novo binder design: AlphaFold2 hallucination + ProteinMPNN refinement + AlphaFold2 validation + OpenMM relaxation and FreeSASA/sc-rs interface scoring. Returns accepted binders against a target.",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "germinal-design",
+      "category": "binder_design",
+      "summary": "De novo epitope-targeted antibody design (VHH or scFv) using the Germinal pipeline",
+      "uses_gpu": true,
+      "note": "germinal-design is a multi-hour, multi-step design pipeline, which is better run on your own machine than billed to a remote worker for a whole campaign. Run locally with device='cuda'. For a hosted binder-design run, freebindcraft-design is deployable.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "gi-annotation",
+      "category": "sequence_scoring",
+      "summary": "Find genes and transcripts de novo in raw DNA via the hosted Genomic Intelligence API",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "gi-chromatin",
+      "category": "sequence_scoring",
+      "summary": "Predict chromatin accessibility, TF occupancy and histone marks via the hosted Genomic Intelligence API",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "gi-enhancer",
+      "category": "sequence_scoring",
+      "summary": "Predict developmental and housekeeping enhancer activity via the hosted Genomic Intelligence API",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "gi-expression",
+      "category": "sequence_scoring",
+      "summary": "Predict gene expression from a TSS-centred window via the hosted Genomic Intelligence API",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "gi-find-genes-and-predict-expression",
+      "category": "sequence_scoring",
+      "summary": "Annotate genes in a locus and predict expression for each, via the hosted Genomic Intelligence API",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "gi-promoter",
+      "category": "sequence_scoring",
+      "summary": "Predict promoter regions in DNA via the hosted Genomic Intelligence API",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "gi-splice",
+      "category": "sequence_scoring",
+      "summary": "Predict splice donor and acceptor sites via the hosted Genomic Intelligence API",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "glm2-embedding",
+      "category": "masked_models",
+      "summary": "Extract mixed protein/DNA embeddings and biological logits with gLM2",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "glm2-gradient",
+      "category": "masked_models",
+      "summary": "Differentiate masked pseudo-log-likelihood for relaxed mixed protein/DNA tokens with gLM2",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "glm2-sample",
+      "category": "masked_models",
+      "summary": "Sample mixed protein/DNA loci while preserving modality and strand markers with gLM2",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "glm2-score",
+      "category": "masked_models",
+      "summary": "Score mixed protein/DNA loci by masked pseudo-log-likelihood with gLM2",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "interproscan-fetch",
+      "category": "database_retrieval",
+      "summary": "Fetch InterPro domain annotations by UniProt accession (direct REST lookup) or by raw protein sequence (iprscan5 submit-and-scan)",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "ipsae-scoring",
+      "category": "structure_scoring",
+      "summary": "Score a cofolded protein complex with IPSAE (Dunbrack 2025), computing ipSAE, pDockQ2, LIS, pDockQ, and ipTM",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "ligandmpnn-sample",
+      "category": "inverse_folding",
+      "summary": "Sample protein sequences using LigandMPNN",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "ligandmpnn-score",
+      "category": "inverse_folding",
+      "summary": "Score protein sequences using LigandMPNN",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "mafft-align",
+      "category": "sequence_alignment",
+      "summary": "Multiple sequence alignment (MSA) using MAFFT (Multiple Alignment using Fast Fourier Transform)",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "malinois-gradient",
+      "category": "sequence_scoring",
+      "summary": "Compute differentiable Malinois MPRA activity losses and gradients for relaxed DNA logits",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "malinois-score",
+      "category": "sequence_scoring",
+      "summary": "Score regulatory DNA activity using the Malinois MPRA model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "meme-fimo-scan",
+      "category": "gene_annotation",
+      "summary": "Scan sequences for occurrences of known motifs (PWMs) using MEME Suite FIMO",
+      "uses_gpu": false,
+      "note": "meme-fimo-scan reads a MEME-format motif file from your own disk, which is not available on a remote worker. Run locally with device='cpu'.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "metal3d-prediction",
+      "category": "structure_scoring",
+      "summary": "Predict catalytic or structural metal-ion sites in protein structures using Metal3D/dEVA checkpoints.",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "minced-crispr",
+      "category": "gene_annotation",
+      "summary": "Detect CRISPR arrays in nucleotide sequences using MinCED",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "minerva-embedding",
+      "category": "masked_models",
+      "summary": "Extract mixed protein/DNA embeddings and biological logits with Minerva",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "minerva-gradient",
+      "category": "masked_models",
+      "summary": "Differentiate masked pseudo-log-likelihood for relaxed mixed protein/DNA tokens with Minerva",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "minerva-interactions",
+      "category": "masked_models",
+      "summary": "Predict protein, RNA base-pairing, and repeat interaction maps with Minerva",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "minerva-sample",
+      "category": "masked_models",
+      "summary": "Sample mixed protein/DNA loci while preserving modality and strand markers with Minerva",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "minerva-score",
+      "category": "masked_models",
+      "summary": "Score mixed protein/DNA loci by masked pseudo-log-likelihood with Minerva",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "miranda-scan",
+      "category": "gene_annotation",
+      "summary": "Predict microRNA target sites in RNA/DNA sequences using miRanda (complementarity alignment plus ViennaRNA thermodynamics).",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "mmseqs2-clustering",
+      "category": "sequence_alignment",
+      "summary": "Perform sequence clustering using MMseqs2 to reduce redundancy",
+      "uses_gpu": false,
+      "note": "mmseqs2-clustering clusters an MMseqs2 database built on your own disk, which is not available on a remote worker. Run locally with device='cpu'.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "mmseqs2-homology-search",
+      "category": "sequence_alignment",
+      "summary": "Generate MSAs by searching protein sequences against MMseqs2-indexed databases.",
+      "uses_gpu": true,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "mmseqs2-search-genomes",
+      "category": "sequence_alignment",
+      "summary": "Execute nucleotide genome-to-genome search workflow",
+      "uses_gpu": false,
+      "note": "mmseqs2-search-genomes searches a target collection staged on your own disk, which is not available on a remote worker. Run locally with device='cpu'.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "mmseqs2-search-proteins",
+      "category": "sequence_alignment",
+      "summary": "Search protein sequences using MMseqs2 with per-sequence results",
+      "uses_gpu": true,
+      "note": "mmseqs2-search-proteins searches a target collection staged on your own disk, which is not available on a remote worker. Run locally with device='cpu'.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "na-mpnn-specificity",
+      "category": "sequence_scoring",
+      "summary": "Predict protein-DNA specificity (DNA-only A,C,G,T PPM) using NA-MPNN",
+      "uses_gpu": true,
+      "note": "NA-MPNN requires a local repository checkout and checkpoint on disk, which are not available on a remote worker. Run locally with device='cuda' or 'cpu'.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "ncbi-efetch",
+      "category": "database_retrieval",
+      "summary": "Fetch FASTA records from NCBI sequence dbs (protein/nuccore) by accession or ID",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "ncbi-esearch",
+      "category": "database_retrieval",
+      "summary": "Search NCBI Entrez databases by query term to find matching IDs",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "ncbi-esummary",
+      "category": "database_retrieval",
+      "summary": "Retrieve record summary metadata from NCBI Entrez by ID",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "opendde-prediction",
+      "category": "structure_prediction",
+      "summary": "All-atom biomolecular structure prediction using OpenDDE",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "orfipy-prediction",
+      "category": "orf_prediction",
+      "summary": "ORF (Open Reading Frame) prediction using Orfipy",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pangolin-predict",
+      "category": "rna_splicing",
+      "summary": "Per-position tissue-specific splice-site probability prediction using Pangolin",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pangolin-score-variants",
+      "category": "rna_splicing",
+      "summary": "Score the splicing effect (gain/loss) of variants using Pangolin",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "parade-activity",
+      "category": "sequence_scoring",
+      "summary": "Predict cell-type-specific 5'/3' UTR activity with the PARADE LegNet model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "parade-gradient",
+      "category": "sequence_scoring",
+      "summary": "Compute differentiable PARADE UTR-activity losses and gradients for relaxed UTR logits",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "parade-stability",
+      "category": "sequence_scoring",
+      "summary": "Predict 3' UTR mRNA stability (RNA/gDNA log-ratio) with the PARADE LegNet model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pdb-fetch-entry",
+      "category": "database_retrieval",
+      "summary": "Fetch structure metadata (title, method, resolution) from RCSB PDB",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "pdb-fetch-fasta",
+      "category": "database_retrieval",
+      "summary": "Fetch chain sequences from RCSB PDB with protein/nucleotide classification",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "pdockq2",
+      "category": "structure_scoring",
+      "summary": "Score a cofolded protein complex with pDockQ2 (Zhu 2023), using pLDDT + PAE to summarize interface quality",
+      "uses_gpu": false,
+      "status": "ready_to_run",
+      "note": "No Modal deployment needed, ready to run"
+    },
+    {
+      "tool_key": "primer3-thermodynamics",
+      "category": "sequence_scoring",
+      "summary": "Score DNA oligos for Tm, hairpin/homodimer/heterodimer ΔG, GC content, and GC-clamp",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "prodigal-prediction",
+      "category": "orf_prediction",
+      "summary": "Prokaryotic ORF and gene prediction using Prodigal",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "progen2-sample",
+      "category": "causal_models",
+      "summary": "Sample protein sequences using ProGen2 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "progen2-score",
+      "category": "causal_models",
+      "summary": "Score protein sequences using ProGen2 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "progen3-sample",
+      "category": "causal_models",
+      "summary": "Sample protein sequences using ProGen3 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "progen3-score",
+      "category": "causal_models",
+      "summary": "Score protein sequences using ProGen3 language model",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "promoter-calculator",
+      "category": "gene_annotation",
+      "summary": "Predict E. coli sigma70 promoter strength (dG and Tx rate) on DNA sequences",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "proteinmpnn-gradient",
+      "category": "inverse_folding",
+      "summary": "Compute ProteinMPNN structure-conditioned perplexity gradient for relaxed protein sequences",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "proteinmpnn-sample",
+      "category": "inverse_folding",
+      "summary": "Sample protein sequences using ProteinMPNN",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "proteinmpnn-score",
+      "category": "inverse_folding",
+      "summary": "Score protein sequences using ProteinMPNN",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "protenix-prediction",
+      "category": "structure_prediction",
+      "summary": "Multi-modal structure prediction using Protenix (open-source AlphaFold3)",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pubchem-fetch",
+      "category": "database_retrieval",
+      "summary": "Resolve small-molecule identifiers (CID, name, SMILES, InChIKey) against PubChem PUG REST and return canonical structure data plus optional synonyms",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "puffin-interpretation",
+      "category": "sequence_scoring",
+      "summary": "Motif-level interpretation of transcription initiation with Puffin",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "puffin-prediction",
+      "category": "sequence_scoring",
+      "summary": "Basepair-resolution transcription initiation prediction with Puffin",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pyhmmer-hmmscan",
+      "category": "gene_annotation",
+      "summary": "Search sequences against HMM database using PyHMMER",
+      "uses_gpu": false,
+      "note": "pyhmmer-hmmscan scans against an HMM database file on your own disk, which is not available on a remote worker. Run locally with device='cpu'.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "pyhmmer-hmmsearch",
+      "category": "gene_annotation",
+      "summary": "Search HMM profile(s) against sequences using PyHMMER",
+      "uses_gpu": false,
+      "note": "pyhmmer-hmmsearch searches an HMM profile file on your own disk, which is not available on a remote worker. Run locally with device='cpu'.",
+      "status": "local_only"
+    },
+    {
+      "tool_key": "pyhmmer-jackhmmer",
+      "category": "gene_annotation",
+      "summary": "Iteratively search protein sequences against protein database using PyHMMER",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pyhmmer-nhmmer",
+      "category": "gene_annotation",
+      "summary": "Search nucleotide sequences against nucleotide database using PyHMMER",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pyhmmer-phmmer",
+      "category": "gene_annotation",
+      "summary": "Search protein sequences against protein database using PyHMMER",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pymol-rmsd-alignment",
+      "category": "structure_alignment",
+      "summary": "Pairwise structure RMSD alignment using PyMOL cealign or align.",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pyrosetta-energy",
+      "category": "structure_scoring",
+      "summary": "Compute Rosetta energy scores for protein structures (with optional FastRelax preprocess via config.pre_relax_structures)",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pyrosetta-interface-analyzer",
+      "category": "structure_scoring",
+      "summary": "Compute interface-quality metrics for a two-chain complex via Rosetta's InterfaceAnalyzerMover + LayerSelector (with optional FastRelax preprocess via config.pre_relax_structures)",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pyrosetta-relax",
+      "category": "structure_scoring",
+      "summary": "Run PyRosetta FastRelax on a structure and return the relaxed Structure plus its total score",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pyrosetta-sap",
+      "category": "structure_scoring",
+      "summary": "Compute Spatial Aggregation Propensity (SAP) scores for protein structures using PyRosetta",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "pyrosetta-sasa",
+      "category": "structure_scoring",
+      "summary": "Compute Solvent Accessible Surface Area (SASA) for protein structures using PyRosetta",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "random-nucleotide-sample",
+      "category": "mutagenesis",
+      "summary": "Sample nucleotide sequences by filling masked positions with random bases from an IUPAC substitution scheme",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "random-protein-sample",
+      "category": "mutagenesis",
+      "summary": "Sample protein sequences by filling masked positions with random amino acids drawn from a codon scheme",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "rf3-prediction",
+      "category": "structure_prediction",
+      "summary": "All-atom structure prediction with explicit chirality (RoseTTAFold3)",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "rfdiffusion3-design",
+      "category": "structure_design",
+      "summary": "De novo protein structure design using RFdiffusion3",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "segmasker-score",
+      "category": "sequence_scoring",
+      "summary": "Detect low-complexity regions in protein sequences using NCBI segmasker",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "sequence-fetch",
+      "category": "database_retrieval",
+      "summary": "Fetch DNA, RNA, protein, and structure records from NCBI, UniProt, and PDB",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "splice-transformer-prediction",
+      "category": "rna_splicing",
+      "summary": "Tissue-specific splicing prediction using SpliceTransformer",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "spliceai-predict",
+      "category": "rna_splicing",
+      "summary": "Predict per-position acceptor/donor splice-site probabilities from DNA sequence with SpliceAI",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "spliceai-score",
+      "category": "rna_splicing",
+      "summary": "Score variants for splice-altering effects (delta scores/positions) with SpliceAI",
+      "uses_gpu": true,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "structure-metrics",
+      "category": "structure_scoring",
+      "summary": "Compute structural quality metrics (SS percentages, longest helix, gyration radius) from PDB files",
+      "uses_gpu": false,
+      "status": "ready_to_run",
+      "note": "No Modal deployment needed, ready to run"
+    },
+    {
+      "tool_key": "tmalign-alignment",
+      "category": "structure_alignment",
+      "summary": "Pairwise protein structure alignment using TMalign (Zhang & Skolnick, 2005). Returns TM-scores normalized by each chain.",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "uniprot-fetch",
+      "category": "database_retrieval",
+      "summary": "Fetch protein entries from UniProt by accession or search by name and organism",
+      "uses_gpu": false,
+      "note": "No Modal deployment needed, ready to run",
+      "status": "ready_to_run"
+    },
+    {
+      "tool_key": "usalign-alignment",
+      "category": "structure_alignment",
+      "summary": "Universal structure alignment using USalign (Zhang et al., 2022). Supports monomers and multimers. Returns TM-scores normalized by each structure.",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "viennarna-prediction",
+      "category": "structure_prediction",
+      "summary": "RNA secondary structure prediction using ViennaRNA MFE folding",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "vina-docking",
+      "category": "molecular_docking",
+      "summary": "Dock a small molecule into a rigid receptor with AutoDock Vina or Vinardo scoring.",
+      "uses_gpu": false,
+      "status": "needs_deploy"
+    },
+    {
+      "tool_key": "x3dna-fiber",
+      "category": "structure_prediction",
+      "summary": "Build idealized fiber DNA/RNA duplexes from base sequences with X3DNA fiber",
+      "uses_gpu": false,
+      "note": "x3dna-fiber requires a local X3DNA v2.4 install (bin/fiber), which is not available on a remote worker. Run locally with device='cpu'.",
+      "status": "local_only"
+    }
+  ],
+  "n_total": 156
+}

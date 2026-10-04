@@ -1,0 +1,24 @@
+{
+  "abstract": "FGF receptors (FGFRs) are tyrosine kinases that are overexpressed in diverse tumors by genetic alterations such as gene amplifications, somatic mutations and translocations. Owing to this characteristic, FGFRs are attractive targets for cancer treatment. It has been demonstrated that most multi-targeted, ATP competitive tyrosine kinase inhibitors are active against FGFRs as well as other kinases. The design of new and more selective inhibitors of FGFRs, which might be reduced off-target and side effects, is a difficult yet significant challenge. The results of the current investigation, show that novel Ponatinib analogues are highly active as FGFR inhibitors and that they possess reduced kinase insert domain receptor (KDR) activities. Observations made in a structure and activity relationship (SAR) investigation led to the development of a promising, orally available lead compound 4, which displays a 50-100 fold in vitro selectivity for inhibition of FGFR1-3 over KDR. In addition, biological evaluation of compound 4 showed that it displays significant antitumor activities in FGFR1-amplificated H1581 and FGFR2-amplificated SNU-16 xenograft models.",
+  "authors": "Liu Y, Peng X, Guan X, Lu D, Xi Y, Jin S, Chen H, Zeng L, Ai J, Geng M, Hu Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_25",
+    "creation_date": "2018-12-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4002548",
+  "doi": "10.1016/j.ejmech.2016.10.003",
+  "doi_chembl": null,
+  "first_page": "122",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "132",
+  "patent_id": null,
+  "pubmed_id": 27750146,
+  "src_id": 1,
+  "title": "Discovery of novel Ponatinib analogues for reducing KDR activity as potent FGFRs inhibitors.",
+  "volume": "126",
+  "year": 2017
+}

@@ -1,0 +1,69 @@
+{
+  "activities": [
+    {
+      "action_type": {
+        "action_type": "INHIBITOR",
+        "description": "Negatively effects (inhibits) the normal functioning of the protein e.g., prevention of enzymatic reaction or activation of downstream pathway",
+        "parent_type": "NEGATIVE MODULATOR"
+      },
+      "activity_comment": null,
+      "activity_id": 25638894,
+      "activity_properties": [],
+      "assay_chembl_id": "CHEMBL5367833",
+      "assay_description": "Inhibition of wildtype human PDGFRalpha transfected with CHO cells by ADP-Glo assay",
+      "assay_type": "B",
+      "assay_variant_accession": null,
+      "assay_variant_mutation": null,
+      "bao_endpoint": "BAO_0000190",
+      "bao_format": "BAO_0000219",
+      "bao_label": "cell-based format",
+      "canonical_smiles": "CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1",
+      "data_validity_comment": null,
+      "data_validity_description": null,
+      "document_chembl_id": "CHEMBL5365465",
+      "document_journal": "J Med Chem",
+      "document_year": 2023,
+      "ligand_efficiency": {
+        "bei": "18.04",
+        "le": "0.33",
+        "lle": "4.08",
+        "sei": "10.20"
+      },
+      "modality": null,
+      "molecule_chembl_id": "CHEMBL2105728",
+      "molecule_pref_name": "CRENOLANIB",
+      "parent_molecule_chembl_id": "CHEMBL2105728",
+      "pchembl_value": "8.00",
+      "potential_duplicate": 0,
+      "qudt_units": "http://www.openphacts.org/units/Nanomolar",
+      "record_id": 3994251,
+      "relation": "=",
+      "src_id": 1,
+      "standard_flag": 1,
+      "standard_relation": "=",
+      "standard_text_value": null,
+      "standard_type": "IC50",
+      "standard_units": "nM",
+      "standard_upper_value": null,
+      "standard_value": "10.0",
+      "target_chembl_id": "CHEMBL2007",
+      "target_organism": "Homo sapiens",
+      "target_pref_name": "Platelet-derived growth factor receptor alpha",
+      "target_tax_id": "9606",
+      "text_value": null,
+      "toid": null,
+      "type": "IC50",
+      "units": "nM",
+      "uo_units": "UO_0000065",
+      "upper_value": null,
+      "value": "10.0"
+    }
+  ],
+  "page_meta": {
+    "limit": 1000,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  }
+}

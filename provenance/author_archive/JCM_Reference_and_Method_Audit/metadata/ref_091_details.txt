@@ -1,0 +1,117 @@
+{
+  "accession" : "PXD024058",
+  "title" : "Tianlongkechuanling Inhibits Pulmonary Fibrosis Through Down-Regulation Of Arginase-Ornithine Pathway",
+  "additionalAttributes" : [ ],
+  "projectDescription" : "Background: Pulmonary Fibrosis (PF) is an interstitial lung disease of unknown etiology, characterized by excessive accumulation of extracellular matrix in the lungs, which disrupts the structure and gas exchange of the alveoli. There are only two approved therapies for PF, nintedanib (Nib) and pirfenidone. Therefore, the use of Chinese medicine for PF is attracting attention. Tianlongkechuanling (TL) is an effective Chinese formula that has been applied clinically to alleviate PF, which can enhance lung function and quality of life.  Purpose: The potential effects and specific mechanisms of TL have not been fully explored, yet. In the present study, proteomics was performed to explore the therapeutic protein targets of TL on Bleomycin (BLM)-induced Pulmonary Fibrosis. Method: BLM-induced PF mice models were established. Hematoxylineosin staining and Masson staining were used to analyze histopathological changes and collagen deposition. To screen the differential proteins expression between the Control, BLM, BLM+TL and BLM+ Nib (BLM+ Nintedanib) groups, quantitative proteomics was performed using tandem mass tag (TMT) labeling with nanoLC-MS/MS [nano liquid chromatographymass spectrometry]). Changes in the profiles of the expressed proteins were analyzed using the bioinformatics tools Gene Ontology (GO) and the Kyoto Encyclopedia of Genes and Genomes (KEGG). The protein–protein interactions (PPI) were established by STRING. Expressions of α-smooth muscle actin (α-SMA), Collagen I (Col1a1), Fibronectin (Fn1) and enzymes in arginase-ornithine pathway were detected by Western blot or RT-PCR.",
+  "sampleProcessingProtocol" : "Protein Extraction and TMT Labeling Three lung tissues were randomly selected from Control group, BLM group, BLM+TL group, and BLM+Nib group for proteomics experiments. For protein extraction, lung tissues from mice were respectively homogenized and lysed in lysis buffer (Beijing Bangfei Biological Technology Co., Ltd.). Then, the homogenate was centrifuged at 13300 r/min for 10 min at 4°C. The supernatant, which contained proteins, was recovered. The protein concentration was measured by BCA (bicinchoninic acid) kit (Thermo Fisher Scientific, America) according to the manufacturer’s protocol. 100 μg peptide mixture of each sample was labeled by TMT reagent according to the manufacturer’s instructions (Thermo Fisher Scientific, America). Peptide Fractionation with Reversed Phase (RP) Chromatography TMT labeled peptides were fractionated by RP chromatography using HPLC. The peptide mixture was diluted with buffer A (2% ACN, pH 10.0) and loaded onto xBridge peptide BEH 130 C18 column (Waters). The peptides were eluted at a flow rate of 0.7 ml/min with buffer B (98% ACN, pH 10.0).The collected fractions were dried down via vacuum centrifugation at 45°C. Mass Spectrometry Analysis 1)Easy nLC Each fraction was injected for nanoLC-MS/MS analysis. The peptide mixture was loaded onto the C18-reversed phase analytical column (Thermo Fisher Scientific, America) in buffer A (0.1% Formic acid) and separated with a linear gradient of buffer B (80% acetonitrile and 0.1% Formic acid) at a flow rate of 300 nl/min.  2)LC-MS/MS Analysis LC-MS/MS analysis was performed on a Q Exactive Plus mass spectrometer (Thermo Fisher Scientific, America) that was coupled with Easy nLC (Thermo Fisher Scientific) for 90 min. The mass spectrometer was operated in positive ion mode. MS data was acquired using a data-dependent top10 method dynamically choosing the most abundant precursor ions from the survey scan (350–1800 m/z) for HCD fragmentation. Automatic gain control (AGC) target was set to 3e6, and maximum inject time to 45 ms. Survey scans were acquired at a resolution of 70,000 at m/z 200 and resolution for HCD spectra was set to 17,500 at m/z 200, and isolation width was 2 m/z. Normalized collision energy was 30 eV.",
+  "dataProcessingProtocol" : "Sequence Database Search and Data Analysis MS/MS raw files were processed using Proteome Discoverer 2.1 (ver.2.1 Thermo Fisher Scientific, America) software was used for data analysis, and searched against the human proteome database, downloaded on Uniprot. Decoys for the database search were generated with the revert function. The following options were used to identify the proteins: Peptide mass tolerance = ± 15 ppm, MS/MS tolerance = 0.02 Da, enzyme = trypsin, missed cleavage = 2, fixed modification: TMT6plex (N-term), TMT6plex (K), Carbamidomethyl (C), variable modification: Oxidation (M), Acetyl (Protein N-term). The false discovery rate (FDR) for peptides and proteins was set to 0.01. The upregulated or downregulated proteins in both replicates with relative quantification p-values < 0.05 and 1.5 fold-changes were selected as being differentially expressed in the data.",
+  "projectTags" : [ ],
+  "keywords" : [ "Proteomics", "Pulmonary fibrosis", "Arginase-ornithine pathway", "Arginase", "Tianlongkechuanling" ],
+  "doi" : "",
+  "submissionType" : "PARTIAL",
+  "license" : "Creative Commons Public Domain (CC0)",
+  "submissionDate" : "2021-02-08",
+  "publicationDate" : "2021-09-10",
+  "submitters" : [ {
+    "title" : "Ms",
+    "firstName" : "Lili",
+    "lastName" : "Zhang",
+    "identifier" : "2244723",
+    "affiliation" : "School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China",
+    "email" : "811216118@qq.com",
+    "country" : "China",
+    "orcid" : "0000-0002-6906-8893",
+    "name" : "Lili Zhang",
+    "id" : "2244723"
+  } ],
+  "labPIs" : [ {
+    "title" : "Dr",
+    "firstName" : "Yuanyuan",
+    "lastName" : "Shi",
+    "identifier" : "2209958",
+    "affiliation" : "1 School of Life Sciences, Beijing University of Chinese Medicine, Beijing, China.2 Shenzhen Research Institute, Beijing University of Chinese Medicine, Shenzhen, China.",
+    "email" : "yshi@bucm.edu.cn",
+    "country" : "",
+    "orcid" : "",
+    "name" : "Yuanyuan Shi",
+    "id" : "2209958"
+  } ],
+  "instruments" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "MS",
+    "accession" : "MS:1001911",
+    "name" : "Q Exactive"
+  } ],
+  "softwares" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "MS",
+    "accession" : "MS:1000650",
+    "name" : "Proteome Discoverer"
+  } ],
+  "experimentTypes" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000429",
+    "name" : "Shotgun proteomics"
+  } ],
+  "quantificationMethods" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000314",
+    "name" : "TMT"
+  } ],
+  "countries" : [ "China" ],
+  "sampleAttributes" : [ {
+    "@type" : "Tuple",
+    "key" : {
+      "cvLabel" : "EFO",
+      "accession" : "EFO:0000635",
+      "name" : "organism part"
+    },
+    "value" : [ {
+      "cvLabel" : "BTO",
+      "accession" : "BTO:0000763",
+      "name" : "lung"
+    } ]
+  }, {
+    "@type" : "Tuple",
+    "key" : {
+      "cvLabel" : "EFO",
+      "accession" : "OBI:0100026",
+      "name" : "organism"
+    },
+    "value" : [ {
+      "cvLabel" : "NEWT",
+      "accession" : "NEWT:10090",
+      "name" : "Mus musculus (Mouse)"
+    } ]
+  } ],
+  "organisms" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "NEWT",
+    "accession" : "NEWT:10090",
+    "name" : "Mus musculus (mouse)"
+  } ],
+  "organismParts" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "BTO",
+    "accession" : "BTO:0000763",
+    "name" : "Lung"
+  } ],
+  "diseases" : [ ],
+  "references" : [ {
+    "referenceLine" : "Zhang L, Qu S, Wang L, Wang C, Yu Q, Zhang Z, Diao Y, Zhang B, Li Y, Shi Y, Wang P. Tianlongkechuanling Inhibits Pulmonary Fibrosis Through Down-Regulation of Arginase-Ornithine Pathway. Front Pharmacol. 2021 12:661129",
+    "pubmedID" : 33995084,
+    "doi" : "10.3389/fphar.2021.661129"
+  } ],
+  "identifiedPTMStrings" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000398",
+    "name" : "No PTMs are included in the dataset"
+  } ],
+  "totalFileDownloads" : 1298,
+  "botCount" : 553,
+  "hubCount" : 719,
+  "organicCount" : 26
+}

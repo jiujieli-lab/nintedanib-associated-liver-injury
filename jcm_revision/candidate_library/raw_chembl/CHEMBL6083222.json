@@ -1,0 +1,24 @@
+{
+  "abstract": "Hepatocellular carcinoma (HCC) is considered as one of the leading causes of death in liver disease patients. Several signal transduction pathways are involved in HCC pathogenesis. Multikinase inhibitors (MKIs) show beneficial effects for HCC and the FDA approved a few MKIs including sorafenib, lenvatinib for HCC treatments. Here, a novel series of phenylacetamide derivatives were designed, synthesized and evaluated as multikinase inhibitors. Several compounds showed nanomolar IC<sub>50</sub> values against FLT1, FLT3, FLT4, KDR, PDGFR\u03b1, PDGFR\u03b2. The compounds were tested against human hepatocellular carcinoma (HCC), human colon adenocarcinoma and human gastric carcinoma cell lines. With favorable pharmacokinetics profiles, compound 12 and compound 14 were selected for in vivo efficacy studies in Hep3B mice models and demonstrated efficacious than sorafenib.",
+  "authors": "Das D, Xie L, Qiao D, Jia J, Hong J.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_37",
+    "creation_date": "2026-05-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL6083222",
+  "doi": "10.1016/j.bmcl.2024.129971",
+  "doi_chembl": null,
+  "first_page": "129971",
+  "issue": null,
+  "journal": "Bioorg Med Chem Lett",
+  "journal_full_title": "Bioorganic & medicinal chemistry letters.",
+  "last_page": "129971",
+  "patent_id": null,
+  "pubmed_id": 39306048,
+  "src_id": 1,
+  "title": "Discovery of novel, orally bioavailable phenylacetamide derivatives as multikinase inhibitors and in vivo efficacy study in hepatocellular carcinoma animal models.",
+  "volume": "113",
+  "year": 2024
+}

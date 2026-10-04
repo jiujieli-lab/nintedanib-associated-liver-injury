@@ -1,0 +1,25 @@
+figure,panel,source_file,statistical_unit,analysis
+Figure 5,A,Network/candidate_network_summary.csv,candidate–compartment,matched-null z; BH across 50 hypotheses
+Figure 5,B,Network/candidate_network_summary.csv,candidate–compartment,detection versus empirical q
+Figure 5,C,Network/network_target_anchor_contributions.csv,protein seed,additive contribution
+Figure 5,D,Network/network_donor_lodo_scores.csv,omitted donor,"fixed primary network, donor omission"
+Figure 5,E,Integration/algorithm_candidate_rankings.csv,candidate,rank; same 17 targets
+Figure 5,F,Integration/candidate_integrated_summary.csv,candidate,descriptive
+Figure 5,G,Integration/algorithm_benchmark_summary.csv,algorithm × omitted family,"rank stability, not prediction accuracy"
+Figure 5,H,Integration/algorithm_family_omission_evaluation.csv,candidate rankings,withheld component concordance
+Figure 5,I,Integration/algorithm_weight_sensitivity.csv,Dirichlet weight draw,top-five frequency
+Figure 5,J,Integration/algorithm_specification_donor_missingness_sensitivity.csv,omitted donor,geometric fusion with retained-donor detection weights
+Figure 5,K,Integration/integrated_family_percentile_scores.csv,candidate × source family,rank-scaled score
+Figure 5,L,Network/candidate_network_summary.csv,candidate–compartment,"joint statistical, specification, donor and expression criteria"
+Figure S8,A,Network/candidate_network_summary.csv,candidate,descriptive
+Figure S8,B,Network/candidate_network_summary.csv,candidate,descriptive
+Figure S8,C,Network/network_null_matching_sensitivity.csv,candidate,descriptive
+Figure S8,D,Network/network_shrinkage_ablation.csv,candidate,descriptive
+Figure S8,E,Network/network_specification_scores.csv,candidate,descriptive
+Figure S8,F,Network/network_specification_scores.csv,candidate,descriptive
+Figure S8,G,Integration/candidate_integrated_summary.csv,candidate,descriptive
+Figure S8,H,Integration/algorithm_weight_sensitivity.csv,candidate,descriptive
+Figure S8,I,Integration/algorithm_specification_donor_missingness_sensitivity.csv,candidate,descriptive
+Figure S8,J,Integration/algorithm_specification_donor_missingness_sensitivity.csv,candidate,descriptive
+Figure S8,K,Integration/algorithm_block_permutation_calibration.csv,candidate,descriptive
+Figure S8,L,Network/network_donor_covariance_qc.csv,donor,Ledoit–Wolf coefficient

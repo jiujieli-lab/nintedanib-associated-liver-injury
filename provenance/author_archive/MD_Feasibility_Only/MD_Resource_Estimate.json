@@ -1,0 +1,74 @@
+{
+  "status": "feasibility_only_no_target_ligand_MD",
+  "benchmark_total_ps": 0.44,
+  "observed_ns_per_day": 0.5892508804524502,
+  "runtime_caveat": "Two very short timed chunks on one CPU thread during docking contention; not a dedicated-host forecast.",
+  "initial_bound_campaign": {
+    "targets": 2,
+    "replicas_per_complex": 3,
+    "ns_per_replica": 100,
+    "total_production_ns": 600,
+    "planning_not_universal_convergence_minimum": true
+  },
+  "optional_matched_apo_additional_ns": 600,
+  "optional_positive_control_additional_ns": 300,
+  "one_thread_observed_rate_arithmetic_days": {
+    "100": 169.70700141036028,
+    "600": 1018.2420084621616,
+    "1200": 2036.4840169243232,
+    "1500": 2545.605021155404
+  },
+  "conditional_gpu_rate_scenarios_not_measured": [
+    {
+      "assumed_aggregate_ns_per_day": 50,
+      "600ns_device_days": 12.0,
+      "1500ns_device_days": 30.0
+    },
+    {
+      "assumed_aggregate_ns_per_day": 100,
+      "600ns_device_days": 6.0,
+      "1500ns_device_days": 15.0
+    },
+    {
+      "assumed_aggregate_ns_per_day": 200,
+      "600ns_device_days": 3.0,
+      "1500ns_device_days": 7.5
+    }
+  ],
+  "storage_float32_positions_only_decimal_GB": {
+    "600ns_allatoms_10ps": 41.49288,
+    "600ns_5200solute_10ps_plus_allatoms_100ps": 7.893288
+  },
+  "proposed_compute_request_not_available_access": {
+    "GPU": "one supported CUDA/OpenCL device, final-system benchmark required",
+    "host_CPU_cores": 4,
+    "host_RAM_GiB": [
+      16,
+      32
+    ],
+    "scratch_GiB_minimum_planning": 50
+  },
+  "production_gates": [
+    {
+      "item": "exact protein construct with continuous intended connectivity and reviewed uncertain regions",
+      "passed": false
+    },
+    {
+      "item": "pose, ligand identity, stereo and protonation reviewed",
+      "passed": false
+    },
+    {
+      "item": "standard ligand parameters and charge checks",
+      "passed": false
+    },
+    {
+      "item": "compatible full pinned environment and final-system energy checks",
+      "passed": false
+    },
+    {
+      "item": "appropriate sustained compute and restart plan",
+      "passed": false
+    }
+  ],
+  "paid_compute_started": false
+}

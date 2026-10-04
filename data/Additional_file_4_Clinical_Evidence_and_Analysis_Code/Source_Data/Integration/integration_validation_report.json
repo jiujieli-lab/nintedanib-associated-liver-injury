@@ -1,0 +1,536 @@
+{
+  "status": "PASS",
+  "n_checks": 44,
+  "checks": [
+    {
+      "check": "manifest_exists",
+      "passed": true,
+      "detail": "Source_Data/Integration/integration_analysis_manifest.json"
+    },
+    {
+      "check": "analysis_and_validation_script_hashes",
+      "passed": true,
+      "detail": {
+        "analysis": "bfdfe7f90d5c836a0b3abcd007b4e0798a629294edeaa10e1f5002c2e644dd1e",
+        "validation": "4fe4983a93458b6481aa1451a335195ae4f5df91ff486b31b7b0e3901e75c857"
+      }
+    },
+    {
+      "check": "all_input_hashes_match",
+      "passed": true,
+      "detail": {
+        "Source_Data/Human_DILI_Proteomics/candidate_evidence_table.csv": {
+          "passed": true,
+          "expected": "127b28cb9e1e808e2e9477845520f7d3a8cbd8661cbfe074e2c2d3cbd8661588",
+          "observed": "127b28cb9e1e808e2e9477845520f7d3a8cbd8661cbfe074e2c2d3cbd8661588"
+        },
+        "Source_Data/Liver_Single_Cell/target_expression_by_compartment.csv": {
+          "passed": true,
+          "expected": "df976be26600a728f53411f149c1f791c78434287792a8cec900fde01a8af1cd",
+          "observed": "df976be26600a728f53411f149c1f791c78434287792a8cec900fde01a8af1cd"
+        },
+        "Source_Data/Pharmacology/chembl_target_summary.csv": {
+          "passed": true,
+          "expected": "fda76feee74f7b0adafcf16e8f960f9637e52e43b656937a2374afde963dc381",
+          "observed": "fda76feee74f7b0adafcf16e8f960f9637e52e43b656937a2374afde963dc381"
+        },
+        "Source_Data/Virtual_Knockout/virtual_knockout_stability_summary.csv": {
+          "passed": true,
+          "expected": "a27a200b356206207195690efc19178ec24e4f3cbbe86d30fe681e36fb491b9e",
+          "observed": "a27a200b356206207195690efc19178ec24e4f3cbbe86d30fe681e36fb491b9e"
+        },
+        "Source_Data/Virtual_Knockout/virtual_knockout_seed_summary.csv": {
+          "passed": true,
+          "expected": "52b5217bf88a678b602f139fb2cee2d859e8b7c94697e8cc9bb93b309b926c9e",
+          "observed": "52b5217bf88a678b602f139fb2cee2d859e8b7c94697e8cc9bb93b309b926c9e"
+        },
+        "Source_Data/Virtual_Knockout/virtual_knockout_gene_results.csv.gz": {
+          "passed": true,
+          "expected": "781fc26c65443be9fa2a9b966f3b482485c2828510657a3a1f148022adbd6967",
+          "observed": "781fc26c65443be9fa2a9b966f3b482485c2828510657a3a1f148022adbd6967"
+        }
+      }
+    },
+    {
+      "check": "all_output_and_text_artifact_hashes_match",
+      "passed": true,
+      "detail": {
+        "Source_Data/Integration/candidate_consensus_ranking.csv": {
+          "passed": true,
+          "expected": "f9ae0b5477507ca3327029534ff9335fdfbe96b9d1e7fc1ad0fbd58b53e05ee1",
+          "observed": "f9ae0b5477507ca3327029534ff9335fdfbe96b9d1e7fc1ad0fbd58b53e05ee1"
+        },
+        "Source_Data/Integration/candidate_domain_scores_long.csv": {
+          "passed": true,
+          "expected": "b3d55b77089a79004083e6ac3b27fdcadd392208cd598d7ab0c31326ab9d365f",
+          "observed": "b3d55b77089a79004083e6ac3b27fdcadd392208cd598d7ab0c31326ab9d365f"
+        },
+        "Source_Data/Integration/candidate_leave_one_source_out_ranks.csv": {
+          "passed": true,
+          "expected": "2771c716ffae5a3bd37705e837a03233b716661dc26c0fb52c1d788481ab6975",
+          "observed": "2771c716ffae5a3bd37705e837a03233b716661dc26c0fb52c1d788481ab6975"
+        },
+        "Source_Data/Integration/tier2_candidate_shortlist.csv": {
+          "passed": true,
+          "expected": "89fb4396b89fd6d176f6d24ad1f8a7c0f72706949ecda2a1520c50314448cf99",
+          "observed": "89fb4396b89fd6d176f6d24ad1f8a7c0f72706949ecda2a1520c50314448cf99"
+        },
+        "Source_Data/Integration/phenotype_anchor_tiers.csv": {
+          "passed": true,
+          "expected": "7554294f4328df58005e7fed052c05cbef9e66bc3db25c90f7949092399e54df",
+          "observed": "7554294f4328df58005e7fed052c05cbef9e66bc3db25c90f7949092399e54df"
+        },
+        "Source_Data/Integration/target_same_compartment_context_all_pairs.csv": {
+          "passed": true,
+          "expected": "cade39d2a7a12af5aa6f342c93d298d4338616b49a53653b21e62e1d44707a2c",
+          "observed": "cade39d2a7a12af5aa6f342c93d298d4338616b49a53653b21e62e1d44707a2c"
+        },
+        "Source_Data/Integration/target_tier_gate_sensitivity.csv": {
+          "passed": true,
+          "expected": "c66e5a053928e13e315e5525fdd4b159657e541dfd45a38f3792e8cfdb777509",
+          "observed": "c66e5a053928e13e315e5525fdd4b159657e541dfd45a38f3792e8cfdb777509"
+        },
+        "Source_Data/Integration/virtual_ko_expression_matched_null_by_seed.csv": {
+          "passed": true,
+          "expected": "369bd1f598c5e903610b4b2b3c28e1838f8366ab01115bd612922b8a89914f0f",
+          "observed": "369bd1f598c5e903610b4b2b3c28e1838f8366ab01115bd612922b8a89914f0f"
+        },
+        "Source_Data/Integration/virtual_ko_expression_matched_null_stability.csv": {
+          "passed": true,
+          "expected": "1d8fd5a3f24e8830288632e944673731857886f023f109a29f85b110ce3f6f72",
+          "observed": "1d8fd5a3f24e8830288632e944673731857886f023f109a29f85b110ce3f6f72"
+        },
+        "Source_Data/Integration/virtual_ko_top20_pairwise_jaccard.csv": {
+          "passed": true,
+          "expected": "8acb4bf34b0c905cd7a30fe4bc84d63a0dec4f4411cd47a4558dfe3dc7bfd316",
+          "observed": "8acb4bf34b0c905cd7a30fe4bc84d63a0dec4f4411cd47a4558dfe3dc7bfd316"
+        },
+        "Source_Data/Integration/string_candidate_path_metrics.csv": {
+          "passed": true,
+          "expected": "32f2402b33b05e25993c00fd401b87648202845e9b638117103920890e5802f3",
+          "observed": "32f2402b33b05e25993c00fd401b87648202845e9b638117103920890e5802f3"
+        },
+        "Figures/Figure_4_Liver_Localization_and_Virtual_Knockout_caption.md": {
+          "passed": true,
+          "expected": "43d2d27c38f17159304fe5919295421a04ad23d6fd7434bc08b1e484ee060860",
+          "observed": "43d2d27c38f17159304fe5919295421a04ad23d6fd7434bc08b1e484ee060860"
+        },
+        "Figures/Figure_5_Multi_Evidence_Target_Prioritization_caption.md": {
+          "passed": true,
+          "expected": "2373c645ab24d8f5706afbee9ff0823bcb5e709da3f9d52b85e727630ec9b88c",
+          "observed": "2373c645ab24d8f5706afbee9ff0823bcb5e709da3f9d52b85e727630ec9b88c"
+        },
+        "Source_Data/Integration/integration_methods_results.md": {
+          "passed": true,
+          "expected": "d57627d4232a8665ea860384030025d4ba22d9fa0aadfa001662c98692ba9ba3",
+          "observed": "d57627d4232a8665ea860384030025d4ba22d9fa0aadfa001662c98692ba9ba3"
+        }
+      }
+    },
+    {
+      "check": "figure4_all_format_hashes_match",
+      "passed": true,
+      "detail": {
+        "svg": {
+          "passed": true,
+          "expected": "4f3495d4d487b51391aed7630d77111ca8c3d088ef235773ea45e893673ba42c",
+          "observed": "4f3495d4d487b51391aed7630d77111ca8c3d088ef235773ea45e893673ba42c",
+          "matches": [
+            "Figure_4_Liver_Localization_and_Virtual_Knockout.svg"
+          ]
+        },
+        "pdf": {
+          "passed": true,
+          "expected": "ce16a13be66ad2eb7f41ed9f5ef593a87bf224301cb84414cc91fae8431a7640",
+          "observed": "ce16a13be66ad2eb7f41ed9f5ef593a87bf224301cb84414cc91fae8431a7640",
+          "matches": [
+            "Figure_4_Liver_Localization_and_Virtual_Knockout.pdf"
+          ]
+        },
+        "png_600dpi": {
+          "passed": true,
+          "expected": "14ac1c8c4e740574722c7fdee03a640ee4ed8e67b591974ef723e808a9f8ef4c",
+          "observed": "14ac1c8c4e740574722c7fdee03a640ee4ed8e67b591974ef723e808a9f8ef4c",
+          "matches": [
+            "Figure_4_Liver_Localization_and_Virtual_Knockout.png"
+          ]
+        },
+        "tiff_600dpi": {
+          "passed": true,
+          "expected": "d0b580b169e99d583908f0586ab1637f7ff0e8e468c163439b5d477589e62600",
+          "observed": "d0b580b169e99d583908f0586ab1637f7ff0e8e468c163439b5d477589e62600",
+          "matches": [
+            "Figure_4_Liver_Localization_and_Virtual_Knockout.tiff"
+          ]
+        }
+      }
+    },
+    {
+      "check": "figure5_all_format_hashes_match",
+      "passed": true,
+      "detail": {
+        "svg": {
+          "passed": true,
+          "expected": "12db0700979f7edbdddde88c10f359849a506f5ba6b96af8614c2a29fa24953e",
+          "observed": "12db0700979f7edbdddde88c10f359849a506f5ba6b96af8614c2a29fa24953e",
+          "matches": [
+            "Figure_5_Multi_Evidence_Target_Prioritization.svg"
+          ]
+        },
+        "pdf": {
+          "passed": true,
+          "expected": "20e740c22d455dbe5938c2a57f3b3052be5aa9f5f3ffe065a640c680ced023a4",
+          "observed": "20e740c22d455dbe5938c2a57f3b3052be5aa9f5f3ffe065a640c680ced023a4",
+          "matches": [
+            "Figure_5_Multi_Evidence_Target_Prioritization.pdf"
+          ]
+        },
+        "png_600dpi": {
+          "passed": true,
+          "expected": "18985b47995456c883f1b822378435d47136d00181d5b0be53306ca40563a1a8",
+          "observed": "18985b47995456c883f1b822378435d47136d00181d5b0be53306ca40563a1a8",
+          "matches": [
+            "Figure_5_Multi_Evidence_Target_Prioritization.png"
+          ]
+        },
+        "tiff_600dpi": {
+          "passed": true,
+          "expected": "718926ba6bd29f0400719344afa8bae05a9e258b201d541390318812231bc4d6",
+          "observed": "718926ba6bd29f0400719344afa8bae05a9e258b201d541390318812231bc4d6",
+          "matches": [
+            "Figure_5_Multi_Evidence_Target_Prioritization.tiff"
+          ]
+        }
+      }
+    },
+    {
+      "check": "figure_4_exactly_ten_panel_letters",
+      "passed": true,
+      "detail": {
+        "A": 1,
+        "B": 1,
+        "C": 1,
+        "D": 1,
+        "E": 1,
+        "F": 1,
+        "G": 1,
+        "H": 1,
+        "I": 1,
+        "J": 1
+      }
+    },
+    {
+      "check": "figure_4_png_600dpi",
+      "passed": true,
+      "detail": {
+        "dpi": [
+          599.9988,
+          599.9988
+        ],
+        "pixels": [
+          4879,
+          6789
+        ]
+      }
+    },
+    {
+      "check": "figure_4_tiff_600dpi",
+      "passed": true,
+      "detail": {
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "pixels": [
+          4879,
+          6789
+        ]
+      }
+    },
+    {
+      "check": "figure_5_exactly_ten_panel_letters",
+      "passed": true,
+      "detail": {
+        "A": 1,
+        "B": 1,
+        "C": 1,
+        "D": 1,
+        "E": 1,
+        "F": 1,
+        "G": 1,
+        "H": 1,
+        "I": 1,
+        "J": 1
+      }
+    },
+    {
+      "check": "figure_5_png_600dpi",
+      "passed": true,
+      "detail": {
+        "dpi": [
+          599.9988,
+          599.9988
+        ],
+        "pixels": [
+          4868,
+          6790
+        ]
+      }
+    },
+    {
+      "check": "figure_5_tiff_600dpi",
+      "passed": true,
+      "detail": {
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "pixels": [
+          4868,
+          6790
+        ]
+      }
+    },
+    {
+      "check": "figure5e_title_correct",
+      "passed": true,
+      "detail": "requested title"
+    },
+    {
+      "check": "figure5e_global_rho_annotations",
+      "passed": true,
+      "detail": "rho=0.09/0.14"
+    },
+    {
+      "check": "figure4i_exploratory_label",
+      "passed": true,
+      "detail": "explicit exploratory label"
+    },
+    {
+      "check": "fbp1_sole_anchor_in_both_sciplex_dose_lists",
+      "passed": true,
+      "detail": [
+        "FBP1"
+      ]
+    },
+    {
+      "check": "global_overlap_correlations_match",
+      "passed": true,
+      "detail": {
+        "rho_1uM": 0.0855953205295425,
+        "n_1uM": 788,
+        "rho_10uM": 0.1396685796282048,
+        "n_10uM": 786
+      }
+    },
+    {
+      "check": "no_stable_anchor_top20_after_drug_target_ko",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "no_matched_null_bh_signal_repeats_two_seeds",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "candidate_roles_separate",
+      "passed": true,
+      "detail": [
+        "downstream_DILI_anchor",
+        "exposure_proximal_target"
+      ]
+    },
+    {
+      "check": "no_tier1_claim",
+      "passed": true,
+      "detail": "none assigned"
+    },
+    {
+      "check": "virtual_ko_unsigned_guardrail",
+      "passed": true,
+      "detail": "caption statement"
+    },
+    {
+      "check": "phenotype_and_target_tiers_explicitly_separated",
+      "passed": true,
+      "detail": "caption statement"
+    },
+    {
+      "check": "same_compartment_no_splicing_stated",
+      "passed": true,
+      "detail": "caption statement"
+    },
+    {
+      "check": "p1_phenotype_set",
+      "passed": true,
+      "detail": [
+        "FBP1"
+      ]
+    },
+    {
+      "check": "p2_phenotype_set",
+      "passed": true,
+      "detail": [
+        "ACO1",
+        "ALDOB",
+        "ASS1",
+        "CPS1",
+        "DMGDH",
+        "FAH",
+        "GSTA1",
+        "HPD",
+        "OTC"
+      ]
+    },
+    {
+      "check": "p3_phenotype_set",
+      "passed": true,
+      "detail": [
+        "CES1",
+        "LECT2",
+        "PCK2"
+      ]
+    },
+    {
+      "check": "p_track_key_ranks_and_loso_ranges",
+      "passed": true,
+      "detail": {
+        "GSTA1": [
+          3,
+          1,
+          8
+        ],
+        "FBP1": [
+          7,
+          5,
+          9
+        ],
+        "OTC": [
+          8,
+          7,
+          9
+        ]
+      }
+    },
+    {
+      "check": "t_track_key_ranks_after_same_compartment_rerun",
+      "passed": true,
+      "detail": {
+        "FGFR1": [
+          3,
+          2,
+          7
+        ],
+        "FLT1": [
+          7,
+          5,
+          8
+        ],
+        "FGFR3": [
+          9,
+          5,
+          13
+        ]
+      }
+    },
+    {
+      "check": "exploratory_t2_gate_set",
+      "passed": true,
+      "detail": [
+        "FGFR1"
+      ]
+    },
+    {
+      "check": "flt1_and_fgfr3_downgraded_to_t3",
+      "passed": true,
+      "detail": {
+        "FLT1": "T3: screen/context target hypothesis",
+        "FGFR3": "T3: screen/context target hypothesis"
+      }
+    },
+    {
+      "check": "strict_all_seed_t2_is_empty",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "t2_has_same_compartment_gate",
+      "passed": true,
+      "detail": "Endothelial"
+    },
+    {
+      "check": "t2_has_strong_pharmacology",
+      "passed": true,
+      "detail": "canonical_target"
+    },
+    {
+      "check": "exploratory_t2_gate_recomputes_exactly",
+      "passed": true,
+      "detail": 1
+    },
+    {
+      "check": "strict_t2_gate_recomputes_exactly",
+      "passed": true,
+      "detail": 0
+    },
+    {
+      "check": "hepg2_measurement_validity_recomputes_exactly",
+      "passed": true,
+      "detail": [
+        "ABL1",
+        "CDK4",
+        "FGFR2",
+        "FGFR4",
+        "LYN"
+      ]
+    },
+    {
+      "check": "hepg2_alternative_gate_recomputes_exactly",
+      "passed": true,
+      "detail": [
+        "CDK4"
+      ]
+    },
+    {
+      "check": "hepg2_alternative_adds_no_strong_pharmacology_target",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "all_pair_primary_gates_recompute_exactly",
+      "passed": true,
+      "detail": 3
+    },
+    {
+      "check": "joint_context_matches_best_single_compartment_pair",
+      "passed": true,
+      "detail": {
+        "FGFR1": "Endothelial",
+        "FLT1": "Endothelial",
+        "FGFR3": "Endothelial"
+      }
+    },
+    {
+      "check": "liver_context_equals_same_compartment_maximin",
+      "passed": true,
+      "detail": "all targets"
+    },
+    {
+      "check": "tier2_shortlist_contains_fgfr1_only",
+      "passed": true,
+      "detail": [
+        "FGFR1"
+      ]
+    },
+    {
+      "check": "ranking_shortlist_domain_loso_candidate_sets_aligned",
+      "passed": true,
+      "detail": {
+        "ranking": 30,
+        "domains": 30,
+        "loso": 30
+      }
+    }
+  ]
+}

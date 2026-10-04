@@ -1,0 +1,9 @@
+{
+  "n_chembl_activities": 2250,
+  "n_human_single_protein_targets": 222,
+  "n_replicated_potent_targets": 23,
+  "n_multi_document_potent_targets": 16,
+  "n_sciplex_rows": 2000,
+  "n_sciplex_unique_genes": 1578,
+  "interpretation_boundary": "Sci-Plex signatures are observed nintedanib responses in MCF7 cells, not hepatocyte DILI effects; ChEMBL biochemical potency does not by itself establish in-vivo target engagement or toxicity causality."
+}

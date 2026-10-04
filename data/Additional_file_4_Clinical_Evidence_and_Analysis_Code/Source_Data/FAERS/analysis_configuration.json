@@ -1,0 +1,77 @@
+{
+  "retrieval_date": "2026-09-04",
+  "api_endpoint": "https://api.fda.gov/drug/event.json",
+  "api_last_updated": "2026-07-30",
+  "analysis_start_receivedate": "20141015",
+  "analysis_end_receivedate": "20260630",
+  "primary_drug_queries": {
+    "nintedanib": "patient.drug.openfda.generic_name.exact:\"NINTEDANIB\"",
+    "pirfenidone": "patient.drug.openfda.generic_name.exact:\"PIRFENIDONE\""
+  },
+  "expanded_alias_queries": {
+    "nintedanib": "(patient.drug.openfda.generic_name.exact:\"NINTEDANIB\" OR patient.drug.medicinalproduct.exact:\"OFEV\" OR patient.drug.medicinalproduct.exact:\"NINTEDANIB\" OR patient.drug.medicinalproduct.exact:\"NINTEDANIB ESYLATE\")",
+    "pirfenidone": "(patient.drug.openfda.generic_name.exact:\"PIRFENIDONE\" OR patient.drug.medicinalproduct.exact:\"ESBRIET\" OR patient.drug.medicinalproduct.exact:\"PIRFENIDONE\")"
+  },
+  "coexposure_rule": "reports containing both nintedanib and pirfenidone are excluded from both active-comparator arms",
+  "narrow_pts": [
+    "DRUG-INDUCED LIVER INJURY",
+    "HEPATOTOXICITY",
+    "HEPATITIS TOXIC",
+    "HEPATOCELLULAR INJURY",
+    "CHOLESTATIC LIVER INJURY",
+    "MIXED LIVER INJURY",
+    "HEPATIC FAILURE",
+    "ACUTE HEPATIC FAILURE",
+    "HEPATIC NECROSIS",
+    "FULMINANT HEPATITIS"
+  ],
+  "broad_only_pts": [
+    "ALANINE AMINOTRANSFERASE INCREASED",
+    "ASPARTATE AMINOTRANSFERASE INCREASED",
+    "TRANSAMINASES INCREASED",
+    "HEPATIC ENZYME INCREASED",
+    "LIVER FUNCTION TEST ABNORMAL",
+    "LIVER FUNCTION TEST INCREASED",
+    "BLOOD BILIRUBIN INCREASED",
+    "HYPERBILIRUBINAEMIA",
+    "JAUNDICE",
+    "CHOLESTASIS",
+    "HEPATITIS",
+    "HEPATITIS ACUTE",
+    "HEPATIC FUNCTION ABNORMAL",
+    "LIVER DISORDER",
+    "GAMMA-GLUTAMYLTRANSFERASE INCREASED",
+    "BLOOD ALKALINE PHOSPHATASE INCREASED"
+  ],
+  "ild_indication_terms_for_report_level_specification": [
+    "IDIOPATHIC PULMONARY FIBROSIS",
+    "PULMONARY FIBROSIS",
+    "INTERSTITIAL LUNG DISEASE",
+    "IDIOPATHIC INTERSTITIAL PNEUMONIA",
+    "PROGRESSIVE FIBROSING INTERSTITIAL LUNG DISEASE",
+    "FIBROSING INTERSTITIAL LUNG DISEASE",
+    "SYSTEMIC SCLEROSIS ASSOCIATED INTERSTITIAL LUNG DISEASE",
+    "SYSTEMIC SCLEROSIS PULMONARY"
+  ],
+  "drugcharacterization_schema": {
+    "field": "patient.drug.drugcharacterization",
+    "official_mapping": {
+      "1": "suspect",
+      "2": "concomitant",
+      "3": "interacting"
+    },
+    "source": "https://open.fda.gov/fields/drugevent.yaml"
+  },
+  "age_rule": "age-stratified denominators require ICH age unit 801 (years); bands 18-64 and 65-150",
+  "time_to_onset_rule": "exact YYYYMMDD drug start and CASE EVENT DATE only; primary window 0-365 days",
+  "random_seed": 20260904,
+  "raw_record_counts": {
+    "nintedanib": 1773,
+    "pirfenidone": 717
+  },
+  "primary_exclusive_drug_report_totals": {
+    "nintedanib": 30233,
+    "pirfenidone": 39467
+  },
+  "response_cache_directory": "fresh_analysis/faers/raw_cache"
+}

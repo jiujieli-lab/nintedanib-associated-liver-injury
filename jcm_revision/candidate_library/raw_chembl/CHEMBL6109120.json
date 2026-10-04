@@ -1,0 +1,24 @@
+{
+  "abstract": "The dual inhibition of SIK2/3 has been considered as a potential treatment approach for MEF2C-high acute myeloid leukemia (AML). Although diverse scaffolds of pan-SIK or SIK2/3 inhibitors have been reported, few of them showed sufficient in vitro or in vivo antitumor activity. Based on the proposed binding mode of the hit molecule (<b>7</b>), chemical space in the solvent/P-loop region was explored via fragment growing/replacement, supported by the generative chemistry platform. Further SAR exploration and ADME optimization led to the discovery of <b>7s</b>, which exhibited excellent potency and strong selectivity in MEF2C high-expression cell lines over MEF2C-low cell lines. Moreover, oral administration of <b>7s</b> was found to demonstrate significant tumor growth inhibition in a MV4-11 AML mice CDX model without any body weight loss. This work highlights the potential of targeting MEF2C-dependent AML by selective oral SIK2/3 inhibitors, which was supported by the generative models.",
+  "authors": "Zhu W, Zhao P, Liu T, Gao F, Li Q, Cai X, Zhang M, Aliper A, Ren F, Zhavoronkov A, Ding X.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_37",
+    "creation_date": "2026-05-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL6109120",
+  "doi": "10.1021/acs.jmedchem.4c03225",
+  "doi_chembl": null,
+  "first_page": "7518",
+  "issue": "7",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "7538",
+  "patent_id": null,
+  "pubmed_id": 40111261,
+  "src_id": 1,
+  "title": "Discovery of Novel SIK2/3 Inhibitors for the Potential Treatment of MEF2C+ Acute Myeloid Leukemia (AML).",
+  "volume": "68",
+  "year": 2025
+}

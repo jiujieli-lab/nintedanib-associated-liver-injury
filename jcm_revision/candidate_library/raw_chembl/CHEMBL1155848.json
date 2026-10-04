@@ -1,0 +1,24 @@
+{
+  "abstract": "Inhibition of the vascular endothelial growth factor (VEGF) signaling pathway has emerged as one of the most promising new approaches for cancer therapy. We describe herein the key steps starting from an initial screening hit leading to the discovery of pazopanib, N(4)-(2,3-dimethyl-2H-indazol-6-yl)-N(4)-methyl-N(2)-(4-methyl-3-sulfonamidophenyl)-2,4-pyrimidinediamine, a potent pan-VEGF receptor (VEGFR) inhibitor under clinical development for renal-cell cancer and other solid tumors.",
+  "authors": "Harris PA, Boloor A, Cheung M, Kumar R, Crosby RM, Davis-Ward RG, Epperly AH, Hinkle KW, Hunter RN, Johnson JH, Knick VB, Laudeman CP, Luttrell DK, Mook RA, Nolte RT, Rudolph SK, Szewczyk JR, Truesdale AT, Veal JM, Wang L, Stafford JA.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_2",
+    "creation_date": "2009-11-30"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1155848",
+  "doi": "10.1021/jm800566m",
+  "doi_chembl": null,
+  "first_page": "4632",
+  "issue": "15",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "4640",
+  "patent_id": null,
+  "pubmed_id": 18620382,
+  "src_id": 1,
+  "title": "Discovery of 5-[[4-[(2,3-dimethyl-2H-indazol-6-yl)methylamino]-2-pyrimidinyl]amino]-2-methyl-benzenesulfonamide (Pazopanib), a novel and potent vascular endothelial growth factor receptor inhibitor.",
+  "volume": "51",
+  "year": 2008
+}

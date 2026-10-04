@@ -1,0 +1,29 @@
+{
+  "question": "Do target-specific graph deletions produce clinical-signature propagation changes beyond matched graph controls?",
+  "takeaway": "All nine magnitude calibrations and all three paired nonadditivity calibrations are nonsignificant; sparse target detection limits biological applicability.",
+  "surface": "standalone publication supplementary TIFF, PDF and preview PNG",
+  "figure": "Supplementary Figure S11",
+  "palette": "blue and gold for single targets; charcoal for joint; blue/gold signed scale; neutral calibration",
+  "source_tables": [
+    "primary_calibration.csv",
+    "perturbation_metrics.csv",
+    "donor_target_expression.csv",
+    "gene_level_perturbations.csv.gz",
+    "edge_attenuation_sensitivity.csv",
+    "nonadditivity_by_donor_omission.csv",
+    "nonadditivity_calibration.csv",
+    "target_to_target_redistribution.csv"
+  ],
+  "panels": {
+    "A": "5-donor detection heatmap, 6 target-context rows",
+    "B": "9 primary magnitudes plus five-donor omission ranges",
+    "C": "9 BH q values; magnitude tests",
+    "D": "13 clinical gene score changes x 3 interventions, endothelial",
+    "E": "five prespecified graph attenuation settings, endothelial",
+    "F": "4 target/comparator deletions x3 compartments",
+    "G": "3 paired nonadditivity magnitudes with five donor omission ranges",
+    "H": "three paired nonadditivity nominal p and q values",
+    "I": "6 reciprocal target-score shifts; descriptive, undirected"
+  },
+  "export_dimensions": "8.4 x 8.4 inches, 1200 dpi TIFF (10080 x 10080 pixels); 220 dpi preview; vector PDF"
+}

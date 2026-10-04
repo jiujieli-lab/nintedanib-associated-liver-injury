@@ -1,0 +1,132 @@
+[
+  {
+    "pose": 1,
+    "score": "-8.502",
+    "minimum_gatekeeper_Thr674_distance_A": 8.428280192304948,
+    "minimum_hinge_675_677_distance_A": 10.741052834801645,
+    "Cys677_minimum_distance_A": 12.290457843384043,
+    "per_residue_minimum_distances_A": {
+      "674": 8.428280192304948,
+      "675": 10.741052834801645,
+      "676": 14.5581262874039,
+      "677": 12.290457843384043
+    }
+  },
+  {
+    "pose": 2,
+    "score": "-8.345",
+    "minimum_gatekeeper_Thr674_distance_A": 7.975863150781869,
+    "minimum_hinge_675_677_distance_A": 10.695813293060061,
+    "Cys677_minimum_distance_A": 12.208111156112572,
+    "per_residue_minimum_distances_A": {
+      "674": 7.975863150781869,
+      "675": 10.695813293060061,
+      "676": 14.074866784449524,
+      "677": 12.208111156112572
+    }
+  },
+  {
+    "pose": 3,
+    "score": "-8.341",
+    "minimum_gatekeeper_Thr674_distance_A": 3.380045118042065,
+    "minimum_hinge_675_677_distance_A": 5.26614488976519,
+    "Cys677_minimum_distance_A": 6.6288195781753,
+    "per_residue_minimum_distances_A": {
+      "674": 3.380045118042065,
+      "675": 5.26614488976519,
+      "676": 7.442007390482772,
+      "677": 6.6288195781753
+    }
+  },
+  {
+    "pose": 4,
+    "score": "-8.155",
+    "minimum_gatekeeper_Thr674_distance_A": 7.669089776498896,
+    "minimum_hinge_675_677_distance_A": 9.690218624984682,
+    "Cys677_minimum_distance_A": 11.631386546753573,
+    "per_residue_minimum_distances_A": {
+      "674": 7.669089776498896,
+      "675": 9.690218624984682,
+      "676": 13.241264894261423,
+      "677": 11.631386546753573
+    }
+  },
+  {
+    "pose": 5,
+    "score": "-7.918",
+    "minimum_gatekeeper_Thr674_distance_A": 11.481210737548553,
+    "minimum_hinge_675_677_distance_A": 15.578470913411246,
+    "Cys677_minimum_distance_A": 16.516163567850757,
+    "per_residue_minimum_distances_A": {
+      "674": 11.481210737548553,
+      "675": 15.578470913411246,
+      "676": 17.814963092861028,
+      "677": 16.516163567850757
+    }
+  },
+  {
+    "pose": 6,
+    "score": "-7.817",
+    "minimum_gatekeeper_Thr674_distance_A": 8.767832913553946,
+    "minimum_hinge_675_677_distance_A": 10.616599549761695,
+    "Cys677_minimum_distance_A": 12.302099414327627,
+    "per_residue_minimum_distances_A": {
+      "674": 8.767832913553946,
+      "675": 10.616599549761695,
+      "676": 14.493781390651655,
+      "677": 12.302099414327627
+    }
+  },
+  {
+    "pose": 7,
+    "score": "-7.786",
+    "minimum_gatekeeper_Thr674_distance_A": 8.534943877964285,
+    "minimum_hinge_675_677_distance_A": 11.601115205013707,
+    "Cys677_minimum_distance_A": 12.593864220325713,
+    "per_residue_minimum_distances_A": {
+      "674": 8.534943877964285,
+      "675": 11.601115205013707,
+      "676": 14.365273857466144,
+      "677": 12.593864220325713
+    }
+  },
+  {
+    "pose": 8,
+    "score": "-7.722",
+    "minimum_gatekeeper_Thr674_distance_A": 8.269778292070475,
+    "minimum_hinge_675_677_distance_A": 11.044720910914878,
+    "Cys677_minimum_distance_A": 12.148587489910105,
+    "per_residue_minimum_distances_A": {
+      "674": 8.269778292070475,
+      "675": 11.044720910914878,
+      "676": 13.972147759024036,
+      "677": 12.148587489910105
+    }
+  },
+  {
+    "pose": 9,
+    "score": "-7.66",
+    "minimum_gatekeeper_Thr674_distance_A": 6.552391777053633,
+    "minimum_hinge_675_677_distance_A": 9.258416765300666,
+    "Cys677_minimum_distance_A": 10.494894997092636,
+    "per_residue_minimum_distances_A": {
+      "674": 6.552391777053633,
+      "675": 9.258416765300666,
+      "676": 12.341156671884542,
+      "677": 10.494894997092636
+    }
+  },
+  {
+    "pose": 10,
+    "score": "-7.621",
+    "minimum_gatekeeper_Thr674_distance_A": 9.51380544261864,
+    "minimum_hinge_675_677_distance_A": 10.372700468055573,
+    "Cys677_minimum_distance_A": 11.145404299530828,
+    "per_residue_minimum_distances_A": {
+      "674": 9.51380544261864,
+      "675": 10.372700468055573,
+      "676": 13.925198526412482,
+      "677": 11.145404299530828
+    }
+  }
+]

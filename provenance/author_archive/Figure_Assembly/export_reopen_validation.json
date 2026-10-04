@@ -1,0 +1,74 @@
+[
+  {
+    "figure": 1,
+    "ifd_offset": 826358,
+    "tiff_decode_after_writer_exit": true,
+    "tiff_png_pixel_identical": true,
+    "lower_original_canvas_pixel_identical": true,
+    "quantitative_panel_count": 10,
+    "size": [
+      2024,
+      2627
+    ],
+    "dpi": [
+      300.0,
+      300.0
+    ],
+    "tiff_bytes": 828646,
+    "tiff_sha256": "9c32ffeddc4643b973f440208252336f76da24f4625dff9aefa4dd08a4ad26eb"
+  },
+  {
+    "figure": 5,
+    "ifd_offset": 901342,
+    "tiff_decode_after_writer_exit": true,
+    "tiff_png_pixel_identical": true,
+    "lower_original_canvas_pixel_identical": true,
+    "quantitative_panel_count": 10,
+    "size": [
+      2030,
+      2423
+    ],
+    "dpi": [
+      300.0,
+      300.0
+    ],
+    "tiff_bytes": 903470,
+    "tiff_sha256": "a8c72cde5b82a4993ec35d9e0653a38dc5bef09a9e5ed52db0781fa5a45761a4"
+  },
+  {
+    "figure": 6,
+    "ifd_offset": 1048662,
+    "tiff_decode_after_writer_exit": true,
+    "tiff_png_pixel_identical": true,
+    "lower_original_canvas_pixel_identical": true,
+    "quantitative_panel_count": 12,
+    "size": [
+      2030,
+      2427
+    ],
+    "dpi": [
+      300.0,
+      300.0
+    ],
+    "tiff_bytes": 1050790,
+    "tiff_sha256": "a107272f90b38bbd0391d775a3c47db454f11e45703de990d4320ca942ffa082"
+  },
+  {
+    "figure": 7,
+    "ifd_offset": 855736,
+    "tiff_decode_after_writer_exit": true,
+    "tiff_png_pixel_identical": true,
+    "lower_original_canvas_pixel_identical": true,
+    "quantitative_panel_count": 12,
+    "size": [
+      2030,
+      2536
+    ],
+    "dpi": [
+      300.0,
+      300.0
+    ],
+    "tiff_bytes": 857952,
+    "tiff_sha256": "52e92c66a959a22a06e1d9510aba17d7f5ca4bd16a8b2d5470a7b0663c51cd51"
+  }
+]

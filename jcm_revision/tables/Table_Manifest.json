@@ -1,0 +1,82 @@
+[
+  {
+    "table": "N20",
+    "sheet": "N20_Library",
+    "title": "Compound identity and clinical context",
+    "file": "candidate_library/Candidate_Library_Evidence.csv",
+    "rows": 16,
+    "columns": 19,
+    "note": "Verified parent structures, approved indications, mechanisms and hepatic warnings.",
+    "sha256": "629d111d6de6a231a577cb4ff24cea103ebeace5c4554e5d383389e5f699835f"
+  },
+  {
+    "table": "N21",
+    "sheet": "N21_Boltz",
+    "title": "AI screening of both receptors",
+    "file": "screening/Boltz_All32_Dispositions.csv",
+    "rows": 32,
+    "columns": 27,
+    "note": "All 32 input dispositions; filtered compounds have no score. Scores are target-specific model outputs.",
+    "sha256": "f6e9431a6e465959e9caf6fc43bc229be92c0c2d0ac7b882c526993a3e6a6d4f"
+  },
+  {
+    "table": "N22",
+    "sheet": "N22_Docking_Runs",
+    "title": "Individual docking searches",
+    "file": "docking/Docking_All_Completed_Runs.csv",
+    "rows": 96,
+    "columns": 9,
+    "note": "All 96 primary searches; three computational seeds per compound and target.",
+    "sha256": "ea9c11a1d9c959dcc6457af8be281674572548fcc9a5f420d1b7cafd80d87ad2"
+  },
+  {
+    "table": "N23",
+    "sheet": "N23_Docking_Summary",
+    "title": "Docking score and pose consistency",
+    "file": "docking/Docking_Summary.csv",
+    "rows": 32,
+    "columns": 11,
+    "note": "Within-target median and observed range; seeds are not biological replicates.",
+    "sha256": "51357512fc4c482907eebfc620afe43dc3c47becdad5c98455de868c79249969"
+  },
+  {
+    "table": "N24",
+    "sheet": "N24_Properties",
+    "title": "Inductive molecular properties",
+    "file": "screening/Inductive_Properties_All16.csv",
+    "rows": 48,
+    "columns": 19,
+    "note": "All 48 predictions with versions, structure identity and provider uncertainty flags.",
+    "sha256": "679bd6daf3c5afc25cf0605b4824b99fca7442a3e6682fbcf4e6042c4ce953f1"
+  },
+  {
+    "table": "N25",
+    "sheet": "N25_Assay_Disposition",
+    "title": "Complete experimental activity records",
+    "file": "candidate_library/All_Target_Activity_Disposition.csv",
+    "rows": 191,
+    "columns": 41,
+    "note": "All 191 retrieved records, including censored, variant, duplicate and ineligible observations.",
+    "sha256": "97ad348350690974e65c9df63136fbd09fee691894273301622d41a662d8d97b"
+  },
+  {
+    "table": "N26",
+    "sheet": "N26_Activity_Summary",
+    "title": "Endpoint-specific experimental summary",
+    "file": "candidate_library/Endpoint_Separated_Experimental_Summary.csv",
+    "rows": 96,
+    "columns": 12,
+    "note": "Kd, Ki and IC50 remain separate; no cross-assay inferential pooling.",
+    "sha256": "2b70f4a8bc284470ccc7b27af57ba9d516dc1abfba72d428b84a27def46b2739"
+  },
+  {
+    "table": "N27",
+    "sheet": "N27_Matched_Kd",
+    "title": "Source-matched kinase-binding panel",
+    "file": "candidate_library/Davis2011_Matched_Kd_Benchmark.csv",
+    "rows": 12,
+    "columns": 41,
+    "note": "Reported inequalities and potential-duplicate flags are retained; not independent replicate measurements.",
+    "sha256": "ca32f9f86c68cf5d4f2fb47babe3bef3ff524b7dbefee10735836438c2bfc914"
+  }
+]

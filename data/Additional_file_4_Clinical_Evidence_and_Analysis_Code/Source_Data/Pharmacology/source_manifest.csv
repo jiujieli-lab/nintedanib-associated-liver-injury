@@ -1,0 +1,4 @@
+source,path,sha256,retrieval_date,n_records
+ChEMBL activity API,fresh_data/chembl_nintedanib_activities.json,723455ef7956bfa7fe6283c95ea7bd98376a5781b6e62f8a6df5ba48e60b2a91,2026-09-04,1000
+ChEMBL activity API,fresh_analysis/inputs/chembl_nintedanib_activities_offset1000.json,dabe18e96e3d7e5edd2de5d74d600ffedda129188e3decab217f4dce4936320e,2026-09-04,1000
+ChEMBL activity API,fresh_analysis/inputs/chembl_nintedanib_activities_offset2000.json,84694ecf2d28031b88b48c1ffdebd1d6489ae7d12a35e80ae86c1cc6631eb0d7,2026-09-04,250

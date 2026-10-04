@@ -1,0 +1,24 @@
+{
+  "abstract": "Gastrointestinal stromal tumors (GIST), driven by KIT and PDGFRA mutations, are the most common mesenchymal tumors of the gastrointestinal tract. Although tyrosine kinase inhibitors (TKIs) have advanced treatment, resistance mutations and off-target toxicity limit their efficacy. This study develops covalent TKIs targeting drug-resistant GIST through structure-based design, synthesis, and biological evaluation. SAR studies provided key insights into mutant KIT and PDGFRA interactions, and the first crystal structure of PDGFRA bound to a covalent inhibitor is reported. These findings highlight the promise of covalent inhibitors for overcoming resistance and advancing safer, more effective therapies for advanced GIST.",
+  "authors": "Schulz T, Gontla R, Teuber A, Beerbaum M, Fletcher BS, M\u00fchlenberg T, Kaitsiotou H, Hardick J, Jeyakumar K, Keul M, M\u00fcller MP, Sievers S, Bauer S, Rauh D.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_37",
+    "creation_date": "2026-05-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL6153081",
+  "doi": "10.1021/acs.jmedchem.4c02472",
+  "doi_chembl": null,
+  "first_page": "3238",
+  "issue": "3",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "3259",
+  "patent_id": null,
+  "pubmed_id": 39841084,
+  "src_id": 1,
+  "title": "Design, Synthesis, and SAR of Covalent KIT and PDGFRA Inhibitors\u2500Exploring Their Potential in Targeting GIST.",
+  "volume": "68",
+  "year": 2025
+}

@@ -1,0 +1,2 @@
+proposed_analysis,status,reason,minimum_additional_data_needed
+Multivariable or nested-CV classifier across proteins,Not performed,The workbook provides individual case values within each protein block but no common participant identifier. Cross-figure QC demonstrates that protein-specific source rows are reordered. Positional joining would fabricate participant-level linkage.,"De-identified participant ID linked across targeted protein measurements and outcomes, or an official participant-by-protein matrix from PXD034882/Panorama."

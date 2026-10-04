@@ -1,0 +1,204 @@
+{
+  "status": "frozen_after_complete_rerun_and_independent_validation",
+  "retrieval_date": "2026-09-04",
+  "openfda_last_updated": "2026-07-30",
+  "analysis_receivedate_window": [
+    "20141015",
+    "20260630"
+  ],
+  "unit": "one latest-version openFDA safetyreportid (spontaneous report)",
+  "primary_exposure_definition": {
+    "nintedanib": "patient.drug.openfda.generic_name.exact:\"NINTEDANIB\"",
+    "pirfenidone": "patient.drug.openfda.generic_name.exact:\"PIRFENIDONE\""
+  },
+  "coexposure_rule": "reports containing both nintedanib and pirfenidone are excluded from both active-comparator arms",
+  "indication_phrase_sensitivity": {
+    "primary_field": "patient.drug.drugindication (analyzed phrase; capitalization-insensitive)",
+    "sensitivity_field": "patient.drug.drugindication.exact (case-sensitive keyword)",
+    "reason": "the exact keyword field missed capitalization variants visible in downloaded JSON",
+    "terms": [
+      "IDIOPATHIC PULMONARY FIBROSIS",
+      "PULMONARY FIBROSIS",
+      "INTERSTITIAL LUNG DISEASE",
+      "IDIOPATHIC INTERSTITIAL PNEUMONIA",
+      "PROGRESSIVE FIBROSING INTERSTITIAL LUNG DISEASE",
+      "FIBROSING INTERSTITIAL LUNG DISEASE",
+      "SYSTEMIC SCLEROSIS ASSOCIATED INTERSTITIAL LUNG DISEASE",
+      "SYSTEMIC SCLEROSIS PULMONARY"
+    ],
+    "relational_boundary": "report-level filtering cannot prove same-array-element linkage to the indexed drug"
+  },
+  "validation": {
+    "status": "pass",
+    "unit": "latest-version safetyreportid (report)",
+    "overall_independent_recalculation": [
+      {
+        "endpoint": "narrow",
+        "counts": [
+          340,
+          30233,
+          112,
+          39467
+        ],
+        "ROR": 3.9966057509880484,
+        "low95": 3.2264349947394404,
+        "high95": 4.950621213467427
+      },
+      {
+        "endpoint": "broad",
+        "counts": [
+          1773,
+          30233,
+          717,
+          39467
+        ],
+        "ROR": 3.3668703340517556,
+        "low95": 3.0829903271105863,
+        "high95": 3.6768898515947788
+      },
+      {
+        "endpoint": "hy_proxy",
+        "counts": [
+          19,
+          30233,
+          12,
+          39467
+        ],
+        "ROR": 2.067598353963946,
+        "low95": 1.0035195514337016,
+        "high95": 4.259969770600775
+      }
+    ],
+    "age_unit_801_event_count_check": {
+      "18-64_years": [
+        99,
+        359,
+        14,
+        71
+      ],
+      "65plus_years": [
+        193,
+        1088,
+        57,
+        302
+      ]
+    },
+    "double_zero_contrast": "2014 narrow marked non-estimable",
+    "mh_rbg_check": {
+      "narrow": [
+        4.511587193291437,
+        3.6056881245985086,
+        5.645085847500401
+      ],
+      "broad": [
+        4.048094766549167,
+        3.6866077228046237,
+        4.445027101092307
+      ]
+    },
+    "year_effect_heterogeneity_check": {
+      "status": "common annual effect rejected; MH retained as descriptive summary",
+      "expected": {
+        "narrow | all_years | Tarone-adjusted Breslow-Day": [
+          88.25434621529466,
+          11,
+          3.6637359812630166e-14,
+          null
+        ],
+        "narrow | exclude_2022 | Tarone-adjusted Breslow-Day": [
+          33.92521640584324,
+          10,
+          0.00019016298099105988,
+          null
+        ],
+        "broad | all_years | Tarone-adjusted Breslow-Day": [
+          63.325369250923984,
+          12,
+          5.552200810221564e-09,
+          null
+        ],
+        "broad | exclude_2022 | Tarone-adjusted Breslow-Day": [
+          40.28344742835485,
+          11,
+          3.199346023374794e-05,
+          null
+        ],
+        "narrow | all_years | Inverse-variance Cochran Q": [
+          43.11266305705881,
+          11,
+          1.0381310309410039e-05,
+          74.48545457411967
+        ],
+        "broad | all_years | Inverse-variance Cochran Q": [
+          61.39384545688669,
+          12,
+          1.2560042610899139e-08,
+          80.45406683569463
+        ]
+      }
+    },
+    "2022_cluster": {
+      "nintedanib_narrow_reports": 123,
+      "Italy": 104,
+      "July_2022": 96
+    },
+    "broad_tto_exclusion_audit": {
+      "nintedanib": [
+        783,
+        125,
+        600,
+        58
+      ],
+      "pirfenidone": [
+        199,
+        4,
+        180,
+        15
+      ]
+    }
+  },
+  "script_sha256": {
+    "Code/FAERS/run_openfda_faers.py": "bc9c4da8290d59ad95cbe50f2dfacd8677938134afa7472bb4a5c8910cea2f42",
+    "Code/FAERS/audit_year_heterogeneity.py": "6be2881e4e2b2e98a5f4a609b639a7968c4e34aa3b03b6b3c3b49fe34796ca2f",
+    "Code/FAERS/migrate_frozen_faers_semantics.py": "a63209588cb84674aad20f3ba6b5a371eacdcea4c1bb22fe4eb879030d09eb2b",
+    "Code/Figures/make_faers_figures.py": "33d8aedd47dc805ae338f815fb332830fc3a89c6fbda1cad59107bf6570d4a4c"
+  },
+  "result_sha256": {
+    "alias_sensitivity_signals.csv": "5e290bf4f7cab3ec701ecd3cdead9839fb4f9bbaf1f78f192972b653d0126876",
+    "analysis_configuration.json": "7bfb92ad540e74b66ec7e1a1ff2d9f191427a7ead9693e10f5096731e88bde6b",
+    "annual_active_comparator_signals.csv": "40e3f7b983d176163103bbc30493c526cd4697eb8619b2dbfe2a215941b75625",
+    "api_query_log.csv": "6eec76ae55172ec80dbaa9d230b6452ab2b33f8d867ae5a64bbc5fd9aee82a72",
+    "broad_liver_event_reports_deduplicated.csv": "7ea38c61b2d9cdfd58bf317e3fbe19d90b96471ad851816ef9c9ba16abaf1314",
+    "drug_role_and_indication_profiles.csv": "15248b737c85464aa3199850ac07f59d221f84cdf6f775e9570b29effcb1f3eb",
+    "narrow_2022_country_audit.csv": "7360d58e5d702596a8da4089287adf5934f929b454b61d6d7f853444ef7ef841",
+    "narrow_2022_month_audit.csv": "d2e22b88bb7902d8ad30d692641f99ef6a7d0cabea35caa19ff8128f95c90cbc",
+    "overall_active_comparator_signals.csv": "be112306c0d306535f4fdc687fa0002e367fd746fa696ffea0dfe23e084d6642",
+    "preferred_term_signals.csv": "bd7bea29ef51572bf248e50ee8d79fb7a54172daa288f136b3d6484e2e772a0b",
+    "prespecified_meddra_pt_sets.csv": "860f76e2198e82ceef5e1094f4d9af8534c67151f340a1fe6b356325153583bb",
+    "report_level_specification_signals.csv": "5e6d6fbded32863e66a43794da910487cd24dfde52bd4cf1704932221399e906",
+    "serious_outcome_profiles.csv": "34bb5f908865994d08f45fd16d65d5eb8011d5fabaf629bdd7a86f92d27fa336",
+    "sex_age_stratified_signals.csv": "736c4916d16f10b36ea7cf2a9fd7523cd537ff8f1be3b3b89019f1527b3deb33",
+    "temporal_influence_signals.csv": "51a6b4fbfcdbbb22e70c43eced249ae58130933b06ed1287450a4190be886551",
+    "time_to_onset_case_values.csv": "ca2efc36ba74e1071b08a414a407aab2ba2d90a960c9744ab2abc0854533f0d1",
+    "time_to_onset_exclusion_audit.csv": "754c537ed2d47c335a91fd30a79c0f4bb375894d5a3dc142e663865bc6430de2",
+    "time_to_onset_summary.csv": "205212e2653b6d0cf929a7991a65ce2d9f9473604f6129a359951b59a76078c5",
+    "year_adjusted_mantel_haenszel_signals.csv": "3aab4dd857a65eedab6129aa790e2b47de7531bbbfc473e7f62b484e4511a2eb",
+    "year_effect_heterogeneity_tests.csv": "0115d7510c50ed7014a8dd1c2910fdee4cbfe81f22fe21a2d6a4d6df5c4b6f03"
+  },
+  "figure_sha256": {
+    "FAERS_figure_validation_report.json": "16c77b50cdb6fa9798b0136c5994ce95abf4b9fa59a39fdedbe35eb2f849d9e1",
+    "Figure_1_FAERS.pdf": "b042225aecb2c6f8b973b96ff890da9ab4f86e4a38f7249a696fec211fc191f7",
+    "Figure_1_FAERS.png": "dcac7a17e81fb2d3e942bdd8b5beaf5334eaf49368ec83a67bb243f947829267",
+    "Figure_1_FAERS.svg": "3566a5d16a1b4b0850380010b002db1d4d44d54aad09f98b10847f24b55ec092",
+    "Figure_1_FAERS.tiff": "1b32149ac1800b79b6d09844439b1de44f632d1d35eb81d3be287f634b42a817",
+    "Figure_1_FAERS_caption.md": "a0a7a0a2b5a4402b837e1ba6199a55936a46376e733dc58702cfd2b93cdb47d1",
+    "Figure_1_FAERS_panel_source_data.csv": "3c429a84c68d2e7624f3ee4a0f3eab9bcd1794604725b0b100ee13e906923ec3",
+    "Supplementary_Figure_S1_FAERS_panel_source_data.csv": "e90e37cbe24824e7bb7b0484d851d0cd093873023296b9dc50eef2ef84933ff6",
+    "Supplementary_Figure_S1_FAERS.pdf": "9a1d5c0be042366a87570e0160bd8da74efb8bd1130f9a7d021870df029acbfd",
+    "Supplementary_Figure_S1_FAERS.png": "bd51873fc2788faad934521e3fcedb898eac2672dfc874e3aee5902dcde858d5",
+    "Supplementary_Figure_S1_FAERS.svg": "695554c2cb5ac98aeb6c3efa47a0c212f1c40a10bfcc70c7273cc29a0d182037",
+    "Supplementary_Figure_S1_FAERS.tiff": "b2578783853e7f929f3bcf444eab240036dcfbe29506ccda7e23b79eda161214",
+    "Supplementary_Figure_S1_FAERS_caption.md": "a24b982608f0641d9315c7c728ce0d44750f7169c4eb369ca2a9958949bc5587"
+  },
+  "release_manifest_refreshed_utc": "2026-09-05"
+}

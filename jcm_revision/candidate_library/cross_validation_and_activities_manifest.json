@@ -1,0 +1,459 @@
+[
+  {
+    "name": "nintedanib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 135423438,
+            "MolecularFormula": "C31H33N5O4",
+            "MolecularWeight": "539.6",
+            "SMILES": "CN1CCN(CC1)CC(=O)N(C)C2=CC=C(C=C2)N=C(C3=CC=CC=C3)C4=C(NC5=C4C=CC(=C5)C(=O)OC)O",
+            "ConnectivitySMILES": "CN1CCN(CC1)CC(=O)N(C)C2=CC=C(C=C2)N=C(C3=CC=CC=C3)C4=C(NC5=C4C=CC(=C5)C(=O)OC)O",
+            "InChI": "InChI=1S/C31H33N5O4/c1-34-15-17-36(18-16-34)20-27(37)35(2)24-12-10-23(11-13-24)32-29(21-7-5-4-6-8-21)28-25-14-9-22(31(39)40-3)19-26(25)33-30(28)38/h4-14,19,33,38H,15-18,20H2,1-3H3",
+            "InChIKey": "CPMDPSXJELVGJG-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nintedanib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL502835&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 26,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 26
+    }
+  },
+  {
+    "name": "imatinib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 5291,
+            "MolecularFormula": "C29H31N7O",
+            "MolecularWeight": "493.6",
+            "SMILES": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5",
+            "ConnectivitySMILES": "CC1=C(C=C(C=C1)NC(=O)C2=CC=C(C=C2)CN3CCN(CC3)C)NC4=NC=CC(=N4)C5=CN=CC=C5",
+            "InChI": "InChI=1S/C29H31N7O/c1-21-5-10-25(18-27(21)34-29-31-13-11-26(33-29)24-4-3-12-30-19-24)32-28(37)23-8-6-22(7-9-23)20-36-16-14-35(2)15-17-36/h3-13,18-19H,14-17,20H2,1-2H3,(H,32,37)(H,31,33,34)",
+            "InChIKey": "KTUFNOKKBVMGRW-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/imatinib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL941&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 39,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 39
+    }
+  },
+  {
+    "name": "crenolanib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 10366136,
+            "MolecularFormula": "C26H29N5O2",
+            "MolecularWeight": "443.5",
+            "SMILES": "CC1(COC1)COC2=CC3=C(C=C2)N(C=N3)C4=NC5=C(C=CC=C5N6CCC(CC6)N)C=C4",
+            "ConnectivitySMILES": "CC1(COC1)COC2=CC3=C(C=C2)N(C=N3)C4=NC5=C(C=CC=C5N6CCC(CC6)N)C=C4",
+            "InChI": "InChI=1S/C26H29N5O2/c1-26(14-32-15-26)16-33-20-6-7-22-21(13-20)28-17-31(22)24-8-5-18-3-2-4-23(25(18)29-24)30-11-9-19(27)10-12-30/h2-8,13,17,19H,9-12,14-16,27H2,1H3",
+            "InChIKey": "DYNHJHQFHQTFTP-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/crenolanib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL2105728&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 1,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 1
+    }
+  },
+  {
+    "name": "avapritinib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 118023034,
+            "MolecularFormula": "C26H27FN10",
+            "MolecularWeight": "498.6",
+            "SMILES": "C[C@](C1=CC=C(C=C1)F)(C2=CN=C(N=C2)N3CCN(CC3)C4=NC=NN5C4=CC(=C5)C6=CN(N=C6)C)N",
+            "ConnectivitySMILES": "CC(C1=CC=C(C=C1)F)(C2=CN=C(N=C2)N3CCN(CC3)C4=NC=NN5C4=CC(=C5)C6=CN(N=C6)C)N",
+            "InChI": "InChI=1S/C26H27FN10/c1-26(28,20-3-5-22(27)6-4-20)21-13-29-25(30-14-21)36-9-7-35(8-10-36)24-23-11-18(16-37(23)33-17-31-24)19-12-32-34(2)15-19/h3-6,11-17H,7-10,28H2,1-2H3/t26-/m0/s1",
+            "InChIKey": "DWYRIWUZIJHQKQ-SANMLTNESA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/avapritinib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL4204794&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 9,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 9
+    }
+  },
+  {
+    "name": "ripretinib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 71584930,
+            "MolecularFormula": "C24H21BrFN5O2",
+            "MolecularWeight": "510.4",
+            "SMILES": "CCN1C2=CC(=NC=C2C=C(C1=O)C3=CC(=C(C=C3Br)F)NC(=O)NC4=CC=CC=C4)NC",
+            "ConnectivitySMILES": "CCN1C2=CC(=NC=C2C=C(C1=O)C3=CC(=C(C=C3Br)F)NC(=O)NC4=CC=CC=C4)NC",
+            "InChI": "InChI=1S/C24H21BrFN5O2/c1-3-31-21-12-22(27-2)28-13-14(21)9-17(23(31)32)16-10-20(19(26)11-18(16)25)30-24(33)29-15-7-5-4-6-8-15/h4-13H,3H2,1-2H3,(H,27,28)(H2,29,30,33)",
+            "InChIKey": "CEFJVGZHQAGLHS-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ripretinib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL4216467&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 6,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 6
+    }
+  },
+  {
+    "name": "axitinib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 6450551,
+            "MolecularFormula": "C22H18N4OS",
+            "MolecularWeight": "386.5",
+            "SMILES": "CNC(=O)C1=CC=CC=C1SC2=CC3=C(C=C2)C(=NN3)/C=C/C4=CC=CC=N4",
+            "ConnectivitySMILES": "CNC(=O)C1=CC=CC=C1SC2=CC3=C(C=C2)C(=NN3)C=CC4=CC=CC=N4",
+            "InChI": "InChI=1S/C22H18N4OS/c1-23-22(27)18-7-2-3-8-21(18)28-16-10-11-17-19(25-26-20(17)14-16)12-9-15-6-4-5-13-24-15/h2-14H,1H3,(H,23,27)(H,25,26)/b12-9+",
+            "InChIKey": "RITAVMQDGBJQJZ-FMIVXFBMSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/axitinib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1289926&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 5,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 5
+    }
+  },
+  {
+    "name": "tivozanib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 9911830,
+            "MolecularFormula": "C22H19ClN4O5",
+            "MolecularWeight": "454.9",
+            "SMILES": "CC1=CC(=NO1)NC(=O)NC2=C(C=C(C=C2)OC3=C4C=C(C(=CC4=NC=C3)OC)OC)Cl",
+            "ConnectivitySMILES": "CC1=CC(=NO1)NC(=O)NC2=C(C=C(C=C2)OC3=C4C=C(C(=CC4=NC=C3)OC)OC)Cl",
+            "InChI": "InChI=1S/C22H19ClN4O5/c1-12-8-21(27-32-12)26-22(28)25-16-5-4-13(9-15(16)23)31-18-6-7-24-17-11-20(30-3)19(29-2)10-14(17)18/h4-11H,1-3H3,(H2,25,26,27,28)",
+            "InChIKey": "SPMVMDHWKHCIDT-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/tivozanib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1289494&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 10,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 10
+    }
+  },
+  {
+    "name": "lenvatinib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 9823820,
+            "MolecularFormula": "C21H19ClN4O4",
+            "MolecularWeight": "426.9",
+            "SMILES": "COC1=CC2=NC=CC(=C2C=C1C(=O)N)OC3=CC(=C(C=C3)NC(=O)NC4CC4)Cl",
+            "ConnectivitySMILES": "COC1=CC2=NC=CC(=C2C=C1C(=O)N)OC3=CC(=C(C=C3)NC(=O)NC4CC4)Cl",
+            "InChI": "InChI=1S/C21H19ClN4O4/c1-29-19-10-17-13(9-14(19)20(23)27)18(6-7-24-17)30-12-4-5-16(15(22)8-12)26-21(28)25-11-2-3-11/h4-11H,2-3H2,1H3,(H2,23,27)(H2,25,26,28)",
+            "InChIKey": "WOSKHXYHFSIKNG-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/lenvatinib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1289601&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 6,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 6
+    }
+  },
+  {
+    "name": "sunitinib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 5329102,
+            "MolecularFormula": "C22H27FN4O2",
+            "MolecularWeight": "398.5",
+            "SMILES": "CCN(CC)CCNC(=O)C1=C(NC(=C1C)/C=C\\2/C3=C(C=CC(=C3)F)NC2=O)C",
+            "ConnectivitySMILES": "CCN(CC)CCNC(=O)C1=C(NC(=C1C)C=C2C3=C(C=CC(=C3)F)NC2=O)C",
+            "InChI": "InChI=1S/C22H27FN4O2/c1-5-27(6-2)10-9-24-22(29)20-13(3)19(25-14(20)4)12-17-16-11-15(23)7-8-18(16)26-21(17)28/h7-8,11-12,25H,5-6,9-10H2,1-4H3,(H,24,29)(H,26,28)/b17-12-",
+            "InChIKey": "WINHZLLDWRZWRT-ATVHPVEESA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sunitinib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL535&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 28,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 28
+    }
+  },
+  {
+    "name": "pazopanib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 10113978,
+            "MolecularFormula": "C21H23N7O2S",
+            "MolecularWeight": "437.5",
+            "SMILES": "CC1=C(C=C(C=C1)NC2=NC=CC(=N2)N(C)C3=CC4=NN(C(=C4C=C3)C)C)S(=O)(=O)N",
+            "ConnectivitySMILES": "CC1=C(C=C(C=C1)NC2=NC=CC(=N2)N(C)C3=CC4=NN(C(=C4C=C3)C)C)S(=O)(=O)N",
+            "InChI": "InChI=1S/C21H23N7O2S/c1-13-5-6-15(11-19(13)31(22,29)30)24-21-23-10-9-20(25-21)27(3)16-7-8-17-14(2)28(4)26-18(17)12-16/h5-12H,1-4H3,(H2,22,29,30)(H,23,24,25)",
+            "InChIKey": "CUIHSIWYWATEQL-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pazopanib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL477772&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 12,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 12
+    }
+  },
+  {
+    "name": "sorafenib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 216239,
+            "MolecularFormula": "C21H16ClF3N4O3",
+            "MolecularWeight": "464.8",
+            "SMILES": "CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F",
+            "ConnectivitySMILES": "CNC(=O)C1=NC=CC(=C1)OC2=CC=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F",
+            "InChI": "InChI=1S/C21H16ClF3N4O3/c1-26-19(30)18-11-15(8-9-27-18)32-14-5-2-12(3-6-14)28-20(31)29-13-4-7-17(22)16(10-13)21(23,24)25/h2-11H,1H3,(H,26,30)(H2,28,29,31)",
+            "InChIKey": "MLDQJTXFUGDVEO-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/sorafenib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1336&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 28,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 28
+    }
+  },
+  {
+    "name": "regorafenib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 11167602,
+            "MolecularFormula": "C21H15ClF4N4O3",
+            "MolecularWeight": "482.8",
+            "SMILES": "CNC(=O)C1=NC=CC(=C1)OC2=CC(=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F)F",
+            "ConnectivitySMILES": "CNC(=O)C1=NC=CC(=C1)OC2=CC(=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F)F",
+            "InChI": "InChI=1S/C21H15ClF4N4O3/c1-27-19(31)18-10-13(6-7-28-18)33-12-3-5-17(16(23)9-12)30-20(32)29-11-2-4-15(22)14(8-11)21(24,25)26/h2-10H,1H3,(H,27,31)(H2,29,30,32)",
+            "InChIKey": "FNHKPVJBJVTLMP-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/regorafenib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1946170&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 12,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 12
+    }
+  },
+  {
+    "name": "ponatinib",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 24826799,
+            "MolecularFormula": "C29H27F3N6O",
+            "MolecularWeight": "532.6",
+            "SMILES": "CC1=C(C=C(C=C1)C(=O)NC2=CC(=C(C=C2)CN3CCN(CC3)C)C(F)(F)F)C#CC4=CN=C5N4N=CC=C5",
+            "ConnectivitySMILES": "CC1=C(C=C(C=C1)C(=O)NC2=CC(=C(C=C2)CN3CCN(CC3)C)C(F)(F)F)C#CC4=CN=C5N4N=CC=C5",
+            "InChI": "InChI=1S/C29H27F3N6O/c1-20-5-6-22(16-21(20)8-10-25-18-33-27-4-3-11-34-38(25)27)28(39)35-24-9-7-23(26(17-24)29(30,31)32)19-37-14-12-36(2)13-15-37/h3-7,9,11,16-18H,12-15,19H2,1-2H3,(H,35,39)",
+            "InChIKey": "PHXJVRSECIGDHY-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/ponatinib/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1171837&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 9,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 9
+    }
+  },
+  {
+    "name": "MAZ51",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 53230017,
+            "MolecularFormula": "C21H18N2O",
+            "MolecularWeight": "314.4",
+            "SMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)/C=C/3\\C4=CC=CC=C4NC3=O",
+            "ConnectivitySMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)C=C3C4=CC=CC=C4NC3=O",
+            "InChI": "InChI=1S/C21H18N2O/c1-23(2)20-12-11-14(15-7-3-4-9-17(15)20)13-18-16-8-5-6-10-19(16)22-21(18)24/h3-13H,1-2H3,(H,22,24)/b18-13+",
+            "InChIKey": "VFCXONOPGCDDBQ-QGOAFFKASA-N"
+          },
+          {
+            "CID": 24906291,
+            "MolecularFormula": "C21H18N2O",
+            "MolecularWeight": "314.4",
+            "SMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)C=C3C4=CC=CC=C4NC3=O",
+            "ConnectivitySMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)C=C3C4=CC=CC=C4NC3=O",
+            "InChI": "InChI=1S/C21H18N2O/c1-23(2)20-12-11-14(15-7-3-4-9-17(15)20)13-18-16-8-5-6-10-19(16)22-21(18)24/h3-13H,1-2H3,(H,22,24)",
+            "InChIKey": "VFCXONOPGCDDBQ-UHFFFAOYSA-N"
+          },
+          {
+            "CID": 9839842,
+            "MolecularFormula": "C21H18N2O",
+            "MolecularWeight": "314.4",
+            "SMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)/C=C\\3/C4=CC=CC=C4NC3=O",
+            "ConnectivitySMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)C=C3C4=CC=CC=C4NC3=O",
+            "InChI": "InChI=1S/C21H18N2O/c1-23(2)20-12-11-14(15-7-3-4-9-17(15)20)13-18-16-8-5-6-10-19(16)22-21(18)24/h3-13H,1-2H3,(H,22,24)/b18-13-",
+            "InChIKey": "VFCXONOPGCDDBQ-AQTBWJFISA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/MAZ51/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON"
+  },
+  {
+    "name": "pirfenidone",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 40632,
+            "MolecularFormula": "C12H11NO",
+            "MolecularWeight": "185.22",
+            "SMILES": "CC1=CN(C(=O)C=C1)C2=CC=CC=C2",
+            "ConnectivitySMILES": "CC1=CN(C(=O)C=C1)C2=CC=CC=C2",
+            "InChI": "InChI=1S/C12H11NO/c1-10-7-8-12(14)13(9-10)11-5-3-2-4-6-11/h2-9H,1H3",
+            "InChIKey": "ISWRGOKTTBVCFA-UHFFFAOYSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pirfenidone/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL1256391&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 0,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 0
+    }
+  },
+  {
+    "name": "nerandomilast",
+    "pubchem": {
+      "PropertyTable": {
+        "Properties": [
+          {
+            "CID": 166177189,
+            "MolecularFormula": "C20H25ClN6O2S",
+            "MolecularWeight": "449.0",
+            "SMILES": "C1CC(C1)(CO)NC2=NC(=NC3=C2[S@](=O)CC3)N4CCC(CC4)C5=NC=C(C=N5)Cl",
+            "ConnectivitySMILES": "C1CC(C1)(CO)NC2=NC(=NC3=C2S(=O)CC3)N4CCC(CC4)C5=NC=C(C=N5)Cl",
+            "InChI": "InChI=1S/C20H25ClN6O2S/c21-14-10-22-17(23-11-14)13-2-7-27(8-3-13)19-24-15-4-9-30(29)16(15)18(25-19)26-20(12-28)5-1-6-20/h10-11,13,28H,1-9,12H2,(H,24,25,26)/t30-/m1/s1",
+            "InChIKey": "UHYCLWAANUGUMN-SSEXGKCCSA-N"
+          }
+        ]
+      }
+    },
+    "pubchem_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nerandomilast/property/IsomericSMILES,CanonicalSMILES,InChI,InChIKey,MolecularFormula,MolecularWeight/JSON",
+    "activities_url": "https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL5314532&target_chembl_id__in=CHEMBL2007%2CCHEMBL1955&limit=1000",
+    "activities_count": 0,
+    "activity_page_meta": {
+      "limit": 1000,
+      "next": null,
+      "offset": 0,
+      "previous": null,
+      "total_count": 0
+    }
+  }
+]

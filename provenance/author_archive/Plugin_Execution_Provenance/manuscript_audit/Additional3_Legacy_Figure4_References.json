@@ -1,0 +1,22 @@
+[
+  {
+    "sheet": "Data_Provenance",
+    "cell": "B36",
+    "value": "fresh_analysis/figures/Figure_4_caption.md"
+  },
+  {
+    "sheet": "Figure_Source_Map",
+    "cell": "A6",
+    "value": "Figure 4"
+  },
+  {
+    "sheet": "Figure_Source_Map",
+    "cell": "C6",
+    "value": "Figures/Figure_4_Liver_Localization_and_Perturbation_QC.pdf"
+  },
+  {
+    "sheet": "Figure_Source_Map",
+    "cell": "H6",
+    "value": "Main_Manuscript.docx, Figure 4 legend"
+  }
+]

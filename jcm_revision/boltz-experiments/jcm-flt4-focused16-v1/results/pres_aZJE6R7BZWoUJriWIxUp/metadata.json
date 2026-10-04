@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 1.8379870653152466,
+    "permeability": 0.6027795076370239,
+    "solubility": "medium-confidence"
+  },
+  "created_at": "2026-10-02T15:16:15.687Z",
+  "external_id": "avapritinib",
+  "id": "pres_aZJE6R7BZWoUJriWIxUp",
+  "metrics": {
+    "binding_confidence": 0.5729485750198364,
+    "complex_iplddt": 0.7772806882858276,
+    "complex_plddt": 0.7395614981651306,
+    "iptm": 0.8851409554481506,
+    "optimization_score": 0.5110692381858826,
+    "ptm": 0.774390459060669,
+    "structure_confidence": 0.7686774134635925
+  },
+  "smiles": "Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1"
+}

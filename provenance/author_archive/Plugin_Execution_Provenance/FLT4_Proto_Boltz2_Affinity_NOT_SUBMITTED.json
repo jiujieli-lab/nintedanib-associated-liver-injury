@@ -1,0 +1,37 @@
+{
+  "tool_key": "boltz2-affinity",
+  "inputs": {
+    "complexes": [
+      {
+        "chains": [
+          {
+            "id": "A",
+            "sequence": "LHLGRVLGYGAFGKVVEASAFGIHKGSSCDTVAVKMLKEGATASEHRALMSELKILIHIGNHLNVVNLLGACTKPQGPLMVIVEFCKYGNLSNFLRAKRDAFSPCAEKSPEQRGRFRAMVELARLDRRRPGSSDRVLFARFSKTEGGARRASPDQEAEDLWLSPLTMEDLVCYSFQVARGMEFLASRKCIHRDLAARNILLSESDVVKICDFGLARDIYKDPDYVRKGSARLPLKWMAPESIFDKVYTTQSDVWSFGVLLWEIFSLGASPYPGVQINEEFCQRLRDGTRMRAPELATPAIRRIMLNCWSGDPKARPAFSELVEILGDLL",
+            "entity_type": "protein",
+            "modifications": []
+          },
+          {
+            "id": "B",
+            "smiles": "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1",
+            "entity_type": "ligand",
+            "name": "Nintedanib",
+            "metrics": {}
+          }
+        ]
+      }
+    ],
+    "msas": null,
+    "binder_chain": null
+  },
+  "config": {
+    "seed": 104729,
+    "use_msa": true,
+    "include_pae_matrix": true,
+    "recycling_steps": 3,
+    "sampling_steps": 200,
+    "diffusion_samples": 3,
+    "sampling_steps_affinity": 200,
+    "diffusion_samples_affinity": 5,
+    "timeout": 3600
+  }
+}

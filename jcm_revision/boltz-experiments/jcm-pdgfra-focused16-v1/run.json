@@ -1,0 +1,46 @@
+{
+  "completed_at": "2026-10-02T15:26:35.674Z",
+  "created_at": "2026-10-02T15:13:18.907Z",
+  "data_deleted_at": null,
+  "engine": "boltzmol",
+  "engine_version": "1.0",
+  "error": null,
+  "id": "sm_scr_yj8Mql4gJXVkMnpXutHZ",
+  "idempotency_key": "jcm-pdgfra-focused16-v1",
+  "input": {
+    "molecules": {},
+    "target": {
+      "entities": [
+        {
+          "chain_ids": [
+            "A"
+          ],
+          "modifications": [],
+          "type": "protein",
+          "value": "LVLGRVLGSGAFGKVVEGTAYGLSRSQPVMKVAVKMLKPTARSSEKQALMSELKIMTHLGPHLNIVNLLGACTKSGPIYIITEYCFYGDLVNYLHKNRDSFLSHHPEKPKKELDIFGLNPADESTRSYVILSFENNGDYMDMKQADTTQYVPMLERKEVSKYSDIQRSLYDRPASYKKKSMLDSEVKNLLSDDNSEGLTLLDLLSFTYQVARGMEFLASKNCVHRDLAARNVLLAQGKIVKICDFGLARDIMHDSNYVSKGSTFLPVKWMAPESIFDNLYTTLSDVWSYGILLWEIFSLGGTPYPGMMVDSTFYNKIKSGYRMAKPDHATSEVYEIMVKCWNSEPEKRPSFYHLSEIVENLL"
+        }
+      ],
+      "reference_ligands": [
+        "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1"
+      ],
+      "type": "no_template"
+    }
+  },
+  "livemode": true,
+  "pipeline": "boltzmol",
+  "pipeline_version": "1.0",
+  "progress": {
+    "latest_result_id": "pres_38eqgbeiI0CS23eayVkV",
+    "num_molecules_failed": 0,
+    "num_molecules_screened": 12,
+    "rejection_summary": {
+      "filtered_count": 4,
+      "invalid_count": 0
+    },
+    "total_molecules_to_screen": 12
+  },
+  "started_at": "2026-10-02T15:13:19.437Z",
+  "status": "succeeded",
+  "stopped_at": null,
+  "workspace_id": "ws_WejH3bQUIcf5gSsaisxF"
+}

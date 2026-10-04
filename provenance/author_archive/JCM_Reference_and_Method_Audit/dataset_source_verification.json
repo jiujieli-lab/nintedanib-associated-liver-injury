@@ -1,0 +1,86 @@
+[
+  {
+    "number": 81,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138&targ=self&form=text&view=brief",
+    "http": 200,
+    "bytes": 6697,
+    "preview": "^SERIES = GSE70138\r\n!Series_title = L1000 Connectivity Map perturbational profiles from Broad Institute LINCS Center for Transcriptomics LINCS PHASE *II* (n=354,123; updated March 30, 2017)\r\n!Series_project = Connectivity Map\r\n!Series_geo_accession = GSE70138\r\n!Series_status = Public on Jul 15 2015\r\n!Series_submission_date = Jun 22 2015\r\n!Series_last_update_date = Feb 14 2018\r\n!Series_web_link = https://clue.io\r\n!Series_summary = The Library of Integrated Cellular Signatures (LINCS) is an NIH program which funds the generation of perturbational profiles across multiple cell and perturbation types, as well as read-outs, at a massive scale. The LINCS Center for Transcriptomics at the Broad Institute uses the L1000 high-throughput gene-expression assay to build a Connectivity Map which seeks to enable the discovery of functional connections between drugs, genes and diseases through analysis"
+  },
+  {
+    "number": 83,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469&targ=self&form=text&view=brief",
+    "http": 200,
+    "bytes": 2761,
+    "preview": "^SERIES = GSE115469\r\n!Series_title = Dissecting the human liver cellular landscape by single cell RNA-seq reveals novel intrahepatic monocyte/ macrophage populations\r\n!Series_geo_accession = GSE115469\r\n!Series_status = Public on Oct 22 2018\r\n!Series_submission_date = Jun 07 2018\r\n!Series_last_update_date = Nov 12 2021\r\n!Series_pubmed_id = 30348985\r\n!Series_summary = The liver is the largest solid organ in the body and is critical for metabolic and immune functions. However, surprisingly little is known about the cells that make up the human liver and its immune microenvironment. To address this, we mapped the cellular landscape in the human liver using single cell RNA sequencing. We carefully fractionated fragile, fresh hepatic tissue from human livers to obtain viable parenchymal and non-parenchymal cells. Our single cell transcriptomics map reveals 20 discrete cell populations, includi"
+  },
+  {
+    "number": 84,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125975&targ=self&form=text&view=brief",
+    "http": 200,
+    "bytes": 5831,
+    "preview": "^SERIES = GSE125975\r\n!Series_title = An Immune Gene Expression Signature Associated With Development of Human Hepatocellular Carcinoma Identifies Mice That Respond to Chemopreventive Agents \r\n!Series_geo_accession = GSE125975\r\n!Series_status = Public on Apr 14 2020\r\n!Series_submission_date = Jan 31 2019\r\n!Series_last_update_date = Apr 14 2020\r\n!Series_pubmed_id = 31344396\r\n!Series_summary = Background & Aims: Cirrhosis and chronic inflammation precede development of hepatocellular carcinoma (HCC) in approximately 80% of cases. We investigated immune-related gene expression patterns in liver tissues surrounding early-stage HCCs and chemopreventive agents that might alter these patterns to prevent liver tumorigenesis.\r\n!Series_summary = \r\n!Series_summary = Methods: We analyzed gene expression profiles of non-tumor liver tissues from 392 patients with early-stage HCC (training set, n=167 an"
+  },
+  {
+    "number": 85,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278200&targ=self&form=text&view=brief",
+    "http": 200,
+    "bytes": 5031,
+    "preview": "^SERIES = GSE278200\r\n!Series_title = Effect of Nintedanib in a Rat Model of Bleomycin-Induced Lung Fibrosis: A Transcriptome Analysis\r\n!Series_geo_accession = GSE278200\r\n!Series_status = Public on Feb 12 2026\r\n!Series_submission_date = Sep 27 2024\r\n!Series_last_update_date = May 18 2026\r\n!Series_pubmed_id = 41866841\r\n!Series_summary = INTRODUCTION: Idiopathic pulmonary fibrosis (IPF) is a progressive lung disease with a poor prognosis, causing irreversible lung parenchymal damage. Pirfenidone and nintedanib exhibit some benefits on IPF, although they cannot cure or reverse its progression. Moreover, the molecular mechanisms responsible for their effects remain not entirely comprehended. Nintedanib, a multi-kinase receptor modulator, suppresses diverse proliferative pathways and displays antifibrotic effects in lung fibrosis models. However, the effects of its administration on the lung t"
+  },
+  {
+    "number": 86,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE308578&targ=self&form=text&view=brief",
+    "http": 200,
+    "bytes": 4254,
+    "preview": "^SERIES = GSE308578\r\n!Series_title = Consistent lack of efficacy of nintedanib in a spirometry-confirmed and bleomycin-induced mouse model of idiopathic pulmonary fibrosis\r\n!Series_geo_accession = GSE308578\r\n!Series_status = Public on Mar 18 2026\r\n!Series_submission_date = Sep 19 2025\r\n!Series_last_update_date = Mar 18 2026\r\n!Series_pubmed_id = 41826148\r\n!Series_summary = Nintedanib, a multitargeted tyrosine kinase inhibitor, is approved for idiopathic pulmonary fibrosis (IPF) for its ability to slow lung function decline. This study systematically evaluated the effects of nintedanib across three independent treatment intervention studies in the single-dose bleomycin (BLEO) mouse model of IPF. In each study, male C57BL/6J mice received a single intratracheal instillation of BLEO (n=15-18 per study) or saline (n=10 per study) and were randomized and stratified to treatment according to bo"
+  },
+  {
+    "number": 87,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151374&targ=self&form=text&view=brief",
+    "http": 200,
+    "bytes": 4361,
+    "preview": "^SERIES = GSE151374\r\n!Series_title = The Anti-Fibrotic Drug Nintedanib Promotes Expansion of Lung Macrophages with a Distinct Transcriptional Repair Program in Bleomycin-Exposed Mice\r\n!Series_geo_accession = GSE151374\r\n!Series_status = Public on May 05 2021\r\n!Series_submission_date = May 28 2020\r\n!Series_last_update_date = Feb 02 2024\r\n!Series_pubmed_id = 36227799\r\n!Series_summary = Idiopathic pulmonary fibrosis (IPF) is a progressing chronic and fibrotic lung response with poor prognosis. The current standard-of-care for IPF is the kinase inhibitor nintedanib, which has a broad target range. The mechanism of nintedanib’s action remains unclear as it inhibits diverse kinases expressed in lung epithelia, endothelia and putatively the immune populations distributed throughout the lung. Given the proposed role of multiple pulmonary macrophage populations in mediating both protective and pat"
+  },
+  {
+    "number": 89,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120804&targ=self&form=text&view=brief",
+    "http": 200,
+    "bytes": 4715,
+    "preview": "^SERIES = GSE120804\r\n!Series_title = Molecular Characterization of a Precision-Cut Rat Liver Slice Model for the Evaluation of Anti-Fibrotic Compounds\r\n!Series_geo_accession = GSE120804\r\n!Series_status = Public on Oct 04 2018\r\n!Series_submission_date = Oct 03 2018\r\n!Series_last_update_date = Mar 09 2021\r\n!Series_pubmed_id = 30406699\r\n!Series_summary = Precision-cut liver tissue slice (PCLS) contains all major cell types of the liver parenchyma and preserves the original cell-cell and cell-matrix contacts. It represents a promising ex vivo model to study liver fibrosis and test the anti-fibrotic effect of experimental compounds in a physiologic environment. In this study using RNAquencing we demonstrated that various pathways functionally related to fibrotic mechanisms were dysregulated in PCLSs derived from rats subjected to bile duct ligation. The Alk5 inhibitor SB525334, nintedanib and"
+  },
+  {
+    "number": 90,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120679&targ=self&form=text&view=brief",
+    "http": 200,
+    "bytes": 4353,
+    "preview": "^SERIES = GSE120679\r\n!Series_title = Molecular characterization of a precision-cut rat lung slice model for the evaluation of anti-fibrotic drugs\r\n!Series_geo_accession = GSE120679\r\n!Series_status = Public on Oct 02 2018\r\n!Series_submission_date = Oct 01 2018\r\n!Series_last_update_date = Jan 02 2019\r\n!Series_pubmed_id = 30489156\r\n!Series_summary = The translation of novel pulmonary fibrosis therapies from preclinical models into the clinic represents a major challenge demonstrated by the high attrition rate of compounds that showed efficacy in preclinical models but demonstrated no significant beneficial effects in clinical trials. Precision-cut lung tissue slice (PCLS) contains all major cell types of the lung and preserves the original cell-cell and cell-matrix contacts. It represents a promising ex vivo model to study pulmonary fibrosis. In this study, using RNA sequencing, we demonstr"
+  },
+  {
+    "number": 91,
+    "url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD024058",
+    "http": 200,
+    "bytes": 8196,
+    "preview": "{\n  \"accession\" : \"PXD024058\",\n  \"title\" : \"Tianlongkechuanling Inhibits Pulmonary Fibrosis Through Down-Regulation Of Arginase-Ornithine Pathway\",\n  \"additionalAttributes\" : [ ],\n  \"projectDescription\" : \"Background: Pulmonary Fibrosis (PF) is an interstitial lung disease of unknown etiology, characterized by excessive accumulation of extracellular matrix in the lungs, which disrupts the structure and gas exchange of the alveoli. There are only two approved therapies for PF, nintedanib (Nib) and pirfenidone. Therefore, the use of Chinese medicine for PF is attracting attention. Tianlongkechuanling (TL) is an effective Chinese formula that has been applied clinically to alleviate PF, which can enhance lung function and quality of life.  Purpose: The potential effects and specific mechanisms of TL have not been fully explored, yet. In the present study, proteomics was performed to explore"
+  },
+  {
+    "number": 92,
+    "url": "https://www.ebi.ac.uk/pride/ws/archive/v2/projects/PXD052594",
+    "http": 200,
+    "bytes": 11714,
+    "preview": "{\n  \"accession\" : \"PXD052594\",\n  \"title\" : \"Radioproteomics stratifies molecular response to antifibrotic treatment in pulmonary fibrosis\",\n  \"additionalAttributes\" : [ ],\n  \"projectDescription\" : \"Antifibrotic therapy with nintedanib is the clinical mainstay in the treatment of progressive fibrosing interstitial lung disease (ILD). High-dimensional medical image analysis, known as radiomics, provides quantitative insights into organ-scale pathophysiology, generating digital disease fingerprints. Here, we used an integrative analysis of radiomic and proteomic profiles (radioproteomics) to assess whether changes in radiomic signatures can stratify the degree of antifibrotic response to nintedanib in (experimental) fibrosing ILD. Unsupervised clustering of delta radiomic profiles revealed two distinct imaging phenotypes in mice treated with nintedanib, contrary to conventional densitometry"
+  },
+  {
+    "number": 94,
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299128&targ=self&form=text&view=brief",
+    "http": 200,
+    "bytes": 5174,
+    "preview": "^SERIES = GSE299128\r\n!Series_title = Tolerability and Safety of Nintedanib and Immunosuppression in Autoimmune Inflammatory Myopathy and Progressive Pulmonary Fibrosis\r\n!Series_geo_accession = GSE299128\r\n!Series_status = Public on Aug 05 2026\r\n!Series_submission_date = Jun 05 2025\r\n!Series_last_update_date = Aug 05 2026\r\n!Series_pubmed_id = 42548349\r\n!Series_summary = Introduction: Autoimmune-inflammatory myopathy related interstitial lung disease (AIM-ILD) are often progressive and fibrotic. Given the rarity of this disease, little is known about the safety and tolerability of nintedanib, an anti-fibrotic treatment, in combination with immunosuppression in this population. The objective of this single-arm, open-label trial was to assess safety and tolerability of nintedanib in AIM-ILD, and to determine if peripheral blood cell gene expression changes with administration of nintedanib. M"
+  },
+  {
+    "number": 95,
+    "url": "https://ddbj.nig.ac.jp/resource/bioproject/PRJDB12477.json",
+    "http": 200,
+    "bytes": 14110,
+    "preview": "{\"identifier\":\"PRJDB12477\",\"properties\":{\"Project\":{\"Project\":{\"ProjectID\":{\"ArchiveID\":{\"accession\":\"PRJDB12477\",\"archive\":\"DDBJ\"}},\"ProjectDescr\":{\"Title\":\"Search for genes responsible for prognosis of the nintedanib treatment of induced-rheumatoid arthritis-associated interstitial lung\",\"Description\":\"Although nintedanib, a multi-tyrosine kinase inhibitor can alleviate symptoms of the chronically progressive interstitial lung diseases, its prognosis remains poorly understood. In an effort to identity genes related to the prognosis, we carried out RNA sequencing of lung tissue of nintedanib- and vehicle-treated mice which develop rheumatoid arthritis and subsequent pulmonary fibros\\r\\nis. By analysing differentially expressed genes between the nintedanib- and vehicle-treated mice\\r\\n based on sublocalization of cells expressing the genes, measure of progression of lung fibrosis by mass"
+  }
+]

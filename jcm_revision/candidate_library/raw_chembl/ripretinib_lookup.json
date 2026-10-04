@@ -1,0 +1,131 @@
+{
+  "molecules": [
+    {
+      "atc_classifications": [
+        "L01EX19"
+      ],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 2,
+      "cross_references": [
+        {
+          "xref_id": "ripretinib",
+          "xref_name": "ripretinib",
+          "xref_src": "DailyMed"
+        },
+        {
+          "xref_id": "human/EPAR/qinlock",
+          "xref_name": "qinlock",
+          "xref_src": "EMA"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 2020,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL4216467",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL4216467",
+        "molecule_chembl_id": "CHEMBL4216467",
+        "parent_chembl_id": "CHEMBL4216467"
+      },
+      "molecule_properties": {
+        "alogp": "5.67",
+        "aromatic_rings": 4,
+        "full_molformula": "C24H21BrFN5O2",
+        "full_mwt": "510.37",
+        "hba": 5,
+        "hbd": 3,
+        "heavy_atoms": 33,
+        "mw_freebase": "510.37",
+        "np_likeness_score": "-1.53",
+        "num_ro5_violations": 2,
+        "psa": "88.05",
+        "qed_weighted": "0.32",
+        "ro3_pass": "N",
+        "rtb": 5
+      },
+      "molecule_structures": {
+        "canonical_smiles": "CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21",
+        "molfile": "\n     RDKit          2D\n\n 33 36  0  0  0  0  0  0  0  0999 V2000\n   -6.0000    1.6237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.7145    1.2112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.7145    0.3862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.0000   -0.0263    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.2855    0.3862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.2855    1.2112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.5711   -0.0263    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.8565    0.3862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.8565    1.2112    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.1421   -0.0263    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.4276    0.3862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.4276    1.2112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.1421    1.6237    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7132    1.6237    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.7132   -0.0264    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9987    0.3862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9987    1.2112    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2842    1.6237    0.0000 Br  0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2842   -0.0264    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4302    0.3862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2842   -0.8514    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4302   -1.2639    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1447   -0.8514    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1447   -0.0264    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8592    0.3862    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.8592   -1.2639    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5736   -0.8514    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.5736   -0.0264    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4302   -2.0889    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.1447   -2.5014    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.2881   -1.2639    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0026   -0.8514    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.0193   -1.2259    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  2  0\n  3  4  1  0\n  4  5  2  0\n  5  6  1  0\n  1  6  2  0\n  7  8  1  0\n  8  9  2  0\n  5  7  1  0\n 10 11  1  0\n 11 12  2  0\n 12 13  1  0\n  8 10  1  0\n 15 16  2  0\n 16 17  1  0\n 14 17  2  0\n 11 15  1  0\n 14 12  1  0\n 19 20  2  0\n 18 17  1  0\n 16 19  1  0\n 21 22  1  0\n 22 23  1  0\n 23 24  2  0\n 19 21  1  0\n 20 24  1  0\n 26 27  2  0\n 27 28  1  0\n 25 28  2  0\n 23 26  1  0\n 25 24  1  0\n 29 30  1  0\n 22 29  1  0\n 31 32  1  0\n 27 31  1  0\n 21 33  2  0\nM  END\n> <chembl_id>\nCHEMBL4216467\n\n> <chembl_pref_name>\nRIPRETINIB",
+        "standard_inchi": "InChI=1S/C24H21BrFN5O2/c1-3-31-21-12-22(27-2)28-13-14(21)9-17(23(31)32)16-10-20(19(26)11-18(16)25)30-24(33)29-15-7-5-4-6-8-15/h4-13H,3H2,1-2H3,(H,27,28)(H2,29,30,33)",
+        "standard_inchi_key": "CEFJVGZHQAGLHS-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "Dcc-2618",
+          "syn_type": "OTHER",
+          "synonyms": "DCC-2618"
+        },
+        {
+          "molecule_synonym": "DCC-2618",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "DCC-2618"
+        },
+        {
+          "molecule_synonym": "Qinlock",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "QINLOCK"
+        },
+        {
+          "molecule_synonym": "Ripretinib",
+          "syn_type": "ATC",
+          "synonyms": "RIPRETINIB"
+        },
+        {
+          "molecule_synonym": "Ripretinib",
+          "syn_type": "EMA",
+          "synonyms": "RIPRETINIB"
+        },
+        {
+          "molecule_synonym": "Ripretinib",
+          "syn_type": "FDA",
+          "synonyms": "RIPRETINIB"
+        },
+        {
+          "molecule_synonym": "Ripretinib",
+          "syn_type": "INN",
+          "synonyms": "RIPRETINIB"
+        },
+        {
+          "molecule_synonym": "Ripretinib",
+          "syn_type": "OTHER",
+          "synonyms": "RIPRETINIB"
+        },
+        {
+          "molecule_synonym": "Ripretinib",
+          "syn_type": "USAN",
+          "synonyms": "RIPRETINIB"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "RIPRETINIB",
+      "prodrug": 0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-retin-; -tinib",
+      "usan_stem_definition": "retinol derivatives; tyrosine kinase inhibitors",
+      "usan_substem": "-retin-; -tinib",
+      "usan_year": 2017,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    }
+  ],
+  "page_meta": {
+    "limit": 100,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  }
+}

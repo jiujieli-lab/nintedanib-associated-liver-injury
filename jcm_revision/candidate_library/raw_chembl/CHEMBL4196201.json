@@ -1,0 +1,24 @@
+{
+  "abstract": "While the treatment of gastrointestinal stromal tumors (GISTs) has been revolutionized by the application of targeted tyrosine kinase inhibitors capable of inhibiting KIT-driven proliferation, diverse mutations to this kinase drive resistance to established therapies. Here we describe the identification of potent pan-KIT mutant kinase inhibitors that can be dosed without being limited by the tolerability issues seen with multitargeted agents. This effort focused on identification and optimization of an existing kinase scaffold through the use of structure-based design. Starting from a series of previously reported phenoxyquinazoline and quinoline based inhibitors of the tyrosine kinase PDGFR\u03b1, potency against a diverse panel of mutant KIT driven Ba/F3 cell lines was optimized, with a particular focus on reducing activity against a KDR driven cell model in order to limit the potential for hypertension commonly seen in second and third line GIST therapies. AZD3229 demonstrates potent single digit nM growth inhibition across a broad cell panel, with good margin to KDR-driven effects. Selectivity over KDR can be rationalized predominantly by the interaction of water molecules with the protein and ligand in the active site, and its kinome selectivity is similar to the best of the approved GIST agents. This compound demonstrates excellent cross-species pharmacokinetics, shows strong pharmacodynamic inhibition of target, and is active in several in vivo models of GIST.",
+  "authors": "Kettle JG, Anjum R, Barry E, Bhavsar D, Brown C, Boyd S, Campbell A, Goldberg K, Grondine M, Guichard S, Hardy CJ, Hunt T, Jones RDO, Li X, Moleva O, Ogg D, Overman RC, Packer MJ, Pearson S, Schimpl M, Shao W, Smith A, Smith JM, Stead D, Stokes S, Tucker M, Ye Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_26",
+    "creation_date": "2020-01-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4196201",
+  "doi": "10.1021/acs.jmedchem.8b00938",
+  "doi_chembl": null,
+  "first_page": "8797",
+  "issue": "19",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "8810",
+  "patent_id": null,
+  "pubmed_id": 30204441,
+  "src_id": 1,
+  "title": "Discovery of N-(4-{[5-Fluoro-7-(2-methoxyethoxy)quinazolin-4-yl]amino}phenyl)-2-[4-(propan-2-yl)-1 H-1,2,3-triazol-1-yl]acetamide (AZD3229), a Potent Pan-KIT Mutant Inhibitor for the Treatment of Gastrointestinal Stromal Tumors.",
+  "volume": "61",
+  "year": 2018
+}

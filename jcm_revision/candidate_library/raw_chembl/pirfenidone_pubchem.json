@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 40632,
+        "MolecularFormula": "C12H11NO",
+        "MolecularWeight": "185.22",
+        "SMILES": "CC1=CN(C(=O)C=C1)C2=CC=CC=C2",
+        "ConnectivitySMILES": "CC1=CN(C(=O)C=C1)C2=CC=CC=C2",
+        "InChI": "InChI=1S/C12H11NO/c1-10-7-8-12(14)13(9-10)11-5-3-2-4-6-11/h2-9H,1H3",
+        "InChIKey": "ISWRGOKTTBVCFA-UHFFFAOYSA-N"
+      }
+    ]
+  }
+}

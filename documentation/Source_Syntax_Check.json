@@ -1,0 +1,438 @@
+[
+  {
+    "path": "binding_analysis/analyze_binding_evidence.py",
+    "status": "pass"
+  },
+  {
+    "path": "new_virtual/make_figure_s11.py",
+    "status": "pass"
+  },
+  {
+    "path": "new_virtual/run_target_pair_perturbation.py",
+    "status": "pass"
+  },
+  {
+    "path": "new_virtual/validate_extension.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/candidate_library/assemble_candidate_evidence.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/candidate_library/audit_assays.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/candidate_library/retrieve_evidence.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/candidate_library/retrieve_followup.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/candidate_library/retrieve_library.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/docking/finalize_docking_audit.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/docking/prepare_8pqj_sensitivity.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/docking/prepare_receptors.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/docking/remove_8pqj_repair_clashes.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/docking/repair_8pqj_heavy_atoms.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/docking/run_8pqj_sensitivity_after_primary.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/docking/run_campaign.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/docking/run_docking.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/docking/summarize_8pqj_sensitivity.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/docking/summarize_docking.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/figures/screening/build_main_screening.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/figures/screening/build_supplement_docking.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/figures/screening/build_supplement_properties.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/figures/screening/molecular/render_boltzmol_panels.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/figures/screening/molecular/render_molecular_panels.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/figures/screening/plot_fixed_evidence.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/screening/code/summarize_boltz.py",
+    "status": "pass"
+  },
+  {
+    "path": "jcm_revision/screening/code/summarize_inductive.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/original_package_metadata/Additional_file_9_Screening_Code_and_Data/verify_archive.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/integrated_analysis/audit_virtual_knockout_numerics.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/integrated_analysis/build_candidate_bridge_map.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/integrated_analysis/run_integrated_benchmark.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/integrated_analysis/run_primary_integration.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/integrated_analysis/validate_primary_integration.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/make_graphical_abstract.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/make_independent_liver_figure.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/make_integrated_figures.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/make_shared_reference_figure.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/network_diffusion/build_corrected_legacy_benchmark.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/network_diffusion/build_network_report.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/network_diffusion/run_network_diffusion.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/rebuild_figure4_qc.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/analyze_gse299128_blood.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/analyze_lincs_dose_and_figure3.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/audit_main_manuscript_docx.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_main_manuscript_docx.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_release_qa_reports.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_reproducibility_notebook.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_supplementary_information.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/build_virtual_integration_figures.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/execute_notebook_fallback.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/finalize_s6_s7_figure_exports.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/make_blood_sensitivity_figure.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/make_graphical_abstract.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/make_proteomics_figures.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/prepare_liver_singlecell.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/prepare_pharmacology_and_perturbation.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/prepare_submission_package.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/refresh_extension_manifests.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/refresh_faers_manifest.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/refresh_release_manifests.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/run_liver_virtual_knockout.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_lincs_figure3_outputs.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/validate_virtual_integration_outputs.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Core/verify_release_capsule.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/audit_year_heterogeneity.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/migrate_frozen_faers_semantics.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/FAERS/run_openfda_faers.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Figures/make_faers_figures.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/GSE151374/analyze_gse151374.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Human_DILI_Proteomics/analyze_dili_proteomics.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Human_DILI_Proteomics/validate_proteomics_outputs.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/LINCS/extract_gse70138_nintedanib_hepg2.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/PXD052594/analyze_pxd052594.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/Public_Preclinical_Core/analyze_public_preclinical.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/References/audit_manuscript_tokens.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/References/audit_references.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Code/References/build_references.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_7_External_Hepatic_Evaluation/Analysis/heldout_rank_association/analyze_frozen_rank_association.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_7_External_Hepatic_Evaluation/Analysis/independent_liver/analyze_independent_liver.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_7_External_Hepatic_Evaluation/Analysis/independent_liver/batch_sensitivity.py",
+    "status": "pass"
+  },
+  {
+    "path": "data/Additional_file_8_Pulmonary_Sensitivity_Data/Analysis/pulmonary_sensitivity/analyze_shared_reference.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Figure_Assembly/assemble_final_assets.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Figure_Assembly/build_workflow_figures.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Figure_Assembly/export_verified_originals.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Figure_Assembly/verify_final_assets.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Final_Packaging/build_archives.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Final_Packaging/build_author_archive.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Final_Packaging/finalize_delivery.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Final_Packaging/sanitize_transport_metadata.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/JCM_Reference_and_Method_Audit/build_author_documents.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/JCM_Reference_and_Method_Audit/build_targeted_supplement.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/JCM_Reference_and_Method_Audit/content_base/build_jcm_content_base.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/JCM_Reference_and_Method_Audit/format_new_references.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/JCM_Reference_and_Method_Audit/format_verified_references.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/JCM_Reference_and_Method_Audit/patch_supplement_reference_numbers.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/JCM_Reference_and_Method_Audit/verify_dataset_sources.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/JCM_Reference_and_Method_Audit/verify_new_references.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/JCM_Reference_and_Method_Audit/verify_references.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/MD_Feasibility_Only/benchmark_cpu.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Manuscript_Assembly/build_jcm_manuscript.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Manuscript_Assembly/build_screening_supplement.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Source_Reproducibility/Revision_Audit/assemble_materials.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Source_Reproducibility/Revision_Audit/build_support_documents.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Source_Reproducibility/Revision_Audit/revise_manuscript.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Supplementary_Information_Audit/build_source_crosswalk.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Supplementary_Information_Audit/build_supplement1.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Independent_Source_Panels/Original_Panel_Archive/scripts/extract_original_panels.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Independent_Source_Panels/Original_Panel_Archive/scripts/reassemble_delivered_panels.py",
+    "status": "pass"
+  },
+  {
+    "path": "provenance/author_archive/Independent_Source_Panels/Original_Panel_Archive/scripts/verify_panel_reconstruction.py",
+    "status": "pass"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "additional_number": 8,
+  "archive_name": "Additional_file_8_Pulmonary_Sensitivity_Data.zip",
+  "files": [
+    {
+      "path": "Analysis/pulmonary_sensitivity/GSE278200_logCPM_raw_features.csv.gz",
+      "size": 1354716,
+      "sha256": "b9776741a7f4adf30a3cd3902ac98e3e6c95a19bf392d638f7d8b6d5f302672c"
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/GSE308578_logCPM_raw_features.csv.gz",
+      "size": 5255650,
+      "sha256": "3423a9736b5b4ae39dc449b3dede36755b067d1ba4973a31a1a5e0577a9652aa"
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/analysis_summary.json",
+      "size": 6059,
+      "sha256": "e21c17d1156bc84a051b6d1c937efbbdcd3bd9e164ed1ada9850e7347c98ec6a"
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/analyze_shared_reference.py",
+      "size": 13033,
+      "sha256": "dc391b579ac8d58e797d3a53de35334d9248c3af0382a7b68a115ac9621abef8"
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/animal_label_permutations.csv",
+      "size": 83939,
+      "sha256": "0bffac65c94cb82500a0ae0e90becc71e2c11cd417611b85165be393e4783bde"
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/disjoint_reference_splits.csv",
+      "size": 127457,
+      "sha256": "f1e2c6869926f19e8c33386abad3c6fb19673fb917d6a66e55732291ec14a5e5"
+    },
+    {
+      "path": "Analysis/pulmonary_sensitivity/shared_reference_summary.csv",
+      "size": 1770,
+      "sha256": "d50a5d8026dc963ff30326d70df9afa653aa09b6a995c104879f3c44bdd167d2"
+    },
+    {
+      "path": "Source_Data/Pulmonary_Raw/GSE278200_NINT_raw_counts.txt.gz",
+      "size": 476719,
+      "sha256": "5ae68a0a8b4ab253105e27df215af424e44ca3563c52f22edd1981d5253eebfb"
+    },
+    {
+      "path": "Source_Data/Pulmonary_Raw/GSE308578_Gene_counts.csv.gz",
+      "size": 1456563,
+      "sha256": "a46808f90410796adc84738e4045aaeee311bf7445c71c39c1ee47e08da47a9c"
+    }
+  ]
+}

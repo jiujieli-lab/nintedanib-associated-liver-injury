@@ -1,0 +1,40 @@
+{
+  "status": "ready_for_submission_packaging",
+  "page_count": 14,
+  "render_method": "documents render_docx.py --emit_pdf",
+  "latest_render_directory": "/workspace/scratch/c5634a2d588f/work/jcm_revision/manuscript/additional7_render_release",
+  "all_pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "visual_result": "No clipping, overlap, missing glyphs, title rules, or broken table rows; compact tables readable; consistent black typography and page numbering.",
+  "scientific_audit": "Independent audit passed; counts, model outputs, receptor sensitivity and19 main-reference entries match the final sources.",
+  "numbered_citations_match_main": true,
+  "source_review_limits_explicit": true,
+  "md_claim": "No target-ligand production MD or trajectory-based binding stability reported.",
+  "remaining_unresolved_document_issues": [],
+  "files": {
+    "docx": {
+      "path": "/workspace/scratch/c5634a2d588f/work/jcm_revision/submission/Supplementary_Materials/Additional_file_7_Screening_Methods_and_Results.docx",
+      "bytes": 57037,
+      "sha256": "08186f59fa7b353b975c7f2ab02b74a8c2208f088ab0cb66c577c03ecc994445"
+    },
+    "pdf": {
+      "path": "/workspace/scratch/c5634a2d588f/work/jcm_revision/submission/Supplementary_Materials/Additional_file_7_Screening_Methods_and_Results.pdf",
+      "bytes": 213533,
+      "sha256": "0496817753eea1ea488b4a23b3a06bada7a5f2a236f768828193d8b676ea28f0"
+    }
+  }
+}

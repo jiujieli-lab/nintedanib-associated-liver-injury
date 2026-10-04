@@ -1,0 +1,563 @@
+{
+  "tool_key": "sequence-fetch",
+  "description": "Fetch DNA, RNA, protein, and structure records from NCBI, UniProt, and PDB",
+  "input_schema": {
+    "$defs": {
+      "SequenceFetchRequest": {
+        "description": "Single fetch request.\n\nAttributes:\n    request_id (str | None): Optional caller-provided request identifier.\n    target_name (str): Gene, protein, or RNA name to resolve.\n    organism (str): Organism name used for disambiguation.\n    sequence_types (list[Literal['protein', 'dna_genomic', 'dna_cds', 'rna_transcript', 'rna_premrna', 'structure']]): Requested outputs: protein, dna, rna, or structure.\n    uniprot_id (str | None): UniProt accession override.\n    genbank_accession (str | None): GenBank accession override.\n    refseq_accession (str | None): RefSeq accession override.\n    pdb_id (str | None): PDB accession override.\n    gene_id (str | None): NCBI Gene ID override.\n    protein_id (str | None): NCBI protein accession override.\n    transcript_id (str | None): Transcript accession override.\n    genomic_coordinates (str | None): Genomic interval like NC_000913.3:1-100:+.\n    additional_ids (dict[str, str]): Extra IDs used for custom routing.",
+        "properties": {
+          "request_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional request identifier",
+            "title": "Request ID"
+          },
+          "target_name": {
+            "description": "Gene, RNA, or protein name",
+            "minLength": 1,
+            "title": "Target Name",
+            "type": "string"
+          },
+          "organism": {
+            "description": "Organism for disambiguation",
+            "minLength": 1,
+            "title": "Organism",
+            "type": "string"
+          },
+          "sequence_types": {
+            "description": "Requested output molecule types",
+            "items": {
+              "enum": [
+                "protein",
+                "dna_genomic",
+                "dna_cds",
+                "rna_transcript",
+                "rna_premrna",
+                "structure"
+              ],
+              "type": "string"
+            },
+            "title": "Sequence Types",
+            "type": "array"
+          },
+          "uniprot_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "UniProt accession override",
+            "title": "UniProt ID"
+          },
+          "genbank_accession": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "GenBank accession override",
+            "title": "GenBank Accession"
+          },
+          "refseq_accession": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "RefSeq accession override",
+            "title": "RefSeq Accession"
+          },
+          "pdb_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "PDB accession override",
+            "title": "PDB ID"
+          },
+          "gene_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "NCBI Gene ID override",
+            "title": "Gene ID"
+          },
+          "protein_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "NCBI protein accession override",
+            "title": "Protein ID"
+          },
+          "transcript_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Transcript accession override",
+            "title": "Transcript ID"
+          },
+          "genomic_coordinates": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Genomic coordinates as accession:start-end:strand",
+            "title": "Genomic Coordinates"
+          },
+          "additional_ids": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "Extra IDs for custom routing (the 'accession' key is consulted as a generic fallback)",
+            "title": "Additional IDs",
+            "type": "object"
+          }
+        },
+        "required": [
+          "target_name",
+          "organism",
+          "sequence_types"
+        ],
+        "title": "SequenceFetchRequest",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "description": "Input for sequence retrieval.\n\nAttributes:\n    requests (list[SequenceFetchRequest]): One or more retrieval requests.",
+    "properties": {
+      "requests": {
+        "description": "One or more retrieval requests",
+        "items": {
+          "$ref": "#/$defs/SequenceFetchRequest"
+        },
+        "title": "Requests",
+        "type": "array"
+      }
+    },
+    "required": [
+      "requests"
+    ],
+    "title": "SequenceFetchInput",
+    "type": "object"
+  },
+  "config_schema": {
+    "additionalProperties": false,
+    "description": "Configuration for sequence retrieval.\n\nAttributes:\n    max_candidates_per_source (int): Maximum database candidates to\n        evaluate per name-based search.\n    type_check_mode (Literal[\"off\", \"warn\", \"error\"]): Controls how\n        molecule-type mismatches are handled (e.g. requesting \"protein\"\n        for a name that looks like an ncRNA gene).\n        ``\"off\"`` skips validation entirely; ``\"warn\"`` records a warning\n        but continues; ``\"error\"`` (default) fails the request.\n    ncbi_api_key (str | None): Optional NCBI API key (lifts rate limit\n        from 3 to 10 requests/second). Defaults to the ``NCBI_API_KEY``\n        environment variable; an explicit value passed to the config\n        overrides the env var.\n    ncbi_email (str | None): Optional contact email. Defaults to the\n        ``NCBI_EMAIL`` environment variable; an explicit value passed to\n        the config overrides the env var.",
+    "properties": {
+      "verbose": {
+        "default": 0,
+        "description": "Verbosity level (0=quiet, 1=info, 2=debug, 3=raw subprocess stderr). True→1, False→0.",
+        "maximum": 3,
+        "minimum": 0,
+        "reload_on_change": false,
+        "title": "Verbose",
+        "type": "integer"
+      },
+      "timeout": {
+        "anyOf": [
+          {
+            "minimum": 1,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": 3600,
+        "description": "Maximum execution time in seconds. None waits indefinitely.",
+        "reload_on_change": false,
+        "title": "Timeout"
+      },
+      "seed": {
+        "anyOf": [
+          {
+            "exclusiveMaximum": 4294967296,
+            "minimum": 0,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Random seed for reproducible results. Some cacheable tools gate cache on this field.",
+        "reload_on_change": false,
+        "title": "Random Seed"
+      },
+      "max_candidates_per_source": {
+        "default": 5,
+        "description": "Maximum database candidates to evaluate per name-based search",
+        "maximum": 25,
+        "minimum": 1,
+        "reload_on_change": false,
+        "title": "Max Candidates",
+        "type": "integer"
+      },
+      "type_check_mode": {
+        "default": "error",
+        "description": "Molecule-type mismatch handling: 'off' (skip), 'warn' (log + continue), 'error' (fail)",
+        "enum": [
+          "off",
+          "warn",
+          "error"
+        ],
+        "reload_on_change": false,
+        "title": "Type Check Mode",
+        "type": "string"
+      },
+      "ncbi_api_key": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "description": "Optional NCBI API key (3 to 10 req/s). Defaults to the NCBI_API_KEY env var if not set.",
+        "reload_on_change": false,
+        "title": "NCBI API Key"
+      },
+      "ncbi_email": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "description": "Optional contact email for NCBI. Defaults to the NCBI_EMAIL env var if not set.",
+        "reload_on_change": false,
+        "title": "NCBI Email"
+      }
+    },
+    "title": "SequenceFetchConfig",
+    "type": "object"
+  },
+  "output_schema": {
+    "$defs": {
+      "FetchedSequence": {
+        "description": "Sequence payload returned by one source.\n\nAttributes:\n    sequence_type (Literal['protein', 'dna_genomic', 'dna_cds', 'rna_transcript', 'rna_premrna']): Requested type of this sequence.\n    source_database (Literal['ncbi', 'uniprot', 'pdb']): Upstream source database label.\n    accession (str | None): Source accession identifier.\n    sequence (str): Retrieved sequence string.\n    length (int): Sequence length.\n    checksum_sha256 (str | None): SHA256 checksum of sequence.\n    source_url (str | None): Source URL for provenance.\n    inferred (bool): True if sequence is inferred, not directly curated.",
+        "properties": {
+          "sequence_type": {
+            "description": "Requested type for this sequence",
+            "enum": [
+              "protein",
+              "dna_genomic",
+              "dna_cds",
+              "rna_transcript",
+              "rna_premrna"
+            ],
+            "title": "Sequence Type",
+            "type": "string"
+          },
+          "source_database": {
+            "description": "Source database for this sequence",
+            "enum": [
+              "ncbi",
+              "uniprot",
+              "pdb"
+            ],
+            "title": "Source Database",
+            "type": "string"
+          },
+          "accession": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Source accession identifier",
+            "title": "Accession"
+          },
+          "sequence": {
+            "description": "Retrieved sequence",
+            "title": "Sequence",
+            "type": "string"
+          },
+          "length": {
+            "description": "Sequence length",
+            "minimum": 0,
+            "title": "Length",
+            "type": "integer"
+          },
+          "checksum_sha256": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "SHA256 checksum",
+            "title": "SHA256 Checksum"
+          },
+          "source_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Source URL for provenance",
+            "title": "Source URL"
+          },
+          "inferred": {
+            "default": false,
+            "description": "True if sequence was reconstructed (e.g. translated CDS) rather than fetched directly",
+            "title": "Inferred",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "sequence_type",
+          "source_database",
+          "sequence",
+          "length"
+        ],
+        "title": "FetchedSequence",
+        "type": "object"
+      },
+      "FetchedStructure": {
+        "description": "Structure payload returned by PDB.\n\nAttributes:\n    pdb_id (str): PDB accession.\n    source_database (Literal['pdb']): Upstream source database label.\n    title (str | None): Structure title.\n    method (str | None): Experimental method.\n    resolution (float | None): Resolution in angstroms.\n    source_url (str): Canonical URL for this structure.",
+        "properties": {
+          "pdb_id": {
+            "description": "PDB accession",
+            "title": "PDB ID",
+            "type": "string"
+          },
+          "source_database": {
+            "const": "pdb",
+            "default": "pdb",
+            "description": "Source database",
+            "title": "Source Database",
+            "type": "string"
+          },
+          "title": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Structure title",
+            "title": "Title"
+          },
+          "method": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "PDB experimental method (e.g. X-RAY DIFFRACTION, SOLUTION NMR, ELECTRON MICROSCOPY)",
+            "title": "Experimental Method"
+          },
+          "resolution": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Resolution in Å (None for NMR or fiber diffraction)",
+            "title": "Resolution"
+          },
+          "source_url": {
+            "description": "Canonical structure URL",
+            "title": "Source URL",
+            "type": "string"
+          }
+        },
+        "required": [
+          "pdb_id",
+          "source_url"
+        ],
+        "title": "FetchedStructure",
+        "type": "object"
+      },
+      "SequenceFetchResult": {
+        "description": "Per-request fetch result.\n\nAttributes:\n    request_id (str): Request identifier used in this result.\n    target_name (str): Original target name.\n    organism (str): Original organism name.\n    requested_types (list[str]): Requested output molecule types.\n    status (Literal['success', 'warning', 'failed']): One of success, warning, or failed.\n    fetched_sequences (list[FetchedSequence]): Retrieved sequence records.\n    fetched_structures (list[FetchedStructure]): Retrieved structure records.\n    resolved_ids (dict[str, str]): IDs resolved or used during retrieval.\n    warnings (list[str]): Non-fatal warnings.\n    errors (list[str]): Fatal or partial failure messages.",
+        "properties": {
+          "request_id": {
+            "description": "Request identifier",
+            "title": "Request ID",
+            "type": "string"
+          },
+          "target_name": {
+            "description": "Original target name",
+            "title": "Target Name",
+            "type": "string"
+          },
+          "organism": {
+            "description": "Original organism name",
+            "title": "Organism",
+            "type": "string"
+          },
+          "requested_types": {
+            "description": "Requested molecule types",
+            "items": {
+              "type": "string"
+            },
+            "title": "Requested Types",
+            "type": "array"
+          },
+          "status": {
+            "description": "Result status",
+            "enum": [
+              "success",
+              "warning",
+              "failed"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "fetched_sequences": {
+            "description": "Retrieved sequence records",
+            "items": {
+              "$ref": "#/$defs/FetchedSequence"
+            },
+            "title": "Fetched Sequences",
+            "type": "array"
+          },
+          "fetched_structures": {
+            "description": "Retrieved structure records",
+            "items": {
+              "$ref": "#/$defs/FetchedStructure"
+            },
+            "title": "Fetched Structures",
+            "type": "array"
+          },
+          "resolved_ids": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "Resolved identifiers used in retrieval",
+            "title": "Resolved IDs",
+            "type": "object"
+          },
+          "warnings": {
+            "description": "Non-fatal warnings",
+            "items": {
+              "type": "string"
+            },
+            "title": "Warnings",
+            "type": "array"
+          },
+          "errors": {
+            "description": "Fatal or partial failure messages",
+            "items": {
+              "type": "string"
+            },
+            "title": "Errors",
+            "type": "array"
+          }
+        },
+        "required": [
+          "request_id",
+          "target_name",
+          "organism",
+          "requested_types",
+          "status"
+        ],
+        "title": "SequenceFetchResult",
+        "type": "object"
+      }
+    },
+    "description": "Output from sequence retrieval.\n\nAttributes:\n    results (list[SequenceFetchResult]): Per-request retrieval outcomes.\n    num_requests: Number of requests in this run.\n    num_success: Number of successful request results.\n    num_warning: Number of warning request results.\n    num_completed: Number of successful or warning request results.\n    num_failed: Number of failed request results.",
+    "examples": [
+      {
+        "errors": [],
+        "execution_time": 45.2,
+        "metadata": {
+          "blast_version": "2.14.0",
+          "database_size": 1000000
+        },
+        "success": true,
+        "timestamp": "2025-10-06T10:30:00Z",
+        "tool_id": "blast-search",
+        "warnings": []
+      }
+    ],
+    "properties": {
+      "results": {
+        "description": "Per-request retrieval outcomes",
+        "items": {
+          "$ref": "#/$defs/SequenceFetchResult"
+        },
+        "title": "Retrieval Results",
+        "type": "array"
+      }
+    },
+    "title": "SequenceFetchOutput",
+    "type": "object"
+  },
+  "has_example": true,
+  "status": "ready_to_run"
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "Glycogen synthase kinase 3\u03b2 (GSK 3\u03b2) is a highly conserved serine/threonine kinase, and its roles in cancer remain controversial. Cumulative evidence supported that GSK 3\u03b2 inhibitors could suppress ovarian cancer (OC) development in\u00a0vitro and made a new direction for ovarian cancer treatment. Here, we reported a series of novel substituted benzothiazinones as non-ATP competitive inhibitors of GSK 3\u03b2. Further studies showed that most of them had antiproliferative activities in ovarian cancer cell lines in\u00a0vitro. As the most promising candidate of them, compound 20g induced cells apoptosis, arrested the cell cycle at the G1 phase in the A2780\u00a0cell line and showed moderate suppression efficacy in a female BALB/C nude mice model. All of the results demonstrated that compound 20g, as the first reported non-ATP competitive small molecule inhibitor of GSK 3\u03b2 with suppression efficacy on ovarian cancer both in\u00a0vitro and in\u00a0vivo, might represent a potential candidate for the treatment of OC.",
+  "authors": "Gao Y, Ye DY, Zhou WC, Chu Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_25",
+    "creation_date": "2018-12-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4052632",
+  "doi": "10.1016/j.ejmech.2017.04.039",
+  "doi_chembl": null,
+  "first_page": "370",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "381",
+  "patent_id": null,
+  "pubmed_id": 28460311,
+  "src_id": 1,
+  "title": "The discovery of novel benzothiazinones as highly selective non-ATP competitive glycogen synthase kinase 3\u03b2 inhibitors for the treatment of ovarian cancer.",
+  "volume": "135",
+  "year": 2017
+}

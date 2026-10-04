@@ -1,0 +1,24 @@
+{
+  "abstract": "",
+  "authors": null,
+  "chembl_release": {
+    "chembl_release": "CHEMBL_36",
+    "creation_date": "2025-07-28"
+  },
+  "contact": null,
+  "doc_type": "PATENT",
+  "document_chembl_id": "CHEMBL5727732",
+  "doi": null,
+  "doi_chembl": null,
+  "first_page": null,
+  "issue": null,
+  "journal": null,
+  "journal_full_title": null,
+  "last_page": null,
+  "patent_id": "US-10669235-B2",
+  "pubmed_id": null,
+  "src_id": 37,
+  "title": "Indole derivatives and their use as protein kinase inhibitors",
+  "volume": null,
+  "year": 2020
+}

@@ -1,0 +1,33 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 53230017,
+        "MolecularFormula": "C21H18N2O",
+        "MolecularWeight": "314.4",
+        "SMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)/C=C/3\\C4=CC=CC=C4NC3=O",
+        "ConnectivitySMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)C=C3C4=CC=CC=C4NC3=O",
+        "InChI": "InChI=1S/C21H18N2O/c1-23(2)20-12-11-14(15-7-3-4-9-17(15)20)13-18-16-8-5-6-10-19(16)22-21(18)24/h3-13H,1-2H3,(H,22,24)/b18-13+",
+        "InChIKey": "VFCXONOPGCDDBQ-QGOAFFKASA-N"
+      },
+      {
+        "CID": 24906291,
+        "MolecularFormula": "C21H18N2O",
+        "MolecularWeight": "314.4",
+        "SMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)C=C3C4=CC=CC=C4NC3=O",
+        "ConnectivitySMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)C=C3C4=CC=CC=C4NC3=O",
+        "InChI": "InChI=1S/C21H18N2O/c1-23(2)20-12-11-14(15-7-3-4-9-17(15)20)13-18-16-8-5-6-10-19(16)22-21(18)24/h3-13H,1-2H3,(H,22,24)",
+        "InChIKey": "VFCXONOPGCDDBQ-UHFFFAOYSA-N"
+      },
+      {
+        "CID": 9839842,
+        "MolecularFormula": "C21H18N2O",
+        "MolecularWeight": "314.4",
+        "SMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)/C=C\\3/C4=CC=CC=C4NC3=O",
+        "ConnectivitySMILES": "CN(C)C1=CC=C(C2=CC=CC=C21)C=C3C4=CC=CC=C4NC3=O",
+        "InChI": "InChI=1S/C21H18N2O/c1-23(2)20-12-11-14(15-7-3-4-9-17(15)20)13-18-16-8-5-6-10-19(16)22-21(18)24/h3-13H,1-2H3,(H,22,24)/b18-13-",
+        "InChIKey": "VFCXONOPGCDDBQ-AQTBWJFISA-N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "Of great interest in recent years has been computationally predicting the novel polypharmacology of drug molecules. Here, we applied an \"induced-fit\" protocol to improve the homology models of 5-HT(2A) receptor, and we assessed the quality of these models in retrospective virtual screening. Subsequently, we computationally screened the FDA approved drug molecules against the best induced-fit 5-HT(2A) models and chose six top scoring hits for experimental assays. Surprisingly, one well-known kinase inhibitor, sorafenib, has shown unexpected promiscuous 5-HTRs binding affinities, K(i) = 1959, 56, and 417 nM against 5-HT(2A), 5-HT(2B), and 5-HT(2C), respectively. Our preliminary SAR exploration supports the predicted binding mode and further suggests sorafenib to be a novel lead compound for 5HTR ligand discovery. Although it has been well-known that sorafenib produces anticancer effects through targeting multiple kinases, carefully designed experimental studies are desirable to fully understand whether its \"off-target\" 5-HTR binding activities contribute to its therapeutic efficacy or otherwise undesirable side effects.",
+  "authors": "Lin X, Huang XP, Chen G, Whaley R, Peng S, Wang Y, Zhang G, Wang SX, Wang S, Roth BL, Huang N.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_16",
+    "creation_date": "2013-05-07"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL2163296",
+  "doi": "10.1021/jm300338m",
+  "doi_chembl": null,
+  "first_page": "5749",
+  "issue": "12",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "5759",
+  "patent_id": null,
+  "pubmed_id": 22694093,
+  "src_id": 1,
+  "title": "Life beyond kinases: structure-based discovery of sorafenib as nanomolar antagonist of 5-HT receptors.",
+  "volume": "55",
+  "year": 2012
+}

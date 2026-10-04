@@ -1,0 +1,17 @@
+{
+  "proteins": 7006,
+  "animals": 23,
+  "nintedanib_animals": 10,
+  "vehicle_animals": 13,
+  "matrix_has_no_missing_values": true,
+  "animal_ids_unique": true,
+  "post_treatment_cluster_used_in_analysis": false,
+  "one_vehicle_excluded_upstream_for_sample_preparation": "M29 (reported by source; not present in public proteome matrix)",
+  "all_remaining_animals_included": true,
+  "BH_applied_across_all_proteins": true,
+  "phosphosites": 20043,
+  "phosphoproteome_nintedanib_animals": 5,
+  "phosphoproteome_vehicle_animals": 5,
+  "phosphoproteome_has_no_missing_values": true,
+  "phosphosite_BH_applied": true
+}

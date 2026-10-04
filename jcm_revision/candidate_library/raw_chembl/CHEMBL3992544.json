@@ -1,0 +1,24 @@
+{
+  "abstract": "Inhibition of tumor angiogenesis through simultaneously disturbing vascular endothelial growth factor (VEGF) and platelet-derived growth factor (PDGF) mediated signaling pathways is a well-established approach in intervention of tumor. A series of 6-methoxycarbonyl indolinones bearing a pyrrole Mannich base moiety were synthesized and evaluated as potent angiokinase inhibitors. Compound 8a demonstrated favorable enzymatic activity against all subtypes of VEGFR and PDGFR. Also, it potently suppressed proliferation of HT-29 cells by inducing apoptosis. Compound 8a has emerged as a promising lead compound for development of angiokinase inhibitors targeting VEGFR and PDGFR.",
+  "authors": "Qin M, Yan S, Wang L, Zhang H, Tian Y, Zhao Y, Gong P.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_25",
+    "creation_date": "2018-12-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL3992544",
+  "doi": "10.1016/j.bmc.2017.01.039",
+  "doi_chembl": null,
+  "first_page": "1778",
+  "issue": "6",
+  "journal": "Bioorg Med Chem",
+  "journal_full_title": "Bioorganic & medicinal chemistry.",
+  "last_page": "1786",
+  "patent_id": null,
+  "pubmed_id": 28190652,
+  "src_id": 1,
+  "title": "Novel 6-methoxycarbonyl indolinones bearing a pyrrole Mannich base moiety as angiokinase inhibitors.",
+  "volume": "25",
+  "year": 2017
+}

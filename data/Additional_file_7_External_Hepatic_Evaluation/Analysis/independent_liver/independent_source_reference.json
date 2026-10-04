@@ -1,0 +1,16 @@
+{
+  "dataset": "GSE125975",
+  "public_accession_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125975",
+  "source_primary_doi": "10.1053/j.gastro.2019.07.028",
+  "source_pubmed_id": "31344396",
+  "data_description": "Deposited normalized RMA expression matrix from 22 independent male mouse non-tumor liver samples (3 healthy control, 9 disease vehicle, 10 nintedanib).",
+  "analysis_role": "Independent hepatic pharmacodynamic-response evaluation; not a drug-induced liver injury-positive model.",
+  "matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE125nnn/GSE125975/matrix/GSE125975_series_matrix.txt.gz",
+  "matrix_sha256": "d3d6317da957c655452167f7e50fe42a6e709351fde2e325e5ba4606cb20bb67",
+  "source_metadata_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE125nnn/GSE125975/soft/GSE125975_family.soft.gz",
+  "reconstruction": {
+    "date": "2026-09-22",
+    "status": "Reference metadata reconstructed from the recovered source matrix and unchanged analysis_summary.json; original JSON bytes were unavailable.",
+    "original_file_sha256": "04a91c45536a436c6da1b9d73e10cb611bb773709c45336a01704d3138843719"
+  }
+}

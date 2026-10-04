@@ -1,0 +1,76 @@
+{
+  "analysis": "target-pair structural perturbation of inherited clinical-weighted RWR graph",
+  "primary_graph": {
+    "covariance": "within-donor LedoitWolf of standardized genes; equal donor weighting",
+    "edges": "positive correlation; union of each node top20 neighbors",
+    "restart": 0.5
+  },
+  "targets": [
+    "PDGFRA",
+    "FLT4"
+  ],
+  "comparators": [
+    "KDR",
+    "FGFR1"
+  ],
+  "compartments": [
+    "Hepatocyte",
+    "Endothelial",
+    "Macrophage"
+  ],
+  "clinical_weights": "inherited discovery DO_vs_HV absolute Cliffs delta, normalized",
+  "primary_metric": "clinical-weighted absolute propagation-score change divided by clinical-weighted baseline score",
+  "intervention": "remove all incident edges of selected targets, add isolated-node self-loop, re-normalize columns; retain clinical restart seeds",
+  "nonadditivity": "f_AB-f_A-f_B+f_0; clinical weighted L1 relative to baseline",
+  "null_match_features": [
+    "log1p equal-donor mean expression",
+    "logit equal-donor detection with 0.005 pseudocount",
+    "log1p weighted degree"
+  ],
+  "null_pool_size": 50,
+  "pair_null_draws": 1999,
+  "null_pool_exclusions": [
+    "ACO1",
+    "ASS1",
+    "FAH",
+    "CPS1",
+    "ALDOB",
+    "HPD",
+    "OTC",
+    "DMGDH",
+    "GSTA1",
+    "FBP1",
+    "PCK2",
+    "CES1",
+    "LECT2",
+    "FLT4",
+    "PDGFRA",
+    "FGFR1",
+    "KDR",
+    "JAK1",
+    "LYN",
+    "FLT1",
+    "FGFR2",
+    "FGFR3",
+    "ABL1",
+    "CDK4",
+    "FLT3",
+    "FGFR4",
+    "TYK2",
+    "AXL",
+    "LRRK2",
+    "MET"
+  ],
+  "seed": 20261002,
+  "multiplicity": "BH across 3 interventions x 3 compartments for magnitude; separately 3 paired nonadditivity tests",
+  "donor_sensitivity": "all five leave-one-donor-out graph reconstructions; fixed inherited gene universe",
+  "attenuation_grid": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "attenuation_rule": "each edge incident to one or both target nodes is scaled once by 1-fraction",
+  "interpretation": "Undirected transcript covariance intervention is not receptor inhibition, State prediction, clinical causal identification, synergy, or a biological rescue."
+}

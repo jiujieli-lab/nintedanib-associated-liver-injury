@@ -1,0 +1,134 @@
+{
+  "recovery_status": "Reconstructed implementation; original script/configuration bytes unavailable. Original frozen result tables and public raw count files are hash-identical.",
+  "random_seed": 20260919,
+  "rng": "numpy.random.default_rng / PCG64",
+  "distinct_allocations": "Sorted tuples of sorted rng.choice indices, sampled without replacement within each tuple; duplicate tuples discarded; one continuing generator across datasets and analyses.",
+  "filter": "Raw CPM >= 1 in at least the control-group sample count; library totals computed before filtering; no use of treatment labels.",
+  "normalization": "log2[(count + 0.5)/(full library total + 1) * 1e6]",
+  "selection": "abs(mean(disease reference A) - mean(control)) >= 0.5; recalculated for every allocation and split.",
+  "summary_statistics": "Fraction d*t < 0; Spearman(d,t); median(abs(d)-abs(d+t)). Disjoint t uses disease reference B.",
+  "p_values": "Directional, full exact fraction in rats and plus-one Monte Carlo fraction in mice; BH across six dataset-by-statistic tests.",
+  "inputs": [
+    {
+      "dataset": "GSE278200",
+      "raw_path": "Source_Data/Pulmonary_Raw/GSE278200_NINT_raw_counts.txt.gz",
+      "raw_sha256": "5ae68a0a8b4ab253105e27df215af424e44ca3563c52f22edd1981d5253eebfb",
+      "matrix_sha256": "b9776741a7f4adf30a3cd3902ac98e3e6c95a19bf392d638f7d8b6d5f302672c",
+      "matrix_shape": [
+        13809,
+        12
+      ]
+    },
+    {
+      "dataset": "GSE308578",
+      "raw_path": "Source_Data/Pulmonary_Raw/GSE308578_Gene_counts.csv.gz",
+      "raw_sha256": "a46808f90410796adc84738e4045aaeee311bf7445c71c39c1ee47e08da47a9c",
+      "matrix_sha256": "3423a9736b5b4ae39dc449b3dede36755b067d1ba4973a31a1a5e0577a9652aa",
+      "matrix_shape": [
+        14319,
+        43
+      ]
+    }
+  ],
+  "frozen_output_checksums": {
+    "shared_reference_summary.csv": "d50a5d8026dc963ff30326d70df9afa653aa09b6a995c104879f3c44bdd167d2",
+    "disjoint_reference_splits.csv": "f1e2c6869926f19e8c33386abad3c6fb19673fb917d6a66e55732291ec14a5e5",
+    "animal_label_permutations.csv": "0bffac65c94cb82500a0ae0e90becc71e2c11cd417611b85165be393e4783bde"
+  },
+  "validation": {
+    "shared_reference_summary.csv": {
+      "rows": 2,
+      "columns": 31,
+      "max_absolute_numeric_difference": 8.881784197001252e-16,
+      "column_maximum_absolute_differences": {
+        "n_selected": 0.0,
+        "reversal_fraction": 0.0,
+        "rho": 0.0,
+        "median_restoration": 0.0,
+        "raw_features": 0.0,
+        "retained_features": 0.0,
+        "control_n": 0.0,
+        "disease_n": 0.0,
+        "treated_n": 0.0,
+        "null_median_reversal_fraction": 0.0,
+        "null_median_rho": 0.0,
+        "null_median_restoration": 8.881784197001252e-16,
+        "reversal_fraction_animal_permutation_p": 0.0,
+        "rho_animal_permutation_p": 0.0,
+        "median_restoration_animal_permutation_p": 0.0,
+        "split_reversal_fraction_median": 0.0,
+        "split_reversal_fraction_min": 0.0,
+        "split_reversal_fraction_max": 0.0,
+        "split_rho_median": 0.0,
+        "split_rho_min": 0.0,
+        "split_rho_max": 0.0,
+        "split_median_restoration_median": 0.0,
+        "split_median_restoration_min": 0.0,
+        "split_median_restoration_max": 0.0,
+        "n_splits": 0.0,
+        "reversal_fraction_animal_permutation_q": 0.0,
+        "rho_animal_permutation_q": 0.0,
+        "median_restoration_animal_permutation_q": 0.0
+      },
+      "differences_above_1e-11": [],
+      "tolerance": "1e-11 absolute; 1e-7 only for allocation-level Spearman rho",
+      "passed": true
+    },
+    "disjoint_reference_splits.csv": {
+      "rows": 506,
+      "columns": 8,
+      "max_absolute_numeric_difference": 0.0,
+      "column_maximum_absolute_differences": {
+        "split": 0.0,
+        "n_selected": 0.0,
+        "reversal_fraction": 0.0,
+        "rho": 0.0,
+        "median_restoration": 0.0
+      },
+      "differences_above_1e-11": [],
+      "tolerance": "1e-11 absolute; 1e-7 only for allocation-level Spearman rho",
+      "passed": true
+    },
+    "animal_label_permutations.csv": {
+      "rows": 1070,
+      "columns": 6,
+      "max_absolute_numeric_difference": 5.485460907728168e-08,
+      "column_maximum_absolute_differences": {
+        "allocation": 0.0,
+        "n_selected": 0.0,
+        "reversal_fraction": 0.0,
+        "rho": 5.485460907728168e-08,
+        "median_restoration": 3.552713678800501e-15
+      },
+      "differences_above_1e-11": [
+        {
+          "dataset": "GSE278200",
+          "allocation": 13,
+          "column": "rho",
+          "frozen_value": -0.6052735904229066,
+          "replayed_value": -0.605273587724368,
+          "absolute_difference": 2.6985386147870827e-09
+        },
+        {
+          "dataset": "GSE278200",
+          "allocation": 34,
+          "column": "rho",
+          "frozen_value": 0.4365796705017012,
+          "replayed_value": 0.43657961564709213,
+          "absolute_difference": 5.485460907728168e-08
+        }
+      ],
+      "tolerance": "1e-11 absolute; 1e-7 only for allocation-level Spearman rho",
+      "passed": true
+    }
+  },
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "interpretation": "Overlapping-subset sensitivity ranges are descriptive, not independent-replication confidence intervals. Pulmonary pharmacodynamics does not establish hepatic safety or target causality.",
+  "numerical_recovery_note": "All 506 split records and their sample identities reproduce exactly. All 1070 allocation selected counts and reversal fractions reproduce exactly. Two rat allocation Spearman correlations differ by less than 5.5e-8, consistent with floating-point arithmetic affecting near-tied ranks; the precise original implementation detail could not be recovered. All observed values and all six P values and q values reproduce exactly. Restoration differences are at most 3.56e-15. Original CSV files remain byte-identical.",
+  "code_sha256": "dc391b579ac8d58e797d3a53de35334d9248c3af0382a7b68a115ac9621abef8"
+}

@@ -1,0 +1,3555 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>API - STRING Help</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  <link href="../extra.css" rel="stylesheet">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "API";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document"><a href="https://string-db.org/cdn-cgi/content?id=g8v8ir6UBl6B3Qq3Z6AnshNFnLX5tpd8NeQVvn4y2_0-1790953048.307809-1.2.1.1-Il8mFA2L1TTsHLuqtR90ag5rDy.hfAtIZ5PMpINHgfh3SsBGez0H2hPczpqspyXM" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a>
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> STRING Help</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>User documentation</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../getting_started/">Getting started</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../scores/">What is a STRING network?</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../protein_window/">Protein window</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../videos/">STRING Videos</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../faq/">FAQ</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Developer documentation</span></li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">API</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a onclick="scroll_to_view('string-api');" href="#string-api">STRING API</a></li>
+                
+                    <li><a onclick="scroll_to_view('quick-start');" class="toctree-l4" href="#quick-start">Quick start</a></li>
+                
+                    <li><a onclick="scroll_to_view('common-conventions');" class="toctree-l4" href="#common-conventions">Common conventions</a></li>
+                
+                    <li><a onclick="scroll_to_view('regulatory-and-typed-networks');" class="toctree-l4" href="#regulatory-and-typed-networks">Regulatory and typed networks</a></li>
+                
+                    <li><a onclick="scroll_to_view('getting-started');" class="toctree-l4" href="#getting-started">Getting started</a></li>
+                
+                    <li><a onclick="scroll_to_view('mapping-identifiers');" class="toctree-l4" href="#mapping-identifiers">Mapping identifiers</a></li>
+                
+                    <li><a onclick="scroll_to_view('getting-string-network-image');" class="toctree-l4" href="#getting-string-network-image">Getting STRING network image</a></li>
+                
+                    <li><a onclick="scroll_to_view('linking-to-the-network-on-string-webpage');" class="toctree-l4" href="#linking-to-the-network-on-string-webpage">Linking to the network on STRING webpage</a></li>
+                
+                    <li><a onclick="scroll_to_view('linking-to-the-search-results-page');" class="toctree-l4" href="#linking-to-the-search-results-page">Linking to the search results page</a></li>
+                
+                    <li><a onclick="scroll_to_view('embedding-the-interactive-network');" class="toctree-l4" href="#embedding-the-interactive-network">Embedding the interactive network</a></li>
+                
+                    <li><a onclick="scroll_to_view('getting-the-string-network-interactions');" class="toctree-l4" href="#getting-the-string-network-interactions">Getting the STRING network interactions</a></li>
+                
+                    <li><a onclick="scroll_to_view('getting-all-the-string-interaction-partners-of-the-protein-set');" class="toctree-l4" href="#getting-all-the-string-interaction-partners-of-the-protein-set">Getting all the STRING interaction partners of the protein set</a></li>
+                
+                    <li><a onclick="scroll_to_view('retrieving-similarity-scores-of-the-protein-set');" class="toctree-l4" href="#retrieving-similarity-scores-of-the-protein-set">Retrieving similarity scores of the protein set</a></li>
+                
+                    <li><a onclick="scroll_to_view('retrieving-best-similarity-hits-between-species');" class="toctree-l4" href="#retrieving-best-similarity-hits-between-species">Retrieving best similarity hits between species</a></li>
+                
+                    <li><a onclick="scroll_to_view('getting-functional-enrichment');" class="toctree-l4" href="#getting-functional-enrichment">Getting functional enrichment</a></li>
+                
+                    <li><a onclick="scroll_to_view('retrieving-functional-annotation');" class="toctree-l4" href="#retrieving-functional-annotation">Retrieving functional annotation</a></li>
+                
+                    <li><a onclick="scroll_to_view('retrieving-enrichment-figure');" class="toctree-l4" href="#retrieving-enrichment-figure">Retrieving enrichment figure</a></li>
+                
+                    <li><a onclick="scroll_to_view('retrieving-proteins-for-a-functional-term');" class="toctree-l4" href="#retrieving-proteins-for-a-functional-term">Retrieving proteins for a functional term</a></li>
+                
+                    <li><a onclick="scroll_to_view('getting-gene-set-descriptions');" class="toctree-l4" href="#getting-gene-set-descriptions">Getting gene set descriptions</a></li>
+                
+                    <li><a onclick="scroll_to_view('getting-protein-protein-interaction-enrichment');" class="toctree-l4" href="#getting-protein-protein-interaction-enrichment">Getting protein-protein interaction enrichment</a></li>
+                
+                    <li><a onclick="scroll_to_view('getting-current-string-version');" class="toctree-l4" href="#getting-current-string-version">Getting current STRING version</a></li>
+                
+                    <li><a onclick="scroll_to_view('additional-information-about-the-api');" class="toctree-l4" href="#additional-information-about-the-api">Additional information about the API</a></li>
+                
+            
+                <li class="toctree-l3"><a onclick="scroll_to_view('valuesranks-enrichment-api');" href="#valuesranks-enrichment-api">Values/ranks enrichment API</a></li>
+                
+                    <li><a onclick="scroll_to_view('general-overview');" class="toctree-l4" href="#general-overview">General overview</a></li>
+                
+                    <li><a onclick="scroll_to_view('obtain-your-api-key');" class="toctree-l4" href="#obtain-your-api-key">Obtain your API Key</a></li>
+                
+                    <li><a onclick="scroll_to_view('prepare-the-data-for-the-analysis');" class="toctree-l4" href="#prepare-the-data-for-the-analysis">Prepare the data for the analysis</a></li>
+                
+                    <li><a onclick="scroll_to_view('submit-a-new-job');" class="toctree-l4" href="#submit-a-new-job">Submit a new job</a></li>
+                
+                    <li><a onclick="scroll_to_view('check-job-status-and-retrieve-the-results');" class="toctree-l4" href="#check-job-status-and-retrieve-the-results">Check job status and retrieve the results</a></li>
+                
+                    <li><a onclick="scroll_to_view('remove-a-job');" class="toctree-l4" href="#remove-a-job">Remove a Job</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../mcp/">MCP</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../rdf/">SPARQL / RDF</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../external_data/">External data</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../database/">Database</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../robot_access/">Robot access</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">STRING Help</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Developer documentation &raquo;</li>
+        
+      
+    
+    <li>API</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="string-api">STRING API</h1>
+<p>STRING has an application programming interface (API) which
+enables you to get the data without using the graphical user
+interface of the web page.  The API is convenient if you need to
+programmatically access some information but still do not want
+to download the entire dataset.  There are several scenarios
+when it is practical to use it.  For example, you might need to
+access some interaction from your own scripts or want to
+incorporate STRING network in your web page.</p>
+<p>We currently provide an implementation using HTTP, where the
+database information is accessed by HTTP requests.
+Due to implementation reasons, similarly to the web site,
+some API methods will allow only a limited number of proteins in each query.
+If you need access to the bulk data, you can download the entire
+dataset from the <a target="_blank" href="https://string-db.org/cgi/download">download page</a></p>
+<h2 id="quick-start">Quick start
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>If you are using STRING API for the first time, the most common workflow is:</p>
+<ol>
+<li>Map your identifiers to STRING IDs using <a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23mapping-identifiers">Mapping identifiers</a>.</li>
+<li>Use the mapped STRING identifiers in subsequent queries. It makes the queries faster.</li>
+<li>Generate network image or run enrichment analysis for your set.</li>
+</ol>
+<h4 id="quick-examples">Quick examples</h4>
+<p>Map identifiers first:</p>
+<pre><code>https://string-db.org/api/tsv/get_string_ids?identifiers=TP53%0dCDK2&amp;species=9606
+</code></pre>
+<p>Then use the mapped STRING identifiers in the next call:</p>
+<pre><code>https://string-db.org/api/tsv/network?identifiers=9606.ENSP00000269305%0d9606.ENSP00000266970&amp;species=9606$add_white_nodes=10
+</code></pre>
+<p>If you reuse the same protein set in the next query, keep using the same mapped STRING identifiers:</p>
+<pre><code>https://string-db.org/api/tsv/enrichment?identifiers=9606.ENSP00000269305%0d9606.ENSP00000266970&amp;species=9606
+</code></pre>
+<p><strong>NOTE:</strong> For small examples GET requests are convenient, but for larger protein sets it is better to use POST requests, because long queries may exceed URL length limits.</p>
+<h2 id="common-conventions">Common conventions
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>Most API methods follow the same conventions:</p>
+<ul>
+<li>In GET requests, multiple <code>identifiers</code> should be separated by <code>%0d</code> or <code>%0a</code></li>
+<li>In POST requests, multiple <code>identifiers</code> can be separated by <code>\r</code>, <code>\n</code>, <code>%0d</code>, or <code>%0a</code></li>
+<li><code>species</code> is the NCBI/STRING taxon identifier, for example <code>9606</code> for human</li>
+<li><code>caller_identity</code> should identify your tool or website when calling the API</li>
+<li>GET and POST are both supported, but POST is recommended for longer queries</li>
+<li>During development you can use <code>https://string-db.org</code>, but for production you should use a version-specific STRING address (e.g. https://version-12-5.string-db.org) to avoid potential changes in the API.</li>
+<li>If none of the submitted identifiers can be resolved, STRING returns a 404 error</li>
+</ul>
+<p>Some methods also automatically expand a single-protein query with 10 additional proteins. This behaviour is documented again in the relevant sections below, especially for network and enrichment methods.</p>
+<h2 id="regulatory-and-typed-networks">Regulatory and typed networks
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>Network-related API methods support three network types. <code>functional</code> is the default STRING association network, <code>physical</code> contains predicted physical interactions, and <code>regulatory</code> contains directed predicted regulatory relationships. Select a type with <code>network_type</code>.</p>
+<p>For a regulatory request, a row or arrow represents one direction, from <code>source</code> to <code>target</code>. Regulatory scores are calculated separately for both directions, and only experimental, database, and text-mining evidence can contribute. Where STRING can assign a sign, the API reports <code>pos</code>, <code>neg</code>, or <code>n/a</code> for positive regulation, negative regulation, or no supported sign, respectively.</p>
+<p>The <code>typed</code> network flavor is available only with <code>network_type=functional</code> for protein networks. It overlays the physical and directed regulatory relationships on the functional network. In tabular responses, it adds physical and regulatory scores to every functional interaction; regulatory values correspond to the reported row direction. Use <code>typed_physical_edges=0</code> or <code>typed_regulatory_edges=0</code> to omit either overlay.</p>
+<p>There are several methods available through STRING API:</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Category</th>
+<th>Entry point</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23mapping-identifiers">Mapping identifiers</a></td>
+<td>API</td>
+<td>/api/tsv/get_string_ids?</td>
+<td>Maps common protein names, synonyms and UniProt identifiers into STRING identifiers</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23getting-string-network-image">Getting the network image</a></td>
+<td>API</td>
+<td>/api/image/network?</td>
+<td>Retrieves the network image with your input protein(s) highlighted in color</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23linking-to-the-network-on-string-webpage">Linking to the network on STRING webpage</a></td>
+<td>API</td>
+<td>/api/tsv/get_link?</td>
+<td>Get the link to STRING webpage showing your network</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23linking-to-the-search-results-page">Linking to STRING search results</a></td>
+<td>Other</td>
+<td>/cgi/network/identifiers?</td>
+<td>Create the link to the search results page</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23embedding-the-interactive-network">Embedding interactive network in the website</a></td>
+<td>Other</td>
+<td>javascript:getSTRING(...)</td>
+<td>A call that lets you embed a network with movable bubbles and protein information pop-ups in a website.</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23getting-the-string-network-interactions">Retrieving the interaction network</a></td>
+<td>API</td>
+<td>/api/tsv/network?</td>
+<td>Retrieves the network interactions for your input protein(s) in various text based formats</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23getting-all-the-string-interaction-partners-of-the-protein-set">Getting the interaction partners</a></td>
+<td>API</td>
+<td>/api/tsv/interaction_partners?</td>
+<td>Gets all the STRING interaction partners of your proteins</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23retrieving-similarity-scores-of-the-protein-set">Getting protein similarity scores</a></td>
+<td>API</td>
+<td>/api/tsv/homology?</td>
+<td>Retrieve the protein similarity scores between the input proteins</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23retrieving-best-similarity-hits-between-species">Retrieving best similarity hits between species</a></td>
+<td>API</td>
+<td>/api/tsv/homology_best?</td>
+<td>Retrieve the similarity from your input protein(s) to the best (most) similar protein from each STRING species.</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23getting-functional-enrichment">Performing functional enrichment</a></td>
+<td>API</td>
+<td>/api/tsv/enrichment?</td>
+<td>Performs the enrichment analysis of your set of proteins for the Gene Ontology, KEGG pathways, UniProt Keywords, PubMed publications, Pfam, InterPro and SMART domains.</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23retrieving-functional-annotation">Retrieving functional annotation</a></td>
+<td>API</td>
+<td>/api/tsv/functional_annotation?</td>
+<td>Gets the functional annotation (Gene Ontology, UniProt Keywords, PFAM, INTERPRO and SMART domains) of your list of proteins.</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23retrieving-enrichment-figure">Retrieving enrichment figure</a></td>
+<td>API</td>
+<td>/api/image/enrichmentfigure?</td>
+<td>Generates the enrichment figure for a specific category.</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23retrieving-proteins-for-a-functional-term">Retrieving proteins for a function/term</a></td>
+<td>API</td>
+<td>/api/tsv/functional_terms?</td>
+<td>Retrieves proteins for a function identifier or a function name.</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23getting-geneset-description">Getting gene set description</a></td>
+<td>API</td>
+<td>/api/tsv/geneset_description?</td>
+<td>Assigns descriptive names to a set of proteins based on functional enrichment.</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23getting-protein-protein-interaction-enrichment">Performing interaction enrichment</a></td>
+<td>API</td>
+<td>/api/tsv/ppi_enrichment?</td>
+<td>Tests if your network has more interactions than expected</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23valuesranks-enrichment-api">Values/Ranks enrichment analysis</a></td>
+<td>API</td>
+<td>/api/tsv/valuesranks_enrichment_submit?</td>
+<td>Perform enrichment analysis given the data from your full experiment</td>
+</tr>
+<tr>
+<td><a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23getting-current-string-version">Getting current STRING version</a></td>
+<td>API</td>
+<td>/api/tsv/version</td>
+<td>Prints the current STRING version and its stable address</td>
+</tr>
+</tbody>
+</table>
+<h2 id="getting-started">Getting started
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>As STRING API works like normal HTTP request you can access it like any other webpage.
+Just copy/paste the following URL into your browser to get the PNG image of the PTCH1 gene network.</p>
+<pre><code>https://string-db.org/api/image/network?identifiers=PTCH1
+</code></pre>
+<p>However most likely you will be accessing the API from your scripts or website. Examples of python scripts for each of the API calls are attached at the end of each section. </p>
+<p>In order to query with more than one identifier in one call, just separate each identifier by <code>\r</code> or <code>\n</code> in POST requests, or by <code>%0d</code> or <code>%0a</code> in GET requests:</p>
+<pre><code>https://string-db.org/api/image/network?identifiers=PTCH1%0dSHH%0dGLI1%0dSMO%0dGLI3
+</code></pre>
+<p>or from python3:</p>
+<pre><code>import requests ## python -m pip install requests
+response = requests.get("https://string-db.org/api/image/network?identifiers=PTCH1%0dSHH%0dGLI1%0dSMO%0dGLI3")
+with open('string_network.png', 'wb') as fh:
+    fh.write(response.content)
+</code></pre>
+<h3 id="but-before-you-start-coding">...but before you start coding:</h3>
+<ol>
+<li>Please be considerate and wait one second between each call, so that our server won't get overloaded.</li>
+<li>Although STRING understands a variety of identifiers and does its best to disambiguate your input, it is recommended to map your identifier first (see: <a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23mapping-identifiers">mapping</a>). Querying the API with a disambiguated identifier (for example <em>9606.ENSP00000269305</em> for human TP53) will guarantee much faster server response.</li>
+<li>Another way to guarantee faster server response is to specify which species your proteins come from (see 'species' parameter). In fact, the API will reject queries for networks larger than 10 proteins without the specified organism. </li>
+<li>When developing your tool use the default STRING address (https://string-db.org), but when your code is ready, you should link to a specific STRING version (for example "https://version-12-5.string-db.org"), which will ensure that for the same query you will always get the same API response, even after STRING or the API gets updated. To see the current STRING version and its URL prefix <a target="_blank" href="https://string-db.org/api/json/version">click here</a></li>
+<li>STRING understands both GET and POST requests. GET requests, although simpler to use, have a character limit, therefore it is recommended to use POST whenever possible. </li>
+<li>When calling our API from your website or tools please identify yourself using the caller_identity parameter. </li>
+</ol>
+<h2 id="mapping-identifiers">Mapping identifiers
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>You can call the STRING API using common gene names, synonyms, or UniProt identifiers and accession numbers.
+Before using other API methods, it is recommended to map your inputs to the identifiers used internally by STRING. Using STRING identifiers is also faster, so your tool or website may benefit from improved performance.
+For each input protein, STRING resolves ambiguities and returns a single best-matching STRING identifier.</p>
+<p>Note: STRING may not always interpret the original inputs correctly, which can lead to errors or inconsistent results.</p>
+<h4 id="call">Call:</h4>
+<pre><code>https://string-db.org/api/[output-format]/get_string_ids?identifiers=[your_identifiers]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-output-formats">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>echo_query</td>
+<td>insert column with your input identifier (takes values '0' or '1', default is '0')</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="output-fields">Output fields:</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>queryItem</td>
+<td>(OPTIONAL) your input protein</td>
+</tr>
+<tr>
+<td>queryIndex</td>
+<td>position of the protein in your input (starting from position 0)</td>
+</tr>
+<tr>
+<td>stringId</td>
+<td>STRING identifier</td>
+</tr>
+<tr>
+<td>ncbiTaxonId</td>
+<td>NCBI taxon identifier</td>
+</tr>
+<tr>
+<td>taxonName</td>
+<td>species name</td>
+</tr>
+<tr>
+<td>preferredName</td>
+<td>common protein name</td>
+</tr>
+<tr>
+<td>annotation</td>
+<td>protein annotation</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-call-resolving-p53-and-cdk2-in-human">Example call (resolving "p53" and "cdk2" in human):</h4>
+<pre><code>https://string-db.org/api/tsv/get_string_ids?identifiers=p53%0dcdk2&amp;species=9606
+</code></pre>
+<h4 id="example-of-python3-code">Example of python3 code:</h4>
+<pre><code>#!/usr/bin/env python3
+
+##########################################################
+## For a given list of proteins the script resolves them
+## (if possible) to the best matching STRING identifier
+## and prints out the mapping on screen in the TSV format
+##
+## Requires requests module:
+## type "python -m pip install requests" in command line
+## (win) or terminal (mac/linux) to install the module
+###########################################################
+
+import requests ## python -m pip install requests
+
+string_api_url = "https://version-12-5.string-db.org/api"
+output_format = "tsv-no-header"
+method = "get_string_ids"
+
+##
+## Set parameters
+##
+
+params = {
+
+    "identifiers" : "\r".join(["p53", "BRCA1", "cdk2", "Q99835"]), # your protein list
+    "species" : 9606, # NCBI/STRING taxon identifier 
+    "echo_query" : 1, # see your input identifiers in the output
+    "caller_identity" : "www.awesome_app.org" # your app name
+
+}
+
+##
+## Construct URL
+##
+
+
+request_url = "/".join([string_api_url, output_format, method])
+
+##
+## Call STRING
+##
+
+results = requests.post(request_url, data=params)
+
+##
+## Read and parse the results
+##
+
+for line in results.text.strip().split("\n"):
+    l = line.split("\t")
+    input_identifier, string_identifier = l[0], l[2]
+    print("Input:", input_identifier, "STRING:", string_identifier, sep="\t")
+</code></pre>
+<h2 id="getting-string-network-image">Getting STRING network image
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>With our API you can retrieve an image of a STRING network of a neighborhood surrounding one or more proteins or ask STRING to show only the network of interactions between your input proteins. Functional, physical, and directed regulatory network types are accessible through the API. Functional networks can also use the typed flavor to overlay physical and regulatory relationships. The API can output the image as a PNG (low and high resolution with alpha-channel) or as an SVG (vector graphics that can be modified through scripts or in an appropriate software).</p>
+<h4 id="call_1">Call:</h4>
+<pre><code>https://string-db.org/api/[output-format]/network?identifiers=[your_identifiers]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-output-formats_1">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>image</td>
+<td>network PNG image with alpha-channel</td>
+</tr>
+<tr>
+<td>highres_image</td>
+<td>high resolution network PNG image with alpha-channel</td>
+</tr>
+<tr>
+<td>svg</td>
+<td>vector graphic format (SVG)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_1">Available parameters:</h4>
+<h5 id="data">Data</h5>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>network_term_id</td>
+<td>functional term identifier (e.g. GO, KEGG, Reactome, etc.). Instead of specifying proteins via <code>identifiers</code>, STRING will construct a network of proteins annotated with the given term.</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>add_color_nodes</td>
+<td>adds color nodes based on scores to the input proteins</td>
+</tr>
+<tr>
+<td>add_white_nodes</td>
+<td>adds white nodes based on scores to the input proteins (added after color nodes)</td>
+</tr>
+<tr>
+<td>required_score</td>
+<td>threshold of significance to include an interaction, a number between 0 and 1000 (default depends on the network)</td>
+</tr>
+<tr>
+<td>network_type</td>
+<td>network type: functional (default), physical, regulatory</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h5 id="visual">Visual</h5>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>network_flavor</td>
+<td>the style of edges in the network: evidence (default), confidence, actions, typed. <code>typed</code> is available only for functional protein networks.</td>
+</tr>
+<tr>
+<td>typed_physical_edges</td>
+<td>includes physical edges in a typed network (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>typed_regulatory_edges</td>
+<td>includes regulatory edges in a typed network (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>show_regulatory_signs</td>
+<td>shows positive and negative regulatory signs when available (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>hide_node_labels</td>
+<td>hides all protein names from the picture (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>hide_disconnected_nodes</td>
+<td>hides all proteins that are not connected to any other protein in your network (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>show_query_node_labels</td>
+<td>when provided use submitted names as protein labels in the network image (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>block_structure_pics_in_bubbles</td>
+<td>disables structure pictures inside the bubble (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>flat_node_design</td>
+<td>disable 3D bubble design (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>center_node_labels</td>
+<td>center protein names on nodes (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>custom_label_font_size</td>
+<td>change font size of the protein names (from 5 to 50) (default:12)</td>
+</tr>
+</tbody>
+</table>
+<p>If you query the API with one protein the "add_white_nodes" parameter is automatically set to 10, so you can see the interaction neighborhood of your query protein. However, similarly to the STRING webpage, whenever you query the API with more than one protein we show only the interactions between your input proteins. You can, of course, always extend the interaction neighborhood by setting "add_color/white_nodes" parameter to the desired value. </p>
+<p><code>network_type=regulatory</code> produces directed regulatory edges. In a typed functional network, <code>typed_physical_edges</code> and <code>typed_regulatory_edges</code> control the two overlays. <code>show_regulatory_signs</code> displays a positive or negative regulatory effect when available; when disabled, the relationship remains directional but is shown as an unspecified regulatory effect.</p>
+<h4 id="output-yeasts-nuclear-pore-complex">Output (yeast's nuclear pore complex):</h4>
+<p><img alt="Nuclear pore complex" src="../images/nuclear_pore_complex.png" /></p>
+<h4 id="example-call-physical-interaction-neighborhood-of-nup100-reveals-nuclear-pore-complex">Example call (physical interaction neighborhood of nup100 reveals nuclear pore complex):</h4>
+<pre><code>https://string-db.org/api/image/network?identifiers=nup100&amp;add_color_nodes=10&amp;network_type=physical
+</code></pre>
+<h4 id="example-call-directed-regulatory-network">Example call (directed regulatory network):</h4>
+<pre><code>https://string-db.org/api/image/network?identifiers=TP53%0dMDM2&amp;species=9606&amp;network_type=regulatory&amp;network_flavor=confidence
+</code></pre>
+<h4 id="example-python3-code">Example python3 code:</h4>
+<pre><code>#!/usr/bin/env python3
+
+################################################################
+## For each protein in a list save the PNG image of
+## STRING network of its 15 most confident interaction partners.
+##
+## Requires requests module:
+## type "python -m pip install requests" in command line (win)
+## or terminal (mac/linux) to install the module
+################################################################
+
+import requests ## python -m pip install requests
+from time import sleep
+
+string_api_url = "https://version-12-5.string-db.org/api"
+output_format = "image"
+method = "network"
+
+my_genes = ["YMR055C", "YFR028C",
+            "YNL161W", "YOR373W",
+            "YFL009W", "YBR202W"]
+
+
+##
+## Construct URL
+##
+
+
+request_url = "/".join([string_api_url, output_format, method])
+
+## For each gene call STRING
+
+for gene in my_genes:
+
+    ##
+    ## Set parameters
+    ##
+
+    params = {
+
+        "identifiers" : gene, # your protein
+        "species" : 4932, # NCBI/STRING taxon identifier 
+        "add_white_nodes": 15, # add 15 white nodes to my protein 
+        "network_flavor": "confidence", # show confidence links
+        "caller_identity" : "www.awesome_app.org" # your app name
+
+    }
+
+
+    ##
+    ## Call STRING
+    ##
+
+    response = requests.post(request_url, data=params)
+
+    ##
+    ## Save the network to file
+    ##
+
+    file_name = "%s_network.png" % gene
+    print("Saving interaction network to %s" % file_name)
+
+    with open(file_name, 'wb') as fh:
+        fh.write(response.content)
+
+    sleep(1)
+</code></pre>
+<h2 id="linking-to-the-network-on-string-webpage">Linking to the network on STRING webpage
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>This API allows you to get a link to your network on the STRING webpage. The parameters are the same as retrieving the network through other API methods (as an image or as a text file) and the produced networks will be the same. Generated link is a "stable" one which means it will redirect to the specific STRING version (if not specified with the url prefix, it will link to the current version of STRING).  </p>
+<h4 id="call_2">Call:</h4>
+<pre><code>https://string-db.org/api/[output-format]/get_link?identifiers=[your_identifiers]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-output-formats_2">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_2">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>network_term_id</td>
+<td>functional term identifier (e.g. GO, KEGG, Reactome, etc.). Instead of specifying proteins via <code>identifiers</code>, STRING will construct a network of proteins annotated with the given term.</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>add_color_nodes</td>
+<td>adds color nodes based on scores to the input proteins</td>
+</tr>
+<tr>
+<td>add_white_nodes</td>
+<td>adds white nodes based on scores to the input proteins (added after color nodes)</td>
+</tr>
+<tr>
+<td>required_score</td>
+<td>threshold of significance to include an interaction, a number between 0 and 1000 (default depends on the network)</td>
+</tr>
+<tr>
+<td>network_flavor</td>
+<td>the style of edges in the network: evidence (default), confidence, actions, typed. <code>typed</code> is available only for functional protein networks.</td>
+</tr>
+<tr>
+<td>network_type</td>
+<td>network type: functional (default), physical, regulatory</td>
+</tr>
+<tr>
+<td>typed_physical_edges</td>
+<td>includes physical edges in a typed network (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>typed_regulatory_edges</td>
+<td>includes regulatory edges in a typed network (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>show_regulatory_signs</td>
+<td>shows positive and negative regulatory signs when available (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>hide_node_labels</td>
+<td>hides all protein names from the picture (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>hide_disconnected_nodes</td>
+<td>hides all proteins that are not connected to any other protein in your network (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>show_query_node_labels</td>
+<td>when provided use submitted names as protein labels in the network image (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>block_structure_pics_in_bubbles</td>
+<td>disables structure pictures inside the bubble (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<p>If you query the API with one protein the "add_color_nodes" parameter is automatically set to 10. Whenever you query the API with more than one protein we show only the interactions between your input proteins. You can, of course, always extend the interaction neighborhood by setting "add_color/white_nodes" parameter to the desired value. </p>
+<h4 id="output-fields_1">Output fields:</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>url</td>
+<td>stable link to the network</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-call-link-to-drosophilas-smoothened-protein-interaction-neighborhood">Example call (Link to Drosophila's smoothened protein interaction neighborhood):</h4>
+<pre><code>https://string-db.org/api/tsv/get_link?identifiers=SMO&amp;species=7227
+</code></pre>
+<h2 id="linking-to-the-search-results-page">Linking to the search results page
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>This section details how you can embed links on your website to directly access STRING's search results page or specific protein networks. This functionality is useful for setting up a search feature that lets users query STRING using the proteins listed on your site, without the need for converting them into STRING's specific identifiers. The link will direct the user to the search results, identical to the way the user would search for protein in the STRING input page. Specifying the species is optional; if omitted, users are first directed to a species disambiguation page. Providing a species bypasses this step, leading straight to protein disambiguation. Using STRING identifiers (like 511145.b1260 or 9606.ENSP00000269305) will skip disambiguation entirely, directing users directly to the respective network. For single protein searches, STRING automatically adds the 10 most confident interactions to the network, a default setting that can be altered. For multiple protein queries, the option to retain the original query names is available, which is particularly useful if your application operates in a different naming convention.</p>
+<h4 id="link">Link:</h4>
+<pre><code>https://string-db.org/cgi/network?identifiers=[your_identifiers]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-parameters_3">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>add_color_nodes</td>
+<td>adds color nodes based on scores to the input proteins</td>
+</tr>
+<tr>
+<td>add_white_nodes</td>
+<td>adds white nodes based on scores to the input proteins (added after color nodes)</td>
+</tr>
+<tr>
+<td>required_score</td>
+<td>threshold of significance to include an interaction, a number between 0 and 1000 (default depends on the network)</td>
+</tr>
+<tr>
+<td>network_flavor</td>
+<td>the style of edges in the network: evidence (default), confidence, actions, typed. <code>typed</code> is available only for functional protein networks.</td>
+</tr>
+<tr>
+<td>network_type</td>
+<td>network type: functional (default), physical, regulatory</td>
+</tr>
+<tr>
+<td>typed_physical_edges</td>
+<td>includes physical edges in a typed network (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>typed_regulatory_edges</td>
+<td>includes regulatory edges in a typed network (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>show_regulatory_signs</td>
+<td>shows positive and negative regulatory signs when available (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>hide_node_labels</td>
+<td>hides all protein names from the picture (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>hide_disconnected_nodes</td>
+<td>hides all proteins that are not connected to any other protein in your network (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>show_query_node_labels</td>
+<td>when provided use submitted names as protein labels in the network image (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>block_structure_pics_in_bubbles</td>
+<td>disables structure pictures inside the bubble (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<p>If you search with one protein the "add_color_nodes" parameter is automatically set to 10. Whenever you query the API with more than one protein we show only the interactions between your input proteins. You can, of course, always extend the interaction neighborhood by setting "add_color/white_nodes" parameter to the desired value. </p>
+<h4 id="example-link-p53mdm2atm-human-network-retaining-the-uniprot-namespace">Example link (P53/MDM2/ATM human network retaining the uniprot namespace)</h4>
+<pre><code>https://string-db.org/cgi/network?identifiers=P53_HUMAN%0dMDM2_HUMAN%0dATM_HUMAN&amp;species=9606&amp;show_query_node_labels=1
+</code></pre>
+<h2 id="embedding-the-interactive-network">Embedding the interactive network
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>Using provided simple HTML and JavaScript code you can embed the interactive STRING network in your website or web app. The advantages of the interactive network are several: 1) The user can move the nodes around to explore the network's structure 2) each node can be clicked and a pop-up will appear above the network providing information about the protein's structure, its function and sequence 3) the network contains a link-out to STRING that lets the user jump directly to the STRING website and explore interactions in even more detail.
+The behaviour of the API is similar to the <a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23getting-string-network-image">Getting the network image API</a>, that is, it lets you retrieve either 1) the image of the interaction neighborhood of one or more proteins and 2) the image of the interaction network only between the specified set of proteins. The two APIs also share the exact same set of parameters.</p>
+<h4 id="code">Code:</h4>
+<p>First your website has to load two elements to make it work. IMPORTANT: Do not load these elements in the iFrame - if you do the pop-ups will be confined only to the iFrame instead of overlaying your website. </p>
+<p>The first element is a small STRING javascript library that allows for movable bubbles and pop-ups.</p>
+<pre><code>&lt;script type="text/javascript" src="https://string-db.org/javascript/combined_embedded_network_v2.0.6.js"&gt;&lt;/script&gt;
+</code></pre>
+<p>The second is an HTML DIV element. You insert it in the place where you want the network to be displayed. You can assign any class to this element or style it however you want, just do not change its identifier.</p>
+<pre><code>&lt;div id="stringEmbedded"&gt;&lt;/div&gt;
+</code></pre>
+<p>And finally this API call in Javascript:</p>
+<pre><code>getSTRING('https://string-db.org', {[dictionary of parameters]})"&gt;
+</code></pre>
+<h4 id="available-parameters_4">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter - array of protein names e.g. ['TP53', 'CDK2']</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>add_color_nodes</td>
+<td>adds color nodes based on scores to the input proteins</td>
+</tr>
+<tr>
+<td>add_white_nodes</td>
+<td>adds white nodes based on scores to the input proteins (added after color nodes)</td>
+</tr>
+<tr>
+<td>required_score</td>
+<td>threshold of significance to include an interaction, a number between 0 and 1000 (default depends on the network)</td>
+</tr>
+<tr>
+<td>network_flavor</td>
+<td>the style of edges in the network: evidence (default), confidence, actions, typed. <code>typed</code> is available only for functional protein networks.</td>
+</tr>
+<tr>
+<td>network_type</td>
+<td>network type: functional (default), physical, regulatory</td>
+</tr>
+<tr>
+<td>typed_physical_edges</td>
+<td>includes physical edges in a typed network (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>typed_regulatory_edges</td>
+<td>includes regulatory edges in a typed network (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>show_regulatory_signs</td>
+<td>shows positive and negative regulatory signs when available (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>hide_node_labels</td>
+<td>hides all protein names from the picture (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>hide_disconnected_nodes</td>
+<td>hides all proteins that are not connected to any other protein in your network (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>show_query_node_labels</td>
+<td>when provided use submitted names as protein labels in the network image (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>block_structure_pics_in_bubbles</td>
+<td>disables structure pictures inside the bubble (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-javascript-call-tp53-interaction-neighborhood">Example JavaScript call (TP53 interaction neighborhood):</h4>
+<pre><code>getSTRING('https://string-db.org', {'species':'9606', 'identifiers':['TP53'], 'network_flavor':'confidence'})"&gt;
+</code></pre>
+<h4 id="example-website-code-to-test-it-copy-paste-it-into-an-empty-file-with-html-extension-and-open-it-in-your-browser">Example website code (to test it, copy paste it into an empty file with .html extension and open it in your browser):</h4>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+
+      &lt;!-- Embed the STRING's javascript --&gt;
+
+      &lt;script type="text/javascript" src="https://string-db.org/javascript/combined_embedded_network_v2.0.6.js"&gt;&lt;/script&gt;
+
+      &lt;style&gt;
+
+           /* some styling */
+
+           body {
+               font-family: Arial;
+               color: #122e4d;
+               background: #cedded;
+           }
+
+           input {
+               border: 4px solid #122e4d; 
+               width: 40%;
+               height: 50px;
+               border-radius: 10px;  
+               font-size: 20px;
+           }
+
+           button {
+               font-size:20px;
+               border-radius: 10px;  
+               border: 1px solid #122e4d; 
+           }
+
+      &lt;/style&gt;
+      &lt;script&gt;
+
+          function send_request_to_string() {
+
+              var inputField = document.getElementById('inputarea');
+
+              var text = inputField.value;
+
+              if (!text) {text = inputField.placeholder}; // placeholder
+
+              var proteins = text.split(' ');
+
+              /* the actual API query */
+
+              getSTRING('https://string-db.org', {
+                          'species':'9606',
+                          'identifiers':proteins,
+                          'network_flavor':'confidence', 
+                          'caller_identity': 'www.awesome_app.org'
+              })
+
+          }
+
+      &lt;/script&gt;
+  &lt;/head&gt;
+
+  &lt;!-- HTML CODE --&gt;
+
+  &lt;body onload='javascript:send_request_to_string()'&gt;
+      &lt;center&gt;
+          &lt;h1&gt;YOUR WEBSITE&lt;/h1&gt;
+          &lt;h3&gt;Query me: (one human protein or multiple space separated proteins)&lt;/h3&gt;
+             &lt;input type="text" id='inputarea' placeholder='GLI3'&gt;&lt;br/&gt;&lt;/br/&gt;
+             &lt;button onclick='javascript:send_request_to_string();' type="button"&gt;Let's go!&lt;/button&gt;
+             &lt;h3&gt;Network:&lt;/h3&gt;
+             &lt;div id="stringEmbedded"&gt;&lt;/div&gt;
+      &lt;/center&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h2 id="getting-the-string-network-interactions">Getting the STRING network interactions
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>The network API method also allows you to retrieve your STRING interaction network for one or multiple proteins in various text formats. For functional and physical networks, it returns the combined score and all channel-specific scores. A regulatory request returns directed regulatory relationships and their directional evidence scores. A typed functional request returns functional, physical, and directional regulatory annotations in one record. You can also extend the network neighborhood by setting "add_nodes", which will add new interaction partners to your network in order of their confidence.</p>
+<h4 id="call_3">Call:</h4>
+<pre><code>https://string-db.org/api/[output-format]/network?identifiers=[your_identifiers]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-output-formats_3">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+<tr>
+<td>psi-mi</td>
+<td><a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2189715/?tool=pubmed">PSI-MI XML format</a></td>
+</tr>
+<tr>
+<td>psi-mi-tab</td>
+<td><a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2189715/?tool=pubmed">PSI-MITAB format</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_5">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>network_term_id</td>
+<td>functional term identifier (e.g. GO, KEGG, Reactome, etc.). Instead of specifying proteins via <code>identifiers</code>, STRING will construct a network of proteins annotated with the given term.</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>required_score</td>
+<td>threshold of significance to include an interaction, a number between 0 and 1000 (default depends on the network)</td>
+</tr>
+<tr>
+<td>network_type</td>
+<td>network type: functional (default), physical, regulatory</td>
+</tr>
+<tr>
+<td>network_flavor</td>
+<td>use <code>typed</code> with a functional protein network to return functional, physical, and regulatory annotations in one response</td>
+</tr>
+<tr>
+<td>typed_physical_edges</td>
+<td>includes physical annotations in a typed functional response (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>typed_regulatory_edges</td>
+<td>includes regulatory annotations in a typed functional response (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>add_nodes</td>
+<td>adds a number of proteins to the network based on their confidence score</td>
+</tr>
+<tr>
+<td>show_query_node_labels</td>
+<td>when available use submitted names in the preferredName column when (0 or 1) (default:0)</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<p>If you query the API with one protein the "add_nodes" parameter is automatically set to 10, so you can get the interaction neighborhood of your query protein. However, similarly to the STRING webpage, whenever you query the API with more than one protein the method will output only the interactions between your input proteins. You can, of course, always extend the interaction neighborhood by setting "add_nodes" parameter to the desired value. </p>
+<h4 id="output-fields-for-functional-and-physical-networks-tsv-and-json-formats">Output fields for functional and physical networks (TSV and JSON formats):</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stringId_A</td>
+<td>STRING identifier (protein A)</td>
+</tr>
+<tr>
+<td>stringId_B</td>
+<td>STRING identifier (protein B)</td>
+</tr>
+<tr>
+<td>preferredName_A</td>
+<td>common protein name (protein A)</td>
+</tr>
+<tr>
+<td>preferredName_B</td>
+<td>common protein name (protein B)</td>
+</tr>
+<tr>
+<td>ncbiTaxonId</td>
+<td>NCBI taxon identifier</td>
+</tr>
+<tr>
+<td>score</td>
+<td>combined score</td>
+</tr>
+<tr>
+<td>nscore</td>
+<td>gene neighborhood score</td>
+</tr>
+<tr>
+<td>fscore</td>
+<td>gene fusion score</td>
+</tr>
+<tr>
+<td>pscore</td>
+<td>phylogenetic profile score</td>
+</tr>
+<tr>
+<td>ascore</td>
+<td>coexpression score</td>
+</tr>
+<tr>
+<td>escore</td>
+<td>experimental score</td>
+</tr>
+<tr>
+<td>dscore</td>
+<td>database score</td>
+</tr>
+<tr>
+<td>tscore</td>
+<td>textmining score</td>
+</tr>
+</tbody>
+</table>
+<h4 id="regulatory-network-output-fields-tsv-and-json-formats">Regulatory network output fields (TSV and JSON formats):</h4>
+<p>Set <code>network_type=regulatory</code> to receive one row per reported direction, from <code>source</code> to <code>target</code>. The <code>combined_score</code> is the combined regulatory score for that direction, not the non-directional score for the protein pair.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>source_string_id</td>
+<td>STRING identifier of the regulator</td>
+</tr>
+<tr>
+<td>target_string_id</td>
+<td>STRING identifier of the regulated target</td>
+</tr>
+<tr>
+<td>source_preferred_name</td>
+<td>common name of the regulator</td>
+</tr>
+<tr>
+<td>target_preferred_name</td>
+<td>common name of the regulated target</td>
+</tr>
+<tr>
+<td>ncbiTaxonId</td>
+<td>NCBI taxon identifier</td>
+</tr>
+<tr>
+<td>experimental_score</td>
+<td>directional experimental score</td>
+</tr>
+<tr>
+<td>database_score</td>
+<td>directional curated-database score</td>
+</tr>
+<tr>
+<td>textmining_score</td>
+<td>directional text-mining score</td>
+</tr>
+<tr>
+<td>sign</td>
+<td><code>pos</code> for positive regulation, <code>neg</code> for negative regulation, or <code>n/a</code> when no sign is supported</td>
+</tr>
+<tr>
+<td>combined_score</td>
+<td>combined regulatory score for this direction</td>
+</tr>
+</tbody>
+</table>
+<h4 id="typed-functional-network-output-fields-tsv-and-json-formats">Typed functional network output fields (TSV and JSON formats):</h4>
+<p>Set <code>network_type=functional&amp;network_flavor=typed</code> to receive a functional interaction together with any physical and regulatory annotation. Each functional interaction is reported twice, once in each row orientation. Physical scores are symmetric; regulatory scores and <code>sign</code> apply to the direction from <code>stringId_A</code> to <code>stringId_B</code> in that row. A physical or regulatory field is <code>-</code> when that relationship is absent or does not meet <code>required_score</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stringId_A</td>
+<td>STRING identifier of the source protein for this row</td>
+</tr>
+<tr>
+<td>stringId_B</td>
+<td>STRING identifier of the target protein for this row</td>
+</tr>
+<tr>
+<td>preferredName_A</td>
+<td>common name of the source protein</td>
+</tr>
+<tr>
+<td>preferredName_B</td>
+<td>common name of the target protein</td>
+</tr>
+<tr>
+<td>ncbiTaxonId</td>
+<td>NCBI taxon identifier</td>
+</tr>
+<tr>
+<td>functional_neighborhood_on_chromosome_score</td>
+<td>functional gene-neighborhood score</td>
+</tr>
+<tr>
+<td>functional_gene_fusion_score</td>
+<td>functional gene-fusion score</td>
+</tr>
+<tr>
+<td>functional_phylogenetic_cooccurrence_score</td>
+<td>functional phylogenetic co-occurrence score</td>
+</tr>
+<tr>
+<td>functional_homology_score</td>
+<td>functional homology score</td>
+</tr>
+<tr>
+<td>functional_coexpression_score</td>
+<td>functional coexpression score</td>
+</tr>
+<tr>
+<td>functional_experimental_score</td>
+<td>functional experimental score</td>
+</tr>
+<tr>
+<td>functional_database_score</td>
+<td>functional curated-database score</td>
+</tr>
+<tr>
+<td>functional_textmining_score</td>
+<td>functional text-mining score</td>
+</tr>
+<tr>
+<td>functional_combined_score</td>
+<td>functional combined score</td>
+</tr>
+<tr>
+<td>physical_homology_score</td>
+<td>physical homology score</td>
+</tr>
+<tr>
+<td>physical_experimental_score</td>
+<td>physical experimental score</td>
+</tr>
+<tr>
+<td>physical_database_score</td>
+<td>physical curated-database score</td>
+</tr>
+<tr>
+<td>physical_textmining_score</td>
+<td>physical text-mining score</td>
+</tr>
+<tr>
+<td>physical_combined_score</td>
+<td>physical combined score</td>
+</tr>
+<tr>
+<td>regulatory_experimental_score</td>
+<td>directional regulatory experimental score</td>
+</tr>
+<tr>
+<td>regulatory_database_score</td>
+<td>directional regulatory curated-database score</td>
+</tr>
+<tr>
+<td>regulatory_textmining_score</td>
+<td>directional regulatory text-mining score</td>
+</tr>
+<tr>
+<td>regulatory_combined_score</td>
+<td>combined regulatory score for the row direction</td>
+</tr>
+<tr>
+<td>sign</td>
+<td><code>pos</code> for positive regulation, <code>neg</code> for negative regulation, or <code>n/a</code> when no sign is supported</td>
+</tr>
+</tbody>
+</table>
+<p>To see how the combined score is computed from the partial scores see <a target="_blank" href="https://string-db.org/cgi/help?subpage=faq%23how-are-the-scores-computed">FAQ</a></p>
+<h4 id="example-call-retrieve-all-interactions-between-tp53-egfr-and-cdk2">Example call (retrieve all interactions between TP53 EGFR and CDK2):</h4>
+<pre><code>https://string-db.org/api/tsv/network?identifiers=TP53%0dEGFR%0dCDK2&amp;required_score=400
+</code></pre>
+<h4 id="example-call-retrieve-directed-regulatory-interactions">Example call (retrieve directed regulatory interactions):</h4>
+<pre><code>https://string-db.org/api/tsv/network?identifiers=TP53%0dMDM2&amp;species=9606&amp;network_type=regulatory&amp;required_score=400
+</code></pre>
+<h4 id="example-call-retrieve-typed-functional-interactions">Example call (retrieve typed functional interactions):</h4>
+<pre><code>https://string-db.org/api/tsv/network?identifiers=TP53%0dMDM2&amp;species=9606&amp;network_type=functional&amp;network_flavor=typed&amp;required_score=400
+</code></pre>
+<h4 id="example-python3-code_1">Example python3 code:</h4>
+<pre><code>#!/usr/bin/env python3
+
+##################################################################
+## For the given list of proteins print out only the interactions
+## between these proteins which have medium or higher confidence
+## experimental score
+##
+## Requires requests module:
+## type "python -m pip install requests" in command line (win)
+## or terminal (mac/linux) to install the module
+##################################################################
+
+import requests ## python -m pip install requests
+
+
+string_api_url = "https://version-12-5.string-db.org/api"
+output_format = "tsv-no-header"
+method = "network"
+
+##
+## Construct URL
+##
+
+request_url = "/".join([string_api_url, output_format, method])
+
+##
+## Set parameters
+##
+
+my_genes = ["CDC42","CDK1","KIF23","PLK1",
+            "RAC2","RACGAP1","RHOA","RHOB"]
+
+params = {
+
+    "identifiers" : "%0d".join(my_genes), # your protein
+    "species" : 9606, # NCBI/STRING taxon identifier 
+    "caller_identity" : "www.awesome_app.org" # your app name
+
+}
+
+##
+## Call STRING
+##
+
+response = requests.post(request_url, data=params)
+
+for line in response.text.strip().split("\n"):
+
+    l = line.strip().split("\t")
+    p1, p2 = l[2], l[3]
+
+    ## filter the interaction according to experimental score
+    experimental_score = float(l[10])
+    if experimental_score &gt; 0.4:
+        ## print 
+        print("\t".join([p1, p2, "experimentally confirmed (prob. %.3f)" % experimental_score]))
+</code></pre>
+<h2 id="getting-all-the-string-interaction-partners-of-the-protein-set">Getting all the STRING interaction partners of the protein set
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>Differently from the network API method, which retrieves only the interactions between the set of input proteins and between their closest interaction neighborhood (if add_nodes parameter is specified), interaction_partners API method provides the interactions between your set of proteins and all the other STRING proteins.
+The output is available in various text based formats. As STRING network usually has a lot of low scoring interactions, you may want to limit the number of retrieved interactions per protein using the "limit" parameter (of course the high scoring interactions will come first). </p>
+<h4 id="call_4">Call:</h4>
+<pre><code>https://string-db.org/api/[output-format]/interaction_partners?identifiers=[your_identifiers]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-output-formats_4">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+<tr>
+<td>psi-mi</td>
+<td><a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2189715/?tool=pubmed">PSI-MI XML format</a></td>
+</tr>
+<tr>
+<td>psi-mi-tab</td>
+<td><a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2189715/?tool=pubmed">PSI-MITAB format</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_6">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>limit</td>
+<td>limits the number of interaction partners retrieved per protein (most confident interactions come first)</td>
+</tr>
+<tr>
+<td>required_score</td>
+<td>threshold of significance to include an interaction, a number between 0 and 1000 (default depends on the network)</td>
+</tr>
+<tr>
+<td>network_type</td>
+<td>network type: functional (default), physical, regulatory</td>
+</tr>
+<tr>
+<td>network_flavor</td>
+<td>use <code>typed</code> with a functional protein network to return functional, physical, and regulatory annotations in one response</td>
+</tr>
+<tr>
+<td>typed_physical_edges</td>
+<td>includes physical annotations in a typed functional response (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>typed_regulatory_edges</td>
+<td>includes regulatory annotations in a typed functional response (0 or 1) (default:1)</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="output-fields-for-functional-and-physical-networks-tsv-and-json-formats_1">Output fields for functional and physical networks (TSV and JSON formats):</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stringId_A</td>
+<td>STRING identifier (protein A)</td>
+</tr>
+<tr>
+<td>stringId_B</td>
+<td>STRING identifier (protein B)</td>
+</tr>
+<tr>
+<td>preferredName_A</td>
+<td>common protein name (protein A)</td>
+</tr>
+<tr>
+<td>preferredName_B</td>
+<td>common protein name (protein B)</td>
+</tr>
+<tr>
+<td>ncbiTaxonId</td>
+<td>NCBI taxon identifier</td>
+</tr>
+<tr>
+<td>score</td>
+<td>combined score</td>
+</tr>
+<tr>
+<td>nscore</td>
+<td>gene neighborhood score</td>
+</tr>
+<tr>
+<td>fscore</td>
+<td>gene fusion score</td>
+</tr>
+<tr>
+<td>pscore</td>
+<td>phylogenetic profile score</td>
+</tr>
+<tr>
+<td>ascore</td>
+<td>coexpression score</td>
+</tr>
+<tr>
+<td>escore</td>
+<td>experimental score</td>
+</tr>
+<tr>
+<td>dscore</td>
+<td>database score</td>
+</tr>
+<tr>
+<td>tscore</td>
+<td>textmining score</td>
+</tr>
+</tbody>
+</table>
+<p>For <code>network_type=regulatory</code>, this method returns the same directed regulatory schema described in <strong>Regulatory network output fields</strong> above. For <code>network_type=functional&amp;network_flavor=typed</code>, it returns the same extended schema described in <strong>Typed functional network output fields</strong> above. <code>limit</code> is applied per input protein before the rows are returned.</p>
+<p>To see how the combined score is computed from the partial scores see <a target="_blank" href="https://string-db.org/cgi/help?subpage=faq%23how-are-the-scores-computed">FAQ</a></p>
+<h4 id="example-call-retrieve-best-10-string-interactions-for-tp53-and-cdk2">Example call (retrieve best 10 STRING interactions for TP53 and CDK2):</h4>
+<pre><code>https://string-db.org/api/tsv/interaction_partners?identifiers=TP53%0dCDK2&amp;limit=10
+</code></pre>
+<h4 id="example-call-retrieve-regulatory-interaction-partners-of-tp53">Example call (retrieve regulatory interaction partners of TP53):</h4>
+<pre><code>https://string-db.org/api/tsv/interaction_partners?identifiers=TP53&amp;species=9606&amp;network_type=regulatory&amp;required_score=400&amp;limit=10
+</code></pre>
+<h4 id="example-python3-code_2">Example python3 code:</h4>
+<pre><code>#!/usr/bin/env python3
+
+################################################################
+## For each protein in the given list print the names of
+## their 5 best interaction partners.
+##
+## Requires requests module:
+## type "python -m pip install requests" in command line (win)
+## or terminal (mac/linux) to install the module
+################################################################
+
+
+import requests ## python -m pip install requests
+
+string_api_url = "https://version-12-5.string-db.org/api"
+output_format = "tsv-no-header"
+method = "interaction_partners"
+
+my_genes = ["9606.ENSP00000000233", "9606.ENSP00000000412",
+            "9606.ENSP00000000442", "9606.ENSP00000001008"]
+
+##
+## Construct the request
+##
+
+request_url = "/".join([string_api_url, output_format, method])
+
+##
+## Set parameters
+##
+
+params = {
+
+    "identifiers" : "%0d".join(my_genes), # your protein
+    "species" : 9606, # NCBI/STRING taxon identifier 
+    "limit" : 5,
+    "caller_identity" : "www.awesome_app.org" # your app name
+
+}
+
+
+##
+## Call STRING
+##
+
+response = requests.post(request_url, data=params)
+
+##
+## Read and parse the results
+##
+
+for line in response.text.strip().split("\n"):
+
+    l = line.strip().split("\t")
+    query_ensp = l[0]
+    query_name = l[2]
+    partner_ensp = l[1]
+    partner_name = l[3]
+    combined_score = l[5]
+
+    ## print
+
+    print("\t".join([query_ensp, query_name, partner_name, combined_score]))
+</code></pre>
+<h2 id="retrieving-similarity-scores-of-the-protein-set">Retrieving similarity scores of the protein set
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>STRING internally uses the Smith–Waterman bit scores as a proxy for protein homology. The original scores are computed by <a target="_blank" href="http://cube.univie.ac.at/resources/simap">SIMILARITY MATRIX OF PROTEINS</a> (SIMAP) project.
+Using this API you can retrieve these scores between the proteins in a selected species. They are symmetric, therefore to make the transfer a bit faster we will send only half of the similarity matrix (A-&gt;B, but not symmetric B-&gt;A) and the self-hits.
+The bit score cut-off below which we do not store or report homology is 50. </p>
+<h4 id="call_5">Call:</h4>
+<pre><code>https://string-db.org/api/[output-format]/homology?identifiers=[your_identifiers]
+</code></pre>
+<h4 id="available-output-formats_5">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_7">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="output-fields-tsv-and-json-formats">Output fields (TSV and JSON formats):</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ncbiTaxonId_A</td>
+<td>NCBI taxon identifier (protein A)</td>
+</tr>
+<tr>
+<td>stringId_A</td>
+<td>STRING identifier (protein A)</td>
+</tr>
+<tr>
+<td>ncbiTaxonId_B</td>
+<td>NCBI taxon identifier (protein B)</td>
+</tr>
+<tr>
+<td>stringId_B</td>
+<td>STRING identifier (protein B)</td>
+</tr>
+<tr>
+<td>bitscore</td>
+<td>Smith-Waterman alignment bit score</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-call-retrieve-homology-scores-between-cdk1-and-cdk2">Example call (retrieve homology scores between CDK1 and CDK2)</h4>
+<pre><code>https://string-db.org/api/tsv/homology?identifiers=CDK1%0dCDK2
+</code></pre>
+<h2 id="retrieving-best-similarity-hits-between-species">Retrieving best similarity hits between species
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>STRING internally uses the Smith–Waterman bit scores as a proxy for protein homology. The original scores are computed by <a target="_blank" href="http://cube.univie.ac.at/resources/simap">SIMILARITY MATRIX OF PROTEINS</a> (SIMAP) project.
+Using this API you can retrieve these similarity scores between your input proteins and proteins in all of the STRING's organisms. Only the best hit per organism for each protein will be retrieved. </p>
+<p>There are many organisms in STRING, so expect thousands hits for each protein, however you can filter the results to the list of organisms of interest by using 'species_b' parameter. </p>
+<h4 id="call_6">Call:</h4>
+<pre><code>https://string-db.org/api/[output-format]/homology_best?identifiers=[your_identifiers]
+</code></pre>
+<h4 id="available-output-formats_6">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_8">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>species_b</td>
+<td>a list of NCBI taxon identifiers separated by "%0d" (e.g. human, fly and yeast would be "9606%0d7227%0d4932" see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="output-fields-tsv-and-json-formats_1">Output fields (TSV and JSON formats):</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ncbiTaxonId_A</td>
+<td>NCBI taxon identifier (protein A)</td>
+</tr>
+<tr>
+<td>stringId_A</td>
+<td>STRING identifier (protein A)</td>
+</tr>
+<tr>
+<td>ncbiTaxonId_B</td>
+<td>NCBI taxon identifier (protein B)</td>
+</tr>
+<tr>
+<td>stringId_B</td>
+<td>STRING identifier (protein B)</td>
+</tr>
+<tr>
+<td>bitscore</td>
+<td>Smith-Waterman alignment bit score</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-call-retrieve-best-homology-score-between-human-cdk1-and-its-closest-mouse-homolog">Example call (retrieve best homology score between human CDK1 and its closest mouse homolog)</h4>
+<pre><code>https://string-db.org/api/tsv/homology_best?identifiers=CDK1&amp;species_b=10090
+</code></pre>
+<h2 id="getting-functional-enrichment">Getting functional enrichment
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>STRING maps several databases onto its proteins, this includes: <a target="_blank" href="https://www.geneontology.org">Gene Ontology</a>, <a target="_blank" href="http://www.genome.jp/kegg/pathway.html">KEGG pathways</a>, <a target="_blank" href="https://www.uniprot.org/help/keywords">UniProt Keywords</a>, <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/">PubMed</a> publications, <a target="_blank" href="http://pfam.xfam.org">Pfam domains</a>, <a target="_blank" href="https://www.ebi.ac.uk/interpro/">InterPro domains</a>, and <a target="_blank" href="http://smart.embl.de/">SMART domains</a>. The STRING enrichment API method allows you to retrieve functional enrichment for any set of input proteins. It will tell you which of your input proteins have an enriched term and the term's description. The API provides the raw p-values, as well as, False Discovery Rate (B-H corrected p-values). The detailed description of the enrichment algorithm can be found <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531103/">here</a></p>
+<p>NOTE: As with other STRING APIs, we automatically expand the network by 10 proteins when a query includes only one protein. Keep in mind that this network expansion will likely reduce the FDR more than expected by chance and does not indicate an enrichment of the original single-protein set but rather of its immediate interaction neighborhood. When querying with a set of two or more proteins, no additional proteins are added to the input, and the FDR accurately reflects the probability of observing the enrichment by random chance.</p>
+<h4 id="call_7">Call:</h4>
+<pre><code>https://string-db.org/api/[output_format]/enrichment?identifiers=[your_identifiers]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-output-formats_7">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_9">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>background_string_identifiers</td>
+<td>using this parameter you can specify the background proteome of your experiment. Only STRING identifiers will be recognised (each must be separated by "%0d") e.g. '7227.FBpp0077451%0d7227.FBpp0074373'. You can map STRING identifiers using <a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23mapping-identifiers">mapping identifiers</a> method.</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>add_scores</td>
+<td>set to <code>1</code> to include the <code>strength</code> and <code>signal</code> fields in the response (default: <code>0</code>)</td>
+</tr>
+<tr>
+<td>max_fdr</td>
+<td>return only terms with an FDR no greater than this value (greater than 0 and no greater than 1)</td>
+</tr>
+<tr>
+<td>min_gene_count</td>
+<td>return only terms assigned to at least this many input genes (positive integer)</td>
+</tr>
+<tr>
+<td>min_strength</td>
+<td>return only terms with a strength at least this value</td>
+</tr>
+<tr>
+<td>min_signal</td>
+<td>return only terms with a signal at least this value</td>
+</tr>
+<tr>
+<td>merge_similarity</td>
+<td>merge terms whose assigned input-gene sets overlap at least this much (greater than 0 and no greater than 1); the most significant term is retained. A value of <code>1</code> merges only identical gene sets.</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="output-fields_2">Output fields:</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>category</td>
+<td>term category (e.g. GO Process, KEGG pathways)</td>
+</tr>
+<tr>
+<td>term</td>
+<td>enriched term (GO term, domain or pathway)</td>
+</tr>
+<tr>
+<td>number_of_genes</td>
+<td>number of genes in your input list with the term assigned</td>
+</tr>
+<tr>
+<td>number_of_genes_in_background</td>
+<td>total number of genes in the background proteome with the term assigned</td>
+</tr>
+<tr>
+<td>ncbiTaxonId</td>
+<td>NCBI taxon identifier</td>
+</tr>
+<tr>
+<td>inputGenes</td>
+<td>gene names from your input</td>
+</tr>
+<tr>
+<td>preferredNames</td>
+<td>common protein names (in the same order as your input Genes)</td>
+</tr>
+<tr>
+<td>p_value</td>
+<td>raw p-value</td>
+</tr>
+<tr>
+<td>fdr</td>
+<td>False Discovery Rate</td>
+</tr>
+<tr>
+<td>description</td>
+<td>description of the enriched term</td>
+</tr>
+</tbody>
+</table>
+<p>When <code>add_scores=1</code>, the response also includes these fields:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>strength</td>
+<td>log10 of the ratio between the observed and expected number of proteins annotated with the term</td>
+</tr>
+<tr>
+<td>signal</td>
+<td>size-aware score combining the observed/expected ratio and enrichment significance</td>
+</tr>
+</tbody>
+</table>
+<p>STRING shows only the terms with the raw p-value below 0.1</p>
+<p>The optional filtering parameters are applied to the returned terms. If no <code>merge_similarity</code> is supplied, no terms are merged.</p>
+<h4 id="example-call-e-coli-tryptophan-biosynthetic-process-genes">Example call (E. coli Tryptophan biosynthetic process genes):</h4>
+<pre><code>https://string-db.org/api/tsv/enrichment?identifiers=trpA%0dtrpB%0dtrpC%0dtrpE%0dtrpGD
+</code></pre>
+<h4 id="example-call-include-strength-and-signal">Example call (include strength and signal):</h4>
+<pre><code>https://string-db.org/api/tsv/enrichment?identifiers=trpA%0dtrpB%0dtrpC%0dtrpE%0dtrpGD&amp;add_scores=1
+</code></pre>
+<h4 id="example-call-filter-and-merge-terms">Example call (filter and merge terms):</h4>
+<pre><code>https://string-db.org/api/tsv/enrichment?identifiers=trpA%0dtrpB%0dtrpC%0dtrpE%0dtrpGD&amp;max_fdr=0.05&amp;min_gene_count=2&amp;min_strength=0.5&amp;min_signal=0.5&amp;merge_similarity=0.5
+</code></pre>
+<h4 id="example-python3-code_3">Example python3 code:</h4>
+<pre><code>#!/usr/bin/env python3
+
+##############################################################
+## The following script retrieves and prints out
+## significantly enriched (FDR &lt; 1%) GO Processes
+## for the given set of proteins. 
+##
+## Requires requests module:
+## type "python -m pip install requests" in command line (win)
+## or terminal (mac/linux) to install the module
+##############################################################
+
+import requests ## python -m pip install requests 
+import json
+
+string_api_url = "https://version-12-5.string-db.org/api"
+output_format = "json"
+method = "enrichment"
+
+
+##
+## Construct the request
+##
+
+request_url = "/".join([string_api_url, output_format, method])
+
+##
+## Set parameters
+##
+
+my_genes = ['7227.FBpp0074373', '7227.FBpp0077451', '7227.FBpp0077788',
+            '7227.FBpp0078993', '7227.FBpp0079060', '7227.FBpp0079448']
+
+params = {
+
+    "identifiers" : "%0d".join(my_genes), # your protein
+    "species" : 7227, # NCBI/STRING taxon identifier 
+    "caller_identity" : "www.awesome_app.org" # your app name
+
+}
+
+##
+## Call STRING
+##
+
+response = requests.post(request_url, data=params)
+
+##
+## Read and parse the results
+##
+
+data = json.loads(response.text)
+
+for row in data:
+
+    term = row["term"]
+    preferred_names = ",".join(row["preferredNames"])
+    fdr = float(row["fdr"])
+    description = row["description"]
+    category = row["category"]
+
+    if category == "Process" and fdr &lt; 0.01:
+
+        ## print significant GO Process annotations
+
+        print("\t".join([term, preferred_names, str(fdr), description]))
+</code></pre>
+<h2 id="retrieving-functional-annotation">Retrieving functional annotation
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>STRING maps several databases onto its proteins, this includes: <a target="_blank" href="https://www.geneontology.org">Gene Ontology</a>, <a target="_blank" href="http://www.genome.jp/kegg/pathway.html">KEGG pathways</a>, <a target="_blank" href="https://www.uniprot.org/help/keywords">UniProt Keywords</a>, <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/">PubMed</a> publications, <a target="_blank" href="http://pfam.xfam.org">Pfam domains</a>, <a target="_blank" href="https://www.ebi.ac.uk/interpro/">InterPro domains</a>, and <a target="_blank" href="http://smart.embl.de/">SMART domains</a>.  You can retrieve all these annotations (and not only enriched subset) for your proteins via this API. Due to the potential large size of the PubMed (Reference Publications) assignments, they won't be sent by default, but you can turn them back on by specifying the 'allow_pubmed=1' parameter.     </p>
+<p>Please note: KEGG annotations are not available due to KEGG license restrictions.</p>
+<h4 id="call_8">Call:</h4>
+<pre><code>https://string-db.org/api/[output_format]/functional_annotation?identifiers=[your_identifiers]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-output-formats_8">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_10">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>allow_pubmed</td>
+<td>'1' to print also the PubMed annotations in addition to other categories, default is '0'</td>
+</tr>
+<tr>
+<td>only_pubmed</td>
+<td>'1' to print only PubMed annotations, default is '0'</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="output-fields_3">Output fields:</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>category</td>
+<td>term category (e.g. GO Process, KEGG pathways)</td>
+</tr>
+<tr>
+<td>term</td>
+<td>enriched term (GO term, domain or pathway)</td>
+</tr>
+<tr>
+<td>number_of_genes</td>
+<td>number of genes in your input list with the term assigned</td>
+</tr>
+<tr>
+<td>ratio_in_set</td>
+<td>ratio of the proteins in your input list with the term assigned</td>
+</tr>
+<tr>
+<td>ncbiTaxonId</td>
+<td>NCBI taxon identifier</td>
+</tr>
+<tr>
+<td>inputGenes</td>
+<td>gene names from your input</td>
+</tr>
+<tr>
+<td>preferredNames</td>
+<td>common protein names (in the same order as your input Genes)</td>
+</tr>
+<tr>
+<td>description</td>
+<td>description of the enriched term</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-call-human-cdk1-functional-annotation">Example call (Human CDK1 functional annotation):</h4>
+<pre><code>https://string-db.org/api/tsv/functional_annotation?identifiers=cdk1
+</code></pre>
+<h2 id="retrieving-enrichment-figure">Retrieving enrichment figure
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>This API enables the visualization of enrichment analysis. It creates either a dot plot or a horizontal bar chart. The dot plot represents results across three key dimensions:</p>
+<ul>
+<li>Enrichment signal (X-axis)</li>
+<li>False Discovery Rate (FDR) represented by the dot color</li>
+<li>Protein count in the network indicated by the dot size</li>
+</ul>
+<p>In a bar chart, the bars use the same FDR color scale. The Y-axis lists enriched terms. <code>x_axis</code> controls the value displayed on the X-axis, while <code>sort_by</code> independently controls which terms are selected and their order. Terms can be grouped using the Jaccard index (<code>group_by_similarity</code> parameter), clustering similar terms to highlight relationships between them.</p>
+<p>This API functions similarly to the enrichment API but visualizes the results only for a single category (default: Gene Ontology Biological Process). It can also visualize the results of a completed Values/Ranks enrichment job by using its <code>networkId</code>.</p>
+<p>NOTE: As with other STRING APIs, we automatically expand the network by 10 proteins when a query includes only one protein. Keep in mind that this network expansion will likely reduce the FDR more than expected by chance and does not indicate an enrichment of the original single-protein set but rather of its immediate interaction neighborhood. When querying with a set of two or more proteins, no additional proteins are added to the input, and the FDR accurately reflects the probability of observing the enrichment by random chance.</p>
+<h4 id="call_9">Call:</h4>
+<pre><code>https://string-db.org/api/[output_format]/enrichmentfigure?identifiers=[your_identifiers]&amp;species=[your_species]&amp;category=[your_category]
+</code></pre>
+<h4 id="available-output-formats_9">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>image</td>
+<td>network PNG image with alpha-channel</td>
+</tr>
+<tr>
+<td>highres_image</td>
+<td>high resolution network PNG image with alpha-channel</td>
+</tr>
+<tr>
+<td>svg</td>
+<td>vector graphic format (SVG)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_11">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>networkId</td>
+<td>identifier for a completed Values/Ranks enrichment job, supplied in its <code>graph_url</code>. When used, <code>identifiers</code> and <code>species</code> are not needed.</td>
+</tr>
+<tr>
+<td>category</td>
+<td>term category (e.g., KEGG, WikiPathways, etc. See the table below for all category keys. Default is Process)</td>
+</tr>
+<tr>
+<td>group_by_similarity</td>
+<td>threshold for visually grouping related terms on the plot, ranging from 0.1 to 1, in steps of 0.1 (e.g. 0.8; default: 0.8).</td>
+</tr>
+<tr>
+<td>color_palette</td>
+<td>FDR color palette: <code>mint_blue</code> (default), <code>red_blue</code>, <code>lime_emerald</code>, <code>green_blue</code>, <code>peach_purple</code>, <code>straw_navy</code>, or <code>yellow_pink</code>.</td>
+</tr>
+<tr>
+<td>number_of_term_shown</td>
+<td>maximum number of terms displayed on the plot, up to 100 (default: 10)</td>
+</tr>
+<tr>
+<td>x_axis</td>
+<td>variable shown on the X-axis. For ordinary enrichment, use <code>signal</code> (default), <code>strength</code>, <code>fdr</code>, <code>count</code>, or <code>gene_count</code>. For a Values/Ranks enrichment job, use <code>score</code> (default), <code>fdr</code>, <code>count</code>, or <code>gene_count</code>.</td>
+</tr>
+<tr>
+<td>sort_by</td>
+<td>variable used to select and order terms. Accepts the same values as <code>x_axis</code>; defaults to the selected <code>x_axis</code>.</td>
+</tr>
+<tr>
+<td>graph_type</td>
+<td><code>dotplot</code> (default) or <code>barplot</code>.</td>
+</tr>
+<tr>
+<td>max_fdr</td>
+<td>show only terms with an FDR no greater than this value (greater than 0 and no greater than 1)</td>
+</tr>
+<tr>
+<td>min_gene_count</td>
+<td>show only terms assigned to at least this many input genes (positive integer)</td>
+</tr>
+<tr>
+<td>min_strength</td>
+<td>for ordinary enrichment, show only terms with a strength at least this value</td>
+</tr>
+<tr>
+<td>min_signal</td>
+<td>for ordinary enrichment, show only terms with a signal at least this value</td>
+</tr>
+<tr>
+<td>merge_similarity</td>
+<td>merge terms whose assigned input-gene sets overlap at least this much (greater than 0 and no greater than 1); the most significant term is retained. A value of <code>1</code> merges only identical gene sets.</td>
+</tr>
+<tr>
+<td>min_score</td>
+<td>for a Values/Ranks enrichment job, show only terms with an enrichment score at least this value</td>
+</tr>
+<tr>
+<td>direction</td>
+<td>for a Values/Ranks enrichment job, show terms enriched at <code>all</code> positions (default), the <code>top</code> or <code>bottom</code> of the ranked input, or at <code>both_ends</code></td>
+</tr>
+</tbody>
+</table>
+<p>STRING provides enrichment visualizations for the following categories. The category ID is used in API calls.</p>
+<table>
+<thead>
+<tr>
+<th>Category ID</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Process</td>
+<td>Biological Process (Gene Ontology)</td>
+</tr>
+<tr>
+<td>Function</td>
+<td>Molecular Function (Gene Ontology)</td>
+</tr>
+<tr>
+<td>Component</td>
+<td>Cellular Component (Gene Ontology)</td>
+</tr>
+<tr>
+<td>Keyword</td>
+<td>Annotated Keywords (UniProt)</td>
+</tr>
+<tr>
+<td>KEGG</td>
+<td>KEGG Pathways</td>
+</tr>
+<tr>
+<td>RCTM</td>
+<td>Reactome Pathways</td>
+</tr>
+<tr>
+<td>HPO</td>
+<td>Human Phenotype (Monarch)</td>
+</tr>
+<tr>
+<td>MPO</td>
+<td>The Mammalian Phenotype Ontology (Monarch)</td>
+</tr>
+<tr>
+<td>DPO</td>
+<td>Drosophila Phenotype (Monarch)</td>
+</tr>
+<tr>
+<td>WPO</td>
+<td>C. elegans Phenotype Ontology (Monarch)</td>
+</tr>
+<tr>
+<td>ZPO</td>
+<td>Zebrafish Phenotype Ontology (Monarch)</td>
+</tr>
+<tr>
+<td>FYPO</td>
+<td>Fission Yeast Phenotype Ontology (Monarch)</td>
+</tr>
+<tr>
+<td>GWAS</td>
+<td>GWAS Catalog</td>
+</tr>
+<tr>
+<td>Hallmark</td>
+<td>Hallmark Gene Set (Molecular Signatures DB)</td>
+</tr>
+<tr>
+<td>Pfam</td>
+<td>Protein Domains (Pfam)</td>
+</tr>
+<tr>
+<td>SMART</td>
+<td>Protein Domains (SMART)</td>
+</tr>
+<tr>
+<td>InterPro</td>
+<td>Protein Domains and Features (InterPro)</td>
+</tr>
+<tr>
+<td>PMID</td>
+<td>Reference Publications (PubMed)</td>
+</tr>
+<tr>
+<td>NetworkNeighborAL</td>
+<td>Local Network Cluster (STRING)</td>
+</tr>
+<tr>
+<td>COMPARTMENTS</td>
+<td>Subcellular Localization (COMPARTMENTS)</td>
+</tr>
+<tr>
+<td>TISSUES</td>
+<td>Tissue Expression (TISSUES)</td>
+</tr>
+<tr>
+<td>DISEASES</td>
+<td>Disease-gene Associations (DISEASES)</td>
+</tr>
+<tr>
+<td>WikiPathways</td>
+<td>WikiPathways</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-output-biological-process-go-enrichment-for-the-melanoma-protein-network">Example output (Biological Process (GO) enrichment for the melanoma protein network):</h4>
+<p><img alt="Melanoma enrichment figure" src="../images/melanoma_enrichment_figure.png" /></p>
+<h4 id="example-call">Example call:</h4>
+<pre><code>https://string-db.org/api/image/enrichmentfigure?identifiers=ARRB1%0dARRB2%0dEVC%0dPTCH1%0dSHH%0dSMO&amp;species=9606&amp;category=Function&amp;group_by_similarity=0.5&amp;color_palette=yellow_pink&amp;x_axis=FDR
+</code></pre>
+<h4 id="example-call-filter-terms-and-create-a-bar-chart">Example call (filter terms and create a bar chart):</h4>
+<pre><code>https://string-db.org/api/image/enrichmentfigure?identifiers=ARRB1%0dARRB2%0dEVC%0dPTCH1%0dSHH%0dSMO&amp;species=9606&amp;category=Function&amp;max_fdr=0.05&amp;min_gene_count=2&amp;min_strength=0.5&amp;min_signal=0.5&amp;merge_similarity=0.5&amp;x_axis=signal&amp;sort_by=fdr&amp;graph_type=barplot&amp;color_palette=red_blue
+</code></pre>
+<h4 id="example-call-customize-a-valuesranks-enrichment-graph">Example call (customize a Values/Ranks enrichment graph):</h4>
+<pre><code>https://string-db.org/api/image/enrichmentfigure?networkId=[network_id]&amp;x_axis=score&amp;sort_by=fdr&amp;graph_type=barplot&amp;max_fdr=0.05&amp;min_gene_count=2&amp;min_score=1&amp;direction=both_ends&amp;color_palette=red_blue
+</code></pre>
+<h4 id="example-python3-code_4">Example python3 code:</h4>
+<pre><code>#!/usr/bin/env python3
+
+##############################################################
+## The following script retrieves the enrichment figure
+## for as a png (with transparency) for a specific 
+## category (Gene Ontology Biological Process)
+##
+##
+## Requires requests module:
+## type "python -m pip install requests" in command line (win)
+## or terminal (mac/linux) to install the module
+##############################################################
+
+import requests ## python -m pip install requests
+
+string_api_url = "https://version-12-5.string-db.org/api"
+output_format = "image"
+method = "enrichmentfigure"
+
+image_filename = 'enrichment_figure.png'
+
+##
+## Construct the request
+##
+
+request_url = "/".join([string_api_url, output_format, method])
+
+##
+## Set parameters
+##
+
+my_genes = ['7227.FBpp0074373', '7227.FBpp0077451', '7227.FBpp0077788',
+            '7227.FBpp0078993', '7227.FBpp0079060', '7227.FBpp0079448']
+
+params = {
+
+    "identifiers" : "%0d".join(my_genes), # your protein list
+    "species" : 7227, # NCBI/STRING taxon identifier 
+    "caller_identity" : "www.awesome_app.org",
+    "group_by_similarity" : 0.8,
+    "x_axis" : 'FDR',
+    "category" : "Process",
+    "color_palette" : "yellow_pink",
+
+}
+
+##
+## Call STRING
+##
+
+response = requests.post(request_url, data=params)
+
+if response.status_code == 200:
+    with open(image_filename, "wb") as f:
+        f.write(response.content)
+    print(f"Image saved as '{image_filename}'")
+else:
+    print(f"Failed to retrieve image. Status code: {response.status_code}")
+</code></pre>
+<h2 id="retrieving-proteins-for-a-functional-term">Retrieving proteins for a functional term
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>STRING maps several functional annotation resources onto its proteins, including pathways, processes, diseases, tissues, compartments, and protein domains. These annotations are the same resources used in the STRING enrichment analysis. The STRING functional terms API method allows you to retrieve proteins annotated with functional terms matching a term identifier or a function name.</p>
+<p>This API only supports single species queries.</p>
+<p>If the query matches multiple functional terms, the API returns multiple results. Results are ordered by relevance, with the best matching term listed first.</p>
+<h4 id="call_10">Call:</h4>
+<pre><code>https://string-db.org/api/[output_format]/functional_terms?term_text=[your_term]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-output-formats_10">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_12">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>term_text</td>
+<td>required parameter, functional term identifier or descriptive free text used to match one or more functional terms, e.g. GO:0008543, hsa05218, Melanoma, Fibroblast growth factor</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, 10090 for mouse, or STRG0AXXXXX for uploaded genomes). Only one species can be queried per call. Default is 9606.</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="output-fields_4">Output fields:</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>category</td>
+<td>source database of the matched functional term</td>
+</tr>
+<tr>
+<td>term</td>
+<td>exact identifier for the functional term</td>
+</tr>
+<tr>
+<td>description</td>
+<td>description of the term</td>
+</tr>
+<tr>
+<td>proteinCount</td>
+<td>number of proteins annotated with that term</td>
+</tr>
+<tr>
+<td>preferredNames</td>
+<td>common protein names (truncated to the first 100)</td>
+</tr>
+<tr>
+<td>stringIds</td>
+<td>STRING protein identifiers (truncated to the first 100)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-call-human-proteins-annotated-with-melanoma">Example call (Human proteins annotated with melanoma):</h4>
+<pre><code>https://string-db.org/api/tsv/functional_terms?term_text=Melanoma&amp;species=9606
+</code></pre>
+<h4 id="example-python3-code_5">Example python3 code:</h4>
+<pre><code class="python">#!/usr/bin/env python3
+
+##############################################################
+## The following script retrieves proteins annotated
+## with a functional term or descriptive text
+## for a given species.
+##
+## Requires requests module:
+## type &quot;python -m pip install requests&quot; in command line (win)
+## or terminal (mac/linux) to install the module
+##############################################################
+
+import requests ## python -m pip install requests 
+import json
+
+string_api_url = &quot;https://version-12-5.string-db.org/api&quot;
+output_format = &quot;json&quot;
+method = &quot;functional_terms&quot;
+
+
+##
+## Construct the request
+##
+
+request_url = &quot;/&quot;.join([string_api_url, output_format, method])
+
+##
+## Set parameters
+##
+
+params = {
+
+    &quot;term_text&quot; : &quot;Melanoma&quot;, # your functional term or free text
+    &quot;species&quot; : 9606, # NCBI/STRING taxon identifier 
+    &quot;caller_identity&quot; : &quot;www.awesome_app.org&quot; # your app name
+
+}
+
+##
+## Call STRING
+##
+
+response = requests.post(request_url, data=params)
+
+##
+## Read and parse the results
+##
+
+data = json.loads(response.text)
+
+for row in data:
+
+    category = row[&quot;category&quot;]
+    term = row[&quot;term&quot;]
+    description = row[&quot;description&quot;]
+    protein_count = row[&quot;proteinCount&quot;]
+    preferred_names = &quot;,&quot;.join(row[&quot;preferredNames&quot;])
+
+    print(&quot;\t&quot;.join([category, term, str(protein_count), preferred_names, description]))
+</code></pre>
+
+<h2 id="getting-gene-set-descriptions">Getting gene set descriptions
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>The gene set description API method allows you to retrieve short textual descriptions for a set of input proteins. The method performs functional enrichment on the input set, evaluates enriched terms across multiple annotation categories, and returns the best matching primary, secondary, and tertiary descriptions. These descriptions summarize the dominant biological themes in the submitted gene set.</p>
+<p>Only enriched terms passing internal quality filters are considered. Terms are ignored if they annotate too small a fraction of the input set or if they are too generic in the background proteome. The remaining terms are ranked within each annotation category based on enrichment significance, observed/expected ratio and their semantic overlap.</p>
+<h4 id="call_11">Call:</h4>
+<pre><code>https://string-db.org/api/[output_format]/geneset_description?identifiers=[your_identifiers]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-output-formats_11">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_13">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="output-fields_5">Output fields:</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>primary_description</td>
+<td>highest ranking description for the input gene set</td>
+</tr>
+<tr>
+<td>secondary_description</td>
+<td>second description, if available, otherwise "-"</td>
+</tr>
+<tr>
+<td>tertiary_description</td>
+<td>third description, if available, otherwise "-"</td>
+</tr>
+</tbody>
+</table>
+<p>STRING returns up to three descriptions for each input set. If no suitable description can be assigned, the description fields are returned as "-".</p>
+<h4 id="example-call-e-coli-tryptophan-biosynthetic-process-genes_1">Example call (E. coli Tryptophan biosynthetic process genes):</h4>
+<pre><code>https://string-db.org/api/tsv/geneset_description?identifiers=trpA%0dtrpB%0dtrpC%0dtrpE%0dtrpGD&amp;species=511145
+</code></pre>
+<h4 id="example-python3-code_6">Example python3 code:</h4>
+<pre><code>#!/usr/bin/env python3
+
+##############################################################
+## The following script retrieves and prints out
+## gene set descriptions for multiple E. coli protein sets.
+##
+## Requires requests module:
+## type "python -m pip install requests"
+##############################################################
+
+import requests
+import json
+
+string_api_url = "https://version-12-5.string-db.org/api"
+output_format = "json"
+method = "geneset_description"
+
+request_url = "/".join([string_api_url, output_format, method])
+
+##
+## Define multiple E. coli gene sets (no labels)
+##
+
+gene_sets = [
+    ['trpA', 'trpB', 'trpC', 'trpE', 'trpD'],        # tryptophan biosynthesis
+    ['lacZ', 'lacY', 'lacA'],                        # lactose operon
+    ['rpoA', 'rpoB', 'rpoC', 'rpoD']                 # RNA polymerase core
+]
+
+species = 511145  # E. coli
+
+##
+## Iterate over gene sets
+##
+
+for i, genes in enumerate(gene_sets, start=1):
+
+    params = {
+        "identifiers": "%0d".join(genes),
+        "species": species,
+        "caller_identity": "www.awesome_app.org"
+    }
+
+    response = requests.post(request_url, data=params)
+    response.raise_for_status()
+
+    data = response.json()
+
+    print("\n=== Gene set {} ===".format(i))
+    print("Input proteins:", ", ".join(genes))
+
+    for row in data:
+
+        primary = row["primary_description"]
+        secondary = row["secondary_description"]
+        tertiary = row["tertiary_description"]
+
+        print("Primary:   {}".format(primary))
+        print("Secondary: {}".format(secondary))
+        print("Tertiary:  {}".format(tertiary))
+</code></pre>
+<h2 id="getting-protein-protein-interaction-enrichment">Getting protein-protein interaction enrichment
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>Even in the absence of annotated proteins (e.g. in novel genomes) STRING can tell you if your subset of proteins is functionally related, that is, if it is enriched in interactions in comparison to the background proteome-wide interaction distribution.  The detailed description of the PPI enrichment method can be found <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531103/">here</a></p>
+<h4 id="call_12">Call:</h4>
+<pre><code>https://string-db.org/api/[output_format]/ppi_enrichment?identifiers=[your_identifiers]&amp;[optional_parameters]
+</code></pre>
+<h4 id="available-output-formats_12">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_14">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>identifiers</td>
+<td>required parameter for multiple items, e.g. DRD1_HUMAN%0dDRD2_HUMAN</td>
+</tr>
+<tr>
+<td>species</td>
+<td>NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>required_score</td>
+<td>threshold of significance to include an interaction, a number between 0 and 1000 (default depends on the network)</td>
+</tr>
+<tr>
+<td>background_string_identifiers</td>
+<td>using this parameter you can specify the background proteome of your experiment. Only STRING identifiers will be recognised (each must be separated by "%0d") e.g. '7227.FBpp0077451%0d7227.FBpp0074373'. You can map STRING identifiers using <a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23mapping-identifiers">mapping identifiers</a> method.</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="output-fields_6">Output fields:</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>number_of_nodes</td>
+<td>number of proteins in your network</td>
+</tr>
+<tr>
+<td>number_of_edges</td>
+<td>number of edges in your network</td>
+</tr>
+<tr>
+<td>average_node_degree</td>
+<td>mean degree of the node in your network</td>
+</tr>
+<tr>
+<td>local_clustering_coefficient</td>
+<td>average local clustering coefficient</td>
+</tr>
+<tr>
+<td>expected_number_of_edges</td>
+<td>expected number of edges based on the nodes degrees</td>
+</tr>
+<tr>
+<td>p_value</td>
+<td>significance of your network having more interactions than expected</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-call-the-network-neighborhood-of-epidermal-growth-factor-receptor">Example call (the network neighborhood of Epidermal growth factor receptor):</h4>
+<pre><code>https://string-db.org/api/tsv/ppi_enrichment?identifiers=trpA%0dtrpB%0dtrpC%0dtrpE%0dtrpGD
+</code></pre>
+<h4 id="example-python3-code_7">Example python3 code:</h4>
+<pre><code>#!/usr/bin/env python
+
+##############################################################
+## The script prints out the p-value of STRING protein-protein
+## interaction enrichment method for the given set of proteins 
+##
+## Requires requests module:
+## type "python -m pip install requests" in command line (win)
+## or terminal (mac/linux) to install the module
+##############################################################
+
+import requests ## python -m pip install requests
+
+string_api_url = "https://version-12-5.string-db.org/api"
+output_format = "tsv-no-header"
+method = "ppi_enrichment"
+
+##
+## Construct the request
+##
+
+request_url = "/".join([string_api_url, output_format, method])
+
+##
+## Set parameters
+##
+
+my_genes = ['7227.FBpp0074373', '7227.FBpp0077451', '7227.FBpp0077788',
+            '7227.FBpp0078993', '7227.FBpp0079060', '7227.FBpp0079448']
+
+params = {
+
+    "identifiers" : "%0d".join(my_genes), # your proteins
+    "species" : 7227, # NCBI/STRING taxon identifier 
+    "caller_identity" : "www.awesome_app.org" # your app name
+
+}
+
+##
+## Call STRING
+##
+
+response = requests.post(request_url, data=params)
+
+##
+## Parse and print the response
+##
+
+for line in response.text.strip().split("\n"):
+    pvalue = line.split("\t")[5]
+    print("P-value:", pvalue)
+</code></pre>
+<h2 id="getting-current-string-version">Getting current STRING version
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>STRING is updated, on average, every two years. Maybe you would like to download the latest version of STRING's genomes, or simply you would like to be informed if the new version is released. For this you can use the version API, which tells you the latest version of STRING and its stable address. The 'stable address' is an address that does not change between versions, so if you use the stable API address it will always produce the results from that particular version. </p>
+<h4 id="call_13">Call:</h4>
+<pre><code>https://string-db.org/api/[output_format]/version
+</code></pre>
+<h4 id="available-output-formats_13">Available output formats:</h4>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tsv</td>
+<td>tab separated values, with a header line</td>
+</tr>
+<tr>
+<td>tsv-no-header</td>
+<td>tab separated values, without header line</td>
+</tr>
+<tr>
+<td>json</td>
+<td>JSON format</td>
+</tr>
+<tr>
+<td>xml</td>
+<td>XML format</td>
+</tr>
+</tbody>
+</table>
+<h4 id="available-parameters_15">Available parameters:</h4>
+<p>None</p>
+<h4 id="output-fields_7">Output fields:</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>string_version</td>
+<td>current STRING version</td>
+</tr>
+<tr>
+<td>string_stable_address</td>
+<td>STRING stable URL</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-call_1">Example call:</h4>
+<pre><code>https://string-db.org/api/json/version
+</code></pre>
+<h2 id="additional-information-about-the-api">Additional information about the API
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>If you need to do a large-scale analysis, please download the full data set. Otherwise you may end up flooding the STRING server with API requests.
+In particular, try to avoid running scripts in parallel :) </p>
+<p>Please <a target="_blank" href="https://string-db.org/cgi/support">contact us</a> if you have any questions regarding the API.</p>
+<h1 id="valuesranks-enrichment-api">Values/ranks enrichment API</h1>
+<h2 id="general-overview">General overview
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>The Values/Ranks Enrichment API provides a way to analyze protein datasets using the protein/values ranks enrichment method in STRING. This tool is designed to detect signals based on the provided values, identifying whether specific pathways are significantly enriched at the top, bottom, or both ends of your values distribution.</p>
+<p>This method requires the complete set of proteins from your experiment (no cut-offs or subsets) along with associated values such as p-values, differential expression, or t-statistics, offering an analysis similar to Gene Set Enrichment Analysis (GSEA). It achieves high sensitivity through a combination of the KS and AFC tests, assessing your experiment against a comprehensive set of functional categories, complete with visualization and protein mapping functionalities.</p>
+<p>Please note that the method is computationally intensive and does not produce immediate results. You will need to obtain an API key, which will enable you to monitor all your submitted analysis. The key is free of charge and remains completely anonymous. Below you'll find the step by step guide how to run the enrichment using the API.</p>
+<h2 id="obtain-your-api-key">Obtain your API Key
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>To access the values/ranks enrichment API, you must first request a user API key. This key is required to identify and manage your analysis tasks (<em>jobs</em>) and serves as your anonymous user identifier.</p>
+<p>Once requested, your key will be activated within 30 minutes. The key does not expire and allows for up to 1000 queued analysis jobs at the same time. If you need to process more than 1000 jobs, please submit them in consecutive batches of 1000. You will need to wait for the first batch to complete before submitting the next one. There is no lifetime limit on the total number of processed jobs.</p>
+<p>Please save your key securely. The key is completely anonymous, and if you lose it, we will not be able to identify you or recover it. Please avoid requesting multiple keys to ensure fair usage of the resources.</p>
+<h4 id="call_14">Call:</h4>
+<pre><code>https://version-12-5.string-db.org/api/json/get_api_key
+</code></pre>
+<h4 id="output-example">Output example</h4>
+<pre><code>[{"api_key": "[your_key]", "note": "This key will be activated within 30 minutes."}]
+</code></pre>
+<h2 id="prepare-the-data-for-the-analysis">Prepare the data for the analysis
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>Your input data must be a <strong>tab-separated</strong> text/file with two columns:</p>
+<ul>
+<li>The first column should contain protein identifiers / gene symbols</li>
+<li>The second column should contain the associated value (e.g., p-value, fold-change, rank, or t-statistics).</li>
+</ul>
+<p>Make sure the columns are separated by a tab and that the file does not include any headers.</p>
+<p>You can <a target="_blank" href="https://stringdb-downloads.org/download/FC_melanoma_vs_normal.tsv">download an example dataset here.</a></p>
+<p>To ensure your data is in the correct format you can submit <strong>one</strong> dataset manually on the website. If no intervention (other than clicking <em>continue</em>) is required to obtain the analysis results, the automated analysis will also proceed without issues.</p>
+<p>Important Note: You can use any protein identifier or gene symbol recognized by STRING. However, for faster processing, we strongly recommend mapping your identifiers to STRING IDs using the <em>get_string_ids</em> method before submission. When you submit data using STRING IDs (e.g. <em>9606.ENSP00000249373</em>), STRING will skip the mapping step significantly reducing processing time.</p>
+<h2 id="submit-a-new-job">Submit a new job
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>After obtaining an API key from the <em>get_api_key</em> endpoint, and preparing your data you can now submit your data for the values/ranks enrichment analysis. For this you use the  <em>valuesranks_enrichment_submit</em> method. This method will queue and execute the analysis (<em>job</em>) on our server, returning a response indicating whether the submission was successful or if there was an error. </p>
+<p>Upon submission, the API will confirm whether the submission was successful and return a <em>job_id</em> for tracking. You should store the <em>job_id</em> for the subsequent retrieval of the results. Once submitted, the job is queued on our servers and will be processed as computational resources become available. Processing times depend on system load and dataset complexity; larger datasets or those with more robust functional signals may take longer to analyze.</p>
+<p>You can track the status of your job using the <em>valuesranks_enrichment_status</em> endpoint (see below), which provides updates on the job's progress. Once the job is complete, the results, including downloadable outputs and figures, can be retrieved through the same <em>status</em> endpoint (see below).</p>
+<h4 id="available-parameters_16">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>api_key</td>
+<td>Required. API key used to authenticate the user. This is generated once using the <em>get_api_key</em> method.</td>
+</tr>
+<tr>
+<td>identifiers</td>
+<td>Required. A string containing tab-separated (protein, value) pairs, where the first part is the protein identifier and the second part is the associated value (e.g., rank, p-value).</td>
+</tr>
+<tr>
+<td>species</td>
+<td>Required. NCBI/STRING taxon (e.g. 9606 for human, or STRG0AXXXXX see: <a target="_blank" href="https://string-db.org/cgi/input?input_page_active_form=organisms">STRING organisms</a>).</td>
+</tr>
+<tr>
+<td>ge_fdr</td>
+<td>The False Discovery Rate (FDR) stringency level for the analysis (default 0.01).</td>
+</tr>
+<tr>
+<td>caller_identity</td>
+<td>your identifier for us.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="example-python3-code_8">Example python3 code:</h4>
+<pre><code>##############################################################
+## The following script submits a job to the protein
+## values/ranks enrichment analysis.
+##
+## Requires requests module:
+## type "python -m pip install requests" in command line (win)
+## or terminal (mac/linux) to install the module
+##############################################################
+
+import requests ## python -m pip install requests
+import json
+
+string_api_url = "https://version-12-5.string-db.org/api"
+output_format = "json"
+method = "valuesranks_enrichment_submit"
+
+
+##
+## Construct the request
+##
+
+request_url = "/".join([string_api_url, output_format, method])
+
+##
+## Get the input data.
+##
+## An example dataset can be downloaded here: 
+## https://stringdb-downloads.org/download/FC_melanoma_vs_normal.tsv
+##
+
+input_file_path = "./FC_melanoma_vs_normal.tsv" ## example dataset
+
+##
+## Read the input data as string
+##
+
+identifiers = open(input_file_path).read()
+
+##
+## Set parameters
+##
+
+params = {
+    "species": 9606,  # NCBI/STRING species identifier (e.g., 9606 for human)
+    "caller_identity": "www.awesome_app.org",
+    "identifiers": identifiers,
+    "api_key": "[your_api_key]",
+    "ge_fdr": 0.05,
+    "ge_enrichment_rank_direction": -1
+}
+
+##
+## Call STRING
+##
+
+response = requests.post(request_url, data=params)
+
+##
+## Read and parse the result
+##
+
+data = json.loads(response.text)[0]
+
+
+
+if 'status' in data and data['status'] == 'error':
+
+    print("Status:", data['status'])
+    print("Message:", data['message'])
+
+else:
+
+    job_id = data["job_id"]
+    print(f"Job submitted successfully. Job ID: {job_id}")
+</code></pre>
+<h2 id="check-job-status-and-retrieve-the-results">Check job status and retrieve the results
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>After submitting your job, you can track its progress to determine which stage of the calculation process it is currently in. 
+This allows you to stay informed about the job's status, more specifically if it's queued, running or completed. 
+When the job finishes successfully, this call will provide links to the result dataset including:</p>
+<ul>
+<li>Enrichment Results Table: The <em>tab-separated</em> file with enriched terms, their proteins, p-values etc.</li>
+<li>Website Link: Link to STRING website when you can manually explore the results of the analysis.</li>
+<li>Enrichment Figure: enrichment visualization figure of your analysis (see also <em>enrichmentfigure</em> method). </li>
+</ul>
+<p>In order to check the status of a particular analysis you need to provide the <em>job_id</em> given to you when you have submitted the
+dataset for the analysis using the <em>submit</em> method. If you do not provide the <em>job_id</em> parameter the method will list all the current and past analysis jobs
+associated with your <em>api_key</em>, from where you can find your job.</p>
+<h4 id="call_15">Call:</h4>
+<pre><code>https://version-12-5.string-db.org/api/json/valuesranks_enrichment_status?api_key=[your_api_key]&amp;job_id=[your_job_id]
+</code></pre>
+<h4 id="example-output-results-of-de-analysis-of-melanoma-vs-normal-tissues">Example output (results of DE analysis of melanoma vs. normal tissues)</h4>
+<pre><code>[
+    {
+        "job_id": "b0TyfmJPSkIs",
+        "creation_time": "2025-01-17 09:47:28",
+        "string_version": "12.5",
+        "status": "success",
+        "message": "Job finished",
+        "page_url": "https://version-12-5.string-db.org/cgi/globalenrichment?networkId=b9nIwzgFe2dz",
+        "download_url": "https://version-12-5.string-db.org/api/tsv/downloadenrichmentresults?networkId=b9nIwzgFe2dz", ## available formats: [json/xml/tsv]
+        "graph_url": "https://version-12-5.string-db.org/api/image/enrichmentfigure?networkId=b9nIwzgFe2dz" ## see enrichment visualization API for more settings
+    }
+
+]
+</code></pre>
+<h4 id="available-parameters_17">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>api_key</td>
+<td>Required. API key used to authenticate the user (generated using <em>get_api_key</em>).</td>
+</tr>
+<tr>
+<td>job_id</td>
+<td>Job ID received after submitting a job (if not provided the method will print out all current and past jobs for the api_key/user)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="output-fields_8">Output fields:</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>job_id</td>
+<td>The unique identifier of this analysis.</td>
+</tr>
+<tr>
+<td>status</td>
+<td>The current status of the job (e.g., queued, running, failed, success, etc.).</td>
+</tr>
+<tr>
+<td>message</td>
+<td>A description of the job's status, including the current step and the percentage of completion.</td>
+</tr>
+<tr>
+<td>creation_time</td>
+<td>Time of the submission in a format "YY-MM-DD HH:MM:SS"</td>
+</tr>
+<tr>
+<td>page_url</td>
+<td>(if finished) A link to access the final results of the Values/Ranks enrichment analysis directly on the STRING website.</td>
+</tr>
+<tr>
+<td>download_url</td>
+<td>(if finished) A link to download the enrichment results, covering all categories enriched in your data.</td>
+</tr>
+<tr>
+<td>graph_url</td>
+<td>(if finished) A link to an enrichment figure representing your data. For more details and figure customization options see <a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23retrieving-enrichment-figure">Retrieving enrichment figure</a>.</td>
+</tr>
+</tbody>
+</table>
+<pre><code>"page_url": "https://version-12-5.string-db.org/cgi/globalenrichment?networkId=b9nIwzgFe2dz",
+</code></pre>
+<p><img alt="Melanoma Values/Ranks enrichment page" src="../images/valuesranks_enrichment_page.png" /></p>
+<pre><code>"download_url": "https://version-12-5.string-db.org/api/tsv/downloadenrichmentresults?networkId=b9nIwzgFe2dz"
+</code></pre>
+<p>The results of the values/ranks enrichment analysis results include the following fields:</p>
+<table>
+<thead>
+<tr>
+<th>field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Category</td>
+<td>The high level category of the enriched term (GO Process, KEGG, Reactome etc.)</td>
+</tr>
+<tr>
+<td>Term id</td>
+<td>Identifier of the enriched term (e.g. GO:0042254, hsa00520)</td>
+</tr>
+<tr>
+<td>Genes mapped</td>
+<td>Number of proteins associated with this term in your input</td>
+</tr>
+<tr>
+<td>Genes in set</td>
+<td>Total number of proteins associated with this term (in and outside your input)</td>
+</tr>
+<tr>
+<td>Enrichment score</td>
+<td>The enrichment score quantifies how much the values associated with a term differ from the average value within your dataset. It is calculated by comparing the mean value of genes associated with a specific term to the greatest deviation from the overall input mean.</td>
+</tr>
+<tr>
+<td>Direction</td>
+<td>We assess enrichment at the top, bottom, and both ends of the dataset by folding the input values around the mean. This approach allows us to detect pathways where proteins exhibit significant changes in both directions, such as both upregulation and downregulation. The field indicates where the significant enrichment for a specific term was detected, specifying whether it was at the top, bottom, or both extremes of the distribution.</td>
+</tr>
+<tr>
+<td>Count in set/pathway</td>
+<td>The first number represents the count of proteins in your input that are annotated with a specific term. The second number shows the total count of proteins annotated with this term in the STRING database. It is imporant to note that the FDR calculation is based on the distribution of term values within your entire input, which serves as the background for this analysis. Anything outside your input does not influence the statistical tests used here.Therefore, the second number is provided solely for information and clarity.</td>
+</tr>
+<tr>
+<td>False Discovery Rate</td>
+<td>This metric assesses the significance of enrichment, displaying p-values that are adjusted for multiple testing within each category using the Benjamini–Hochberg procedure.</td>
+</tr>
+<tr>
+<td>Method</td>
+<td>The enrichment test used: afc (Aggregate Fold Change) or ks (Kolmogorov-Smirnov)—indicate the test used to derive the initial p-values. While the AFC test is more sensitive and thus suitable for detecting subtle variations, it is also computationally expensive. Therefore, for larger terms or terms with an unambiguous signal, we employ the KS method. Note that the choice of test has no bearing on the FDR calculation or its interpretation.</td>
+</tr>
+<tr>
+<td>proteinIDs</td>
+<td>Internal STRING identifier (e.g. 9606.ENSP00000269305) of proteins associated with the given term in your dataset.</td>
+</tr>
+<tr>
+<td>proteinLabels</td>
+<td>Canonical gene symbols of proteins associated with the given term in your dataset.</td>
+</tr>
+<tr>
+<td>proteinInputLabels</td>
+<td>Your query input identifiers (the identifiers you have used to query STRING) associated with the given term in your dataset.</td>
+</tr>
+<tr>
+<td>proteinInputValues</td>
+<td>The input values you have provided for the proteins associated with the given term.</td>
+</tr>
+<tr>
+<td>proteinRanks</td>
+<td>Ranks of the proteins associated with the given term based on your input value.</td>
+</tr>
+</tbody>
+</table>
+<pre><code>"graph_url": "https://version-12-5.string-db.org/api/image/enrichmentfigure?networkId=b9nIwzgFe2dz"
+</code></pre>
+<p>NOTE: For graph cusimazation options, including category, sorting, color and others see:  <a target="_blank" href="https://string-db.org/cgi/help?subpage=api%23retrieving-enrichment-figure">retrieving enrichment figure</a>.</p>
+<p><img alt="Melanoma Values/Ranks enrichment figure" src="../images/valuesranks_enrichment_figure.png" /></p>
+<h2 id="remove-a-job">Remove a Job
+<a onclick="window.parent.scrollTo(0,0);" class="top_anchor">Top &#x2191</a>
+</h2>
+<p>If you want to cancel or remove previously submitted or completed jobs you can use the the <em>valuesranks_enrichment_remove</em> method.
+This is useful if you realize there was an error in the submission, or you want to clean up the old analysis associated with the API key.</p>
+<p>To remove a particular job_id you need to specify it. You can also remove all jobs associated with the api_key by assigning value <strong>all</strong> to the job_id parameter. </p>
+<p>NOTE: Once removed the job_ids are not recorevable.
+NOTE: The removal of the job ids from the database does not delete the analysis data of the already completed jobs, and the links to the download and the webpage remain accessible. </p>
+<h4 id="available-parameters_18">Available parameters:</h4>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>api_key</td>
+<td>API key used to authenticate the user (generated once using get_api_key).</td>
+</tr>
+<tr>
+<td>job_id</td>
+<td>The job ID received after submitting a job (assign "all" to remove all your jobs associated with the api key)</td>
+</tr>
+</tbody>
+</table>
+<h4 id="call_16">Call:</h4>
+<pre><code>https://version-12-5.string-db.org/api/json/valuesranks_enrichment_remove?api_key=[api_key]&amp;job_id=[job_id]
+</code></pre>
+<h4 id="output-example_1">Output example</h4>
+<pre><code>[
+    {
+        "job_id": "job_id",
+        "status": "removed", 
+        "message": "job removed successfully.",
+    }
+]
+</code></pre>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../mcp/" class="btn btn-neutral float-right" title="MCP"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../faq/" class="btn btn-neutral" title="FAQ"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a target="_blank" href="http://www.mkdocs.org">MkDocs</a> using a <a target="_blank" href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a target="_blank" href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../faq/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../mcp/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

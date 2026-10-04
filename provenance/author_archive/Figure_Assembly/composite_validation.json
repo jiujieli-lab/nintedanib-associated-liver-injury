@@ -1,0 +1,1052 @@
+[
+  {
+    "figure": 1,
+    "source_size": [
+      2024,
+      2445
+    ],
+    "output_size": [
+      2024,
+      2627
+    ],
+    "source_dpi": 300,
+    "output_dpi": 300,
+    "workflow_height": 380,
+    "vertical_translation_px": 182,
+    "entire_lower_canvas_identical": true,
+    "quantitative_panels": [
+      {
+        "panel": "B",
+        "original_sha256": "d5cb033e65c1f85540b2bec8b2c7592ece95f0abf263b40a8bf305feb1172127",
+        "output_sha256": "d5cb033e65c1f85540b2bec8b2c7592ece95f0abf263b40a8bf305feb1172127",
+        "pixel_identical": true,
+        "output_box": [
+          45,
+          410,
+          1003,
+          841
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "C",
+        "original_sha256": "374f59e61f720fef9b5f1ad5f13923b02fc49acd6d9fc85517e0fd3a993a3ede",
+        "output_sha256": "374f59e61f720fef9b5f1ad5f13923b02fc49acd6d9fc85517e0fd3a993a3ede",
+        "pixel_identical": true,
+        "output_box": [
+          1021,
+          410,
+          1978,
+          834
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "D",
+        "original_sha256": "19c54af1fea8874c57e3505869aa2951459f805f3bda8fb0c49515bc118b2e76",
+        "output_sha256": "19c54af1fea8874c57e3505869aa2951459f805f3bda8fb0c49515bc118b2e76",
+        "pixel_identical": true,
+        "output_box": [
+          58,
+          859,
+          1071,
+          1300
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "E",
+        "original_sha256": "22794dc7348995d45adaa1cf641e00fa7735fa2906198c3b7fdeb2e3e50e2b2f",
+        "output_sha256": "22794dc7348995d45adaa1cf641e00fa7735fa2906198c3b7fdeb2e3e50e2b2f",
+        "pixel_identical": true,
+        "output_box": [
+          1089,
+          859,
+          1966,
+          1297
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "F",
+        "original_sha256": "d895e5a1e29c7a23d16df2cf40f096d156d388607e2779f61d36fda29be1e94c",
+        "output_sha256": "d895e5a1e29c7a23d16df2cf40f096d156d388607e2779f61d36fda29be1e94c",
+        "pixel_identical": true,
+        "output_box": [
+          47,
+          1318,
+          1000,
+          1732
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "G",
+        "original_sha256": "1ac118ebc4416b6bc4e500bec356028b2a6802e855c1d7e935230ebf3cad2f97",
+        "output_sha256": "1ac118ebc4416b6bc4e500bec356028b2a6802e855c1d7e935230ebf3cad2f97",
+        "pixel_identical": true,
+        "output_box": [
+          1018,
+          1318,
+          1976,
+          1732
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "H",
+        "original_sha256": "2a3413a1d3b0e1de86719100c61f5b0d13fb940f69307bce345ea4a0486b169d",
+        "output_sha256": "2a3413a1d3b0e1de86719100c61f5b0d13fb940f69307bce345ea4a0486b169d",
+        "pixel_identical": true,
+        "output_box": [
+          48,
+          1750,
+          1005,
+          2153
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "I",
+        "original_sha256": "d78feb1049fe8b93025d2e7031af5d4f24ca03d88e93ee273cd690fee7c6a119",
+        "output_sha256": "d78feb1049fe8b93025d2e7031af5d4f24ca03d88e93ee273cd690fee7c6a119",
+        "pixel_identical": true,
+        "output_box": [
+          1023,
+          1750,
+          1976,
+          2153
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "J",
+        "original_sha256": "4cccb6519cdd134cf8f652add9ce28c741482094df2f7973f8f404f33d79785c",
+        "output_sha256": "4cccb6519cdd134cf8f652add9ce28c741482094df2f7973f8f404f33d79785c",
+        "pixel_identical": true,
+        "output_box": [
+          51,
+          2171,
+          967,
+          2615
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "K",
+        "original_sha256": "7d19068febbf5b141aa409bbb4e9c30b779cd205b1a4f6022ff47c592469050e",
+        "output_sha256": "7d19068febbf5b141aa409bbb4e9c30b779cd205b1a4f6022ff47c592469050e",
+        "pixel_identical": true,
+        "output_box": [
+          985,
+          2171,
+          1972,
+          2615
+        ],
+        "prior_neighbor_text_exclusions": []
+      }
+    ],
+    "layout_audit": [
+      {
+        "title": "Clinical injury",
+        "labels": [
+          "FAERS signal",
+          "13 serum proteins"
+        ],
+        "card_box": [
+          73,
+          8,
+          530,
+          365
+        ],
+        "icon_box": [
+          218,
+          72,
+          384,
+          265
+        ],
+        "title_width": 238.265625,
+        "label_widths": [
+          179.375,
+          255.96875
+        ]
+      },
+      {
+        "title": "Drug + liver cells",
+        "labels": [
+          "Pharmacology + HepG2",
+          "5-donor liver atlas"
+        ],
+        "card_box": [
+          559,
+          8,
+          1016,
+          365
+        ],
+        "icon_box": [
+          676,
+          72,
+          899,
+          265
+        ],
+        "title_width": 300.5,
+        "label_widths": [
+          335.921875,
+          255.59375
+        ]
+      },
+      {
+        "title": "Target priorities",
+        "labels": [
+          "Calibrated integration",
+          "PDGFRA \u00b7 FLT4"
+        ],
+        "card_box": [
+          1045,
+          8,
+          1502,
+          365
+        ],
+        "icon_box": [
+          1150,
+          72,
+          1397,
+          265
+        ],
+        "title_width": 282.390625,
+        "label_widths": [
+          307.46875,
+          230.15625
+        ]
+      },
+      {
+        "title": "Independent evaluation",
+        "labels": [
+          "Liver exposure challenge",
+          "Pulmonary response context"
+        ],
+        "card_box": [
+          1531,
+          8,
+          1988,
+          365
+        ],
+        "icon_box": [
+          1659,
+          72,
+          1860,
+          265
+        ],
+        "title_width": 417.546875,
+        "label_widths": [
+          351.09375,
+          399.9375
+        ]
+      }
+    ]
+  },
+  {
+    "figure": 5,
+    "source_size": [
+      2030,
+      2259
+    ],
+    "output_size": [
+      2030,
+      2423
+    ],
+    "source_dpi": 300,
+    "output_dpi": 300,
+    "workflow_height": 380,
+    "vertical_translation_px": 164,
+    "entire_lower_canvas_identical": true,
+    "quantitative_panels": [
+      {
+        "panel": "B",
+        "original_sha256": "c87e80677b4a67f795f30beacf3204c56b8a87252d72e64a1963725c3b5b9ee2",
+        "output_sha256": "c87e80677b4a67f795f30beacf3204c56b8a87252d72e64a1963725c3b5b9ee2",
+        "pixel_identical": true,
+        "output_box": [
+          41,
+          410,
+          677,
+          864
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "C",
+        "original_sha256": "f7b53e27cee803d5b5976dc4357ebf9884ceb4a27b787184c7edc80241d66be2",
+        "output_sha256": "f7b53e27cee803d5b5976dc4357ebf9884ceb4a27b787184c7edc80241d66be2",
+        "pixel_identical": true,
+        "output_box": [
+          695,
+          410,
+          1331,
+          865
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "D",
+        "original_sha256": "357515d480c3f9f709939e1f4ae71f229f49cd537b09211cc898f53ba2cb1a8e",
+        "output_sha256": "357515d480c3f9f709939e1f4ae71f229f49cd537b09211cc898f53ba2cb1a8e",
+        "pixel_identical": true,
+        "output_box": [
+          1349,
+          410,
+          1989,
+          864
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "E",
+        "original_sha256": "160769eaffed44873f57f829ea6084d95cb3a574626ecd17ad3bd72b1e2c22a5",
+        "output_sha256": "160769eaffed44873f57f829ea6084d95cb3a574626ecd17ad3bd72b1e2c22a5",
+        "pixel_identical": true,
+        "output_box": [
+          27,
+          883,
+          735,
+          1482
+        ],
+        "prior_neighbor_text_exclusions": [
+          [
+            692,
+            688,
+            733,
+            1189
+          ]
+        ]
+      },
+      {
+        "panel": "F",
+        "original_sha256": "c9a28e615c789d1692751fce2953611877ec683f6f5206cc4fd9678b47de6c74",
+        "output_sha256": "c9a28e615c789d1692751fce2953611877ec683f6f5206cc4fd9678b47de6c74",
+        "pixel_identical": true,
+        "output_box": [
+          753,
+          883,
+          1459,
+          1482
+        ],
+        "prior_neighbor_text_exclusions": [
+          [
+            692,
+            1189,
+            733,
+            1306
+          ]
+        ]
+      },
+      {
+        "panel": "G",
+        "original_sha256": "6d395c40d38bcbef81e5bd9f43fb5116378881c44e256e88c98b699e60f75b38",
+        "output_sha256": "6d395c40d38bcbef81e5bd9f43fb5116378881c44e256e88c98b699e60f75b38",
+        "pixel_identical": true,
+        "output_box": [
+          1477,
+          883,
+          2002,
+          1498
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "H",
+        "original_sha256": "ddbd168dbab270267aff52f4e59e6c79465b2b46fd95f1d4f2ee7af21bd8c157",
+        "output_sha256": "ddbd168dbab270267aff52f4e59e6c79465b2b46fd95f1d4f2ee7af21bd8c157",
+        "pixel_identical": true,
+        "output_box": [
+          98,
+          1516,
+          1059,
+          1913
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "I",
+        "original_sha256": "763e91eae47be029e6b3ab519a3c877f5c92c885dfe30783fbbde043c3f60dc2",
+        "output_sha256": "763e91eae47be029e6b3ab519a3c877f5c92c885dfe30783fbbde043c3f60dc2",
+        "pixel_identical": true,
+        "output_box": [
+          1077,
+          1516,
+          1931,
+          1957
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "J",
+        "original_sha256": "c05eafa790b4c69b1bd28c09bc86f57811df36d76b87636b268e27ae552c1f7c",
+        "output_sha256": "c05eafa790b4c69b1bd28c09bc86f57811df36d76b87636b268e27ae552c1f7c",
+        "pixel_identical": true,
+        "output_box": [
+          149,
+          1975,
+          1076,
+          2406
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "K",
+        "original_sha256": "f7e2fa615badabaac493cbc6595edb8c5082c52a4a77cfbf89ac98523ab6a2c5",
+        "output_sha256": "f7e2fa615badabaac493cbc6595edb8c5082c52a4a77cfbf89ac98523ab6a2c5",
+        "pixel_identical": true,
+        "output_box": [
+          1094,
+          1975,
+          1881,
+          2411
+        ],
+        "prior_neighbor_text_exclusions": []
+      }
+    ],
+    "layout_audit": [
+      {
+        "title": "Liver-cell context",
+        "labels": [
+          "5 human donors",
+          "Compartment + detection"
+        ],
+        "card_box": [
+          73,
+          8,
+          532,
+          365
+        ],
+        "icon_box": [
+          192,
+          72,
+          413,
+          265
+        ],
+        "title_width": 303.59375,
+        "label_widths": [
+          229.203125,
+          368.1875
+        ]
+      },
+      {
+        "title": "Virtual knockout",
+        "labels": [
+          "210 archived runs",
+          "Raw network distances"
+        ],
+        "card_box": [
+          560,
+          8,
+          1018,
+          365
+        ],
+        "icon_box": [
+          706,
+          72,
+          871,
+          265
+        ],
+        "title_width": 288.859375,
+        "label_widths": [
+          253.4375,
+          323.71875
+        ]
+      },
+      {
+        "title": "Numerical calibration",
+        "labels": [
+          "Zero threshold \u226410\u207b\u00b9\u00b2",
+          "132 numerical-zero runs"
+        ],
+        "card_box": [
+          1048,
+          8,
+          1506,
+          365
+        ],
+        "icon_box": [
+          1143,
+          72,
+          1411,
+          265
+        ],
+        "title_width": 375.6875,
+        "label_widths": [
+          310.484375,
+          342.578125
+        ]
+      },
+      {
+        "title": "Clinical projection",
+        "labels": [
+          "29 nonzero target runs",
+          "Matched-null comparison"
+        ],
+        "card_box": [
+          1536,
+          8,
+          1994,
+          365
+        ],
+        "icon_box": [
+          1658,
+          72,
+          1873,
+          265
+        ],
+        "title_width": 315.0,
+        "label_widths": [
+          321.71875,
+          354.03125
+        ]
+      }
+    ]
+  },
+  {
+    "figure": 6,
+    "source_size": [
+      2030,
+      2263
+    ],
+    "output_size": [
+      2030,
+      2427
+    ],
+    "source_dpi": 300,
+    "output_dpi": 300,
+    "workflow_height": 380,
+    "vertical_translation_px": 164,
+    "entire_lower_canvas_identical": true,
+    "quantitative_panels": [
+      {
+        "panel": "B",
+        "original_sha256": "e20358860ba5e213c4d4ab75e02421dd180a5f273cd80de470be5a0c6523dd1d",
+        "output_sha256": "e20358860ba5e213c4d4ab75e02421dd180a5f273cd80de470be5a0c6523dd1d",
+        "pixel_identical": true,
+        "output_box": [
+          67,
+          410,
+          565,
+          1010
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "C",
+        "original_sha256": "2b93c0cebba11443f2a8630f4eb0aab3ba835375f55e6ce824da8a9882789f3c",
+        "output_sha256": "2b93c0cebba11443f2a8630f4eb0aab3ba835375f55e6ce824da8a9882789f3c",
+        "pixel_identical": true,
+        "output_box": [
+          583,
+          410,
+          985,
+          1033
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "D",
+        "original_sha256": "b1f7dd035025990aae55a07aee9af04f10610d1c4a647c0dc3d37514ff5928a5",
+        "output_sha256": "b1f7dd035025990aae55a07aee9af04f10610d1c4a647c0dc3d37514ff5928a5",
+        "pixel_identical": true,
+        "output_box": [
+          1003,
+          410,
+          1447,
+          1033
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "E",
+        "original_sha256": "d0330e2d0333d317f5c3b07f32f779e428c09785d5547e9d22384c8218568d5e",
+        "output_sha256": "d0330e2d0333d317f5c3b07f32f779e428c09785d5547e9d22384c8218568d5e",
+        "pixel_identical": true,
+        "output_box": [
+          1465,
+          410,
+          1963,
+          1061
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "F",
+        "original_sha256": "0f57b83f0a0ad9e66b4bcafbe2fc368444693b176ad885b1c2320c6cb2a75f62",
+        "output_sha256": "0f57b83f0a0ad9e66b4bcafbe2fc368444693b176ad885b1c2320c6cb2a75f62",
+        "pixel_identical": true,
+        "output_box": [
+          126,
+          1079,
+          536,
+          1725
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "G",
+        "original_sha256": "d345ad980893bc63d94997cd4868c42cf40c5246cc158b835289513242901c38",
+        "output_sha256": "d345ad980893bc63d94997cd4868c42cf40c5246cc158b835289513242901c38",
+        "pixel_identical": true,
+        "output_box": [
+          554,
+          1079,
+          967,
+          1698
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "H",
+        "original_sha256": "4c490c5bd10038385450c37d818b0dbe843a91e521fb57250f2c5dd591089d46",
+        "output_sha256": "4c490c5bd10038385450c37d818b0dbe843a91e521fb57250f2c5dd591089d46",
+        "pixel_identical": true,
+        "output_box": [
+          985,
+          1079,
+          1452,
+          1703
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "I",
+        "original_sha256": "dc9ca12ac0bf08879a98505e0b6d41613417a0043413dcfe842e3acd16aeea2b",
+        "output_sha256": "dc9ca12ac0bf08879a98505e0b6d41613417a0043413dcfe842e3acd16aeea2b",
+        "pixel_identical": true,
+        "output_box": [
+          1470,
+          1079,
+          1904,
+          1733
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "J",
+        "original_sha256": "e906bf3df41529e9da792ee3d94c3cd5bc8081ab50cf9a24dcf247b2b3e7c619",
+        "output_sha256": "e906bf3df41529e9da792ee3d94c3cd5bc8081ab50cf9a24dcf247b2b3e7c619",
+        "pixel_identical": true,
+        "output_box": [
+          95,
+          1751,
+          557,
+          2375
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "K",
+        "original_sha256": "485bfad4265ddad299ff9b75fbb33293519acb5f6a457bfdbe1aec9476ac3943",
+        "output_sha256": "485bfad4265ddad299ff9b75fbb33293519acb5f6a457bfdbe1aec9476ac3943",
+        "pixel_identical": true,
+        "output_box": [
+          575,
+          1751,
+          985,
+          2321
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "L",
+        "original_sha256": "16f118af0b569962051d77f3b9b75fa4eb07436f2998973a6ffe496440a0ddbd",
+        "output_sha256": "16f118af0b569962051d77f3b9b75fa4eb07436f2998973a6ffe496440a0ddbd",
+        "pixel_identical": true,
+        "output_box": [
+          1003,
+          1751,
+          1519,
+          2405
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "M",
+        "original_sha256": "ee245088266baff70d4cdde78bef82d560ec4de330aa94659009878a7ce69087",
+        "output_sha256": "ee245088266baff70d4cdde78bef82d560ec4de330aa94659009878a7ce69087",
+        "pixel_identical": true,
+        "output_box": [
+          1537,
+          1751,
+          1934,
+          2415
+        ],
+        "prior_neighbor_text_exclusions": []
+      }
+    ],
+    "layout_audit": [
+      {
+        "title": "Liver + clinical anchors",
+        "labels": [
+          "Donor-balanced networks",
+          "13 protein weights"
+        ],
+        "card_box": [
+          73,
+          8,
+          532,
+          365
+        ],
+        "icon_box": [
+          210,
+          72,
+          395,
+          265
+        ],
+        "title_width": 405.9375,
+        "label_widths": [
+          358.65625,
+          262.03125
+        ]
+      },
+      {
+        "title": "Calibrated proximity",
+        "labels": [
+          "1,999 matched null sets",
+          "Expression + detection"
+        ],
+        "card_box": [
+          560,
+          8,
+          1018,
+          365
+        ],
+        "icon_box": [
+          676,
+          72,
+          901,
+          265
+        ],
+        "title_width": 359.46875,
+        "label_widths": [
+          338.921875,
+          325.578125
+        ]
+      },
+      {
+        "title": "Evidence integration",
+        "labels": [
+          "Pharmacology \u00b7 network",
+          "HepG2 \u00b7 STRING"
+        ],
+        "card_box": [
+          1048,
+          8,
+          1506,
+          365
+        ],
+        "icon_box": [
+          1158,
+          72,
+          1396,
+          265
+        ],
+        "title_width": 363.203125,
+        "label_widths": [
+          339.5,
+          227.578125
+        ]
+      },
+      {
+        "title": "Target priorities",
+        "labels": [
+          "17 targets \u00b7 6 algorithms",
+          "PDGFRA \u00b7 FLT4"
+        ],
+        "card_box": [
+          1536,
+          8,
+          1994,
+          365
+        ],
+        "icon_box": [
+          1644,
+          72,
+          1887,
+          265
+        ],
+        "title_width": 282.390625,
+        "label_widths": [
+          347.484375,
+          230.15625
+        ]
+      }
+    ]
+  },
+  {
+    "figure": 7,
+    "source_size": [
+      2030,
+      2370
+    ],
+    "output_size": [
+      2030,
+      2536
+    ],
+    "source_dpi": 300,
+    "output_dpi": 300,
+    "workflow_height": 380,
+    "vertical_translation_px": 166,
+    "entire_lower_canvas_identical": true,
+    "quantitative_panels": [
+      {
+        "panel": "B",
+        "original_sha256": "0d3a3fabc2102ec075ba66cdc9552be500d23b5336ccc50318e03a66ca3dbe91",
+        "output_sha256": "0d3a3fabc2102ec075ba66cdc9552be500d23b5336ccc50318e03a66ca3dbe91",
+        "pixel_identical": true,
+        "output_box": [
+          133,
+          410,
+          734,
+          969
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "C",
+        "original_sha256": "3cddae4e2bac764267de064e913226669e4a2189a8bd7141301d20eb854e495b",
+        "output_sha256": "3cddae4e2bac764267de064e913226669e4a2189a8bd7141301d20eb854e495b",
+        "pixel_identical": true,
+        "output_box": [
+          752,
+          410,
+          1335,
+          977
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "D",
+        "original_sha256": "09a4593e4ebed9bb12de560ba1dfd3c1f3c7828f0c8c3d4bef6cada53a2b37a2",
+        "output_sha256": "09a4593e4ebed9bb12de560ba1dfd3c1f3c7828f0c8c3d4bef6cada53a2b37a2",
+        "pixel_identical": true,
+        "output_box": [
+          1353,
+          410,
+          1896,
+          977
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "E",
+        "original_sha256": "7d971c643737c2e4d533acc7a20c429946357fbcd5841a0ffc7d457e00461a78",
+        "output_sha256": "7d971c643737c2e4d533acc7a20c429946357fbcd5841a0ffc7d457e00461a78",
+        "pixel_identical": true,
+        "output_box": [
+          127,
+          995,
+          731,
+          1482
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "F",
+        "original_sha256": "1f6dede3ec32f350b1e7f686fe0d39e8212a3d8bfb9ead6ecfc98ead097a1c10",
+        "output_sha256": "1f6dede3ec32f350b1e7f686fe0d39e8212a3d8bfb9ead6ecfc98ead097a1c10",
+        "pixel_identical": true,
+        "output_box": [
+          749,
+          995,
+          1353,
+          1482
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "G",
+        "original_sha256": "b3151bb1365931a764f574085d2e0e2844b7c27cee0b21a7fe1303f656a52a07",
+        "output_sha256": "b3151bb1365931a764f574085d2e0e2844b7c27cee0b21a7fe1303f656a52a07",
+        "pixel_identical": true,
+        "output_box": [
+          1371,
+          995,
+          1902,
+          1482
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "H",
+        "original_sha256": "4a9bccea00e99fca6397b3062b99e540a4bee5270331cea39626f0b440dac84c",
+        "output_sha256": "4a9bccea00e99fca6397b3062b99e540a4bee5270331cea39626f0b440dac84c",
+        "pixel_identical": true,
+        "output_box": [
+          110,
+          1500,
+          714,
+          2001
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "I",
+        "original_sha256": "7e232a70c0f30efd02e6d96d10082a1385401aa25febc57da6cb560e4f7c499d",
+        "output_sha256": "7e232a70c0f30efd02e6d96d10082a1385401aa25febc57da6cb560e4f7c499d",
+        "pixel_identical": true,
+        "output_box": [
+          732,
+          1500,
+          1348,
+          2000
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "J",
+        "original_sha256": "9f407099a3b2a0717e33827bfa299accd3c886a3cdd7913ca8727bd30ad45b7a",
+        "output_sha256": "9f407099a3b2a0717e33827bfa299accd3c886a3cdd7913ca8727bd30ad45b7a",
+        "pixel_identical": true,
+        "output_box": [
+          1366,
+          1500,
+          1919,
+          1989
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "K",
+        "original_sha256": "a8f40e1a05b6a90ca8f656c2d8b732a566007a5a8a98f95482568cfe9a468679",
+        "output_sha256": "a8f40e1a05b6a90ca8f656c2d8b732a566007a5a8a98f95482568cfe9a468679",
+        "pixel_identical": true,
+        "output_box": [
+          163,
+          2019,
+          750,
+          2520
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "L",
+        "original_sha256": "bf95119aece9ad8ae8e49180a8a5e057a392324415cfee4931bbaea887db19ae",
+        "output_sha256": "bf95119aece9ad8ae8e49180a8a5e057a392324415cfee4931bbaea887db19ae",
+        "pixel_identical": true,
+        "output_box": [
+          768,
+          2019,
+          1358,
+          2520
+        ],
+        "prior_neighbor_text_exclusions": []
+      },
+      {
+        "panel": "M",
+        "original_sha256": "6db4c5c620b5911e585d8f40c9a65b41fbef29d32b0a1a54de2d524e378da86e",
+        "output_sha256": "6db4c5c620b5911e585d8f40c9a65b41fbef29d32b0a1a54de2d524e378da86e",
+        "pixel_identical": true,
+        "output_box": [
+          1376,
+          2019,
+          1867,
+          2524
+        ],
+        "prior_neighbor_text_exclusions": []
+      }
+    ],
+    "layout_audit": [
+      {
+        "title": "Prespecified candidates",
+        "labels": [
+          "17 targets",
+          "6 algorithms"
+        ],
+        "card_box": [
+          73,
+          8,
+          532,
+          365
+        ],
+        "icon_box": [
+          223,
+          72,
+          382,
+          265
+        ],
+        "title_width": 418.28125,
+        "label_widths": [
+          144.296875,
+          176.46875
+        ]
+      },
+      {
+        "title": "Independent mouse liver",
+        "labels": [
+          "Healthy 3 \u00b7 disease 9",
+          "Nintedanib 10"
+        ],
+        "card_box": [
+          560,
+          8,
+          1018,
+          365
+        ],
+        "icon_box": [
+          670,
+          72,
+          909,
+          265
+        ],
+        "title_width": 436.6875,
+        "label_widths": [
+          295.078125,
+          197.484375
+        ]
+      },
+      {
+        "title": "Animal-level analysis",
+        "labels": [
+          "Genome-wide + target family",
+          "92,378 allocations"
+        ],
+        "card_box": [
+          1048,
+          8,
+          1506,
+          365
+        ],
+        "icon_box": [
+          1166,
+          72,
+          1388,
+          265
+        ],
+        "title_width": 369.953125,
+        "label_widths": [
+          415.9375,
+          257.5
+        ]
+      },
+      {
+        "title": "Independent comparison",
+        "labels": [
+          "12 measured targets",
+          "Priority vs. hepatic effect"
+        ],
+        "card_box": [
+          1536,
+          8,
+          1994,
+          365
+        ],
+        "icon_box": [
+          1624,
+          72,
+          1907,
+          265
+        ],
+        "title_width": 435.78125,
+        "label_widths": [
+          293.140625,
+          350.703125
+        ]
+      }
+    ]
+  }
+]

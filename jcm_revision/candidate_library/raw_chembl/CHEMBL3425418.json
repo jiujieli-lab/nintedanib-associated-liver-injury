@@ -1,0 +1,24 @@
+{
+  "abstract": "Tivozanib is a potent and selective tyrosine kinase inhibitor of vascular endothelial growth factor receptor-1(VEGFR1), -2(VEGFR2), and -3(VEGFR3). Analog of Tivozanib with deuterium-for-hydrogen replacement in metabolically active site was prepared and evaluated in vitro. Compared to its prototype, deuterated Tivozanib compound HC-1144 retained in vitro activity against VEGFR tyrosine kinases. In vivo pharmacokinetic studies indicated HC-1144 clearly altered the blood circulation behavior, which was proved by significantly prolonged blood circulation half life time (t1/2) and increased AUC0-\u221e. Therefore, HC-1144 has the potential to be a novel inhibitor against VEGFR tyrosine kinases with long-acting plasma exposure.",
+  "authors": "Guo S, Pang X, Peng L, Zhan M, Fan L, Gong Y, Kang F, Chen Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_21",
+    "creation_date": "2016-02-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL3425418",
+  "doi": "10.1016/j.bmcl.2015.03.088",
+  "doi_chembl": null,
+  "first_page": "2425",
+  "issue": "11",
+  "journal": "Bioorg Med Chem Lett",
+  "journal_full_title": "Bioorganic & medicinal chemistry letters.",
+  "last_page": "2428",
+  "patent_id": null,
+  "pubmed_id": 25908516,
+  "src_id": 1,
+  "title": "Design, synthesis and biological evaluation of deuterated Tivozanib for improving pharmacokinetic properties.",
+  "volume": "25",
+  "year": 2015
+}

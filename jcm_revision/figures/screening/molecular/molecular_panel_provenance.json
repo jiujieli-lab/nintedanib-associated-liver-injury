@@ -1,0 +1,207 @@
+{
+  "E": {
+    "crystal": "6JOL_STI_reference.sdf",
+    "docked": "runs/PDGFRA_Imatinib_redocking_104729/poses.sdf",
+    "pose": 1,
+    "seed": 104729,
+    "rmsd_A_recorded_result": 0.5742745619518652,
+    "rmsd_A_recalculated_from_exported_sdf": 0.5742743952859829,
+    "camera_center": [
+      -37.8552972972973,
+      158.01151351351353,
+      1.5955675675675678
+    ],
+    "camera_rotation": [
+      [
+        0.6560733431347464,
+        0.5798682192304325,
+        -0.4830327284506963
+      ],
+      [
+        0.13290828694126813,
+        -0.7188065005081552,
+        -0.6823874281444208
+      ],
+      [
+        -0.742901847951891,
+        0.38349714882088287,
+        -0.5486590755249737
+      ]
+    ],
+    "RMSD_method": "symmetry-aware heavy-atom CalcRMS; unchanged receptor frame, no ligand alignment"
+  },
+  "F": {
+    "source": "runs/PDGFRA_nintedanib_104729/poses.sdf",
+    "poses": [
+      1,
+      3
+    ],
+    "seed": 104729,
+    "scores_kcal_mol": [
+      -8.502,
+      -8.341
+    ],
+    "contacts_to_Thr674": [
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "THR",
+          "residue_number": 674,
+          "atom_name": "CG2",
+          "index": 693
+        },
+        "ligand_atom_index_zero_based": 3,
+        "ligand_element": "O",
+        "distance_A": 8.428280192304948
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "THR",
+          "residue_number": 674,
+          "atom_name": "OG1",
+          "index": 692
+        },
+        "ligand_atom_index_zero_based": 29,
+        "ligand_element": "C",
+        "distance_A": 3.380045118042065
+      }
+    ],
+    "camera_center": [
+      -37.06845977011494,
+      151.83085057471268,
+      3.617689655172415
+    ],
+    "camera_rotation": [
+      [
+        -0.19382894400280987,
+        0.37220661949835443,
+        -0.9076852829413745
+      ],
+      [
+        -0.3108711366322371,
+        -0.9008536503741328,
+        -0.3030211824552556
+      ],
+      [
+        -0.9304780904866792,
+        0.2234388798065538,
+        0.2903198066185906
+      ]
+    ],
+    "interpretation": "Two predicted poses retained; neither is proven. Supplied hinge-region minima are to gatekeeper Thr674, not a demonstrated hinge hydrogen bond."
+  },
+  "G": {
+    "receptor": "FLT4_AF_receptor.pdb",
+    "receptor_type": "AlphaFold AF-P35916-F1 v6 predicted kinase domain",
+    "ligand": "runs/FLT4_nintedanib_104729/poses.sdf",
+    "pose": 1,
+    "seed": 104729,
+    "score_kcal_mol": -10.081,
+    "selected_contacts": [
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "GLU",
+          "residue_number": 896,
+          "atom_name": "OE1",
+          "index": 376
+        },
+        "ligand_atom_index_zero_based": 0,
+        "ligand_element": "C",
+        "distance_A": 3.261647743089372
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "VAL",
+          "residue_number": 927,
+          "atom_name": "CG1",
+          "index": 607
+        },
+        "ligand_atom_index_zero_based": 1,
+        "ligand_element": "O",
+        "distance_A": 3.2114976257191903
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ASN",
+          "residue_number": 934,
+          "atom_name": "N",
+          "index": 660
+        },
+        "ligand_atom_index_zero_based": 23,
+        "ligand_element": "O",
+        "distance_A": 2.8700350172079787
+      },
+      {
+        "protein": {
+          "chain": "A",
+          "residue": "ASP",
+          "residue_number": 1055,
+          "atom_name": "N",
+          "index": 1625
+        },
+        "ligand_atom_index_zero_based": 3,
+        "ligand_element": "O",
+        "distance_A": 3.230354934059104
+      }
+    ],
+    "camera_center": [
+      -10.297975,
+      2.273550000000001,
+      -14.49885
+    ],
+    "camera_rotation": [
+      [
+        0.8617932728990301,
+        0.10392321543138515,
+        0.4965000705743955
+      ],
+      [
+        -0.4120995104657924,
+        0.7141631867719225,
+        0.5658135171004902
+      ],
+      [
+        -0.2957809126022707,
+        -0.6922217187824825,
+        0.658287736317481
+      ]
+    ],
+    "contact_semantics": "selected minimum heavy-atom distances <4 \u00c5, calculated in 3-D; no hydrogen-bond classification"
+  },
+  "global": {
+    "size_inches": [
+      2.25,
+      2.4
+    ],
+    "png_pixels": [
+      1350,
+      1440
+    ],
+    "dpi": 600,
+    "backbone": "C-alpha trace, cubic interpolation only within contiguous local residue runs; no invented secondary structure",
+    "bonds": "actual SDF bond types; aromatic bonds shown as Kekul\u00e9 single/double bonds; hydrogens hidden",
+    "geometry": "shared rigid orthographic camera per panel; no coordinate editing or ligand superposition",
+    "palette": {
+      "teal": "#177E89",
+      "coral": "#D66A52",
+      "navy": "#244F70"
+    },
+    "input_sha256": {
+      "6JOL_STI_reference.sdf": "f4f33684ee3b0d3f8a6db7efeacbb8fa65f140727b4dcce12961d3dbd967d0b5",
+      "FLT4_AF_receptor.pdb": "4cfaeec72ac5a90e205e864dc43038d4ad71598f7f112b82d817674ebebeb871",
+      "Nintedanib_Docking_Contacts.csv": "d95cb1b685faea592eac1aaf9871818004658980c1a15f0c3466b7a9f6907ae1",
+      "PDGFRA_6JOL_receptor.pdb": "6495c51c05225943bda5feb7ebae119f86a2d2cb2d8f619ff3350099e9a94d6d",
+      "PDGFRA_nintedanib_pose_hinge_QC.json": "2b8d84ad5e6dd7bbaa25a3f86b6cd55b44febdb959850775027b5408a764c120",
+      "runs/FLT4_nintedanib_104729/poses.sdf": "39665f3c73cf8064a6a01706aea6e02eef0a105d37a7552d012923ee6ddb2b98",
+      "runs/FLT4_nintedanib_104729/result.json": "cca44fb31e1764a501fec6716af06bfe98e0eaf3206c6e52755fd7e12aab932f",
+      "runs/PDGFRA_Imatinib_redocking_104729/poses.sdf": "8d3dfaa02ae0f192a041ab246873553c69061979b94e226735aafab78dd68ef9",
+      "runs/PDGFRA_Imatinib_redocking_104729/result.json": "0c823bfb1de2be3d72b00540fc0d83c3a18bb2e6021cbcb5b18af1a5624bd1f9",
+      "runs/PDGFRA_nintedanib_104729/poses.sdf": "762100ed9fe86c1593c43a5cefe26380d407cb124a52589b4efc847c35e5292a",
+      "runs/PDGFRA_nintedanib_104729/result.json": "187cf22d25c485d092d86e3b454552fcb2bdb92c699b1131c6d81943bcf3b599"
+    }
+  }
+}

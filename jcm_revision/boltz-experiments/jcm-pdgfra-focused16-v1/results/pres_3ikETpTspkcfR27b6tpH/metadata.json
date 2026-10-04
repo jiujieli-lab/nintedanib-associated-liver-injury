@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 2.6295583248138428,
+    "permeability": 0.9159684181213379,
+    "solubility": "high-confidence"
+  },
+  "created_at": "2026-10-02T15:17:24.901Z",
+  "external_id": "pirfenidone",
+  "id": "pres_3ikETpTspkcfR27b6tpH",
+  "metrics": {
+    "binding_confidence": 0.23231130838394165,
+    "complex_iplddt": 0.810701847076416,
+    "complex_plddt": 0.7788035869598389,
+    "iptm": 0.8440067768096924,
+    "optimization_score": 0.09930764138698578,
+    "ptm": 0.7660748362541199,
+    "structure_confidence": 0.7918442487716675
+  },
+  "smiles": "Cc1ccc(=O)n(-c2ccccc2)c1"
+}

@@ -1,0 +1,11 @@
+scope,gene_symbol,endpoint,n_records,n_assays,n_documents,min_nM,median_nM,max_nM,median_pchembl,min_pchembl,max_pchembl,document_balanced_median_pchembl,all_below_1000nM
+Frozen primary,FLT4,IC50,3,3,3,5.0,13.0,34.0,7.89,7.47,8.3,7.89,True
+Frozen primary,FLT4,Kd,1,1,1,95.0,95.0,95.0,7.02,7.02,7.02,7.02,True
+Frozen primary,PDGFRA,IC50,5,5,5,1.9,18.0,560.0,7.75,6.25,8.72,7.75,True
+Frozen primary,PDGFRA,Kd,1,1,1,16.0,16.0,16.0,7.8,7.8,7.8,7.8,True
+Frozen primary,PDGFRA,Ki,1,1,1,8.4,8.4,8.4,8.08,8.08,8.08,8.08,True
+BAO-format sensitivity,FLT4,IC50,5,5,5,3.0,5.0,34.0,8.3,7.47,8.52,8.3,True
+BAO-format sensitivity,FLT4,Kd,1,1,1,95.0,95.0,95.0,7.02,7.02,7.02,7.02,True
+BAO-format sensitivity,PDGFRA,IC50,6,6,6,1.9,11.0,560.0,8.075,6.25,8.72,8.075,True
+BAO-format sensitivity,PDGFRA,Kd,1,1,1,16.0,16.0,16.0,7.8,7.8,7.8,7.8,True
+BAO-format sensitivity,PDGFRA,Ki,1,1,1,8.4,8.4,8.4,8.08,8.08,8.08,8.08,True

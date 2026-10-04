@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 3.8844878673553467,
+    "permeability": 0.9737237691879272,
+    "solubility": "high-risk"
+  },
+  "created_at": "2026-10-02T15:16:59.949Z",
+  "external_id": "axitinib",
+  "id": "pres_bVqGzSXEGrSXlIoa0Itm",
+  "metrics": {
+    "binding_confidence": 0.845274806022644,
+    "complex_iplddt": 0.8326650857925415,
+    "complex_plddt": 0.7835367918014526,
+    "iptm": 0.9002565741539001,
+    "optimization_score": 0.5122758150100708,
+    "ptm": 0.7784427404403687,
+    "structure_confidence": 0.8068807721138
+  },
+  "smiles": "CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1"
+}

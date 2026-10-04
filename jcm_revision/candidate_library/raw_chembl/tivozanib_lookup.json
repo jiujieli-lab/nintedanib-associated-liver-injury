@@ -1,0 +1,195 @@
+{
+  "molecules": [
+    {
+      "atc_classifications": [
+        "L01EK03"
+      ],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 1,
+      "chirality": 2,
+      "cross_references": [],
+      "dosed_ingredient": false,
+      "first_approval": 2017,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL1289494",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL1289494",
+        "molecule_chembl_id": "CHEMBL1289494",
+        "parent_chembl_id": "CHEMBL1289494"
+      },
+      "molecule_properties": {
+        "alogp": "5.64",
+        "aromatic_rings": 4,
+        "full_molformula": "C22H19ClN4O5",
+        "full_mwt": "454.87",
+        "hba": 7,
+        "hbd": 2,
+        "heavy_atoms": 32,
+        "mw_freebase": "454.87",
+        "np_likeness_score": "-1.57",
+        "num_ro5_violations": 1,
+        "psa": "107.74",
+        "qed_weighted": "0.39",
+        "ro3_pass": "N",
+        "rtb": 6
+      },
+      "molecule_structures": {
+        "canonical_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC",
+        "molfile": "\n     RDKit          2D\n\n 32 35  0  0  0  0  0  0  0  0999 V2000\n   -0.0347    0.1958    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.0347   -0.6292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6798   -1.0417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3943   -0.6292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.3943    0.1958    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.6798    0.6083    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1087   -1.0417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8232   -0.6292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8232    0.1958    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1087    0.6083    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.1087   -1.8667    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8232   -2.2792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.8232   -3.1042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5377   -3.5167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2522   -3.1042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.2522   -2.2792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5377   -1.8667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.5377   -4.3417    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n    4.9666   -3.5167    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6811   -3.1042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.3956   -3.5167    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6811   -2.2792    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1100   -3.1042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.8637   -3.4398    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    8.4157   -2.8267    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.0032   -2.1122    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.1963   -2.2837    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    8.3388   -1.3585    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7491   -1.0417    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.7491    0.6083    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5750    0.6125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.5750   -1.0417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  4  5  2  0\n  5  6  1  0\n  6  1  2  0\n  4  7  1  0\n  7  8  2  0\n  8  9  1  0\n  9 10  2  0\n 10  5  1  0\n  7 11  1  0\n 11 12  1  0\n 12 13  2  0\n 13 14  1  0\n 14 15  2  0\n 15 16  1  0\n 16 17  2  0\n 17 12  1  0\n 14 18  1  0\n 15 19  1  0\n 19 20  1  0\n 20 21  1  0\n 20 22  2  0\n 21 23  1  0\n 23 24  2  0\n 24 25  1  0\n 25 26  1  0\n 26 27  2  0\n 27 23  1  0\n 26 28  1  0\n  2 29  1  0\n  1 30  1  0\n  1  2  1  0\n  2  3  2  0\n 30 31  1  0\n  3  4  1  0\n 29 32  1  0\nM  END\n> <chembl_id>\nCHEMBL1289494\n\n> <chembl_pref_name>\nTIVOZANIB",
+        "standard_inchi": "InChI=1S/C22H19ClN4O5/c1-12-8-21(27-32-12)26-22(28)25-16-5-4-13(9-15(16)23)31-18-6-7-24-17-11-20(30-3)19(29-2)10-14(17)18/h4-11H,1-3H3,(H2,25,26,27,28)",
+        "standard_inchi_key": "SPMVMDHWKHCIDT-UHFFFAOYSA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "ASP-4130",
+          "syn_type": "PND",
+          "synonyms": "ASP-4130"
+        },
+        {
+          "molecule_synonym": "ASP-4130",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "ASP-4130"
+        },
+        {
+          "molecule_synonym": "AV-951",
+          "syn_type": "PND",
+          "synonyms": "AV-951"
+        },
+        {
+          "molecule_synonym": "AV-951",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "AV-951"
+        },
+        {
+          "molecule_synonym": "DC-001164TIVOZANIBAV9511-(2-CHLORO-4((6,7-DIMETHOXYQUINOLIN-4-YL)OXY)PHENYL)-3-(5-METHYLISOXAZO-3-YL)UREA",
+          "syn_type": "PND",
+          "synonyms": "DC-001164TivozanibAV9511-(2-Chloro-4((6,7-dimethoxyquinolin-4-yl)oxy)phenyl)-3-(5-methylisoxazo-3-yl)urea"
+        },
+        {
+          "molecule_synonym": "FOTIVDA",
+          "syn_type": "PND",
+          "synonyms": "FOTIVDA"
+        },
+        {
+          "molecule_synonym": "Kil-8951",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "Kil-8951"
+        },
+        {
+          "molecule_synonym": "KIL-8951",
+          "syn_type": "PND",
+          "synonyms": "KIL-8951"
+        },
+        {
+          "molecule_synonym": "KIL8951",
+          "syn_type": "PND",
+          "synonyms": "KIL8951"
+        },
+        {
+          "molecule_synonym": "KIL8951",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "KIL8951"
+        },
+        {
+          "molecule_synonym": "Krn-951",
+          "syn_type": "OTHER",
+          "synonyms": "KRN-951"
+        },
+        {
+          "molecule_synonym": "KRN-951",
+          "syn_type": "PND",
+          "synonyms": "KRN-951"
+        },
+        {
+          "molecule_synonym": "KRN-951",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "KRN-951"
+        },
+        {
+          "molecule_synonym": "KRN951",
+          "syn_type": "PND",
+          "synonyms": "KRN951"
+        },
+        {
+          "molecule_synonym": "OPHTHOTECH",
+          "syn_type": "PND",
+          "synonyms": "Ophthotech"
+        },
+        {
+          "molecule_synonym": "Tivozanib",
+          "syn_type": "USAN",
+          "synonyms": "Tivozanib"
+        },
+        {
+          "molecule_synonym": "Tivozanib",
+          "syn_type": "ATC",
+          "synonyms": "TIVOZANIB"
+        },
+        {
+          "molecule_synonym": "Tivozanib",
+          "syn_type": "BNF",
+          "synonyms": "TIVOZANIB"
+        },
+        {
+          "molecule_synonym": "Tivozanib",
+          "syn_type": "INN",
+          "synonyms": "TIVOZANIB"
+        },
+        {
+          "molecule_synonym": "Tivozanib",
+          "syn_type": "OTHER",
+          "synonyms": "TIVOZANIB"
+        },
+        {
+          "molecule_synonym": "TIVOZANIB",
+          "syn_type": "PND",
+          "synonyms": "TIVOZANIB"
+        },
+        {
+          "molecule_synonym": "TIVOZANIB (AV-951)",
+          "syn_type": "PND",
+          "synonyms": "Tivozanib (AV-951)"
+        },
+        {
+          "molecule_synonym": "TIVOZANIB HCL",
+          "syn_type": "PND",
+          "synonyms": "Tivozanib HCl"
+        },
+        {
+          "molecule_synonym": "TIVOZANIB (OPHTHALMIC)",
+          "syn_type": "PND",
+          "synonyms": "tivozanib (ophthalmic)"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 1,
+      "oral": true,
+      "orphan": 0,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "TIVOZANIB",
+      "prodrug": 0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-anib",
+      "usan_stem_definition": "angiogenesis inhibitors",
+      "usan_substem": "-anib",
+      "usan_year": 2009,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    }
+  ],
+  "page_meta": {
+    "limit": 100,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  }
+}

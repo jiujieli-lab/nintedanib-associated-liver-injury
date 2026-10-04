@@ -1,0 +1,24 @@
+sample_id,treatment,animal_id,statistical_unit
+nintedanib_4,nintedanib,M4,individual mouse
+nintedanib_5,nintedanib,M5,individual mouse
+nintedanib_6,nintedanib,M6,individual mouse
+nintedanib_13,nintedanib,M13,individual mouse
+nintedanib_17,nintedanib,M17,individual mouse
+nintedanib_19,nintedanib,M19,individual mouse
+nintedanib_21,nintedanib,M21,individual mouse
+nintedanib_23,nintedanib,M23,individual mouse
+nintedanib_32,nintedanib,M32,individual mouse
+nintedanib_42,nintedanib,M42,individual mouse
+vehicle_3,vehicle,M3,individual mouse
+vehicle_7,vehicle,M7,individual mouse
+vehicle_12,vehicle,M12,individual mouse
+vehicle_14,vehicle,M14,individual mouse
+vehicle_16,vehicle,M16,individual mouse
+vehicle_22,vehicle,M22,individual mouse
+vehicle_24,vehicle,M24,individual mouse
+vehicle_27,vehicle,M27,individual mouse
+vehicle_31,vehicle,M31,individual mouse
+vehicle_34,vehicle,M34,individual mouse
+vehicle_35,vehicle,M35,individual mouse
+vehicle_40,vehicle,M40,individual mouse
+vehicle_41,vehicle,M41,individual mouse

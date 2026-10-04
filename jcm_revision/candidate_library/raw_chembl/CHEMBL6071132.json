@@ -1,0 +1,24 @@
+{
+  "abstract": "Fluorine possesses distinctive chemical characteristics, such as its strong electron-withdrawing ability and small atomic size, which render it an invaluable asset in the design and optimization of pharmaceuticals. The utilization of fluorine-enriched medications for combating cancer has emerged as a prominent approach in medicinal chemistry and drug discovery, offering improved clinical outcomes and enhanced pharmacological properties. This comprehensive review explores the synthetic approaches and clinical applications of approved 22 representative fluorinated anti-cancer drugs from 2019 to present, shedding light on their historical development, brand names, drug target activity, mechanism of action, preclinical pharmacodynamics, clinical efficacy, and toxicity. Additionally, the review provides an extensive analysis of the representative synthetic techniques employed. Overall, this review emphasizes the significance of incorporating fluorine chemistry into anti-cancer drug research while highlighting promising future prospects for exploring compounds enriched with fluorine in the battle against cancer.",
+  "authors": "Liu HN, Zhu Y, Chi Y, Sun FF, Shan LS, Wang YT, Dai B.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_37",
+    "creation_date": "2026-05-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL6071132",
+  "doi": "10.1016/j.ejmech.2024.116722",
+  "doi_chembl": null,
+  "first_page": "116722",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "116722",
+  "patent_id": null,
+  "pubmed_id": 39079309,
+  "src_id": 1,
+  "title": "Synthetic approaches and application of representative clinically approved fluorine-enriched anti-cancer medications.",
+  "volume": "276",
+  "year": 2024
+}

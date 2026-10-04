@@ -1,0 +1,863 @@
+{
+  "distinct_citations": 97,
+  "first_appearance_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97
+  ],
+  "sequential": true,
+  "missing": [],
+  "undefined": [],
+  "all_citations": [
+    {
+      "text": "Antifibrotic treatment must remain tolerable long enough to alter the course of progressive lung dis",
+      "citation": "[1, 2]",
+      "numbers": [
+        1,
+        2
+      ]
+    },
+    {
+      "text": "Antifibrotic treatment must remain tolerable long enough to alter the course of progressive lung dis",
+      "citation": "[3, 4, 5]",
+      "numbers": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "text": "Antifibrotic treatment must remain tolerable long enough to alter the course of progressive lung dis",
+      "citation": "[6, 7, 8, 9, 10]",
+      "numbers": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "text": "Liver injury is one such obstacle. Long-term and post-marketing studies describe interruptions and d",
+      "citation": "[11, 12, 13]",
+      "numbers": [
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "text": "Liver injury is one such obstacle. Long-term and post-marketing studies describe interruptions and d",
+      "citation": "[14]",
+      "numbers": [
+        14
+      ]
+    },
+    {
+      "text": "Liver injury is one such obstacle. Long-term and post-marketing studies describe interruptions and d",
+      "citation": "[15, 16]",
+      "numbers": [
+        15,
+        16
+      ]
+    },
+    {
+      "text": "Liver injury is one such obstacle. Long-term and post-marketing studies describe interruptions and d",
+      "citation": "[17, 18, 19]",
+      "numbers": [
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "text": "Liver injury is one such obstacle. Long-term and post-marketing studies describe interruptions and d",
+      "citation": "[20, 21, 22, 23, 24, 25]",
+      "numbers": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "text": "Nintedanib's pharmacology offers a defined starting point. The drug inhibits vascular endothelial gr",
+      "citation": "[26, 27]",
+      "numbers": [
+        26,
+        27
+      ]
+    },
+    {
+      "text": "Nintedanib's pharmacology offers a defined starting point. The drug inhibits vascular endothelial gr",
+      "citation": "[28, 29]",
+      "numbers": [
+        28,
+        29
+      ]
+    },
+    {
+      "text": "Public human serum proteomics supplies a clinically interpretable phenotype. Ravindra and colleagues",
+      "citation": "[30]",
+      "numbers": [
+        30
+      ]
+    },
+    {
+      "text": "Public human serum proteomics supplies a clinically interpretable phenotype. Ravindra and colleagues",
+      "citation": "[31]",
+      "numbers": [
+        31
+      ]
+    },
+    {
+      "text": "Public human serum proteomics supplies a clinically interpretable phenotype. Ravindra and colleagues",
+      "citation": "[32]",
+      "numbers": [
+        32
+      ]
+    },
+    {
+      "text": "Public human serum proteomics supplies a clinically interpretable phenotype. Ravindra and colleagues",
+      "citation": "[33, 34, 35]",
+      "numbers": [
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "text": "Answering this question computationally requires more than overlap among gene lists. Virtual knockou",
+      "citation": "[36]",
+      "numbers": [
+        36
+      ]
+    },
+    {
+      "text": "Answering this question computationally requires more than overlap among gene lists. Virtual knockou",
+      "citation": "[37, 38]",
+      "numbers": [
+        37,
+        38
+      ]
+    },
+    {
+      "text": "Answering this question computationally requires more than overlap among gene lists. Virtual knockou",
+      "citation": "[39, 40, 41, 42, 43]",
+      "numbers": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "text": "We followed one translational sequence: establish the hepatic safety question, define the human prot",
+      "citation": "[44, 45, 46, 47]",
+      "numbers": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "text": "We conducted a secondary analysis of public clinical, pharmacological and experimental data to conne",
+      "citation": "[48, 49, 50]",
+      "numbers": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "text": "The complete specifications included alternative drug aliases, endpoint definitions, ILD indication ",
+      "citation": "[51]",
+      "numbers": [
+        51
+      ]
+    },
+    {
+      "text": "We reanalysed the source workbook from Ravindra et al. [30]. Discovery groups comprised healthy volu",
+      "citation": "[30]",
+      "numbers": [
+        30
+      ]
+    },
+    {
+      "text": "Primary contrasts used two-sided Mann\u2013Whitney tests and Cliff's delta with 2,000 group-stratified bo",
+      "citation": "[52]",
+      "numbers": [
+        52
+      ]
+    },
+    {
+      "text": "Primary contrasts used two-sided Mann\u2013Whitney tests and Cliff's delta with 2,000 group-stratified bo",
+      "citation": "[53]",
+      "numbers": [
+        53
+      ]
+    },
+    {
+      "text": "In GSE70138, the nintedanib perturbagen BRD-K49075727 had six HepG2 24-h Level 5 consensus signature",
+      "citation": "[34]",
+      "numbers": [
+        34
+      ]
+    },
+    {
+      "text": "In GSE70138, the nintedanib perturbagen BRD-K49075727 had six HepG2 24-h Level 5 consensus signature",
+      "citation": "[35]",
+      "numbers": [
+        35
+      ]
+    },
+    {
+      "text": "We further resolved the PDGFRA and FLT4 records within the frozen ChEMBL extraction by endpoint, ass",
+      "citation": "[54]",
+      "numbers": [
+        54
+      ]
+    },
+    {
+      "text": "The deposited normalized GSE115469 atlas contained 8,444 cells from five donors [32]. Published labe",
+      "citation": "[32]",
+      "numbers": [
+        32
+      ]
+    },
+    {
+      "text": "The original scTenifoldKnk analysis used scTenifoldpy 0.4.0, three seeds (20260904, 20260911 and 202",
+      "citation": "[36]",
+      "numbers": [
+        36
+      ]
+    },
+    {
+      "text": "Within each donor and compartment, genes were centered and standardized, with constant genes assigne",
+      "citation": "[39, 43]",
+      "numbers": [
+        39,
+        43
+      ]
+    },
+    {
+      "text": "Primary seed weights were normalized absolute discovery DO-versus-HV Cliff's deltas for all 13 prote",
+      "citation": "[41, 42]",
+      "numbers": [
+        41,
+        42
+      ]
+    },
+    {
+      "text": "The clinical-network feature for target t was Nt=\u03a3c(dtcZtc)/\u03a3cdtc across available compartments, whe",
+      "citation": "[55]",
+      "numbers": [
+        55
+      ]
+    },
+    {
+      "text": "We reproduced the historical median-rank consensus, including mean-rank tiebreaking, and compared it",
+      "citation": "[40]",
+      "numbers": [
+        40
+      ]
+    },
+    {
+      "text": "The extension adopted perturbation-delta benchmarking and cell-context applicability principles from",
+      "citation": "[56]",
+      "numbers": [
+        56
+      ]
+    },
+    {
+      "text": "The extension adopted perturbation-delta benchmarking and cell-context applicability principles from",
+      "citation": "[57]",
+      "numbers": [
+        57
+      ]
+    },
+    {
+      "text": "GSE125975 was withheld from candidate construction and algorithm selection. Its 22 distinct male C57",
+      "citation": "[58]",
+      "numbers": [
+        58
+      ]
+    },
+    {
+      "text": "GSE278200 contained independent lung profiles from four rats per saline, bleomycin and bleomycin+nin",
+      "citation": "[44, 45]",
+      "numbers": [
+        44,
+        45
+      ]
+    },
+    {
+      "text": "Additional sources retained their actual experimental units. GSE120804 liver slices and GSE120679 lu",
+      "citation": "[59, 60]",
+      "numbers": [
+        59,
+        60
+      ]
+    },
+    {
+      "text": "Additional sources retained their actual experimental units. GSE120804 liver slices and GSE120679 lu",
+      "citation": "[61]",
+      "numbers": [
+        61
+      ]
+    },
+    {
+      "text": "Additional sources retained their actual experimental units. GSE120804 liver slices and GSE120679 lu",
+      "citation": "[46]",
+      "numbers": [
+        46
+      ]
+    },
+    {
+      "text": "Additional sources retained their actual experimental units. GSE120804 liver slices and GSE120679 lu",
+      "citation": "[47]",
+      "numbers": [
+        47
+      ]
+    },
+    {
+      "text": "FBP1 was the only candidate separating DILI onset from acute non-drug liver injury after correction ",
+      "citation": "[30]",
+      "numbers": [
+        30
+      ]
+    },
+    {
+      "text": "The frozen pharmacology set contained 11 quantitative records for the two priorities: seven for PDGF",
+      "citation": "[54]",
+      "numbers": [
+        54
+      ]
+    },
+    {
+      "text": "We challenged the frozen priorities in GSE125975, an independent experiment containing 22 mouse non-",
+      "citation": "[58]",
+      "numbers": [
+        58
+      ]
+    },
+    {
+      "text": "The Kdr response was concordant with reduced VEGFR2 phosphorylation and downstream AKT/ERK signaling",
+      "citation": "[58]",
+      "numbers": [
+        58
+      ]
+    },
+    {
+      "text": "The hepatic reporting signal establishes the clinical relevance of this question and the importance ",
+      "citation": "[21, 22, 23, 24, 25]",
+      "numbers": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ]
+    },
+    {
+      "text": "The hepatic reporting signal establishes the clinical relevance of this question and the importance ",
+      "citation": "[49, 50, 51]",
+      "numbers": [
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "text": "The clinical proteome gives that question a measurable endpoint. Changes in intermediary-metabolism,",
+      "citation": "[31, 62, 63]",
+      "numbers": [
+        31,
+        62,
+        63
+      ]
+    },
+    {
+      "text": "The clinical proteome gives that question a measurable endpoint. Changes in intermediary-metabolism,",
+      "citation": "[30]",
+      "numbers": [
+        30
+      ]
+    },
+    {
+      "text": "The relationship between receptor activity, transcription, and protein release determines the measur",
+      "citation": "[34, 35]",
+      "numbers": [
+        34,
+        35
+      ]
+    },
+    {
+      "text": "The relationship between receptor activity, transcription, and protein release determines the measur",
+      "citation": "[32, 64]",
+      "numbers": [
+        32,
+        64
+      ]
+    },
+    {
+      "text": "The revised network analysis connects receptor selection to a clinically weighted injury phenotype w",
+      "citation": "[39, 40, 41, 42, 43]",
+      "numbers": [
+        39,
+        40,
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "text": "The revised network analysis connects receptor selection to a clinically weighted injury phenotype w",
+      "citation": "[36, 37, 38, 65]",
+      "numbers": [
+        36,
+        37,
+        38,
+        65
+      ]
+    },
+    {
+      "text": "The endpoint-resolved pharmacology adds a direct biochemical basis for this experimental choice: bot",
+      "citation": "[56]",
+      "numbers": [
+        56
+      ]
+    },
+    {
+      "text": "The endpoint-resolved pharmacology adds a direct biochemical basis for this experimental choice: bot",
+      "citation": "[57]",
+      "numbers": [
+        57
+      ]
+    },
+    {
+      "text": "Independent liver exposure adds KDR as a pharmacodynamic comparator to this experimental strategy. T",
+      "citation": "[58]",
+      "numbers": [
+        58
+      ]
+    },
+    {
+      "text": "Independent liver exposure adds KDR as a pharmacodynamic comparator to this experimental strategy. T",
+      "citation": "[66, 67]",
+      "numbers": [
+        66,
+        67
+      ]
+    },
+    {
+      "text": "FGFR1 supplies an additional comparator for compartment-specific testing. Its context-dependent biol",
+      "citation": "[68, 69, 70]",
+      "numbers": [
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "text": "FGFR1 supplies an additional comparator for compartment-specific testing. Its context-dependent biol",
+      "citation": "[59, 71, 72]",
+      "numbers": [
+        59,
+        71,
+        72
+      ]
+    },
+    {
+      "text": "Pulmonary preservation completes this experimental logic. The responsive rat contrasts and the weake",
+      "citation": "[44, 45]",
+      "numbers": [
+        44,
+        45
+      ]
+    },
+    {
+      "text": "Pulmonary preservation completes this experimental logic. The responsive rat contrasts and the weake",
+      "citation": "[46, 47]",
+      "numbers": [
+        46,
+        47
+      ]
+    },
+    {
+      "text": "Pulmonary preservation completes this experimental logic. The responsive rat contrasts and the weake",
+      "citation": "[73, 74]",
+      "numbers": [
+        73,
+        74
+      ]
+    },
+    {
+      "text": "The next study should implement donor-replicated hepatic perturbation of PDGFRA and FLT4, with KDR a",
+      "citation": "[28, 29]",
+      "numbers": [
+        28,
+        29
+      ]
+    },
+    {
+      "text": "The next study should implement donor-replicated hepatic perturbation of PDGFRA and FLT4, with KDR a",
+      "citation": "[75, 76]",
+      "numbers": [
+        75,
+        76
+      ]
+    },
+    {
+      "text": "The next study should implement donor-replicated hepatic perturbation of PDGFRA and FLT4, with KDR a",
+      "citation": "[77, 78]",
+      "numbers": [
+        77,
+        78
+      ]
+    },
+    {
+      "text": "ChEMBL; LINCS [79]",
+      "citation": "[79]",
+      "numbers": [
+        79
+      ]
+    },
+    {
+      "text": "openFDA [80]",
+      "citation": "[80]",
+      "numbers": [
+        80
+      ]
+    },
+    {
+      "text": "US FDA/openFDA [80]",
+      "citation": "[80]",
+      "numbers": [
+        80
+      ]
+    },
+    {
+      "text": "Ravindra et al. [30]",
+      "citation": "[30]",
+      "numbers": [
+        30
+      ]
+    },
+    {
+      "text": "Gene Expression Omnibus [81]",
+      "citation": "[81]",
+      "numbers": [
+        81
+      ]
+    },
+    {
+      "text": "Harmonizome [82]",
+      "citation": "[82]",
+      "numbers": [
+        82
+      ]
+    },
+    {
+      "text": "Gene Expression Omnibus [83]",
+      "citation": "[83]",
+      "numbers": [
+        83
+      ]
+    },
+    {
+      "text": "Gene Expression Omnibus [84]",
+      "citation": "[84]",
+      "numbers": [
+        84
+      ]
+    },
+    {
+      "text": "Gene Expression Omnibus [85]",
+      "citation": "[85]",
+      "numbers": [
+        85
+      ]
+    },
+    {
+      "text": "Gene Expression Omnibus [86]",
+      "citation": "[86]",
+      "numbers": [
+        86
+      ]
+    },
+    {
+      "text": "GEO; NCBI BioProject [87, 88]",
+      "citation": "[87, 88]",
+      "numbers": [
+        87,
+        88
+      ]
+    },
+    {
+      "text": "Gene Expression Omnibus [89, 90]",
+      "citation": "[89, 90]",
+      "numbers": [
+        89,
+        90
+      ]
+    },
+    {
+      "text": "PRIDE/ProteomeXchange [91]",
+      "citation": "[91]",
+      "numbers": [
+        91
+      ]
+    },
+    {
+      "text": "PRIDE; Zenodo [92, 93]",
+      "citation": "[92, 93]",
+      "numbers": [
+        92,
+        93
+      ]
+    },
+    {
+      "text": "Gene Expression Omnibus [94]",
+      "citation": "[94]",
+      "numbers": [
+        94
+      ]
+    },
+    {
+      "text": "DDBJ BioProject [95]",
+      "citation": "[95]",
+      "numbers": [
+        95
+      ]
+    },
+    {
+      "text": "ChEMBL [96]",
+      "citation": "[96]",
+      "numbers": [
+        96
+      ]
+    },
+    {
+      "text": "STRING [97]",
+      "citation": "[97]",
+      "numbers": [
+        97
+      ]
+    },
+    {
+      "text": "openFDA drug/event API; release updated 30 July 2026 [80]",
+      "citation": "[80]",
+      "numbers": [
+        80
+      ]
+    },
+    {
+      "text": "Ravindra et al., Nature Communications 2023, Nature Communications source data, accompanying source-",
+      "citation": "[30]",
+      "numbers": [
+        30
+      ]
+    },
+    {
+      "text": "GEO GSE70138; official supplementary directory [81]",
+      "citation": "[81]",
+      "numbers": [
+        81
+      ]
+    },
+    {
+      "text": "ChEMBL activity API [79, 96]",
+      "citation": "[79, 96]",
+      "numbers": [
+        79,
+        96
+      ]
+    },
+    {
+      "text": "Harmonizome Sci-Plex gene sets MCF7_Nintedanib_1\u00b5M_24h and MCF7_Nintedanib_10\u00b5M_24h [82]",
+      "citation": "[82]",
+      "numbers": [
+        82
+      ]
+    },
+    {
+      "text": "GEO GSE115469 [83]",
+      "citation": "[83]",
+      "numbers": [
+        83
+      ]
+    },
+    {
+      "text": "STRING API [97]",
+      "citation": "[97]",
+      "numbers": [
+        97
+      ]
+    },
+    {
+      "text": "GEO GSE278200 [85]",
+      "citation": "[85]",
+      "numbers": [
+        85
+      ]
+    },
+    {
+      "text": "GEO GSE308578 [86]",
+      "citation": "[86]",
+      "numbers": [
+        86
+      ]
+    },
+    {
+      "text": "GEO GSE151374; BioProject PRJNA635636 [87, 88]",
+      "citation": "[87, 88]",
+      "numbers": [
+        87,
+        88
+      ]
+    },
+    {
+      "text": "DDBJ DRA012991 / PRJDB12477 [95]",
+      "citation": "[95]",
+      "numbers": [
+        95
+      ]
+    },
+    {
+      "text": "GEO GSE120804; GEO GSE120679 [89, 90]",
+      "citation": "[89, 90]",
+      "numbers": [
+        89,
+        90
+      ]
+    },
+    {
+      "text": "PRIDE PXD024058 [91]",
+      "citation": "[91]",
+      "numbers": [
+        91
+      ]
+    },
+    {
+      "text": "PRIDE PXD052594; Zenodo record 11395642 [92, 93]",
+      "citation": "[92, 93]",
+      "numbers": [
+        92,
+        93
+      ]
+    },
+    {
+      "text": "GEO GSE299128 [94]",
+      "citation": "[94]",
+      "numbers": [
+        94
+      ]
+    },
+    {
+      "text": "GEO GSE125975 [84]",
+      "citation": "[84]",
+      "numbers": [
+        84
+      ]
+    }
+  ]
+}

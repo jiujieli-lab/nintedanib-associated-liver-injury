@@ -1,0 +1,24 @@
+{
+  "abstract": "Kinase inhibitors show great promise as a new class of therapeutics. Here we describe an efficient way to determine kinase inhibitor specificity by measuring binding of small molecules to the ATP site of kinases. We have profiled 20 kinase inhibitors, including 16 that are approved drugs or in clinical development, against a panel of 119 protein kinases. We find that specificity varies widely and is not strongly correlated with chemical structure or the identity of the intended target. Many novel interactions were identified, including tight binding of the p38 inhibitor BIRB-796 to an imatinib-resistant variant of the ABL kinase, and binding of imatinib to the SRC-family kinase LCK. We also show that mutations in the epidermal growth factor receptor (EGFR) found in gefitinib-responsive patients do not affect the binding affinity of gefitinib or erlotinib. Our results represent a systematic small molecule-protein interaction map for clinical compounds across a large number of related proteins.",
+  "authors": "Fabian MA, Biggs WH, Treiber DK, Atteridge CE, Azimioara MD, Benedetti MG, Carter TA, Ciceri P, Edeen PT, Floyd M, Ford JM, Galvin M, Gerlach JL, Grotzfeld RM, Herrgard S, Insko DE, Insko MA, Lai AG, L\u00e9lias JM, Mehta SA, Milanov ZV, Velasco AM, Wodicka LM, Patel HK, Zarrinkar PP, Lockhart DJ.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_1",
+    "creation_date": "2009-09-03"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1144455",
+  "doi": "10.1038/nbt1068",
+  "doi_chembl": null,
+  "first_page": "329",
+  "issue": "3",
+  "journal": "Nat Biotechnol",
+  "journal_full_title": "Nature biotechnology.",
+  "last_page": "336",
+  "patent_id": null,
+  "pubmed_id": 15711537,
+  "src_id": 1,
+  "title": "A small molecule-kinase interaction map for clinical kinase inhibitors.",
+  "volume": "23",
+  "year": 2005
+}

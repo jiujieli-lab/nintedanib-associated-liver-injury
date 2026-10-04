@@ -1,0 +1,24 @@
+{
+  "abstract": "Overcoming the FLT3-ITD mutant has been a promising drug design strategy for treating acute myeloid leukemia (AML). Herein, we discovered a novel FLT3 inhibitor <b>17</b>, which displayed potent inhibitory activity against the FLT3-ITD mutant (IC<sub>50</sub> = 0.8 nM) and achieved good selectivity over c-KIT kinase (over 500-fold). Compound <b>17</b> selectively inhibited the proliferation of FLT3-ITD-positive AML cell lines MV4-11 (IC<sub>50</sub> = 23.5 nM) and MOLM-13 (IC<sub>50</sub> = 35.5 nM) and exhibited potent inhibitory effects against associated acquired resistance mutations. In cellular mechanism studies, compound <b>17</b> strongly inhibited FLT3-mediated signaling pathways and induced apoptosis by arresting the cell cycle in the sub-G1 phase. In in vivo studies, compound <b>17</b> demonstrated a good bioavailability (73.6%) and significantly suppressed tumor growth in MV4-11 (10 mg/kg, TGI 93.4%) and MOLM-13 (20 mg/kg, TGI 98.0%) xenograft models without exhibiting obvious toxicity. These results suggested that compound <b>17</b> may be a promising drug candidate for treating FLT3-ITD-positive AML.",
+  "authors": "Wang J, Pan X, Song Y, Liu J, Ma F, Wang P, Liu Y, Zhao L, Kang D, Hu L.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_31",
+    "creation_date": "2022-07-12"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4823252",
+  "doi": "10.1021/acs.jmedchem.0c02247",
+  "doi_chembl": null,
+  "first_page": "4870",
+  "issue": "8.0",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "4890",
+  "patent_id": null,
+  "pubmed_id": 33797247,
+  "src_id": 1,
+  "title": "Discovery of a Potent and Selective FLT3 Inhibitor (<i>Z</i>)-<i>N</i>-(5-((5-Fluoro-2-oxoindolin-3-ylidene)methyl)-4-methyl-1<i>H</i>-pyrrol-3-yl)-3-(pyrrolidin-1-yl)propanamide with Improved Drug-like Properties and Superior Efficacy in FLT3-ITD-Positive Acute Myeloid Leukemia.",
+  "volume": "64",
+  "year": 2021
+}

@@ -1,0 +1,356 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <base href="/Harmonizome/" />
+        
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="application-name" content="Harmonizome">
+<meta name="image" property="og:image" content="https://maayanlab.cloud/Harmonizome/image/logo.png">
+<meta name="google-site-verification" content="fr54XOm23BmaS1lOyJpFTma4ReWaIP61S_yYHk3S4EE" />
+
+<link rel="shortcut icon" href="image/logo_16x16.png?v=3">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,700italic" rel="stylesheet" type="text/css">
+
+<script src="lib/jquery/jquery.min.js"></script>
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<link href="https://code.jquery.com/ui/1.11.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet" type="text/css">
+<script src="lib/typeahead/typeahead.bundle.min.js"></script>
+<link href="lib/dataTables/dataTables.bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="lib/dataTables/responsive.bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="lib/dataTables/buttons.dataTables.min.css" rel="stylesheet" type="text/css">
+<script src="lib/dataTables/dataTables.min.js"></script>
+<script src="lib/dataTables/dataTables.bootstrap.min.js"></script>
+<script src="lib/dataTables/dataTables.buttons.min.js"></script>
+<script src="lib/dataTables/buttons.html5.min.js"></script>
+<script src="lib/dataTables/jszip.min.js"></script>
+
+<link href="dist/style/common.css" rel="stylesheet" type="text/css">
+<link href="dist/style/pages.css" rel="stylesheet" type="text/css">
+<link href="dist/style/overrides.css" rel="stylesheet" type="text/css">
+<script>
+	window._config = {
+		ENRICHR_URL: "https://maayanlab.cloud/Enrichr",
+	}
+</script>
+<script src="script/common.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YE39VDRY13"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { window.dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'G-YE39VDRY13');
+</script>
+        
+            
+                <title>Sci-Plex</title>
+            
+            
+        
+        
+            
+            
+                <meta name="description" content="Search for genes and functional terms extracted and organized from over a hundred publicly available resources."/>
+            
+        
+
+        
+        
+            
+            
+                <meta name="keywords" content="harmonizome, lincs, bd2k, dcic, bd2k-lincs dcic, data coordination and integration center,
+                    biomedical, systems biology, drug discovery, gene signature,
+                    genomics, transcriptomics, proteomics, metabolomics,
+                    genes, proteins, cell lines, tissues, perturbations, diseases, phenotypes, drugs,
+                    maayan lab, avi ma'ayan, avi maayan"/>
+            
+        
+
+        
+            
+            
+                
+            
+        
+
+        
+            
+        
+    </head>
+    <body>
+        
+            
+                <div id="navbar-wrapper" class="navbar-static-top">
+	<div class="container">
+		<h1 class="pull-left">
+			<a href="">
+				<img src="image/logo_30x26.png">
+				<span class="project-title">Harmonizome 3.0</span>
+			</a>
+		</h1>
+
+		
+
+<div class="search-bar in-navbar">
+	<form accept-charset="utf-8" class="form-horizontal" action="search" method="GET">
+		<select class="entity-dropdown form-control all" name="t">
+			<option value="all">All</option>
+			<option value="gene">Genes</option>
+			<option value="geneSet">Gene Sets</option>
+			<option value="dataset">Datasets</option>
+		</select>
+		
+		<!-- If you're wondering why the order of the elements is reversed, see
+		     this simplified demo of how the search bar works:
+		     http://jsfiddle.net/0z1uup9t/
+		  -->
+		<div class="submit-button input-group-btn">
+			<button type="submit" class="btn btn-default">
+				<span class="glyphicon glyphicon-search"></span>
+			</button>
+		</div>
+		<div class="input-bar">
+			<label for="q" class="sr-only">Search</label>
+            
+                
+                
+                    <input data-provide="typeahead" type="text" class="form-control" name="q">
+                
+            
+		</div>
+	</form>
+</div>
+
+
+		<!-- This is the dropdown button for the mobile version of the site -->
+		<div id="menu-dropdown" class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+
+		<div id="menu" class="navbar-collapse collapse pull-right">
+	<ul class="nav navbar-nav list-inline">
+		<li class="search-item">
+			<a href="">Search</a>
+		</li>
+		<li>
+			<a href="download">Download</a>
+		</li>
+		<li>
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Visualize</a>
+			<ul class="dropdown-menu">
+				<li><a href="visualize/heat_map/gene_attribute">Gene Attribute Heat Maps</a></li>
+				<li><a href="visualize/heat_map/gene_similarity">Gene Similarity Heat Maps</a></li>
+                <li><a href="visualize/heat_map/attribute_similarity">Attribute Similarity Heat Maps</a></li>
+				<li><a href="visualize/umap">UMAP</a></li>
+                <li><a href="visualize/heat_map/dataset_pairs">Dataset Pair Heat Maps</a></li>
+                <li><a href="visualize/heat_map/input_genes">Heat Map with Input Genes</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">Predict</a>
+			<ul class="dropdown-menu">
+				<li><a href="machine_learning">Intro</a></li>
+				<li><a href="machine_learning/ic_predictions">Ion channels</a></li>
+				<li><a href="machine_learning/mp_predictions">Mouse phenotypes</a></li>
+				<li><a href="machine_learning/gl_predictions">GPCR-Ligands</a></li>
+				<li><a href="machine_learning/ks_predictions">Kinase-substrates</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="cross">Cross</a>
+		</li>
+		<li>
+			<a href="chatbot">Chatbot</a>
+		</li>
+		<li>
+			<a href="https://harmonizome-kg.maayanlab.cloud">KG</a>
+		</li>
+		<li>
+			<a href="documentation">Docs</a>
+		</li>
+		<li>
+			<a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
+			<ul class="dropdown-menu">
+				<li><a href="about">About</a></li>
+				<li><a href="whatsNew">What's New</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
+	</div>
+</div>
+            
+            
+        
+        <div class="wrapper">
+            <div class="container">
+                
+    <div class="resource-page">
+        <h1>Sci-Plex <span class="note">Resource</span></h1>
+        <table class="table">
+            <tr>
+                <td class="col-md-2">Description</td>
+                <td class="col-md-10">
+                    Global quantitative transcriptional response to independent perturbations at single cell resolution, using nuclear hashing to enable single-cell combinatorial indexing.
+                </td>
+            </tr>
+            
+                
+                
+                    
+                        
+                            
+                                
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+                <tr>
+                    <td class="col-md-2">Citation(s)</td>
+                    <td class="col-md-10">
+                        <ul>
+                            
+                                <li>
+                                    <a href="https://pubmed.ncbi.nlm.nih.gov/31806696" target="_blank">
+                                        Srivatsan SR, et al. (2019) Massively multiplex chemical transcriptomics at single-cell resolution. Science. 367(6473):45-51
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    </td>
+                </tr>
+            
+            
+            
+                <tr>
+                    <td class="col-md-2">External Link</td>
+                    <td class="col-md-10">
+                        <a href="https://github.com/cole-trapnell-lab/sci-plex" target="_blank">
+                            https://github.com/cole-trapnell-lab/sci-plex
+                        </a>
+                    </td>
+                </tr>
+            
+        </table>
+        <h2>Datasets</h2>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Dataset</th>
+                        <th>Description</th>
+                        <th>Category</th>
+                        <th>Attribute</th>
+                        <th>Views</th>
+                    </tr>
+                </thead>
+                
+                    <tr>
+                        <td>
+                            <a href="dataset/Sci-Plex+Drug+Perturbation+Signatures">
+                                Drug Perturbation Signatures
+                            </a>
+                        </td>
+                        <td>sciRNA-seq expression profiles for A549, K562, and MCF7 cells treated with 188 compounds at 4 doses</td>
+                        <td>transcriptomics</td>
+                        <td>drug perturbation</td>
+                        <td>4947</td>
+                    </tr>
+                
+            </table>
+        </div>
+    </div>
+
+            </div>
+        </div>
+        <div class="footer container-full">
+	<div class="container">
+		<div class="pull-left">
+			<ul id="contact" class="list-inline">
+				<li>
+					<a href="http://icahn.mssm.edu/research/labs/maayan-laboratory" target="_blank">Ma'ayan Lab<span class="hide-on-mobile">oratory of Computational Systems Biology</span></a>
+				</li>
+				<li class="left-border">
+					<a href="contact">Contact Us</a>
+				</li>
+				<li class="left-border">
+					<a href="https://github.com/MaayanLab/harmonizome-issues/issues" target="_blank">Submit an issue on GitHub</a>
+				</li>
+				<li class="left-border">
+					<a href="terms">Terms</a>
+				</li>
+			</ul>
+			<div id="citation">
+				<h6>Please acknowledge the Harmonizome in your publications by citing the following reference(s):</h6>
+				<p>
+					<a href="https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkae1080/7905315" 
+					target="_blank">Diamant I, Clarke DJB, Evangelista JE, Lingam N, Ma'ayan A. <em>Harmonizome 3.0: 
+						integrated knowledge about genes and proteins from diverse multi-omics resources</em>. Nucleic 
+						Acids Res. 2024 Nov 20. pii: 53(1):D1016-D1028.
+					</a>
+				</p>
+				<p>
+					<a href="http://database.oxfordjournals.org/content/2016/baw100.short" target="_blank">
+						Rouillard AD, Gundersen GW, Fernandez NF, Wang Z, Monteiro CD, McDermott MG, Ma'ayan A. 
+						<em>The harmonizome: a collection of processed datasets gathered to serve and mine knowledge 
+						about genes and proteins</em>. Database (Oxford). 2016 Jul 3;2016. pii: baw100.
+					</a>
+				</p>
+			</div>
+		</div>
+		<div class="footer-right">
+			<div id="share" class="pull-right hide-on-mobile">
+				<a href="https://www.linkedin.com/shareArticle?url=https://maayanlab.cloud/Harmonizome" target="_blank">
+					<img src="image/share/linkedin.png">
+				</a>
+				<a href="https://www.facebook.com/sharer/sharer.php?u=https://maayanlab.cloud/Harmonizome/" target="_blank">
+					<img src="image/share/facebook.png">
+				</a>
+				<a href="https://twitter.com/intent/tweet?text=Harmonizome%203.0:%20Integrated%20Knowledge%20
+				about%20Genes%20and%20Proteins%20from%20sDiverse%20Multi-Omics%20Resources&url=
+				https://maayanlab.cloud/Harmonizome" target="_blank">
+					<img src="image/share/twitter.png">
+				</a>
+			</div>
+			<div id="license" class="pull-right hide-on-mobile">
+				<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+					<img src="image/cc-by-nc-sa.png">
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+    </body>
+</html>

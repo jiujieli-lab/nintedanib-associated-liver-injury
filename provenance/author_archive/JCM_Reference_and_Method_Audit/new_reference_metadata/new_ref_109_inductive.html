@@ -1,0 +1,2246 @@
+<!DOCTYPE html><!-- This site was created in Webflow. https://webflow.com --><!-- Last Published: Mon Sep 28 2026 20:14:16 GMT+0000 (Coordinated Universal Time) --><html data-wf-domain="www.inductive.bio" data-wf-page="6aac2fbd681f6743b9015d10" data-wf-site="6a95a45a5e8c74e1fbec3bc2" lang="en"><head><meta charset="utf-8"/><link href="https://cdn.prod.website-files.com" rel="preconnect" crossorigin="anonymous"/><title>Inductive Bio MCP Connector | ADMET Predictions in Claude</title><meta content="Access Inductive Bio&#x27;s LogD and pKa prediction models directly in Claude AI. Evaluate compounds and prioritize drug candidates without leaving your workflow." name="description"/><meta content="Inductive Bio MCP Connector | ADMET Predictions in Claude" property="og:title"/><meta content="Access Inductive Bio&#x27;s LogD and pKa prediction models directly in Claude AI. Evaluate compounds and prioritize drug candidates without leaving your workflow." property="og:description"/><meta content="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6a96b4cf7bc2b747c9f842d2_918df5f9ecbb5ac5488f0c691a16be00_Open%20Graph.png" property="og:image"/><meta content="Inductive Bio MCP Connector | ADMET Predictions in Claude" name="twitter:title"/><meta content="Access Inductive Bio&#x27;s LogD and pKa prediction models directly in Claude AI. Evaluate compounds and prioritize drug candidates without leaving your workflow." name="twitter:description"/><meta property="og:type" content="website"/><meta content="summary_large_image" name="twitter:card"/><meta content="width=device-width, initial-scale=1" name="viewport"/><meta content="Webflow" name="generator"/><link href="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/css/inductive-site.webflow.shared.4561a9faf.min.css" rel="stylesheet" type="text/css" integrity="sha384-RWGp+v+XgjJuMb1HmK/XGhZ1q6GR5GcqWoySv8oXzwU1rtusQM0DlipT30VAp6z7" crossorigin="anonymous"/><script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script><link href="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa7f1a7d4a5a5a804b6e040_Favicon%20-%20Large.png" rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: light)"/><link href="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa7f1a7d4a5a5a804b6e040_Favicon%20-%20Large.png" rel="icon" type="image/png" sizes="32x32" media="(prefers-color-scheme: dark)"/><link href="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa7f1a74067414f93e1e0ad_Favicon%20-%20Large.png" rel="icon" type="image/png" sizes="48x48"/><link href="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa7f1a7fb2a852e6fbf7430_Favicon%20-%20Large.png" rel="apple-touch-icon" sizes="180x180"/><link href="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa7f1a71d11eb5aef4fc2a3_Favicon%20-%20Large.png" rel="icon" type="image/png" sizes="192x192"/><link href="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa7f1a7adffef0cc1ba4e15_Favicon%20-%20Large.png" rel="icon" type="image/png" sizes="512x512"/><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Inductive Bio MCP Connector",
+  "description": "Inductive Bio's absorption, distribution, metabolism, excretion, and toxicity (ADMET) models predict the chemical and pharmacokinetic properties that determine whether a molecule can become a viable drug. By surfacing these predictions directly in your conversation with Claude, scientists can evaluate compounds, triage ideas, and prioritize which molecules to synthesize, without leaving their existing AI workflow.",
+  "url": "/mcp-connector",
+  "inLanguage": "en",
+  "applicationCategory": "ScienceApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "featureList": [
+    "LogD (lipophilicity) predictions",
+    "pKa (acid/base ionization) predictions",
+    "Integration with Claude AI",
+    "Real-time compound evaluation",
+    "Drug design iteration support"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "Inductive Bio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6a969081c74ba97029be6222_a543f5bce0833c58caf0a47f3a98e8f0_Inductive%20Logo.svg"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/company/inductive-bio",
+      "https://twitter.com/inductivebio"
+    ]
+  },
+  "softwareHelp": {
+    "@type": "WebPage",
+    "url": "/mcp-connector"
+  }
+}
+</script><!-- CookieYes -->
+<script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/11fbfa999ecd7d2b8159ead2c68373c2/script.js"></script>
+
+<!-- GA4 and Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M6HNBGCL4Z"></script>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag('js', new Date());
+
+  gtag('config', 'G-M6HNBGCL4Z');
+  gtag('config', 'AW-17942803043');
+</script>
+
+<!-- Apollo -->
+<script>
+  function initApollo() {
+    var n = Math.random().toString(36).substring(7);
+    var o = document.createElement('script');
+
+    o.src = 'https://assets.apollo.io/micro/website-tracker/tracker.iife.js?nocache=' + n;
+
+    o.async = true;
+    o.defer = true;
+
+    o.onload = function () {
+      window.trackingFunctions.onLoad({
+        appId: '6667b059895dc20388efd1b8',
+      });
+    };
+
+    document.head.appendChild(o);
+  }
+
+  initApollo();
+</script>
+
+<!-- Custom site Theme Color -->
+<meta name="theme-color" content="#fffdfa" />
+
+<!-- Lenis smooth scroll custom CSS -->
+<link rel="stylesheet" href="https://unpkg.com/lenis@1.3.23/dist/lenis.css" /></head><body><div class="page-wrapper"><div class="global-styles w-embed"><style>
+  /* Make text look crisper and more legible in all browsers */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Focus state style for keyboard navigation for the focusable elements */
+  *[tabindex]:focus-visible,
+  input[type='file']:focus-visible {
+    outline: 0.125rem solid #4d65ff;
+    outline-offset: 0.125rem;
+  }
+
+  /* Set color style to inherit */
+  .inherit-color * {
+    color: inherit;
+  }
+
+  /* Get rid of top margin on first element in any rich text element */
+  .w-richtext > :not(div):first-child,
+  .w-richtext > div:first-child > :first-child {
+    margin-top: 0 !important;
+  }
+
+  /* Get rid of bottom margin on last element in any rich text element */
+  .w-richtext > :last-child,
+  .w-richtext ol li:last-child,
+  .w-richtext ul li:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  .w-richtext figure {
+    max-width: 100% !important;
+  }
+
+  /* Make sure containers never lose their center alignment */
+  .container-medium,
+  .container-small,
+  .container-large {
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  /* Apply "..." after 3 lines of text */
+  .text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+
+  /* Apply "..." after 2 lines of text */
+  .text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  /* These classes are never overwritten */
+  .hide {
+    display: none !important;
+  }
+
+  @media screen and (max-width: 991px) {
+    .hide,
+    .hide-tablet {
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape {
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 479px) {
+    .hide-mobile {
+      display: none !important;
+    }
+  }
+
+  .w-webflow-badge {
+    display: none !important;
+  }
+
+  ::selection {
+    background-color: var(--_color---primary--purple-navy);
+    color: var(--_color---primary--white);
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  /* Nav banner marquee */
+  @media (max-width: 991px) {
+    .nav_banner-text {
+      animation: marquee-text-scroll 25s linear infinite;
+    }
+
+    @keyframes marquee-text-scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+  }
+
+  /* Remove border on grouped CTA's */
+  .nav_button-group [data-wf--cta--settings-variant='secondary'] {
+    border-right: unset;
+  }
+
+  .nav_dropdown-left-wrap:hover .c-cta {
+    background-color: var(--_color---primary--button-hover);
+  }
+
+  @media (min-width: 992px) {
+    .hero_cta-group [data-wf--cta--settings-variant='secondary'] {
+      border-left: unset;
+    }
+  }
+
+  /* Link line hover interaction */
+  @media (min-width: 992px) {
+    [data-link-animate] {
+      position: relative;
+    }
+
+    [data-link-animate]::before {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      background-color: #d1e2f3;
+      transform: scaleX(0);
+      transform-origin: right;
+      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+      pointer-events: none;
+    }
+
+    /* News Card Hover Interaction */
+    .news_card-right-wrap::before {
+      position: absolute;
+      content: '';
+      left: 0;
+      top: -1.5rem;
+      width: 100%;
+      height: calc(100% + 3rem);
+      z-index: 0;
+      background-color: #d1e2f3;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+      pointer-events: none;
+    }
+
+    @media (max-width: 767px) {
+      .news_card-right-wrap::before {
+        top: 0rem;
+        height: 100%;
+      }
+    }
+
+    .news_card:hover .news_card-right-wrap::before,
+    .news_card:focus-within .news_card-right-wrap::before {
+      transform: scaleY(1);
+    }
+
+    .news_card-right-wrap > * {
+      position: relative;
+      z-index: 0;
+      isolation: isolate;
+      pointer-events: none;
+    }
+
+    [data-link-animate]:hover::before,
+    [data-nav-dropdown]:hover [data-nav-dropdown-toggle]::before {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
+
+  .cms_list .cms_item:last-child .related-solutions_learn-link {
+    border-bottom: unset;
+  }
+
+  /* Navbar */
+  .nav_dropdown-link:hover .nav_dropdown-image-wrap {
+    background-color: #d1e2f3;
+  }
+
+  @media (min-width: 992px) {
+    /*
+    html:not(.wf-design-mode) .nav_dropdown-wrrap {
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+    }
+    */
+    .nav_dropdown-wrrap {
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  [data-nav-toggle]:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+  }
+
+  [data-nav-toggle]:focus-visible,
+  [data-nav-dropdown-toggle]:focus-visible,
+  [data-nav-dropdown-link]:focus-visible,
+  [data-nav] [href]:focus-visible {
+    outline: 0.125rem solid var(--_color---primary--purple-navy);
+    outline-offset: 0.25rem;
+  }
+
+  [data-nav-dropdown-panel] {
+    --nav-dropdown-open-gap: 1.44rem;
+  }
+
+  @media (min-width: 62rem) {
+    [data-nav] [data-nav-dropdown] {
+      position: static;
+    }
+
+    [data-nav-dropdown-accordion] {
+      position: static;
+      height: auto;
+      overflow: visible;
+    }
+
+    [data-nav-dropdown-panel] {
+      position: absolute;
+
+      top: 100%;
+      right: 0;
+      left: 0;
+
+      margin-right: auto;
+      margin-left: auto;
+
+      translate: none;
+      transform: none;
+    }
+  }
+
+  @media (min-width: 62rem) and (hover: hover) and (pointer: fine) {
+    [data-nav-dropdown-bridge] {
+      position: relative;
+    }
+
+    [data-nav-dropdown-bridge]::after,
+    [data-nav-dropdown-bridge]::before {
+      content: '';
+      position: absolute;
+      top: 70%;
+      left: 0;
+      width: 100%;
+      height: 2rem;
+      background: transparent;
+      pointer-events: auto;
+    }
+
+    [data-nav-dropdown-bridge]::before {
+      top: -2rem;
+    }
+  }
+
+  @media (max-width: 61.9375rem) {
+    [data-nav-dropdown-accordion] {
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+    }
+
+    [data-nav-dropdown-panel] {
+      width: 100%;
+
+      position: relative;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: auto;
+
+      margin: 0;
+
+      translate: none;
+      transform: none;
+    }
+
+    [data-nav-bar] {
+      z-index: 2;
+      position: relative;
+      background-color: var(--_color---primary--background);
+    }
+
+    [data-nav-menu] {
+      z-index: 1;
+      top: var(--nav-bar-height, 4.81rem);
+      bottom: auto;
+      height: calc(var(--nav-viewport-height, 100dvh) - var(--nav-bar-height, 4.81rem));
+      padding-top: 0;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+
+  /* Easter's Egg Custom CSS */
+  [data-easter-status-dot] {
+    transform-origin: center;
+    animation: easter-egg-status-pulse 2.4s ease-in-out infinite;
+  }
+
+  [data-easter-counter] {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum' 1;
+    white-space: nowrap;
+  }
+
+  .easter-egg_counter-visual {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+  }
+
+  .easter-egg_counter-digit {
+    width: 1ch;
+    height: 1em;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    flex: none;
+  }
+
+  .easter-egg_counter-digit-value {
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+  }
+
+  .easter-egg_counter-separator {
+    display: inline-block;
+    line-height: 1;
+  }
+
+  .easter-egg_counter-sr {
+    width: 0.0625rem;
+    height: 0.0625rem;
+    padding: 0;
+    margin: -0.0625rem;
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  @keyframes easter-egg-status-pulse {
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    50% {
+      opacity: 0.4;
+      transform: scale(0.88);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [data-easter-status-dot] {
+      animation: none;
+    }
+  }
+
+  /* News share icon */
+  @media (768px <= width <= 1130px) {
+    .news-template_share-list {
+      flex-direction: column;
+    }
+  }
+</style></div><nav aria-label="Primary Navigation" data-nav="true" class="c-nav"><div data-nav-bar="true" class="nav_wrap"><a href="/" class="nav_logo-link w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6a969081c74ba97029be6222_a543f5bce0833c58caf0a47f3a98e8f0_Inductive%20Logo.svg" alt="Inductive Logo" class="nav_logo"/></a><div data-nav-menu="true" class="nav_mid-wrap"><ul role="list" class="nav_list"><li data-nav-dropdown="true" data-nav-item="true" class="nav_list-item has-dropdown"><div id="" data-nav-dropdown-bridge="" class="nav_dropdown-bridge"><button data-nav-dropdown-toggle="true" type="button" aria-expanded="false" data-link-animate="" class="nav_dropdown-btn"><div class="nav_dropdown-btn-text">solutions</div><img data-nav-dropdown-icon="true" loading="lazy" alt="" src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6a9698b3c731f6d3e46d4b36_Vector%20(2).svg" class="nav_dropdown-btn-icon"/></button></div><div data-nav-dropdown-accordion="true" class="data-nav-dropdown-accordion"><div data-nav-dropdown-panel="true" class="nav_dropdown-wrrap"><div data-nav-dropdown-clip="true" class="nav_dropdown-clip"><a data-nav-dropdown-intro="true" id="" href="/solutions" class="nav_dropdown-left-wrap"><div class="nav_dropdown-content-wrap"><div class="nav_dropdown-texts-wrap"><p class="nav_dropdown-title heading-h4">Solutions Overview</p><p class="nav_dropdown-subtext">Learn how each solution plugs into our chemical intelligence loop</p></div><div class="nav_dropdown-cta-wrap"><div class="c-cta uc-secondary"><span class="cta_text">solutions overview</span><svg viewBox="0 0 8 12" class="cta_svg"><path d="M1.415 0L0 1.415L4.585 6L0 10.585L1.415 12L7.415 6L1.415 0Z" fill="currentColor" class="cta_svg-path"></path></svg></div></div></div><img src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa17a968f4e41bccaa7bab1_Dropdown%20Illustration.avif" loading="lazy" sizes="(max-width: 767px) 100vw, 603px" srcset="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa17a968f4e41bccaa7bab1_Dropdown%20Illustration-p-500.avif 500w, https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa17a968f4e41bccaa7bab1_Dropdown%20Illustration.avif 603w" alt="" class="nav_dropdown-left-image hide-mobile-landscape"/></a><div data-nav-dropdown-content="true" class="nav_dropdown-right-wrap"><p class="nav_dropdown-title heading-h4">Individual Solutions</p><div class="nav_dropdown-grid"><div data-nav-dropdown-group="true" class="nav_dropdown-links-group"><div class="nav_dropdown-links-header"><p class="nav_dropdown-links-title c-eyebrow">[virtual lab]</p><div aria-hidden="true" class="nav_dropdown-line"></div></div><ul role="list" class="nav_dropdown-list"><li class="nav_dropdown-list-item"><a data-nav-dropdown-link="true" href="/solutions/compass" class="nav_dropdown-link w-inline-block"><div class="nav_dropdown-image-wrap"><img loading="lazy" src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa17d356695607d339481ea_Compass%20Icon.svg" alt="" class="nav_dropdown-image"/></div><div class="nav_dropdown-details-wrap"><p class="nav_dropdown-link-title">Compass</p><p class="nav_dropdown-link-subtext">Virtual lab bench</p></div></a></li><li class="nav_dropdown-list-item"><a data-nav-dropdown-link="true" href="/solutions/indy" class="nav_dropdown-link w-inline-block"><div class="nav_dropdown-image-wrap"><img loading="lazy" src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa17d3507175db1285ac655_Indy%20Icon.svg" alt="" class="nav_dropdown-image"/></div><div class="nav_dropdown-details-wrap"><p class="nav_dropdown-link-title">Indy</p><p class="nav_dropdown-link-subtext">AI chemistry assistant</p></div></a></li></ul></div><div data-nav-dropdown-group="true" class="nav_dropdown-links-group"><div class="nav_dropdown-links-header"><p class="nav_dropdown-links-title c-eyebrow">[wet lab]</p><div aria-hidden="true" class="nav_dropdown-line"></div></div><ul role="list" class="nav_dropdown-list"><li class="nav_dropdown-list-item"><a data-nav-dropdown-link="true" href="/solutions/ai-integrated-synthesis" class="nav_dropdown-link w-inline-block"><div class="nav_dropdown-image-wrap"><img loading="lazy" src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa17d3536c23103090a731d_AI%20Integrated%20Synthesis%20Icon.svg" alt="" class="nav_dropdown-image"/></div><div class="nav_dropdown-details-wrap"><p class="nav_dropdown-link-title">AI-Integrated Synthesis</p><p class="nav_dropdown-link-subtext">Higher-quality compounds</p></div></a></li><li class="nav_dropdown-list-item"><a data-nav-dropdown-link="true" href="/solutions/adme-one" class="nav_dropdown-link w-inline-block"><div class="nav_dropdown-image-wrap"><img loading="lazy" src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa17d3570485271ed5f50e0_ADME%20one%20Icon.svg" alt="" class="nav_dropdown-image"/></div><div class="nav_dropdown-details-wrap"><p class="nav_dropdown-link-title">ADME-one</p><p class="nav_dropdown-link-subtext">High-throughput ADME assays</p></div></a></li></ul></div></div><div data-nav-dropdown-group="true" class="nav_dropdown-links-group"><div class="nav_dropdown-links-header"><p class="nav_dropdown-links-title c-eyebrow">[experts]</p><div aria-hidden="true" class="nav_dropdown-line"></div></div><ul role="list" class="nav_dropdown-list"><li class="nav_dropdown-list-item"><a data-nav-dropdown-link="true" href="/solutions/embedded-experts" class="nav_dropdown-link w-inline-block"><div class="nav_dropdown-image-wrap"><img loading="lazy" src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6aa17d353b66cf8439a90480_Embedded%20Experts%20Icon.svg" alt="" class="nav_dropdown-image"/></div><div class="nav_dropdown-details-wrap"><p class="nav_dropdown-link-title">Embedded Experts</p><p class="nav_dropdown-link-subtext">Our drug hunters, your program</p></div></a></li></ul></div></div></div></div></div></li><li data-nav-item="true" class="nav_list-item"><a data-link-animate="" data-wf--nav-link--settings-variant="primary" href="/technology" class="nav_link w-inline-block"><span class="nav_link-text">technology</span></a></li><li data-nav-item="true" class="nav_list-item"><a data-link-animate="" data-wf--nav-link--settings-variant="primary" href="/about" class="nav_link w-inline-block"><span class="nav_link-text">about</span></a></li><li data-nav-item="true" class="nav_list-item"><a data-link-animate="" data-wf--nav-link--settings-variant="primary" href="/careers" class="nav_link w-inline-block"><span class="nav_link-text">careers</span></a></li><li data-nav-item="true" class="nav_list-item"><a data-link-animate="" data-wf--nav-link--settings-variant="primary" href="/news" class="nav_link w-inline-block"><span class="nav_link-text">Blog &amp; news</span></a></li></ul><div class="nav_inner-wrap hide"></div></div><div class="nav_right-wrap"><div class="nav_button-group"><div class="nav_login-btn-wrap hide-tablet"><a target="_blank" data-wf--cta--settings-variant="secondary" href="https://app.inductive.bio/login" class="c-cta w-variant-cf0fd054-13cb-5b0e-52ef-3c299c306c5d w-inline-block"><span class="cta_text">login</span><svg viewBox="0 0 8 12" class="cta_svg"><path d="M1.415 0L0 1.415L4.585 6L0 10.585L1.415 12L7.415 6L1.415 0Z" fill="currentColor" class="cta_svg-path"></path></svg></a></div><a data-wf--cta--settings-variant="primary" href="/demo" class="c-cta w-inline-block"><span class="cta_text">demo</span><svg viewBox="0 0 8 12" class="cta_svg"><path d="M1.415 0L0 1.415L4.585 6L0 10.585L1.415 12L7.415 6L1.415 0Z" fill="currentColor" class="cta_svg-path"></path></svg></a></div><button data-nav-toggle="true" type="button" aria-expanded="false" aria-label="Open navigation menu" class="nav_hamburger-btn"><div aria-hidden="true" data-nav-toggle-line="true" class="nav_hamburger-btn-line"></div><div aria-hidden="true" data-nav-toggle-line="true" class="nav_hamburger-btn-line"></div><div aria-hidden="true" data-nav-toggle-line="true" class="nav_hamburger-btn-line"></div></button></div></div></nav><main class="main-wrapper"><section class="section_mcp c-section"><div class="padding-global"><div class="container-large"><div class="mcp_wrap"><div class="text-rich-text w-richtext"><h1>Inductive Bio MCP Connector</h1><h2>Overview</h2><p>Inductive Bio’s absorption, distribution, metabolism, excretion, and toxicity (ADMET) models predict the chemical and pharmacokinetic properties that determine whether a molecule can become a viable drug. By surfacing these predictions directly in your conversation with Claude, scientists can evaluate compounds, triage ideas, and prioritize which molecules to synthesize, without leaving their existing AI workflow.</p><p>Through this MCP server, users can access Inductive Bio’s models for the physicochemical properties LogD (lipophilicity) and pKa (acid/base ionization), key drivers of solubility and permeability. </p><p>‍</p><h2>Getting Started</h2><ol role="list"><li>Go to <a href="https://claude.ai"><strong>Claude.ai</strong></a><strong> &gt; Settings &gt; Connectors</strong></li><li>Find the Inductive Bio connector and click <strong>Connect</strong></li><li>Complete the OAuth sign-in when prompted in your browser</li><li>Start a conversation with Claude - it can now use the Inductive Bio MCP tools</li></ol><p>Alternatively, add the connector manually by running:</p><pre contenteditable="false" class="w-code-block" style="display:block;overflow-x:auto;background:#fefefe;color:#545454;padding:0.5em"><code class="language-bash" style="white-space:pre-wrap"><span><span>claude mcp add --transport http inductive https://api.inductive.bio/mcp</span></span></code></pre><p>‍</p><h2>Example Prompts</h2><p>Drug discovery scientists use our MCP server to iterate on drug design ideas with Claude.</p><p>NSAID study: LogD (prompts appear in sequential order)</p><p>‍</p></div><div class="text-mono-text text-rich-text w-richtext"><ol role="list"><li>Get LogD predictions for the top 10 reported NSAIDs. Which ones are most likely to be able to get into the brain?</li><li>For ibuprofen, it has a low LogD. Decompose the molecule into fragments and retrieve predicted LogD for each part of the molecule - what part contributes most to its low LogD?</li><li>Now that I know which part contributes the most to the low LogD, I designed some modifications to ibuprofen’s structure. Get predicted LogD values and tell me which modification is the best one to pursue if I want to get the drug into the brain. Here are the SMILES strings: <br/><ol role="list"><li>‍<code>CC(C)CC1=CC=C(C(C(F)(F)F)C(O)=O)C=C1 </code></li><li><code>CC(C)CC1=CC(F)=C(C(C)C(O)=O)C(F)=C1 </code></li><li><code>CC(C)CC1=CC=C(C(F)(F)C(O)=O)C=C1 </code></li><li><code>CC(C)CC1=CC=C(C(C)C(N)=O)C=C1 </code></li><li><code>CC(C)CC1=CC=C(C(C)S(N)(=O)=O)C=C1 </code></li><li><code>CC(C)CC1=CC=C(C(C)S(O)(=O)=O)C=C1 </code></li></ol></li></ol><p>ACE inhibitors study: pKa (prompts appear in sequential order)</p><ol start="4" role="list"><li>I&#x27;m interested in the predicted pKas of a few ACE inhibitors. Can you get the predicted acidic and basic pKas and tell me what that means for how well each drug is absorbed into the body? <br/><ol role="list"><li><code>Captopril O=C([C@@H](CS)C)N1[C@H](C(O)=O)CCC1<br/></code></li><li><code>Enalapril O=C([C@@H](N[C@H](C(OCC)=O)CCC1=CC=CC=C1)C)N2[C@H](C(O)=O)CCC2</code></li><li><code>Quinapril O=C([C@H](C)N[C@H](C(OCC)=O)CCC1=CC=CC=C1)N2[C@H](C(O)=O)CC3=CC=CC=C3C2</code></li><li><code>Cilazapril O=C([C@@H](N[C@@H](CCC1=CC=CC=C1)C(OCC)=O)CCC2)N3N2CCC[C@H]3C(O)=O</code></li><li><code>Ramipril [H][C@@]12CCC[C@]1([H])N(C([C@H](C)N[C@H](C(OCC)=O)CCC3=CC=CC=C3)=O)[C@H](C(O)=O)C2</code></li><li><code>Lisinopril O=C([C@@H](N[C@H](C(O)=O)CCC1=CC=CC=C1)CCCCN)N2[C@H](C(O)=O)CCC2</code></li></ol></li><li>I designed some new molecules based on enalapril that I expect should improve absorption. Get the predicted pKa’s and LogD’s for these molecules - which one would you say to prioritize, compared to the predicted pKa and LogD for enalapril? <br/><ol role="list"><li><code>O=C([C@@H](N[C@H](C(OCC)=O)CCC1=CC=CC=C1)C)N2[C@H](C(O)=O)C(F)(F)CC2</code></li><li><code>O=C([C@@H](N[C@H](C(OCC)=O)[C@@H](COC)CC1=CC=CC=C1)C)N2[C@H](C(O)=O)CCC2</code></li><li><code>O=C([C@@H](N[C@H](C(OCC)=O)CCC1=NC=CC=C1)C)N2[C@H](C(O)=O)CCC2</code></li><li><code>O=C([C@@H](N(C)[C@H](C(OCC)=O)CCC1=CC=CC=C1)C)N2[C@H](C(O)=O)CCC2 </code></li></ol></li></ol><p>‍</p></div><div class="text-rich-text w-richtext"><h2>Available Tools</h2><h5><code>list_available_models</code></h5><p>List the molecular property prediction models you can run. Returns each model’s ID, assay name, and units. You can use the returned model IDs with the <code>predict_properties</code> tool.</p><h5><code>predict_properties</code></h5><p>Predict molecular properties for one or more molecules. Provide SMILES strings and the model IDs to run (from <code>list_available_models</code>); returns the predicted values per molecule and model.</p><p>‍</p><h2>Privacy &amp; Data</h2><p>Inductive Bio does not retain any submitted chemical structures after requests complete. The MCP server does not collect any user prompts, inputs, or queries.</p><p>Inductive Bio does retain access logs only as long as necessary for security, compliance, and internal analytics. </p><p>See the Inductive Bio MCP Access <a href="/legal/privacy-policy">Privacy Policy</a>  for full details.</p><p>‍</p><h2>Contact &amp; Learn More</h2><p>Inductive’s full suite of models spans all tiers of ADMET assays, including microsomal stability, efflux, CYP inhibition, brain penetration, hERG inhibition, and more, and are fine-tuned to each customer’s chemical space to advance predictive performance. To access the full suite, reach out to Inductive Bio <a href="/demo">here</a> or email <a href="mailto:mcp-user-support@inductive.bio">mcp-user-support@inductive.bio</a>.</p></div></div></div></div></section></main><footer class="c-footer"><div class="footer_wrap"><ul role="list" class="footer_nav-list"><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/solutions" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">solutions</span></a></li><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/technology" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">technology</span></a></li><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/about" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">about</span></a></li><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/careers" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">careers</span></a></li><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/news" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">blog &amp; news</span></a></li><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/demo" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">demo</span></a></li></ul><div class="footer_links-left-wrap"><h2 class="footer_links-title heading-h6">solutions</h2><ul role="list" class="footer_nav-list"><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/solutions/compass" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">⤷ compass</span></a></li><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/solutions/indy" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">⤷ indy</span></a></li><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/solutions/embedded-experts" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">⤷ embedded experts</span></a></li><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/solutions/ai-integrated-synthesis" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">⤷ AI-Integrated Synthesis</span></a></li><li class="footer_nav-list-item"><a data-link-animate="" data-wf--footer-nav-link--settings-variant="primary" href="/solutions/adme-one" class="footer_nav-link w-inline-block"><span class="footer_nav-link-text">⤷ adme-one</span></a></li></ul></div><ul id="w-node-_24291391-c25e-dfb8-89ef-f47cf27b7883-f27b785a" role="list" class="footer_social-list"><li class="footer_social-list-item"><a href="https://www.linkedin.com/company/inductive-bio" target="_blank" class="footer_social-link w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6a968f1df71f61ea2502b9ab_LinkedIn.svg" alt="LinkedIn Logo" class="footer_social-link-icon"/></a></li><li class="footer_social-list-item"><a href="https://x.com/inductive_bio" target="_blank" class="footer_social-link w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6a968f1d7033ad741dc3238f_Vector.svg" alt="Twitter Logo" class="footer_social-link-icon"/></a></li></ul><div id="w-node-_24291391-c25e-dfb8-89ef-f47cf27b7889-f27b785a" class="footer_bottom-left-wrap"><a href="/" class="footer_logo-link w-inline-block"><img loading="lazy" src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/6a969081c74ba97029be6222_a543f5bce0833c58caf0a47f3a98e8f0_Inductive%20Logo.svg" alt="Inductive Logo" class="footer_logo"/></a></div><div id="w-node-_24291391-c25e-dfb8-89ef-f47cf27b7891-f27b785a" class="footer_bottom-right-wrap"><ul role="list" class="footer_legal-list"><li id="w-node-edf0ae92-f18a-3edb-5a9e-dc7879ffe184-f27b785a" class="footer_legal-list-item"><p class="footer_copyright-text">© <span data-footer-year="" class="footer_year">2026</span> Inductive Bio, Inc.</p></li><li id="w-node-_24291391-c25e-dfb8-89ef-f47cf27b7899-f27b785a" class="footer_legal-list-item uc-last-item"><a data-wf--footer-nav-link--settings-variant="secondary" href="/legal/privacy-policy" class="footer_nav-link w-variant-3144c7f0-44ea-fae6-a669-ea12ef5260db w-inline-block"><span class="footer_nav-link-text">Privacy policy</span></a></li><li id="w-node-_24291391-c25e-dfb8-89ef-f47cf27b789c-f27b785a" class="footer_legal-list-item"><a href="#" class="footer_nav-link cky-banner-element legal-link w-inline-block"><span class="footer_nav-link-text">Manage consent preferences</span></a></li><li class="footer_legal-list-item uc-last-item"><a data-wf--footer-nav-link--settings-variant="secondary" href="/legal/cookie-policy" class="footer_nav-link w-variant-3144c7f0-44ea-fae6-a669-ea12ef5260db w-inline-block"><span class="footer_nav-link-text">Cookie policy</span></a></li><li class="footer_legal-list-item hide"><a data-wf--footer-nav-link--settings-variant="secondary" href="/legal/terms-and-conditions" class="footer_nav-link w-variant-3144c7f0-44ea-fae6-a669-ea12ef5260db w-inline-block"><span class="footer_nav-link-text">Terms and conditions</span></a></li><li id="w-node-_24291391-c25e-dfb8-89ef-f47cf27b789f-f27b785a" class="footer_legal-list-item"><a data-wf--footer-nav-link--settings-variant="secondary" href="https://www.bunsenstudio.com/" target="_blank" class="footer_nav-link w-variant-3144c7f0-44ea-fae6-a669-ea12ef5260db w-inline-block"><span class="footer_nav-link-text">Site by Bunsen</span></a></li></ul></div></div></footer></div><script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=6a95a45a5e8c74e1fbec3bc2" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/6a95a45a5e8c74e1fbec3bc2/js/webflow.cb4186b9.9304ffcf67445ed0.js" type="text/javascript" integrity="sha384-6E1ZaGmsvfYetz45u4WDZR2Lro9Th5LWvKj+w9COxteNSLXVPjBbdaoNh29xTvii" crossorigin="anonymous"></script><script src="https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js" type="text/javascript"></script><script src="https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js" type="text/javascript"></script><script type="text/javascript">gsap.registerPlugin(ScrollTrigger);</script><!-- Lenis JS -->
+<script src="https://unpkg.com/lenis@1.3.23/dist/lenis.min.js"></script>
+
+<script>
+  function initLenis() {
+    window.lenis = new Lenis({
+      autoRaf: true,
+      autoToggle: true,
+      anchors: true,
+      allowNestedScroll: true,
+      naiveDimensions: true,
+      stopInertiaOnNavigate: true,
+    });
+  }
+
+  function initSolutionAnchorOffset() {
+    const nav = document.querySelector('[data-solution-anchor-nav]');
+
+    if (!nav || !window.lenis) {
+      return;
+    }
+
+    nav.addEventListener('click', function handleSolutionAnchorClick(event) {
+      const link = event.target.closest('a[href^="#"]');
+
+      if (!link || !nav.contains(link)) {
+        return;
+      }
+
+      const hash = link.getAttribute('href');
+
+      if (!hash || hash === '#') {
+        return;
+      }
+
+      const target = document.getElementById(decodeURIComponent(hash.slice(1)));
+
+      if (!target) {
+        return;
+      }
+
+      event.preventDefault();
+      event.stopPropagation();
+
+      window.lenis.scrollTo(target, {
+        offset: -130,
+      });
+
+      window.history.pushState(null, '', hash);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    initLenis();
+    initSolutionAnchorOffset();
+  });
+
+  var Webflow = Webflow || [];
+
+  Webflow.push(function () {
+    $(document).off('click.wf-scroll');
+  });
+</script>
+
+<!-- LinkedIn -->
+<script type="text/javascript">
+  _linkedin_partner_id = '9640804';
+  window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+  window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+
+<script type="text/javascript">
+  (function (l) {
+    if (!l) {
+      window.lintrk = function (a, b) {
+        window.lintrk.q.push([a, b]);
+      };
+      window.lintrk.q = [];
+    }
+    var s = document.getElementsByTagName('script')[0];
+    var b = document.createElement('script');
+    b.type = 'text/javascript';
+    b.async = true;
+    b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
+    s.parentNode.insertBefore(b, s);
+  })(window.lintrk);
+</script>
+
+<!-- Site's Custom JS -->
+<script>
+  /* Update Year to Current */
+  const currentYear = new Date().getFullYear();
+
+  document.querySelectorAll('[data-footer-year]').forEach((element) => {
+    element.textContent = currentYear;
+  });
+
+  /* Easter Egg Component functionality */
+  function initEasterEggs() {
+    const components = Array.from(document.querySelectorAll('[data-easter-egg]'));
+
+    if (!components.length) {
+      return;
+    }
+
+    const gsapInstance = window.gsap || null;
+
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    const BROOKLYN_TIME_ZONE = 'America/New_York';
+
+    const millisecondsPerDay = 24 * 60 * 60 * 1000;
+    const secondsPerDay = 24 * 60 * 60;
+
+    const experimentEpoch = Date.UTC(2024, 0, 1, 0, 0, 0);
+
+    const counterControllers = [];
+
+    let displayedCounterValue = null;
+    let counterAnimationFrame = null;
+    let nextCounterUpdateTime = null;
+    let clockInterval = null;
+
+    const brooklynDateFormatter = new Intl.DateTimeFormat('en-US', {
+      timeZone: BROOKLYN_TIME_ZONE,
+      month: '2-digit',
+      day: '2-digit',
+      year: 'numeric',
+    });
+
+    const brooklynTimeFormatter = new Intl.DateTimeFormat('en-US', {
+      timeZone: BROOKLYN_TIME_ZONE,
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: true,
+    });
+
+    const brooklynTimezoneFormatter = new Intl.DateTimeFormat('en-US', {
+      timeZone: BROOKLYN_TIME_ZONE,
+      hour: '2-digit',
+      timeZoneName: 'shortOffset',
+    });
+
+    function padNumber(value) {
+      return String(value).padStart(2, '0');
+    }
+
+    function formatBrooklynDate(date) {
+      return brooklynDateFormatter.format(date);
+    }
+
+    function formatBrooklynTime(date) {
+      const parts = brooklynTimeFormatter.formatToParts(date);
+
+      const hourPart = parts.find(function findHour(part) {
+        return part.type === 'hour';
+      });
+
+      const minutePart = parts.find(function findMinute(part) {
+        return part.type === 'minute';
+      });
+
+      const periodPart = parts.find(function findPeriod(part) {
+        return part.type === 'dayPeriod';
+      });
+
+      const hours = hourPart ? padNumber(hourPart.value) : '00';
+
+      const minutes = minutePart ? padNumber(minutePart.value) : '00';
+
+      const period = periodPart ? periodPart.value.toUpperCase() : '';
+
+      return `${hours}:${minutes}${period}`;
+    }
+
+    function formatBrooklynTimezone(date) {
+      const parts = brooklynTimezoneFormatter.formatToParts(date);
+
+      const timezonePart = parts.find(function findTimezone(part) {
+        return part.type === 'timeZoneName';
+      });
+
+      return timezonePart ? timezonePart.value : 'ET';
+    }
+
+    function updateBrooklynClock() {
+      const now = new Date();
+
+      const dateText = formatBrooklynDate(now);
+
+      const timeText = formatBrooklynTime(now);
+
+      const timezoneText = formatBrooklynTimezone(now);
+
+      components.forEach(function updateComponent(component) {
+        const dateElement = component.querySelector('[data-easter-date]');
+
+        const timeElement = component.querySelector('[data-easter-time]');
+
+        const timezoneElement = component.querySelector('[data-easter-timezone]');
+
+        if (dateElement && dateElement.textContent !== dateText) {
+          dateElement.textContent = dateText;
+        }
+
+        if (timeElement && timeElement.textContent !== timeText) {
+          timeElement.textContent = timeText;
+        }
+
+        if (timezoneElement && timezoneElement.textContent !== timezoneText) {
+          timezoneElement.textContent = timezoneText;
+        }
+      });
+    }
+
+    function getExperimentDay(timestamp) {
+      return Math.max(0, (timestamp - experimentEpoch) / millisecondsPerDay);
+    }
+
+    function getExperimentCount(timestamp) {
+      const day = getExperimentDay(timestamp);
+
+      const count = 16000 * day + (0.65 / 3) * Math.pow(day, 3);
+
+      return Math.round(count);
+    }
+
+    function getExperimentRatePerSecond(timestamp) {
+      const day = getExperimentDay(timestamp);
+
+      const experimentsPerDay = 16000 + 0.65 * Math.pow(day, 2);
+
+      return experimentsPerDay / secondsPerDay;
+    }
+
+    function formatCounterValue(value) {
+      return value.toLocaleString('en-US');
+    }
+
+    function createDigitElement(digit) {
+      const slot = document.createElement('span');
+
+      slot.className = 'easter-egg_counter-digit';
+
+      const value = document.createElement('span');
+
+      value.className = 'easter-egg_counter-digit-value';
+
+      value.textContent = digit;
+
+      slot.appendChild(value);
+
+      return {
+        slot: slot,
+        current: value,
+        value: digit,
+        timeline: null,
+      };
+    }
+
+    function buildCounter(controller, value) {
+      const element = controller.element;
+
+      const formatted = formatCounterValue(value);
+
+      element.textContent = '';
+
+      const screenReaderText = document.createElement('span');
+
+      screenReaderText.className = 'easter-egg_counter-sr';
+
+      screenReaderText.textContent = `${formatted} virtual experiments`;
+
+      const visual = document.createElement('span');
+
+      visual.className = 'easter-egg_counter-visual';
+
+      visual.setAttribute('aria-hidden', 'true');
+
+      const digits = [];
+
+      Array.from(formatted).forEach(function buildCharacter(character) {
+        if (/\d/.test(character)) {
+          const digit = createDigitElement(character);
+
+          digits.push(digit);
+
+          visual.appendChild(digit.slot);
+
+          return;
+        }
+
+        const separator = document.createElement('span');
+
+        separator.className = 'easter-egg_counter-separator';
+
+        separator.textContent = character;
+
+        visual.appendChild(separator);
+      });
+
+      element.appendChild(screenReaderText);
+
+      element.appendChild(visual);
+
+      controller.visual = visual;
+
+      controller.screenReader = screenReaderText;
+
+      controller.digits = digits;
+
+      controller.value = value;
+
+      controller.structure = formatted.replace(/\d/g, '#');
+    }
+
+    function finishDigitAnimation(digit) {
+      if (!digit.timeline) {
+        return;
+      }
+
+      const timeline = digit.timeline;
+
+      digit.timeline = null;
+
+      timeline.progress(1);
+      timeline.kill();
+    }
+
+    function updateDigit(digit, newValue, delay) {
+      if (digit.value === newValue) {
+        return;
+      }
+
+      finishDigitAnimation(digit);
+
+      const current = digit.current;
+
+      const next = document.createElement('span');
+
+      next.className = 'easter-egg_counter-digit-value';
+
+      next.textContent = newValue;
+
+      digit.slot.appendChild(next);
+
+      if (!gsapInstance || reducedMotion.matches) {
+        current.remove();
+
+        digit.current = next;
+        digit.value = newValue;
+
+        return;
+      }
+
+      gsapInstance.set(next, {
+        yPercent: 110,
+      });
+
+      const timeline = gsapInstance.timeline({
+        delay: delay,
+
+        onComplete: function completeRoll() {
+          current.remove();
+
+          digit.current = next;
+          digit.value = newValue;
+
+          digit.timeline = null;
+        },
+      });
+
+      digit.timeline = timeline;
+
+      timeline.to(
+        current,
+        {
+          yPercent: -110,
+          duration: 0.2,
+          ease: 'power3.inOut',
+        },
+        0,
+      );
+
+      timeline.to(
+        next,
+        {
+          yPercent: 0,
+          duration: 0.2,
+          ease: 'power3.inOut',
+        },
+        0,
+      );
+    }
+
+    function updateCounter(controller, value, animate) {
+      const formatted = formatCounterValue(value);
+
+      const structure = formatted.replace(/\d/g, '#');
+
+      if (structure !== controller.structure) {
+        buildCounter(controller, value);
+
+        return;
+      }
+
+      const formattedDigits = formatted.match(/\d/g) || [];
+
+      const totalDigits = formattedDigits.length;
+
+      controller.digits.forEach(function updateCounterDigit(digit, index) {
+        const nextDigit = formattedDigits[index];
+
+        if (!animate) {
+          finishDigitAnimation(digit);
+
+          digit.current.textContent = nextDigit;
+
+          digit.value = nextDigit;
+
+          return;
+        }
+
+        const distanceFromRight = totalDigits - index - 1;
+
+        const delay = Math.min(distanceFromRight * 0.008, 0.04);
+
+        updateDigit(digit, nextDigit, delay);
+      });
+
+      controller.screenReader.textContent = `${formatted} virtual experiments`;
+
+      controller.value = value;
+    }
+
+    function updateAllCounters(value, animate) {
+      counterControllers.forEach(function updateController(controller) {
+        updateCounter(controller, value, animate);
+      });
+    }
+
+    function getRandomIncrement(backlog) {
+      if (backlog <= 1) {
+        return 1;
+      }
+
+      if (backlog === 2) {
+        return Math.random() < 0.5 ? 1 : 2;
+      }
+
+      if (backlog === 3) {
+        const random = Math.random();
+
+        if (random < 0.4) {
+          return 1;
+        }
+
+        if (random < 0.8) {
+          return 2;
+        }
+
+        return 3;
+      }
+
+      if (backlog <= 6) {
+        return Math.min(backlog, 1 + Math.floor(Math.random() * 3));
+      }
+
+      return Math.max(1, backlog - Math.floor(Math.random() * 3));
+    }
+
+    function getNextCounterDelay(timestamp) {
+      const rate = getExperimentRatePerSecond(timestamp);
+
+      if (rate <= 0) {
+        return 500;
+      }
+
+      const experimentsThisBeat = 1 + Math.floor(Math.random() * 3);
+
+      const baseDelay = (experimentsThisBeat / rate) * 1000;
+
+      const jitter = 0.75 + Math.random() * 0.5;
+
+      return Math.max(140, Math.min(420, baseDelay * jitter));
+    }
+
+    function syncCounter(animate) {
+      const now = Date.now();
+
+      const target = getExperimentCount(now);
+
+      displayedCounterValue = target;
+
+      updateAllCounters(target, animate);
+
+      nextCounterUpdateTime = performance.now() + getNextCounterDelay(now);
+    }
+
+    function advanceCounter() {
+      const now = Date.now();
+
+      const target = getExperimentCount(now);
+
+      if (displayedCounterValue === null) {
+        syncCounter(false);
+
+        return;
+      }
+
+      const backlog = target - displayedCounterValue;
+
+      if (backlog <= 0) {
+        return;
+      }
+
+      const increment = Math.min(backlog, getRandomIncrement(backlog));
+
+      displayedCounterValue += increment;
+
+      updateAllCounters(displayedCounterValue, true);
+    }
+
+    function runCounterFrame(frameTime) {
+      if (!document.hidden && nextCounterUpdateTime !== null && frameTime >= nextCounterUpdateTime) {
+        advanceCounter();
+
+        nextCounterUpdateTime = frameTime + getNextCounterDelay(Date.now());
+      }
+
+      counterAnimationFrame = window.requestAnimationFrame(runCounterFrame);
+    }
+
+    function startCounterLoop() {
+      if (counterAnimationFrame !== null) {
+        window.cancelAnimationFrame(counterAnimationFrame);
+      }
+
+      nextCounterUpdateTime = performance.now() + getNextCounterDelay(Date.now());
+
+      counterAnimationFrame = window.requestAnimationFrame(runCounterFrame);
+    }
+
+    function handleVisibilityChange() {
+      if (document.hidden) {
+        return;
+      }
+
+      syncCounter(false);
+
+      updateBrooklynClock();
+    }
+
+    function setupCounter(component) {
+      const counter = component.querySelector('[data-easter-counter]');
+
+      if (!counter) {
+        return;
+      }
+
+      const controller = {
+        element: counter,
+        visual: null,
+        screenReader: null,
+        digits: [],
+        structure: '',
+        value: null,
+      };
+
+      counterControllers.push(controller);
+    }
+
+    components.forEach(function setupComponent(component) {
+      setupCounter(component);
+    });
+
+    updateBrooklynClock();
+
+    clockInterval = window.setInterval(updateBrooklynClock, 1000);
+
+    syncCounter(false);
+
+    startCounterLoop();
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    window.addEventListener('pageshow', function handlePageShow() {
+      updateBrooklynClock();
+
+      syncCounter(false);
+
+      startCounterLoop();
+    });
+  }
+
+  /* Global Navigation Interaction */
+  function initNavigation() {
+    const navigations = document.querySelectorAll('[data-nav]');
+
+    if (!navigations.length || typeof gsap === 'undefined') {
+      return;
+    }
+
+    navigations.forEach(function setupNavigation(navigation, index) {
+      const navBar = navigation.querySelector('[data-nav-bar]');
+      const menu = navigation.querySelector('[data-nav-menu]');
+      const menuToggle = navigation.querySelector('[data-nav-toggle]');
+
+      const toggleLines = Array.from(navigation.querySelectorAll('[data-nav-toggle-line]'));
+
+      const navItems = Array.from(navigation.querySelectorAll('[data-nav-item]'));
+
+      const dropdown = navigation.querySelector('[data-nav-dropdown]');
+
+      const dropdownToggle = navigation.querySelector('[data-nav-dropdown-toggle]');
+
+      const dropdownIcon = navigation.querySelector('[data-nav-dropdown-icon]');
+
+      const dropdownAccordion = navigation.querySelector('[data-nav-dropdown-accordion]');
+
+      const dropdownPanel = navigation.querySelector('[data-nav-dropdown-panel]');
+
+      const dropdownClip = navigation.querySelector('[data-nav-dropdown-clip]');
+
+      const dropdownIntro = navigation.querySelector('[data-nav-dropdown-intro]');
+
+      const dropdownGroups = Array.from(navigation.querySelectorAll('[data-nav-dropdown-group]'));
+
+      if (!navBar || !menu || !menuToggle || !dropdown || !dropdownToggle || !dropdownAccordion || !dropdownPanel || !dropdownClip) {
+        return;
+      }
+
+      const desktopMedia = window.matchMedia('(min-width: 992px)');
+
+      const finePointerMedia = window.matchMedia('(hover: hover) and (pointer: fine)');
+
+      const reducedMotionMedia = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+      const DESKTOP_SHADOW_VISIBLE = '0 0.25rem 0.625rem 0 rgba(0, 0, 0, 0.15)';
+
+      const DESKTOP_SHADOW_HIDDEN = '0 0.25rem 0.625rem 0 rgba(0, 0, 0, 0)';
+
+      let menuOpen = false;
+      let dropdownOpen = false;
+
+      let lastInput = 'pointer';
+      let lastPointerType = 'mouse';
+
+      let desktopOpenTimer = null;
+      let desktopCloseTimer = null;
+      let desktopDropdownTimeline = null;
+
+      let hamburgerOffsets = {
+        top: 0,
+        bottom: 0,
+      };
+
+      let previousHtmlOverflow = '';
+      let previousBodyOverflow = '';
+      let scrollLocked = false;
+
+      function isDesktop() {
+        return desktopMedia.matches;
+      }
+
+      function getDuration(value) {
+        return reducedMotionMedia.matches ? 0 : value;
+      }
+
+      function setInert(element, inert) {
+        if (!element) {
+          return;
+        }
+
+        element.inert = inert;
+      }
+
+      function clearDesktopTimers() {
+        window.clearTimeout(desktopOpenTimer);
+        window.clearTimeout(desktopCloseTimer);
+
+        desktopOpenTimer = null;
+        desktopCloseTimer = null;
+      }
+
+      function killDesktopDropdownTimeline() {
+        if (!desktopDropdownTimeline) {
+          return;
+        }
+
+        desktopDropdownTimeline.kill();
+        desktopDropdownTimeline = null;
+      }
+
+      function setupAccessibility() {
+        if (!menu.id) {
+          menu.id = `nav-menu-${index}`;
+        }
+
+        if (!dropdownPanel.id) {
+          dropdownPanel.id = `nav-solutions-${index}`;
+        }
+
+        menuToggle.type = 'button';
+
+        menuToggle.setAttribute('aria-controls', menu.id);
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.setAttribute('aria-label', 'Open navigation menu');
+
+        dropdownToggle.type = 'button';
+
+        dropdownToggle.setAttribute('aria-controls', dropdownPanel.id);
+        dropdownToggle.setAttribute('aria-expanded', 'false');
+      }
+
+      function setMenuClosedAccessibility() {
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.setAttribute('aria-label', 'Open navigation menu');
+
+        menu.setAttribute('aria-hidden', 'true');
+
+        setInert(menu, true);
+      }
+
+      function setMenuOpenAccessibility() {
+        menuToggle.setAttribute('aria-expanded', 'true');
+        menuToggle.setAttribute('aria-label', 'Close navigation menu');
+
+        menu.removeAttribute('aria-hidden');
+
+        setInert(menu, false);
+      }
+
+      function setDropdownClosedAccessibility() {
+        dropdownToggle.setAttribute('aria-expanded', 'false');
+
+        dropdownPanel.setAttribute('aria-hidden', 'true');
+
+        setInert(dropdownPanel, true);
+      }
+
+      function setDropdownOpenAccessibility() {
+        dropdownToggle.setAttribute('aria-expanded', 'true');
+
+        dropdownPanel.removeAttribute('aria-hidden');
+
+        setInert(dropdownPanel, false);
+      }
+
+      function handlePointerInput(event) {
+        lastInput = 'pointer';
+        lastPointerType = event.pointerType || 'mouse';
+      }
+
+      function handleKeyboardInput() {
+        lastInput = 'keyboard';
+      }
+
+      function clearTouchFocus(element) {
+        if (lastInput !== 'pointer' || (lastPointerType !== 'touch' && lastPointerType !== 'pen')) {
+          return;
+        }
+
+        window.requestAnimationFrame(function blurTouchFocus() {
+          element.blur();
+        });
+      }
+
+      function lockPageScroll() {
+        if (scrollLocked) {
+          return;
+        }
+
+        scrollLocked = true;
+
+        previousHtmlOverflow = document.documentElement.style.overflow;
+
+        previousBodyOverflow = document.body.style.overflow;
+
+        document.documentElement.style.overflow = 'hidden';
+        document.body.style.overflow = 'hidden';
+      }
+
+      function unlockPageScroll() {
+        if (!scrollLocked) {
+          return;
+        }
+
+        scrollLocked = false;
+
+        document.documentElement.style.overflow = previousHtmlOverflow;
+
+        document.body.style.overflow = previousBodyOverflow;
+      }
+
+      function updateNavMetrics(updateViewport) {
+        const navBarHeight = navigation.getBoundingClientRect().height;
+
+        navigation.style.setProperty('--nav-bar-height', `${navBarHeight}px`);
+
+        if (!updateViewport) {
+          return;
+        }
+
+        const viewportHeight = window.visualViewport ? window.visualViewport.height : window.innerHeight;
+
+        navigation.style.setProperty('--nav-viewport-height', `${viewportHeight}px`);
+      }
+
+      function getFocusableElements(container) {
+        return Array.from(container.querySelectorAll('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])')).filter(function filterFocusable(element) {
+          if (element.inert || element.closest('[inert]')) {
+            return false;
+          }
+
+          return element.getClientRects().length > 0;
+        });
+      }
+
+      function trapMobileFocus(event) {
+        if (isDesktop() || !menuOpen || event.key !== 'Tab') {
+          return;
+        }
+
+        const focusable = getFocusableElements(navigation);
+
+        if (!focusable.length) {
+          return;
+        }
+
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+
+          return;
+        }
+
+        if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      }
+
+      function measureHamburger() {
+        if (toggleLines.length < 3) {
+          return;
+        }
+
+        const centers = toggleLines.map(function getLineCenter(line) {
+          const rect = line.getBoundingClientRect();
+
+          return rect.top + rect.height / 2;
+        });
+
+        hamburgerOffsets = {
+          top: centers[1] - centers[0],
+          bottom: centers[1] - centers[2],
+        };
+      }
+
+      function animateHamburger(open) {
+        if (toggleLines.length < 3) {
+          return;
+        }
+
+        gsap.killTweensOf(toggleLines);
+
+        gsap.to(toggleLines[0], {
+          y: open ? hamburgerOffsets.top : 0,
+          rotation: open ? 45 : 0,
+          duration: getDuration(0.38),
+          ease: 'power3.inOut',
+          overwrite: true,
+        });
+
+        gsap.to(toggleLines[1], {
+          scaleX: open ? 0 : 1,
+          autoAlpha: open ? 0 : 1,
+          duration: getDuration(0.22),
+          ease: 'power2.out',
+          overwrite: true,
+        });
+
+        gsap.to(toggleLines[2], {
+          y: open ? hamburgerOffsets.bottom : 0,
+          rotation: open ? -45 : 0,
+          duration: getDuration(0.38),
+          ease: 'power3.inOut',
+          overwrite: true,
+        });
+      }
+
+      function animateDropdownIcon(open) {
+        if (!dropdownIcon) {
+          return;
+        }
+
+        gsap.to(dropdownIcon, {
+          rotation: open ? 180 : 0,
+          duration: getDuration(0.32),
+          ease: 'power3.inOut',
+          overwrite: true,
+        });
+      }
+
+      function getMobileDropdownGap() {
+        const rootFontSize = parseFloat(window.getComputedStyle(document.documentElement).fontSize) || 16;
+
+        return 1.44 * rootFontSize;
+      }
+
+      function getMobileDropdownHeight() {
+        return dropdownPanel.offsetHeight + getMobileDropdownGap();
+      }
+
+      function clearDropdownMotionStyles() {
+        const content = [dropdownIntro, ...dropdownGroups].filter(Boolean);
+
+        killDesktopDropdownTimeline();
+
+        gsap.killTweensOf([dropdownAccordion, dropdownPanel, dropdownClip, dropdownIcon, ...content]);
+
+        gsap.set(dropdownAccordion, {
+          clearProps: 'height,overflow',
+        });
+
+        gsap.set(dropdownPanel, {
+          clearProps: 'transform,opacity,visibility,pointerEvents,clipPath,boxShadow',
+        });
+
+        gsap.set(dropdownClip, {
+          clearProps: 'clipPath',
+        });
+
+        if (content.length) {
+          gsap.set(content, {
+            clearProps: 'transform,opacity,visibility',
+          });
+        }
+
+        if (dropdownIcon) {
+          gsap.set(dropdownIcon, {
+            clearProps: 'transform',
+          });
+        }
+      }
+
+      function clearMenuMotionStyles() {
+        gsap.killTweensOf([menu, ...navItems, ...toggleLines]);
+
+        gsap.set(menu, {
+          clearProps: 'transform,opacity,visibility,pointerEvents',
+        });
+
+        gsap.set(navItems, {
+          clearProps: 'transform,opacity,visibility',
+        });
+
+        gsap.set(toggleLines, {
+          clearProps: 'transform,opacity,visibility',
+        });
+      }
+
+      function resetHamburger() {
+        gsap.killTweensOf(toggleLines);
+
+        gsap.set(toggleLines, {
+          y: 0,
+          rotation: 0,
+          scaleX: 1,
+          autoAlpha: 1,
+          transformOrigin: '50% 50%',
+        });
+      }
+
+      function openMobileDropdown() {
+        if (isDesktop() || dropdownOpen) {
+          return;
+        }
+
+        dropdownOpen = true;
+
+        setDropdownOpenAccessibility();
+        animateDropdownIcon(true);
+
+        const gap = getMobileDropdownGap();
+
+        gsap.killTweensOf([dropdownAccordion, dropdownPanel]);
+
+        gsap.set(dropdownPanel, {
+          y: gap,
+          autoAlpha: 1,
+          visibility: 'visible',
+          pointerEvents: 'auto',
+          boxShadow: 'none',
+        });
+
+        gsap.to(dropdownAccordion, {
+          height: getMobileDropdownHeight(),
+          duration: getDuration(0.5),
+          ease: 'power3.inOut',
+          overwrite: true,
+        });
+      }
+
+      function closeMobileDropdown(restoreFocus) {
+        if (isDesktop() || !dropdownOpen) {
+          return;
+        }
+
+        dropdownOpen = false;
+
+        dropdownToggle.setAttribute('aria-expanded', 'false');
+
+        setInert(dropdownPanel, true);
+
+        animateDropdownIcon(false);
+
+        if (restoreFocus) {
+          dropdownToggle.focus({
+            preventScroll: true,
+          });
+        }
+
+        gsap.killTweensOf(dropdownAccordion);
+
+        gsap.to(dropdownAccordion, {
+          height: 0,
+          duration: getDuration(0.46),
+          ease: 'power3.inOut',
+          overwrite: true,
+
+          onComplete: function completeMobileDropdownClose() {
+            setDropdownClosedAccessibility();
+
+            gsap.set(dropdownPanel, {
+              autoAlpha: 0,
+              pointerEvents: 'none',
+            });
+          },
+        });
+      }
+
+      function resetMobileDropdown() {
+        dropdownOpen = false;
+
+        setDropdownClosedAccessibility();
+
+        killDesktopDropdownTimeline();
+
+        gsap.killTweensOf([dropdownAccordion, dropdownPanel, dropdownClip]);
+
+        gsap.set(dropdownAccordion, {
+          height: 0,
+          overflow: 'hidden',
+        });
+
+        gsap.set(dropdownPanel, {
+          y: 0,
+          autoAlpha: 0,
+          pointerEvents: 'none',
+          boxShadow: 'none',
+        });
+
+        gsap.set(dropdownClip, {
+          clearProps: 'clipPath',
+        });
+
+        if (dropdownIcon) {
+          gsap.set(dropdownIcon, {
+            rotation: 0,
+          });
+        }
+      }
+
+      function openMobileMenu() {
+        if (isDesktop() || menuOpen) {
+          return;
+        }
+
+        menuOpen = true;
+
+        updateNavMetrics(true);
+        lockPageScroll();
+
+        setMenuOpenAccessibility();
+        resetMobileDropdown();
+        animateHamburger(true);
+
+        gsap.killTweensOf([menu, ...navItems]);
+
+        gsap.set(menu, {
+          visibility: 'visible',
+          pointerEvents: 'auto',
+        });
+
+        const timeline = gsap.timeline();
+
+        timeline.to(
+          menu,
+          {
+            xPercent: 0,
+            autoAlpha: 1,
+            duration: getDuration(0.52),
+            ease: 'power4.inOut',
+          },
+          0,
+        );
+
+        if (!reducedMotionMedia.matches) {
+          timeline.fromTo(
+            navItems,
+            {
+              autoAlpha: 0,
+              y: 6,
+            },
+            {
+              autoAlpha: 1,
+              y: 0,
+              duration: 0.28,
+              stagger: 0.025,
+              ease: 'power3.out',
+            },
+            0.22,
+          );
+        }
+
+        if (lastInput === 'keyboard') {
+          timeline.call(function focusFirstMenuItem() {
+            const focusable = getFocusableElements(menu);
+
+            if (focusable.length) {
+              focusable[0].focus({
+                preventScroll: true,
+              });
+            }
+          });
+        }
+      }
+
+      function closeMobileMenu(restoreFocus) {
+        if (isDesktop() || !menuOpen) {
+          return;
+        }
+
+        menuOpen = false;
+        dropdownOpen = false;
+
+        menuToggle.setAttribute('aria-expanded', 'false');
+
+        menuToggle.setAttribute('aria-label', 'Open navigation menu');
+
+        dropdownToggle.setAttribute('aria-expanded', 'false');
+
+        setInert(dropdownPanel, true);
+
+        animateDropdownIcon(false);
+        animateHamburger(false);
+
+        if (restoreFocus) {
+          menuToggle.focus({
+            preventScroll: true,
+          });
+        }
+
+        gsap.killTweensOf(menu);
+
+        gsap.to(menu, {
+          xPercent: -100,
+          autoAlpha: 0,
+          duration: getDuration(0.48),
+          ease: 'power4.inOut',
+          overwrite: true,
+
+          onComplete: function completeMobileMenuClose() {
+            resetMobileDropdown();
+            setMenuClosedAccessibility();
+
+            gsap.set(menu, {
+              visibility: 'hidden',
+              pointerEvents: 'none',
+            });
+
+            unlockPageScroll();
+
+            if (!restoreFocus) {
+              clearTouchFocus(menuToggle);
+            }
+          },
+        });
+      }
+
+      function openDesktopDropdown() {
+        if (!isDesktop() || dropdownOpen) {
+          return;
+        }
+
+        clearDesktopTimers();
+        killDesktopDropdownTimeline();
+
+        dropdownOpen = true;
+
+        setDropdownOpenAccessibility();
+        animateDropdownIcon(true);
+
+        const content = [dropdownIntro, ...dropdownGroups].filter(Boolean);
+
+        gsap.killTweensOf([dropdownPanel, dropdownClip, ...content]);
+
+        gsap.set(dropdownPanel, {
+          autoAlpha: 1,
+          visibility: 'visible',
+          pointerEvents: 'auto',
+          boxShadow: DESKTOP_SHADOW_HIDDEN,
+        });
+
+        desktopDropdownTimeline = gsap.timeline({
+          onComplete: function completeDesktopOpen() {
+            desktopDropdownTimeline = null;
+          },
+        });
+
+        desktopDropdownTimeline.to(
+          dropdownClip,
+          {
+            clipPath: 'inset(0% 0% 0% 0%)',
+
+            duration: getDuration(0.42),
+
+            ease: 'power3.inOut',
+
+            overwrite: true,
+          },
+          0,
+        );
+
+        if (content.length && !reducedMotionMedia.matches) {
+          desktopDropdownTimeline.fromTo(
+            content,
+            {
+              autoAlpha: 0,
+              y: 6,
+            },
+            {
+              autoAlpha: 1,
+              y: 0,
+              duration: 0.28,
+              stagger: 0.025,
+              ease: 'power3.out',
+            },
+            0.1,
+          );
+        }
+
+        desktopDropdownTimeline.to(
+          dropdownPanel,
+          {
+            boxShadow: DESKTOP_SHADOW_VISIBLE,
+
+            duration: getDuration(0.18),
+
+            ease: 'power2.out',
+
+            overwrite: true,
+          },
+          '>',
+        );
+      }
+
+      function closeDesktopDropdown(restoreFocus) {
+        if (!isDesktop() || !dropdownOpen) {
+          return;
+        }
+
+        clearDesktopTimers();
+        killDesktopDropdownTimeline();
+
+        dropdownOpen = false;
+
+        dropdownToggle.setAttribute('aria-expanded', 'false');
+
+        setInert(dropdownPanel, true);
+
+        animateDropdownIcon(false);
+
+        if (restoreFocus) {
+          dropdownToggle.focus({
+            preventScroll: true,
+          });
+        }
+
+        gsap.killTweensOf([dropdownPanel, dropdownClip]);
+
+        desktopDropdownTimeline = gsap.timeline({
+          onComplete: function completeDesktopClose() {
+            desktopDropdownTimeline = null;
+
+            setDropdownClosedAccessibility();
+
+            gsap.set(dropdownPanel, {
+              autoAlpha: 0,
+              pointerEvents: 'none',
+              boxShadow: DESKTOP_SHADOW_HIDDEN,
+            });
+          },
+        });
+
+        desktopDropdownTimeline.to(dropdownPanel, {
+          boxShadow: DESKTOP_SHADOW_HIDDEN,
+
+          duration: getDuration(0.12),
+
+          ease: 'power1.out',
+
+          overwrite: true,
+        });
+
+        desktopDropdownTimeline.to(
+          dropdownClip,
+          {
+            clipPath: 'inset(0% 0% 100% 0%)',
+
+            duration: getDuration(0.32),
+
+            ease: 'power3.inOut',
+
+            overwrite: true,
+          },
+          '>',
+        );
+      }
+
+      function scheduleDesktopOpen() {
+        window.clearTimeout(desktopCloseTimer);
+
+        if (dropdownOpen) {
+          return;
+        }
+
+        window.clearTimeout(desktopOpenTimer);
+
+        desktopOpenTimer = window.setTimeout(openDesktopDropdown, 70);
+      }
+
+      function scheduleDesktopClose() {
+        window.clearTimeout(desktopOpenTimer);
+        window.clearTimeout(desktopCloseTimer);
+
+        desktopCloseTimer = window.setTimeout(function closeAfterIntent() {
+          closeDesktopDropdown(false);
+        }, 160);
+      }
+
+      function setupDesktopMode() {
+        menuOpen = false;
+        dropdownOpen = false;
+
+        clearDesktopTimers();
+        killDesktopDropdownTimeline();
+        unlockPageScroll();
+
+        clearMenuMotionStyles();
+        clearDropdownMotionStyles();
+
+        menuToggle.setAttribute('aria-expanded', 'false');
+
+        menuToggle.setAttribute('aria-label', 'Open navigation menu');
+
+        menu.removeAttribute('aria-hidden');
+
+        setInert(menu, false);
+
+        setDropdownClosedAccessibility();
+
+        window.requestAnimationFrame(function setDesktopInitialState() {
+          gsap.set(dropdownPanel, {
+            clearProps: 'transform,clipPath',
+
+            autoAlpha: 0,
+
+            pointerEvents: 'none',
+
+            boxShadow: DESKTOP_SHADOW_HIDDEN,
+          });
+
+          gsap.set(dropdownClip, {
+            clipPath: 'inset(0% 0% 100% 0%)',
+          });
+
+          if (dropdownIcon) {
+            gsap.set(dropdownIcon, {
+              rotation: 0,
+            });
+          }
+        });
+      }
+
+      function setupMobileMode() {
+        menuOpen = false;
+        dropdownOpen = false;
+
+        clearDesktopTimers();
+        killDesktopDropdownTimeline();
+        unlockPageScroll();
+
+        clearMenuMotionStyles();
+        clearDropdownMotionStyles();
+
+        updateNavMetrics(true);
+
+        setMenuClosedAccessibility();
+        resetHamburger();
+
+        gsap.set(menu, {
+          xPercent: -100,
+          autoAlpha: 0,
+          visibility: 'hidden',
+          pointerEvents: 'none',
+        });
+
+        resetMobileDropdown();
+
+        window.requestAnimationFrame(measureHamburger);
+      }
+
+      function handleBreakpointChange() {
+        if (isDesktop()) {
+          setupDesktopMode();
+
+          return;
+        }
+
+        setupMobileMode();
+      }
+
+      function handleDropdownPointerEnter() {
+        if (!isDesktop() || !finePointerMedia.matches) {
+          return;
+        }
+
+        scheduleDesktopOpen();
+      }
+
+      function handleDropdownPointerLeave() {
+        if (!isDesktop() || !finePointerMedia.matches) {
+          return;
+        }
+
+        scheduleDesktopClose();
+      }
+
+      function handleDropdownFocusIn() {
+        if (!isDesktop()) {
+          return;
+        }
+
+        clearDesktopTimers();
+        openDesktopDropdown();
+      }
+
+      function handleDropdownFocusOut() {
+        if (!isDesktop()) {
+          return;
+        }
+
+        window.requestAnimationFrame(function checkDropdownFocus() {
+          if (dropdown.contains(document.activeElement)) {
+            return;
+          }
+
+          closeDesktopDropdown(false);
+        });
+      }
+
+      function handleDropdownToggle() {
+        if (!isDesktop()) {
+          if (dropdownOpen) {
+            closeMobileDropdown(false);
+          } else {
+            openMobileDropdown();
+          }
+
+          clearTouchFocus(dropdownToggle);
+
+          return;
+        }
+
+        if (lastPointerType === 'mouse' && lastInput === 'pointer') {
+          openDesktopDropdown();
+
+          return;
+        }
+
+        if (dropdownOpen) {
+          closeDesktopDropdown(false);
+        } else {
+          openDesktopDropdown();
+        }
+      }
+
+      function handleMenuToggle() {
+        if (isDesktop()) {
+          return;
+        }
+
+        if (menuOpen) {
+          closeMobileMenu(lastInput === 'keyboard');
+
+          return;
+        }
+
+        openMobileMenu();
+      }
+
+      function handleOutsidePointer(event) {
+        if (!isDesktop() || !dropdownOpen || dropdown.contains(event.target)) {
+          return;
+        }
+
+        closeDesktopDropdown(false);
+      }
+
+      function handleDocumentKeydown(event) {
+        trapMobileFocus(event);
+
+        if (event.key !== 'Escape') {
+          return;
+        }
+
+        if (isDesktop()) {
+          if (!dropdownOpen) {
+            return;
+          }
+
+          event.preventDefault();
+
+          closeDesktopDropdown(true);
+
+          return;
+        }
+
+        if (!menuOpen) {
+          return;
+        }
+
+        event.preventDefault();
+
+        if (dropdownOpen) {
+          closeMobileDropdown(true);
+
+          return;
+        }
+
+        closeMobileMenu(true);
+      }
+
+      function handleMenuLinkClick(event) {
+        if (isDesktop() || !menuOpen) {
+          return;
+        }
+
+        const href = event.currentTarget.getAttribute('href');
+
+        if (!href || href === '#') {
+          return;
+        }
+
+        closeMobileMenu(false);
+      }
+
+      function handleResize() {
+        updateNavMetrics(!menuOpen);
+
+        if (!isDesktop() && dropdownOpen) {
+          gsap.set(dropdownAccordion, {
+            height: getMobileDropdownHeight(),
+          });
+        }
+
+        if (!isDesktop() && !menuOpen) {
+          measureHamburger();
+        }
+      }
+
+      setupAccessibility();
+
+      const menuLinks = Array.from(menu.querySelectorAll('a[href]'));
+
+      document.addEventListener('pointerdown', handlePointerInput, true);
+
+      document.addEventListener('keydown', handleKeyboardInput, true);
+
+      document.addEventListener('keydown', handleDocumentKeydown);
+
+      document.addEventListener('pointerdown', handleOutsidePointer);
+
+      menuToggle.addEventListener('click', handleMenuToggle);
+
+      dropdownToggle.addEventListener('click', handleDropdownToggle);
+
+      dropdown.addEventListener('pointerenter', handleDropdownPointerEnter);
+
+      dropdown.addEventListener('pointerleave', handleDropdownPointerLeave);
+
+      dropdown.addEventListener('focusin', handleDropdownFocusIn);
+
+      dropdown.addEventListener('focusout', handleDropdownFocusOut);
+
+      menuLinks.forEach(function setupMenuLink(link) {
+        link.addEventListener('click', handleMenuLinkClick);
+      });
+
+      desktopMedia.addEventListener('change', handleBreakpointChange);
+
+      window.addEventListener('resize', handleResize);
+
+      handleBreakpointChange();
+    });
+  }
+
+  /* Hide banner on scroll */
+  function initNavBannerScroll() {
+    const banner = document.querySelector('[data-nav-banner]');
+
+    if (!banner || typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') {
+      return;
+    }
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    let scrollTrigger = null;
+    let timeline = null;
+
+    function getBannerHeight() {
+      return banner.offsetHeight;
+    }
+
+    function getScrollDistance() {
+      return Math.max(48, getBannerHeight() * 1.25);
+    }
+
+    function clearBannerState() {
+      if (scrollTrigger) {
+        scrollTrigger.kill();
+        scrollTrigger = null;
+      }
+
+      if (timeline) {
+        timeline.kill();
+        timeline = null;
+      }
+
+      gsap.set(banner, {
+        clearProps: 'transform,margin-bottom',
+      });
+    }
+
+    function setupAnimatedBanner() {
+      clearBannerState();
+
+      timeline = gsap.timeline({
+        paused: true,
+      });
+
+      timeline.to(
+        banner,
+        {
+          y: function getHiddenY() {
+            return -getBannerHeight();
+          },
+
+          marginBottom: function getHiddenMargin() {
+            return -getBannerHeight();
+          },
+
+          ease: 'none',
+        },
+        0,
+      );
+
+      scrollTrigger = ScrollTrigger.create({
+        animation: timeline,
+
+        start: 0,
+
+        end: function getBannerScrollEnd() {
+          return getScrollDistance();
+        },
+
+        scrub: 0.35,
+
+        invalidateOnRefresh: true,
+      });
+    }
+
+    function setupReducedMotionBanner() {
+      clearBannerState();
+
+      function hideBanner() {
+        const height = getBannerHeight();
+
+        gsap.set(banner, {
+          y: -height,
+          marginBottom: -height,
+        });
+      }
+
+      function showBanner() {
+        gsap.set(banner, {
+          y: 0,
+          marginBottom: 0,
+        });
+      }
+
+      scrollTrigger = ScrollTrigger.create({
+        start: 1,
+
+        onEnter: hideBanner,
+
+        onLeaveBack: showBanner,
+      });
+
+      if (window.scrollY > 1) {
+        hideBanner();
+      }
+    }
+
+    function setupBanner() {
+      if (reducedMotion.matches) {
+        setupReducedMotionBanner();
+        return;
+      }
+
+      setupAnimatedBanner();
+    }
+
+    reducedMotion.addEventListener('change', setupBanner);
+
+    setupBanner();
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    initEasterEggs();
+    initNavigation();
+    initNavBannerScroll();
+  });
+</script><script src="https://hubspotv2.use1-marketplace-1p-apps-prod-red.if.webflow.services/static/disable-hubspot-chatbot.js" type="text/javascript" async="" defer=""></script><script src="https://js.hs-scripts.com/46460261.js" type="text/javascript" async="" defer=""></script></body></html>

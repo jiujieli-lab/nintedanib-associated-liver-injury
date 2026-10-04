@@ -1,0 +1,60 @@
+{
+  "primary_algorithm": "geometric percentile fusion",
+  "primary_network": "donor-balanced LedoitWolf positive k20 restart0.5, discovery DOHV absolute Cliff weights",
+  "target_universe": [
+    "ABL1",
+    "AXL",
+    "CDK4",
+    "FGFR1",
+    "FGFR2",
+    "FGFR3",
+    "FGFR4",
+    "FLT1",
+    "FLT3",
+    "FLT4",
+    "JAK1",
+    "KDR",
+    "LRRK2",
+    "LYN",
+    "MET",
+    "PDGFRA",
+    "TYK2"
+  ],
+  "n_targets": 17,
+  "n_human_proteins": 13,
+  "no_candidate_specific_tuning": true,
+  "pooling": "target-detection-weighted matched z across available compartments, descriptive score only",
+  "family_columns": [
+    "pharmacology",
+    "clinical_network",
+    "HepG2_perturbation",
+    "STRING_context"
+  ],
+  "competitive_permutations": 20000,
+  "permutation_blocks": [
+    [
+      "pharmacology"
+    ],
+    [
+      "HepG2_perturbation"
+    ],
+    [
+      "clinical_network",
+      "STRING_context"
+    ]
+  ],
+  "permutation_missingness": "each candidate measurement mask remains fixed",
+  "weight_draws": 5000,
+  "Dirichlet_alpha": [
+    4,
+    4,
+    4,
+    4
+  ],
+  "random_seed": 20260919,
+  "missing_floor": 0.029411764705882353,
+  "primary_selection": "geometric rule chosen for balanced support, not benchmark performance",
+  "donor_omission_pooling": "target detection weights recalculated from retained donors only",
+  "evaluation": "component omission, donor robustness and ranking stability; no patient-level predictive validation",
+  "python": "3.12.14"
+}

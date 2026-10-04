@@ -1,0 +1,17 @@
+name,smiles,chembl_id,role
+nintedanib,COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1,CHEMBL502835,index_drug_positive_reference
+imatinib,Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1,CHEMBL941,mechanistic_inhibition_comparator
+crenolanib,CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1,CHEMBL2105728,mechanistic_inhibition_comparator
+avapritinib,Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1,CHEMBL4204794,mechanistic_inhibition_comparator
+ripretinib,CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21,CHEMBL4216467,mechanistic_inhibition_comparator
+axitinib,CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1,CHEMBL1289926,mechanistic_inhibition_comparator
+tivozanib,COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC,CHEMBL1289494,mechanistic_inhibition_comparator
+lenvatinib,COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O,CHEMBL1289601,mechanistic_inhibition_comparator
+sunitinib,CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,CHEMBL535,mechanistic_inhibition_comparator
+pazopanib,Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O,CHEMBL477772,mechanistic_inhibition_comparator
+sorafenib,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1,CHEMBL1336,mechanistic_inhibition_comparator
+regorafenib,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,CHEMBL1946170,mechanistic_inhibition_comparator
+ponatinib,Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12,CHEMBL1171837,mechanistic_inhibition_comparator
+MAZ51,CN(C)c1ccc(/C=C2\C(=O)Nc3ccccc32)c2ccccc12,CHEMBL597366,mechanistic_inhibition_comparator
+pirfenidone,Cc1ccc(=O)n(-c2ccccc2)c1,CHEMBL1256391,clinical_nonkinase_reference_not_validated_nonbinder
+nerandomilast,C1CC(C1)(CO)NC2=NC(=NC3=C2[S@](=O)CC3)N4CCC(CC4)C5=NC=C(C=N5)Cl,CHEMBL5314532,clinical_nonkinase_reference_not_validated_nonbinder

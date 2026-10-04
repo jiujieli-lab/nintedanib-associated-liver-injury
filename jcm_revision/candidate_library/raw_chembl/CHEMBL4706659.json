@@ -1,0 +1,24 @@
+{
+  "abstract": "Lung cancer is the leading cause of cancer deaths. It has been demonstrated that epidermal growth factor receptor tyrosine kinase inhibitors (EGFR-TKI) are efficacious in patients with EGFR mutation-positive non-small cell lung cancer (NSCLC). In this work, a new series of 2,4-diaryl pyrimidine derivatives containing cyclopropyl moiety were designed, synthesized and evaluated as novel selective EGFR inhibitors. The most promising compound, 8l demonstrated excellent kinase inhibitory activity against EGFR double mutation with IC value of 0.26\u00a0nM. Moreover, 8l provided strong activity against H1975\u00a0cells with IC value of 0.008\u00a0\u03bcM and exhibited little toxicity toward four non-tumorigenic cell lines. Furthermore, 8l showed potent anti-tumor efficacy in a murine EGFR-driven H1975 xenograft model. These results indicated that 8l may be a promising drug candidate for further study.",
+  "authors": "Li J,An B,Song X,Zhang Q,Chen C,Wei S,Fan R,Li X,Zou Y",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_30",
+    "creation_date": "2022-02-22"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4706659",
+  "doi": "10.1016/j.ejmech.2020.113019",
+  "doi_chembl": null,
+  "first_page": "113019",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "113019",
+  "patent_id": null,
+  "pubmed_id": 33429247,
+  "src_id": 1,
+  "title": "Design, synthesis and biological evaluation of novel 2,4-diaryl pyrimidine derivatives as selective EGFR inhibitors.",
+  "volume": "212",
+  "year": 2021
+}

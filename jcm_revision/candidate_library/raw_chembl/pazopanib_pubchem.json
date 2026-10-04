@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 10113978,
+        "MolecularFormula": "C21H23N7O2S",
+        "MolecularWeight": "437.5",
+        "SMILES": "CC1=C(C=C(C=C1)NC2=NC=CC(=N2)N(C)C3=CC4=NN(C(=C4C=C3)C)C)S(=O)(=O)N",
+        "ConnectivitySMILES": "CC1=C(C=C(C=C1)NC2=NC=CC(=N2)N(C)C3=CC4=NN(C(=C4C=C3)C)C)S(=O)(=O)N",
+        "InChI": "InChI=1S/C21H23N7O2S/c1-13-5-6-15(11-19(13)31(22,29)30)24-21-23-10-9-20(25-21)27(3)16-7-8-17-14(2)28(4)26-18(17)12-16/h5-12H,1-4H3,(H2,22,29,30)(H,23,24,25)",
+        "InChIKey": "CUIHSIWYWATEQL-UHFFFAOYSA-N"
+      }
+    ]
+  }
+}

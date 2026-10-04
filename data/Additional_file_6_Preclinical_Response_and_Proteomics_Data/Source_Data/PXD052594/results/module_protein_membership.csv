@@ -1,0 +1,56 @@
+module,gene,detected,used
+ECM remodeling,Col1a1,True,True
+ECM remodeling,Col1a2,True,True
+ECM remodeling,Col3a1,True,True
+ECM remodeling,Col5a1,True,True
+ECM remodeling,Fn1,True,True
+ECM remodeling,Postn,True,True
+ECM remodeling,Tnc,True,True
+ECM remodeling,Sparc,True,True
+ECM remodeling,Lox,True,True
+ECM remodeling,Ltbp2,True,True
+ECM remodeling,Ltbp4,True,True
+ECM remodeling,Mmp2,True,True
+ECM remodeling,Mmp9,True,True
+ECM remodeling,Timp1,True,True
+ECM remodeling,Tgfb1,True,True
+Macrophage repair,Mrc1,True,True
+Macrophage repair,Cd68,True,True
+Macrophage repair,Adgre1,True,True
+Macrophage repair,Csf1r,True,True
+Macrophage repair,Marco,True,True
+Macrophage repair,Mertk,False,False
+Macrophage repair,Trem2,True,True
+Macrophage repair,Gpnmb,True,True
+Macrophage repair,Fabp5,True,True
+Macrophage repair,Lgals3,True,True
+Inflammatory,Spp1,True,True
+Inflammatory,Lgals3,True,True
+Inflammatory,S100a8,True,True
+Inflammatory,S100a9,True,True
+Inflammatory,Ccl2,False,False
+Inflammatory,Ccr2,False,False
+Inflammatory,Nfkb1,True,True
+Inflammatory,Nfkbia,True,True
+Inflammatory,Stat3,True,True
+Inflammatory,Tnf,False,False
+Inflammatory,Il1b,False,False
+Inflammatory,Nlrp3,False,False
+Alveolar homeostasis,Pparg,False,False
+Alveolar homeostasis,Car4,False,False
+Alveolar homeostasis,Marco,True,True
+Alveolar homeostasis,Siglecf,False,False
+Alveolar homeostasis,Fabp4,True,True
+Alveolar homeostasis,Itgax,True,True
+RTK-response,Fgfr1,True,True
+RTK-response,Fgfr2,False,False
+RTK-response,Fgfr3,False,False
+RTK-response,Pdgfra,True,True
+RTK-response,Pdgfrb,True,True
+RTK-response,Kdr,True,True
+RTK-response,Flt1,True,True
+RTK-response,Flt4,False,False
+RTK-response,Mapk1,True,True
+RTK-response,Mapk3,True,True
+RTK-response,Akt1,True,True
+RTK-response,Stat3,True,True

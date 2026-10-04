@@ -1,0 +1,24 @@
+{
+  "abstract": "The kinome-wide virtual profiling of small molecules with high-dimensional structure-activity data is a challenging task in drug discovery. Here, we present a virtual profiling model against a panel of 391 kinases based on large-scale bioactivity data and the multitask deep neural network algorithm. The obtained model yields excellent internal prediction capability with an auROC of 0.90 and consistently outperforms conventional single-task models on external tests, especially for kinases with insufficient activity data. Moreover, more rigorous experimental validations including 1410 kinase-compound pairs showed a high-quality average auROC of 0.75 and confirmed many novel predicted \"off-target\" activities. Given the verified generalizability, the model was further applied to various scenarios for depicting the kinome-wide selectivity and the association with certain diseases. Overall, the computational model enables us to create a comprehensive kinome interaction network for designing novel chemical modulators or drug repositioning and is of practical value for exploring previously less studied kinases.",
+  "authors": "Li X,Li Z,Wu X,Xiong Z,Yang T,Fu Z,Liu X,Tan X,Zhong F,Wan X,Wang D,Ding X,Yang R,Hou H,Li C,Liu H,Chen K,Jiang H,Zheng M",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_30",
+    "creation_date": "2022-02-22"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4725218",
+  "doi": "10.1021/acs.jmedchem.9b00855",
+  "doi_chembl": null,
+  "first_page": "8723",
+  "issue": "16",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "8737",
+  "patent_id": null,
+  "pubmed_id": 31364850,
+  "src_id": 1,
+  "title": "Deep Learning Enhancing Kinome-Wide Polypharmacology Profiling: Model Construction and Experiment Validation.",
+  "volume": "63",
+  "year": 2020
+}

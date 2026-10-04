@@ -1,0 +1,14 @@
+[
+  {
+    "seed": 104729,
+    "top_pose_crystal_RMSD_A": 0.5564915433659692
+  },
+  {
+    "seed": 130363,
+    "top_pose_crystal_RMSD_A": 0.7761625456676564
+  },
+  {
+    "seed": 155921,
+    "top_pose_crystal_RMSD_A": 0.7117889909007926
+  }
+]

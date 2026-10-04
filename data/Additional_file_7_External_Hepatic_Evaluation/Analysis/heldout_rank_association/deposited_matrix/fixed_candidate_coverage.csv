@@ -1,0 +1,18 @@
+gene,measurement_available,reason
+ABL1,True,measured in deposited expression matrix
+AXL,True,measured in deposited expression matrix
+CDK4,False,not represented in supplied expression matrix; not a negative response
+FGFR1,True,measured in deposited expression matrix
+FGFR2,True,measured in deposited expression matrix
+FGFR3,True,measured in deposited expression matrix
+FGFR4,True,measured in deposited expression matrix
+FLT1,True,measured in deposited expression matrix
+FLT3,True,measured in deposited expression matrix
+FLT4,True,measured in deposited expression matrix
+JAK1,False,not represented in supplied expression matrix; not a negative response
+KDR,True,measured in deposited expression matrix
+LRRK2,True,measured in deposited expression matrix
+LYN,False,not represented in supplied expression matrix; not a negative response
+MET,False,not represented in supplied expression matrix; not a negative response
+PDGFRA,True,measured in deposited expression matrix
+TYK2,False,not represented in supplied expression matrix; not a negative response

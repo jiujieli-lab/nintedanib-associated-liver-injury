@@ -1,0 +1,24 @@
+{
+  "abstract": "We herein report the identification, structural optimization, and structure-activity relationship of thieno[2,3-<i>d</i>]pyrimidine derivatives as a novel kind of selective vascular endothelial growth factor receptor 3 (VEGFR3) inhibitors. <i>N</i>-(4-Chloro-3-(trifluoromethyl)phenyl)-4-(6-(4-(4-methylpiperazin-1-yl)phenyl)thieno[2,3-<i>d</i>]pyrimidin-4-yl)piperazine-1-carboxamide (<b>38k</b>) was the most potent VEGFR3 inhibitor (IC<sub>50</sub> = 110.4 nM) among developed compounds. Compared with VEGFR1 and VEGFR2, VEGFR3 was approximately 100 times more selective. Here, compound <b>38k</b> significantly inhibited proliferation and migration of VEGF-C-induced human dermal lymphatic endothelial cells (HDLEC), MDA-MB-231, and MDA-MB-436 cells by inactivating the VEGFR3 signaling pathway. Additionally, <b>38k</b> induced cell apoptosis and a prolonged G1/S-phase in MDA-MB-231 and MDA-MB-436 cells. It also presented acceptable pharmacokinetic characteristics in Sprague-Dawley (SD) rats with an oral bioavailability of 30.9%. In the xenograft model <i>in vivo</i>, <b>38k</b> effectively inhibited breast cancer growth by suppressing the VEGFR3 signaling pathway. <b>38k</b> pronouncedly resisted the formation of pulmonary metastatic nodules in mice. Collectively, <b>38k</b> may be a promising therapeutic agent of metastatic breast cancer.",
+  "authors": "Li Y, Yang G, Zhang J, Tang P, Yang C, Wang G, Chen J, Liu J, Zhang L, Ouyang L.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_31",
+    "creation_date": "2022-07-12"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4837240",
+  "doi": "10.1021/acs.jmedchem.1c00678",
+  "doi_chembl": null,
+  "first_page": "12022",
+  "issue": "16.0",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "12048",
+  "patent_id": null,
+  "pubmed_id": 34351741,
+  "src_id": 1,
+  "title": "Discovery, Synthesis, and Evaluation of Highly Selective Vascular Endothelial Growth Factor Receptor 3 (VEGFR3) Inhibitor for the Potential Treatment of Metastatic Triple-Negative Breast Cancer.",
+  "volume": "64",
+  "year": 2021
+}

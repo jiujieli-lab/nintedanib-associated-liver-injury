@@ -1,0 +1,24 @@
+{
+  "abstract": "Kinase inhibitors are a new class of therapeutics with a propensity to inhibit multiple targets. The biological consequences of multi-kinase activity are poorly defined, and an important step toward understanding the relationship between selectivity, efficacy and safety is the exploration of how inhibitors interact with the human kinome. We present interaction maps for 38 kinase inhibitors across a panel of 317 kinases representing >50% of the predicted human protein kinome. The data constitute the most comprehensive study of kinase inhibitor selectivity to date and reveal a wide diversity of interaction patterns. To enable a global analysis of the results, we introduce the concept of a selectivity score as a general tool to quantify and differentiate the observed interaction patterns. We further investigate the impact of panel size and find that small assay panels do not provide a robust measure of selectivity.",
+  "authors": "Karaman MW, Herrgard S, Treiber DK, Gallant P, Atteridge CE, Campbell BT, Chan KW, Ciceri P, Davis MI, Edeen PT, Faraoni R, Floyd M, Hunt JP, Lockhart DJ, Milanov ZV, Morrison MJ, Pallares G, Patel HK, Pritchard S, Wodicka LM, Zarrinkar PP.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_4",
+    "creation_date": "2010-05-18"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1150977",
+  "doi": "10.1038/nbt1358",
+  "doi_chembl": null,
+  "first_page": "127",
+  "issue": "1",
+  "journal": "Nat Biotechnol",
+  "journal_full_title": "Nature biotechnology.",
+  "last_page": "132",
+  "patent_id": null,
+  "pubmed_id": 18183025,
+  "src_id": 1,
+  "title": "A quantitative analysis of kinase inhibitor selectivity.",
+  "volume": "26",
+  "year": 2008
+}

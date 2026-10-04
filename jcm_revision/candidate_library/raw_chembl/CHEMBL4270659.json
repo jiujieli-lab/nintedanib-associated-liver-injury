@@ -1,0 +1,24 @@
+{
+  "abstract": "Glycogen synthase kinase-3\u03b2 (GSK-3\u03b2) has been identified to promote inflammation and its inhibitors have also been proven to treat some inflammatory mediated diseases in animal models. Non-ATP competitive inhibitors inherently have better therapeutical value due to their higher specificity than ATP competitive ones. In this paper, we designed and synthesized a series of new BTZ derivatives as non-ATP competitive GSK-3\u03b2 inhibitors. Kinetic analysis revealed two typical compounds 6j and 3j showed the different non-ATP competitive mechanism of substrate competition or allosteric modulation to GSK-3\u03b2, respectively. As expected, the two compounds showed good specificity in a panel test of 16 protein kinases, even to the closest enzymes, like CDK-1/cyclin B and CK-II. The in vivo results proved that both compounds can greatly attenuate the LPS-induced acute lung injury (ALI) and diminish inflammation response in mice by inhibiting the mRNA expression of IL-1\u03b2 and IL-6. Western blot analysis demonstrated that they negatively regulated GSK-3\u03b2, and the mechanism of the observed beneficial effects of the inhibitors may involve both the increased phosphorylation of the Ser9 residue on GSK-3\u03b2 and protein expression of Sirtuin 1 (SIRT1). The results support that such novel BTZ compounds have a protective role in LPS-induced ALI, and might be attractive candidates for further development of inflammation pharmacotherapy, which greatly thanks to their inherently high selectivities by the non-ATP competitive mode of action. Finally, we proposed suggesting binding modes by Docking study to well explain the impacts of compounds on the target site.",
+  "authors": "Gao Y, Zhang P, Cui A, Ye DY, Xiang M, Chu Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_26",
+    "creation_date": "2020-01-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4270659",
+  "doi": "10.1016/j.bmc.2018.09.027",
+  "doi_chembl": null,
+  "first_page": "5479",
+  "issue": "20",
+  "journal": "Bioorg Med Chem",
+  "journal_full_title": "Bioorganic & medicinal chemistry.",
+  "last_page": "5493",
+  "patent_id": null,
+  "pubmed_id": 30293796,
+  "src_id": 1,
+  "title": "Discovery and anti-inflammatory evaluation of benzothiazepinones (BTZs) as novel non-ATP competitive inhibitors of glycogen synthase kinase-3\u03b2 (GSK-3\u03b2).",
+  "volume": "26",
+  "year": 2018
+}

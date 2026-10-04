@@ -1,0 +1,51 @@
+{
+  "checked_date": "2026-10-02",
+  "references_total": 97,
+  "doi_sources": 75,
+  "crossref_journal_records": 74,
+  "datacite_dataset_records": 1,
+  "doi_title_normalized_matches": 75,
+  "official_url_sources": 22,
+  "dataset_metadata_fallbacks": 12,
+  "doi_title_mismatch_count": 0,
+  "pagination_corrections": {
+    "56": {
+      "old": "5914–5931",
+      "new": "5914–5931.e20"
+    },
+    "57": {
+      "old": "5932–5944",
+      "new": "5932–5944.e6"
+    },
+    "69": {
+      "old": "1385–1396",
+      "new": "1385–1396.e8"
+    }
+  },
+  "metadata_exceptions": {
+    "17": "Original corporate EASL authorship retained; Crossref lists individual guideline contributors.",
+    "43": "Article32 verified PubMedPMID16646851; absent fromCrossref.",
+    "52": "Crossref omits pagination; source1–26 retained.",
+    "75": "Original Carcione,C. retained; Crossref name inversion resolved against officialRi.MED institutional profile."
+  },
+  "improved_web_links": {
+    "82": "https://maayanlab.cloud/Harmonizome/resource/Sci-Plex",
+    "97": "https://string-db.org/help/api/"
+  },
+  "primary_author_identity_sources": {
+    "75": "https://www.fondazionerimed.eu/bioresearcher/claudia-carcione/?lang=en",
+    "54": "https://pubmed.ncbi.nlm.nih.gov/22037378/"
+  },
+  "current_master_numbering": "Sequential1–97, includingtables; recheckaftermovingtables/newinserts.",
+  "supplement_reference_changes": 11,
+  "supplement_changed_pages": [
+    21,
+    31,
+    32,
+    35,
+    54,
+    95,
+    96
+  ],
+  "verification_scope": "Bibliographic identity and metadata; this does not imply every cited scientific assertion was re-adjudicated against full texts."
+}

@@ -1,0 +1,375 @@
+{
+  "dataset": "GSE151374 / PRJNA635636",
+  "analysis_timestamp_utc": "2026-09-04T20:23:42.690421+00:00",
+  "random_seed": 151374,
+  "statistical_unit": "pooled 10x library (three mice pooled per library; n=3 libraries per condition/time point)",
+  "qc_rule": "UMI >= 500; detected genes >= 200 and <= 6000; mitochondrial fraction < 0.20",
+  "annotation": "broad marker-rule label; max mean log-normalized marker score; Other if top score <0.10 or margin <0.05",
+  "gene_level_test": "macrophage pseudobulk log2(CPM+prior), two-sided Welch t; BH within each day; exploratory because n=3 vs n=3",
+  "module_and_composition_test": "pooled-library Welch t plus exhaustive two-sided 3-vs-3 permutation; BH across displayed families",
+  "software": {
+    "python": "3.12.13",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "h5py": "3.16.0"
+  },
+  "inputs": [
+    {
+      "path": "fresh_analysis/preclinical/gse151374/code/analyze_gse151374.py",
+      "bytes": 36200,
+      "sha256": "bdc4ed5165499931da2973d23b435450ee10cfa679ad4f16a42e2f633eef640d",
+      "release_path": "Code/GSE151374/analyze_gse151374.py",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/metadata/GSE151374_family.soft.gz",
+      "bytes": 4106,
+      "sha256": "993b84412ad4492b1d51ad2f4f221f829f01c45c9d3aeb3896892ea041b7ecd8",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSE151374_RAW.tar",
+      "bytes": 465408000,
+      "sha256": "ca27d0054a44c5f98e84be66c6f971cdb673f634e85249de181968ed8da2bcd1",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576588_751_1_raw_feature_bc_matrix.h5",
+      "bytes": 25376569,
+      "sha256": "db3e8fcd1be6adbc1aa0079d7fc095d94c657f528598a3f069ee334b88a20ae4",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576589_751_2_raw_feature_bc_matrix.h5",
+      "bytes": 28809582,
+      "sha256": "24cb5e9cce0e328c3657898ab454a3a77917b51e62d18dab53794f70b10c95af",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576590_751_3_raw_feature_bc_matrix.h5",
+      "bytes": 28910573,
+      "sha256": "ad429132b13106f3491b86c6447e3d1d89e1b58bb0f2a0cf335e09ae97b760cc",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576591_751_4_raw_feature_bc_matrix.h5",
+      "bytes": 25669168,
+      "sha256": "1aeecd43ccc103640492db5629cfc96838c451d6e77e3dcf3bd737a67128b862",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576592_751_5_raw_feature_bc_matrix.h5",
+      "bytes": 27303782,
+      "sha256": "bf5a40a3aa328b9de083ee01f0c0bf5dfdf08a3b9bb4e98a4b0f968f5631e41c",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576593_751_6_raw_feature_bc_matrix.h5",
+      "bytes": 28225194,
+      "sha256": "1e25bbd37c041964982c02a787a4e2e67d5c1dc10845729376f31e98c7e19d6a",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576594_751_7_raw_feature_bc_matrix.h5",
+      "bytes": 21835526,
+      "sha256": "993b4b126f0d48ecf410135316834e9e1e5f6dc2befaa4a5601a3bfe881835ab",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576595_751_8_raw_feature_bc_matrix.h5",
+      "bytes": 23969188,
+      "sha256": "43f3e311181c48b47a74c62466e5c9178c5babeb166c4b12007000d868bc4efd",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576596_751_9_raw_feature_bc_matrix.h5",
+      "bytes": 23433849,
+      "sha256": "286be38c1c26f7296a05e91c202785e59782ae37ff9a2a46d51928bfb381bba3",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576597_751_10_raw_feature_bc_matrix.h5",
+      "bytes": 21514216,
+      "sha256": "2a3608ac5c915cb5d656a512feceeab95f18156d1b69d7b3a7d4d25ef0514b67",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576598_751_11_raw_feature_bc_matrix.h5",
+      "bytes": 23383938,
+      "sha256": "d0caecca999a3f05b4064550bb4bf3db0e28b3006ad8993b6c75e43df0c3d4c6",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576599_751_12_raw_feature_bc_matrix.h5",
+      "bytes": 23105400,
+      "sha256": "2fdc84528d3638ea4ff04ef3f4edd9afca1f689de80483ee4965611eff5b7902",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576600_751_13_raw_feature_bc_matrix.h5",
+      "bytes": 23304282,
+      "sha256": "877f82123c4be1e16ef1d02a5eb07cb8e0016eef783da0887533ce1b515ec17f",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576601_751_14_raw_feature_bc_matrix.h5",
+      "bytes": 28150756,
+      "sha256": "596977737a94ad5a266e3e0aa7c77e801738b4d34ae2ccbc2b029723dfce8978",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576602_751_15_raw_feature_bc_matrix.h5",
+      "bytes": 26112291,
+      "sha256": "68f8413df0dd394fa0e522cbeb2450e1aef4902191820da71513eb804ee5abfa",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576603_751_16_raw_feature_bc_matrix.h5",
+      "bytes": 24049534,
+      "sha256": "b25bea1040f9252a1be9d081e7be689c1168ac953ae88af2bd8cb7626756322b",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576604_751_17_raw_feature_bc_matrix.h5",
+      "bytes": 30420909,
+      "sha256": "8611daad895ae51a38a78f4e0f8a3a59e886fd92392ff8343cb5fa98ee5b260a",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576605_751_18_raw_feature_bc_matrix.h5",
+      "bytes": 31811672,
+      "sha256": "61b3da0563fddf999a293d937c0bebca3c2abf569cba8932c7399e3042bc90e8",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.pdf",
+      "bytes": 269107,
+      "sha256": "71d617009256465fbfb10babd6f69c8d979e8f4d9367278aa3b07b2b60ee366c",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S6_GSE151374.pdf",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.png",
+      "bytes": 2328394,
+      "sha256": "9b8a165c4f2e6dca16f01e0d8c8c788d4bf0832c093ca6b583964c696d8ad2bf",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S6_GSE151374.png",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+      "bytes": 352441,
+      "sha256": "3cd25d43cfee1d921e3e04e1f5bd80c4a789e408466711b2f02a5a8e3305b443",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S6_GSE151374.svg",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.tiff",
+      "bytes": 7520834,
+      "sha256": "ef24f1bb6a3cd20b911021f73b7ae7e2b2ef268c825bdd787022e82cd70568b3",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S6_GSE151374.tiff",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/candidate_and_phenotype_tracks.csv",
+      "bytes": 82201,
+      "sha256": "9023aa05424c319bb01dd0f1369da1300ebc5c6cdbb0b0d1b0fec507cf909f00",
+      "release_path": "Source_Data/GSE151374/results/candidate_and_phenotype_tracks.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/candidate_gene_contrasts.csv",
+      "bytes": 8775,
+      "sha256": "8d8baca5ebef16ff608c881e2acd50f6068f533c739c3e6ae23bf2cadee687c7",
+      "release_path": "Source_Data/GSE151374/results/candidate_gene_contrasts.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/celltype_counts_and_proportions_by_library.csv",
+      "bytes": 35059,
+      "sha256": "4f89a5874ec399aa430eec5586d28d126517a399067e438d0cbeb6f2cf60bab5",
+      "release_path": "Source_Data/GSE151374/results/celltype_counts_and_proportions_by_library.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/celltype_proportion_contrasts.csv",
+      "bytes": 3900,
+      "sha256": "43af67f98d51b864cdbc8d8cde376689f928b6c87cab069f542db3ed5993cfcd",
+      "release_path": "Source_Data/GSE151374/results/celltype_proportion_contrasts.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/library_manifest.csv",
+      "bytes": 3021,
+      "sha256": "1f8cfec13a50b83dc23df083b04d702521747bb88ff4e39764ff463630ee5e2d",
+      "release_path": "Source_Data/GSE151374/results/library_manifest.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/macrophage_DE_NINT_vs_BLM_day14.csv",
+      "bytes": 6305754,
+      "sha256": "c38ff69e01f8dc83c25376c9d398997d2afd50fba2e77f97bbb58a27f5611552",
+      "release_path": "Source_Data/GSE151374/results/macrophage_DE_NINT_vs_BLM_day14.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/macrophage_DE_NINT_vs_BLM_day7.csv",
+      "bytes": 6374803,
+      "sha256": "6d26499304e770f3ebaae7a0955ea54c5f2dba00b7b4c0673b821135e7d623a1",
+      "release_path": "Source_Data/GSE151374/results/macrophage_DE_NINT_vs_BLM_day7.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/macrophage_module_contrasts.csv",
+      "bytes": 2030,
+      "sha256": "e24c5749f262508cbd2f2863c4261a8cf4193161062355847c09c3801b52f9a1",
+      "release_path": "Source_Data/GSE151374/results/macrophage_module_contrasts.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/macrophage_module_scores_by_library.csv",
+      "bytes": 23049,
+      "sha256": "bf0a107114226e3cc795946ac44909da7372343368545916c2632d89f93ba593",
+      "release_path": "Source_Data/GSE151374/results/macrophage_module_scores_by_library.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/module_gene_membership.csv",
+      "bytes": 1495,
+      "sha256": "3c1ea65c80ca55ac056fe32c88e9d63124fe5a6c6040df923fc27d09d2995c61",
+      "release_path": "Source_Data/GSE151374/results/module_gene_membership.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/pca_all_retained_pseudobulk.csv",
+      "bytes": 4422,
+      "sha256": "4b45743870a87343f53db583045a22cf060f068df06748029aa4ca73574d2a14",
+      "release_path": "Source_Data/GSE151374/results/pca_all_retained_pseudobulk.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/pca_macrophage_pseudobulk.csv",
+      "bytes": 4383,
+      "sha256": "75bd8b98e78cd7487a23b2610f2ad49bf8c570eb7fdfed8c80eecfde2ef4b978",
+      "release_path": "Source_Data/GSE151374/results/pca_macrophage_pseudobulk.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/pseudobulk_all_retained_counts.tsv.gz",
+      "bytes": 953106,
+      "sha256": "2ab544f10362a6c6f16b3bd2ab784c494e0f444b2dd34a8cd57946512c3f4ce0",
+      "release_path": "Source_Data/GSE151374/results/pseudobulk_all_retained_counts.tsv.gz",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/pseudobulk_macrophage_counts.tsv.gz",
+      "bytes": 794702,
+      "sha256": "4b12d9e902437a62cae6050862b53d882f5471f0afa8907a5c0bf8976dfd2e17",
+      "release_path": "Source_Data/GSE151374/results/pseudobulk_macrophage_counts.tsv.gz",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/qc_by_library.csv",
+      "bytes": 4826,
+      "sha256": "25c8bb874e34d375709e194cd278c0b1e2257a55bcadf0b788fa8d030ddb86cc",
+      "release_path": "Source_Data/GSE151374/results/qc_by_library.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/validation/aggregate_marker_expression_by_celltype.csv",
+      "bytes": 3312,
+      "sha256": "1c07108bc7bf8402c16da4122a8f9367c27c6261b155c3056b3fed1cf997abcd",
+      "release_path": "Source_Data/GSE151374/validation/aggregate_marker_expression_by_celltype.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/validation/marker_score_separation_by_library.csv",
+      "bytes": 34485,
+      "sha256": "041ef151abb866ebb6467b3c9c860d145c158f6c2f4aa2fa3aad78ce0874a5e5",
+      "release_path": "Source_Data/GSE151374/validation/marker_score_separation_by_library.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/validation/validation_checks.json",
+      "bytes": 395,
+      "sha256": "ccede087a1ef99b3105c214e181db27e785d95bf9392b1f4a02ca24b1018de2f",
+      "release_path": "Source_Data/GSE151374/validation/validation_checks.json",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    }
+  ],
+  "release_mapping_policy": "All released code, analytical outputs, validation files, and figure derivatives are mapped by release_path and re-hashed. Large public raw inputs are not duplicated; their frozen source-run hashes retain the successful upstream full-analysis audit.",
+  "release_visual_update": {
+    "date_utc": "2026-09-05",
+    "scope": "print-layout-only S6/S7 label deconfliction and 600-dpi raster export",
+    "analytical_values_changed": false,
+    "release_script": "Code/Core/finalize_s6_s7_figure_exports.py"
+  }
+}

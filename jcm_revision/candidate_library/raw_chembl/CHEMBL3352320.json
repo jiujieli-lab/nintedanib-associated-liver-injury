@@ -1,0 +1,24 @@
+{
+  "abstract": "Glycogen synthase kinase 3\u03b2 (GSK-3\u03b2) plays a key role in insulin metabolizing pathway and therefore inhibition of the enzyme might provide an important therapeutic approach for treatment of insulin resistance and type 2 diabetes. Recently, discovery of ATP noncompetitive inhibitors is gaining importance not only due to their generally increased selectivity but also for the potentially subtle modulation of the target. These kinds of compounds include allosteric modulators and substrate competitive inhibitors. Here we reported two benzothiazinone compounds (BTO), named BTO-5h (IC50=8 \u03bcM) and BTO-5s (IC50=10 \u03bcM) as novel allosteric modulator and substrate competitive inhibitor of GSK-3\u03b2, respectively. Their different action modes were proved by kinetic experiments. Furthermore, BTO-5s was selected to check the kinases profile and showed little or even no activity to a panel of ten protein kinases at 100 \u03bcM, indicating it has good selectivity. Docking studies were performed to give suggesting binding modes which can well explain their impacts on the enzyme. Moreover, cell experiments displayed both compounds reduced the phosphorylation level of glycogen synthase in an intact cell, and greatly enhanced the glucose uptake in both HpG2 and 3T3-L1 cells. All of these results suggested BTO-5s and BTO-5h maybe have potentially therapeutic value for anti-diabetes. The results also offer a new scaffold for designing and developing selective inhibitors with novel mechanisms of action.",
+  "authors": "Zhang P, Li S, Gao Y, Lu W, Huang K, Ye D, Li X, Chu Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_21",
+    "creation_date": "2016-02-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL3352320",
+  "doi": "10.1016/j.bmcl.2014.10.078",
+  "doi_chembl": null,
+  "first_page": "5639",
+  "issue": "24",
+  "journal": "Bioorg Med Chem Lett",
+  "journal_full_title": "Bioorganic & medicinal chemistry letters.",
+  "last_page": "5643",
+  "patent_id": null,
+  "pubmed_id": 25467150,
+  "src_id": 1,
+  "title": "Novel benzothiazinones (BTOs) as allosteric modulator or substrate competitive inhibitor of glycogen synthase kinase 3\u03b2 (GSK-3\u03b2) with cellular activity of promoting glucose uptake.",
+  "volume": "24",
+  "year": 2014
+}

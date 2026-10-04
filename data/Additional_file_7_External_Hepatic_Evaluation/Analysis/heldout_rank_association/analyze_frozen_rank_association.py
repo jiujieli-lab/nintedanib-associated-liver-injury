@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+"""External pharmacodynamic rank association, not DILI target-classification accuracy."""
+from pathlib import Path
+import argparse,itertools,json,hashlib
+import numpy as np,pandas as pd
+from scipy.stats import rankdata,false_discovery_control,spearmanr
+p=argparse.ArgumentParser();p.add_argument('--external-dir',type=Path,required=True);p.add_argument('--expression-file',type=Path,required=True);p.add_argument('--metadata-file',type=Path,required=True);p.add_argument('--ranking-dir',type=Path,required=True);p.add_argument('--output-dir',type=Path,required=True);a=p.parse_args();a.output_dir.mkdir(parents=True,exist_ok=True);O=a.output_dir
+files={'expression':a.expression_file,'metadata':a.metadata_file,'rankings':a.ranking_dir/'algorithm_candidate_rankings.csv','fixed_external':a.external_dir/'fixed_targets_and_clinical_proteins.csv'}
+manifest=[{'input':k,'filename':v.name,'sha256':hashlib.sha256(v.read_bytes()).hexdigest(),'bytes':v.stat().st_size} for k,v in files.items()]
+expr=pd.read_csv(files['expression'],index_col=0);meta=pd.read_csv(files['metadata']).set_index('gsm').loc[expr.columns];fix=pd.read_csv(files['fixed_external']);fix=fix[(fix.role=='pharmacology_candidate')&(fix.contrast=='NINT_vs_DISEASE')].set_index('gene');ranking=pd.read_csv(files['rankings']);methods=['legacy_consensus','median','mean','geometric','maximin','RRA'];genes=sorted(ranking.target.unique());available=[g for g in genes if g in expr.index and bool(fix.loc[g,'measurement_available'])];missing=sorted(set(genes)-set(available));assert len(genes)==17 and len(available)>=3
+DT=meta.index[meta.group.isin(['DISEASE','NINT'])];gr=meta.loc[DT,'group'];assert len(DT)==19;X=expr.loc[available,DT].T.to_numpy(float);nt=int(gr.eq('NINT').sum());nd=int(gr.eq('DISEASE').sum());obs=X[gr.eq('NINT')].mean(0)-X[gr.eq('DISEASE')].mean(0);assert np.allclose(obs,fix.loc[available,'log2FC'],atol=1e-10)
+# Exact permutations act on whole animals across every measured candidate jointly.
+alloc=np.array(list(itertools.combinations(range(len(DT)),nt)),dtype=np.int16);W=np.full((len(alloc),len(DT)),-1/nd);W[np.arange(len(alloc))[:,None],alloc]=1/nt;null=W@X
+ranked=rankdata(np.abs(null),axis=1);ranked=ranked-ranked.mean(axis=1,keepdims=True);norm=np.sqrt((ranked*ranked).sum(axis=1));r_ob=rankdata(abs(obs));r_ob-=r_ob.mean();n_ob=np.sqrt(r_ob@r_ob)
+rows=[];nullrows=[];pairs=[]
+for method in methods:
+ rr=ranking[ranking.algorithm.eq(method)].set_index('target').loc[available,'rank'].to_numpy();pr=rankdata(-rr);pr-=pr.mean();prnorm=np.sqrt(pr@pr);rho=float(pr@r_ob/(prnorm*n_ob));nr=(ranked@pr)/(norm*prnorm);p2=float(np.mean(abs(nr)>=abs(rho)-1e-12));p1=float(np.mean(nr>=rho-1e-12));boot=[]
+ for i in range(len(available)):
+  k=np.arange(len(available))!=i;boot.append(float(spearmanr(-rr[k],np.abs(obs[k])).statistic))
+ rows.append({'algorithm':method,'n_fixed_candidates':17,'n_measurable_candidates':len(available),'n_disease_animals':nd,'n_treated_animals':nt,'spearman_priority_vs_abs_drug_effect':rho,'p_exact_animal_two_sided':p2,'p_exact_animal_greater':p1,'n_exact_allocations':len(alloc),'null_mean_rho':float(nr.mean()),'null_median_rho':float(np.median(nr)),'null_q025':float(np.quantile(nr,.025)),'null_q975':float(np.quantile(nr,.975)),'leave_one_candidate_rho_min':min(boot),'leave_one_candidate_rho_max':max(boot)})
+ # Complete permutation statistics are small enough to preserve.
+ nullrows.append(pd.DataFrame({'algorithm':method,'allocation':np.arange(len(alloc)),'spearman_rho':nr}))
+ for gene,rank,ef in zip(available,rr,obs):pairs.append({'algorithm':method,'gene':gene,'frozen_rank':rank,'observed_log2FC_NINT_vs_DISEASE':ef,'absolute_drug_effect':abs(ef)})
+summary=pd.DataFrame(rows);summary['q_BH_six_algorithms_two_sided']=false_discovery_control(summary.p_exact_animal_two_sided);summary['q_BH_six_algorithms_greater']=false_discovery_control(summary.p_exact_animal_greater)
+summary.to_csv(O/'external_rank_association_summary.csv',index=False);pd.DataFrame(pairs).to_csv(O/'external_target_rank_effect_pairs.csv',index=False);pd.concat(nullrows,ignore_index=True).to_csv(O/'animal_permutation_rank_statistics.csv.gz',index=False,compression='gzip')
+coverage=pd.DataFrame({'gene':genes,'measurement_available':[g in available for g in genes]});coverage['reason']=np.where(coverage.measurement_available,'measured in deposited expression matrix','not represented in supplied expression matrix; not a negative response');coverage.to_csv(O/'fixed_candidate_coverage.csv',index=False)
+expr.loc[available,DT].to_csv(O/'external_candidate_expression_snapshot.csv');meta.loc[DT].to_csv(O/'external_candidate_sample_metadata.csv',index_label='gsm');pd.DataFrame(manifest).to_csv(O/'input_manifest.csv',index=False)
+res={'dataset':'GSE125975','endpoint':'absolute nintedanib-versus-disease-control liver transcriptomic response','interpretation':'pharmacodynamic rank association; not DILI target causality, accuracy or injury prediction','algorithms_fixed_before_external_inspection':methods,'n_original_candidates':17,'measured_genes':available,'unrepresented_genes':missing,'n_allocations':len(alloc),'tested_groups':{'DISEASE':nd,'NINT':nt},'no_ranking_retraining':True,'all_candidates_same_measurement_subset':True,'Pvalue':'whole-animal exact sharp-null allocation test; treatment-label exchangeability required','multiplicity':'six methods together; primary two-sided family, directional family secondary','frozen_ranking_sha256':next(z['sha256'] for z in manifest if z['input']=='rankings')};(O/'analysis_configuration.json').write_text(json.dumps(res,indent=2));print(summary.to_string(index=False))

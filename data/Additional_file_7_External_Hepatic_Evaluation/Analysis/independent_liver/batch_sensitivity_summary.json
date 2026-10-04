@@ -1,0 +1,18 @@
+{
+  "inferred_CEL_run_date_group_crosstab": {
+    "CONTROL": {
+      "180216": 2,
+      "190216": 1
+    },
+    "DISEASE": {
+      "180216": 2,
+      "190216": 7
+    },
+    "NINT": {
+      "180216": 2,
+      "190216": 8
+    }
+  },
+  "conditional_allocations": 38610,
+  "interpretation": "Date inferred solely from CEL filenames; sensitivity variable, not an independently documented batch covariate."
+}

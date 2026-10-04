@@ -1,0 +1,72 @@
+{
+  "analysis": "transparent multi-evidence integration for nintedanib-associated DILI target prioritization",
+  "analysis_script": "Code/Core/build_virtual_integration_figures.py",
+  "analysis_script_sha256": "bfdfe7f90d5c836a0b3abcd007b4e0798a629294edeaa10e1f5002c2e644dd1e",
+  "validation_script": "Code/Core/validate_virtual_integration_outputs.py",
+  "validation_script_sha256": "4fe4983a93458b6481aa1451a335195ae4f5df91ff486b31b7b0e3901e75c857",
+  "random_seed": 20260904,
+  "candidate_roles_kept_separate": true,
+  "source_independence_rule": "derived features from the same dataset are grouped within one evidence domain",
+  "liver_context_rule": "same-compartment maximin of expression rank and median virtual-KO rank; no cross-compartment splicing",
+  "primary_T2_gate": "strong pharmacology AND ((same compartment detection>=0.10, n_seeds=3, median vKO rank>=0.75) OR (directly measured nonconstant HepG2 landmark and abs(rho)>=0.70))",
+  "strict_T2_sensitivity": "primary gate with same-compartment vKO rank>=0.75 in every seed",
+  "phenotype_tiers": "P1/P2/P3 are distinct from target T1/T2/T3",
+  "virtual_knockout_interpretation": "unsigned network displacement only; no causal, protective, harmful, or expression-direction claim",
+  "pareto_rule": "iterative non-dominated sorting within candidate role",
+  "leave_one_source_out": true,
+  "tier1_assigned": false,
+  "figure_panel_counts": {
+    "Figure_4": 10,
+    "Figure_5": 10
+  },
+  "figure_hashes": {
+    "figure4": {
+      "svg": "4f3495d4d487b51391aed7630d77111ca8c3d088ef235773ea45e893673ba42c",
+      "pdf": "ce16a13be66ad2eb7f41ed9f5ef593a87bf224301cb84414cc91fae8431a7640",
+      "png_600dpi": "14ac1c8c4e740574722c7fdee03a640ee4ed8e67b591974ef723e808a9f8ef4c",
+      "tiff_600dpi": "d0b580b169e99d583908f0586ab1637f7ff0e8e468c163439b5d477589e62600"
+    },
+    "figure5": {
+      "svg": "12db0700979f7edbdddde88c10f359849a506f5ba6b96af8614c2a29fa24953e",
+      "pdf": "20e740c22d455dbe5938c2a57f3b3052be5aa9f5f3ffe065a640c680ced023a4",
+      "png_600dpi": "18985b47995456c883f1b822378435d47136d00181d5b0be53306ca40563a1a8",
+      "tiff_600dpi": "718926ba6bd29f0400719344afa8bae05a9e258b201d541390318812231bc4d6"
+    }
+  },
+  "input_hashes": {
+    "Source_Data/Human_DILI_Proteomics/candidate_evidence_table.csv": "127b28cb9e1e808e2e9477845520f7d3a8cbd8661cbfe074e2c2d3cbd8661588",
+    "Source_Data/Liver_Single_Cell/target_expression_by_compartment.csv": "df976be26600a728f53411f149c1f791c78434287792a8cec900fde01a8af1cd",
+    "Source_Data/Pharmacology/chembl_target_summary.csv": "fda76feee74f7b0adafcf16e8f960f9637e52e43b656937a2374afde963dc381",
+    "Source_Data/Virtual_Knockout/virtual_knockout_stability_summary.csv": "a27a200b356206207195690efc19178ec24e4f3cbbe86d30fe681e36fb491b9e",
+    "Source_Data/Virtual_Knockout/virtual_knockout_seed_summary.csv": "52b5217bf88a678b602f139fb2cee2d859e8b7c94697e8cc9bb93b309b926c9e",
+    "Source_Data/Virtual_Knockout/virtual_knockout_gene_results.csv.gz": "781fc26c65443be9fa2a9b966f3b482485c2828510657a3a1f148022adbd6967"
+  },
+  "output_table_hashes": {
+    "Source_Data/Integration/candidate_consensus_ranking.csv": "f9ae0b5477507ca3327029534ff9335fdfbe96b9d1e7fc1ad0fbd58b53e05ee1",
+    "Source_Data/Integration/candidate_domain_scores_long.csv": "b3d55b77089a79004083e6ac3b27fdcadd392208cd598d7ab0c31326ab9d365f",
+    "Source_Data/Integration/candidate_leave_one_source_out_ranks.csv": "2771c716ffae5a3bd37705e837a03233b716661dc26c0fb52c1d788481ab6975",
+    "Source_Data/Integration/tier2_candidate_shortlist.csv": "89fb4396b89fd6d176f6d24ad1f8a7c0f72706949ecda2a1520c50314448cf99",
+    "Source_Data/Integration/phenotype_anchor_tiers.csv": "7554294f4328df58005e7fed052c05cbef9e66bc3db25c90f7949092399e54df",
+    "Source_Data/Integration/target_same_compartment_context_all_pairs.csv": "cade39d2a7a12af5aa6f342c93d298d4338616b49a53653b21e62e1d44707a2c",
+    "Source_Data/Integration/target_tier_gate_sensitivity.csv": "c66e5a053928e13e315e5525fdd4b159657e541dfd45a38f3792e8cfdb777509",
+    "Source_Data/Integration/virtual_ko_expression_matched_null_by_seed.csv": "369bd1f598c5e903610b4b2b3c28e1838f8366ab01115bd612922b8a89914f0f",
+    "Source_Data/Integration/virtual_ko_expression_matched_null_stability.csv": "1d8fd5a3f24e8830288632e944673731857886f023f109a29f85b110ce3f6f72",
+    "Source_Data/Integration/virtual_ko_top20_pairwise_jaccard.csv": "8acb4bf34b0c905cd7a30fe4bc84d63a0dec4f4411cd47a4558dfe3dc7bfd316",
+    "Source_Data/Integration/string_candidate_path_metrics.csv": "32f2402b33b05e25993c00fd401b87648202845e9b638117103920890e5802f3"
+  },
+  "text_artifact_hashes": {
+    "Figures/Figure_4_Liver_Localization_and_Virtual_Knockout_caption.md": "43d2d27c38f17159304fe5919295421a04ad23d6fd7434bc08b1e484ee060860",
+    "Figures/Figure_5_Multi_Evidence_Target_Prioritization_caption.md": "2373c645ab24d8f5706afbee9ff0823bcb5e709da3f9d52b85e727630ec9b88c",
+    "Source_Data/Integration/integration_methods_results.md": "d57627d4232a8665ea860384030025d4ba22d9fa0aadfa001662c98692ba9ba3"
+  },
+  "upstream_input_hashes_not_redistributed": {
+    "fresh_analysis/lincs/output/nintedanib_hepg2_level5_all_genes_tidy.csv.gz": "73eb86609f830ae2ee72a6e5a07a7e2db1417cd82271aa848211de01797a034a",
+    "fresh_analysis/inputs/string_candidate_network.tsv": "14d3d8d59496b357aef0e7770492de2c1105347552c403581f00e59218c54178",
+    "fresh_analysis/inputs/string_candidate_network_expanded.tsv": "1ab683cd60d441f391af8a64fd41e77a27e7c4f53ca2aaf8724cff97a6a4f385"
+  },
+  "upstream_text_artifact_hashes_not_redistributed": {
+    "fresh_analysis/integration/input_audit.md": "7bcbaf8f359668bc3bc962befa646777ef112fc57d2a5a6d168ffed83aeb8ebc"
+  },
+  "release_manifest_refreshed_utc": "2026-09-05",
+  "release_scope": "Hashes under input_hashes, output_table_hashes, text_artifact_hashes and figure_hashes refer to files distributed in this compact release. Upstream-only inputs retain their original recorded hashes under upstream_input_hashes_not_redistributed."
+}

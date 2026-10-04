@@ -1,0 +1,36 @@
+{
+  "source": "/workspace/scratch/c5634a2d588f/deliverables/Manuscript/Revised_Manuscript_Clean.docx",
+  "source_sha256": "a320f20d6de1073b39e24b247aea3f79b2e543a20bdad1e9122af99fbbe45b38",
+  "output": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/content_base/JCM_Content_Base.docx",
+  "abstract_words": 243,
+  "original_abstract_words": 315,
+  "original_results_words": 3337,
+  "main_results_words": 2640,
+  "source_tables": 2,
+  "reference_count": 97,
+  "figure_mapping": {
+    "1": "1",
+    "2": "2",
+    "3": "3",
+    "4": "4",
+    "5": "S12",
+    "6": "5",
+    "7": "6"
+  },
+  "reserved_main_figure": 7,
+  "moved_source_paragraphs": [
+    88,
+    89,
+    90,
+    92,
+    93,
+    94,
+    95,
+    97,
+    100,
+    111
+  ],
+  "references_globally_renumbered": false,
+  "figures_embedded": false,
+  "render_status": "Intermediate base; root will render and inspect after final result, figure and reference integration."
+}

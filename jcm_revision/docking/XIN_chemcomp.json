@@ -1,0 +1,480 @@
+{
+  "chem_comp": {
+    "formula": "C31 H33 N5 O4",
+    "formula_weight": 539.625,
+    "id": "XIN",
+    "name": "methyl (3Z)-3-{[(4-{methyl[(4-methylpiperazin-1-yl)acetyl]amino}phenyl)amino](phenyl)methylidene}-2-oxo-2,3-dihydro-1H-indole-6-carboxylate",
+    "pdbx_ambiguous_flag": "N",
+    "pdbx_formal_charge": 0,
+    "pdbx_initial_date": "2008-02-20T00:00:00.000+00:00",
+    "pdbx_modified_date": "2011-06-04T00:00:00.000+00:00",
+    "pdbx_processing_site": "PDBJ",
+    "pdbx_release_status": "REL",
+    "three_letter_code": "XIN",
+    "type": "non-polymer"
+  },
+  "pdbx_chem_comp_audit": [
+    {
+      "action_type": "Create component",
+      "comp_id": "XIN",
+      "date": "2008-02-20T00:00:00.000+00:00",
+      "ordinal": 1
+    },
+    {
+      "action_type": "Modify aromatic_flag",
+      "comp_id": "XIN",
+      "date": "2011-06-04T00:00:00.000+00:00",
+      "ordinal": 2
+    },
+    {
+      "action_type": "Modify descriptor",
+      "comp_id": "XIN",
+      "date": "2011-06-04T00:00:00.000+00:00",
+      "ordinal": 3
+    }
+  ],
+  "pdbx_chem_comp_descriptor": [
+    {
+      "comp_id": "XIN",
+      "descriptor": "O=C(OC)c1cc2c(cc1)/C(C(=O)N2)=C(\\c3ccccc3)Nc4ccc(cc4)N(C(=O)CN5CCN(C)CC5)C",
+      "program": "ACDLabs",
+      "program_version": "10.04",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "XIN",
+      "descriptor": "COC(=O)c1ccc\\2c(NC(=O)C\\2=C(Nc3ccc(cc3)N(C)C(=O)CN4CCN(C)CC4)/c5ccccc5)c1",
+      "program": "CACTVS",
+      "program_version": "3.341",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "XIN",
+      "descriptor": "COC(=O)c1ccc2c(NC(=O)C2=C(Nc3ccc(cc3)N(C)C(=O)CN4CCN(C)CC4)c5ccccc5)c1",
+      "program": "CACTVS",
+      "program_version": "3.341",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "XIN",
+      "descriptor": "CN1CCN(CC1)CC(=O)N(C)c2ccc(cc2)N/C(=C\\3/c4ccc(cc4NC3=O)C(=O)OC)/c5ccccc5",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.5.0",
+      "type": "SMILES_CANONICAL"
+    },
+    {
+      "comp_id": "XIN",
+      "descriptor": "CN1CCN(CC1)CC(=O)N(C)c2ccc(cc2)NC(=C3c4ccc(cc4NC3=O)C(=O)OC)c5ccccc5",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.5.0",
+      "type": "SMILES"
+    },
+    {
+      "comp_id": "XIN",
+      "descriptor": "InChI=1S/C31H33N5O4/c1-34-15-17-36(18-16-34)20-27(37)35(2)24-12-10-23(11-13-24)32-29(21-7-5-4-6-8-21)28-25-14-9-22(31(39)40-3)19-26(25)33-30(28)38/h4-14,19,32H,15-18,20H2,1-3H3,(H,33,38)/b29-28-",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChI"
+    },
+    {
+      "comp_id": "XIN",
+      "descriptor": "XZXHXSATPCNXJR-ZIADKAODSA-N",
+      "program": "InChI",
+      "program_version": "1.03",
+      "type": "InChIKey"
+    }
+  ],
+  "pdbx_chem_comp_identifier": [
+    {
+      "comp_id": "XIN",
+      "identifier": "methyl (3Z)-3-{[(4-{methyl[(4-methylpiperazin-1-yl)acetyl]amino}phenyl)amino](phenyl)methylidene}-2-oxo-2,3-dihydro-1H-indole-6-carboxylate",
+      "program": "ACDLabs",
+      "program_version": "10.04",
+      "type": "SYSTEMATIC NAME"
+    },
+    {
+      "comp_id": "XIN",
+      "identifier": "methyl (3Z)-3-[[[4-[methyl-[2-(4-methylpiperazin-1-yl)ethanoyl]amino]phenyl]amino]-phenyl-methylidene]-2-oxo-1H-indole-6-carboxylate",
+      "program": "OpenEye OEToolkits",
+      "program_version": "1.5.0",
+      "type": "SYSTEMATIC NAME"
+    }
+  ],
+  "rcsb_chem_comp_annotation": [
+    {
+      "annotation_id": "L01EX09",
+      "assignment_version": "5.1",
+      "description": "ATC matching InChIKey in DrugBank",
+      "name": "nintedanib",
+      "provenance_source": "DrugBank",
+      "type": "ATC",
+      "annotation_lineage": [
+        {
+          "id": "L",
+          "name": "ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS"
+        },
+        {
+          "depth": 1,
+          "id": "L01",
+          "name": "ANTINEOPLASTIC AGENTS"
+        },
+        {
+          "depth": 2,
+          "id": "L01E",
+          "name": "PROTEIN KINASE INHIBITORS, ANTINEOPLASTIC AND IMMUNOMODULATING AGENTS"
+        },
+        {
+          "depth": 3,
+          "id": "L01EX",
+          "name": "Other protein kinase inhibitors in ATC"
+        },
+        {
+          "depth": 4,
+          "id": "L01EX09",
+          "name": "nintedanib"
+        }
+      ]
+    }
+  ],
+  "rcsb_chem_comp_container_identifiers": {
+    "atc_codes": [
+      "L01EX09"
+    ],
+    "comp_id": "XIN",
+    "drugbank_id": "DB09079",
+    "rcsb_id": "XIN"
+  },
+  "rcsb_chem_comp_descriptor": {
+    "InChI": "InChI=1S/C31H33N5O4/c1-34-15-17-36(18-16-34)20-27(37)35(2)24-12-10-23(11-13-24)32-29(21-7-5-4-6-8-21)28-25-14-9-22(31(39)40-3)19-26(25)33-30(28)38/h4-14,19,32H,15-18,20H2,1-3H3,(H,33,38)/b29-28-",
+    "InChIKey": "XZXHXSATPCNXJR-ZIADKAODSA-N",
+    "SMILES": "CN1CCN(CC1)CC(=O)N(C)c2ccc(cc2)NC(=C3c4ccc(cc4NC3=O)C(=O)OC)c5ccccc5",
+    "SMILES_stereo": "CN1CCN(CC1)CC(=O)N(C)c2ccc(cc2)N/C(=C\\3/c4ccc(cc4NC3=O)C(=O)OC)/c5ccccc5",
+    "comp_id": "XIN"
+  },
+  "rcsb_chem_comp_info": {
+    "atom_count": 73,
+    "atom_count_chiral": 0,
+    "atom_count_heavy": 40,
+    "bond_count": 77,
+    "bond_count_aromatic": 18,
+    "comp_id": "XIN",
+    "initial_deposition_date": "2008-02-20T00:00:00.000+00:00",
+    "initial_release_date": "2008-12-23T00:00:00.000+00:00",
+    "release_status": "REL",
+    "revision_date": "2011-06-04T00:00:00.000+00:00"
+  },
+  "rcsb_chem_comp_related": [
+    {
+      "comp_id": "XIN",
+      "ordinal": 1,
+      "related_mapping_method": "matching InChIKey in DrugBank",
+      "resource_accession_code": "DB09079",
+      "resource_name": "DrugBank"
+    },
+    {
+      "comp_id": "XIN",
+      "ordinal": 2,
+      "related_mapping_method": "matching InChIKey in PubChem",
+      "resource_accession_code": "9809715",
+      "resource_name": "PubChem"
+    }
+  ],
+  "rcsb_chem_comp_synonyms": [
+    {
+      "comp_id": "XIN",
+      "name": "methyl (3Z)-3-{[(4-{methyl[(4-methylpiperazin-1-yl)acetyl]amino}phenyl)amino](phenyl)methylidene}-2-oxo-2,3-dihydro-1H-indole-6-carboxylate",
+      "ordinal": 1,
+      "provenance_source": "PDB Reference Data",
+      "type": "Preferred Name"
+    },
+    {
+      "comp_id": "XIN",
+      "name": "methyl (3Z)-3-{[(4-{methyl[(4-methylpiperazin-1-yl)acetyl]amino}phenyl)amino](phenyl)methylidene}-2-oxo-2,3-dihydro-1H-indole-6-carboxylate",
+      "ordinal": 2,
+      "provenance_source": "ACDLabs",
+      "type": "Systematic Name"
+    },
+    {
+      "comp_id": "XIN",
+      "name": "methyl (3Z)-3-[[[4-[methyl-[2-(4-methylpiperazin-1-yl)ethanoyl]amino]phenyl]amino]-phenyl-methylidene]-2-oxo-1H-indole-6-carboxylate",
+      "ordinal": 3,
+      "provenance_source": "OpenEye OEToolkits",
+      "type": "Systematic Name"
+    },
+    {
+      "comp_id": "XIN",
+      "name": "Nintedanib esylate",
+      "ordinal": 4,
+      "provenance_source": "DrugBank",
+      "type": "Synonym"
+    },
+    {
+      "comp_id": "XIN",
+      "name": "Nintedanib",
+      "ordinal": 5,
+      "provenance_source": "DrugBank",
+      "type": "Synonym"
+    },
+    {
+      "comp_id": "XIN",
+      "name": "methyl (3Z)-3-[(4-{methyl[(4-methylpiperazin-1-yl)acetyl]amino}anilino)(phenyl)methylidene]-2-oxo-2,3-dihydro-1H-indole-6-carboxylate",
+      "ordinal": 6,
+      "provenance_source": "DrugBank",
+      "type": "Synonym"
+    }
+  ],
+  "rcsb_chem_comp_target": [
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Vascular endothelial growth factor receptor 1",
+      "ordinal": 1,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P17948",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Vascular endothelial growth factor receptor 2",
+      "ordinal": 2,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P35968",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Vascular endothelial growth factor receptor 3",
+      "ordinal": 3,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P35916",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Platelet-derived growth factor receptor alpha",
+      "ordinal": 4,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P16234",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Platelet-derived growth factor receptor beta",
+      "ordinal": 5,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P09619",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Fibroblast growth factor receptor 1",
+      "ordinal": 6,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P11362",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Fibroblast growth factor receptor 2",
+      "ordinal": 7,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P21802",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Fibroblast growth factor receptor 3",
+      "ordinal": 8,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P22607",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Receptor-type tyrosine-protein kinase FLT3",
+      "ordinal": 9,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P36888",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Tyrosine-protein kinase Lck",
+      "ordinal": 10,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P06239",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Tyrosine-protein kinase Lyn",
+      "ordinal": 11,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P07948",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "target",
+      "name": "Proto-oncogene tyrosine-protein kinase Src",
+      "ordinal": 12,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P12931",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "enzyme",
+      "name": "UDP-glucuronosyltransferase 1A1",
+      "ordinal": 13,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P22309",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "enzyme",
+      "name": "UDP-glucuronosyltransferase 1A7",
+      "ordinal": 14,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "Q9HAW7",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "enzyme",
+      "name": "UDP-glucuronosyltransferase 1A8",
+      "ordinal": 15,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "Q9HAW9",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "enzyme",
+      "name": "UDP-glucuronosyltransferase 1A10",
+      "ordinal": 16,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "Q9HAW8",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "enzyme",
+      "name": "Cytochrome P450 3A4",
+      "ordinal": 17,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P08684",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "carrier",
+      "name": "Albumin",
+      "ordinal": 18,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P02768",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "transporter",
+      "name": "ATP-dependent translocase ABCB1",
+      "ordinal": 19,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "P08183",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate",
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "transporter",
+      "name": "Solute carrier family 22 member 1",
+      "ordinal": 20,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "O15245",
+      "reference_database_name": "UniProt",
+      "target_actions": [
+        "substrate",
+        "inhibitor"
+      ]
+    },
+    {
+      "comp_id": "XIN",
+      "interaction_type": "transporter",
+      "name": "Broad substrate specificity ATP-binding cassette transporter ABCG2",
+      "ordinal": 21,
+      "provenance_source": "DrugBank",
+      "reference_database_accession_code": "Q9UNQ0",
+      "reference_database_name": "UniProt"
+    }
+  ],
+  "rcsb_id": "XIN"
+}

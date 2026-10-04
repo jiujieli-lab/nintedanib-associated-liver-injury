@@ -1,0 +1,2 @@
+protein_1,protein_2,n_positions,n_joint_numeric,exact_duplicate_including_missingness,interpretation
+ALDOB,HPD,60,50,True,Probable source workbook copy/label anomaly; do not count as independent discovery evidence

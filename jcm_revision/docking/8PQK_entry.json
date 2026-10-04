@@ -1,0 +1,656 @@
+{
+  "audit_author": [
+    {
+      "identifier_ORCID": "0000-0002-5385-8735",
+      "name": "Teuber, A.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "identifier_ORCID": "0000-0002-1529-8933",
+      "name": "Mueller, M.P.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "identifier_ORCID": "0000-0002-1970-7642",
+      "name": "Rauh, D.",
+      "pdbx_ordinal": 3
+    }
+  ],
+  "cell": {
+    "Z_PDB": 4,
+    "angle_alpha": 90.0,
+    "angle_beta": 100.69,
+    "angle_gamma": 90.0,
+    "length_a": 95.9,
+    "length_b": 49.02,
+    "length_c": 76.98,
+    "volume": 355603.93
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "Nat Commun",
+      "journal_id_ISSN": "2041-1723",
+      "journal_volume": "15",
+      "page_first": "63",
+      "page_last": "63",
+      "pdbx_database_id_DOI": "10.1038/s41467-023-44376-8",
+      "pdbx_database_id_PubMed": 38167404,
+      "rcsb_authors": [
+        "Teuber, A.",
+        "Schulz, T.",
+        "Fletcher, B.S.",
+        "Gontla, R.",
+        "Muhlenberg, T.",
+        "Zischinsky, M.L.",
+        "Niggenaber, J.",
+        "Weisner, J.",
+        "Kleinbolting, S.B.",
+        "Lategahn, J.",
+        "Sievers, S.",
+        "Muller, M.P.",
+        "Bauer, S.",
+        "Rauh, D."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "Nat Commun",
+      "title": "Avapritinib-based SAR studies unveil a binding pocket in KIT and PDGFRA.",
+      "year": 2024
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "8PQK",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb8pqk/pdb",
+      "pdbx_database_accession": "pdb_00008pqk"
+    },
+    {
+      "database_code": "D_1292131790",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1",
+      "pdbx_serial_crystal_experiment": "N"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "detector": "PIXEL",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2022-08-29T00:00:00.000+00:00",
+      "type": "DECTRIS EIGER2 X 16M"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "monochromator": "Si(111)",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_synchrotron_beamline": "X10SA",
+      "pdbx_synchrotron_site": "SLS",
+      "pdbx_wavelength_list": "1.00003",
+      "source": "SYNCHROTRON",
+      "type": "SLS BEAMLINE X10SA"
+    }
+  ],
+  "entry": {
+    "id": "8PQK"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 2.41,
+      "density_percent_sol": 49.0,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 7.5,
+      "pdbx_details": "10 mg/mL, 22% PEG3350, 100 mM Bis-Tris-Propane, pH 7.5",
+      "temp": 293.15
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "citation",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "citation_author",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "category": "pdbx_related_exp_data_set",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_related_exp_data_set",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 3,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2023-12-27T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2024-01-17T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2024-03-13T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 3,
+      "ordinal": 4,
+      "revision_date": "2024-08-07T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.journal_volume",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_first",
+      "ordinal": 2,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.page_last",
+      "ordinal": 3,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.pdbx_database_id_PubMed",
+      "ordinal": 4,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.title",
+      "ordinal": 5,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation.year",
+      "ordinal": 6,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.identifier_ORCID",
+      "ordinal": 7,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_citation_author.name",
+      "ordinal": 8,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_pdbx_related_exp_data_set.data_reference",
+      "ordinal": 9,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_support": [
+    {
+      "country": "European Union",
+      "funding_organization": "European Regional Development Fund",
+      "grant_number": "EFRE-800400",
+      "ordinal": 1
+    },
+    {
+      "country": "Germany",
+      "funding_organization": "German Federal Ministry for Education and Research",
+      "grant_number": "01ZX2201B",
+      "ordinal": 2
+    },
+    {
+      "funding_organization": "Other private",
+      "grant_number": "Ex-2021-0033",
+      "ordinal": 3
+    },
+    {
+      "funding_organization": "Other government",
+      "grant_number": "NW21-062C",
+      "ordinal": 4
+    }
+  ],
+  "pdbx_database_status": {
+    "SG_entry": "N",
+    "deposit_site": "PDBE",
+    "pdb_format_compatible": "Y",
+    "process_site": "PDBE",
+    "recvd_initial_deposition_date": "2023-07-11T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "5GRN",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_related_exp_data_set": [
+    {
+      "data_reference": "10.18430/m38pqk",
+      "data_set_type": "diffraction image data",
+      "details": "https://www.proteindiffraction.org/project/8PQK/"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "N",
+    "report_creation_date": "2026-03-05T06:10:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1968,
+      "DCC_Rfree": 0.2237,
+      "EDS_R": 0.2055,
+      "EDS_res_high": 2.0,
+      "EDS_res_low": 43.81,
+      "Fo_Fc_correlation": 0.955,
+      "I_over_sigma": "1.53(2.00A)",
+      "Padilla_Yeates_L2_mean": 0.335,
+      "Padilla_Yeates_L_mean": 0.501,
+      "Wilson_B_aniso": "[35.359,31.063,34.931,0.000,7.366,0.000]",
+      "Wilson_B_estimate": 33.071,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 31.853,
+      "bulk_solvent_k": 0.329,
+      "centric_outliers": 1,
+      "data_anisotropy": 0.127,
+      "data_completeness": 99.29,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 23810,
+      "number_reflns_R_free": 1191,
+      "percent_RSRZ_outliers": 1.55,
+      "percent_free_reflections": 5.0,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.95% of the height of the origin peak. No significant pseudotranslation is detected."
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.27,
+      "bonds_RMSZ": 0.11,
+      "clashscore": 2.33,
+      "num_H_reduce": 2569,
+      "num_angles_RMSZ": 3597,
+      "num_bonds_RMSZ": 2657,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 0.0
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2023-07-11T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2023-12-27T00:00:00.000+00:00",
+    "major_revision": 1,
+    "minor_revision": 3,
+    "revision_date": "2024-08-07T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2"
+    ],
+    "entry_id": "8PQK",
+    "model_ids": [
+      1
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 38167404,
+    "rcsb_id": "8PQK"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2717,
+    "deposited_branched_entity_instance_count": 0,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 322,
+    "deposited_nonpolymer_entity_instance_count": 0,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 352,
+    "deposited_solvent_atom_count": 138,
+    "deposited_unmodeled_polymer_monomer_count": 30,
+    "diffrn_radiation_wavelength_maximum": 1.0,
+    "diffrn_radiation_wavelength_minimum": 1.0,
+    "disulfide_bond_count": 0,
+    "entity_count": 2,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 0,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 40.23,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 0,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 40.23,
+    "polymer_molecular_weight_minimum": 40.23,
+    "polymer_monomer_count_maximum": 352,
+    "polymer_monomer_count_minimum": 352,
+    "resolution_combined": [
+      2.0
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "PDB_EXTRACT",
+      "PHASER",
+      "PHENIX",
+      "XDS",
+      "XSCALE"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.0
+    }
+  },
+  "rcsb_external_references": [
+    {
+      "id": "10.18430/m38pqk",
+      "link": "https://dx.doi.org/10.18430/m38pqk",
+      "type": "PROTEIN DIFFRACTION"
+    }
+  ],
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "Nat Commun",
+    "journal_id_ISSN": "2041-1723",
+    "journal_volume": "15",
+    "page_first": "63",
+    "page_last": "63",
+    "pdbx_database_id_DOI": "10.1038/s41467-023-44376-8",
+    "pdbx_database_id_PubMed": 38167404,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Teuber, A.",
+      "Schulz, T.",
+      "Fletcher, B.S.",
+      "Gontla, R.",
+      "Muhlenberg, T.",
+      "Zischinsky, M.L.",
+      "Niggenaber, J.",
+      "Weisner, J.",
+      "Kleinbolting, S.B.",
+      "Lategahn, J.",
+      "Sievers, S.",
+      "Muller, M.P.",
+      "Bauer, S.",
+      "Rauh, D."
+    ],
+    "rcsb_journal_abbrev": "Nat Commun",
+    "title": "Avapritinib-based SAR studies unveil a binding pocket in KIT and PDGFRA.",
+    "year": 2024
+  },
+  "refine": [
+    {
+      "B_iso_mean": 37.56,
+      "ls_R_factor_R_free": 0.2219,
+      "ls_R_factor_R_work": 0.196,
+      "ls_R_factor_obs": 0.1974,
+      "ls_d_res_high": 2.0,
+      "ls_d_res_low": 43.81,
+      "ls_number_reflns_R_free": 1191,
+      "ls_number_reflns_R_work": 22606,
+      "ls_number_reflns_obs": 23797,
+      "ls_percent_reflns_R_free": 5.0,
+      "ls_percent_reflns_obs": 99.25,
+      "overall_SU_ML": 0.2598,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "FREE R-VALUE",
+      "pdbx_ls_sigma_F": 1.37,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_overall_phase_error": 24.7369,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.1,
+      "pdbx_stereochemistry_target_values": "GeoStd + Monomer Library + CDL v1.2",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL"
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.0,
+      "d_res_low": 43.81,
+      "number_atoms_solvent": 138,
+      "number_atoms_total": 2696,
+      "pdbx_number_atoms_ligand": 0,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 2558,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.0023,
+      "number": 2647,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.4729,
+      "number": 3592,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_d"
+    },
+    {
+      "dev_ideal": 0.0417,
+      "number": 398,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_chiral_restr"
+    },
+    {
+      "dev_ideal": 0.0034,
+      "number": 448,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_plane_restr"
+    },
+    {
+      "dev_ideal": 12.0784,
+      "number": 973,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 33.17,
+      "d_resolution_high": 2.0,
+      "d_resolution_low": 47.12,
+      "number_obs": 23810,
+      "pdbx_CC_half": 0.997,
+      "pdbx_Rrim_I_all": 0.129,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 9.24,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.82,
+      "percent_possible_obs": 99.3
+    }
+  ],
+  "reflns_shell": [
+    {
+      "d_res_high": 2.0,
+      "d_res_low": 2.1,
+      "meanI_over_sigI_obs": 2.04,
+      "number_unique_obs": 3145,
+      "pdbx_CC_half": 0.782,
+      "pdbx_Rrim_I_all": 0.851,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.69,
+      "percent_possible_all": 98.1
+    }
+  ],
+  "software": [
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 1,
+      "version": "1.20.1_4487"
+    },
+    {
+      "classification": "data extraction",
+      "name": "PDB_EXTRACT",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "data reduction",
+      "name": "XDS",
+      "pdbx_ordinal": 3
+    },
+    {
+      "classification": "data scaling",
+      "name": "XSCALE",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "phasing",
+      "name": "PHASER",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "pdbx_CASP_flag": "N",
+    "title": "APO crystal structure of PDGFRA-T674I kinase domain"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "TRANSFERASE",
+    "text": "PDGFRA, protein kinase, tyrosine kinase, transmembrane receptor, platelet-derived growth factor, platelet-derived growth factor receptor, GIST, gastrointestinal stromal tumors, cancer, gatekeeper mutant, gatekeeper mutation, P16234, TRANSFERASE"
+  },
+  "symmetry": {
+    "Int_Tables_number": 5,
+    "space_group_name_H_M": "C 1 2 1",
+    "space_group_name_Hall": "C 2y"
+  },
+  "rcsb_id": "8PQK"
+}

@@ -1,0 +1,2141 @@
+{
+  "additional_number": 4,
+  "archive_name": "Additional_file_4_Clinical_Evidence_and_Analysis_Code.zip",
+  "files": [
+    {
+      "path": "Analysis/Templates/Figure_4_Original.svg",
+      "size": 594417,
+      "sha256": "4f3495d4d487b51391aed7630d77111ca8c3d088ef235773ea45e893673ba42c"
+    },
+    {
+      "path": "Analysis/integrated_analysis/README.md",
+      "size": 1183,
+      "sha256": "f7ef4fa8c4fdd128b98d2c42c90aba79bbae0277e913b718903c18d4f1cc6961"
+    },
+    {
+      "path": "Analysis/integrated_analysis/audit_virtual_knockout_numerics.py",
+      "size": 2430,
+      "sha256": "62850d454d493395893cbcdbfe239ad7d28013c362ee73b8d3d422c15fc16f0b"
+    },
+    {
+      "path": "Analysis/integrated_analysis/build_candidate_bridge_map.py",
+      "size": 3118,
+      "sha256": "bd4e361702589fb413a82e883de51efd0eae6b3b9f20200df594b02103e4e7da"
+    },
+    {
+      "path": "Analysis/integrated_analysis/clinical_projection_weights.csv",
+      "size": 3209,
+      "sha256": "8cbe58cde5fee422c6c69e88e6f2f65baa21fca33163cd53eac74d399fdb845f"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/algorithm_benchmark_summary.csv",
+      "size": 917,
+      "sha256": "d979c176d7ef99cf1a660ef5ef4f65dda11c38ced9e047f2aaf2109e0b2b3b33"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/algorithm_block_permutation_calibration.csv",
+      "size": 10003,
+      "sha256": "423e94d23079e8be72fd8479a01d0003fcfc7de0b413b5d05a9911e22155b4b4"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/algorithm_candidate_rankings.csv",
+      "size": 3574,
+      "sha256": "2d44583010c09d071d628339cd42bba2bd345c1f32f503541d7c4b30256a0539"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/algorithm_family_omission_evaluation.csv",
+      "size": 2290,
+      "sha256": "d498cf650c1782aa6712ecebde246057d7739d451be735dc0c216293aa9d3e03"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/algorithm_family_omission_ranks.csv",
+      "size": 11068,
+      "sha256": "6552bfcec542ac5dcbb21d87a485e963b027d342e42a9e5db412a4d764d52e14"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/algorithm_pairwise_comparison.csv",
+      "size": 337,
+      "sha256": "bcabcaa11172f32403f19223b99f96ea5cd0178a6d839db7b98355af4c74cd83"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/algorithm_sensitivity_metrics.csv",
+      "size": 37594,
+      "sha256": "48ed4f04502b4b3c91c9cd5d973c2c3fd032ef82b830beccad277e721406094c"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/algorithm_specification_donor_missingness_sensitivity.csv",
+      "size": 518392,
+      "sha256": "d1e89e03a5f983e6ee264686647a1168e6192d64bb7787f73d0c10516b62a68f"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/algorithm_weight_sensitivity.csv",
+      "size": 1499,
+      "sha256": "a989ac1c0b5f845498a71d2753228c1635c035c2e527267ab3afcb9b0a210e51"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/analysis_configuration.json",
+      "size": 1472,
+      "sha256": "87910529c77f8bc031b6698c4b8a86445895d7ed1491fbd0ba4d1e8100139e4d"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/candidate_integrated_summary.csv",
+      "size": 5313,
+      "sha256": "2b7d0ba58a40d5138a727a2754c69c782fb2f77a04f31cc45158226cd174a321"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/input_manifest.csv",
+      "size": 749,
+      "sha256": "265570e1fa1fc72006cd98d3e01dbe12dc76ce110993255139ad04ac3c684180"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/integrated_family_percentile_scores.csv",
+      "size": 1249,
+      "sha256": "61bb299a030382b28c50deb9e82cdb8b1260be44d91ff5107aad417cf11c7cbb"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/integrated_source_features.csv",
+      "size": 1067,
+      "sha256": "b94964ba8cc18b3a10553adbf61231ca897fd75eb3f110d76796164660516000"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/integration_validation.json",
+      "size": 4963,
+      "sha256": "4d1065ba92a9403d33d436f6f08e2c9cd596f251c3e127e55ec3f30cd363b1d3"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/network_specification_target_aggregate.csv",
+      "size": 127473,
+      "sha256": "5dfe676530c548d5662f866e9c21fedf7924d606a4c67510d3784c8268ea9f9b"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/network_target_aggregate.csv",
+      "size": 1216,
+      "sha256": "7e36accc3983afecd0ca592679d95f09abed821defb3c9e90046d2efcba46c22"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/target_human_protein_bridge.csv",
+      "size": 39226,
+      "sha256": "41353f374a02bc7b380f658232c4be24bcf2642523c4ce66838caf0f3e404572"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/top_network_contributors_per_target.csv",
+      "size": 9176,
+      "sha256": "49d377eed486ddf4347862d4486877385230be23ce12154d4a8d8d8c5635a7d8"
+    },
+    {
+      "path": "Analysis/integrated_analysis/primary/unified_candidate_gene_nodes.csv",
+      "size": 3569,
+      "sha256": "0329d02be4aa205a700e84a867989999d2bf2cf284ee5ddcd46a30b5b7a45686"
+    },
+    {
+      "path": "Analysis/integrated_analysis/run_integrated_benchmark.py",
+      "size": 19099,
+      "sha256": "11c94987a94fbf962545dc82c2c2f80c3ed9dcd42b9cd0254f3d547ab302c821"
+    },
+    {
+      "path": "Analysis/integrated_analysis/run_primary_integration.py",
+      "size": 13732,
+      "sha256": "56d925b252d355dc6ab1790f3da57f9aa164844d17037350005c085a7e202647"
+    },
+    {
+      "path": "Analysis/integrated_analysis/target_protein_bridge_edges.csv",
+      "size": 122023,
+      "sha256": "8850c6d6e4a593d12187e002ac918ddf5ac6aa55d67a4b95471a22ddf700f478"
+    },
+    {
+      "path": "Analysis/integrated_analysis/target_protein_projection_by_seed.csv",
+      "size": 123076,
+      "sha256": "212d06095665200000b5c5e0941b2116d4bc58df048cc34d80cea9c8070a0c11"
+    },
+    {
+      "path": "Analysis/integrated_analysis/validate_primary_integration.py",
+      "size": 5143,
+      "sha256": "d308e323f7c084b5f07d5ab04a7e0d166be160bd91a918033a4d16fb115050f1"
+    },
+    {
+      "path": "Analysis/integrated_analysis/vko_numeric_threshold_sensitivity.csv",
+      "size": 431,
+      "sha256": "2217fa102190bb19c3d27d64a23689321dae802bddbcb0bf9ba7bda617104c2f"
+    },
+    {
+      "path": "Analysis/integrated_analysis/vko_numerical_audit_summary.json",
+      "size": 649,
+      "sha256": "df675ede8ba58429ce18426cbe77d6abdfaec8093e0380cb05c8893ff24ebc1e"
+    },
+    {
+      "path": "Analysis/integrated_analysis/vko_numerical_run_audit.csv",
+      "size": 23343,
+      "sha256": "9788d7ae7e4e0634b98628fb91a623eecd83b27748563a9b3cfa21831152fbd4"
+    },
+    {
+      "path": "Analysis/integrated_analysis/vko_target_compartment_numeric_validity.csv",
+      "size": 2334,
+      "sha256": "5c4baddf0c540d90c96291be419381673ff3857aaf1e46f8a9429f7e764214d8"
+    },
+    {
+      "path": "Analysis/make_graphical_abstract.py",
+      "size": 4996,
+      "sha256": "dd3b475b6424dffc5063e34f39c9e3853030148be0ee602edf61869be0e80bb4"
+    },
+    {
+      "path": "Analysis/make_independent_liver_figure.py",
+      "size": 13399,
+      "sha256": "52935dbabcc104408f3ef97b4cb3550852e8d13acfe32722edf2ef08bf55b760"
+    },
+    {
+      "path": "Analysis/make_integrated_figures.py",
+      "size": 14924,
+      "sha256": "2bba88fb0aa69d6fee1e43d6554ca97253bbcff74db084eb072353a2c768162f"
+    },
+    {
+      "path": "Analysis/make_shared_reference_figure.py",
+      "size": 6725,
+      "sha256": "ff4befd32333e228cc8a69c824c1577bd8443c658c9fc623eea01ecb63dd0eb5"
+    },
+    {
+      "path": "Analysis/network_diffusion/README.md",
+      "size": 1738,
+      "sha256": "17df3696b4511b30ea04d9918221703d0f11a49323038372b309a50b4c37cbb6"
+    },
+    {
+      "path": "Analysis/network_diffusion/build_corrected_legacy_benchmark.py",
+      "size": 2851,
+      "sha256": "eae6ddb3e8db7a3d2000f4fa516138dd9daf12d6930bdc76bf1c438158849163"
+    },
+    {
+      "path": "Analysis/network_diffusion/build_network_report.py",
+      "size": 20289,
+      "sha256": "d2a23a8c531933ab6e483c5eb858c7aae70fe87fc351f3e0fb41aa6314176224"
+    },
+    {
+      "path": "Analysis/network_diffusion/candidate_network_summary.csv",
+      "size": 26931,
+      "sha256": "46a65c25813d66554a6fd9eb46b16211eb14569ae9c04621ba7dd55e2fcd7320"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_additional_benchmark_metrics.csv",
+      "size": 976,
+      "sha256": "0c812121f9fffed82b27f6027102403ca6255d7bf0e85d1681a63a919b1fdbd8"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_algorithm_comparison_metrics.csv",
+      "size": 2338,
+      "sha256": "cc8c2e45988ca6decc6469c5862773ac786fafb4f90b5f55138827adfd337b47"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_analysis_freeze.json",
+      "size": 1102,
+      "sha256": "92bda26fac3a6c585503a374038e98c73623941ce9b36bada934003ee3fa6b1f"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_clinical_seed_weights.csv",
+      "size": 9029,
+      "sha256": "7c9a143e56c5d7fb45bd345c106ba187d1a7974261e1469b55c156dbe10b5ca6"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_diffusion_summary.json",
+      "size": 4015,
+      "sha256": "a0346db667854280aacae29e9c5cd8a4edf1dd20251ffb3906ddc45f57355412"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_donor_covariance_qc.csv",
+      "size": 723,
+      "sha256": "2c7543d07be993f0b1dc9fe4333cb58de640408cf9c681597f9c4c07b6187fd0"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_donor_lodo_scores.csv",
+      "size": 51852,
+      "sha256": "ff855b8f520bf1d1d133ad2d2e7677442c8df982db243e43859313d73d6b9fe9"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_evaluable_legacy_comparison.csv",
+      "size": 32315,
+      "sha256": "58556c50c6c983abbb62f730e68e35857fdc01c0babfa17ee47fa4eeebe8bb45"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_evaluable_legacy_metrics.csv",
+      "size": 1248,
+      "sha256": "74a650723b70f9c8b8a297524a98498c3281a2af469c402a0bd58d2c2a3a29e8"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_expression_matched_null_pools.csv",
+      "size": 196709,
+      "sha256": "d4e62f0bef1974a7473def806d403b5ea87162ca8762c7f5ab485cba15323644"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_null_matching_sensitivity.csv",
+      "size": 129527,
+      "sha256": "47aa0b421a7d466f38b6df1ffa031a13b915677a6c781ec659ce8f09d6bedfd8"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_old_algorithm_comparison.csv",
+      "size": 30888,
+      "sha256": "13f5ad1fa774fe513d55ff57f7348bd2da764d4ff69be43f1787f9ae0b2dec9f"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_output_manifest.csv",
+      "size": 2377,
+      "sha256": "c078fe92b9c89140082c2c378ab3ea979df1aa85b8607c75e221f6ffa30b160e"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_shrinkage_ablation.csv",
+      "size": 45628,
+      "sha256": "13af5126c14736dc9137ee776d153e84ef93447ee781f9b67f3bd1272c704569"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_specification_scores.csv",
+      "size": 875337,
+      "sha256": "715556deaa7c6c41b529aca5f28e8f3d252ac135d8d68ea8a66736cc604feb08"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_target_anchor_contributions.csv",
+      "size": 56288,
+      "sha256": "42eca3b02ac3307b296a00d17d116959f06830a0c9ff0ef6bc50594a29b66025"
+    },
+    {
+      "path": "Analysis/network_diffusion/network_validation.json",
+      "size": 845,
+      "sha256": "58da6cb89e5bd6f58bde5fa1589b9c96027fa0fdf0fed04d310fba930afa0407"
+    },
+    {
+      "path": "Analysis/network_diffusion/run_network_diffusion.py",
+      "size": 16489,
+      "sha256": "c0b238b3b2ad48cc40efe9351173509b41ca7fd191361437b0bbf3fecec51010"
+    },
+    {
+      "path": "Analysis/rebuild_figure4_qc.py",
+      "size": 8162,
+      "sha256": "b0228f148d16ae277e11d47416e1c3631cc044117c7cdc3a26ab9edc58ac2a0a"
+    },
+    {
+      "path": "Analysis/revision_runtime_versions.json",
+      "size": 471,
+      "sha256": "a68b5da63ef69a933066b6244b4dcc6490b8730cfa2931dada83c2a474f4c86f"
+    },
+    {
+      "path": "CURRENT_FILE_PROVENANCE.json",
+      "size": 184606,
+      "sha256": "0de07d72f613443b72871715b3110b2d58b3fd9edf027a19ccab65a0037ab5f5"
+    },
+    {
+      "path": "Code/Core/analyze_gse299128_blood.py",
+      "size": 5369,
+      "sha256": "51063438209ca8ffb94d968698d9efdd45099a65a327ef333a5e70c86b0fcfc4"
+    },
+    {
+      "path": "Code/Core/analyze_lincs_dose_and_figure3.py",
+      "size": 67154,
+      "sha256": "34b06deba061c41f25a3e0d9bb1a5ff10fbef8f35ebef2b92f61b738f15a72de"
+    },
+    {
+      "path": "Code/Core/audit_main_manuscript_docx.py",
+      "size": 7883,
+      "sha256": "d08b377862e3b7ad36124ba7533bb4839873e3aa2c2c232a1882b0742438f695"
+    },
+    {
+      "path": "Code/Core/build_main_manuscript_docx.py",
+      "size": 19776,
+      "sha256": "705ea5ef07af60a59eac6bc3e6f5e95fd6fb7bf25cad2b908116d068ec1f2498"
+    },
+    {
+      "path": "Code/Core/build_release_qa_reports.py",
+      "size": 49776,
+      "sha256": "035e7989594e42a7e78957c58f86687303b4442bcfa05a626c801bc42095e27d"
+    },
+    {
+      "path": "Code/Core/build_reproducibility_notebook.py",
+      "size": 43370,
+      "sha256": "5e54a1701653454c54bcdcefef250bab12f671eb68a8ad41348b2394647928a2"
+    },
+    {
+      "path": "Code/Core/build_supplementary_information.py",
+      "size": 14454,
+      "sha256": "62dfe34eefedf16876de013645490fce71d1055c471852f44c51e1e93c6127c8"
+    },
+    {
+      "path": "Code/Core/build_supplementary_tables.mjs",
+      "size": 151124,
+      "sha256": "8b19d1e76fce67d75fd8d62e8ad00c4ed70e9e47980e9c3af90ac483c359467b"
+    },
+    {
+      "path": "Code/Core/build_virtual_integration_figures.py",
+      "size": 79684,
+      "sha256": "bfdfe7f90d5c836a0b3abcd007b4e0798a629294edeaa10e1f5002c2e644dd1e"
+    },
+    {
+      "path": "Code/Core/execute_notebook_fallback.py",
+      "size": 8842,
+      "sha256": "a65495333df3689de73404dffff4003e1e5803d3e79780b7b7fa7cd391ca610f"
+    },
+    {
+      "path": "Code/Core/finalize_s6_s7_figure_exports.py",
+      "size": 5986,
+      "sha256": "f4cb12959b91c07aec80545ac228bcbeb19689ca04c87edead32bac559bf4cbb"
+    },
+    {
+      "path": "Code/Core/make_blood_sensitivity_figure.py",
+      "size": 7809,
+      "sha256": "d5d74411535b2f622a424a6a867d0d34e7426325f5938be5890a70f2df813814"
+    },
+    {
+      "path": "Code/Core/make_graphical_abstract.py",
+      "size": 6773,
+      "sha256": "9da0553c6a6d69cce558fbaafbdaf2f352399a44add55fe2c59562fcd278535f"
+    },
+    {
+      "path": "Code/Core/make_proteomics_figures.py",
+      "size": 26401,
+      "sha256": "6cbb996747dc3ac3bfb5f1d387f2c214a25b5f1de642d5cb2e13658d2791528b"
+    },
+    {
+      "path": "Code/Core/prepare_liver_singlecell.py",
+      "size": 9298,
+      "sha256": "d9c888a79e46017bb4007fa650850a343c85200e566bdf28ac47d7c04da554d8"
+    },
+    {
+      "path": "Code/Core/prepare_pharmacology_and_perturbation.py",
+      "size": 9790,
+      "sha256": "f326e6187697eb35ef1c97384fc6a2f3a15785027978bd11a8a02be6f1249734"
+    },
+    {
+      "path": "Code/Core/prepare_submission_package.py",
+      "size": 11369,
+      "sha256": "419e47e4fb3c543d30505ff215d6331a77cb3c3723ac3071b4707cc682d1c26f"
+    },
+    {
+      "path": "Code/Core/refresh_extension_manifests.py",
+      "size": 5507,
+      "sha256": "1faf60d6e8b5fbd22020497b456b222c13c626c123153cf9e8ec4a2d3e4eab6e"
+    },
+    {
+      "path": "Code/Core/refresh_faers_manifest.py",
+      "size": 2322,
+      "sha256": "ad259f8c736520fd0a5b1c8c739a723c2c4973bc480db495cfbd415169205ce5"
+    },
+    {
+      "path": "Code/Core/refresh_release_manifests.py",
+      "size": 8754,
+      "sha256": "f8b6b179c8c21e43540b60a46e7c4ef2f35095e631b3bb614f06faa18f720d0b"
+    },
+    {
+      "path": "Code/Core/run_liver_virtual_knockout.py",
+      "size": 12575,
+      "sha256": "7f4e5e0cdd8eb6f3d41ca41f17d500e6b224f2db87b5efc4a5ca6167df502679"
+    },
+    {
+      "path": "Code/Core/validate_lincs_figure3_outputs.py",
+      "size": 5701,
+      "sha256": "a3abbd228c2642bc0a9b1e8cfe7ea52a36d702b60a8a977f98eafa6c57de3595"
+    },
+    {
+      "path": "Code/Core/validate_supplementary_tables.mjs",
+      "size": 15579,
+      "sha256": "776bab941289a5944c980c65122f92f97fd066cf20c144e52c20b59859369dfb"
+    },
+    {
+      "path": "Code/Core/validate_virtual_integration_outputs.py",
+      "size": 15033,
+      "sha256": "4fe4983a93458b6481aa1451a335195ae4f5df91ff486b31b7b0e3901e75c857"
+    },
+    {
+      "path": "Code/Core/verify_release_capsule.py",
+      "size": 11619,
+      "sha256": "ad8200a3ade90f929d9f0782410ff191223f98bd8a52e17653dcae91af769e6d"
+    },
+    {
+      "path": "Code/FAERS/audit_year_heterogeneity.py",
+      "size": 6364,
+      "sha256": "6be2881e4e2b2e98a5f4a609b639a7968c4e34aa3b03b6b3c3b49fe34796ca2f"
+    },
+    {
+      "path": "Code/FAERS/migrate_frozen_faers_semantics.py",
+      "size": 5702,
+      "sha256": "a63209588cb84674aad20f3ba6b5a371eacdcea4c1bb22fe4eb879030d09eb2b"
+    },
+    {
+      "path": "Code/FAERS/run_openfda_faers.py",
+      "size": 45893,
+      "sha256": "bc9c4da8290d59ad95cbe50f2dfacd8677938134afa7472bb4a5c8910cea2f42"
+    },
+    {
+      "path": "Code/Figures/make_faers_figures.py",
+      "size": 42139,
+      "sha256": "33d8aedd47dc805ae338f815fb332830fc3a89c6fbda1cad59107bf6570d4a4c"
+    },
+    {
+      "path": "Code/GSE151374/analyze_gse151374.py",
+      "size": 36200,
+      "sha256": "bdc4ed5165499931da2973d23b435450ee10cfa679ad4f16a42e2f633eef640d"
+    },
+    {
+      "path": "Code/Human_DILI_Proteomics/analyze_dili_proteomics.py",
+      "size": 57514,
+      "sha256": "01ec56f0e42ea6d897662c19cd854ce91fb95605f98bc924668caf34e4f05dfe"
+    },
+    {
+      "path": "Code/Human_DILI_Proteomics/validate_proteomics_outputs.py",
+      "size": 3865,
+      "sha256": "81ee9461a946c6d7475eaa932fe50073888939dbabb78e277b42b3faaee1bbbb"
+    },
+    {
+      "path": "Code/LINCS/extract_gse70138_nintedanib_hepg2.py",
+      "size": 12279,
+      "sha256": "cf686bf0438e6f6b5e452fd7fe68e7860f8f9af65fe54d4de0e30942b50ea62e"
+    },
+    {
+      "path": "Code/PXD052594/analyze_pxd052594.py",
+      "size": 25376,
+      "sha256": "805b0da71e75636ab2c2a903aa5cc18bdf649aca3931f56370f5988b04ec688f"
+    },
+    {
+      "path": "Code/Public_Preclinical_Core/analyze_public_preclinical.py",
+      "size": 51267,
+      "sha256": "3decbed226fd6648e10e68b8aff25f78e2c96b5e186d9b253111661a0a833729"
+    },
+    {
+      "path": "Code/References/audit_manuscript_tokens.py",
+      "size": 18195,
+      "sha256": "7694e33b5323d7c6e9e515d11178e7d11f836e7c3ece3a20f1e82f4936791465"
+    },
+    {
+      "path": "Code/References/audit_references.py",
+      "size": 7152,
+      "sha256": "536f127ffbb81b2733329559a089cecf673b491e197617165fcda09f27f4b280"
+    },
+    {
+      "path": "Code/References/build_references.py",
+      "size": 33429,
+      "sha256": "f285613ad42d3f69291614901f0a49d3df94a9607764c3cb1da4490f7f01775f"
+    },
+    {
+      "path": "Code/Reproducibility_Environment.md",
+      "size": 2467,
+      "sha256": "10e90bf4731a9e28a4b042000b2294db6019ecffcce8d110705950f3de45bd4e"
+    },
+    {
+      "path": "Code/requirements-analysis.txt",
+      "size": 255,
+      "sha256": "cc7affbbbb50825a6bb1c8e222e79025b35aa3853c38f0f250d4c5ffaeb80c30"
+    },
+    {
+      "path": "Code/requirements-virtual-knockout.txt",
+      "size": 201,
+      "sha256": "6860b28ff78a2063b3e99ea32af082161094fc34477d645c7101694ec6dca2d1"
+    },
+    {
+      "path": "JTM_RECONSTRUCTION_README.md",
+      "size": 3490,
+      "sha256": "7e98c0295d9ad2204dbe16baf1635c81357f2b012cf7e56bed7d5c4d31e17050"
+    },
+    {
+      "path": "Original_Integrity/SHA256SUMS_20260921.txt",
+      "size": 74260,
+      "sha256": "2308e4dfe4e15baf6e79526adb3a9b61f5cd31ca895ab047ad40db34c2508a14"
+    },
+    {
+      "path": "README.md",
+      "size": 4869,
+      "sha256": "25801c031299c0cabd0f691596c5a80d6a4f9df0cd8c5d75643e6192fdfae616"
+    },
+    {
+      "path": "README_RECOVERY.md",
+      "size": 2271,
+      "sha256": "1451afe559977e05588535bd7f620e24e53660a1f993b42c95a0c9dde99d2039"
+    },
+    {
+      "path": "RECOVERY_PROVENANCE.json",
+      "size": 17832,
+      "sha256": "1b3d05e92eb10e8b5d38e293bec47956918d87214f3a6d08eea5aa1d2a85e228"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "size": 74260,
+      "sha256": "87ac4b7606fdd2de9d3715d5267258f93700b436359acdef0543a928ca02211b"
+    },
+    {
+      "path": "Source_Data/FAERS/alias_sensitivity_signals.csv",
+      "size": 954,
+      "sha256": "5e290bf4f7cab3ec701ecd3cdead9839fb4f9bbaf1f78f192972b653d0126876"
+    },
+    {
+      "path": "Source_Data/FAERS/analysis_configuration.json",
+      "size": 2926,
+      "sha256": "7bfb92ad540e74b66ec7e1a1ff2d9f191427a7ead9693e10f5096731e88bde6b"
+    },
+    {
+      "path": "Source_Data/FAERS/annual_active_comparator_signals.csv",
+      "size": 7040,
+      "sha256": "40e3f7b983d176163103bbc30493c526cd4697eb8619b2dbfe2a215941b75625"
+    },
+    {
+      "path": "Source_Data/FAERS/api_query_log.csv",
+      "size": 168891,
+      "sha256": "6eec76ae55172ec80dbaa9d230b6452ab2b33f8d867ae5a64bbc5fd9aee82a72"
+    },
+    {
+      "path": "Source_Data/FAERS/broad_liver_event_reports_deduplicated.csv",
+      "size": 870604,
+      "sha256": "7ea38c61b2d9cdfd58bf317e3fbe19d90b96471ad851816ef9c9ba16abaf1314"
+    },
+    {
+      "path": "Source_Data/FAERS/drug_role_and_indication_profiles.csv",
+      "size": 1489,
+      "sha256": "15248b737c85464aa3199850ac07f59d221f84cdf6f775e9570b29effcb1f3eb"
+    },
+    {
+      "path": "Source_Data/FAERS/faers_frozen_manifest.json",
+      "size": 8421,
+      "sha256": "2f00e81e89a7d782cd676f19c90e4d15ad34efb99ee44b6b5632a14cc621627e"
+    },
+    {
+      "path": "Source_Data/FAERS/narrow_2022_country_audit.csv",
+      "size": 493,
+      "sha256": "7360d58e5d702596a8da4089287adf5934f929b454b61d6d7f853444ef7ef841"
+    },
+    {
+      "path": "Source_Data/FAERS/narrow_2022_month_audit.csv",
+      "size": 280,
+      "sha256": "d2e22b88bb7902d8ad30d692641f99ef6a7d0cabea35caa19ff8128f95c90cbc"
+    },
+    {
+      "path": "Source_Data/FAERS/overall_active_comparator_signals.csv",
+      "size": 1255,
+      "sha256": "be112306c0d306535f4fdc687fa0002e367fd746fa696ffea0dfe23e084d6642"
+    },
+    {
+      "path": "Source_Data/FAERS/preferred_term_signals.csv",
+      "size": 7747,
+      "sha256": "bd7bea29ef51572bf248e50ee8d79fb7a54172daa288f136b3d6484e2e772a0b"
+    },
+    {
+      "path": "Source_Data/FAERS/prespecified_meddra_pt_sets.csv",
+      "size": 1226,
+      "sha256": "860f76e2198e82ceef5e1094f4d9af8534c67151f340a1fe6b356325153583bb"
+    },
+    {
+      "path": "Source_Data/FAERS/report_level_specification_signals.csv",
+      "size": 7584,
+      "sha256": "5e6d6fbded32863e66a43794da910487cd24dfde52bd4cf1704932221399e906"
+    },
+    {
+      "path": "Source_Data/FAERS/serious_outcome_profiles.csv",
+      "size": 1856,
+      "sha256": "34bb5f908865994d08f45fd16d65d5eb8011d5fabaf629bdd7a86f92d27fa336"
+    },
+    {
+      "path": "Source_Data/FAERS/sex_age_stratified_signals.csv",
+      "size": 2580,
+      "sha256": "736c4916d16f10b36ea7cf2a9fd7523cd537ff8f1be3b3b89019f1527b3deb33"
+    },
+    {
+      "path": "Source_Data/FAERS/temporal_influence_signals.csv",
+      "size": 3554,
+      "sha256": "51a6b4fbfcdbbb22e70c43eced249ae58130933b06ed1287450a4190be886551"
+    },
+    {
+      "path": "Source_Data/FAERS/time_to_onset_case_values.csv",
+      "size": 33902,
+      "sha256": "ca2efc36ba74e1071b08a414a407aab2ba2d90a960c9744ab2abc0854533f0d1"
+    },
+    {
+      "path": "Source_Data/FAERS/time_to_onset_exclusion_audit.csv",
+      "size": 382,
+      "sha256": "754c537ed2d47c335a91fd30a79c0f4bb375894d5a3dc142e663865bc6430de2"
+    },
+    {
+      "path": "Source_Data/FAERS/time_to_onset_summary.csv",
+      "size": 543,
+      "sha256": "205212e2653b6d0cf929a7991a65ce2d9f9473604f6129a359951b59a76078c5"
+    },
+    {
+      "path": "Source_Data/FAERS/year_adjusted_mantel_haenszel_signals.csv",
+      "size": 389,
+      "sha256": "3aab4dd857a65eedab6129aa790e2b47de7531bbbfc473e7f62b484e4511a2eb"
+    },
+    {
+      "path": "Source_Data/FAERS/year_effect_heterogeneity_tests.csv",
+      "size": 1325,
+      "sha256": "0115d7510c50ed7014a8dd1c2910fdee4cbfe81f22fe21a2d6a4d6df5c4b6f03"
+    },
+    {
+      "path": "Source_Data/Figure_Panels/Figure_1_FAERS_panel_source_data.csv",
+      "size": 162061,
+      "sha256": "3c429a84c68d2e7624f3ee4a0f3eab9bcd1794604725b0b100ee13e906923ec3"
+    },
+    {
+      "path": "Source_Data/Figure_Panels/Supplementary_Figure_S1_FAERS_panel_source_data.csv",
+      "size": 16336,
+      "sha256": "e90e37cbe24824e7bb7b0484d851d0cd093873023296b9dc50eef2ef84933ff6"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/Figure_2_manifest.json",
+      "size": 508,
+      "sha256": "d444073161141cab7d8ca9b2a194c2c96f7fa47133791dca72c206d7d020e4f8"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/README.md",
+      "size": 7658,
+      "sha256": "9ba2a65fec8069a699c2e0bf62bb2baf7ea9a8c9df11de9bfbdf9b8271d81239"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/alt_correlation_pairs.csv",
+      "size": 302510,
+      "sha256": "4e39c99b14470a945caada2c52c438d6439089d1e6ce69bbb3b2ab77d25f8f5f"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/analysis_manifest.json",
+      "size": 799,
+      "sha256": "03dd9f2f031691a93b033fcfca8dc316c9e07e7ed9ff503d1c2993edc63940aa"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/candidate_evidence_table.csv",
+      "size": 17907,
+      "sha256": "127b28cb9e1e808e2e9477845520f7d3a8cbd8661cbfe074e2c2d3cbd8661588"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/confirmatory_tidy.csv",
+      "size": 453958,
+      "sha256": "687bbfedb2e0ffbf4d0548f349809786c6f98a4db16557dc8253c1f61867c988"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/correlation_stats.csv",
+      "size": 14955,
+      "sha256": "06284491ce212ea6502e36a6f25f2bee5bfc56cab82e67764144ac91f48eb967"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/cross_cohort_concordance_detail.csv",
+      "size": 1780,
+      "sha256": "9ac06ecaaaffbaeb13246708f0327578da61d1911f614c7b5a6c2547b820728f"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/cross_cohort_concordance_summary.csv",
+      "size": 387,
+      "sha256": "4ef18b09df181e6c0c736e4bee8679478ad155fc743bbc7a7a3183fa1bc3fd0b"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/data_dictionary.csv",
+      "size": 4751,
+      "sha256": "c03c0b0e0b03c36fc67b563c196971515824da7ce3f6f1906d6cbf80ff346c48"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/discovery_duplicate_series_qc.csv",
+      "size": 214,
+      "sha256": "ccb8d9b4a417477abc75247fef00916c63d8b6a9db24394860bc4e1bcf25eda5"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/discovery_tidy.csv",
+      "size": 91098,
+      "sha256": "e6c201908b4508a645a8e76797cf2c2fa47dc2da48c52db05a05bc9245cbc23b"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/effect_estimates.csv",
+      "size": 64523,
+      "sha256": "aef364ac88f20c391bb5561429b0196dd4abf85a8ab20f53c9f3726ab3aee884"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/left_censor_sensitivity.csv",
+      "size": 8591,
+      "sha256": "a4b6c4260fa799943fa8bd7e7e1e1df84c56cb28af0547d9bc3244e140c00b7b"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/linkage_qc_summary.json",
+      "size": 80,
+      "sha256": "b0771f52469ab3855f975eb281afa1baec501f71568436bf3710eccbac0ce3c3"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/manuscript_ready_proteomics_text.md",
+      "size": 8046,
+      "sha256": "f6f6f80127bb9e7c08bd60dfa120cc05d67f879f4d94cfe1d7c912a4465fda86"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/missingness_stats.csv",
+      "size": 7281,
+      "sha256": "27df3fa07dbf7c3d1386330130e050fe313fb9840a5f847c89872943853c92e3"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/multivariable_model_feasibility.csv",
+      "size": 539,
+      "sha256": "763dccce6324fc04b9255175247a357eab5a091983177639841471909b625fe2"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/pck2_outlier_sensitivity.csv",
+      "size": 1004,
+      "sha256": "d474a9ba442c45b5f13f41e50741941b6a23d9ef05bf4470406f3bb91662b33e"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/qc_counts.csv",
+      "size": 7787,
+      "sha256": "590f9cb6a0bc280984100ed970fc775ffdd7f16cb9c1df8bcd6a226ec8fc5ab0"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/repeated_series_qc.csv",
+      "size": 883,
+      "sha256": "0032eee2016231dde55ff839fb6ea22809b1cdd4e6e38f8f0ae6e28c0f10ca6e"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/row_order_linkage_qc.csv",
+      "size": 1747,
+      "sha256": "dbf910483e1d99daa9fe53faeffd0a18d13ab75c7200270790b920e740bc0dcb"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/source_block_counts.csv",
+      "size": 6494,
+      "sha256": "bd9d619bf519a900608e762cb3ed230d2aff0afb734fdef8f98c9083c2b94186"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/validation_report.json",
+      "size": 2325,
+      "sha256": "761fa34ef3a7d10dc6f8681add032c8bf56995072afc369843769b70f957d3cd"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/xlsx_audit.md",
+      "size": 10837,
+      "sha256": "4ef266f758716726201ea3cc8573e9ab711880ef348f329acd6493e081928d1c"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/zonal_duplicate_qc.csv",
+      "size": 134,
+      "sha256": "4baef08cfb3225e4448e88b963cfd3e7d9344e89ab81fb4c89cd67d0f3a03757"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/zonal_effect_estimates.csv",
+      "size": 1635,
+      "sha256": "ea5a47da81766aceb57c1e1bedf06a276b6a9f46534ebafe1ff72e86b7e28b39"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/zonal_score_summary.csv",
+      "size": 2010,
+      "sha256": "d98d68a43f3ab7ed759db2694bd9159e9a54f13635d1001ae3a0c5af1c6a43f6"
+    },
+    {
+      "path": "Source_Data/Human_DILI_Proteomics/zonal_scores_tidy.csv",
+      "size": 7366,
+      "sha256": "8c02f97f8943bf645655463a48c31f8c4ce5ee7a63bd717a84ec2ab56f9e951b"
+    },
+    {
+      "path": "Source_Data/Integration/README_Historical_Comparator.txt",
+      "size": 388,
+      "sha256": "d894a01805a0e6538f043c6a6600e1e55d51688660c484401e068be28933a162"
+    },
+    {
+      "path": "Source_Data/Integration/candidate_consensus_ranking.csv",
+      "size": 15259,
+      "sha256": "f9ae0b5477507ca3327029534ff9335fdfbe96b9d1e7fc1ad0fbd58b53e05ee1"
+    },
+    {
+      "path": "Source_Data/Integration/candidate_domain_scores_long.csv",
+      "size": 16922,
+      "sha256": "b3d55b77089a79004083e6ac3b27fdcadd392208cd598d7ab0c31326ab9d365f"
+    },
+    {
+      "path": "Source_Data/Integration/candidate_leave_one_source_out_ranks.csv",
+      "size": 5718,
+      "sha256": "2771c716ffae5a3bd37705e837a03233b716661dc26c0fb52c1d788481ab6975"
+    },
+    {
+      "path": "Source_Data/Integration/hepg2_gene_dose_metrics_used.csv.gz",
+      "size": 1340705,
+      "sha256": "ddf02a3ccaf4aaeb4b3d22d7e4903ac4dc87f7d87dc007dbdcf7655d4fec07e2"
+    },
+    {
+      "path": "Source_Data/Integration/integration_analysis_manifest.json",
+      "size": 5982,
+      "sha256": "00b4d15a4fd5ff65d1278bafd7e75be11297f2471b831ef141832c1ef4671688"
+    },
+    {
+      "path": "Source_Data/Integration/integration_methods_results.md",
+      "size": 7813,
+      "sha256": "d57627d4232a8665ea860384030025d4ba22d9fa0aadfa001662c98692ba9ba3"
+    },
+    {
+      "path": "Source_Data/Integration/integration_validation_report.json",
+      "size": 15801,
+      "sha256": "4e6f71058a00a1b90fd2a6b6397d40f850126eb9384dd77144ee51eca793f949"
+    },
+    {
+      "path": "Source_Data/Integration/phenotype_anchor_tiers.csv",
+      "size": 6738,
+      "sha256": "7554294f4328df58005e7fed052c05cbef9e66bc3db25c90f7949092399e54df"
+    },
+    {
+      "path": "Source_Data/Integration/string_candidate_path_metrics.csv",
+      "size": 1247,
+      "sha256": "32f2402b33b05e25993c00fd401b87648202845e9b638117103920890e5802f3"
+    },
+    {
+      "path": "Source_Data/Integration/target_same_compartment_context_all_pairs.csv",
+      "size": 8632,
+      "sha256": "cade39d2a7a12af5aa6f342c93d298d4338616b49a53653b21e62e1d44707a2c"
+    },
+    {
+      "path": "Source_Data/Integration/target_tier_gate_sensitivity.csv",
+      "size": 3808,
+      "sha256": "c66e5a053928e13e315e5525fdd4b159657e541dfd45a38f3792e8cfdb777509"
+    },
+    {
+      "path": "Source_Data/Integration/tier2_candidate_shortlist.csv",
+      "size": 1508,
+      "sha256": "89fb4396b89fd6d176f6d24ad1f8a7c0f72706949ecda2a1520c50314448cf99"
+    },
+    {
+      "path": "Source_Data/Integration/virtual_ko_expression_matched_null_by_seed.csv",
+      "size": 18955,
+      "sha256": "369bd1f598c5e903610b4b2b3c28e1838f8366ab01115bd612922b8a89914f0f"
+    },
+    {
+      "path": "Source_Data/Integration/virtual_ko_expression_matched_null_stability.csv",
+      "size": 3887,
+      "sha256": "1d8fd5a3f24e8830288632e944673731857886f023f109a29f85b110ce3f6f72"
+    },
+    {
+      "path": "Source_Data/Integration/virtual_ko_top20_pairwise_jaccard.csv",
+      "size": 14027,
+      "sha256": "8acb4bf34b0c905cd7a30fe4bc84d63a0dec4f4411cd47a4558dfe3dc7bfd316"
+    },
+    {
+      "path": "Source_Data/LINCS/Figure_3_caption.md",
+      "size": 3326,
+      "sha256": "10268a658ae2aba897e3abb27bd99244e0fa30bd9bd03d42687734fa7d1bcbce"
+    },
+    {
+      "path": "Source_Data/LINCS/Supplementary_Figure_S3_caption.md",
+      "size": 1241,
+      "sha256": "cd3444d9c035ef3b7d76f4d9999c874d106abdaa8006dd303e10e8ef302c6ac1"
+    },
+    {
+      "path": "Source_Data/LINCS/analysis_manifest.json",
+      "size": 7035,
+      "sha256": "5e13e760b0e59419ba4dfe29aba1949bec654c8ebff571a2d2c9504cefe3752f"
+    },
+    {
+      "path": "Source_Data/LINCS/analysis_summary.json",
+      "size": 1304,
+      "sha256": "0fd80ba941c50eca52fd2501f6e0ce01d33cf020eaa5ce7b1413bd39e65f424f"
+    },
+    {
+      "path": "Source_Data/LINCS/chembl_potency_association.csv",
+      "size": 1662,
+      "sha256": "c1d4844d26cfe4ca30bdc73510914c14b6973fe6a71acc5c5817b22a4a95bc4b"
+    },
+    {
+      "path": "Source_Data/LINCS/chembl_target_set_statistics.csv",
+      "size": 1288,
+      "sha256": "d4c6fc442cda8bb1002fd81efb62e0b73934ef498f3d2da48253c59003912e1a"
+    },
+    {
+      "path": "Source_Data/LINCS/chembl_transcript_crosswalk.csv",
+      "size": 113285,
+      "sha256": "27bb22255dce2b671218309e765387f4b2be034624aad74d1ed8597d043ee51e"
+    },
+    {
+      "path": "Source_Data/LINCS/data_dictionary.csv",
+      "size": 1485,
+      "sha256": "fe27f4963368236df194114488fcd09d2bcc7e16de0b3dc868cf96d14505e185"
+    },
+    {
+      "path": "Source_Data/LINCS/dili_anchor_metrics.csv",
+      "size": 5524,
+      "sha256": "ab7b20af221267dec37a8f378bc748ebd91c960fae57aa71d05261129431a63c"
+    },
+    {
+      "path": "Source_Data/LINCS/dili_anchor_set_statistics.csv",
+      "size": 600,
+      "sha256": "7d02a77eaf60ff3d8e5d131668602fc1f16025f912c807d6532414013723bdac"
+    },
+    {
+      "path": "Source_Data/LINCS/gene_dose_response_metrics.csv.gz",
+      "size": 1357296,
+      "sha256": "f77bff9ae0f0c0bfb81badc2c2282a6ab108d95f8d9686f89781101c2fa202da"
+    },
+    {
+      "path": "Source_Data/LINCS/integrated_gene_evidence.csv",
+      "size": 9150,
+      "sha256": "5fc466e8fdca1f3d4662e7917487d1454d9edbf95aa072ca26739f8d9f30a999"
+    },
+    {
+      "path": "Source_Data/LINCS/manuscript_ready_lincs_methods_results.md",
+      "size": 9224,
+      "sha256": "810f76a366014a3fe57ea76027469b011de11733712e82c3d3855556953361c9"
+    },
+    {
+      "path": "Source_Data/LINCS/mechanism_module_members.csv",
+      "size": 6445,
+      "sha256": "2f9a912fffd179bf4d3186346d0bb26fa3b6bea1c6db273158ab558e3e3f115f"
+    },
+    {
+      "path": "Source_Data/LINCS/mechanism_module_statistics.csv",
+      "size": 2283,
+      "sha256": "b233c77f1905c7f631ab12af616a157aa82780786724dbbff2573cfbe13a5e7d"
+    },
+    {
+      "path": "Source_Data/LINCS/sciplex_hepg2_concordance.csv",
+      "size": 2067,
+      "sha256": "9a3c022ae41a3941f7edb7ef381e493dba6cc525f6734d7bcac7a80d48114316"
+    },
+    {
+      "path": "Source_Data/LINCS/sciplex_hepg2_gene_pairs.csv.gz",
+      "size": 184711,
+      "sha256": "7fa2e64e35bcfc9894d85f48b29b1035056f34a984d1822e357a06dd930c92a6"
+    },
+    {
+      "path": "Source_Data/LINCS/validation_report.json",
+      "size": 5948,
+      "sha256": "d2080f1b3995b949f03a00d337385f7ba185f1a65e59e0d62a02396ad5615beb"
+    },
+    {
+      "path": "Source_Data/Pharmacology/analysis_summary.json",
+      "size": 447,
+      "sha256": "a24faf27112ac3902d149cf697c551cb9b7d9ffd3f73ba94b08cf130e344d822"
+    },
+    {
+      "path": "Source_Data/Pharmacology/chembl_all_nintedanib_activities.csv",
+      "size": 2367367,
+      "sha256": "d3cb38208f3313ab93dd1056c6dee26ae2c8a947e3c3a42200ed9f6a7bc0a184"
+    },
+    {
+      "path": "Source_Data/Pharmacology/chembl_human_single_protein_activities.csv",
+      "size": 178526,
+      "sha256": "57541e7d9b41bbc21763125ac403d2a00b8e75bf483ff679378190d9c15f9c72"
+    },
+    {
+      "path": "Source_Data/Pharmacology/chembl_target_summary.csv",
+      "size": 31950,
+      "sha256": "fda76feee74f7b0adafcf16e8f960f9637e52e43b656937a2374afde963dc381"
+    },
+    {
+      "path": "Source_Data/Pharmacology/sciplex_dose_concordance.csv",
+      "size": 77599,
+      "sha256": "30e848ca2577aec471aa42fcc85a42f24bf0bbc496848fc964a65dd8b68891a7"
+    },
+    {
+      "path": "Source_Data/Pharmacology/sciplex_nintedanib_signature_long.csv",
+      "size": 303907,
+      "sha256": "2be93a831f240af7f48aa3a53c76876259f59aad3f13ba0febcbc5ba0f805100"
+    },
+    {
+      "path": "Source_Data/Pharmacology/source_manifest.csv",
+      "size": 525,
+      "sha256": "fef70e1d38607cfe245730d8ba523065c1c4c1231b136418941b00641801745b"
+    },
+    {
+      "path": "Source_Data/Revised_Figure_Panels/Figure6_J_descriptive_geometry_source.csv",
+      "size": 19128,
+      "sha256": "099163ba87bc6f8357dd6a8b1574a605ee2f15be7e4771ab9ce564fe8fab6f31"
+    },
+    {
+      "path": "Source_Data/Revised_Figure_Panels/Figure6_L_frozen_rank_source.csv",
+      "size": 462,
+      "sha256": "99e88a83e7059014771a9e2e554531be00624ace8a8d74d1c39d89ee6becdac6"
+    },
+    {
+      "path": "Source_Data/Revised_Figure_Panels/Figure6_L_independent_rank_association_source.csv",
+      "size": 1765,
+      "sha256": "a3cc8365999f4d7eac294de943225bb157c567f8fe3caec8ff17da5b6715f564"
+    },
+    {
+      "path": "Source_Data/Revised_Figure_Panels/Figure6_animal_expression_source.csv",
+      "size": 2846,
+      "sha256": "16f3b0bc1eb515e10e519d2b303c68e3476e5614efd041266aa0b2f647010187"
+    },
+    {
+      "path": "Source_Data/Revised_Figure_Panels/Figure6_panel_source_map.csv",
+      "size": 2189,
+      "sha256": "5b2b8caa4bff224acb9d186c942202448cf43c14eb66112ccabb2e5eb8344fe7"
+    },
+    {
+      "path": "Source_Data/Revised_Figure_Panels/S10_panel_source_data.csv",
+      "size": 398169,
+      "sha256": "e81c7610f6a0fcee3a7dfea8252e1a530c3f8571731ea7ec706da88bad5dab3c"
+    },
+    {
+      "path": "Source_Data/Revised_Figure_Panels/S10_panel_source_map.csv",
+      "size": 1931,
+      "sha256": "f893ada56cb29dd3503ca5770bb3395dff8191287c29712e0f6c2d12d2c5aa97"
+    },
+    {
+      "path": "Source_Data/Revised_Figure_Panels/new_figure_panel_source_map.csv",
+      "size": 2349,
+      "sha256": "077ad0f8a540a3fb5ac6a49aacddf07a14351ff1b76574932cf1d94aeaa21717"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__ABL1.csv.gz",
+      "size": 28639,
+      "sha256": "9d0439295e1c0fc21cb3450824e9db338d4c74a4a3214e98be6659e1200ac200"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__ACO1.csv.gz",
+      "size": 28430,
+      "sha256": "d48b79a753099ac9c8a9afa2aa7d575fa27f82b055efb780f9e79b9fd367e82f"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__ALDOB.csv.gz",
+      "size": 28632,
+      "sha256": "388c017181c5c0384841538189796ed21fed58a1cbf2ce5e8f7b1b7c1889b962"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__ASS1.csv.gz",
+      "size": 28466,
+      "sha256": "8e8b4173838706d8998c6b1f5fafbebf80e2a58e594df766bd8cde72a5bf6add"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__CDK4.csv.gz",
+      "size": 28674,
+      "sha256": "f9319c3fa63172b3b168cada163e54808f8d2261fc7ba1ccce22894c05bd8efd"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__CES1.csv.gz",
+      "size": 28390,
+      "sha256": "f91068ed9bd0f38c46106f8611720160428a695cc3a0ff14446dad76dbc3b06f"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__CPS1.csv.gz",
+      "size": 28293,
+      "sha256": "68a8c6f3bccbae92a2612b6710f560f3e4f88cfb5fd2f2a5b66ba26c009897f6"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__FBP1.csv.gz",
+      "size": 28662,
+      "sha256": "00ed15c7e00b65d7622c587d986c0d6e4be50103cc79a3ff76abbf21efefe94c"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__FGFR1.csv.gz",
+      "size": 27312,
+      "sha256": "1be3bc2a82529b67475aac961ce4323c50214711e900e372d27d30b566b4e06d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__FGFR3.csv.gz",
+      "size": 28678,
+      "sha256": "5c5a1114e9c6bd656678b0342ad79681a0c68c2b1ac29eb71256c9972fa0a8d7"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__FLT1.csv.gz",
+      "size": 27463,
+      "sha256": "82a13e7055201725905506c2df670097936826b121c667e4811fe31989706fd5"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__FLT4.csv.gz",
+      "size": 27416,
+      "sha256": "c1db792df246b488ad98f45ee263da0b377a8c7bfe30fc632e9c996a8d3b8fe9"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__GSTA1.csv.gz",
+      "size": 28644,
+      "sha256": "530e1b93f5dfae7045a4569828effdbe36ad2bfcc7bdd72eceea93e382fee7f8"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__HPD.csv.gz",
+      "size": 28650,
+      "sha256": "2bff2475f9608e3c531291ba6e6f02779e7294a5a6235cd459d9ff05b31a42d5"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__JAK1.csv.gz",
+      "size": 27351,
+      "sha256": "f6af0f34305d9b099f9edcdf9abb9188034bee73e5e2f0a0870d104dda59418a"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__KDR+FLT1+FLT4+FGFR1+FGFR3+PDGFRA.csv.gz",
+      "size": 28037,
+      "sha256": "2b1f68c5a6920523bdaa5ed84cb7f1dabfa2cae354a9aeb0257ebca210834588"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__KDR.csv.gz",
+      "size": 27591,
+      "sha256": "9d918a1110e5fa76b0e1045ad4eefa3e1f9e8880794d465674f82669094fe7fd"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__LRRK2.csv.gz",
+      "size": 28596,
+      "sha256": "d922316218c3c182857ef7103edb7483a52c82e223e85c5d1bea668829662549"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__LYN.csv.gz",
+      "size": 27181,
+      "sha256": "f7c59e5cfe7af5268ec5f976edce8e9ef5de4ece6a94a25c0f0de61d2009139e"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__OTC.csv.gz",
+      "size": 26765,
+      "sha256": "62e5dd5b5135f16bbb0d1e65426d46883bdb273e105d00f3e29c19d0fe2d03ab"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__PCK2.csv.gz",
+      "size": 28644,
+      "sha256": "f5781d18bd6b0d5aa9bec0ad3fb0260bb41db699370768bcc381bce96bc5c1d5"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__PDGFRA.csv.gz",
+      "size": 27428,
+      "sha256": "847f5b29ab658876fd166b3b696ff1519e0eac26dc1f8e42a8b86662ac47896d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260904__TYK2.csv.gz",
+      "size": 28697,
+      "sha256": "3bc8a3803d26710c6df86d9871f8cd9280f7314e2df4c08fd5af6524ccb16790"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__ABL1.csv.gz",
+      "size": 28151,
+      "sha256": "432eee288af55eba8a2540c2e61a5abc94ffee29f92fec153eebd2312ac722c3"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__ACO1.csv.gz",
+      "size": 27982,
+      "sha256": "76df4bebed31e4eb99d89c0bc4784ba2630520b385ecfd144d249cb36af32dc8"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__ALDOB.csv.gz",
+      "size": 26921,
+      "sha256": "e07b33a91e9da973a7a541a17f018cea8dffb9deea6d8b696fec6f8e98d3dba1"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__ASS1.csv.gz",
+      "size": 27995,
+      "sha256": "4c0cc15257fa58cbc9aa78836ba43e2fb0c001430502c344dc3fb5c53f1cbc0a"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__CDK4.csv.gz",
+      "size": 28050,
+      "sha256": "7ca61175ba1480bfc83cedd205ed8b27c75e51f1880496494a6b46a233167954"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__CES1.csv.gz",
+      "size": 26990,
+      "sha256": "aaeedb638a8390c94b86ef39196433698e80f0e9937cf76de7da1c75a3318b89"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__CPS1.csv.gz",
+      "size": 26955,
+      "sha256": "d89671707760c137fcdcd491e55ca00e62648bda50f911d2b6aba471b3bf46d3"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__FBP1.csv.gz",
+      "size": 28001,
+      "sha256": "28445eb7e66dc59d83ae4ed10c225c9efb9b9a057eeeb2b383b1169d740b25a6"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__FGFR1.csv.gz",
+      "size": 28226,
+      "sha256": "23df6fb3f2e350d997dfd44853ad564a56770bae108aec4a2c699f7c114ed50d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__FGFR3.csv.gz",
+      "size": 27917,
+      "sha256": "b27ae778bfab585b2add7f414e8d25b22ec4b0ba0cc1ee781de0079ef3070de5"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__FLT1.csv.gz",
+      "size": 26986,
+      "sha256": "97cc4115e9b1dbb6901084e35c41fd4fc7fa5b27cc07f09d86d9d1e3d3661160"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__FLT4.csv.gz",
+      "size": 27727,
+      "sha256": "fc0813ae76396aa1358ee4fa49d7eee8d86986febeac81de6980dffed8719765"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__GSTA1.csv.gz",
+      "size": 27932,
+      "sha256": "a9d28d1aed67d1e0e8bb9eb894010e67f3a24992862450a5a615864155b61421"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__HPD.csv.gz",
+      "size": 27950,
+      "sha256": "17a83df1d8d15a836f27fa127ed669e3c6b52296a8de6b5693c011fb40c6070d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__JAK1.csv.gz",
+      "size": 28096,
+      "sha256": "8be6d6930dc3cfafc925968bf6cb9d37f9039b1207c29a19cb52c7b96334c4bc"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__KDR+FLT1+FLT4+FGFR1+FGFR3+PDGFRA.csv.gz",
+      "size": 27495,
+      "sha256": "d265a8d6453cead7de0731568fd5551399e16e74f149fa790eaae3b677b41dc9"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__KDR.csv.gz",
+      "size": 27008,
+      "sha256": "dec732f8c1adbfb6c4f0a72663e3471e447029335ffb3b3409122ce44779e406"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__LRRK2.csv.gz",
+      "size": 28090,
+      "sha256": "808d7a52dbf52364ee5a90fcc37720d63af0011552edac7ee3dd27587ad30aee"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__LYN.csv.gz",
+      "size": 28021,
+      "sha256": "e74f4dd2f80666432f455901633afc327d7a28ff1ec3f36606d744c97869ab77"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__OTC.csv.gz",
+      "size": 28066,
+      "sha256": "cf04fc3392823f2f050a6fd52726ecd4976e735808e54f27eb46b2e58ad66670"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__PCK2.csv.gz",
+      "size": 27790,
+      "sha256": "e749d07754b98e1f74d8f625f723f9c88cbe6db8ecda9563181371790ab419af"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__PDGFRA.csv.gz",
+      "size": 28082,
+      "sha256": "cad90d922a669ce05b55604cb0d9f40ff690014e9f6630b5f57b4b6ff45dd1bb"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260911__TYK2.csv.gz",
+      "size": 28052,
+      "sha256": "e02c3bb5cb3a6fa9251242ffa5764da6cfd8cb92bd2d33670c31c1ae4140dbbc"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__ABL1.csv.gz",
+      "size": 27938,
+      "sha256": "5d5c1aab0437d01e93e95e2d2a33136f761c1837eb0d31d496ce8c35276fb0f9"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__ACO1.csv.gz",
+      "size": 27889,
+      "sha256": "eb95a79de1a2641e8964dea43ce0b14c8058ec5cc501df4c03002dd66bca0468"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__ALDOB.csv.gz",
+      "size": 27932,
+      "sha256": "b7621089713b78f716524c3c0d9446c4116a56544539b6981df07d635fa5b5d0"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__ASS1.csv.gz",
+      "size": 27943,
+      "sha256": "1eff82b0cce93e8976f1473cd9d70b1fb77296c15ea9ea80cb1f2c13eb8021f0"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__CDK4.csv.gz",
+      "size": 26715,
+      "sha256": "d83370a1da2dcf48c7f49e3ebdf206c177c43c01eb34f1694347d6094e566cd4"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__CES1.csv.gz",
+      "size": 26690,
+      "sha256": "24c3885e1693727278eea2e7daf0e733d656064fd83dfc7adc4c3a7ecdb22d25"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__CPS1.csv.gz",
+      "size": 26803,
+      "sha256": "7d2571333a8a4e98ac73ab9e80516487589c9ef17318a93bccb4be8ff5870d71"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__FBP1.csv.gz",
+      "size": 27942,
+      "sha256": "629ef03b1fc040798e5e9ef2cd8e3ead17cb7427f1f2064d900224d880aa8a20"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__FGFR1.csv.gz",
+      "size": 27934,
+      "sha256": "9a7b923970dadc9a2790d7c3d50165d7d5cd62c962aabe13e21cc42cdc760c00"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__FGFR3.csv.gz",
+      "size": 28018,
+      "sha256": "36a95fc4dc1a992d20b04c01a515d23a4a69def5c4f0e019d71acfccaf75fc59"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__FLT1.csv.gz",
+      "size": 26834,
+      "sha256": "4b5749d893e8a57c163a899bf8d74721e555dba6ddd7959052a051849fea806b"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__FLT4.csv.gz",
+      "size": 27747,
+      "sha256": "1bdafbe2f36394027920c410e05cb6a5bbcd81d09e7155542e033e7da936fbd2"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__GSTA1.csv.gz",
+      "size": 27738,
+      "sha256": "9523d9da2b09f85cdae9155cde2c40ec542ea0a456aae147075a5b2358f6590d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__HPD.csv.gz",
+      "size": 28016,
+      "sha256": "5f2a839f41de3fd28b5f203c75af09f9c56981be725cf74d60e97c07f89945af"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__JAK1.csv.gz",
+      "size": 26410,
+      "sha256": "12807741a25b9200fee028cc26476f51c823dcc5eb317ed6cbe75b3b38249ae1"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__KDR+FLT1+FLT4+FGFR1+FGFR3+PDGFRA.csv.gz",
+      "size": 27337,
+      "sha256": "285ccaf28825586b6749605ae752d5b374de2c5c18bf744379d3b48e6bc68a34"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__KDR.csv.gz",
+      "size": 26862,
+      "sha256": "70bd1f640c2d9a2fd45c3eca3523478e79e63aae585af3d344c53eae5603fff5"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__LRRK2.csv.gz",
+      "size": 27776,
+      "sha256": "e1f15bd883014ff230d14490d84b2559b5496902912afcc32046cbe502cba4d0"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__LYN.csv.gz",
+      "size": 26739,
+      "sha256": "aeda773b656d4e15e3f8b8f1e03d5143f457384d7a396d295f8734452c9afb3d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__OTC.csv.gz",
+      "size": 27907,
+      "sha256": "3fd1528823f6482af5ba3e1400ff27cd23625f91d1b3245a6d9116163d2acf42"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__PCK2.csv.gz",
+      "size": 27862,
+      "sha256": "ccc71ec5c2ce408d546c249ba58286a52d131892ff541a4044d322d083e0e8ba"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__PDGFRA.csv.gz",
+      "size": 26186,
+      "sha256": "531db4f19d9587bbd61eaccc81b7b787f2ae74dcdc346cf1739dc27f9dd78b22"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Endothelial__20260918__TYK2.csv.gz",
+      "size": 28001,
+      "sha256": "e07244f276e1fbccf35935f7b99e30a726f73b2a150c73412157dbabbc59e1f1"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__ABL1.csv.gz",
+      "size": 27914,
+      "sha256": "ff8816d9f0ee1dde534b791f8e5a1f5d79a2c21457df9db070df442a582ba96c"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__ACO1.csv.gz",
+      "size": 26914,
+      "sha256": "2019d5c8601879230af3d1a404e924b493f2588e4c3295908d548d2368c2fe02"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__ALDOB.csv.gz",
+      "size": 26979,
+      "sha256": "49f4ad5fd9c130a6cf211a1bad11cea0db90e2ca59379be15c133d6a70778118"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__ASS1.csv.gz",
+      "size": 27814,
+      "sha256": "0d11dce27d1f2e14320421ed2de52cf1e8faabf62fdd7faba83a56a58ab7a12f"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__CDK4.csv.gz",
+      "size": 27963,
+      "sha256": "4e4e0a21df7f895bdf9debcd37da6e40e0be756e3cec357145d81af1b4b17b1b"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__CES1.csv.gz",
+      "size": 27001,
+      "sha256": "224cd25ac72cf12dd4b7e6ade2a85d695043c29ea3e274520ec2da092f4da2b3"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__CPS1.csv.gz",
+      "size": 27031,
+      "sha256": "395c337e1be9141325523235bb85777ae78ed0298e0e6e8c1ebc037705807616"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__DMGDH.csv.gz",
+      "size": 28002,
+      "sha256": "e052b73c7e014ccced1cc51cb344098e1accf77f90f0c60fba77688485bac77b"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__FAH.csv.gz",
+      "size": 27922,
+      "sha256": "f8ae741647551fcf56f97fcd68ed1649f88056af561b703a47074f0fbb04bf27"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__FBP1.csv.gz",
+      "size": 26969,
+      "sha256": "de700a5275d7d7b276172d9d1ca2ffab0f9c1b32e80fdd3a4ce7aec0d520c75c"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__FGFR2.csv.gz",
+      "size": 27943,
+      "sha256": "4c7e68771c7eb27d2fa36b557c444e0f2c92976fd96b352cff1d51902bf00773"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__FGFR3.csv.gz",
+      "size": 27976,
+      "sha256": "de48b8f59c326842683593b2e07cd98e6be40d32a14ac49dc873522eb75c15d3"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__FGFR4.csv.gz",
+      "size": 28113,
+      "sha256": "b5a7873d439c250bba175870c83bed13a8ae5a46ab52f87c67b4a6af0b72334b"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__FLT1.csv.gz",
+      "size": 27809,
+      "sha256": "b9ccc25977adca06c56818f569fad660aefbacaeb00762cd977d6b9e98f0d22e"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__GSTA1.csv.gz",
+      "size": 27084,
+      "sha256": "ab9ab2d4f1d72d138b8ca324478aeea13db7253f79776f19e2be916a9a080d38"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__HPD.csv.gz",
+      "size": 26900,
+      "sha256": "a13d48b8dd1f5e4b07a6312507857b718ed83e1606d4653814ef2b713a5c2493"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__JAK1.csv.gz",
+      "size": 27919,
+      "sha256": "883d894bf5268b711df560e4f4041d71970aa39ed148f4169f92243331b01653"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__KDR+FLT1+FGFR2+FGFR3.csv.gz",
+      "size": 28002,
+      "sha256": "185c5c925ee8933114f8cae95ba4d3c4c22c2ae54c547c252276e60040d969c4"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__KDR.csv.gz",
+      "size": 27967,
+      "sha256": "31ae0e207dfb5665734ac899b25f2f5352b8bc90867667082835dcf3c28b53d4"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__LECT2.csv.gz",
+      "size": 26905,
+      "sha256": "6f43a771e478fa1d82fef2672d5947a002b970be191679fb3d3d854cc27a2f09"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__LYN.csv.gz",
+      "size": 27887,
+      "sha256": "0af240de69f88d3adc90af94d807083f132ae9ec93a520993820dba64b05433d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__MET.csv.gz",
+      "size": 27759,
+      "sha256": "2f2abe0c79e2add11b9e573a3cdd46c98b8d7960e149a1efaa50410d8f220d5d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__OTC.csv.gz",
+      "size": 26979,
+      "sha256": "1ff0479e849997d33fcba7b944f844b11fc36e7cd0684938ef199de7c3454e83"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__PCK2.csv.gz",
+      "size": 26858,
+      "sha256": "36028978da81c10e5cc44d88d84ce9769e2487248c93cecc8b52ea6987313d15"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260904__TYK2.csv.gz",
+      "size": 27667,
+      "sha256": "f9112cd78e83b2ac0378faf4d13b81cad81bb26ac431ae6faed3361c81e2afd1"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__ABL1.csv.gz",
+      "size": 28301,
+      "sha256": "98706505e2da98dc6b010a82411ea798fd285c248415445d3f0c4cce730df250"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__ACO1.csv.gz",
+      "size": 28326,
+      "sha256": "d389b30554c9dfd60e296366331c44843dacd1c3473f416d01301a4ed2b8ec54"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__ALDOB.csv.gz",
+      "size": 27164,
+      "sha256": "dd6aec80009bb458d981c017ea6066ae94ca0d5aff1759bc09a3823f072df5a3"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__ASS1.csv.gz",
+      "size": 27197,
+      "sha256": "f65e029027f9a13847d6491fb62415d82bd9637077a71e277c004a19bd2f08a4"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__CDK4.csv.gz",
+      "size": 28140,
+      "sha256": "c8fdaa76e47dfe5019095561e95409d153e495c615dde9be91863fc7fab6ac78"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__CES1.csv.gz",
+      "size": 27244,
+      "sha256": "2601bf2793b85a9f641a1abc887fff4647702a5386d9378eae1b54f47f975921"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__CPS1.csv.gz",
+      "size": 27228,
+      "sha256": "14d86d522a3b74fd20a9e28bd36f843e96b459afb02b9b4faba60d75a2d24caf"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__DMGDH.csv.gz",
+      "size": 27189,
+      "sha256": "5920385e01bbbb3468d8a33d23f20c8895c2581370270c6b448189add4425693"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__FAH.csv.gz",
+      "size": 28298,
+      "sha256": "8ef64443809296385eb6aff402d53131ebaa1c59cfe3792f3ab4eda1ec6dfb99"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__FBP1.csv.gz",
+      "size": 28362,
+      "sha256": "60064de5f3a6411a1843d82d2804150b1c82bc900870750231ac0dd33ee22d37"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__FGFR2.csv.gz",
+      "size": 28471,
+      "sha256": "87480f431fd776f0b875a0af0ae542e47046fb9edfc02dacfe90c7a79fbca265"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__FGFR3.csv.gz",
+      "size": 28396,
+      "sha256": "495fb04a70ec75b1733478ad1c48b03008b1922d90d49dceef032046a76cd058"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__FGFR4.csv.gz",
+      "size": 28163,
+      "sha256": "b0bc5b48e020da8f2e243279df6bf8ff7c4347b15d7f14bfd8ed195ded2ff288"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__FLT1.csv.gz",
+      "size": 28427,
+      "sha256": "534923025b940eda5e4ada2aa4a540e71cefea0752c6f9608e7f4981904352d2"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__GSTA1.csv.gz",
+      "size": 27238,
+      "sha256": "30f59d5082f9be48c4f291ec473bb0dc916b481588ce33e05103d0b48d1289f4"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__HPD.csv.gz",
+      "size": 27202,
+      "sha256": "ff68e649a506d15735028963b8f5c3801605960564de851e279ae52d2c5780ed"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__JAK1.csv.gz",
+      "size": 28153,
+      "sha256": "c78e04c7624c26e2f9fade14b3ff811f5ba31d2104977da9d37b699edee2f0ef"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__KDR+FLT1+FGFR2+FGFR3.csv.gz",
+      "size": 28535,
+      "sha256": "f961f157a8b2a88d1fb8f47b83b6695e94af9b0ad582b25d7cb3fcd1dd3321ca"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__KDR.csv.gz",
+      "size": 28160,
+      "sha256": "8c0c4aadc3e3839a569ea64da737964272fba119c99ab85ba86a402d4f777c3a"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__LECT2.csv.gz",
+      "size": 28240,
+      "sha256": "a8acccf129989c4754a4a2c4e75f09bfc9e29a3bca1959e1b595471d4af655e9"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__LYN.csv.gz",
+      "size": 28310,
+      "sha256": "b4077cf5235e13623894826ca132b7009c4ed8cb9bf2b7741c85dc27f6e24a43"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__MET.csv.gz",
+      "size": 28249,
+      "sha256": "56b69628154fdafb29346bad783be905c6a48b24115aa1cbb21aa2475ea2fd8d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__OTC.csv.gz",
+      "size": 28484,
+      "sha256": "b266d034f2ae9c10c7bd8e08460a8bbe838b4a3673b7373cfdb6e5e5d976c3fa"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__PCK2.csv.gz",
+      "size": 27231,
+      "sha256": "3a0db6ce45d7aab45ab4c6ef4b809d8d5027c4464ab9c94d1314c941bfd1d7a6"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260911__TYK2.csv.gz",
+      "size": 28243,
+      "sha256": "ca6453a37720601260cbe09297afe70b4ac4f7442da9f4f6c0cf38c1d43f3841"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__ABL1.csv.gz",
+      "size": 28685,
+      "sha256": "9737c1179ddab3ac31ba6513105d4aef502e50d15c8475ae3a70ed5cee6a1207"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__ACO1.csv.gz",
+      "size": 28758,
+      "sha256": "ea343136fc75029e7414ad5d5336da4e784332b84da15e16960ed63074408d92"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__ALDOB.csv.gz",
+      "size": 27528,
+      "sha256": "38d3a34cd65df630d33e790e5edcc2a22005444d20e222fb080005c08eaa9dd0"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__ASS1.csv.gz",
+      "size": 27486,
+      "sha256": "4c2010b2169ab76898e4c57bbfbe4c59d9066f1d329da10cc18de6ad8a74c355"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__CDK4.csv.gz",
+      "size": 28690,
+      "sha256": "3bb1883b1f15f9083098c9129e212ea8f8c89b3d9db43413bec8cde817180761"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__CES1.csv.gz",
+      "size": 27742,
+      "sha256": "66d41e71efc3dae14847024a7f22dbaa230c6124fc03f9e8f1a25bf3ee26c369"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__CPS1.csv.gz",
+      "size": 27571,
+      "sha256": "ba972e3b85adefdc51180410e8dcee0b9ed7e4c1fd659c1c6ec6eda475c0de04"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__DMGDH.csv.gz",
+      "size": 27710,
+      "sha256": "b0334c4cf0c7351d000e39d15b6c953f2b5cc955640733aee79006887dfbe849"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__FAH.csv.gz",
+      "size": 28658,
+      "sha256": "231858b0d9bd0f62653084fd99f4e467f1f1996595504b375e28bb680de50540"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__FBP1.csv.gz",
+      "size": 27513,
+      "sha256": "a0ec47c6f607822485f169a61533a28c771f2b5a77c072f4e73fa59ced7b5938"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__FGFR2.csv.gz",
+      "size": 28807,
+      "sha256": "767c86440290cb2fe9070074fae363ab6d69fb713748d835f8f1fb16b0901a43"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__FGFR3.csv.gz",
+      "size": 27572,
+      "sha256": "670b6b97bf7e99e9f52b59d24a947c37db8e521df660d5f1369f960187c513fe"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__FGFR4.csv.gz",
+      "size": 28809,
+      "sha256": "9b49c271d643c082d2af6fe5252843ca11f3e9d356b7332ab591c20c12d7c775"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__FLT1.csv.gz",
+      "size": 28602,
+      "sha256": "fd2f39e2488fcce1f235fb6cdbc4fb7c6e31a09cd8790beb358ec854bd4def34"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__GSTA1.csv.gz",
+      "size": 27689,
+      "sha256": "e4e6b3ed1fddfb6a3b4ea53778e78a1e835624bb8ccf5185f836f4755ad61df0"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__HPD.csv.gz",
+      "size": 28727,
+      "sha256": "a9e74f6fa410b9103c0bff22e4d3b474bfb6d25618b902d68e854eb7e2b52094"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__JAK1.csv.gz",
+      "size": 28753,
+      "sha256": "8a987e8778ae83d26a542ecdcbf3dec4734a41061157f681e913a62857d94616"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__KDR+FLT1+FGFR2+FGFR3.csv.gz",
+      "size": 27733,
+      "sha256": "00f464568c185d2620a080ceb6980b1c54d4f63e77281bf8662ae462ddfcf7bc"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__KDR.csv.gz",
+      "size": 28608,
+      "sha256": "1846b1f9f1994a509b722fee8ed34ce57f78a0bdff55768dba0ff23c71bbc1f7"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__LECT2.csv.gz",
+      "size": 27565,
+      "sha256": "05231f3ad05d74963e77872c27fe9326749e21705f2b585b9a518dfb08ab61cf"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__LYN.csv.gz",
+      "size": 28565,
+      "sha256": "825440a692dd904d76e0f3d81224915876e8fcd623094417395c5e7eed5eb387"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__MET.csv.gz",
+      "size": 28727,
+      "sha256": "df4f792dea83c5eaaf3481366517d932a73c64dab9ef6d7d5d14638265380235"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__OTC.csv.gz",
+      "size": 28668,
+      "sha256": "ffb707e4fe8fc9089caa01bf70ba27773518ac6945ab8db8c5349ca1e9c7df3e"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__PCK2.csv.gz",
+      "size": 27704,
+      "sha256": "5cb8313efabde2218b2f59c1df0fed9abcbbf712f4b06a5f4dc314bc8aadd7fb"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Hepatocyte__20260918__TYK2.csv.gz",
+      "size": 28636,
+      "sha256": "c2f5d5d9bf653dd2ebc718bede1fcfaf151f4266b1fe1239c26dac269be0f58f"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__ABL1.csv.gz",
+      "size": 26796,
+      "sha256": "c80d41f221ea6d4542bbae0084c416fc0a2ceed15eb5a210d1d01d30cedc4e10"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__ACO1.csv.gz",
+      "size": 27172,
+      "sha256": "02eb9e1a1a900348dbe71f45814c68f26dd0dace66fffa54a3f17398cf263471"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__ALDOB.csv.gz",
+      "size": 27122,
+      "sha256": "9af563b52819ada26b0a747516ae533d102820a3505acc51133ff1c0f3305f40"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__ASS1.csv.gz",
+      "size": 27244,
+      "sha256": "d0e76746d75d33d967fbb4e7fc302abd0e0b5453a3eb45749f0040645e4fffb5"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__AXL.csv.gz",
+      "size": 27159,
+      "sha256": "8a43591934a890f21751fcc5cdb729d854234d03f1b0635c04c5a33ac99313ed"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__CDK4.csv.gz",
+      "size": 26927,
+      "sha256": "46c0bf63ba46830258d12d2a7e45ae545cda94b1ccab110aca6d1ad844181366"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__CES1.csv.gz",
+      "size": 27948,
+      "sha256": "146d9304589b08967b6d2ad3e02b226ebd916540505a3b5b4279a6c2a1369cab"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__CPS1.csv.gz",
+      "size": 27264,
+      "sha256": "0f56566a020d68829a10cb4e8d6a0bb70a4d7a1dd237e24bad2b3726e2087a30"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__FAH.csv.gz",
+      "size": 27890,
+      "sha256": "d05a4c02257c429adf3d6adb17607ab3fa041602f4c5f03df575ba4a14edec34"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__FBP1.csv.gz",
+      "size": 28154,
+      "sha256": "bab1357a2458a4df4bc6c5794cdfb4a8fcd6834b5a8f0538383aca19e4d8f950"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__FGFR1.csv.gz",
+      "size": 28165,
+      "sha256": "a32693779ce321f6a08fde04249d9cc6cf864d98c8ef41d53ebc810d0841307e"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__FLT1.csv.gz",
+      "size": 28074,
+      "sha256": "a2ff7ee37bb0bdad64f41e225e9d8fccdc5c60acb753056f8a24a87004f1e08d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__FLT3.csv.gz",
+      "size": 26729,
+      "sha256": "89b2eeaf2bc608c99183eefb8774f26d9a738e0cab6404a97302e539c0b4a324"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__GSTA1.csv.gz",
+      "size": 27917,
+      "sha256": "dbb0b32bf901e8025ae712761ec113158c282866ba0c00b872fb3b79ceac84f6"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__HPD.csv.gz",
+      "size": 27962,
+      "sha256": "8879bd4683f782874095464e257892122340b8f864b133001abef18843a322cf"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__JAK1.csv.gz",
+      "size": 27173,
+      "sha256": "cdc20db23f336f7132a46d1b0a78d3fc228278ba6a22b851edb57af50d77cdf1"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__KDR+FLT1+FGFR1.csv.gz",
+      "size": 28206,
+      "sha256": "786f63dc0ef3f6da78b2503fd43efca57e9089694b02f7099e03cebc1005fd8a"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__KDR.csv.gz",
+      "size": 28090,
+      "sha256": "5eb5fcdd52596211ff7f7c7cc4f513e1e91da626f7737ec110123a4adc221d31"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__LRRK2.csv.gz",
+      "size": 27245,
+      "sha256": "b971e5a6367e9ee4cb85fb213273551143a1040ccbf3e15b18191eeae97902c7"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__LYN.csv.gz",
+      "size": 28174,
+      "sha256": "a39503d999a89b509013fe9b5aeedd2a0873bfb3885aa726f30cf0cdadd18ae5"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__PCK2.csv.gz",
+      "size": 27976,
+      "sha256": "56d3fb0362282a0f4ef7067737d4e62dd818eb0c9fc24ad200440ed8c67a4668"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260904__TYK2.csv.gz",
+      "size": 28161,
+      "sha256": "e0c7f382625845255a707e9febae675cce34a39a054bf40f6d6e3a68ce58f506"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__ABL1.csv.gz",
+      "size": 27302,
+      "sha256": "5b9a98063e935bb62c6bc199b3ed27349e0dfb13771df705c66610c84197e41a"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__ACO1.csv.gz",
+      "size": 28270,
+      "sha256": "faf32d7fbe1c06ed68348be980da71a6967fd23909f2cf7526e2a3abb349861f"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__ALDOB.csv.gz",
+      "size": 28007,
+      "sha256": "ac5dd78af1a372a209c44c5fd8fd350f95e2acbddfc2a48e5c3f2dec1eb27e51"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__ASS1.csv.gz",
+      "size": 27245,
+      "sha256": "331ef41805dbf3b18c33d33db3d0f258716f24d3fb22e957382e26744db55daf"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__AXL.csv.gz",
+      "size": 27368,
+      "sha256": "4477d3e5676d356c5eea4910b0f869176b72700eff35643b59596a48c2dd2af5"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__CDK4.csv.gz",
+      "size": 27988,
+      "sha256": "05bae37e7826d38de21b291b6ce159ba1408f8039216d077c86f2c5c8f33e7f3"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__CES1.csv.gz",
+      "size": 28059,
+      "sha256": "21409f3b4b0472b4daea64639c66d5195f79a615520b7f8b8cb8ddf47cb3d821"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__CPS1.csv.gz",
+      "size": 28052,
+      "sha256": "d73d22fff8b97bb80aa10ae3e515e219e44bfb9ae39ca8fec0980c220e55c386"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__FAH.csv.gz",
+      "size": 27837,
+      "sha256": "62190a2804e056914a56f121bf5cacd647d3aa31cc949409bc61594d574bef01"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__FBP1.csv.gz",
+      "size": 27088,
+      "sha256": "4f6b52e6399a3a48653547710c5617288b5fba986cded282c020c8cd53b94c3d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__FLT1.csv.gz",
+      "size": 27678,
+      "sha256": "fa6b3d1f4fd8ba0d25480a66c087225fb4b0d58ce09d433f692a02c2c192ee17"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__FLT3.csv.gz",
+      "size": 27128,
+      "sha256": "35a4e8922afe56cc685d845822f39e741d4b735f33c0fb684694958c29474c61"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__FLT4.csv.gz",
+      "size": 27985,
+      "sha256": "c890bdfe94fa2b45ffe8e6a3fe210fc6c2161404d8cff23f16bf4fb87eb8abbf"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__GSTA1.csv.gz",
+      "size": 28151,
+      "sha256": "fa2fa2844ba88960c94375f41d24ccea0bbe26b91d8b981c95e5cf8b092e101b"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__HPD.csv.gz",
+      "size": 27252,
+      "sha256": "5ee5fe0d5ea06c3aad6de9f40e58fe03a65fb56adf8a098860e162c2faedb70f"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__JAK1.csv.gz",
+      "size": 28071,
+      "sha256": "3fc0665f6e0e67b45532dd74495eba9a38d58b2373cb687a347900aea589f174"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__KDR+FLT1+FLT4.csv.gz",
+      "size": 28398,
+      "sha256": "9c7ea199853abe86d87d18096e464ba5665133f8678a514f0cc0f94a56e515d9"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__KDR.csv.gz",
+      "size": 28029,
+      "sha256": "6758ffd3b6e994c49cbd7204c66c8757d9b5445f72d004d47d2c70e899a7b526"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__LRRK2.csv.gz",
+      "size": 27230,
+      "sha256": "087575f8327348f176308cd3271d48cb0d7ec1755cbd94864a3813f3e959d99b"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__LYN.csv.gz",
+      "size": 28016,
+      "sha256": "ab5d7273e31cf9621cbcabcc5dbfe9c5638e59c46715e05b002587b6baf2bf15"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__PCK2.csv.gz",
+      "size": 28119,
+      "sha256": "63663457dad8d96f300dc07e4112fe5ccdbe09b3ca31fae50d46be5af84a484c"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260911__TYK2.csv.gz",
+      "size": 28043,
+      "sha256": "f5321c8935c40fdab74ec0b0227ece97d7c245b496dc3e0663575f1e64682622"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__ABL1.csv.gz",
+      "size": 27931,
+      "sha256": "5f2abc04b4d84726e2ac23084fc81d0866275e65d190ab3c569554c1f57208b3"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__ACO1.csv.gz",
+      "size": 26936,
+      "sha256": "9860caa5ff68bbb99c40e98510f524e82658f18731deb675db2909c98ffc1aad"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__ALDOB.csv.gz",
+      "size": 27382,
+      "sha256": "841db67a1d9e070b82c82c6b891d40fd1c7aba9771f8d97e44732fd505f89c0b"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__ASS1.csv.gz",
+      "size": 27233,
+      "sha256": "8d1c37facbdd3de2822c6eb6ed42dabbd75543831ccbf480e55bc7a681cda28d"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__AXL.csv.gz",
+      "size": 27235,
+      "sha256": "56b756c33dbb897dcb3586c464d59788995e70cd34b4d175de4c8792b9193398"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__CDK4.csv.gz",
+      "size": 27190,
+      "sha256": "2725196a436515359c32d31eb7ff0b808b27387ef2355708c7cda4c3255b29f3"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__CES1.csv.gz",
+      "size": 27100,
+      "sha256": "248e9bfab9392ba02c82457e9804816c14420cb88f67173358e61311794597d3"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__CPS1.csv.gz",
+      "size": 27899,
+      "sha256": "cd6bcd9937b8742d7014effc96a19e76c428749a4c0dd9a7021cab30df6fd013"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__FAH.csv.gz",
+      "size": 27961,
+      "sha256": "56e65d331efd32054c5aa96f38d26bea00d0aee4531294dd50f03bb58f55cefd"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__FBP1.csv.gz",
+      "size": 28035,
+      "sha256": "ff6a80ac1f6e0b412a1372b33a83fcca9ba925d1d6a5c328274327b64513b532"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__FLT1.csv.gz",
+      "size": 27923,
+      "sha256": "8f0e84df84b7ec86bd8d5940dd7863dc926c24f4837f2fd9a706f5b07665ca65"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__FLT3.csv.gz",
+      "size": 26899,
+      "sha256": "b091e56c873237f83c3f25c082ff458087a937b021256dafeedd79098f2f8851"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__FLT4.csv.gz",
+      "size": 27764,
+      "sha256": "84a3fe07dee9381c7d358bb12821842a042a8575b884c79c4fe2b7e8c5c3cffa"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__GSTA1.csv.gz",
+      "size": 28099,
+      "sha256": "dc4669506d17b8920dae20abda8a5661ace8500f84e0db5924918bb859753168"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__HPD.csv.gz",
+      "size": 27226,
+      "sha256": "6386fe19005d805fce2ba646435014c78b3c992f5d04e82c61e321fdb48e3819"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__JAK1.csv.gz",
+      "size": 27915,
+      "sha256": "46b51a46bac160adcfcb8f52e39f427b5668c1778e99049da0e50fead5c6596b"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__KDR+FLT1+FLT4.csv.gz",
+      "size": 28336,
+      "sha256": "27793f2497d99509843673d39ab19d697ac5067d3df1fc442e4a4596f5c3dd48"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__KDR.csv.gz",
+      "size": 27983,
+      "sha256": "8c54dfbfc0cb5fce7c5f8a4260de656e2ba77756a127b2da78de0d3fc5ff527e"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__LRRK2.csv.gz",
+      "size": 27868,
+      "sha256": "b3eb393294d313de8446c712fb592c5288b1fd869f540e5976fa5d5d1a0cc33b"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__LYN.csv.gz",
+      "size": 27692,
+      "sha256": "22542f8af70cf117cb45488afedcd0616b79940d54bf3a5aa15684b4b1fb944f"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__PCK2.csv.gz",
+      "size": 27984,
+      "sha256": "5fcc5da219efcf98e4cdb5cf77963efcebf1bc96e8b146337a93a16db4146c78"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/parts/Macrophage__20260918__TYK2.csv.gz",
+      "size": 28007,
+      "sha256": "3e6c4c03e26fc6459b7b5f31e01462f21524b327fd3dff3f30be31bf3a001aba"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/stable_top_downstream_genes.csv",
+      "size": 148775,
+      "sha256": "e0e547418baa581de1802fedce6e4283c75974248605111f1bfedb8c8c23cad7"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/virtual_knockout_gene_results.csv.gz",
+      "size": 5561526,
+      "sha256": "781fc26c65443be9fa2a9b966f3b482485c2828510657a3a1f148022adbd6967"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/virtual_knockout_provenance.json",
+      "size": 625,
+      "sha256": "40c3d012ea3bc596ce12fa511943d36baa0551fb577102b4a4a46358e9c19726"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/virtual_knockout_run_manifest.csv",
+      "size": 19008,
+      "sha256": "13e44d9d1eba62d2d13f7e3ecf3b798ff90b0c5297f4e667156a2b037aa2def9"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/virtual_knockout_seed_summary.csv",
+      "size": 22454,
+      "sha256": "52b5217bf88a678b602f139fb2cee2d859e8b7c94697e8cc9bb93b309b926c9e"
+    },
+    {
+      "path": "Source_Data/Virtual_Knockout/virtual_knockout_stability_summary.csv",
+      "size": 8349,
+      "sha256": "a27a200b356206207195690efc19178ec24e4f3cbbe86d30fe681e36fb491b9e"
+    }
+  ]
+}

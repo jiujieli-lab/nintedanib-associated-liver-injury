@@ -1,0 +1,780 @@
+{
+  "training_data_pathways.h5ad": {
+    "ASSAY_ID/categories": {
+      "n": 1,
+      "examples": [
+        "SMARTSeq"
+      ],
+      "nintedanib_hits": []
+    },
+    "BATCH_ID/categories": {
+      "n": 15,
+      "examples": [
+        "PRD0594",
+        "PRD0595",
+        "PRD0604",
+        "PRD0642",
+        "PRD0643",
+        "PRD0651",
+        "PRD0652",
+        "PRD0657"
+      ],
+      "nintedanib_hits": []
+    },
+    "CAS_number/categories": {
+      "n": 226,
+      "examples": [
+        "50-24-8",
+        "50-28-2",
+        "50-33-9",
+        "50-34-0",
+        "50-35-1",
+        "50-55-5",
+        "50-78-2",
+        "51-67-2"
+      ],
+      "nintedanib_hits": []
+    },
+    "CMPD_DOSE/categories": {
+      "n": 990,
+      "examples": [
+        "Abacavir_High",
+        "Abacavir_Low",
+        "Abacavir_Mid-High",
+        "Abacavir_Middle",
+        "Acarbose_High",
+        "Acarbose_Low",
+        "Acarbose_Mid-High",
+        "Acarbose_Middle"
+      ],
+      "nintedanib_hits": []
+    },
+    "CONTAINER_FORMAT/categories": {
+      "n": 1,
+      "examples": [
+        "96W"
+      ],
+      "nintedanib_hits": []
+    },
+    "DILI_label/categories": {
+      "n": 6,
+      "examples": [
+        "DILI (few cases)",
+        "DILI (known)",
+        "DILI (likely)",
+        "DILI (withdrawn)",
+        "No DILI",
+        "No DILI (unlikely)"
+      ],
+      "nintedanib_hits": []
+    },
+    "DILI_label_binary/categories": {
+      "n": 2,
+      "examples": [
+        "DILI",
+        "No DILI"
+      ],
+      "nintedanib_hits": []
+    },
+    "DILI_label_section/categories": {
+      "n": 6,
+      "examples": [
+        "Few cases",
+        "Known",
+        "Likely",
+        "Likely no DILI",
+        "No DILI",
+        "Withdrawn"
+      ],
+      "nintedanib_hits": []
+    },
+    "DILIrank/categories": {
+      "n": 5,
+      "examples": [
+        "",
+        "Ambiguous DILI-concern",
+        "Less-DILI-Concern",
+        "Most-DILI-Concern",
+        "No-DILI-Concern"
+      ],
+      "nintedanib_hits": []
+    },
+    "DILIst/categories": {
+      "n": 1,
+      "examples": [
+        "DILI"
+      ],
+      "nintedanib_hits": []
+    },
+    "EXPT_ID/categories": {
+      "n": 8,
+      "examples": [
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2",
+        "P22S",
+        "RH12S",
+        "RR1"
+      ],
+      "nintedanib_hits": []
+    },
+    "LTKBID/categories": {
+      "n": 241,
+      "examples": [
+        "LT00004",
+        "LT00006",
+        "LT00009",
+        "LT00016",
+        "LT00022",
+        "LT00023",
+        "LT00026",
+        "LT00034"
+      ],
+      "nintedanib_hits": []
+    },
+    "PLATE_NAME/categories": {
+      "n": 52,
+      "examples": [
+        "A2_S1",
+        "A2_S2",
+        "A2_S3",
+        "A2_S4",
+        "A2_S5",
+        "A2_S6",
+        "A2_S7",
+        "A2_S8"
+      ],
+      "nintedanib_hits": []
+    },
+    "SPECIES/categories": {
+      "n": 1,
+      "examples": [
+        "Human"
+      ],
+      "nintedanib_hits": []
+    },
+    "SPLIT/categories": {
+      "n": 1,
+      "examples": [
+        "training"
+      ],
+      "nintedanib_hits": []
+    },
+    "compound_name/categories": {
+      "n": 249,
+      "examples": [
+        "Abacavir",
+        "Acarbose",
+        "Acebutolol",
+        "Aceclofenac",
+        "Acetaminophen",
+        "Alaproclate",
+        "Albendazole",
+        "Alfuzosin"
+      ],
+      "nintedanib_hits": []
+    },
+    "dose_level/categories": {
+      "n": 4,
+      "examples": [
+        "Low",
+        "Middle",
+        "Mid-High",
+        "High"
+      ],
+      "nintedanib_hits": []
+    },
+    "indication_class/categories": {
+      "n": 93,
+      "examples": [
+        "Adrenergic (vasoconstrictor),Decongestant,Nasal Decongestant",
+        "Alcohol Deterrent",
+        "Amyotrophic Lateral Sclerosis Treatment",
+        "Analgesic",
+        "Analgesic; Anti-Inflammatory",
+        "Analgesic; Anticonvulsant",
+        "Analgesic; Antipyretic",
+        "Analgesic; Antirheumatic; Antipyretic"
+      ],
+      "nintedanib_hits": []
+    },
+    "information/categories": {
+      "n": 225,
+      "examples": [
+        "Abacavir (1592U89, ABC) is a powerful nucleoside analog reverse transcriptase inhibitor (NRTI) used to treat HIV and AIDS.",
+        "Acarbose(BAY g 5421,Prandase, Precose, Glucobay, Bay-g 5421) is an inhibitor of intestinal alpha-glucosidase, used to treat type 2 diabetes mellitus.",
+        "Acebutolol is a \u03b2-adrenergic receptors antagonist used in the treatment of hypertension, angina pectoris and cardiac arrhythmias.",
+        "Aceclofenac (Preservex, Airtal) is a non-steroidal anti-inflammatory drug (NSAID) with anti-inflammatory and analgesic properties.",
+        "Albendazole (SKF-62979) is a member of the benzimidazole compounds used as a drug indicated for the treatment of a variety of worm infestations.",
+        "Alfuzosin HCI(SL 77499 HCl)  is an alpha1 receptor antagonist used to treat benign prostatic hyperplasia (BPH).",
+        "Allopurinol is a purine analog inhibitor of the enzyme xanthine oxidase, used to treat gout or kidney stones, and to decrease levels of uric acid.",
+        "Alvimopan (LY-246736) is a potent, relatively nonselective opioid antagonist with Ki values of 0.77, 4.4, and 40 nM for the \u03bc, \u03b4, and \u03ba opioid receptors, respectively, displaying >100-fold selectivity over other aminergic G-protein-coupled receptors."
+      ],
+      "nintedanib_hits": []
+    },
+    "label_section/categories": {
+      "n": 6,
+      "examples": [
+        "Adverse reactions",
+        "Box warning",
+        "Discontinued",
+        "No match",
+        "Warnings and precautions",
+        "Withdrawn"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_iDILI/categories": {
+      "n": 3,
+      "examples": [
+        "idiosyncratic",
+        "idiosyncratic cases",
+        "likely idiosyncratic"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_mechanism_summary/categories": {
+      "n": 95,
+      "examples": [
+        "CYP",
+        "CYP, Cholestasis/Biliary, Cirrhosis",
+        "CYP, Cholestasis/Biliary, Hypersensitivity",
+        "CYP, Cholestasis/Biliary, Immune-mediated, Hypersensitivity",
+        "CYP, Cholestasis/Biliary, Immune-mediated, Hypersensitivity Syndrome",
+        "CYP, Cholestasis/Biliary, Immune-mediated, Hypersensitivity, idiosyncratic",
+        "CYP, Cholestasis/Biliary, Immune-mediated, Hypersensitivity, likely idiosyncratic",
+        "CYP, Cholestasis/Biliary, Steatosis, Hypersensitivity"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_primary_classification/categories": {
+      "n": 16,
+      "examples": [
+        "Analgesic",
+        "Antimicrobial",
+        "Antineoplastic",
+        "CNS",
+        "Cardiovascular",
+        "Endocrine",
+        "Gastrointestinal",
+        "Genetic"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_score/categories": {
+      "n": 8,
+      "examples": [
+        "",
+        "A",
+        "A [HD]",
+        "B",
+        "C",
+        "D",
+        "E",
+        "E*"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_secondary_classification/categories": {
+      "n": 68,
+      "examples": [
+        "ALS",
+        "Abortion",
+        "Acid peptic disease",
+        "Alcohol abuse",
+        "Allergy symptoms",
+        "Alzheimer disease",
+        "Anesthesia induction",
+        "Angina"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_updated/categories": {
+      "n": 107,
+      "examples": [
+        "2016 Jan 4",
+        "2016 Jan 28",
+        "2016 Jul 1",
+        "2016 Mar 1",
+        "2016 Sep 15",
+        "2017 Aug 2",
+        "2017 Aug 10",
+        "2017 Aug 21"
+      ],
+      "nintedanib_hits": []
+    },
+    "molecule_chembl_id/categories": {
+      "n": 245,
+      "examples": [
+        "CHEMBL4",
+        "CHEMBL6",
+        "CHEMBL8",
+        "CHEMBL11",
+        "CHEMBL13",
+        "CHEMBL19",
+        "CHEMBL22",
+        "CHEMBL24"
+      ],
+      "nintedanib_hits": []
+    },
+    "pathway/categories": {
+      "n": 19,
+      "examples": [
+        "Angiogenesis",
+        "Autophagy",
+        "Cell Cycle",
+        "Cytoskeletal Signaling",
+        "DNA Damage/DNA Repair",
+        "Endocrinology & Hormones",
+        "Epigenetics",
+        "GPCR & G Protein"
+      ],
+      "nintedanib_hits": []
+    },
+    "roa/categories": {
+      "n": 3,
+      "examples": [
+        "Intravenous",
+        "Oral",
+        "oral"
+      ],
+      "nintedanib_hits": []
+    },
+    "smiles/categories": {
+      "n": 244,
+      "examples": [
+        "C#CCN(C)[C@H](C)Cc1ccccc1",
+        "C#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21CC",
+        "C#C[C@]1(O)CC[C@H]2[C@@H]3CCC4=Cc5oncc5C[C@]4(C)[C@H]3CC[C@@]21C",
+        "C#C[C@]1(OC(C)=O)CC[C@H]2[C@@H]3CCC4=CC(=O)CC[C@@H]4[C@H]3CC[C@@]21C",
+        "C=C(c1ccc(C(=O)O)cc1)c1cc2c(cc1C)C(C)(C)CCC2(C)C",
+        "C=CC1=C(C(=O)O)N2C(=O)[C@@H](NC(=O)/C(=N\\O)c3csc(N)n3)[C@H]2SC1",
+        "C=CCN1C[C@H](C(=O)N(CCCN(C)C)C(=O)NCC)C[C@@H]2c3cccc4[nH]cc(c34)C[C@H]21",
+        "C=C[C@@H]1C[C@]1(NC(=O)[C@@H]1C[C@@H](Oc2ncc(OC)c3ccc(Cl)cc23)CN1C(=O)[C@@H](NC(=O)OC(C)(C)C)C(C)(C)C)C(=O)NS(=O)(=O)C1CC1"
+      ],
+      "nintedanib_hits": []
+    },
+    "source/categories": {
+      "n": 4,
+      "examples": [
+        "DILIrank",
+        "Greene",
+        "LiverTox",
+        "Suzuki"
+      ],
+      "nintedanib_hits": []
+    },
+    "synonyms/categories": {
+      "n": 245,
+      "examples": [
+        "Abacavir succinate (USAN); Abacavir sulfate (FDA, JAN, MI, USAN, USP); Abacavir sulfate racemic (USP); Abacavir (BAN, INN, MI); ",
+        "Acarbose (BAN, FDA, INN, JAN, MI, USAN, USP); ",
+        "Acebutolol hydrochloride (FDA, JAN, USP); Acebutolol (BAN, INN, MI, USAN); ",
+        "Aceclofenac (BAN, INN, JAN, MI); ",
+        "Acetaminophen (FDA, JAN, MI, USP); Paracetamol (BAN, DCF, INN); ",
+        "Alaproclate (INN, USAN); ",
+        "Albendazole (BAN, FDA, INN, JAN, MI, USAN, USP); ",
+        "Albuterol sulfate (FDA, MI, USAN, USP); Salbutamol sulfate (JAN); Albuterol (FDA, MI, USAN, USP); Salbutamol (BAN, DCF, INN); "
+      ],
+      "nintedanib_hits": []
+    },
+    "target/categories": {
+      "n": 122,
+      "examples": [
+        "5-HT Receptor",
+        "5-HT Receptor,Adrenergic Receptor,Dopamine Receptor,STAT",
+        "5-HT Receptor,Dopamine Receptor",
+        "5-HT Receptor,Serotonin Transporter",
+        "5-HT Receptor,Sodium Channel",
+        "5-alpha Reductase",
+        "ACE,RAAS",
+        "AChR"
+      ],
+      "nintedanib_hits": []
+    },
+    "withdrawn_reason/categories": {
+      "n": 15,
+      "examples": [
+        "Adverse hepatic events",
+        "Bone marrow depression (anemia, thrombocytopenia, and granulocytopenia temporally associated with treatment). Bone marrow toxicities may present as either reversible bone marrow depression, which was dose-related and responsive to drug withdrawal, or as aplastic anemia, which was not dose-related, irreversible, and associated with a high mortality",
+        "Cardiac arrythmias",
+        "Cardiovascular risk, (heart attack or stroke)",
+        "Dermatologic, Hematologic and Hepatic Reactions",
+        "Hepatotoxicity",
+        "Hepatotoxicity; Jaundice",
+        "High incidence of adverse drug reactions (ADRs) at therapeutic levels"
+      ],
+      "nintedanib_hits": []
+    }
+  },
+  "validation_data_pathways.h5ad": {
+    "ASSAY_ID/categories": {
+      "n": 1,
+      "examples": [
+        "SMARTSeq"
+      ],
+      "nintedanib_hits": []
+    },
+    "BATCH_ID/categories": {
+      "n": 4,
+      "examples": [
+        "PRD0635",
+        "PRD0636",
+        "PRD0755",
+        "PRD0817"
+      ],
+      "nintedanib_hits": []
+    },
+    "CAS_number/categories": {
+      "n": 47,
+      "examples": [
+        "50-44-2",
+        "51-12-7",
+        "61-68-7",
+        "69-09-0",
+        "72-14-0",
+        "80-77-3",
+        "120-97-8",
+        "148-79-8"
+      ],
+      "nintedanib_hits": []
+    },
+    "CONTAINER_FORMAT/categories": {
+      "n": 1,
+      "examples": [
+        "96W"
+      ],
+      "nintedanib_hits": []
+    },
+    "DILI_label/categories": {
+      "n": 5,
+      "examples": [
+        "DILI (few cases)",
+        "DILI (known)",
+        "DILI (likely)",
+        "DILI (withdrawn)",
+        "No DILI"
+      ],
+      "nintedanib_hits": []
+    },
+    "DILI_label_binary/categories": {
+      "n": 2,
+      "examples": [
+        "DILI",
+        "No DILI"
+      ],
+      "nintedanib_hits": []
+    },
+    "DILI_label_section/categories": {
+      "n": 5,
+      "examples": [
+        "Few cases",
+        "Known",
+        "Likely",
+        "No DILI",
+        "Withdrawn"
+      ],
+      "nintedanib_hits": []
+    },
+    "DILIrank/categories": {
+      "n": 4,
+      "examples": [
+        "",
+        "Less-DILI-Concern",
+        "Most-DILI-Concern",
+        "No-DILI-Concern"
+      ],
+      "nintedanib_hits": []
+    },
+    "LTKBID/categories": {
+      "n": 40,
+      "examples": [
+        "LT00003",
+        "LT00020",
+        "LT00032",
+        "LT00068",
+        "LT00097",
+        "LT00099",
+        "LT00116",
+        "LT00147"
+      ],
+      "nintedanib_hits": []
+    },
+    "PLATE_NAME/categories": {
+      "n": 10,
+      "examples": [
+        "A1_M2_S3",
+        "A1_M2_S4",
+        "A1_M3_S5",
+        "A1_M3_S6",
+        "A1_M4_S7",
+        "A1_M4_S8",
+        "A1_S1",
+        "A1_S2"
+      ],
+      "nintedanib_hits": []
+    },
+    "SPECIES/categories": {
+      "n": 1,
+      "examples": [
+        "Human"
+      ],
+      "nintedanib_hits": []
+    },
+    "SPLIT/categories": {
+      "n": 1,
+      "examples": [
+        "validation"
+      ],
+      "nintedanib_hits": []
+    },
+    "batch/categories": {
+      "n": 2,
+      "examples": [
+        "0",
+        "1"
+      ],
+      "nintedanib_hits": []
+    },
+    "compound_name/categories": {
+      "n": 51,
+      "examples": [
+        "AKN-028",
+        "Almotriptan",
+        "Atomoxetine",
+        "BMS-986142",
+        "Bethanechol",
+        "Bisacodyl",
+        "Bromfenac",
+        "Brompheniramine"
+      ],
+      "nintedanib_hits": []
+    },
+    "dose_level/categories": {
+      "n": 4,
+      "examples": [
+        "Low",
+        "Middle",
+        "Mid-High",
+        "High"
+      ],
+      "nintedanib_hits": []
+    },
+    "indication_class/categories": {
+      "n": 24,
+      "examples": [
+        "Analgesic",
+        "Analgesic; Anti-Inflammatory,Anti-Inflammatory; Analgesic",
+        "Anthelmintic",
+        "Anti-Epileptic",
+        "Anti-Inflammatory",
+        "Anti-Inflammatory; Analgesic",
+        "Antibacterial",
+        "Anticonvulsant"
+      ],
+      "nintedanib_hits": []
+    },
+    "information/categories": {
+      "n": 47,
+      "examples": [
+        "Almotriptan Malate (LAS 31416) is a selective 5-hydroxytryptamine1B/1D (5-HT1B/1D) receptor agonist, used for the treatment of Migraine attacks in adults.",
+        "Atomoxetine (LY 139603) is a selective norepinephrine (NE) transporter inhibitor with Ki of 5 nM, with 15- and 290-fold lower affinity for human 5-HT and DA transporters.",
+        "Bethanechol chloride(Myocholine,Urecholine) is a selective muscarinic receptor agonist without any effect on nicotinic receptors.",
+        "Bisacodyl (INN) is a stimulant laxative drug that works directly on the colon to produce a bowel movement.",
+        "Bromfenac Sodium (AHR 10282R,Bromsite,Bromday,Prolensa,Xibrom) is a nonsteroidal anti-inflammatory drug (NSAID), which has anti-inflammatory activity and may block prostaglandin synthesis by inhibiting cyclooxygenase 1 and 2.",
+        "Brompheniramine hydrogen maleate(Brompheniramine maleate) is a histamine H1 receptors antagonist.",
+        "Chlormezanone\uff0ca non-benzodiazepine that is used in the management of anxiety. It has been suggested for use in the treatment of muscle spasm.",
+        "Chlorpromazine HCl (Sonazine) is a dopamine and potassium channel inhibitor with IC50 of 6.1 and 16 \u03bcM for inward-rectifying K+ currents and time-independent outward currents."
+      ],
+      "nintedanib_hits": []
+    },
+    "label_section/categories": {
+      "n": 5,
+      "examples": [
+        "Adverse reactions",
+        "Box warning",
+        "No match",
+        "Warnings and precautions",
+        "Withdrawn"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_iDILI/categories": {
+      "n": 2,
+      "examples": [
+        "idiosyncratic cases",
+        "likely idiosyncratic"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_mechanism_summary/categories": {
+      "n": 23,
+      "examples": [
+        "CYP, Cholestasis/Biliary, Immune-mediated, Hypersensitivity Syndrome",
+        "CYP, Hypersensitivity",
+        "CYP, Immune-mediated, Hypersensitivity",
+        "Cholestasis/Biliary, Immune-mediated, Hypersensitivity",
+        "Cholestasis/Biliary, Immune-mediated, Hypersensitivity, likely idiosyncratic",
+        "Cholestasis/Biliary, Steatosis, Immune-mediated, Hypersensitivity",
+        "Cirrhosis (manual annotation)",
+        "Hepatitis, CYP, Cholestasis/Biliary, Cirrhosis, Encephalopathy, Immune-mediated, Hypersensitivity"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_primary_classification/categories": {
+      "n": 9,
+      "examples": [
+        "Analgesic",
+        "Antimicrobial",
+        "Antineoplastic",
+        "CNS",
+        "Cardiovascular",
+        "Gastrointestinal",
+        "Respiratory",
+        "Rheumatologic"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_score/categories": {
+      "n": 7,
+      "examples": [
+        "",
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "E*"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_secondary_classification/categories": {
+      "n": 22,
+      "examples": [
+        "ADHD",
+        "Allergy symptoms",
+        "Anticonvulsant",
+        "Antidepressant",
+        "Antifungal",
+        "Antihelmintic",
+        "Antipsychotic",
+        "Antiviral: HIV"
+      ],
+      "nintedanib_hits": []
+    },
+    "livertox_updated/categories": {
+      "n": 22,
+      "examples": [
+        "2017 Aug 17",
+        "2017 Dec 26",
+        "2017 Jan 24",
+        "2017 Jan 30",
+        "2017 May 21",
+        "2017 Oct 5",
+        "2017 Sep 25",
+        "2017 Sep 29"
+      ],
+      "nintedanib_hits": []
+    },
+    "molecule_chembl_id/categories": {
+      "n": 40,
+      "examples": [
+        "CHEMBL16",
+        "CHEMBL17",
+        "CHEMBL57",
+        "CHEMBL71",
+        "CHEMBL93",
+        "CHEMBL106",
+        "CHEMBL421",
+        "CHEMBL437"
+      ],
+      "nintedanib_hits": []
+    },
+    "pathway/categories": {
+      "n": 12,
+      "examples": [
+        "Angiogenesis",
+        "DNA Damage/DNA Repair",
+        "GPCR & G Protein",
+        "Immunology & Inflammation",
+        "JAK/STAT",
+        "Metabolism",
+        "Microbiology",
+        "Neuronal Signaling"
+      ],
+      "nintedanib_hits": []
+    },
+    "roa/categories": {
+      "n": 1,
+      "examples": [
+        "Oral"
+      ],
+      "nintedanib_hits": []
+    },
+    "smiles/categories": {
+      "n": 40,
+      "examples": [
+        "CC(=O)Oc1cc(C(C)C)c(OCCN(C)C)cc1C",
+        "CC(=O)Oc1ccc(C(c2ccc(OC(C)=O)cc2)c2ccccn2)cc1",
+        "CC(C(=O)O)c1cccc(Oc2ccccc2)c1",
+        "CC(C)CN(C[C@@H](O)[C@H](Cc1ccccc1)NC(=O)O[C@H]1CO[C@H]2OCC[C@H]21)S(=O)(=O)c1ccc(N)cc1",
+        "CC(COc1ccccc1)NC(C)C(O)c1ccc(O)cc1",
+        "CC(C[N+](C)(C)C)OC(N)=O",
+        "CC(c1cc2ccccc2s1)N(O)C(N)=O",
+        "CCCCC(F)(F)[C@@]1(O)CC[C@H]2[C@@H](CC(=O)[C@@H]2CCCCCCC(=O)O)O1"
+      ],
+      "nintedanib_hits": []
+    },
+    "source/categories": {
+      "n": 1,
+      "examples": [
+        "DILIrank"
+      ],
+      "nintedanib_hits": []
+    },
+    "synonyms/categories": {
+      "n": 40,
+      "examples": [
+        "6-mercaptopurine (MI); 6-mercaptopurine monohydrate (MI); Mercaptopurine (BAN, FDA, INN, JAN, USP, BAN, INN, JAN, USP); Mercaptopurine hydrate (JAN); ",
+        "Almotriptan (BAN, INN, MI, USAN); Almotriptan malate (FDA, USAN, USP); Almotriptan maleate (MI); ",
+        "Atomoxetine hydrochloride (FDA, JAN, MI, USAN, USP); Tomoxetine (INN); Atomoxetine (BAN, INN, MI); ",
+        "Bethanechol chloride (BAN, FDA, JAN, MI, USP); ",
+        "Bisacodyl (BAN, FDA, INN, JAN, MI, USP); ",
+        "Bromfenac (INN, MI); Bromfenac monosodium salt (MI); Bromfenac monosodium salt sesquihydrate (MI); Bromfenac sodium (FDA, USAN); Bromfenac sodium hydrate (JAN); ",
+        "Brompheniramine (BAN, INN, MI); Brompheniramine maleate (FDA, MI, USP); ",
+        "Chlormezanone (BAN, FDA, INN, JAN, MI); "
+      ],
+      "nintedanib_hits": []
+    },
+    "target/categories": {
+      "n": 33,
+      "examples": [
+        "5-HT Receptor",
+        "AChR",
+        "Adrenergic Receptor",
+        "Anti-infection",
+        "Apoptosis related,Autophagy,COX,Ferroptosis,Immunology & Inflammation related,NF-\u03baB,TGF-beta/Smad",
+        "Apoptosis related,Autophagy,JAK,Mitophagy",
+        "Apoptosis related,Ferroptosis,Lipoxygenase",
+        "Apoptosis related,JAK"
+      ],
+      "nintedanib_hits": []
+    },
+    "withdrawn_reason/categories": {
+      "n": 8,
+      "examples": [
+        "Hepatotoxicity",
+        "Hepatotoxicity; Drug Interaction",
+        "Hepatotoxicity; Steven-Johnson Syndrome; Toxic Epidermal Necrolysis",
+        "Hepatoxicity",
+        "Liver injury",
+        "Severe hepatitis and liver failure (some requiring transplantation); Hepatic Failure; Off-Label Abuse",
+        "associated with severe allergic responses, including anaphylactoid reactions; reports of anaphylactic shock",
+        "renal complications, rash, fever, blood dyscrasias, and liver damage"
+      ],
+      "nintedanib_hits": []
+    }
+  }
+}

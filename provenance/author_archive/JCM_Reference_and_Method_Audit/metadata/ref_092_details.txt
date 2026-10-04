@@ -1,0 +1,122 @@
+{
+  "accession" : "PXD052594",
+  "title" : "Radioproteomics stratifies molecular response to antifibrotic treatment in pulmonary fibrosis",
+  "additionalAttributes" : [ ],
+  "projectDescription" : "Antifibrotic therapy with nintedanib is the clinical mainstay in the treatment of progressive fibrosing interstitial lung disease (ILD). High-dimensional medical image analysis, known as radiomics, provides quantitative insights into organ-scale pathophysiology, generating digital disease fingerprints. Here, we used an integrative analysis of radiomic and proteomic profiles (radioproteomics) to assess whether changes in radiomic signatures can stratify the degree of antifibrotic response to nintedanib in (experimental) fibrosing ILD. Unsupervised clustering of delta radiomic profiles revealed two distinct imaging phenotypes in mice treated with nintedanib, contrary to conventional densitometry readouts, which showed a more uniform response. Integrative analysis of delta radiomics and proteomics demonstrated that these phenotypes reflected different treatment response states, as further evidenced on transcriptional and cellular levels. Importantly, radioproteomics signatures paralleled disease- and drug related biological pathway activity with high specificity, including extracellular matrix (ECM) remodeling, cell cycle activity, wound healing, and metabolic activity. Evaluation of the preclinical molecular response-defining features, particularly those linked to ECM remodeling, in a cohort of nintedanib-treated fibrosing ILD patients, accurately stratified patients based on their extent of lung function decline. In conclusion, delta radiomics has great potential to serve as a non-invasive and readily accessible surrogate of molecular response phenotypes in fibrosing ILD. This could pave the way for personalized treatment strategies and improved patient outcomes.   References:  Hallal, Mahmoud, Sophie Braga-Lagache, Jovana Jankovic, Cedric Simillion, Rémy Bruggmann, Anne-Christine Uldry, Ramanjaneyulu Allam, Manfred Heller, and Nicolas Bonadies. 2021. “Inference of Kinase-Signaling Networks in Human Myeloid Cell Line Models by Phosphoproteomics Using Kinase Activity Enrichment Analysis (KAEA).” BMC Cancer 21 (1): 789.",
+  "sampleProcessingProtocol" : "Proteomics For comparative proteomics, the middle lobe of the right mouse lung was snap frozen in liquid nitrogen and stored at -80°C until processing. Sample workup and data collection was performed by trained personnel at the Proteomics and Mass Spectrometry Core Facility (PMSCF) at the University of Bern using standard established protocols. All vehicle- (n=14) and nintedanib-treated (n=10) samples were analyzed. One vehicle sample was excluded from analysis due sample workup issues. Tissue homogenization was performed in 8M urea / 100 mM Tris (pH 8.0) buffer supplemented with cOmplete protease inhibitor cocktail (Roche Diagnostics, Mannheim, Germany) using the FastPrep system (MP Biomedicals). Following reduction, alkylation, and overnight protein precipitation with ice-cold acetone, 10 µg of the cleaned protein mixture was digested into peptides using a two-step digestion protocol (LysC for 2 h at 37 °C followed by Trypsin at room temperature overnight). Digests were analyzed by nano-liquid chromatography on a Dionex Ultimate 3000 (ThermoFisher Scientific, Reinach, Switzerland) through a CaptiveSpray source (Bruker, Bremen, Germany) with an end-plate offset of 500 V, a drying temperature of 200 °C, and with the capillary voltage fixed at 1.6 kV. A volume of 2 µL (200 ng) protein digest was loaded onto a pre-column (PepMap 100 C18, 5 µm, 100 A, 300 µm diameter x 5 mm length, ThermoFisher) at a flow rate of 10 µL/min with 0.05% trifluoroacetic acid in water / acetonitrile 98:2. After loading, peptides were eluted in back flush mode onto a in-house made C18 CSH Waters column (1.7z µm, 130 Å, 75 µm x 20 cm) by applying a 90-minute gradient of 5% acetonitrile to 40% in water / 0.1% formic acid, at a flow rate of 250 nL/min. The timsTOF Pro instrument (Bruker, Bremen, Germany) was operated either in data-dependent acquisition (DDA) or data-independent (DIA) mode using the Parallel Acquisition Serial Fragmentation (PASEF) option. The mass range was set between 100 and 1700 m/z, with 10 PASEF scans between 0.7 and 1.4 V s/cm2. The accumulation time was set to 2 ms, and the ramp time was set to 100 ms, respectively. Fragmentation was triggered at 20’000 arbitrary units, and peptides (up to charge of 5) were fragmented using collision induced dissociation with a spread between 20 and 59 eV.  Phosphoproteomics For phosphoproteomics, the middle lobe of the right mouse lung was snap frozen in liquid nitrogen after collection and stored at -80°C until processing. Sample workup and data pre-processing was performed by trained personnel at the Proteomics and Mass Spectrometry Core Facility (PMSCF) at the University of Bern using standard established protocols. Randomly selected subsets of vehicle- (n=5) and nintedanib-treated (n=5) were analyzed. A titanium dioxide phosphopeptide enrichment workflow (Hallal et al. 2021) with subsequent DDA liquid chromatography tandem mass spectrometry (LC-MS) analysis on the same instrument and parameter settings as described above was applied.",
+  "dataProcessingProtocol" : "Proteomics DDA data was processed further with FragPipe software (v.17.0) using the IonQuant algorithm and filtering protein identifications to a 1% false discovery rate (FDR) on the peptide level using the Percolator algorithm. Furthermore, protein groups were filtered by the criterion that at least two different razor peptide sequences were identified as evidence for the existence of the protein group. From the DDA data, a spectral library was built with the FragPipe software. This library was used to identify and quantify proteins with the DIA data using standard parameters in Spectronaut 16 software (Biognosys, Schlieren, Switzerland). Protein names (Uniprot IDs) were converted to Entrez IDs and Gene Symbols using “uniprot.ws” and “annotationDbi” R packages. Protein names without matching Entrez Gene ID were dropped, resulting in a final set of 7’006 proteins.  Phosphoproteomics Samples were searched and quantified with FragPipe (Yu et al. 2020) (v.18.0, MSFragger version 3.5, Philosopher version 4.4.0, IonQuant version 1.8.0) using the following parameters: swissprot (UniProt Consortium 2019) Mus musculus database (release 2022_01) with isoforms and common contaminants; 20 ppm and 0.05 Da mass tolerance for precursors and fragment, respectively; search enzyme trypsin with max 3 allowed missed cleavages; fix modification: carbamidomethylation of cysteine; variable modifications (altogether max 4/peptide): methionine oxidation of methionine (max 3/peptide), phosphorylation of serine, threonine and tyrosine (max 3/peptide) and protein N-terminal acetylation. Peptide forms normalized with the variance stabilization (Huber et al. 2002) normalization method are reported as NormI, along FragPipe’s MaxLFQ and IonQuant’s FragI abundance measures. The intensities of peptide forms were combined as protein phosphosite locations by summing the corresponding contributions.  References  Hallal, Mahmoud, Sophie Braga-Lagache, Jovana Jankovic, Cedric Simillion, Rémy Bruggmann, Anne-Christine Uldry, Ramanjaneyulu Allam, Manfred Heller, and Nicolas Bonadies. 2021. “Inference of Kinase-Signaling Networks in Human Myeloid Cell Line Models by Phosphoproteomics Using Kinase Activity Enrichment Analysis (KAEA).” BMC Cancer 21 (1): 789. Huber, Wolfgang, Anja von Heydebreck, Holger Sültmann, Annemarie Poustka, and Martin Vingron. 2002. “Variance Stabilization Applied to Microarray Data Calibration and to the Quantification of Differential Expression.” Bioinformatics  18 Suppl 1: S96-104. UniProt Consortium. 2019. “UniProt: A Worldwide Hub of Protein Knowledge.” Nucleic Acids Research 47 (D1): D506–15. Yu, Fengchao, Sarah E. Haynes, Guo Ci Teo, Dmitry M. Avtonomov, Daniel A. Polasky, and Alexey I. Nesvizhskii. 2020. “Fast Quantitative Analysis of TimsTOF PASEF Data with MSFragger and IonQuant.” Molecular & Cellular Proteomics: MCP 19 (9): 1575–85.",
+  "projectTags" : [ ],
+  "keywords" : [ "Interstitial lung disease", "Radiomics", "Proteomics", "Multiomics", "Imaging", "Lung fibrosis", "Nintedanib" ],
+  "doi" : "",
+  "submissionType" : "PARTIAL",
+  "license" : "Creative Commons Public Domain (CC0)",
+  "submissionDate" : "2024-05-27",
+  "publicationDate" : "2024-10-17",
+  "submitters" : [ {
+    "title" : "Professor",
+    "firstName" : "Manfred",
+    "lastName" : "Heller",
+    "identifier" : "2735972",
+    "affiliation" : "Proteomics and Mass Spectrometry Core Facility,\nDepartement for Biomedical Research,\nUniversity of Berne",
+    "email" : "pmscf.dbmr@unibe.ch",
+    "country" : "Switzerland",
+    "orcid" : "",
+    "name" : "Manfred Heller",
+    "id" : "2735972"
+  } ],
+  "labPIs" : [ {
+    "title" : "Dr",
+    "firstName" : "Janine",
+    "lastName" : "Gote-Schniering",
+    "identifier" : "2913150",
+    "affiliation" : "University of Bern, Department of BioMedical Research (DBMR), Lung Precision Medicine (LPM) Program",
+    "email" : "janine.gote-schniering@unibe.ch",
+    "country" : "",
+    "orcid" : "",
+    "name" : "Janine Gote-Schniering",
+    "id" : "2913150"
+  } ],
+  "instruments" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "MS",
+    "accession" : "MS:1003123",
+    "name" : "Bruker Daltonics timsTOF series"
+  } ],
+  "softwares" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "MS",
+    "accession" : "MS:1001327",
+    "name" : "Spectronaut"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "MS",
+    "accession" : "MS:1003429",
+    "name" : "FragPipe"
+  } ],
+  "experimentTypes" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000627",
+    "name" : "Data-dependent acquisition"
+  }, {
+    "@type" : "CvParam",
+    "cvLabel" : "PRIDE",
+    "accession" : "PRIDE:0000650",
+    "name" : "diaPASEF"
+  } ],
+  "quantificationMethods" : [ ],
+  "countries" : [ "Switzerland" ],
+  "sampleAttributes" : [ {
+    "@type" : "Tuple",
+    "key" : {
+      "cvLabel" : "EFO",
+      "accession" : "EFO:0000635",
+      "name" : "organism part"
+    },
+    "value" : [ {
+      "cvLabel" : "BTO",
+      "accession" : "BTO:0000763",
+      "name" : "lung"
+    } ]
+  }, {
+    "@type" : "Tuple",
+    "key" : {
+      "cvLabel" : "EFO",
+      "accession" : "OBI:0100026",
+      "name" : "organism"
+    },
+    "value" : [ {
+      "cvLabel" : "NEWT",
+      "accession" : "NEWT:10090",
+      "name" : "Mus musculus (Mouse)"
+    } ]
+  } ],
+  "organisms" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "NEWT",
+    "accession" : "NEWT:10090",
+    "name" : "Mus musculus (mouse)"
+  } ],
+  "organismParts" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "BTO",
+    "accession" : "BTO:0000763",
+    "name" : "Lung"
+  } ],
+  "diseases" : [ ],
+  "references" : [ {
+    "referenceLine" : "Lauer D, Magnin CY, Kolly LR, Wang H, Brunner M, Chabria M, Cereghetti GM, Gabryś HS, Tanadini-Lang S, Uldry AC, Heller M, Verleden SE, Klein K, Sarbu AC, Funke-Chambour M, Ebner L, Distler O, Maurer B, Gote-Schniering J. Radioproteomics stratifies molecular response to antifibrotic treatment in pulmonary fibrosis. JCI Insight. 2024 9(15):e181757",
+    "pubmedID" : 39012714,
+    "doi" : "10.1172/jci.insight.181757"
+  } ],
+  "identifiedPTMStrings" : [ {
+    "@type" : "CvParam",
+    "cvLabel" : "MOD",
+    "accession" : "MOD:00696",
+    "name" : "phosphorylated residue"
+  } ],
+  "totalFileDownloads" : 1786,
+  "botCount" : 358,
+  "hubCount" : 1420,
+  "organicCount" : 8
+}

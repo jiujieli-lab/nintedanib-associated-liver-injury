@@ -1,0 +1,225 @@
+{
+  "source": "deliverables/Supplementary_Materials/Additional_file_1_Supplementary_Information.pdf",
+  "output": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/Additional_file_1_Reference_Corrected.pdf",
+  "map": {
+    "54": 55,
+    "55": 58,
+    "56": 59,
+    "57": 60,
+    "58": 61
+  },
+  "pages": 96,
+  "changed_pages": [
+    21,
+    31,
+    32,
+    35,
+    54,
+    95,
+    96
+  ],
+  "patch_count": 11,
+  "patches": [
+    {
+      "page": 21,
+      "old": "54",
+      "new": "55",
+      "context": "We queried the STRING human API [54] for the 25 seed candidates both as a compact candidate ",
+      "rect": [
+        256.6000061035156,
+        492.5080261230469,
+        268.6000061035156,
+        505.7920227050781
+      ],
+      "origin": [
+        256.6000061035156,
+        503.20001220703125
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    },
+    {
+      "page": 31,
+      "old": "56",
+      "new": "59",
+      "context": "Three additional datasets supplied descriptive context only. GSE120804 [56] contained 48 RNA-",
+      "rect": [
+        425.4160461425781,
+        354.5080261230469,
+        437.4160461425781,
+        367.7920227050781
+      ],
+      "origin": [
+        425.4160461425781,
+        365.20001220703125
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    },
+    {
+      "page": 31,
+      "old": "57",
+      "new": "60",
+      "context": "context, not DILI, hepatotoxicity, or hepatic protection. GSE120679 [57] contained 36 source-",
+      "rect": [
+        407.15203857421875,
+        602.907958984375,
+        419.15203857421875,
+        616.1919555664062
+      ],
+      "origin": [
+        407.15203857421875,
+        613.5999755859375
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    },
+    {
+      "page": 32,
+      "old": "58",
+      "new": "61",
+      "context": "PXD024058 [58] supplied a source all.protein.xls matrix containing 5,951 gene-labelled mouse-",
+      "rect": [
+        139.08401489257812,
+        182.90797424316406,
+        151.08401489257812,
+        196.1919708251953
+      ],
+      "origin": [
+        139.08401489257812,
+        193.5999755859375
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    },
+    {
+      "page": 35,
+      "old": "55",
+      "new": "58",
+      "context": "[55] randomized male C57BL/6J mice with established DEN/CCl4-induced chronic liver disease ",
+      "rect": [
+        76.04800415039062,
+        658.1079711914062,
+        88.04800415039062,
+        671.3919677734375
+      ],
+      "origin": [
+        76.04800415039062,
+        668.7999877929688
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    },
+    {
+      "page": 54,
+      "old": "55",
+      "new": "58",
+      "context": "tumor liver from the public GSE125975 experiment [55]. The independent liver transcriptome ",
+      "rect": [
+        328.1920471191406,
+        602.907958984375,
+        340.1920471191406,
+        616.1919555664062
+      ],
+      "origin": [
+        328.1920471191406,
+        613.5999755859375
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    },
+    {
+      "page": 95,
+      "old": "54",
+      "new": "55",
+      "context": "54. Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, et al. The STRING ",
+      "rect": [
+        72.0999984741211,
+        376.1080017089844,
+        84.0999984741211,
+        389.3919982910156
+      ],
+      "origin": [
+        72.0999984741211,
+        386.79998779296875
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    },
+    {
+      "page": 95,
+      "old": "55",
+      "new": "58",
+      "context": "55. Moeini A, Torrecilla S, Tovar V, Montironi C, Andreu-Oller C, Peix J, et al. An Immune ",
+      "rect": [
+        72.0999984741211,
+        486.5080261230469,
+        84.0999984741211,
+        499.7920227050781
+      ],
+      "origin": [
+        72.0999984741211,
+        497.20001220703125
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    },
+    {
+      "page": 95,
+      "old": "56",
+      "new": "59",
+      "context": "56. Huang X, Cai H, Ammar R, Zhang Y, Wang Y, Ravi K, et al. Molecular characterization of a ",
+      "rect": [
+        72.0999984741211,
+        596.907958984375,
+        84.0999984741211,
+        610.1919555664062
+      ],
+      "origin": [
+        72.0999984741211,
+        607.5999755859375
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    },
+    {
+      "page": 96,
+      "old": "57",
+      "new": "60",
+      "context": "57. Huang X, Li L, Ammar R, Zhang Y, Wang Y, Ravi K, et al. Molecular characterization of a ",
+      "rect": [
+        72.0999984741211,
+        72.50801086425781,
+        84.0999984741211,
+        85.7920150756836
+      ],
+      "origin": [
+        72.0999984741211,
+        83.20001220703125
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    },
+    {
+      "page": 96,
+      "old": "58",
+      "new": "61",
+      "context": "58. Zhang L, Qu S, Wang L, Wang C, Yu Q, Zhang Z, et al. Tianlongkechuanling Inhibits ",
+      "rect": [
+        72.0999984741211,
+        155.30799865722656,
+        84.0999984741211,
+        168.5919952392578
+      ],
+      "origin": [
+        72.0999984741211,
+        166.0
+      ],
+      "size": 12.0,
+      "fontfile": "/opt/codex/runtimes/codex-primary-runtime/dependencies/native/libreoffice-headless/libreoffice/share/fonts/truetype/LiberationSerif-Regular.ttf"
+    }
+  ],
+  "unchanged_pages_exact_text": 89,
+  "changed_pages_character_inventory_verified": true,
+  "sha256": "1b158d4da0454e55c217ac5805b39ccfc894771ca73ec7e9ac595bf745654d8a"
+}

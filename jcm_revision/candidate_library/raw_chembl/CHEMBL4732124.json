@@ -1,0 +1,24 @@
+{
+  "abstract": "Sorafenib is one of the clinically used anticancer agents that inhibits several kinases. In this study, novel indole-based rigid analogues of sorafenib were designed and synthesized in order to enhance kinase selectivity and hence minimize the side effects associated with its use. The target compounds possess different linkers; urea, amide, sulfonamide, or thiourea, in addition to different terminal aryl moieties attached to the linker in order to investigate their impact on biological activity. They were tested against Hep3B, Huh7, and Hep-G2 hepatocellular carcinoma (HCC) cell lines to study their potency. Among all the tested target derivatives, compound 1h exerted superior antiproliferative potency against all the three tested HCC cell lines compared to sorafenib. Based on these preliminary results, compound 1h was selected for further biological and in silico investigations. Up to 30\u00a0\u03bcM, compound 1h did not inhibit 50% of the proliferation of WI-38 normal cells, which indicated promising selectivity against HCC cells than normal cells. In addition, compound 1h exerted superior kinase selectivity than sorafenib. It is selective for VEGFR2 and VEGFR3 angiogenesis-related kinases, while sorafenib is a multikinase inhibitor. Superior kinase selectivity of compound 1h to sorafenib can be attributed to its conformationally-restricted indole nucleus and the bulky N-methylpiperazinyl moiety. Western blotting was carried out and confirmed the ability of compound 1h to inhibit VEGFR2 kinase inside Hep-G2 HCC cells in a dose-dependent pattern. Compound 1h induces apoptosis and necrosis in Hep-G2 cell line, as shown by caspase-3/7 and lactate dehydrogenase (LDH) release assays, respectively. Moreover, compound 1h is rather safe against hERG. Thus, we could achieve a more selective kinase inhibitor than sorafenib with retained or even better antiproliferative potency against HCC cell lines. Furthermore, molecular docking and dynamic simulation studies were carried out to investigate its binding mode with VEGFR2 kinase. The molecule has a unique orientation upon binding with the kinase.",
+  "authors": "Sbenati RM,Zaraei SO,El-Gamal MI,Anbar HS,Tarazi H,Zoghbor MM,Mohamood NA,Khakpour MM,Zaher DM,Omar HA,Alach NN,Shehata MK,El-Gamal R",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_30",
+    "creation_date": "2022-02-22"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4732124",
+  "doi": "10.1016/j.ejmech.2020.113081",
+  "doi_chembl": null,
+  "first_page": "113081",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "113081",
+  "patent_id": null,
+  "pubmed_id": 33310290,
+  "src_id": 1,
+  "title": "Design, synthesis, biological evaluation, and modeling studies of novel conformationally-restricted analogues of sorafenib as selective kinase-inhibitory antiproliferative agents against hepatocellular carcinoma cells.",
+  "volume": "210",
+  "year": 2021
+}

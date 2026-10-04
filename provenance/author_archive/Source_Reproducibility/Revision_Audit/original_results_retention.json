@@ -1,0 +1,187 @@
+[
+  {
+    "source_paragraph": 65,
+    "retained": true,
+    "final_text": "Hepatic adverse-event reporting motivates molecular target prioritization"
+  },
+  {
+    "source_paragraph": 66,
+    "retained": true,
+    "final_text": "The frozen openFDA release contained 30233 mutually exclusive nintedanib-indexed and 39467 pirfenidone-indexed reports across all recorded indications. Narrow hepatic events occurred in 340 and 112 reports, respectively, giving a reporting odds ratio (ROR) of 3.997 (95% confidence interval [CI] 3.226–4.951). The broad endpoint occurred in 1773 and 717 reports (ROR 3.367; 95% CI 3.083–3.677). Expanded product aliases gave similar estimates. An exploratory aminotransferase-plus-bilirubin/jaundice constellation involved only 19 versus 12 reports and was not classified as Hy's law (Fig. 1B,C)."
+  },
+  {
+    "source_paragraph": 67,
+    "retained": true,
+    "final_text": "Restriction to a reported interstitial-lung-disease indication retained the association: narrow ROR 3.682 (95% CI 2.911–4.658) and broad ROR 3.928 (95% CI 3.565–4.329). Filters requiring any suspect drug and their intersection with the indication filter were also directionally consistent (Fig. 1D). These were report-level sensitivities: openFDA array flattening can assign the indication or suspect role to a co-reported drug. The same-element case audit clarified this linkage without supplying a corresponding noncase denominator (Supplementary Fig. S1). Sex and age strata were compatible with the overall signal but did not establish demographic interactions (Fig. 1H,I)."
+  },
+  {
+    "source_paragraph": 68,
+    "retained": true,
+    "final_text": "Calendar time materially affected magnitude. Tests rejected homogeneous annual odds ratios for both endpoints. The 2022 narrow-endpoint contribution comprised 123 nintedanib reports and none for pirfenidone; 104/123 originated in Italy and 96/123 were received in July. Excluding 2022 reduced the narrow ROR to 2.550 (95% CI 2.029–3.205), while the 2023–2026 estimate was 1.464 (95% CI 0.928–2.309; Fig. 1E–G). Among reports with eligible exact dates, median narrow-endpoint onset was 15 days for nintedanib and 65 days for pirfenidone, with substantial missingness. Broad-endpoint onset distributions and overlapping serious outcomes were descriptive (Fig. 1J,K). These findings motivate receptor-level investigation of the hepatic safety signal, with the calendar analyses defining its temporal context."
+  },
+  {
+    "source_paragraph": 69,
+    "retained": true,
+    "final_text": "Human serum proteins specify the injury phenotype for target screening"
+  },
+  {
+    "source_paragraph": 70,
+    "retained": true,
+    "final_text": "We next defined what a candidate mechanism should explain. The human serum workbook provided observations for 13 source-selected proteins, but lacked identifiers supporting a defensible participant-by-protein matrix. We therefore retained protein-specific denominators and analyzed the measured distributions without constructing a multivariable predictor."
+  },
+  {
+    "source_paragraph": 71,
+    "retained": true,
+    "final_text": "FBP1 was the only candidate separating DILI onset from acute non-drug liver injury after correction across the 13-protein family. Values were lower in DILI onset (median 0.00770; 76/82 detected) than in non-drug injury (median 0.02075; 32/34 detected), with Cliff's delta −0.505 (95% CI −0.724 to −0.288; q=4.69×10−4). With higher non-drug-injury values defined as positive, its apparent univariate area under the curve was 0.753 (95% CI 0.644–0.862; Fig. 2D,E,I). Half-minimum substitution for non-detection retained the contrast (delta −0.455; q=0.00156; Fig. 2J). Relative to healthy volunteers, however, FBP1 was higher in DILI (delta 0.922; 95% CI 0.847–0.978; q=4.02×10−15). Its meaning is therefore contextual: it distinguishes injury from health and, within the released panel, helps separate two acute-injury etiologies. This source-reported FBP1 contrast [30] provides an etiologically informative readout within the clinical phenotype used to guide receptor screening."
+  },
+  {
+    "source_paragraph": 72,
+    "retained": true,
+    "final_text": "The broader panel supplied the phenotype used for network evaluation. Eleven proteins showed at least moderate, false-discovery-rate (FDR)-controlled separation between DILI onset and health; ACO1, ASS1, and FAH had the largest effects (Cliff's deltas 0.978, 0.967, and 0.954; Fig. 2A–C). Among 12 evaluable, non-duplicated discovery candidates, 11 retained the DILI-versus-non-DILI direction in confirmation, with descriptive effect-rank correlation 0.561 (Fig. 2F). These correlated proteins were not treated as independent replication units. Nine of 11 proteins with available follow-up blocks were lower than at onset, but absent participant identifiers prevented paired recovery analysis (Fig. 2H)."
+  },
+  {
+    "source_paragraph": 73,
+    "retained": true,
+    "final_text": "Within DILI, ALT correlated strongly with ASS1 (ρ=0.873), ACO1 (0.800), and ALDOB (0.798), and also with the complementary readouts OTC (0.701), GSTA1 (0.668), and FBP1 (0.425; Fig. 2G). No liver-zone comparison survived FDR correction. Protein-specific distributions, detection patterns, source-row discrepancies, censoring, and duplicate-series audits are preserved in Supplementary Figs. S2 and S3. We carried all 13 proteins forward as continuous phenotype measurements; FBP1 provided the strongest etiologic contrast, while most other proteins primarily reflected injury or severity. This combination links etiologic discrimination with complementary measures of injury burden in the downstream experimental phenotype."
+  },
+  {
+    "source_paragraph": 74,
+    "retained": true,
+    "final_text": "Drug pharmacology and cellular responses define the inputs for liver-context integration"
+  },
+  {
+    "source_paragraph": 75,
+    "retained": true,
+    "final_text": "To connect this serum phenotype to a perturbation, we examined nintedanib-exposed HepG2 cells and curated drug-binding evidence. Six 24-h consensus dose profiles covered 12328 genes. No monotonic gene response passed genome-wide FDR correction (minimum q=0.268); the exact six-dose test had a minimum attainable two-sided P value of 0.00278 (Fig. 3A–C). These exposure-response profiles supplied quantitative cellular features for the subsequent integrated ranking."
+  },
+  {
+    "source_paragraph": 76,
+    "retained": true,
+    "final_text": "Twelve clinical-protein genes were represented. Their measurement-stratum-adjusted response percentile was 0.497 against a matched-null mean of 0.500 (competitive P=0.511), giving no enrichment of the injury set (Fig. 3D,E). OTC and LECT2 each had dose correlation 0.943, and GSTA1 had correlation 0.886, but none passed anchor-family correction. FBP1 was nonmonotonic across the six doses (ρ=0.029; exact P=1.000). No prespecified mechanism module survived FDR correction (Fig. 3F). Overlap with truncated MCF7 chemical-transcriptomic lists was positive but small: correlations were 0.086 near 1 µM and 0.140 at 10 µM. FBP1 appeared with a positive sign in both MCF7 lists, a narrowly defined cross-model observation rather than biological-replicate validation (Fig. 3G,H)."
+  },
+  {
+    "source_paragraph": 77,
+    "retained": true,
+    "final_text": "ChEMBL supplied 2250 activity records, of which 300 exact-relation, validity-clean human single-protein activities mapped to 222 targets. Sixteen targets had potent support in at least two documents. Canonical maximum pChEMBL values included KDR 8.98, PDGFRA 8.72, FLT4 8.30, FGFR3 8.23, FGFR1 7.50, and FGFR2 7.43; none of the 13 serum proteins had qualifying direct-target evidence in the curated ChEMBL records (Fig. 3I). Among the 16 represented multi-document targets, potency did not correlate with HepG2 response magnitude (ρ=−0.074; P=0.787; Fig. 3J). A secondary signed-response analysis favored a positive canonical-target-set shift, but its magnitude test was null. Measurement-stratified, dose-omission, and cross-cell-line sensitivities are shown in Supplementary Fig. S4. The combined result defines distinct quantities to connect experimentally: biochemical target engagement, intracellular transcriptional response, and extracellular injury-protein release."
+  },
+  {
+    "source_paragraph": 78,
+    "retained": true,
+    "final_text": "Liver-cell localization and numerical calibration refine the target–phenotype hypothesis"
+  },
+  {
+    "source_paragraph": 79,
+    "retained": true,
+    "final_text": "The liver atlas located these quantities within a multicellular tissue. Descriptive embeddings documented hepatocyte, endothelial, and macrophage structure (Fig. 5B–D). Equal-donor estimates showed prominent endothelial detection of KDR (31.9%), FLT1 (52.2%), FLT4 (16.2%), and FGFR1 (22.2%). FGFR2 and FGFR3 were most detectable in cholangiocytes; PDGFRA and PDGFRB were most evident in stellate cells, although that compartment comprised only 37 cells from four donors (Fig. 5E,G). The injury genes were predominantly hepatocellular: detection reached 94.5% for ALDOB, 84.8% for CES1, 74.2% for CPS1, 58.6% for GSTA1, 54.7% for FBP1, and 29.9% for LECT2 (Fig. 5F). This distribution directs the mechanistic question toward non-parenchymal receptor signaling and its effects on hepatocellular injury."
+  },
+  {
+    "source_paragraph": 80,
+    "retained": true,
+    "final_text": "Before evaluating that connection, we audited 95731 gene-level records from 210 virtual-knockout runs (Fig. 5H–K). In 132 runs, maximum displacement was at floating-point scale, no greater than 2.85×10−15. The smallest maximum among nonzero runs was 4.73×10−7; classifications were identical using cutoffs of 10−14, 10−12, or 10−10. Of 102 drug-target runs, 73 were numerically zero and 29 were quantifiable. Percentile normalization had assigned ordered scores even to noise-scale distances, so those runs could not support a biological perturbation claim."
+  },
+  {
+    "source_paragraph": 81,
+    "retained": true,
+    "final_text": "FGFR1 illustrated the consequence. Only one of three endothelial runs was numerically nonzero (maximum 6.02×10−6); the other two maxima were approximately 10−15, as was its available macrophage result (Fig. 5J). The earlier favorable percentiles therefore did not establish reproducible FGFR1 perturbation. Across all 29 quantifiable drug-target runs, projection of the continuous human DILI-versus-non-DILI protein profile did not exceed expression-matched backgrounds (minimum upper-tail P=0.352). The valid FGFR1 endothelial run had standardized difference −2.20 and P=1.000 (Fig. 5K). Numerical calibration thus changed the target interpretation and established the need for an independently calibrated way to connect drug pharmacology to the clinical phenotype."
+  },
+  {
+    "source_paragraph": 82,
+    "retained": true,
+    "final_text": "Clinical-protein-guided integration prioritizes PDGFRA and FLT4 across sensitivity analyses"
+  },
+  {
+    "source_paragraph": 83,
+    "retained": true,
+    "final_text": "We propagated the continuous protein phenotype through donor-balanced shrinkage networks and evaluated target proximity against matched seed sets (Fig. 6B). The fixed 17-target universe produced 50 evaluable target–compartment combinations; FGFR2 lacked an endothelial value. All primary computations passed numerical checks, with maximum linear-system residual 8.88×10−16 across the 18 graph specifications. Four clinical-weight profiles generated 3600 candidate estimates. Five actual donor omissions generated 250 estimates, including one undefined null-adjusted value retained as unavailable."
+  },
+  {
+    "source_paragraph": 84,
+    "retained": true,
+    "final_text": "Three primary associations reached joint-family q=0.00833: endothelial LRRK2 (Z=27.424), endothelial TYK2 (Z=5.670), and macrophage PDGFRA (Z=7.299). LRRK2 and PDGFRA also met the specified graph- and donor-rank stability requirements. Their same-compartment detection fractions were nevertheless only 4.184% and 0.139%, respectively; TYK2 detection was 5.324%. No candidate satisfied significance, stability, and the inherited 10% expression threshold together (Fig. 6C,M). The threshold was retained rather than relaxed to recover a preferred molecule."
+  },
+  {
+    "source_paragraph": 85,
+    "retained": true,
+    "final_text": "Seed decomposition explained why apparently large network effects required this qualification. OTC and ALDOB contributed 47.43% and 45.74% of the endothelial LRRK2 score; PCK2 contributed 92.68% for endothelial TYK2, and HPD contributed 91.41% for macrophage PDGFRA (Fig. 6D). The latter receptor was detected in just two cells across two donors. Degree-matched calibration retained the endothelial associations across matching-pool sizes, but macrophage PDGFRA lost FDR significance with the 100-gene pool. Donor omissions also produced negative as well as positive Z values for the endothelial candidates (Fig. 6E). FGFR1 had negative primary null-adjusted scores in all three modeled compartments. These findings identify sparse or concentrated connections, rather than broad, expression-supported disruption of the clinical program."
+  },
+  {
+    "source_paragraph": 86,
+    "retained": true,
+    "final_text": "Changing the clinical contrast or source cohort while retaining the graph gave candidate-rank correlations of 0.838–0.982 with the primary weighting. Unshrunk and shrinkage-conditioned ranks correlated at 0.517 in hepatocytes, 0.821 in endothelial cells, and 0.924 in macrophages, with maximum changes of 13, seven, and five positions. Thus, the human phenotype could be transported across several weighting definitions, but covariance estimation remained consequential, especially in hepatocytes. The comparison identifies covariance estimation as an influential design choice to include in subsequent experimental benchmarking."
+  },
+  {
+    "source_paragraph": 87,
+    "retained": true,
+    "final_text": "The network feature was then combined with pharmacology, HepG2 response, and STRING association context to choose reproducible experiments (Fig. 6L). The primary geometric ordering was PDGFRA, FLT4, FGFR2, JAK1, and FGFR3; FGFR1 moved from third in the historical consensus to fourteenth (Fig. 6F,G). This ranking followed the same fixed candidate set and a rule selected before the independent liver challenge. PDGFRA and FLT4 occupied the first two positions under revised median, arithmetic, geometric, and maximin fusion; robust rank aggregation placed them first and third. Both remained in the top five across all 5000 source-weight perturbations, compared with 92.9% for FGFR2, 70.0% for JAK1, and 58.9% for FGFR3 (Fig. 6J). Measurable endothelial FLT4 expression identifies a cellular starting point for perturbation, while PDGFRA prioritization directs receptor-expression verification in an appropriately sampled hepatic system."
+  },
+  {
+    "source_paragraph": 88,
+    "retained": true,
+    "final_text": "The algorithm comparison separated rank stability from predictive evidence. Geometric fusion retained full-data ranks after component omission with mean Spearman correlation 0.833 versus 0.793 for the exact historical consensus, and mean top-five Jaccard overlap 0.607 versus 0.506 (Fig. 6H). Agreement with the omitted feature was weak, however: mean correlation 0.045 for geometric fusion, with maximin highest at 0.115 (Fig. 6I). None of the five revised methods produced a competitive q value below 0.05; minima were 0.139 for robust rank aggregation and 0.178 for geometric fusion. Numerically valid legacy virtual-knockout comparisons were also limited: requiring three evaluable seeds left only two endothelial and two macrophage candidates, insufficient for an informative broad algorithm comparison."
+  },
+  {
+    "source_paragraph": 89,
+    "retained": true,
+    "final_text": "Across 72 fixed graph-and-clinical-weight combinations, geometric rank correlations ranged from 0.782 to 1.000 (median 0.946), with mean top-five overlap 0.949. PDGFRA remained first after each donor omission; FLT4 ranked second to fifth (Fig. 6K). Alternative missing-value treatments preserved the leading five, while masking inferred HepG2 transcripts changed the overall ranking more substantially (Supplementary Fig. S8). Together, these analyses place PDGFRA and FLT4 at the front of a reproducible experimental sequence: verify receptor expression and engagement in the relevant hepatic compartment, measure its effects on the clinical injury-protein phenotype, and test reciprocal rescue."
+  },
+  {
+    "source_paragraph": 90,
+    "retained": true,
+    "final_text": "Independent liver exposure identifies KDR as a pharmacodynamic comparator"
+  },
+  {
+    "source_paragraph": 91,
+    "retained": true,
+    "final_text": "We challenged the frozen priorities in GSE125975, an independent experiment containing 22 mouse non-tumor liver profiles: three healthy controls, nine disease controls, and ten nintedanib-treated animals [58] (Fig. 7B). The deposited matrix contained 13392 features. Nintedanib altered 92 at genome-wide q<0.05, including 73 with absolute log2 difference at least 0.5; Welch sensitivity analysis retained 13 discoveries. Disease versus healthy liver yielded 338 moderated-test discoveries, while treated versus healthy liver yielded 784, indicating an observable response without simple restoration to the healthy transcriptome (Fig. 7C,J)."
+  },
+  {
+    "source_paragraph": 92,
+    "retained": true,
+    "final_text": "Only 12 of 17 targets and two of 13 clinical-protein genes were represented. Kdr decreased with nintedanib (log2 difference −0.2796; moderated 95% CI −0.4489 to −0.1102). Its genome-wide q value was 0.1192, but exact whole-animal testing gave P=0.002273, q=0.0273 across the 12 measured candidates, and conservative q=0.0386 across the full 17-candidate family (Fig. 7D,E). The direction persisted after every treated- or disease-animal omission (range −0.3180 to −0.2425; Fig. 7H). Adjustment for two run-date groups inferred from CEL filenames retained the decrease and candidate-family significance (log2 difference −0.2768; genome-wide q=0.1114; conditional-randomization full-family q=0.02950). These date tokens were a technical sensitivity rather than verified batch annotations."
+  },
+  {
+    "source_paragraph": 93,
+    "retained": true,
+    "final_text": "The Kdr response was concordant with reduced VEGFR2 phosphorylation and downstream AKT/ERK signaling reported in the same source experiment [58]. Together, the transcript and biochemical measurements from this source support use of the VEGFR arm as a hepatic pharmacodynamic comparator. The individual-animal profiles illustrate receptor-specific responses (Fig. 7E–G): Fgfr1 was essentially unchanged (log2 difference 0.0242; genome-wide q=0.9589), and no prespecified module passed exact-permutation correction (Fig. 7I). Of 297 disease-associated features meeting both statistical and effect thresholds, 51.2% changed oppositely under treatment; disjoint disease-reference analysis reduced median reversal to 46.0%, with median disease–treatment correlation 0.149 (Fig. 7K,L)."
+  },
+  {
+    "source_paragraph": 94,
+    "retained": true,
+    "final_text": "Finally, we tested whether priority predicted absolute hepatic expression-effect magnitude among the same 12 measured candidates. Correlations ranged from −0.274 for maximin to 0.252 for robust rank aggregation; geometric fusion yielded −0.252 (exact whole-animal P=0.461). All six method-level q values were at least 0.681 (Fig. 7M). The independent challenge identifies selective hepatic drug responsiveness and supports KDR as an organ-level pharmacodynamic comparator for subsequent testing of the PDGFRA and FLT4 priorities."
+  },
+  {
+    "source_paragraph": 95,
+    "retained": true,
+    "final_text": "Pulmonary responses define the therapeutic constraint on a liver-sparing intervention"
+  },
+  {
+    "source_paragraph": 96,
+    "retained": true,
+    "final_text": "The same intervention must preserve nintedanib's pulmonary benefit. In GSE278200, four independent rats per group supplied a responsive fibrosis context: 895 genes changed with nintedanib at genome-wide q<0.05, including 551 with absolute log2 fold change at least 0.5. Among 3647 disease-responsive genes, 94.4% changed in the opposite direction under treatment in the original shared-reference analysis. Direct contrasts showed lower COL1A1 (log2 fold change −1.607; 95% CI −2.508 to −0.705; q=0.0404) and POSTN (−0.467; 95% CI −0.660 to −0.275; q=0.0188). No prespecified treatment module survived correction (Supplementary Fig. S9A–E)."
+  },
+  {
+    "source_paragraph": 97,
+    "retained": true,
+    "final_text": "The GSE308578 mouse model showed weaker response. Its deposited groups comprised 10 controls, 16 bleomycin–vehicle animals, and 17 nintedanib-treated animals, using concordant GEO and ARRIVE mapping rather than the swapped counts in the source figure caption. Although 1059 genes changed at q<0.05, only 208 met the effect-size threshold. The original shared-reference reversal fraction was 78.9%, with a smaller median reversal index than in rats (0.257 versus 0.514). ABCB1B increased by 0.519 log2 units (95% CI 0.271–0.767; q=0.00788), and its effect remained positive in all 33 animal omissions. No treatment module passed FDR correction (Supplementary Fig. S9F–H). This supports an efflux-associated, model-dependent boundary on response rather than universal inactivity of nintedanib."
+  },
+  {
+    "source_paragraph": 98,
+    "retained": true,
+    "final_text": "We then calibrated global reversal against its shared-comparator structure, retaining all original gene-level results. Reanalysis of deposited count features gave shared-reference reversal fractions of 92.3% in rats and 78.4% in mice, with disease–treatment correlations of −0.827 and −0.625. Whole-animal permutations showed negative correlations and substantial reversal even under the null. No statistic survived correction across the six dataset–summary tests; restoration had q=0.1286 in both species (Supplementary Fig. S10). Disjoint disease-reference splits retained average directional reversal but reduced it to medians of 84.7% in rats and 73.9% in mice. Mouse correlation ranged from −0.737 to 0.185, and the contrast-based restoration proxy crossed zero. These overlapping-subset ranges describe sensitivity, not confidence intervals or independent replication. The direct COL1A1 and POSTN contrasts therefore provide clearer molecular evidence than an uncalibrated claim of global transcriptome restoration."
+  },
+  {
+    "source_paragraph": 99,
+    "retained": true,
+    "final_text": "The hepatic and pulmonary context datasets further tested whether the proposed clinical-protein program behaved uniformly. In pooled bile-duct-ligation liver slices, nintedanib coincided with higher FBP1, OTC, and CPS1 transcripts and lower fibrosis-related transcripts (Supplementary Fig. S9I). These were slice-level observations from pooled animals, not replicated evidence of hepatoprotection. Pooled lung slices and the PXD024058 lung-protein matrix also showed heterogeneous target–protein directions (Supplementary Fig. S9J). Uncertain biological versus technical replication in PXD024058 precluded inferential P values."
+  },
+  {
+    "source_paragraph": 100,
+    "retained": true,
+    "final_text": "We retained similarly informative negative findings from more detailed pulmonary measurements. In GSE151374, 70696 cells came from 18 pooled libraries; three pools per condition and time supplied the statistical units. Neither macrophage genes, composition, nor prespecified programs showed FDR-controlled treatment effects. The day-14 receptor-tyrosine-kinase program and FGFR1 transcript changes were nominally positive, but each had exact three-versus-three P=0.10 and failed correction (Supplementary Fig. S6). In PXD052594, the unconditioned deposited-animal comparison included 10 nintedanib and 13 vehicle mice after source postrandomization losses. None of 7006 proteins passed q<0.10 (minimum q=0.608), and the prespecified programs were also null (Supplementary Fig. S7). In the separate five-versus-five phosphoproteome subset, an unmoderated parametric screen identified 994 of 20043 sites at q<0.05, with 495 decreases and 499 increases. However, no quantified site in the examined FGFR3, PDGFRA, FLT4, MAPK1, MAPK3, AKT1, or STAT3 tracks passed that threshold, and an FGFR1 site was unavailable. Small-group variance estimation, preprocessing, and unmeasured batch structure limit this table-level sensitivity; absent matched total-protein adjustment also prevents distinguishing phosphorylation changes from protein-abundance shifts. These findings did not provide target-specific functional confirmation."
+  },
+  {
+    "source_paragraph": 101,
+    "retained": true,
+    "final_text": "Finally, 57 whole-blood samples from seven nintedanib-treated participants supplied no longitudinal target–protein confirmation: all 30 prespecified slope tests had q=1.00 (Supplementary Fig. S5). This single-arm series lacked adjudicated DILI and was not a direct test of hepatic injury. Taken together, these tissue and clinical sensitivities retain the drug's pulmonary purpose within the same mechanistic question. They support testing PDGFRA and FLT4 against receptor activity, intercellular signaling, and hepatocyte injury at matched exposure, followed by a direct demonstration that any liver-sparing effect preserves pulmonary antifibrotic activity."
+  }
+]

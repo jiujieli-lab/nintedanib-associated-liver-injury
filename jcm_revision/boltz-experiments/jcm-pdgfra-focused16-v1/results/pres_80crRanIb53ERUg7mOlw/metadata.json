@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 1.3544193506240845,
+    "permeability": 0.34228768944740295,
+    "solubility": "high-confidence"
+  },
+  "created_at": "2026-10-02T15:19:31.838Z",
+  "external_id": "crenolanib",
+  "id": "pres_80crRanIb53ERUg7mOlw",
+  "metrics": {
+    "binding_confidence": 0.9209288358688354,
+    "complex_iplddt": 0.8018826246261597,
+    "complex_plddt": 0.7511023879051208,
+    "iptm": 0.8962035179138184,
+    "optimization_score": 0.5842447280883789,
+    "ptm": 0.7750226259231567,
+    "structure_confidence": 0.7801226377487183
+  },
+  "smiles": "CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1"
+}

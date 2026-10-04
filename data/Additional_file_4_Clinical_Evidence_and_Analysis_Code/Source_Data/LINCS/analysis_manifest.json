@@ -1,0 +1,179 @@
+{
+  "analysis": "de_novo_nintedanib_hepg2_concentration_response",
+  "random_seed": 260904,
+  "gene_set_permutations": 25000,
+  "doses_um": [
+    0.04,
+    0.12,
+    0.37,
+    1.11,
+    3.33,
+    10.0
+  ],
+  "exposure_hours": 24,
+  "sources": [
+    {
+      "path": "fresh_analysis/lincs/output/nintedanib_hepg2_level5_all_genes_tidy.csv.gz",
+      "sha256": "73eb86609f830ae2ee72a6e5a07a7e2db1417cd82271aa848211de01797a034a",
+      "available_in_release": false
+    },
+    {
+      "path": "fresh_analysis/lincs/output/nintedanib_hepg2_signature_metadata.csv",
+      "sha256": "720c51041f422a9834de37610a22435fe8324d181ba5dc015866147ed5260e68",
+      "available_in_release": false
+    },
+    {
+      "path": "Source_Data/Pharmacology/sciplex_nintedanib_signature_long.csv",
+      "sha256": "2be93a831f240af7f48aa3a53c76876259f59aad3f13ba0febcbc5ba0f805100",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/Pharmacology/chembl_target_summary.csv",
+      "sha256": "fda76feee74f7b0adafcf16e8f960f9637e52e43b656937a2374afde963dc381",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/Pharmacology/chembl_human_single_protein_activities.csv",
+      "sha256": "57541e7d9b41bbc21763125ac403d2a00b8e75bf483ff679378190d9c15f9c72",
+      "available_in_release": true
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Source_Data/LINCS/Figure_3_caption.md",
+      "sha256": "10268a658ae2aba897e3abb27bd99244e0fa30bd9bd03d42687734fa7d1bcbce",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/Supplementary_Figure_S3_caption.md",
+      "sha256": "cd3444d9c035ef3b7d76f4d9999c874d106abdaa8006dd303e10e8ef302c6ac1",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/analysis_summary.json",
+      "sha256": "0fd80ba941c50eca52fd2501f6e0ce01d33cf020eaa5ce7b1413bd39e65f424f",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/chembl_potency_association.csv",
+      "sha256": "c1d4844d26cfe4ca30bdc73510914c14b6973fe6a71acc5c5817b22a4a95bc4b",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/chembl_target_set_statistics.csv",
+      "sha256": "d4c6fc442cda8bb1002fd81efb62e0b73934ef498f3d2da48253c59003912e1a",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/chembl_transcript_crosswalk.csv",
+      "sha256": "27bb22255dce2b671218309e765387f4b2be034624aad74d1ed8597d043ee51e",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/data_dictionary.csv",
+      "sha256": "fe27f4963368236df194114488fcd09d2bcc7e16de0b3dc868cf96d14505e185",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/dili_anchor_metrics.csv",
+      "sha256": "ab7b20af221267dec37a8f378bc748ebd91c960fae57aa71d05261129431a63c",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/dili_anchor_set_statistics.csv",
+      "sha256": "7d02a77eaf60ff3d8e5d131668602fc1f16025f912c807d6532414013723bdac",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/gene_dose_response_metrics.csv.gz",
+      "sha256": "f77bff9ae0f0c0bfb81badc2c2282a6ab108d95f8d9686f89781101c2fa202da",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/integrated_gene_evidence.csv",
+      "sha256": "5fc466e8fdca1f3d4662e7917487d1454d9edbf95aa072ca26739f8d9f30a999",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/manuscript_ready_lincs_methods_results.md",
+      "sha256": "810f76a366014a3fe57ea76027469b011de11733712e82c3d3855556953361c9",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/mechanism_module_members.csv",
+      "sha256": "2f9a912fffd179bf4d3186346d0bb26fa3b6bea1c6db273158ab558e3e3f115f",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/mechanism_module_statistics.csv",
+      "sha256": "b233c77f1905c7f631ab12af616a157aa82780786724dbbff2573cfbe13a5e7d",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/sciplex_hepg2_concordance.csv",
+      "sha256": "9a3c022ae41a3941f7edb7ef381e493dba6cc525f6734d7bcac7a80d48114316",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/sciplex_hepg2_gene_pairs.csv.gz",
+      "sha256": "7fa2e64e35bcfc9894d85f48b29b1035056f34a984d1822e357a06dd930c92a6",
+      "available_in_release": true
+    },
+    {
+      "path": "Source_Data/LINCS/validation_report.json",
+      "sha256": "d2080f1b3995b949f03a00d337385f7ba185f1a65e59e0d62a02396ad5615beb",
+      "available_in_release": true
+    },
+    {
+      "path": "Figures/Figure_3_Nintedanib_HepG2_Dose_Perturbation.pdf",
+      "sha256": "2ab5a8206119bcceb565d1f823c7b53fa7f1166520cd820f0b2f3d1ea7329665",
+      "available_in_release": true
+    },
+    {
+      "path": "Figures/Figure_3_Nintedanib_HepG2_Dose_Perturbation.png",
+      "sha256": "17e0ab0f43dd825f9660e46c306b2644d4da1e12ba5da8be41009ebf3e34ad30",
+      "available_in_release": true
+    },
+    {
+      "path": "Figures/Figure_3_Nintedanib_HepG2_Dose_Perturbation.svg",
+      "sha256": "18a210921dc70843154dae36f0164c52e5dc26d01d01d11cc5f5af16d46d8cb9",
+      "available_in_release": true
+    },
+    {
+      "path": "Figures/Figure_3_Nintedanib_HepG2_Dose_Perturbation.tiff",
+      "sha256": "8a46d633d6ff8b81b738b1a8217571b849b487323874a3da45db73df83d7ddeb",
+      "available_in_release": true
+    },
+    {
+      "path": "Supplementary_Figures/Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.pdf",
+      "sha256": "83d06aa4d885590e6572ca6e2048f6d91d0f61b2afe66282fe864024d2169b04",
+      "available_in_release": true
+    },
+    {
+      "path": "Supplementary_Figures/Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.png",
+      "sha256": "2a77d3d00f6e0a09ae08cade03cb803fb816d52df2650ba8786de46d81d699f2",
+      "available_in_release": true
+    },
+    {
+      "path": "Supplementary_Figures/Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.svg",
+      "sha256": "7fa02d4d1477dcf9ab77774958f3eec59037b81954bba6400a65d37257fedea8",
+      "available_in_release": true
+    },
+    {
+      "path": "Supplementary_Figures/Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.tiff",
+      "sha256": "0194f280ddb4bc8b54689630f1a06008035518ea9aaf6cf1fb868d658ecafd05",
+      "available_in_release": true
+    }
+  ],
+  "versions": {
+    "python": "3.12.13",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "interpretation_boundary": "HepG2 L1000 and MCF7 Sci-Plex are in-vitro drug-response models. They do not identify clinical DILI cases or prove toxicity causality; ChEMBL potency does not establish in-vivo target engagement.",
+  "release_analysis_script": "Code/Core/analyze_lincs_dose_and_figure3.py",
+  "release_analysis_script_sha256": "34b06deba061c41f25a3e0d9bb1a5ff10fbef8f35ebef2b92f61b738f15a72de",
+  "release_manifest_refreshed_utc": "2026-09-05"
+}

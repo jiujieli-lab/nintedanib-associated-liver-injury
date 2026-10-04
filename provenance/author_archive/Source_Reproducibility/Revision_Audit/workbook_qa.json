@@ -1,0 +1,314 @@
+{
+  "expectedSheets": 18,
+  "checks": [
+    {
+      "sheet": "N1_Binding_Summary",
+      "rows": 10,
+      "columns": 14,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N2_Document_Contrasts",
+      "rows": 5,
+      "columns": 8,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N3_Binding_LODO",
+      "rows": 19,
+      "columns": 7,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N4_Physicochemical",
+      "rows": 3,
+      "columns": 14,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N5_Binding_Audit",
+      "rows": 2,
+      "columns": 6,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N6_Binding_Records",
+      "rows": 26,
+      "columns": 52,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N7_Primary_Calibration",
+      "rows": 9,
+      "columns": 18,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N8_Intervention_Runs",
+      "rows": 111,
+      "columns": 11,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N9_Nonadditivity",
+      "rows": 3,
+      "columns": 9,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N10_Nonadditivity_LODO",
+      "rows": 18,
+      "columns": 5,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N11_Target_Expression",
+      "rows": 30,
+      "columns": 7,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N12_Attenuation",
+      "rows": 45,
+      "columns": 4,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N13_Matched_Controls",
+      "rows": 300,
+      "columns": 10,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N14_Target_Readouts",
+      "rows": 6,
+      "columns": 6,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N15_Covariance_QC",
+      "rows": 15,
+      "columns": 5,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N16_Omission_Ranges",
+      "rows": 9,
+      "columns": 4,
+      "exactTypedCsvMatch": true
+    },
+    {
+      "sheet": "N17_Input_Provenance",
+      "rows": 3,
+      "columns": 5,
+      "exactTypedCsvMatch": true
+    }
+  ],
+  "dataCellsChecked": 6771,
+  "renderedSheets": [
+    {
+      "sheet": "Table_Index",
+      "range": "A1:G10"
+    },
+    {
+      "sheet": "N1_Binding_Summary",
+      "range": "A1:H12"
+    },
+    {
+      "sheet": "N2_Document_Contrasts",
+      "range": "A1:H10"
+    },
+    {
+      "sheet": "N3_Binding_LODO",
+      "range": "A1:G12"
+    },
+    {
+      "sheet": "N4_Physicochemical",
+      "range": "A1:H8"
+    },
+    {
+      "sheet": "N5_Binding_Audit",
+      "range": "A1:F7"
+    },
+    {
+      "sheet": "N6_Binding_Records",
+      "range": "A1:H12"
+    },
+    {
+      "sheet": "N7_Primary_Calibration",
+      "range": "A1:H12"
+    },
+    {
+      "sheet": "N8_Intervention_Runs",
+      "range": "A1:H12"
+    },
+    {
+      "sheet": "N9_Nonadditivity",
+      "range": "A1:H8"
+    },
+    {
+      "sheet": "N10_Nonadditivity_LODO",
+      "range": "A1:E12"
+    },
+    {
+      "sheet": "N11_Target_Expression",
+      "range": "A1:G12"
+    },
+    {
+      "sheet": "N12_Attenuation",
+      "range": "A1:D12"
+    },
+    {
+      "sheet": "N13_Matched_Controls",
+      "range": "A1:H12"
+    },
+    {
+      "sheet": "N14_Target_Readouts",
+      "range": "A1:F11"
+    },
+    {
+      "sheet": "N15_Covariance_QC",
+      "range": "A1:E12"
+    },
+    {
+      "sheet": "N16_Omission_Ranges",
+      "range": "A1:D12"
+    },
+    {
+      "sheet": "N17_Input_Provenance",
+      "range": "A1:E8"
+    }
+  ],
+  "formulaErrors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "saved_file_xml_checks": {
+    "all_original_csv_values_match": true,
+    "cells_verified": 6771,
+    "native_tables_and_freeze_panes": [
+      {
+        "sheet": "N1_Binding_Summary",
+        "cells": 140,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N2_Document_Contrasts",
+        "cells": 40,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N3_Binding_LODO",
+        "cells": 133,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N4_Physicochemical",
+        "cells": 42,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N5_Binding_Audit",
+        "cells": 12,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N6_Binding_Records",
+        "cells": 1352,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N7_Primary_Calibration",
+        "cells": 162,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N8_Intervention_Runs",
+        "cells": 1221,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N9_Nonadditivity",
+        "cells": 27,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N10_Nonadditivity_LODO",
+        "cells": 90,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N11_Target_Expression",
+        "cells": 210,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N12_Attenuation",
+        "cells": 180,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N13_Matched_Controls",
+        "cells": 3000,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N14_Target_Readouts",
+        "cells": 36,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N15_Covariance_QC",
+        "cells": 75,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N16_Omission_Ranges",
+        "cells": 36,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      },
+      {
+        "sheet": "N17_Input_Provenance",
+        "cells": 15,
+        "header_freeze_rows": 5,
+        "id_freeze_columns": 2,
+        "native_table": true
+      }
+    ]
+  },
+  "visual_review": {
+    "all_18_sheets_inspected": true,
+    "headers_fit": true,
+    "missing_values_preserved": true,
+    "scientific_units_and_fdr_columns_visible": true
+  }
+}

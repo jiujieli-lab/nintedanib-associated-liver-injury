@@ -1,0 +1,175 @@
+{
+  "atc_classifications": [
+    "L01EX05"
+  ],
+  "availability_type": 1,
+  "biotherapeutic": null,
+  "black_box_warning": 1,
+  "chemical_probe": 0,
+  "chirality": 2,
+  "cross_references": [
+    {
+      "xref_id": "regorafenib",
+      "xref_name": "regorafenib",
+      "xref_src": "DailyMed"
+    },
+    {
+      "xref_id": "human/EPAR/stivarga",
+      "xref_name": "stivarga",
+      "xref_src": "EMA"
+    }
+  ],
+  "dosed_ingredient": true,
+  "first_approval": 2012,
+  "first_in_class": 0,
+  "helm_notation": null,
+  "inorganic_flag": 0,
+  "max_phase": "4.0",
+  "molecule_chembl_id": "CHEMBL1946170",
+  "molecule_hierarchy": {
+    "active_chembl_id": "CHEMBL1946170",
+    "molecule_chembl_id": "CHEMBL1946170",
+    "parent_chembl_id": "CHEMBL1946170"
+  },
+  "molecule_properties": {
+    "alogp": "5.69",
+    "aromatic_rings": 3,
+    "full_molformula": "C21H15ClF4N4O3",
+    "full_mwt": "482.82",
+    "hba": 4,
+    "hbd": 3,
+    "heavy_atoms": 33,
+    "mw_freebase": "482.82",
+    "np_likeness_score": "-1.82",
+    "num_ro5_violations": 1,
+    "psa": "92.35",
+    "qed_weighted": "0.41",
+    "ro3_pass": "N",
+    "rtb": 5
+  },
+  "molecule_structures": {
+    "canonical_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1",
+    "molfile": "\n     RDKit          2D\n\n 33 35  0  0  0  0  0  0  0  0999 V2000\n   -1.2375    2.0036    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9520    1.5911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.9520    0.7661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.2375    0.3536    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5230    0.7661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.5230    1.5911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6664    2.0036    0.0000 Cl  0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6664    0.3536    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.1914    0.3536    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9059    0.7661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6204    0.3536    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9059    1.5911    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3348    0.7661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0493    2.0036    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.3348    1.5911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.0493    0.3536    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7638    0.7661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.7638    1.5911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.4783    2.0036    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1927    1.5911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.9072    2.0036    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.1927    0.7661    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.9072    0.3536    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6217    0.7661    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.6217    1.5911    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.3361    2.0036    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.3361    2.8286    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    8.0506    1.5911    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    8.7651    2.0036    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.6664   -0.4714    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.3809    0.7661    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.3809   -0.0589    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n    1.6204    2.0036    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  2  0\n  2  3  1  0\n  3  4  2  0\n  4  5  1  0\n  5  6  2  0\n  1  6  1  0\n  2  7  1  0\n  3  8  1  0\n  5  9  1  0\n  9 10  1  0\n 10 11  1  0\n 10 12  2  0\n 11 13  1  0\n 15 13  2  0\n 13 16  1  0\n 14 15  1  0\n 16 17  2  0\n 17 18  1  0\n 14 18  2  0\n 18 19  1  0\n 19 20  1  0\n 21 20  2  0\n 20 22  1  0\n 22 23  2  0\n 23 24  1  0\n 24 25  2  0\n 21 25  1  0\n 25 26  1  0\n 26 27  2  0\n 26 28  1  0\n 28 29  1  0\n  8 30  1  0\n  8 31  1  0\n  8 32  1  0\n 15 33  1  0\nM  END\n> <chembl_id>\nCHEMBL1946170\n\n> <chembl_pref_name>\nREGORAFENIB",
+    "standard_inchi": "InChI=1S/C21H15ClF4N4O3/c1-27-19(31)18-10-13(6-7-28-18)33-12-3-5-17(16(23)9-12)30-20(32)29-11-2-4-15(22)14(8-11)21(24,25)26/h2-10H,1H3,(H,27,31)(H2,29,30,32)",
+    "standard_inchi_key": "FNHKPVJBJVTLMP-UHFFFAOYSA-N"
+  },
+  "molecule_synonyms": [
+    {
+      "molecule_synonym": "BAY 73-4506",
+      "syn_type": "RESEARCH_CODE",
+      "synonyms": "BAY 73-4506"
+    },
+    {
+      "molecule_synonym": "BAY-73-4506",
+      "syn_type": "RESEARCH_CODE",
+      "synonyms": "BAY-73-4506"
+    },
+    {
+      "molecule_synonym": "BAY-734506",
+      "syn_type": "RESEARCH_CODE",
+      "synonyms": "BAY-734506"
+    },
+    {
+      "molecule_synonym": "BAY 73-4506 monohydrate",
+      "syn_type": "RESEARCH_CODE",
+      "synonyms": "BAY 73-4506 monohydrate"
+    },
+    {
+      "molecule_synonym": "BAY-73-4506 MONOHYDRATE",
+      "syn_type": "RESEARCH_CODE",
+      "synonyms": "BAY-73-4506 MONOHYDRATE"
+    },
+    {
+      "molecule_synonym": "BAY-734506 MONOHYDRATE",
+      "syn_type": "RESEARCH_CODE",
+      "synonyms": "BAY-734506 MONOHYDRATE"
+    },
+    {
+      "molecule_synonym": "Regorafenib",
+      "syn_type": "ATC",
+      "synonyms": "REGORAFENIB"
+    },
+    {
+      "molecule_synonym": "Regorafenib",
+      "syn_type": "BNF",
+      "synonyms": "REGORAFENIB"
+    },
+    {
+      "molecule_synonym": "Regorafenib",
+      "syn_type": "EMA",
+      "synonyms": "REGORAFENIB"
+    },
+    {
+      "molecule_synonym": "Regorafenib",
+      "syn_type": "FDA",
+      "synonyms": "REGORAFENIB"
+    },
+    {
+      "molecule_synonym": "Regorafenib",
+      "syn_type": "INN",
+      "synonyms": "REGORAFENIB"
+    },
+    {
+      "molecule_synonym": "Regorafenib",
+      "syn_type": "MERCK_INDEX",
+      "synonyms": "REGORAFENIB"
+    },
+    {
+      "molecule_synonym": "Regorafenib",
+      "syn_type": "OTHER",
+      "synonyms": "REGORAFENIB"
+    },
+    {
+      "molecule_synonym": "Regorafenib",
+      "syn_type": "USAN",
+      "synonyms": "REGORAFENIB"
+    },
+    {
+      "molecule_synonym": "Regorafenib",
+      "syn_type": "USP",
+      "synonyms": "REGORAFENIB"
+    },
+    {
+      "molecule_synonym": "Regorafenib anhydrous",
+      "syn_type": "OTHER",
+      "synonyms": "REGORAFENIB ANHYDROUS"
+    },
+    {
+      "molecule_synonym": "Regorafenib hydrate",
+      "syn_type": "JAN",
+      "synonyms": "REGORAFENIB HYDRATE"
+    },
+    {
+      "molecule_synonym": "Regorafenib hydrate",
+      "syn_type": "OTHER",
+      "synonyms": "REGORAFENIB HYDRATE"
+    },
+    {
+      "molecule_synonym": "Regorafenib monohydrate",
+      "syn_type": "OTHER",
+      "synonyms": "REGORAFENIB MONOHYDRATE"
+    },
+    {
+      "molecule_synonym": "Stivarga",
+      "syn_type": "TRADE_NAME",
+      "synonyms": "Stivarga"
+    }
+  ],
+  "molecule_type": "Small molecule",
+  "natural_product": 0,
+  "oral": true,
+  "orphan": 0,
+  "parenteral": false,
+  "polymer_flag": 0,
+  "pref_name": "REGORAFENIB",
+  "prodrug": 0,
+  "structure_type": "MOL",
+  "therapeutic_flag": true,
+  "topical": false,
+  "usan_stem": "-rafenib",
+  "usan_stem_definition": "rapidly accelerated fibrosarcoma (RAF) kinase inhibitors",
+  "usan_substem": "-rafenib",
+  "usan_year": 2011,
+  "veterinary": 0,
+  "withdrawn_flag": false
+}

@@ -1,0 +1,116 @@
+model,feature,feature_type,n_features_observed,nintedanib_vs_disease_log2_effect
+GSE278200 rat lung RNA (animal n=4/group),FGFR1,gene,1,0.2527332100665989
+GSE278200 rat lung RNA (animal n=4/group),FGFR3,gene,0,
+GSE278200 rat lung RNA (animal n=4/group),FLT1,gene,1,0.22706801865138626
+GSE278200 rat lung RNA (animal n=4/group),OTC,gene,1,-0.1528945227539802
+GSE278200 rat lung RNA (animal n=4/group),GSTA1,gene,1,-0.20802645620743832
+GSE278200 rat lung RNA (animal n=4/group),FBP1,gene,1,-0.6397349504434906
+GSE278200 rat lung RNA (animal n=4/group),CES1D,gene,1,0.3133574478665757
+GSE278200 rat lung RNA (animal n=4/group),CPS1,gene,0,
+GSE278200 rat lung RNA (animal n=4/group),ASS1,gene,1,-0.08833580393984253
+GSE278200 rat lung RNA (animal n=4/group),ARG1,gene,1,-0.15827795116763044
+GSE278200 rat lung RNA (animal n=4/group),COL1A1,gene,1,-1.6068690034998543
+GSE278200 rat lung RNA (animal n=4/group),ACTA2,gene,1,-0.11263019412214081
+GSE278200 rat lung RNA (animal n=4/group),POSTN,gene,1,-0.46721851824510807
+GSE278200 rat lung RNA (animal n=4/group),FN1,gene,1,-0.5705434020256224
+GSE278200 rat lung RNA (animal n=4/group),CTGF,gene,0,
+GSE278200 rat lung RNA (animal n=4/group),ABCB1B,gene,0,
+GSE278200 rat lung RNA (animal n=4/group),ECM/fibrosis,module mean gene effect,10,-0.7811425734858826
+GSE278200 rat lung RNA (animal n=4/group),Macrophage–lipid,module mean gene effect,13,-0.3251651013124344
+GSE278200 rat lung RNA (animal n=4/group),Urea/arginine,module mean gene effect,5,-0.10793691077713459
+GSE278200 rat lung RNA (animal n=4/group),Nintedanib targets,module mean gene effect,2,0.23990061435899257
+GSE278200 rat lung RNA (animal n=4/group),Hepatic anchors,module mean gene effect,5,-0.15512685709563517
+GSE278200 rat lung RNA (animal n=4/group),Oxidative stress,module mean gene effect,10,-0.18429357812427716
+GSE278200 rat lung RNA (animal n=4/group),Drug efflux,module mean gene effect,2,0.2966895435525849
+GSE308578 mouse lung RNA (animal 17 vs 16),FGFR1,gene,1,-0.1073140307518301
+GSE308578 mouse lung RNA (animal 17 vs 16),FGFR3,gene,1,0.22718419455968775
+GSE308578 mouse lung RNA (animal 17 vs 16),FLT1,gene,1,-0.031266593363432627
+GSE308578 mouse lung RNA (animal 17 vs 16),OTC,gene,0,
+GSE308578 mouse lung RNA (animal 17 vs 16),GSTA1,gene,0,
+GSE308578 mouse lung RNA (animal 17 vs 16),FBP1,gene,0,
+GSE308578 mouse lung RNA (animal 17 vs 16),CES1D,gene,1,0.3498235525167601
+GSE308578 mouse lung RNA (animal 17 vs 16),CPS1,gene,0,
+GSE308578 mouse lung RNA (animal 17 vs 16),ASS1,gene,1,-0.12695389873915364
+GSE308578 mouse lung RNA (animal 17 vs 16),ARG1,gene,1,-0.08974974800711921
+GSE308578 mouse lung RNA (animal 17 vs 16),COL1A1,gene,1,-0.2540780960929361
+GSE308578 mouse lung RNA (animal 17 vs 16),ACTA2,gene,1,0.292543500314669
+GSE308578 mouse lung RNA (animal 17 vs 16),POSTN,gene,1,0.009396074912931596
+GSE308578 mouse lung RNA (animal 17 vs 16),FN1,gene,1,-0.09389457958761405
+GSE308578 mouse lung RNA (animal 17 vs 16),CTGF,gene,0,
+GSE308578 mouse lung RNA (animal 17 vs 16),ABCB1B,gene,1,0.51912016025276
+GSE308578 mouse lung RNA (animal 17 vs 16),ECM/fibrosis,module mean gene effect,11,-0.10870273009475079
+GSE308578 mouse lung RNA (animal 17 vs 16),Macrophage–lipid,module mean gene effect,13,-0.07610736672233089
+GSE308578 mouse lung RNA (animal 17 vs 16),Urea/arginine,module mean gene effect,4,-0.02708709349014915
+GSE308578 mouse lung RNA (animal 17 vs 16),Nintedanib targets,module mean gene effect,3,0.029534523481475006
+GSE308578 mouse lung RNA (animal 17 vs 16),Hepatic anchors,module mean gene effect,3,0.3637885833242344
+GSE308578 mouse lung RNA (animal 17 vs 16),Oxidative stress,module mean gene effect,9,0.04468206927631218
+GSE308578 mouse lung RNA (animal 17 vs 16),Drug efflux,module mean gene effect,4,0.17165545839822383
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),FGFR1,gene,1,-0.030108426683508327
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),FGFR3,gene,1,0.7242445750757103
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),FLT1,gene,1,-1.6454245563874856
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),OTC,gene,1,1.5902386277673206
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),GSTA1,gene,1,-0.102340167781664
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),FBP1,gene,1,1.8182697808468853
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),CES1D,gene,1,1.2508780186715942
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),CPS1,gene,1,3.2314996330427928
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),ASS1,gene,1,-0.8980934038799688
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),ARG1,gene,1,-0.3172412170415395
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),COL1A1,gene,1,-0.9191479130488815
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),ACTA2,gene,1,0.07887708303075947
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),POSTN,gene,1,-1.259147394106268
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),FN1,gene,1,-1.1623261782573202
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),CTGF,gene,1,-0.22501662185724847
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),ABCB1B,gene,0,
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),ECM/fibrosis,module mean gene effect,11,-0.5374248899349661
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),Macrophage–lipid,module mean gene effect,13,0.47718419310596233
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),Urea/arginine,module mean gene effect,6,0.6385139343676357
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),Nintedanib targets,module mean gene effect,3,-0.3170961359984279
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),Hepatic anchors,module mean gene effect,7,1.1125572026805348
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),Oxidative stress,module mean gene effect,10,0.12789695743436882
+GSE120804 rat liver PCLS RNA (pooled slices 10 vs 10),Drug efflux,module mean gene effect,4,0.5058183374493073
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),FGFR1,gene,1,-0.033526025545407734
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),FGFR3,gene,1,0.766249429762702
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),FLT1,gene,1,-0.8341654941047754
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),OTC,gene,1,0.09681174296018646
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),GSTA1,gene,1,0.2733985910413974
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),FBP1,gene,1,0.927209030490141
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),CES1D,gene,1,0.8287525811091614
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),CPS1,gene,0,
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),ASS1,gene,1,0.31426391041305113
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),ARG1,gene,1,0.11895329735008886
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),COL1A1,gene,1,-0.7896495006965036
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),ACTA2,gene,1,-0.2624742502632156
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),POSTN,gene,1,-0.47222069292072355
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),FN1,gene,1,0.058896267282634085
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),CTGF,gene,1,0.5293960507993862
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),ABCB1B,gene,0,
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),ECM/fibrosis,module mean gene effect,11,-0.06796968565277411
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),Macrophage–lipid,module mean gene effect,13,0.03952089233273348
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),Urea/arginine,module mean gene effect,5,0.11085499059625992
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),Nintedanib targets,module mean gene effect,3,-0.033814029962493684
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),Hepatic anchors,module mean gene effect,6,0.4275296674545479
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),Oxidative stress,module mean gene effect,10,0.07103085982794025
+GSE120679 rat lung PCLS RNA (pooled slices 6 vs 6),Drug efflux,module mean gene effect,3,0.042987962215425966
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),FGFR1,gene,0,
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),FGFR3,gene,0,
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),FLT1,gene,1,0.12309215978621726
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),OTC,gene,1,-1.285004730847972
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),GSTA1,gene,1,0.017037312406365496
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),FBP1,gene,1,-1.054789666039984
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),CES1D,gene,1,-0.029422699091226766
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),CPS1,gene,1,-1.6495354187794176
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),ASS1,gene,1,-0.7908173499439826
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),ARG1,gene,1,-0.3577864200003319
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),COL1A1,gene,1,-0.27832084226992065
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),ACTA2,gene,1,0.041540133962896575
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),POSTN,gene,1,-0.10935873551393191
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),FN1,gene,1,-0.039677428750314436
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),CTGF,gene,1,0.26101320257619337
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),ABCB1B,gene,0,
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),ECM/fibrosis,module mean gene effect,9,-0.07705044770702335
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),Macrophage–lipid,module mean gene effect,11,-0.10422111655576233
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),Urea/arginine,module mean gene effect,6,-0.7137752939844049
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),Nintedanib targets,module mean gene effect,1,0.12309215978621726
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),Hepatic anchors,module mean gene effect,7,-0.71563016065698
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),Oxidative stress,module mean gene effect,10,-0.002355264662628449
+PXD024058 mouse lung protein (3 columns/group; provenance ambiguous),Drug efflux,module mean gene effect,3,0.11017089723561886

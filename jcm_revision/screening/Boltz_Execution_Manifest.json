@@ -1,0 +1,28 @@
+{
+  "authorized_estimated_total_usd": 0.9,
+  "authorization": "Explicit user confirmation received 2 October 2026",
+  "cli_version": "0.43.0",
+  "engine": "boltzmol",
+  "engine_version": "1.0",
+  "pipeline": "boltzmol",
+  "pipeline_version": "1.0",
+  "target_jobs": {
+    "PDGFRA": {
+      "id": "sm_scr_yj8Mql4gJXVkMnpXutHZ",
+      "run_name": "jcm-pdgfra-focused16-v1",
+      "payload": "Boltz_PDGFRA_Focused_Screen.json",
+      "estimated_usd": 0.45
+    },
+    "FLT4": {
+      "id": "sm_scr_kQsmq9RzAoo0cc3iuVM1",
+      "run_name": "jcm-flt4-focused16-v1",
+      "payload": "Boltz_FLT4_Focused_Screen.json",
+      "estimated_usd": 0.45
+    }
+  },
+  "output_root": "work/jcm_revision/boltz-experiments",
+  "input_library_size_per_target": 16,
+  "filtering": "Default provider filters unchanged; full final disposition required",
+  "ranking": "binding_confidence within each target; optimization_score retained as separate descriptive metric",
+  "no_md_equivalence": true
+}

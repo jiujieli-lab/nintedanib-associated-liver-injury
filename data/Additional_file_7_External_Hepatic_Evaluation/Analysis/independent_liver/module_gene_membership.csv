@@ -1,0 +1,58 @@
+module,requested_gene,resolved_gene,available
+ECM/fibrosis,COL1A1,COL1A1,True
+ECM/fibrosis,COL1A2,COL1A2,True
+ECM/fibrosis,COL3A1,COL3A1,True
+ECM/fibrosis,FN1,FN1,False
+ECM/fibrosis,POSTN,POSTN,True
+ECM/fibrosis,CTGF,CCN2,True
+ECM/fibrosis,TIMP1,TIMP1,True
+ECM/fibrosis,LOX,LOX,True
+ECM/fibrosis,SERPINE1,SERPINE1,True
+ECM/fibrosis,ACTA2,ACTA2,True
+ECM/fibrosis,TGFBI,TGFBI,False
+ECM/fibrosis,MMP2,MMP2,True
+Macrophage–lipid,CD68,CD68,True
+Macrophage–lipid,ADGRE1,ADGRE1,True
+Macrophage–lipid,CSF1R,CSF1R,False
+Macrophage–lipid,LPL,LPL,True
+Macrophage–lipid,APOE,APOE,False
+Macrophage–lipid,TREM2,TREM2,True
+Macrophage–lipid,LGALS3,LGALS3,True
+Macrophage–lipid,CTSD,CTSD,False
+Macrophage–lipid,ABCA1,ABCA1,True
+Macrophage–lipid,FABP5,FABP5,False
+Macrophage–lipid,SPP1,SPP1,True
+Macrophage–lipid,LIPA,LIPA,False
+Macrophage–lipid,PLIN2,PLIN2,False
+Urea/arginine,ARG1,ARG1,False
+Urea/arginine,OTC,OTC,False
+Urea/arginine,CPS1,CPS1,False
+Urea/arginine,ASS1,ASS1,False
+Urea/arginine,ASL,ASL,False
+Urea/arginine,OAT,OAT,True
+Nintedanib targets,FGFR1,FGFR1,True
+Nintedanib targets,FGFR3,FGFR3,True
+Nintedanib targets,FLT1,FLT1,True
+Hepatic anchors,OTC,OTC,False
+Hepatic anchors,GSTA1,GSTA1,False
+Hepatic anchors,FBP1,FBP1,False
+Hepatic anchors,CES1A,CES1A,False
+Hepatic anchors,CES1D,CES1D,True
+Hepatic anchors,CES1F,CES1F,True
+Hepatic anchors,CPS1,CPS1,False
+Hepatic anchors,ASS1,ASS1,False
+Oxidative stress,NQO1,NQO1,True
+Oxidative stress,HMOX1,HMOX1,True
+Oxidative stress,SOD1,SOD1,False
+Oxidative stress,SOD2,SOD2,False
+Oxidative stress,GPX1,GPX1,False
+Oxidative stress,GPX3,GPX3,True
+Oxidative stress,GSTA1,GSTA1,False
+Oxidative stress,CAT,CAT,False
+Oxidative stress,PRDX1,PRDX1,False
+Oxidative stress,PRDX2,PRDX2,False
+Drug efflux,ABCB1A,ABCB1A,True
+Drug efflux,ABCB1B,ABCB1B,True
+Drug efflux,ABCG2,ABCG2,False
+Drug efflux,ABCC1,ABCC1,True
+Drug efflux,ABCC2,ABCC2,False

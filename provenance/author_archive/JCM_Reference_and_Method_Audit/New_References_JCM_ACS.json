@@ -1,0 +1,391 @@
+[
+  {
+    "number": 98,
+    "doi": "10.1021/acs.jcim.1c00203",
+    "text": "Eberhardt, J.; Santos-Martins, D.; Tillack, A.F.; Forli, S. AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. J. Chem. Inf. Model. 2021, 61, 3891–3898. https://doi.org/10.1021/acs.jcim.1c00203.",
+    "segments": [
+      {
+        "text": "Eberhardt, J.; Santos-Martins, D.; Tillack, A.F.; Forli, S. AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. "
+      },
+      {
+        "text": "J. Chem. Inf. Model.",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "2021",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "61",
+        "italic": true
+      },
+      {
+        "text": ", 3891–3898. https://doi.org/10.1021/acs.jcim.1c00203."
+      }
+    ],
+    "notes": [
+      "DOI, title, complete author order, issue year, volume and pages verified against Crossref registration metadata; up to the first ten authors listed under MDPI ACS style.",
+      "Cites method publication 1.2.0; Methods must state actually used Vina 1.2.7."
+    ]
+  },
+  {
+    "number": 99,
+    "doi": "10.1021/acs.jcim.5c02271",
+    "text": "Santos-Martins, D.; He, Y.; Eberhardt, J.; Sharma, P.; Bruciaferri, N.; Holcomb, M.; Llanos, M.A.; Hansel-Harris, A.; Barkdull, A.P.; Tillack, A.F.; et al. Meeko: Molecule Parametrization and Software Interoperability for Docking and Beyond. J. Chem. Inf. Model. 2025, 65, 13045–13050. https://doi.org/10.1021/acs.jcim.5c02271.",
+    "segments": [
+      {
+        "text": "Santos-Martins, D.; He, Y.; Eberhardt, J.; Sharma, P.; Bruciaferri, N.; Holcomb, M.; Llanos, M.A.; Hansel-Harris, A.; Barkdull, A.P.; Tillack, A.F.; et al. Meeko: Molecule Parametrization and Software Interoperability for Docking and Beyond. "
+      },
+      {
+        "text": "J. Chem. Inf. Model.",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "2025",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "65",
+        "italic": true
+      },
+      {
+        "text": ", 13045–13050. https://doi.org/10.1021/acs.jcim.5c02271."
+      }
+    ],
+    "notes": [
+      "DOI, title, complete author order, issue year, volume and pages verified against Crossref registration metadata; up to the first ten authors listed under MDPI ACS style.",
+      "Final peer-reviewed 2025 paper; do not replace with earlier preprint. Methods version 0.8.0."
+    ]
+  },
+  {
+    "number": 100,
+    "doi": "10.5281/zenodo.22140358",
+    "text": "Landrum, G.; Tosco, P.; Rodriguez, R.; Kelley, B.; Cosgrove, D.; Vianello, R.; sriniker; Gedeck, P.; Jones, G.; Nealschneider, D.; et al. rdkit/rdkit: 2026_03_6 (Q1 2026) Release; Version Release_2026_03_6; Zenodo: 2026. https://doi.org/10.5281/zenodo.22140358.",
+    "segments": [
+      {
+        "text": "Landrum, G.; Tosco, P.; Rodriguez, R.; Kelley, B.; Cosgrove, D.; Vianello, R.; sriniker; Gedeck, P.; Jones, G.; Nealschneider, D.; et al. "
+      },
+      {
+        "text": "rdkit/rdkit: 2026_03_6 (Q1 2026) Release",
+        "italic": true
+      },
+      {
+        "text": "; Version Release_2026_03_6; Zenodo: "
+      },
+      {
+        "text": "2026",
+        "bold": true
+      },
+      {
+        "text": ". https://doi.org/10.5281/zenodo.22140358."
+      }
+    ],
+    "notes": [
+      "Exact software release DOI and version verified against DataCite/Zenodo. Creator names are retained as deposited; the handle sriniker is not expanded into an unverified identity. Do not substitute the all-versions DOI. RDKit runtime version 2026.03.6 corresponds to Release_2026_03_6."
+    ]
+  },
+  {
+    "number": 101,
+    "doi": "10.1093/nar/gkad1011",
+    "text": "Varadi, M.; Bertoni, D.; Magana, P.; Paramval, U.; Pidruchna, I.; Radhakrishnan, M.; Tsenkov, M.; Nair, S.; Mirdita, M.; Yeo, J.; et al. AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences. Nucleic Acids Res. 2024, 52, D368–D375. https://doi.org/10.1093/nar/gkad1011.",
+    "segments": [
+      {
+        "text": "Varadi, M.; Bertoni, D.; Magana, P.; Paramval, U.; Pidruchna, I.; Radhakrishnan, M.; Tsenkov, M.; Nair, S.; Mirdita, M.; Yeo, J.; et al. AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences. "
+      },
+      {
+        "text": "Nucleic Acids Res.",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "2024",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "52",
+        "italic": true
+      },
+      {
+        "text": ", D368–D375. https://doi.org/10.1093/nar/gkad1011."
+      }
+    ],
+    "notes": [
+      "DOI, title, complete author order, issue year, volume and pages verified against Crossref registration metadata; up to the first ten authors listed under MDPI ACS style.",
+      "2024 issue year; online-first publication 2 November 2023. AlphaFold DB model v6 is an entry version, not algorithm AlphaFold-6."
+    ]
+  },
+  {
+    "number": 102,
+    "doi": "10.1093/nar/gkab1061",
+    "text": "Varadi, M.; Anyango, S.; Deshpande, M.; Nair, S.; Natassia, C.; Yordanova, G.; Yuan, D.; Stroe, O.; Wood, G.; Laydon, A.; et al. AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. Nucleic Acids Res. 2022, 50, D439–D444. https://doi.org/10.1093/nar/gkab1061.",
+    "segments": [
+      {
+        "text": "Varadi, M.; Anyango, S.; Deshpande, M.; Nair, S.; Natassia, C.; Yordanova, G.; Yuan, D.; Stroe, O.; Wood, G.; Laydon, A.; et al. AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. "
+      },
+      {
+        "text": "Nucleic Acids Res.",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "2022",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "50",
+        "italic": true
+      },
+      {
+        "text": ", D439–D444. https://doi.org/10.1093/nar/gkab1061."
+      }
+    ],
+    "notes": [
+      "DOI, title, complete author order, issue year, volume and pages verified against Crossref registration metadata; up to the first ten authors listed under MDPI ACS style."
+    ]
+  },
+  {
+    "number": 103,
+    "doi": "10.1038/s41586-021-03819-2",
+    "text": "Jumper, J.; Evans, R.; Pritzel, A.; Green, T.; Figurnov, M.; Ronneberger, O.; Tunyasuvunakool, K.; Bates, R.; Žídek, A.; Potapenko, A.; et al. Highly accurate protein structure prediction with AlphaFold. Nature 2021, 596, 583–589. https://doi.org/10.1038/s41586-021-03819-2.",
+    "segments": [
+      {
+        "text": "Jumper, J.; Evans, R.; Pritzel, A.; Green, T.; Figurnov, M.; Ronneberger, O.; Tunyasuvunakool, K.; Bates, R.; Žídek, A.; Potapenko, A.; et al. Highly accurate protein structure prediction with AlphaFold. "
+      },
+      {
+        "text": "Nature",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "2021",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "596",
+        "italic": true
+      },
+      {
+        "text": ", 583–589. https://doi.org/10.1038/s41586-021-03819-2."
+      }
+    ],
+    "notes": [
+      "DOI, title, complete author order, issue year, volume and pages verified against Crossref registration metadata; up to the first ten authors listed under MDPI ACS style."
+    ]
+  },
+  {
+    "number": 104,
+    "doi": "10.2210/pdb6JOL/pdb",
+    "text": "Liang, L.; Yan, X.E.; Yun, C.H. Crystal structure of PDGFRA in complex with imatinib by co-crystallization; Protein Data Bank Entry 6JOL; Protein Data Bank: 2020. https://doi.org/10.2210/pdb6JOL/pdb.",
+    "segments": [
+      {
+        "text": "Liang, L.; Yan, X.E.; Yun, C.H. "
+      },
+      {
+        "text": "Crystal structure of PDGFRA in complex with imatinib by co-crystallization",
+        "italic": true
+      },
+      {
+        "text": "; Protein Data Bank Entry 6JOL; Protein Data Bank: "
+      },
+      {
+        "text": "2020",
+        "bold": true
+      },
+      {
+        "text": ". https://doi.org/10.2210/pdb6JOL/pdb."
+      }
+    ],
+    "notes": [
+      "Dataset citation, not a journal article. Author order/title from RCSB audit_author and struct records; year denotes initial public release on 25 March 2020, not deposition in 2019. Associated literature remains To be published."
+    ]
+  },
+  {
+    "number": 105,
+    "doi": "10.1016/j.ajpath.2020.06.006",
+    "text": "Kikuchi, A.; Singh, S.; Poddar, M.; Nakao, T.; Schmidt, H.M.; Gayden, J.D.; Sato, T.; Arteel, G.E.; Monga, S.P. Hepatic Stellate Cell–Specific Platelet-Derived Growth Factor Receptor-α Loss Reduces Fibrosis and Promotes Repair after Hepatocellular Injury. Am. J. Pathol. 2020, 190, 2080–2094. https://doi.org/10.1016/j.ajpath.2020.06.006.",
+    "segments": [
+      {
+        "text": "Kikuchi, A.; Singh, S.; Poddar, M.; Nakao, T.; Schmidt, H.M.; Gayden, J.D.; Sato, T.; Arteel, G.E.; Monga, S.P. Hepatic Stellate Cell–Specific Platelet-Derived Growth Factor Receptor-α Loss Reduces Fibrosis and Promotes Repair after Hepatocellular Injury. "
+      },
+      {
+        "text": "Am. J. Pathol.",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "2020",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "190",
+        "italic": true
+      },
+      {
+        "text": ", 2080–2094. https://doi.org/10.1016/j.ajpath.2020.06.006."
+      }
+    ],
+    "notes": [
+      "DOI, title, complete author order, issue year, volume and pages verified against Crossref registration metadata; up to the first ten authors listed under MDPI ACS style."
+    ]
+  },
+  {
+    "number": 106,
+    "doi": "10.1007/s10456-020-09718-w",
+    "text": "Nakamoto, S.; Ito, Y.; Nishizawa, N.; Goto, T.; Kojo, K.; Kumamoto, Y.; Watanabe, M.; Majima, M. Lymphangiogenesis and accumulation of reparative macrophages contribute to liver repair after hepatic ischemia–reperfusion injury. Angiogenesis 2020, 23, 395–410. https://doi.org/10.1007/s10456-020-09718-w.",
+    "segments": [
+      {
+        "text": "Nakamoto, S.; Ito, Y.; Nishizawa, N.; Goto, T.; Kojo, K.; Kumamoto, Y.; Watanabe, M.; Majima, M. Lymphangiogenesis and accumulation of reparative macrophages contribute to liver repair after hepatic ischemia–reperfusion injury. "
+      },
+      {
+        "text": "Angiogenesis",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "2020",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "23",
+        "italic": true
+      },
+      {
+        "text": ", 395–410. https://doi.org/10.1007/s10456-020-09718-w."
+      }
+    ],
+    "notes": [
+      "DOI, title, complete author order, issue year, volume and pages verified against Crossref registration metadata; up to the first ten authors listed under MDPI ACS style."
+    ]
+  },
+  {
+    "number": 107,
+    "doi": "10.1038/nbt1358",
+    "text": "Karaman, M.W.; Herrgard, S.; Treiber, D.K.; Gallant, P.; Atteridge, C.E.; Campbell, B.T.; Chan, K.W.; Ciceri, P.; Davis, M.I.; Edeen, P.T.; et al. A quantitative analysis of kinase inhibitor selectivity. Nat. Biotechnol. 2008, 26, 127–132. https://doi.org/10.1038/nbt1358.",
+    "segments": [
+      {
+        "text": "Karaman, M.W.; Herrgard, S.; Treiber, D.K.; Gallant, P.; Atteridge, C.E.; Campbell, B.T.; Chan, K.W.; Ciceri, P.; Davis, M.I.; Edeen, P.T.; et al. A quantitative analysis of kinase inhibitor selectivity. "
+      },
+      {
+        "text": "Nat. Biotechnol.",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "2008",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "26",
+        "italic": true
+      },
+      {
+        "text": ", 127–132. https://doi.org/10.1038/nbt1358."
+      }
+    ],
+    "notes": [
+      "DOI, title, complete author order, issue year, volume and pages verified against Crossref registration metadata; up to the first ten authors listed under MDPI ACS style."
+    ]
+  },
+  {
+    "number": 108,
+    "doi": null,
+    "text": "Boltz. Screen Small Molecule Libraries. Available online: https://api.boltz.bio/docs/api/guides/small-molecule-library-screen/ (accessed on 2 October 2026).",
+    "segments": [
+      {
+        "text": "Boltz. Screen Small Molecule Libraries. Available online: https://api.boltz.bio/docs/api/guides/small-molecule-library-screen/ (accessed on 2 October 2026)."
+      }
+    ],
+    "notes": [
+      "Official documentation for the actual boltzmol pipeline, version 1.0, not a citation to the Boltz-2 research model. Original requested URL redirects to this canonical URL."
+    ]
+  },
+  {
+    "number": 109,
+    "doi": null,
+    "text": "Inductive Bio. Inductive Bio MCP Connector. Available online: https://www.inductive.bio/mcp-connector (accessed on 2 October 2026).",
+    "segments": [
+      {
+        "text": "Inductive Bio. Inductive Bio MCP Connector. Available online: https://www.inductive.bio/mcp-connector (accessed on 2 October 2026)."
+      }
+    ],
+    "notes": [
+      "Official provider description of the MCP property models and model-discovery/prediction tools. Model identifiers/versions and exact returned values must be cited from archived run responses, not inferred from this overview."
+    ]
+  },
+  {
+    "number": 110,
+    "doi": "10.1038/s41467-023-44376-8",
+    "text": "Teuber, A.; Schulz, T.; Fletcher, B.S.; Gontla, R.; Mühlenberg, T.; Zischinsky, M.-L.; Niggenaber, J.; Weisner, J.; Kleinbölting, S.B.; Lategahn, J.; et al. Avapritinib-based SAR studies unveil a binding pocket in KIT and PDGFRA. Nat. Commun. 2024, 15, 63. https://doi.org/10.1038/s41467-023-44376-8.",
+    "segments": [
+      {
+        "text": "Teuber, A.; Schulz, T.; Fletcher, B.S.; Gontla, R.; Mühlenberg, T.; Zischinsky, M.-L.; Niggenaber, J.; Weisner, J.; Kleinbölting, S.B.; Lategahn, J.; et al. Avapritinib-based SAR studies unveil a binding pocket in KIT and PDGFRA. "
+      },
+      {
+        "text": "Nat. Commun.",
+        "italic": true
+      },
+      {
+        "text": " "
+      },
+      {
+        "text": "2024",
+        "bold": true
+      },
+      {
+        "text": ", "
+      },
+      {
+        "text": "15",
+        "italic": true
+      },
+      {
+        "text": ", 63. https://doi.org/10.1038/s41467-023-44376-8."
+      }
+    ],
+    "notes": [
+      "Verified Crossref and RCSB8PQJ metadata; primary wild-type apo receptor sensitivity source."
+    ]
+  }
+]

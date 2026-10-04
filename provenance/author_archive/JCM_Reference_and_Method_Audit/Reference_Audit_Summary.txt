@@ -1,0 +1,9 @@
+REFERENCE AUDIT — 2 OCTOBER2026
+
+All97 cited sources checked.75 DOI/title identities matched:74Crossref journal records and1DataCite dataset.22official URL sources were retrieved;9GEO,2PRIDE and1DDBJ records required metadata endpoints because display pages were incomplete.
+
+Corrections: ref56 pages5914–5931.e20; ref57 pages5932–5944.e6; ref69 pages1385–1396.e8. Ref75 surnameCarcione was correctly present in the source and is retained; the contradictory Crossref name tags were resolved using the official Ri.MED staff profile forClaudia Carcione. Ref54 Davis has9authors, all included and verified againstPubMedPMID22037378.
+
+Specific Sci-Plex andSTRING API documentation URLs replace generic URLs in ACS output. Article32(ref43) was verified inPubMed. Ref52 Crossref has no page field; original1–26 retained. The75DOI title matches do not constitute full-text verification of every scientific assertion.
+
+Current master citations are sequential1–97, includingtables. Moving tables near first citation and inserting new references requires fresh global renumbering. The supplied corrected supplement makes11numeral-only changes across7pages and preserves89pages exactly.

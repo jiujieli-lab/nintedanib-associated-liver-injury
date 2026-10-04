@@ -1,0 +1,17 @@
+{
+  "n_compounds": 16,
+  "n_predictions": 48,
+  "successful": 48,
+  "out_of_domain": 8,
+  "low_confidence": 3,
+  "model_versions": {
+    "mcp_public_logd": "1.7.0",
+    "mcp_public_apka": "1.4.0",
+    "mcp_public_bpka": "1.4.0"
+  },
+  "all_structures_verified_by_stereospecific_inchikey": true,
+  "property_scope": "Predicted logD at pH 7.4 and most acidic/basic pKa only; not clinical ADMET or hepatic safety.",
+  "bounds_note": "Not specified by provider; not treated as confidence intervals",
+  "nintedanib_predictions": "Reused prior raw predictions with identical model and configuration versions.",
+  "nerandomilast_identity_note": "Provider canonicalized the SMILES; stereospecific InChIKey matches the input R-sulfoxide."
+}

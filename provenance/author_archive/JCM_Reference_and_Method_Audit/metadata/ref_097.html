@@ -1,0 +1,659 @@
+<!DOCTYPE html><html lang='en'>
+
+<head>
+<script async src='/javascript/ga4.client.code_py9852.js'></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-P87S7MWQRL', {transport_url: 'https://gtm.string-db.org',});</script><script type='text/javascript'>window.onerror = function(message, url, line, column, error) {message = String(message || '');url = String(url || '');var messageLower = message.toLowerCase();var urlLower = url.toLowerCase();if (urlLower.includes('chrome-extension')) { return true; }if (urlLower.includes('safari-extension')) { return true; }if (urlLower.includes('turnstile')) { return true; }if (messageLower.includes('resizeobserver')) { return true; }if (messageLower.includes('googletag')) { return true; }if (messageLower.includes('@context')) { return true; }if (messageLower.includes('turnstile')) { return true; }var messageEncoded = encodeURIComponent(message);var jsUrlEncoded = encodeURIComponent(url);var webUrlEncoded = encodeURIComponent(window.location.href);var useragentEncoded = encodeURIComponent(navigator.userAgent);var xmlhttp = new XMLHttpRequest();xmlhttp.open('POST', '/cgi/logjserror', true);xmlhttp.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');var params = 'logJsMessage=' + messageEncoded + '&logJsUrl=' + jsUrlEncoded + '&logJsLine=' + encodeURIComponent(line || 0) + '&logJsColumn=' + encodeURIComponent(column || 0) + '&logJsWebUrl=' + webUrlEncoded + '&logJsUseragent=' + useragentEncoded;xmlhttp.send(params);return true;};</script><script>var startTime = new Date();function retryLoad(filePath, fileType, attempt) {    if (attempt > 3) { return };    var script = document.createElement('script');    var endTime = new Date();    var elapsedTime = (endTime.getTime() - startTime.getTime()) / 1000;    script.src = filePath;    document.head.appendChild(script);    script.onload = function () {        var endTime = new Date();        var elapsedTime = (endTime.getTime() - startTime.getTime()) / 1000;    };    script.onerror = function () {        retryLoad(filePath, fileType, attempt+1)    };}</script><link rel='preload' href='/images/spinner_blue_small_transparent.gif' as='image'/>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "STRING",
+    "url": "https://string-db.org",
+    "logo": "https://string-db.org/images/STRING_icon_512.png"
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "DataCatalog",
+    "@id": "https://string-db.org",
+    "http://purl.org/dc/terms/conformsTo": "https://bioschemas.org/specifications/DataCatalog/0.3",
+    "identifier": "stringdb",
+    "name": "STRING protein-protein interaction networks",
+    "description": "STRING is a database of known and predicted protein-protein interactions and a functional enrichment tool covering more than 5000 genomes",
+    "url": "https://string-db.org",
+    "keywords": "protein protein, protein interactions, string, functional annotation, functional associations, interaction network, enrichment analysis",
+    "dateModified": "2023.07.26",
+    "citation": {
+        "@type": "ScholarlyArticle",
+        "@id": "https://doi.org/10.1093/nar/gkac1000",
+        "name": "The STRING database in 2023",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36370105/",
+        "headline": "The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest.",
+        "image": "https://academic.oup.com/view-large/figure/389815361/gkac1000fig1.jpg",
+        "author": [
+            {
+                "@type": "Person",
+                "name": "Damian Szklarczyk",
+                "url": "https://orcid.org/0000-0002-4052-5069"
+            },
+            {
+                "@type": "Person",
+                "name": "Rebecca Kirsch",
+                "url": "https://orcid.org/0000-0002-0351-4993"
+            },
+            {
+                "@type": "Person",
+                "name": "Mikaela Koutrouli",
+                "url": "https://orcid.org/0000-0002-8953-3561"
+            },
+            {
+                "@type": "Person",
+                "name": "Peer Bork",
+                "url": "https://orcid.org/0000-0002-2627-833X"
+            },
+            {
+                "@type": "Person",
+                "name": "Lars J Jensen",
+                "url": "https://orcid.org/0000-0001-7885-715X"
+            },
+            {
+                "@type": "Person",
+                "name": "Christian von Mering",
+                "url": "https://orcid.org/0000-0001-7734-9102"
+            }
+       ]
+    },
+    "license": {
+        "@type": "CreativeWork",
+        "name": "Creative Commons Attribution 4.0 International",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "image": {
+        "@type" : "ImageObject",
+        "url": "https://string-db.org/images/STRING_icon_512.png"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "STRING consortium",
+        "url": "https://string-db.org",
+        "email": ["mering@imls.uzh.ch",
+                  "bork@embl.de",
+                  "lars.juhl.jensen@cpr.ku.dk"
+        ],
+        "memberOf": [
+            {
+                "@type": "Organization",
+                "name": "SIB Swiss bioinformatics institute",
+                "url": "https://www.sib.swiss/",
+                "sameAs": "https://ror.org/002n09z45"
+            },
+            {
+                "@type": "Organization",
+                "name": "European Molecular Biology Laboratory",
+                "url": "https://embl.org/",
+                "sameAs": "https://ror.org/01zjc6908"
+            },
+            {
+                "@type": "Organization",
+                "name": "University of Zurich",
+                "url": "https://www.uzh.ch/",
+                "sameAs": "https://ror.org/02crff812"
+            },
+            {
+                "@type": "Organization",
+                "name": "University of Copenhagen",
+                "url": "https://www.ku.dk/",
+                "sameAs": "https://ror.org/035b05819"
+            }
+        ]
+    },
+    "potentialAction": {
+        "target": "https://string-db.org/cgi/network?identifier={query_string}",
+        "@type": "SearchAction",
+        "query-input": "required name=query_string"
+     },
+"isBasedOn":[
+  {
+    "@type": "Dataset",
+    "name": "BioCyc Database",
+    "url": "https://biocyc.org/",
+    "description": "BioCyc is a collection of 20,043 Pathway/Genome Databases (PGDBs) for model eukaryotes and for thousands of microbes, plus software tools for exploring them.",
+    "license": "https://creativecommons.org/licenses/by/2.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Bioinformatics Research Group (BRG)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "BioGRID Database",
+    "url": "https://thebiogrid.org/",
+    "description": "Biological General Repository for Interaction Datasets.",
+    "license": "https://opensource.org/license/mit/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Institut de Recherche en Immunologie et en Canc\u00e9rologie, Lewis-Sigler Institute for Integrative Genomics, Lunenfeld-Tanenbaum Research Institute"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "COG Database",
+    "url": "https://www.ncbi.nlm.nih.gov/research/cog",
+    "description": "COGs stands for Clusters of Orthologous Genes. The database was initially created in 1997 (Tatusov et al., PMID: 9381173) followed by several updates, most recently in 2014 (Galperin et al., PMID: 25428365).",
+    "license": "https://www.ncbi.nlm.nih.gov/pmc/about/copyright/",
+    "creator": {
+      "@type": "Organization",
+      "name": "National Center for Biotechnology Information (NCBI)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "COMPARTMENTS Database",
+    "url": "http://compartments.jensenlab.org/",
+    "description": "COMPARTMENTS is a database of protein subcellular localization evidence, using evidence collected by integrating experimental datasets, by integrating sequence-based predictions, by manual literature curation, or by automated textmining.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Novo Nordisk Foundation Center for Protein Research"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "DIP Database",
+    "url": "http://dip.doe-mbi.ucla.edu/dip/Main.cgi",
+    "description": "The Database of Interacting Proteins (DIP) is a biological database which catalogs experimentally determined protein-protein interactions.",
+    "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Howard Hughes Medical Institute, 2UCLA-DOE Institute for Genomics and Proteomics, 3Department of Chemistry and Biochemistry and 4Department of Biological Chemistry, Molecular Biology Institute"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "DISEASES Database",
+    "url": "http://diseases.jensenlab.org/",
+    "description": "Diseases Database is a cross-referenced index of human disease, medications, symptoms, signs, and abnormal investigation findings. The content focuses on internal medicine, inherited disease, clinical biochemistry, and pharmacology. Its terms are referred to as items.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Novo Nordisk Foundation Center for Protein Research"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "EggNOG Database",
+    "url": "http://eggnog5.embl.de/#/app/home",
+    "description": "Database of orthology relationships, functional annotation, and gene evolutionary histories.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "European Molecular Biology Laboratory (EMBL)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "Ensembl Database",
+    "url": "https://www.ensembl.org/index.html",
+    "description": "Genome browser for vertebrate genomes that supports research in comparative genomics, evolution, sequence variation and transcriptional regulation.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "European Molecular Biology Laboratory (EMBL)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "FlyBase Database",
+    "url": "http://flybase.org/",
+    "description": "FlyBase is a database of genetic and molecular data concerning Drosophila . FlyBase is maintained as a relational database (in Sybase).",
+    "license": "https://opensource.org/license/mit/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Harvard University, University of Cambridge, Indiana University"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "GEO Database",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/",
+    "description": "Gene Expression Omnibus (GEO) is a database repository of high throughput gene expression data and hybridization arrays, chips, microarrays.",
+    "license": "https://www.ncbi.nlm.nih.gov/pmc/about/copyright/",
+    "creator": {
+      "@type": "Organization",
+      "name": "National Center for Biotechnology Information (NCBI)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "Gene Ontology Database",
+    "url": "http://geneontology.org/",
+    "description": "The Gene Ontology (GO) knowledgebase is the world's largest source of information on the functions of genes.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Gene Ontology Consortium"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "HPRD Database",
+    "url": "http://www.hprd.org/",
+    "description": "Human Protein Reference Database (HPRD) is a rich resource of experimentally proven features of human proteins.",
+    "license": "https://creativecommons.org/licenses/by/1.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Institute of Bioinformatics in Bangalore, India and the Pandey lab at Johns Hopkins University in Baltimore, USA."
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "HUGO Database",
+    "url": "https://www.genenames.org/",
+    "description": "HUGO Gene Nomenclature Committee, a resource for approved human gene nomenclature containing ~42000 gene symbols and names and 1300+ gene families and sets.",
+    "license": "https://creativecommons.org/public-domain/cc0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "HUGO Gene Nomenclature Committee"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "Intact Database",
+    "url": "https://www.ebi.ac.uk/intact/",
+    "description": "IntAct Molecular Interaction Database provides a free, open source database system and analysis tools for molecular interaction data.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "European Bioinformatics Institute (EMBL-EBI)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "InterPro Database",
+    "url": "https://www.ebi.ac.uk/interpro/",
+    "description": "InterPro provides functional analysis of proteins by classifying them into families and predicting domains and important sites.",
+    "license": "https://creativecommons.org/public-domain/cc0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "European Bioinformatics Institute (EMBL-EBI)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "KEGG Database",
+    "url": "https://www.genome.jp/kegg/",
+    "description": "KEGG (Kyoto Encyclopedia of Genes and Genomes) is a bioinformatics resource for linking genomes to life and the environment.",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Kanehisa Laboratories at Kyoto University Bioinformatics Center"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "MINT Database",
+    "url": "https://mint.bio.uniroma2.it/",
+    "description": "MINT is a public and open source database focusing on experimentally verified protein-protein interactions mined from the scientific literature by expert curators.",
+    "license": "http://creativecommons.org/licenses/by-nc/2.0/uk/",
+    "creator": {
+      "@type": "Organization",
+      "name": "University of Rome Tor Vergata"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "OMIM Database",
+    "url": "https://omim.org/",
+    "description": "Online Catalog of Human Genes and Genetic Disorders",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Johns Hopkins University"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "PDB Database",
+    "url": "https://www.rcsb.org/",
+    "description": "RCSB Protein Data Bank (RCSB PDB). As a member of the wwPDB, the RCSB PDB curates and annotates PDB data according to agreed upon standards.",
+    "license": "https://creativecommons.org/public-domain/cc0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Worldwide Protein Data Bank (wwPDB)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "Pfam Database",
+    "url": "https://pfam.xfam.org/",
+    "description": "The Pfam database is a large collection of protein families, each represented by multiple sequence alignments and hidden Markov models (HMMs).",
+    "license": "https://creativecommons.org/public-domain/cc0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "European Bioinformatics Institute (EMBL-EBI)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "ProteomeHD Database",
+    "url": "https://www.proteomehd.net/",
+    "description": "ProteomeHD is an R script for creating a co-regulation map of the human proteome enables identification of protein functions.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Institute of Biotechnology, Department of Bioanalytics, Berlin, Germany"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "PubMed central Database",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/",
+    "description": "PubMed Central (PMC) is a free full-text archive of biomedical and life sciences journal literature at the U.S. National Institutes of Health's National Library of Medicine (NIH/NLM).",
+    "license": "https://www.ncbi.nlm.nih.gov/pmc/about/copyright/",
+    "creator": {
+      "@type": "Organization",
+      "name": "National Center for Biotechnology Information (NCBI)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "Reactome Database",
+    "url": "https://reactome.org/",
+    "description": "REACTOME is an open-source, open access, manually curated and peer-reviewed pathway database. It's goal is to provide intuitive bioinformatics tools for the visualization, interpretation and analysis of pathway knowledge to support basic and clinical research, genome analysis, modeling, systems biology and education.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "The Reactome group"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "RefSeq Database",
+    "url": "https://www.ncbi.nlm.nih.gov/refseq/",
+    "description": "RefSeq: NCBI Reference Sequence Database, a comprehensive, integrated, non-redundant, well-annotated set of reference sequences including genomic, transcript, and protein.",
+    "license": "https://www.ncbi.nlm.nih.gov/pmc/about/copyright/",
+    "creator": {
+      "@type": "Organization",
+      "name": "National Center for Biotechnology Information (NCBI)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "SGD Database",
+    "url": "https://www.yeastgenome.org/",
+    "description": "The Saccharomyces Genome Database (SGD) provides comprehensive integrated biological information for the budding yeast Saccharomyces cerevisiae.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Stanford University"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "SIMAP Database",
+    "url": "https://cube.univie.ac.at/resources/simap",
+    "description": "The similarity matrix of proteins is a database of protein sequences, their all-against-all sequence similarities and functional annotations. The database is currently re-implemented, based on a different algorithm for sequence similarity calculation.",
+    "license": "https://creativecommons.org/licenses/by/3.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "University of Vienna"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "SMART Database",
+    "url": "http://smart.embl-heidelberg.de/",
+    "description": "SMART (a Simple Modular Architecture Research Tool) allows the identification and annotation of genetically mobile domains and the analysis of domain architectures.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "European Molecular Biology Laboratory (EMBL)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "SwissModel Database",
+    "url": "https://swissmodel.expasy.org/",
+    "description": "SWISS-MODEL is a fully automated protein structure homology-modelling server, accessible via the Expasy web server, or from the program DeepView (Swiss Pdb-Viewer).",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Swiss Institute of Bioinformatics (SIB)"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "TISSUES Database",
+    "url": "http://tissues.jensenlab.org/",
+    "description": "TISSUES is a weekly updated web resource that integrates evidence on tissue expression from manually curated literature, proteomics and transcriptomics screens, and automatic text mining.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "Novo Nordisk Foundation Center for Protein Research"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "UniProt Database",
+    "url": "https://www.uniprot.org/",
+    "description": "UniProt is the world's leading high-quality, comprehensive and freely accessible resource of protein sequence and functional information.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "UniProt consortium"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "WikiPathways Database",
+    "url": "https://www.wikipathways.org/",
+    "description": "WikiPathways is an open science platform for biological pathways contributed, updated, and used by the research community.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "The WikiPathways Team"
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "WormBase Database",
+    "url": "https://wormbase.org/",
+    "description": "WormBase: a modern Model Organism Information Resource",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "WormBase consortium "
+    }
+  },
+  {
+    "@type": "Dataset",
+    "name": "proGenomes Database",
+    "url": "http://progenomes.embl.de/",
+    "description": "proGenomes v3 provides over 900,000 consistently annotated bacterial and archaeal genomes containing 4 billion genes from over 40,000 species.",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "creator": {
+      "@type": "Organization",
+      "name": "European Molecular Biology Laboratory (EMBL)"
+    }
+  }
+]}
+</script>
+<script>
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//tr-denbi.embl.de/heimdall/";
+    _paq.push(['setTrackerUrl', u+'p.php']);
+    _paq.push(['setSiteId', '2']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'p.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<meta name='theme-color' content='transparent'>
+<link rel='shortcut icon' href='/images/favicon.png' />
+<meta name='description' content='STRING is a database of known and predicted protein-protein interactions and a functional enrichment tool.' />
+<title>STRING: functional protein association networks</title><link href='/css/combined_stylesheets.vpy8910.css' rel='stylesheet' type='text/css' onerror='javascript:retryLoad(/css/combined_stylesheets.vpy8910.css, CSS, 1)'/> <script>var js_comm_globals = {  root_address: 'https://string-db.org', web_cgi_dir: '/cgi',  web_images_dir: '/images', web_sse_dir: '/sse',  help_info_url: '/cgi/help?sessionId=bo2hV95Kjmtk', website_name: 'STRING',  task_id: '_notask', session_id: 'bo2hV95Kjmtk',  login_url: 'https://string-db.eu.auth0.com/authorize?client_id=V6E4n1vLLdhvu4HEvX1OBkrRDrLj5YLZ&response_type=code&redirect_uri=https%3A//string-db.org/cgi/login%3Fscript_name%3Dinput', logout_url: 'https://string-db.eu.auth0.com/v2/logout?client_id=V6E4n1vLLdhvu4HEvX1OBkrRDrLj5YLZ&returnTo=https%3A//string-db.org/cgi/logout%3Fscript_name%3Dinput%26show_logout_message%3D1', autocomplete_running_nr: 1,   targetmode: 'proteins', calling_script: 'input',  web_js_dir: '/javascript', js_script_version: 'py9852',  string_database_version_dotted: '12.5',  bot_query: 'False', edge_version: 'None'};
+</script>
+<script src='/javascript/combined_navigation_scripts_incl_scriptaculous_py9852.js' onerror='javascript:retryLoad("/javascript/combined_navigation_scripts_incl_scriptaculous_py9852.js", "JAVASCRIPT", 1)'></script>
+<link rel='canonical' href='https://string-db.org' />
+<link rel='alternate' href='https://cn.string-db.org' />
+<link rel='alternate' href='https://m.string-db.org' />
+</head>
+
+<body id='stringBodyTag'><a href="https://string-db.org/cdn-cgi/content?id=zt5jPlfJpnyszKcZPPo_NRm.YMTAL3hV4yRJcjeM4.c-1790952395.230722-1.2.1.1-9EQYc4p.Qq.gwCkOMaJYWQBHjyJ94_bFj5lyYgoxPBjw6C10GiEMRuZWx0Jqu3dj" aria-hidden="true" rel="nofollow noopener" style="display: none !important; visibility: hidden !important"></a><div style='position:absolute;' class='nodeInfoDivStyle' id='fpWindowDiv' onmouseout='window.status=""; return true;'></div>
+<div style='position:absolute;' class='nodeInfoDivStyle' id='LinkWindowDiv' onmouseout='window.status=""; return true;'></div>
+<div class='top_bar'><div class='container'><div class='left'><ul class='top_bar_list'><li class='header'>Version:</li>
+<li class='last'><a style='font-size:13px;' href='/cgi/access?sessionId=bo2hV95Kjmtk&footer_active_subpage=archive'>12.5</a></ul></div><div class='right'><ul class='top_bar_list'><li><a id='login_display_tag' href='https://string-db.eu.auth0.com/authorize?client_id=V6E4n1vLLdhvu4HEvX1OBkrRDrLj5YLZ&response_type=code&redirect_uri=https%3A//string-db.org/cgi/login%3Fscript_name%3Dinput'>Login</a></li> <li><a id='logout_display_tag' href='https://string-db.org/cgi/register?sessionId=bo2hV95Kjmtk'>Register</a></li> <li><a id='logout_display_tag' href='https://forms.gle/hJ1Guc6N6MLU8Xgk8' target='_blank'>Survey</a></li></ul></div></div></div><div class='main_header'><div class='container'><a id='string_logo_left' class='input_switch_to_home' href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_show_search=on' data-onclick='switch_to_home_banner_view'>STRING</a><a id='string_logo_right' href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_show_search=on' data-onclick='switch_to_search_view'>STRING</a><div class='main_nav'><ul><li><div class='main_nav_item input_switch_to_search'><a class='main_nav_tag' href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_show_search=on' data-onclick='switch_to_search_view' id='search'>Search</a></div></li><li><div class='main_nav_item'><a class='main_nav_tag' href='/cgi/download?sessionId=bo2hV95Kjmtk'>Download</a></div></li><li><div class='main_nav_item'><a class='main_nav_tag' href='/cgi/help?sessionId=bo2hV95Kjmtk'>Help</a></div></li><li><div class='main_nav_item'><a class='main_nav_tag' href='/cgi/my?sessionId=bo2hV95Kjmtk'>My&nbsp;Data</a></div></li></ul>
+</div><!-- end main_nav --></div>
+<div class='shadow'></div></div>
+<div class='input_page_content' id='mc_home' >
+<div class='site_cover'><div class='container'><div class='header_div'><h1>Welcome to STRING</h1><h2>Protein-Protein Interaction Networks<br/>Functional Enrichment Analysis</h2>
+<ul class='frontpage-headline'><li class='lefty'><span class='title'>Organisms</span><br/><span class='value'>12535</span></li><li class='centery'><span class='title'>Proteins</span><br/><span class='value'>59.3 mio</span></li><li class='righty'><span class='title'>Interactions</span><br/><span class='value'>&gt;20 bln</span></li></ul><a href='/cgi/input?input_page_show_search=on&sessionId=bo2hV95Kjmtk' onclick='document.getElementById("search").click(); return false;'>Search</a></div><canvas id='landing_network_sphere' aria-hidden='true' data-asset='/data/landing_spheres/10090.physical.v12.5.sphere.bin?v=1787566103' data-rendering='{&quot;auto_rotation_radians_per_second&quot;:0.07,&quot;bridge_score_cutoff&quot;:750,&quot;initial_pitch&quot;:0.32,&quot;initial_zoom&quot;:1.15,&quot;layout_transform&quot;:{&quot;bridge_release&quot;:0.25,&quot;macro_cohesion&quot;:0.0,&quot;mesoscale_cohesion&quot;:0.0,&quot;micro_tightness&quot;:0.4,&quot;sphere_depth&quot;:1.5},&quot;line_color&quot;:[0.35,0.64,0.74],&quot;line_opacity&quot;:0.055,&quot;line_width_px&quot;:1.0,&quot;maximum_zoom&quot;:2.0,&quot;minimum_zoom&quot;:0.35,&quot;score_cutoff&quot;:750}'></canvas></div><div class='site_cover_network_reference'><div class='site_cover_network_reference_title'>Protein-protein interaction network<button type='button' class='site_cover_network_refresh' title='Show another random network' aria-label='Show another random network' onclick='window.location.reload();'><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M20 4v6h-6'/><path d='M17.6 15a8 8 0 1 1-1.9-8.3L20 10'/></svg></button></div><dl><div><dt>Type:</dt><dd>Physical</dd></div><div><dt>Species:</dt><dd>Mus musculus</dd></div><div><dt>Number of edges:</dt><dd>70,586</dd></div><div><dt>Number of nodes:</dt><dd>10,182</dd></div><div><dt>Score cut-off:</dt><dd>0.750</dd></div></dl></div></div></div><script defer src='/javascript/landing_sphere_py9852.js'></script>
+<div class='input_page_content cell' id='mc_search' style='display:none'><div class='container'><div class='main_content'><div class='menu_wrapper_1'><div class='menu_wrapper_2'><div class='menu_menu'>
+<div class='menu'><div class='default_menu'><div class='active'><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=single_identifier' class='switch_form' id='single_identifier'>Protein by name<span>&nbsp;</span></a></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=multiple_identifiers' class='switch_form' id='multiple_identifiers'>Multiple proteins<span>&nbsp;</span></a></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=multiple_sequences' class='switch_form' id='multiple_sequences'>Proteins by sequences<span>&nbsp;</span></a></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=proteins_with_values' class='switch_form new_span' id='proteins_with_values'>Proteins with Values/Ranks<span>&nbsp;</span></a></div><div class='second_level'><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=COG_family_identifier' class='switch_form' id='protein_families'>Protein families ("COGs")<span>&nbsp;</span></a><div class='second_level_wrapper'><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=COG_family_identifier' class='switch_form' id='COG_family_identifier'><span>&nbsp;</span>... by family name</a></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=COG_single_identifier' class='switch_form' id='COG_single_identifier'><span>&nbsp;</span>... by protein name</a></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=COG_single_sequence' class='switch_form' id='COG_single_sequence'><span>&nbsp;</span>... by protein sequence</a></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=COG_multiple_identifiers' class='switch_form' id='COG_multiple_identifiers'><span>&nbsp;</span>... multiple protein names</a></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=COG_multiple_sequences' class='switch_form' id='COG_multiple_sequences'><span>&nbsp;</span>... multiple sequences</a></div></div></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=single_term' class='switch_form' id='single_term'>Pathway / Process / Disease<span>&nbsp;</span></a></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=annot_proteome' class='switch_form' id='annot_proteome'>Add organism<span>&nbsp;</span></a></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=organisms' class='switch_form' id='organisms'>Organisms<span>&nbsp;</span></a></div><div><a href='#' id='chat' onclick="document.getElementById('chat_form').submit(); return false;">STRING chat<span>&nbsp;</span></a><form id='chat_form' action='/cgi/chat?sessionId=bo2hV95Kjmtk' method='POST' style='display: none;'></form></div><div ><a href='/cgi/input?sessionId=bo2hV95Kjmtk&input_page_active_form=examples' class='switch_form' id='examples'>Examples<span>&nbsp;</span></a></div><div><form id='random_entry' action='/cgi/network' method='post'><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='identifier' value='random'/><input type='hidden' name='targetmode' value='proteins'/><input type='hidden' name='have_user_input' value='1'/><a id='string_random_link_homepage' href='#' onclick="document.getElementById('random_entry').submit(); return false;">Random entry<span>&nbsp;</span></a></form></div></div></div></div><div class='menu_content'><h1>Search</h1><div class='search_input_wrap'>
+<div class='switching_form' id='sf_single_identifier' ><div class='search_input_box'><div class='box_title'>Single Protein by Name / Identifier</div><div class='box' ><form id='input_form_single_identifier' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>Protein Nam&zwnj;e:</label><span class='example_small'>(examples:&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:single_identifier").value="trpA";document.getElementById("required_score_single_identifier_select").selectedIndex="0";document.getElementById("network_type_single_identifier_select").selectedIndex="0";document.getElementById("species_text_single_identifier").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#1</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:single_identifier").value="CDC15";document.getElementById("required_score_single_identifier_select").selectedIndex="2";document.getElementById("network_type_single_identifier_select").selectedIndex="0";document.getElementById("species_text_single_identifier").value = "Saccharomyces cerevisiae"; return false;'>#2</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:single_identifier").value="smoothened";document.getElementById("required_score_single_identifier_select").selectedIndex="2";document.getElementById("network_type_single_identifier_select").selectedIndex="1";toggle_advanced_settings("single_identifier", doNotClose=true);document.getElementById("species_text_single_identifier").value = "auto-detect"; return false;'>#3</a>)</span><div class='wrap_search_item'><input class='input submit_on_enter' id='primary_input:single_identifier' maxlength='50' name='identifier' type='search' autocomplete='on' autofocus/><input name='targetmode' type='hidden' value='proteins'/></div></div></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_single_identifier'><input type='hidden' id='save_favourite_species_single_identifier' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_single_identifier' style='background:white;' id='species_text_single_identifier' value='auto-detect' autocomplete='off' data-updatenodeid='update_species_text_single_identifier' data-indicatornodeid='indicator1_single_identifier' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=1&show_mapped=1&show_full=0' data-initialvalue='auto-detect' data-defaultvalue='auto-detect' data-formid='input_form_single_identifier'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_single_identifier' data-listid='speciesList_single_identifier'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_single_identifier'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_single_identifier' size='10' data-listid='speciesList_single_identifier' data-textid='species_text_single_identifier' data-popupid='speciesFloatingDiv_single_identifier' data-submitafterselect='0' data-kind='species'>
+<option value='auto-detect'>auto-detect</option>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_single_identifier' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_single_identifier' data-textid='species_text_single_identifier' data-popupid='speciesFloatingDiv_single_identifier' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_single_identifier' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_single_identifier' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div class='row_100'><div class='wrap_input_with_examples'><a class='as_label' onclick='toggle_advanced_settings("single_identifier"); return false;'>Advanced Settings</a><div class='wrap_search_item'><div id='as_single_identifier_wrapper' class='advanced_settings_wrapper' style='display:none'><div class='advanced_settings_options' id='as_single_identifier_options'><div style='display:table;'><div style='display:table-row'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Network Type:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='network_type' id='network_type_single_identifier_select' class='data_settings_select' autocomplete='off'><option selected='selected' value='functional'>full STRING network</option><option value='physical' >physical subnetwork</option><option value='regulatory' >regulatory subnetwork</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Network type", "network_type_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Required score:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='required_score' id='required_score_single_identifier_select' class='data_settings_select' autocomplete='off'><option value='900'>highest confidence (0.900)</option><option value='700'>high confidence (0.700)</option><option selected='selected' value='400'>medium confidence (0.400)</option><option value='150'>low confidence (0.150)</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Link score threshold", "score_threshold_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Size&nbsp;cutoff:&nbsp;</div><div class='data_settings_select_wrap'><select name='limit' id='limit_select' class='data_settings_select' autocomplete='off'><option  value='5'>no more than 5 interactors</option><option selected='selected' value='10'>no more than 10  interactors</option><option  value='20'>no more than 20 interactors</option><option  value='50'>no more than 50 interactors</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Expand network", "expand_network_input_explain")'>(?)</a></div></div></div></div></div></div></div></div><script>
+    window.onload = function() {
+    document.querySelectorAll('input[type="file"]').forEach(function(input) { input.value = ''})}</script>
+<div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_single_identifier').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_multiple_identifiers' style='display:none'><div class='search_input_box'><div class='box_title'>Multiple Proteins by Names / Identifiers</div><div class='box' ><form id='input_form_multiple_identifiers' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/><input type='hidden' name='multi_input' value='1'/></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>List Of Names:</label><span class='example_small'>(one-per-line&nbsp;or&nbsp;CSV;&nbsp;examples:&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:multiple_identifiers").value="trpA\ntrpB\nTRPC_ECOLI\nb1263\n";document.getElementById("species_text_multiple_identifiers").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#1</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:multiple_identifiers").value="ANP1_YEAST\nYJR075W\nVAN1\nOLE1\nMNN11\n";document.getElementById("species_text_multiple_identifiers").value = "Saccharomyces cerevisiae"; return false;'>#2</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:multiple_identifiers").value="smoothened, patched, hedgehog, cubitus interruptus\n";document.getElementById("species_text_multiple_identifiers").value = "Drosophila melanogaster"; return false;'>#3</a>)</span><div class='wrap_search_item'><textarea class='textarea' name='identifiers' id='primary_input:multiple_identifiers' rows='5' cols='40' ></textarea><input name='multiple_input_type' type='hidden' value='multi_identifier'/><input name='targetmode' type='hidden' value='proteins'/></div></div></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>... or, upload a file:</label><div class='wrap_search_item'><span class='input_display_file_upload' id='upload_display_multiple_identifiers' onclick='document.getElementById("file_input_multiple_identifiers").click(); return false;'></span><div class='upload_wrapper'><span>Browse ...</span><input id='file_input_multiple_identifiers' name='multiple_input_uploaded_file' type='file' onchange='document.getElementById("upload_display_multiple_identifiers").textContent = this.value.replace("C:\\fakepath\\", "");'/></div></div></div></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_multiple_identifiers'><input type='hidden' id='save_favourite_species_multiple_identifiers' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_multiple_identifiers' style='background:white;' id='species_text_multiple_identifiers' value='auto-detect' autocomplete='off' data-updatenodeid='update_species_text_multiple_identifiers' data-indicatornodeid='indicator1_multiple_identifiers' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=1&show_mapped=1&show_full=0' data-initialvalue='auto-detect' data-defaultvalue='auto-detect' data-formid='input_form_multiple_identifiers'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_multiple_identifiers' data-listid='speciesList_multiple_identifiers'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_multiple_identifiers'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_multiple_identifiers' size='10' data-listid='speciesList_multiple_identifiers' data-textid='species_text_multiple_identifiers' data-popupid='speciesFloatingDiv_multiple_identifiers' data-submitafterselect='0' data-kind='species'>
+<option value='auto-detect'>auto-detect</option>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_multiple_identifiers' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_multiple_identifiers' data-textid='species_text_multiple_identifiers' data-popupid='speciesFloatingDiv_multiple_identifiers' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_multiple_identifiers' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_multiple_identifiers' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div class='row_100'><div class='wrap_input_with_examples'><a class='as_label' onclick='toggle_advanced_settings("multiple_identifiers"); return false;'>Advanced Settings</a><div class='wrap_search_item'><div id='as_multiple_identifiers_wrapper' class='advanced_settings_wrapper' style='display:none'><div class='advanced_settings_options' id='as_multiple_identifiers_options'><div style='display:table;'><div style='display:table-row'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Network Type:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='network_type' id='network_type_multiple_identifiers_select' class='data_settings_select' autocomplete='off'><option selected='selected' value='functional'>full STRING network</option><option value='physical' >physical subnetwork</option><option value='regulatory' >regulatory subnetwork</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Network type", "network_type_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Required score:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='required_score' id='required_score_multiple_identifiers_select' class='data_settings_select' autocomplete='off'><option value='900'>highest confidence (0.900)</option><option value='700'>high confidence (0.700)</option><option selected='selected' value='400'>medium confidence (0.400)</option><option value='150'>low confidence (0.150)</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Link score threshold", "score_threshold_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>FDR&nbsp;stringency:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='net_fdr' id='net_fdr_multiple_identifiers_select' class='data_settings_select' autocomplete='off'><option value='0.01'>high (1 percent)</option><option selected='selected' value='0.05'>medium (5 percent)</option><option value='0.25'>lenient (25 percent)</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "FDR cut-off", "fdr_input_explain")'>(?)</a></div></div></div></div></div></div></div></div><script>
+    window.onload = function() {
+    document.querySelectorAll('input[type="file"]').forEach(function(input) { input.value = ''})}</script>
+<div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_multiple_identifiers').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_identifier_pair' style='display:none'><div class='search_input_box'><div class='box_title'>Protein Pair by Name/Identifier</div><div class='box' ><form id='input_form_identifier_pair' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/><input type='hidden' name='multi_input' value='1'/></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_identifier_pair'><input type='hidden' id='save_favourite_species_identifier_pair' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_identifier_pair' style='background:white;' id='species_text_identifier_pair' value='auto-detect' autocomplete='off' data-updatenodeid='update_species_text_identifier_pair' data-indicatornodeid='indicator1_identifier_pair' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=1&show_mapped=1&show_full=0' data-initialvalue='auto-detect' data-defaultvalue='auto-detect' data-formid='input_form_identifier_pair'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_identifier_pair' data-listid='speciesList_identifier_pair'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_identifier_pair'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_identifier_pair' size='10' data-listid='speciesList_identifier_pair' data-textid='species_text_identifier_pair' data-popupid='speciesFloatingDiv_identifier_pair' data-submitafterselect='0' data-kind='species'>
+<option value='auto-detect'>auto-detect</option>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_identifier_pair' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_identifier_pair' data-textid='species_text_identifier_pair' data-popupid='speciesFloatingDiv_identifier_pair' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_identifier_pair' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_identifier_pair' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div class='row_100'><div class='wrap_input_with_examples'><a class='as_label' onclick='toggle_advanced_settings("identifier_pair"); return false;'>Advanced Settings</a><div class='wrap_search_item'><div id='as_identifier_pair_wrapper' class='advanced_settings_wrapper' style='display:none'><div class='advanced_settings_options' id='as_identifier_pair_options'><div style='display:table;'><div style='display:table-row'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Network Type:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='network_type' id='network_type_identifier_pair_select' class='data_settings_select' autocomplete='off'><option selected='selected' value='functional'>full STRING network</option><option value='physical' >physical subnetwork</option><option value='regulatory' >regulatory subnetwork</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Network type", "network_type_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Required score:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='required_score' id='required_score_identifier_pair_select' class='data_settings_select' autocomplete='off'><option value='900'>highest confidence (0.900)</option><option value='700'>high confidence (0.700)</option><option selected='selected' value='400'>medium confidence (0.400)</option><option value='150'>low confidence (0.150)</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Link score threshold", "score_threshold_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>FDR&nbsp;stringency:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='net_fdr' id='net_fdr_identifier_pair_select' class='data_settings_select' autocomplete='off'><option value='0.01'>high (1 percent)</option><option selected='selected' value='0.05'>medium (5 percent)</option><option value='0.25'>lenient (25 percent)</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "FDR cut-off", "fdr_input_explain")'>(?)</a></div></div></div></div></div></div></div></div><script>
+    window.onload = function() {
+    document.querySelectorAll('input[type="file"]').forEach(function(input) { input.value = ''})}</script>
+<div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_identifier_pair').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_chat' style='display:none'><div class='search_input_box'><div class='box_title'>STRING chat</div><div class='box' ><form id='input_form_chat' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_chat'><input type='hidden' id='save_favourite_species_chat' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_chat' style='background:white;' id='species_text_chat' value='auto-detect' autocomplete='off' data-updatenodeid='update_species_text_chat' data-indicatornodeid='indicator1_chat' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=1&show_mapped=1&show_full=0' data-initialvalue='auto-detect' data-defaultvalue='auto-detect' data-formid='input_form_chat'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_chat' data-listid='speciesList_chat'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_chat'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_chat' size='10' data-listid='speciesList_chat' data-textid='species_text_chat' data-popupid='speciesFloatingDiv_chat' data-submitafterselect='0' data-kind='species'>
+<option value='auto-detect'>auto-detect</option>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_chat' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_chat' data-textid='species_text_chat' data-popupid='speciesFloatingDiv_chat' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_chat' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_chat' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_chat').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_multiple_sequences' style='display:none'><div class='search_input_box'><div class='box_title'>Single / Multiple Proteins by Sequence</div><div class='box' ><form id='input_form_multiple_sequences' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/><input type='hidden' name='multi_input' value='1'/></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>Amino Acid Sequence(s):</label><span class='example_small'>(examples:&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:multiple_sequences").value=">ANP1_YEAST\nMKYNNRKLSFNPTTVSIAGTLLTVFFLTRLVLSFFSISLFQLVTFQGIFKPYVPDFKNTPSVEFYDLRNYQGNKDGWQQGDRILFCVPLRDASEHLPMFFNHLNTMTYPHNLIDLSFLVSDSSDNTMGVLLSNLQMAQSQQDKSKRFGNIEIYEKDFGQIIGQSFSDRHGFGAQGPRRKLMARARNWLGSVALKPYHSWVYWRDVDVETIPTTIMEDLMHHDKDVIVPNVWRPLPDWLGNIQPYDLNSWKESEGGLQLADSLDEDAVIVEGYPEYATWRPHLAYMRDPNGNPEDEMELDGIGGVSILAKAKVFRTGSHFPAFSFEKHAETEAFGRLSRRMNYNVIGLPHYVIWHIYEPSSDDLKHMAWMAEEEKRKLEEERIREFYNKIWEIGFEDVRDQWNEERDSILKNIDSTLNNKVTVDWSEEGDGSELVDSKGDFVSPNNQQQQQQQQQQQQQQQQQQQQQQLDGNPQGKPLDDNDKNKKKHPKEVPLDFDPDRN";document.getElementById("required_score_multiple_sequences_select").selectedIndex="2";document.getElementById("network_type_multiple_sequences_select").selectedIndex="0";document.getElementById("species_text_multiple_sequences").value = "Saccharomyces cerevisiae"; return false;'>#1</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:multiple_sequences").value=">SMO_DROME\nMQYLNFPRMPNIMMFLEVAILCLWVVADASASSAKFGSTTPASAQQSDVELEPINGTLNYRLYAKKGRDDKPWFDGLDSRHIQCVRRARCYPTSNATNTCFGSKLPYELSSLDLTDFHTEKELNDKLNDYYALKHVPKCWAAIQPFLCAVFKPKCEKINGEDMVYLPSYEMCRITMEPCRILYNTTFFPKFLRCNETLFPTKCTNGARGMKFNGTGQCLSPLVPTDTSASYYPGIEGCGVRCKDPLYTDDEHRQIHKLIGWAGSICLLSNLFVVSTFFIDWKNANKYPAVIVFYINLCFLIACVGWLLQFTSGSREDIVCRKDGTLRHSEPTAGENLSCIVIFVLVYYFLTAGMVWFVFLTYAWHWRAMGHVQDRIDKKGSYFHLVAWSLPLVLTITTMAFSEVDGNSIVGICFVGYINHSMRAGLLLGPLCGVILIGGYFITRGMVMLFGLKHFANDIKSTSASNKIHLIIMRMGVCALLTLVFILVAIACHVTEFRHADEWAQSFRQFIICKISSVFEEKSSCRIENRPSVGVLQLHLLCLFSSGIVMSTWCWTPSSIETWKRYIRKKCGKEVVEEVKMPKHKVIAQTWAKRKDFEDKGRLSITLYNTHTDPVGLNFDVNDLNSSETNDISSTWAAYLPQCVKRRMALTGAATGNSSSHGPRKNSLDSEISVSVRHVSVESRRNSVDSQVSVKIAEMKTKVASRSRGKHGGSSSNRRTQRRRDYIAAATGKSSRRRESSTSVESQVIALKKTTYPNASHKVGVFAHHSSKKQHNYTSSMKRRTANAGLDPSILNEFLQKNGDFIFPFLQNQDMSSSSEEDNSRASQKIQDLNVVVKQQEISEDDHDGIKIEELPNSKQVALENFLKNIKKSNESNSNRHSRNSARSQSKKSQKRHLKNPAADLDFRKDCVKYRSNDSLSCSSEELDVALDVGSLLNSSFSGISMGKPHSRNSKTSCDVGIQANPFELVPSYGEDELQQAMRLLNAASRQRTEAANEDFGGTELQGLLGHSHRHQREPTFMSESDKLKMLLLPSK";document.getElementById("required_score_multiple_sequences_select").selectedIndex="2";document.getElementById("network_type_multiple_sequences_select").selectedIndex="1";toggle_advanced_settings("multiple_sequences", doNotClose=true);document.getElementById("species_text_multiple_sequences").value = "Drosophila melanogaster"; return false;'>#2</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:multiple_sequences").value=">TRPA_ECOLI\nMERYESLFAQLKERKEGAFVPFVTLGDPGIEQSLKIIDTLIEAGADALELGIPFSDPLADGPTIQNATLRAFAAGVTPAQCFEMLALIRQKHPTIPIGLLMYANLVFNKGIDEFYAQCEKVGVDSVLVADVPVEESAPFRQAALRHNVAPIFICPPNADDDLLRQIASYGRGYTYLLSRAGVTGAENRAALPLNHLVAKLKEYNAAPPLQGFGISAPDQVKAAIDAGAAGAISGSAIVKIIEQHINEPEKMLAALKVFVQPMKAATRS\n>TRPB_ECOLI\nMTTLLNPYFGEFGGMYVPQILMPALRQLEEAFVSAQKDPEFQAQFNDLLKNYAGRPTALTKCQNITAGTNTTLYLKREDLLHGGAHKTNQVLGQALLAKRMGKTEIIAETGAGQHGVASALASALLGLKCRIYMGAKDVERQSPNVFRMRLMGAEVIPVHSGSATLKDACNEALRDWSGSYETAHYMLGTAAGPHPYPTIVREFQRMIGEETKAQILEREGRLPDAVIACVGGGSNAIGMFADFINETNVGLIGVEPGGHGIETGEHGAPLKHGRVGIYFGMKAPMMQTEDGQIEESYSISAGLDFPSVGPQHAYLNSTGRADYVSITDDEALEAFKTLCLHEGIIPALESSHALAHALKMMRENPDKEQLLVVNLSGRGDKDIFTVHDILKARGEI\n>TRPC_ECOLI\nMQTVLAKIVADKAIWVEARKQQQPLASFQNEVQPSTRHFYDALQGARTAFILECKKASPSKGVIRDDFDPARIAAIYKHYASAISVLTDEKYFQGSFNFLPIVSQIAPQPILCKDFIIDPYQIYLARYYQADACLLMLSVLDDDQYRQLAAVAHSLEMGVLTEVSNEEEQERAIALGAKVVGINNRDLRDLSIDLNRTRELAPKLGHNVTVISESGINTYAQVRELSHFANGFLIGSALMAHDDLHAAVRRVLLGENKVCGLTRGQDAKAAYDAGAIYGGLIFVATSPRCVNVEQAQEVMAAAPLQYVGVFRNHDIADVVDKAKVLSLAAVQLHGNEEQLYIDTLREALPAHVAIWKALSVGETLPAREFQHVDKYVLDNGQGGSGQRFDWSLLNGQSLGNVLLAGGLGADNCVEAAQTGCAGLDFNSAVESQPGIKDARLLASVFQTLRAY\n>TRPD_ECOLI\nMADILLLDNIDSFTYNLADQLRSNGHNVVIYRNHIPAQTLIERLATMSNPVLMLSPGPGVPSEAGCMPELLTRLRGKLPIIGICLGHQAIVEAYGGYVGQAGEILHGKASSIEHDGQAMFAGLTNPLPVARYHSLVGSNIPAGLTINAHFNGMVMAVRHDADRVCGFQFHPESILTTQGARLLEQTLAWAQQKLEPANTLQPILEKLYQAQTLSQQESHQLFSAVVRGELKPEQLAAALVSMKIRGEHPNEIAGAATALLENAAPFPRPDYLFADIVGTGGDGSNSINISTASAFVAAACGLKVAKHGNRSVSSKSGSSDLLAAFGINLDMNADKSRQALDELGVCFLFAPKYHTGFRHAMPVRQQLKTRTLFNVLGPLINPAHPPLALIGVYSPELVLPIAETLRVLGYQRAAVVHSGGMDEVSLHAPTIVAELHDGEIKSYQLTAEDFGLTPYHQEQLAGGTPEENRDILTRLLQGKGDAAHEAAVAANVAMLMRLHGHEDLQANAQTVLEVLRSGSAYDRVTALAARG\n";document.getElementById("species_text_multiple_sequences").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#3</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:multiple_sequences").value=">b2022\nMSQKYLFIDRDGTLISEPPSDFQVDRFDKLAFEPGVIPELLKLQKAGYKLVMITNQDGLGTQSFPQADFDGPHNLMMQIFTSQGVQFDEVLICPHLPADECDCRKPKVKLVERYLAEQAMDRANSYVIGDRATDIQLAENMGITGLRYDRETLNWPMIGEQLTRRDRYAHVVRNTKETQIDVQVWLDREGGSKINTGVGFFDHMLDQIATHGGFRMEINVKGDLYIDDHHTVEDTGLALGEALKIALGDKRGICRFGFVLPMDECLARCALDISGRPHLEYKAEFTYQRVGDLSTEMIEHFFRSLSYTMGVTLHLKTKGKNDHHRVESLFKAFGRTLRQAIRVEGDTLPSSKGVL\n>b2023\nMNVVILDTGCANLNSVKSAIARHGYEPKVSRDPDVVLLADKLFLPGVGTAQAAMDQVRERELFDLIKACTQPVLGICLGMQLLGRRSEESNGVDLLGIIDEDVPKMTDFGLPLPHMGWNRVYPQAGNRLFQGIEDGAYFYFVHSYAMPVNPWTIAQCNYGEPFTAAVQKDNFYGVQFHPERSGAAGAKLLKNFLEM\n>b2024\nMIIPALDLIDGTVVRLHQGDYGKQRDYGNDPLPRLQDYAAQGAEVLHLVDLTGAKDPAKRQIPLIKTLVAGVNVPVQVGGGVRSEEDVAALLEAGVARVVVGSTAVKSQDMVKGWFERFGADALVLALDVRIDEQGNKQVAVSGWQENSGVSLEQLVETYLPVGLKHVLCTDISRDGTLAGSNVSLYEEVCARYPQVAFQSSGGIGDIDDVAALRGTGVRGVIVGRALLEGKFTVKEAIACWQNA\n>b2026\nMLTEQQRRELDWEKTDGLMPVIVQHAVSGEVLMLGYMNPEALDKTLESGKVTFFSRTKQRLWTKGETSGNFLNVVSIAPDCDNDTLLVLANPIGPTCHKGTSSCFGDTAHQWLFLYQLEQLLAERKSADPETSYTAKLYASGTKRIAQKVGEEGVETALAATVHDRFELTNEASDLMYHLLVLLQDQGLDLTTVIENLRKRHQ\n";document.getElementById("species_text_multiple_sequences").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#4</a>)</span><div class='wrap_search_item'><textarea class='textarea' name='sequences' id='primary_input:multiple_sequences' rows='5' cols='40' ></textarea><input name='multiple_input_type' type='hidden' value='multi_sequence'/><input name='targetmode' type='hidden' value='proteins'/></div></div></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>... or, upload a file:</label><div class='wrap_search_item'><span class='input_display_file_upload' id='upload_display_multiple_sequences' onclick='document.getElementById("file_input_multiple_sequences").click(); return false;'></span><div class='upload_wrapper'><span>Browse ...</span><input id='file_input_multiple_sequences' name='multiple_input_uploaded_file' type='file' onchange='document.getElementById("upload_display_multiple_sequences").textContent = this.value.replace("C:\\fakepath\\", "");'/></div></div></div></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_multiple_sequences'><input type='hidden' id='save_favourite_species_multiple_sequences' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_multiple_sequences' style='background:white;' id='species_text_multiple_sequences' value='auto-detect' autocomplete='off' data-updatenodeid='update_species_text_multiple_sequences' data-indicatornodeid='indicator1_multiple_sequences' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=1&show_mapped=1&show_full=0' data-initialvalue='auto-detect' data-defaultvalue='auto-detect' data-formid='input_form_multiple_sequences'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_multiple_sequences' data-listid='speciesList_multiple_sequences'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_multiple_sequences'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_multiple_sequences' size='10' data-listid='speciesList_multiple_sequences' data-textid='species_text_multiple_sequences' data-popupid='speciesFloatingDiv_multiple_sequences' data-submitafterselect='0' data-kind='species'>
+<option value='auto-detect'>auto-detect</option>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_multiple_sequences' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_multiple_sequences' data-textid='species_text_multiple_sequences' data-popupid='speciesFloatingDiv_multiple_sequences' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_multiple_sequences' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_multiple_sequences' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div class='row_100'><div class='wrap_input_with_examples'><a class='as_label' onclick='toggle_advanced_settings("multiple_sequences"); return false;'>Advanced Settings</a><div class='wrap_search_item'><div id='as_multiple_sequences_wrapper' class='advanced_settings_wrapper' style='display:none'><div class='advanced_settings_options' id='as_multiple_sequences_options'><div style='display:table;'><div style='display:table-row'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Network Type:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='network_type' id='network_type_multiple_sequences_select' class='data_settings_select' autocomplete='off'><option selected='selected' value='functional'>full STRING network</option><option value='physical' >physical subnetwork</option><option value='regulatory' >regulatory subnetwork</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Network type", "network_type_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Required score:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='required_score' id='required_score_multiple_sequences_select' class='data_settings_select' autocomplete='off'><option value='900'>highest confidence (0.900)</option><option value='700'>high confidence (0.700)</option><option selected='selected' value='400'>medium confidence (0.400)</option><option value='150'>low confidence (0.150)</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Link score threshold", "score_threshold_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>FDR&nbsp;stringency:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='net_fdr' id='net_fdr_multiple_sequences_select' class='data_settings_select' autocomplete='off'><option value='0.01'>high (1 percent)</option><option selected='selected' value='0.05'>medium (5 percent)</option><option value='0.25'>lenient (25 percent)</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "FDR cut-off", "fdr_input_explain")'>(?)</a></div></div></div></div></div></div></div></div><script>
+    window.onload = function() {
+    document.querySelectorAll('input[type="file"]').forEach(function(input) { input.value = ''})}</script>
+<div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_multiple_sequences').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_proteins_with_values' style='display:none'><div class='search_input_box'><div class='box_title'>Proteins with Values/Ranks - Functional Enrichment Analysis</div><div class='search_form_explain'>Submit your entire experiment as a list of proteins - no cutoffs. <br/>Behind each protein, put a meaningful value for ranking  (fold-change, log-pvalue, abundance, ...).</div><div class='box' ><form id='input_form_proteins_with_values' action='/cgi/globalenrichment' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/><input type='hidden' name='multi_input' value='1'/></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>Proteins with Values:</label><span class='example_small'>(one-per-line;&nbsp;examples:&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:proteins_with_values").value="## STRING.v11 example file pwv#1\n## fold-changes, melanoma vs. normal\n##\n## protein 	 fold-change\nENSP00000340989	-4.611908002250823\nENSP00000167586	-4.9942315347646105\nENSP00000252244	-5.133657767714199\nENSP00000269576	-2.6600787261152607\nENSP00000367891	-6.6132404743408575\nENSP00000339251	-5.734738953598519\nENSP00000430242	-7.140458097049176\nENSP00000342012	-6.4867482090614805\nENSP00000252242	-5.933264291937432\nENSP00000310861	-6.134579536042721\nENSP00000369129	-3.9667480844011016\nENSP00000397157	-2.6673025621891724\nENSP00000357731	-6.848695263892816\nENSP00000357789	-7.031575998772657\nENSP00000319009	-3.223958686423196\nENSP00000360269	-5.893187560824975\n[...]\n";document.getElementById("species_text_proteins_with_values").value = "Homo sapiens"; return false;'>#1</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:proteins_with_values").value="## STRING.v11 example file pwv#2\n## fold-changes, human liver, male vs. female\n##\n## protein 	 log-fold-change	sex\n1/2-SBSRNA4	-0.02355	female\nA1BG		-0.02341	female\nA1BG-AS1	0.00486		male\nA1CF		-0.05375	female\nA2LD1		-0.02964	female\nA2M		0.04167		male\nA2ML1		-0.00523	female\nA4GALT		-0.02628	female\nA4GNT		-0.0495		female\nAAAS		0.00899		male\nAACS		0.00064		male\nAADAC		-0.02646	female\nAADACL2	0.08912		male\nAADAT		-0.05998	female\n[...]\n";document.getElementById("species_text_proteins_with_values").value = "Homo sapiens"; return false;'>#2</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:proteins_with_values").value="## STRING.v11 example file pwv#3\n## average cellular abundance, log-transformed\n##\n## protein 	 log-abundance\nQ0070 		 -6.90775527898214\nYGL109W 	 -6.21460809842219\nYJL113W 	 -5.52146091786225\nQ0110 		 -5.11599580975408\nYCR089W 	 -5.11599580975408\nYDR545C 	 -5.11599580975408\nYGR296C 	 -5.11599580975408\nYLR466C 	 -5.11599580975408\nYOR396C 	 -5.11599580975408\nYPL283W 	 -5.11599580975408\nYPR204C 	 -5.11599580975408\nQ0050 		 -4.96184512992682\nYKL083W 	 -4.8283137373023\nYNL237W 	 -4.8283137373023\nYJL022W 	 -4.71053070164592\n[...]\n";document.getElementById("species_text_proteins_with_values").value = "Saccharomyces cerevisiae"; return false;'>#3</a>)</span><div class='wrap_search_item'><textarea class='textarea' name='identifiers' id='primary_input:proteins_with_values' rows='7' cols='40' ></textarea><input name='multiple_input_type' type='hidden' value='multi_id_with_values'/><input name='targetmode' type='hidden' value='proteins'/></div></div></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>... or, upload a file:</label><div class='wrap_search_item'><span class='input_display_file_upload' id='upload_display_proteins_with_values' onclick='document.getElementById("file_input_proteins_with_values").click(); return false;'></span><div class='upload_wrapper'><span>Browse ...</span><input id='file_input_proteins_with_values' name='multiple_input_uploaded_file' type='file' onchange='document.getElementById("upload_display_proteins_with_values").textContent = this.value.replace("C:\\fakepath\\", "");'/></div></div></div></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_proteins_with_values'><input type='hidden' id='save_favourite_species_proteins_with_values' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_proteins_with_values' style='background:white;' id='species_text_proteins_with_values' value='choose an organism' autocomplete='off' data-updatenodeid='update_species_text_proteins_with_values' data-indicatornodeid='indicator1_proteins_with_values' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=0&show_mapped=1&show_full=0' data-initialvalue='choose an organism' data-defaultvalue='choose an organism' data-formid='input_form_proteins_with_values'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_proteins_with_values' data-listid='speciesList_proteins_with_values'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_proteins_with_values'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_proteins_with_values' size='10' data-listid='speciesList_proteins_with_values' data-textid='species_text_proteins_with_values' data-popupid='speciesFloatingDiv_proteins_with_values' data-submitafterselect='0' data-kind='species'>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_proteins_with_values' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_proteins_with_values' data-textid='species_text_proteins_with_values' data-popupid='speciesFloatingDiv_proteins_with_values' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_proteins_with_values' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_proteins_with_values' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div class='row_100'><div class='wrap_input_with_examples'><a class='as_label' onclick='toggle_advanced_settings("proteins_with_values"); return false;'>Advanced Settings</a><div class='wrap_search_item'><div id='as_proteins_with_values_wrapper' class='advanced_settings_wrapper' style='display:none'><div class='advanced_settings_options' id='as_proteins_with_values_options'><div style='display:table;'><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>FDR&nbsp;stringency:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='ge_fdr' id='score_select' class='data_settings_select' autocomplete='off'><option selected='selected' value='0.01'>high (1 percent)</option><option value='0.05'>medium (5 percent)</option><option value='0.25'>lenient (25 percent)</option></select></div></div><div style='display:table-row'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Value/Rank&nbsp;direction:&nbsp;</div><div class='data_settings_select_wrap'><select name='ge_enrichment_rank_direction' id='order_select' class='data_settings_select' autocomplete='off'><option selected='selected' value='1'>ascending</option><option value='-1'>descending</option></select></div></div><div style='display:table-row'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Initial&nbsp;sort&nbsp;order:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='ge_enrichment_tables_sort_column' id='order_select' class='data_settings_select' autocomplete='off'><option selected='selected' value='3'>enrichment score</option><option value='6'>significance</option><option value='5'>pathway size</option></select></div></div></div></div></div></div></div></div><div class='row_100'><div class='view_settings_checkbox_wrap'><input id='data_share_permission' name='query_data_share_permission' type='checkbox'/><label for='data_share_permission' style='color:gray;'> contribute your query for community benchmarking (one-year delay)</label></div></div><script>
+    window.onload = function() {
+    document.querySelectorAll('input[type="file"]').forEach(function(input) { input.value = ''})}</script>
+<div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_proteins_with_values').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_single_term' style='display:none'><div class='search_input_box'><div class='box_title'>Geneset by Pathway / Process / Disease  / Publication</div><div class='search_form_explain'>Search for any pathway name and visualize its proteins as a STRING network. You can query any identifier or a keyword matching, among others, <b>Gene Ontology terms</b>, <b>KEGG pathways</b>, and <b>diseases</b>, but also <b>published manuscripts</b> that may discuss groups of genes.</div><div class='box' ><form id='input_form_single_term' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/></div><div><div class='wrap_input_with_examples'><span class='example_small'>(examples:&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:single_term").value="Melanoma";document.getElementById("species_text_single_term").value = "Homo sapiens"; return false;'>#1</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:single_term").value="Carbon fixation";document.getElementById("species_text_single_term").value = "Arabidopsis thaliana"; return false;'>#2</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:single_term").value="PMID:33743212";document.getElementById("species_text_single_term").value = "Homo sapiens"; return false;'>#3</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:single_term").value="Cell cycle arrest";document.getElementById("species_text_single_term").value = "Homo sapiens"; return false;'>#4</a>)</span><div style='height:3em;vertical-align:top;min-width:300px;'><div id='term_text_input'><label class='label'>Search term:</label><div class='wrap_search_item'><input class='input stringdb_term_input' submit_on_enter type='search' name='network_term_text'  id='primary_input:single_term' style='background:white;' autofocus id='term_text' value='' autocomplete='on' data-updatenodeid='update_term_text' data-indicatornodeid='indicator1term' data-callbackscript='/cgi/querytermsnames' data-initialvalue='' data-defaultvalue='' data-formid='input_form_single_term'/>
+</div>
+<span id='indicator1term' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_term_text' class='autocomplete'  style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_single_term'><input type='hidden' id='save_favourite_species_single_term' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_single_term' style='background:white;' id='species_text_single_term' value='auto-detect' autocomplete='off' data-updatenodeid='update_species_text_single_term' data-indicatornodeid='indicator1_single_term' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=0&show_mapped=1&show_full=0' data-initialvalue='auto-detect' data-defaultvalue='auto-detect' data-formid='input_form_single_term'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_single_term' data-listid='speciesList_single_term'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_single_term'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_single_term' size='10' data-listid='speciesList_single_term' data-textid='species_text_single_term' data-popupid='speciesFloatingDiv_single_term' data-submitafterselect='0' data-kind='species'>
+<option value='auto-detect'>auto-detect</option>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_single_term' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_single_term' data-textid='species_text_single_term' data-popupid='speciesFloatingDiv_single_term' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_single_term' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_single_term' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div style='margin-top: 0px;'><a style='margin-top:20px;' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_single_term').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_organisms' style='display:none'><div class='search_input_box'><div class='box_title'>Organisms and Clades</div><div class='box' ><form id='input_form_organisms' action='/cgi/organisms' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_organisms'><input type='hidden' id='save_favourite_species_organisms' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_organisms' style='background:white;' id='species_text_organisms' value='choose an organism' autocomplete='off' data-updatenodeid='update_species_text_organisms' data-indicatornodeid='indicator1_organisms' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=1&show_mapped=1&show_full=0' data-initialvalue='choose an organism' data-defaultvalue='choose an organism' data-formid='input_form_organisms'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_organisms' data-listid='speciesList_organisms'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_organisms'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_organisms' size='10' data-listid='speciesList_organisms' data-textid='species_text_organisms' data-popupid='speciesFloatingDiv_organisms' data-submitafterselect='0' data-kind='species'>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_organisms' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_organisms' data-textid='species_text_organisms' data-popupid='speciesFloatingDiv_organisms' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_organisms' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_organisms' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_organisms').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_annot_proteome' style='display:none'><div class='search_input_box'><div class='box_title'>Add any organism to STRING / Annotate proteome</div><div class='search_form_explain'>Upload a complete species proteome to STRING, and we'll generate its interaction network and predict protein functions, including <b>Gene Ontology</b> terms and <b>KEGG</b> pathways. Once uploaded, you can explore and analyze your proteome data through our <b>web interface</b>, access it programmatically via <b>API</b>, or <b>download</b> all predictions in bulk.</div><br/><img style='margin-left:12%;width:80%;'src=/images/uploadpic_0005.png></img><div class='box' ><form id='input_form_annot_proteome' action='/cgi/uploadproteome' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/></div><div><div class='wrap_input'></div></div><div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_annot_proteome').submit();"><div> </div>&nbsp;Upload Proteome&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_examples' style='display:none'><div class='search_input_box'><div class='box_title'>Examples and Highlights</div><div class='box' style='padding-left:50px; padding-right:50px;'><h2>Example 1</h2><div class='example_explainer'><form id='example_1' action='/cgi/network' method='post'><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='identifier' value='4932.YMR246W'/><input type='hidden' name='required_score' value='700'/><a class='button' style='display:block;float:right;' href='#' onclick="document.getElementById('example_1').submit(); return false;">show</a></form><i>FAA4 and its ten most confident interactors.</i><br/>FAA4 in yeast is a long chain fatty acyl-CoA synthetase; see it connected to other synthetases as well as regulators.<br/>&nbsp;</div><h2>Example 2</h2><div class='example_explainer'><form id='example_2' action='/cgi/network' method='post'><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='identifiers' value='CDKN2A%0DSF3B1%0DPIK3CA%0DCIC%0DNRAS%0DERBB3%0DPIK3R1%0DNF1%0DNCOR1%0DCTNNB1%0DAPC%0DDNMT3A%0DLPHN2%0DIDH1%0DTP53%0DFLT3%0DBRAF%0DFBXW7%0DPTEN%0DSMAD4'/><input type='hidden' name='required_score' value='900'/><input type='hidden' name='species' value='9606'/><input type='hidden' name='limit' value='0'/><a class='button' style='display:block;float:right;' href='#' onclick="document.getElementById('example_2').submit(); return false;">show</a></form><i>The 20 most frequently mutated human cancer genes.</i><br/>These have a higher-than-expected degree of interconnectivity, and are enriched in characteristic molecular functions.<br/>&nbsp;</div><h2>Example 3</h2><div class='example_explainer'><form id='example_3' action='/cgi/network' method='post'><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='identifier' value='694430.Natoc_0297'/><input type='hidden' name='required_score' value='400'/><a class='button' style='display:block;float:right;' href='#' onclick="document.getElementById('example_3').submit(); return false;">show</a></form><i>A poorly characterized protein from Natronococcus.</i><br/>It has no annotated domains or functions, but shows some intriguing connections to possible DNA-replication or -repair proteins.<br/>&nbsp;</div></div></div></div><div class='switching_form' id='sf_COG_family_identifier' style='display:none'><div class='search_input_box'><div class='box_title'>Protein Family by Name</div><div class='box' ><form id='input_form_COG_family_identifier' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>Protein Family Name:</label><span class='example_small'>(examples:&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_family_identifier").value="COG0133";return false;'>#1</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_family_identifier").value="COG0169";return false;'>#2</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_family_identifier").value="COG0214";return false;'>#3</a>)</span><div class='wrap_search_item'><input class='input submit_on_enter' id='primary_input:COG_family_identifier' maxlength='50' name='identifier' type='search' /><input name='targetmode' type='hidden' value='cogs'/></div></div></div><div class='row_100'><div class='wrap_input_with_examples'><a class='as_label' onclick='toggle_advanced_settings("COG_family_identifier"); return false;'>Advanced Settings</a><div class='wrap_search_item'><div id='as_COG_family_identifier_wrapper' class='advanced_settings_wrapper' style='display:none'><div class='advanced_settings_options' id='as_COG_family_identifier_options'><div style='display:table;'><div style='display:table-row'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Network Type:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='network_type' id='network_type_COG_family_identifier_select' class='data_settings_select' autocomplete='off'><option selected='selected' value='functional'>full STRING network</option><option value='physical' >physical subnetwork</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Network type", "network_type_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Required score:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='required_score' id='required_score_COG_family_identifier_select' class='data_settings_select' autocomplete='off'><option value='900'>highest confidence (0.900)</option><option value='700'>high confidence (0.700)</option><option selected='selected' value='400'>medium confidence (0.400)</option><option value='150'>low confidence (0.150)</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Link score threshold", "score_threshold_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Size&nbsp;cutoff:&nbsp;</div><div class='data_settings_select_wrap'><select name='limit' id='limit_select' class='data_settings_select' autocomplete='off'><option  value='5'>no more than 5 interactors</option><option selected='selected' value='10'>no more than 10  interactors</option><option  value='20'>no more than 20 interactors</option><option  value='50'>no more than 50 interactors</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Expand network", "expand_network_input_explain")'>(?)</a></div></div></div></div></div></div></div></div><script>
+    window.onload = function() {
+    document.querySelectorAll('input[type="file"]').forEach(function(input) { input.value = ''})}</script>
+<div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_COG_family_identifier').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_COG_single_identifier' style='display:none'><div class='search_input_box'><div class='box_title'>Protein Family by Protein Name</div><div class='box' ><form id='input_form_COG_single_identifier' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>Protein Name:</label><span class='example_small'>(examples:&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_single_identifier").value="trpA";document.getElementById("species_text_COG_single_identifier").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#1</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_single_identifier").value="pstB";document.getElementById("species_text_COG_single_identifier").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#2</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_single_identifier").value="enolase";document.getElementById("species_text_COG_single_identifier").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#3</a>)</span><div class='wrap_search_item'><input class='input submit_on_enter' id='primary_input:COG_single_identifier' maxlength='50' name='identifier' type='search' /><input name='targetmode' type='hidden' value='cogs'/></div></div></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_COG_single_identifier'><input type='hidden' id='save_favourite_species_COG_single_identifier' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_COG_single_identifier' style='background:white;' id='species_text_COG_single_identifier' value='auto-detect' autocomplete='off' data-updatenodeid='update_species_text_COG_single_identifier' data-indicatornodeid='indicator1_COG_single_identifier' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=1&show_mapped=1&show_full=0' data-initialvalue='auto-detect' data-defaultvalue='auto-detect' data-formid='input_form_COG_single_identifier'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_COG_single_identifier' data-listid='speciesList_COG_single_identifier'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_COG_single_identifier'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_COG_single_identifier' size='10' data-listid='speciesList_COG_single_identifier' data-textid='species_text_COG_single_identifier' data-popupid='speciesFloatingDiv_COG_single_identifier' data-submitafterselect='0' data-kind='species'>
+<option value='auto-detect'>auto-detect</option>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_COG_single_identifier' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_COG_single_identifier' data-textid='species_text_COG_single_identifier' data-popupid='speciesFloatingDiv_COG_single_identifier' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_COG_single_identifier' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_COG_single_identifier' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div class='row_100'><div class='wrap_input_with_examples'><a class='as_label' onclick='toggle_advanced_settings("COG_single_identifier"); return false;'>Advanced Settings</a><div class='wrap_search_item'><div id='as_COG_single_identifier_wrapper' class='advanced_settings_wrapper' style='display:none'><div class='advanced_settings_options' id='as_COG_single_identifier_options'><div style='display:table;'><div style='display:table-row'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Network Type:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='network_type' id='network_type_COG_single_identifier_select' class='data_settings_select' autocomplete='off'><option selected='selected' value='functional'>full STRING network</option><option value='physical' >physical subnetwork</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Network type", "network_type_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Required score:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='required_score' id='required_score_COG_single_identifier_select' class='data_settings_select' autocomplete='off'><option value='900'>highest confidence (0.900)</option><option value='700'>high confidence (0.700)</option><option selected='selected' value='400'>medium confidence (0.400)</option><option value='150'>low confidence (0.150)</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Link score threshold", "score_threshold_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Size&nbsp;cutoff:&nbsp;</div><div class='data_settings_select_wrap'><select name='limit' id='limit_select' class='data_settings_select' autocomplete='off'><option  value='5'>no more than 5 interactors</option><option selected='selected' value='10'>no more than 10  interactors</option><option  value='20'>no more than 20 interactors</option><option  value='50'>no more than 50 interactors</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Expand network", "expand_network_input_explain")'>(?)</a></div></div></div></div></div></div></div></div><script>
+    window.onload = function() {
+    document.querySelectorAll('input[type="file"]').forEach(function(input) { input.value = ''})}</script>
+<div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_COG_single_identifier').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_COG_single_sequence' style='display:none'><div class='search_input_box'><div class='box_title'>Protein Family by Protein Sequence</div><div class='box' ><form id='input_form_COG_single_sequence' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>Amino Acid Sequence:</label><span class='example_small'>(examples:&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_single_sequence").value=">TRPB_ECOLI\nMTTYFGEFGGMYVPQILMPALRQLEEAFVSAQKDPEFQAQFNDLLKNYAGRPTALTKCQNITAGTNTTLYLKREDLLHGGAHKTNQVLGQALLAKRMGKTEIIAETGAGQHGVASALASALLGLKCRIYMGAKDVERQSPNVFRMRLMGAEVIPVHSGSATLKDACNEALRDWSGSYETAHYMLGTAAGPHPYPTIVREFQRMIGEETKAQILEREGRLPDAVIACVGGGSNAIGMFADFINETNVGLIGVEPGGHGIETGEHGAPLKHGRVGIYFGMKAPMMQTEDGQIEESYSISAGLDFPSVGPQHAYLNSTGRADYVSITDDEALEAFKTLCLHEGIIPALESSHALAHALKMMRENPDKEQLLVVNLSGRGDKDIFTVHDILKARGEI";document.getElementById("species_text_COG_single_sequence").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#1</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_single_sequence").value=">ANP1_YEAST\nMKYNNRKLSFNPTTVSIAGTLLTVFFLTRLVLSFFSISLFQLVTFQGIFKPYVPDFKNTPSVEFYDLRNYQGNKDGWQQGDRILFCVPLRDASEHLPMFFNHLNTMTYPHNLIDLSFLVSDSSDNTMGVLLSNLQMAQSQQDKSKRFGNIEIYEKDFGQIIGQSFSDRHGFGAQGPRRKLMARARNWLGSVALKPYHSWVYWRDVDVETIPTTIMEDLMHHDKDVIVPNVWRPLPDWLGNIQPYDLNSWKESEGGLQLADSLDEDAVIVEGYPEYATWRPHLAYMRDPNGNPEDEMELDGIGGVSILAKAKVFRTGSHFPAFSFEKHAETEAFGRLSRRMNYNVIGLPHYVIWHIYEPSSDDLKHMAWMAEEEKRKLEEERIREFYNKIWEIGFEDVRDQWNEERDSILKNIDSTLNNKVTVDWSEEGDGSELVDSKGDFVSPNNQQQQQQQQQQQQQQQQQQQQQQLDGNPQGKPLDDNDKNKKKHPKEVPLDFDPDRN";document.getElementById("species_text_COG_single_sequence").value = "Saccharomyces cerevisiae"; return false;'>#2</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_single_sequence").value=">RL12_YEAST\nMPPKFDPNEVKYLYLRAVGGEVGASAALAPKIGPLGLSPKKVGEDIAKATKEFKGIKVTVQLKIQNRQAAASVVPSASSLVITALKEPPRDRKKDKNVKHSGNIQLDEIIEIARQMRDKSFGRTLASVTKEILGTAQSVGCRVDFKNPHDIIEGINAGEIEIPEN\n";document.getElementById("species_text_COG_single_sequence").value = "Saccharomyces cerevisiae"; return false;'>#3</a>)</span><div class='wrap_search_item'><textarea class='textarea submit_on_enter' name='sequence' id='primary_input:COG_single_sequence' rows='6' cols='40' ></textarea><input name='targetmode' type='hidden' value='cogs'/></div></div></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_COG_single_sequence'><input type='hidden' id='save_favourite_species_COG_single_sequence' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_COG_single_sequence' style='background:white;' id='species_text_COG_single_sequence' value='auto-detect' autocomplete='off' data-updatenodeid='update_species_text_COG_single_sequence' data-indicatornodeid='indicator1_COG_single_sequence' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=1&show_mapped=1&show_full=0' data-initialvalue='auto-detect' data-defaultvalue='auto-detect' data-formid='input_form_COG_single_sequence'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_COG_single_sequence' data-listid='speciesList_COG_single_sequence'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_COG_single_sequence'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_COG_single_sequence' size='10' data-listid='speciesList_COG_single_sequence' data-textid='species_text_COG_single_sequence' data-popupid='speciesFloatingDiv_COG_single_sequence' data-submitafterselect='0' data-kind='species'>
+<option value='auto-detect'>auto-detect</option>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_COG_single_sequence' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_COG_single_sequence' data-textid='species_text_COG_single_sequence' data-popupid='speciesFloatingDiv_COG_single_sequence' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_COG_single_sequence' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_COG_single_sequence' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div class='row_100'><div class='wrap_input_with_examples'><a class='as_label' onclick='toggle_advanced_settings("COG_single_sequence"); return false;'>Advanced Settings</a><div class='wrap_search_item'><div id='as_COG_single_sequence_wrapper' class='advanced_settings_wrapper' style='display:none'><div class='advanced_settings_options' id='as_COG_single_sequence_options'><div style='display:table;'><div style='display:table-row'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Network Type:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='network_type' id='network_type_COG_single_sequence_select' class='data_settings_select' autocomplete='off'><option selected='selected' value='functional'>full STRING network</option><option value='physical' >physical subnetwork</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Network type", "network_type_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Required score:&nbsp;&nbsp;</div><div class='data_settings_select_wrap'><select name='required_score' id='required_score_COG_single_sequence_select' class='data_settings_select' autocomplete='off'><option value='900'>highest confidence (0.900)</option><option value='700'>high confidence (0.700)</option><option selected='selected' value='400'>medium confidence (0.400)</option><option value='150'>low confidence (0.150)</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Link score threshold", "score_threshold_explain")'>(?)</a></div></div><div style='display:table-row;'><div style='display:table-cell;text-align:right;vertical-align:middle;'>Size&nbsp;cutoff:&nbsp;</div><div class='data_settings_select_wrap'><select name='limit' id='limit_select' class='data_settings_select' autocomplete='off'><option  value='5'>no more than 5 interactors</option><option selected='selected' value='10'>no more than 10  interactors</option><option  value='20'>no more than 20 interactors</option><option  value='50'>no more than 50 interactors</option></select>&nbsp;<a style='color:#b7b7b7;cursor:pointer;vertical-align:9px;font-size:10px;' onclick='load_info_window(event, "Expand network", "expand_network_input_explain")'>(?)</a></div></div></div></div></div></div></div></div><script>
+    window.onload = function() {
+    document.querySelectorAll('input[type="file"]').forEach(function(input) { input.value = ''})}</script>
+<div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_COG_single_sequence').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_COG_multiple_identifiers' style='display:none'><div class='search_input_box'><div class='box_title'>Protein Families by Multiple Names</div><div class='box' ><form id='input_form_COG_multiple_identifiers' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/><input type='hidden' name='multi_input' value='1'/></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>List Of Names:</label><span class='example_small'>(examples:&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_multiple_identifiers").value="trpA\ntrpB\nTRPC_ECOLI\nb1263\n";document.getElementById("species_text_COG_multiple_identifiers").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#1</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_multiple_identifiers").value="COG0079\nCOG0106\nCOG0107\nCOG0131\nCOG1270\n";document.getElementById("species_text_COG_multiple_identifiers").value = "auto-detect"; return false;'>#2</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_multiple_identifiers").value="pstA\npstB\npstC\npstS\n";document.getElementById("species_text_COG_multiple_identifiers").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#3</a>)</span><div class='wrap_search_item'><textarea class='textarea' name='identifiers' id='primary_input:COG_multiple_identifiers' rows='5' cols='40' ></textarea><input name='multiple_input_type' type='hidden' value='multi_identifier'/><input name='targetmode' type='hidden' value='cogs'/></div></div></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>... or, upload a file:</label><div class='wrap_search_item'><span class='input_display_file_upload' id='upload_display_COG_multiple_identifiers' onclick='document.getElementById("file_input_COG_multiple_identifiers").click(); return false;'></span><div class='upload_wrapper'><span>Browse ...</span><input id='file_input_COG_multiple_identifiers' name='multiple_input_uploaded_file' type='file' onchange='document.getElementById("upload_display_COG_multiple_identifiers").textContent = this.value.replace("C:\\fakepath\\", "");'/></div></div></div></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_COG_multiple_identifiers'><input type='hidden' id='save_favourite_species_COG_multiple_identifiers' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_COG_multiple_identifiers' style='background:white;' id='species_text_COG_multiple_identifiers' value='auto-detect' autocomplete='off' data-updatenodeid='update_species_text_COG_multiple_identifiers' data-indicatornodeid='indicator1_COG_multiple_identifiers' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=1&show_mapped=1&show_full=0' data-initialvalue='auto-detect' data-defaultvalue='auto-detect' data-formid='input_form_COG_multiple_identifiers'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_COG_multiple_identifiers' data-listid='speciesList_COG_multiple_identifiers'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_COG_multiple_identifiers'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_COG_multiple_identifiers' size='10' data-listid='speciesList_COG_multiple_identifiers' data-textid='species_text_COG_multiple_identifiers' data-popupid='speciesFloatingDiv_COG_multiple_identifiers' data-submitafterselect='0' data-kind='species'>
+<option value='auto-detect'>auto-detect</option>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_COG_multiple_identifiers' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_COG_multiple_identifiers' data-textid='species_text_COG_multiple_identifiers' data-popupid='speciesFloatingDiv_COG_multiple_identifiers' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_COG_multiple_identifiers' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_COG_multiple_identifiers' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_COG_multiple_identifiers').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div><div class='switching_form' id='sf_COG_multiple_sequences' style='display:none'><div class='search_input_box'><div class='box_title'>Protein Families by Multiple Sequences</div><div class='box' ><form id='input_form_COG_multiple_sequences' action='/cgi/network' class='search_page_input_form' method='post' spellcheck='false' enctype='multipart/form-data'><div><input type='hidden' name='sessionId' value='bo2hV95Kjmtk'/><input type='hidden' name='have_user_input' value='2'/><input type='hidden' name='multi_input' value='1'/></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>Amino Acid Sequences:</label><span class='example_small'>(examples:&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_multiple_sequences").value=">TRPA_ECOLI\nMERYESLFAQLKERKEGAFVPFVTLGDPGIEQSLKIIDTLIEAGADALELGIPFSDPLADGPTIQNATLRAFAAGVTPAQCFEMLALIRQKHPTIPIGLLMYANLVFNKGIDEFYAQCEKVGVDSVLVADVPVEESAPFRQAALRHNVAPIFICPPNADDDLLRQIASYGRGYTYLLSRAGVTGAENRAALPLNHLVAKLKEYNAAPPLQGFGISAPDQVKAAIDAGAAGAISGSAIVKIIEQHINEPEKMLAALKVFVQPMKAATRS\n>TRPB_ECOLI\nMTTLLNPYFGEFGGMYVPQILMPALRQLEEAFVSAQKDPEFQAQFNDLLKNYAGRPTALTKCQNITAGTNTTLYLKREDLLHGGAHKTNQVLGQALLAKRMGKTEIIAETGAGQHGVASALASALLGLKCRIYMGAKDVERQSPNVFRMRLMGAEVIPVHSGSATLKDACNEALRDWSGSYETAHYMLGTAAGPHPYPTIVREFQRMIGEETKAQILEREGRLPDAVIACVGGGSNAIGMFADFINETNVGLIGVEPGGHGIETGEHGAPLKHGRVGIYFGMKAPMMQTEDGQIEESYSISAGLDFPSVGPQHAYLNSTGRADYVSITDDEALEAFKTLCLHEGIIPALESSHALAHALKMMRENPDKEQLLVVNLSGRGDKDIFTVHDILKARGEI\n>TRPC_ECOLI\nMQTVLAKIVADKAIWVEARKQQQPLASFQNEVQPSTRHFYDALQGARTAFILECKKASPSKGVIRDDFDPARIAAIYKHYASAISVLTDEKYFQGSFNFLPIVSQIAPQPILCKDFIIDPYQIYLARYYQADACLLMLSVLDDDQYRQLAAVAHSLEMGVLTEVSNEEEQERAIALGAKVVGINNRDLRDLSIDLNRTRELAPKLGHNVTVISESGINTYAQVRELSHFANGFLIGSALMAHDDLHAAVRRVLLGENKVCGLTRGQDAKAAYDAGAIYGGLIFVATSPRCVNVEQAQEVMAAAPLQYVGVFRNHDIADVVDKAKVLSLAAVQLHGNEEQLYIDTLREALPAHVAIWKALSVGETLPAREFQHVDKYVLDNGQGGSGQRFDWSLLNGQSLGNVLLAGGLGADNCVEAAQTGCAGLDFNSAVESQPGIKDARLLASVFQTLRAY\n>TRPD_ECOLI\nMADILLLDNIDSFTYNLADQLRSNGHNVVIYRNHIPAQTLIERLATMSNPVLMLSPGPGVPSEAGCMPELLTRLRGKLPIIGICLGHQAIVEAYGGYVGQAGEILHGKASSIEHDGQAMFAGLTNPLPVARYHSLVGSNIPAGLTINAHFNGMVMAVRHDADRVCGFQFHPESILTTQGARLLEQTLAWAQQKLEPANTLQPILEKLYQAQTLSQQESHQLFSAVVRGELKPEQLAAALVSMKIRGEHPNEIAGAATALLENAAPFPRPDYLFADIVGTGGDGSNSINISTASAFVAAACGLKVAKHGNRSVSSKSGSSDLLAAFGINLDMNADKSRQALDELGVCFLFAPKYHTGFRHAMPVRQQLKTRTLFNVLGPLINPAHPPLALIGVYSPELVLPIAETLRVLGYQRAAVVHSGGMDEVSLHAPTIVAELHDGEIKSYQLTAEDFGLTPYHQEQLAGGTPEENRDILTRLLQGKGDAAHEAAVAANVAMLMRLHGHEDLQANAQTVLEVLRSGSAYDRVTALAARG\n";document.getElementById("species_text_COG_multiple_sequences").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#1</a>&nbsp;&nbsp;<a href='#' class='string_example example_small' onclick='document.getElementById("primary_input:COG_multiple_sequences").value=">b2022\nMSQKYLFIDRDGTLISEPPSDFQVDRFDKLAFEPGVIPELLKLQKAGYKLVMITNQDGLGTQSFPQADFDGPHNLMMQIFTSQGVQFDEVLICPHLPADECDCRKPKVKLVERYLAEQAMDRANSYVIGDRATDIQLAENMGITGLRYDRETLNWPMIGEQLTRRDRYAHVVRNTKETQIDVQVWLDREGGSKINTGVGFFDHMLDQIATHGGFRMEINVKGDLYIDDHHTVEDTGLALGEALKIALGDKRGICRFGFVLPMDECLARCALDISGRPHLEYKAEFTYQRVGDLSTEMIEHFFRSLSYTMGVTLHLKTKGKNDHHRVESLFKAFGRTLRQAIRVEGDTLPSSKGVL\n>b2023\nMNVVILDTGCANLNSVKSAIARHGYEPKVSRDPDVVLLADKLFLPGVGTAQAAMDQVRERELFDLIKACTQPVLGICLGMQLLGRRSEESNGVDLLGIIDEDVPKMTDFGLPLPHMGWNRVYPQAGNRLFQGIEDGAYFYFVHSYAMPVNPWTIAQCNYGEPFTAAVQKDNFYGVQFHPERSGAAGAKLLKNFLEM\n>b2024\nMIIPALDLIDGTVVRLHQGDYGKQRDYGNDPLPRLQDYAAQGAEVLHLVDLTGAKDPAKRQIPLIKTLVAGVNVPVQVGGGVRSEEDVAALLEAGVARVVVGSTAVKSQDMVKGWFERFGADALVLALDVRIDEQGNKQVAVSGWQENSGVSLEQLVETYLPVGLKHVLCTDISRDGTLAGSNVSLYEEVCARYPQVAFQSSGGIGDIDDVAALRGTGVRGVIVGRALLEGKFTVKEAIACWQNA\n>b2026\nMLTEQQRRELDWEKTDGLMPVIVQHAVSGEVLMLGYMNPEALDKTLESGKVTFFSRTKQRLWTKGETSGNFLNVVSIAPDCDNDTLLVLANPIGPTCHKGTSSCFGDTAHQWLFLYQLEQLLAERKSADPETSYTAKLYASGTKRIAQKVGEEGVETALAATVHDRFELTNEASDLMYHLLVLLQDQGLDLTTVIENLRKRHQ\n";document.getElementById("species_text_COG_multiple_sequences").value = "Escherichia coli str. K-12 substr. MG1655"; return false;'>#2</a>)</span><div class='wrap_search_item'><textarea class='textarea' name='sequences' id='primary_input:COG_multiple_sequences' rows='5' cols='40' ></textarea><input name='multiple_input_type' type='hidden' value='multi_sequence'/><input name='targetmode' type='hidden' value='cogs'/></div></div></div><div class='row_100'><div class='wrap_input_with_examples'><label class='label'>... or, upload a file:</label><div class='wrap_search_item'><span class='input_display_file_upload' id='upload_display_COG_multiple_sequences' onclick='document.getElementById("file_input_COG_multiple_sequences").click(); return false;'></span><div class='upload_wrapper'><span>Browse ...</span><input id='file_input_COG_multiple_sequences' name='multiple_input_uploaded_file' type='file' onchange='document.getElementById("upload_display_COG_multiple_sequences").textContent = this.value.replace("C:\\fakepath\\", "");'/></div></div></div></div><div><div class='wrap_input'><div style='height:3em;vertical-align:top;min-width:300px;'><div id='organism_text_input_COG_multiple_sequences'><input type='hidden' id='save_favourite_species_COG_multiple_sequences' name='save_favourite_species', value=1><label class='label'>Organisms:</label><div class='wrap_search_item'><input class='input stringdb_organism_input' type='search' name='species_text_COG_multiple_sequences' style='background:white;' id='species_text_COG_multiple_sequences' value='auto-detect' autocomplete='off' data-updatenodeid='update_species_text_COG_multiple_sequences' data-indicatornodeid='indicator1_COG_multiple_sequences' data-selectclassname='informal' data-callbackscript='/cgi/queryspeciesnames' data-callbackscriptparams='auto_detect=0&home_species=0&home_species_type=core&show_clades=1&show_mapped=1&show_full=0' data-initialvalue='auto-detect' data-defaultvalue='auto-detect' data-formid='input_form_COG_multiple_sequences'/>
+<div class='organism_choice_box_dropdown_container'  data-popupid='speciesFloatingDiv_COG_multiple_sequences' data-listid='speciesList_COG_multiple_sequences'><span class='organism_drop'></span><img class='organism_drop_spinner' style='display:none;' src='/images/ajax-loader.gif' alt='Working...'/></div></div>
+<div class='wrap_species_choice_box'><div class='organism_choice_box_popup_div' id='speciesFloatingDiv_COG_multiple_sequences'><div style='text-align:center;min-width:300px;'><br/>&nbsp;<div><select class='organism_choice_box_select' id='speciesList_COG_multiple_sequences' size='10' data-listid='speciesList_COG_multiple_sequences' data-textid='species_text_COG_multiple_sequences' data-popupid='speciesFloatingDiv_COG_multiple_sequences' data-submitafterselect='0' data-kind='species'>
+<option value='auto-detect'>auto-detect</option>
+</select></div><br/>&nbsp;<button class='minibutton_grey organism_choice_box_cancel_button'  data-popupid='speciesFloatingDiv_COG_multiple_sequences' type='button'>Cancel</button>&nbsp;&nbsp;&nbsp;<button class='minibutton organism_choice_box_select_button' type='button' data-listid='speciesList_COG_multiple_sequences' data-textid='species_text_COG_multiple_sequences' data-popupid='speciesFloatingDiv_COG_multiple_sequences' data-submitafterselect='0'>Select</button><br/>&nbsp;</div></div></div>
+<span id='indicator1_COG_multiple_sequences' style='display:none'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><span style='visibility:hidden'><img src='/images/ajax-loader.gif' width='24' height='24' alt='Working...'/></span><div id='update_species_text_COG_multiple_sequences' class='autocomplete' style='box-sizing:border-box;display:none;border:1px solid rgb(228,228,228);background-color:white;'></div></div></div>
+</div></div><div style='margin-top: 0px;'><a style='' class='button full_width button_with_spinner spinner_hidden' href="#"  onclick="this.classList.remove('spinner_hidden');event.preventDefault();event.stopPropagation();document.getElementById('input_form_COG_multiple_sequences').submit();"><div> </div>&nbsp;Search&nbsp;<div><img src='/images/spinner_blue_small_transparent.gif' alt='waiting spinner'/></div></a></div></form></div></div></div></div></div></div></div></div></div></div>
+<script src='https://challenges.cloudflare.com/turnstile/v0/api.js' async defer ></script><div class='cf-turnstile' data-callback='turnstileVerificationOnlyCallback' data-error-callback='turnstileErrorCallback' data-appearance='interaction-only' data-sitekey='0x4AAAAAACrvNmp8c3Z8YGxP'></div><div class='main_footer' style='display:block;'><div class='shadow'></div><div id='main_nav_footer_container' class='container'><div class='column first'>
+<h2>&copy; STRING Consortium 2026</h2>
+<ul>
+<li id='SIB_logo'><a href='https://www.isb-sib.ch/'><span></span>SIB - Swiss Institute of Bioinformatics</a></li>
+<li id='CPR_logo'><a href='https://www.cpr.ku.dk/'><span></span>CPR - Novo Nordisk Foundation Center Protein Research</a></li>
+<li id='EMBL_logo'><a href='https://www.embl.de/'><span></span>EMBL - European Molecular Biology Laboratory</a></li>
+</ul>
+</div>
+<div class='column last'>
+<h2><a href='/cgi/credits'>Credits</a></h2>
+<ul>
+<li><a href='/cgi/credits?footer_active_subpage=funding'>Funding</a></li>
+<li><a href='/cgi/credits?footer_active_subpage=datasources'>Datasources</a></li>
+<li><a href='/cgi/credits?footer_active_subpage=partners'>Partners</a></li>
+<li><a href='/cgi/credits?footer_active_subpage=libraries'>Software</a></li>
+</ul>
+</div>
+<div class='column'>
+<h2><a href='/cgi/access'>Access</a></h2>
+<ul>
+<li><a href='/cgi/access?footer_active_subpage=archive'>Versions</a></li>
+<li><a href='/cgi/access?footer_active_subpage=apis'>APIs</a></li>
+<li><a href='/cgi/access?footer_active_subpage=licensing'>Licensing</a></li>
+<li><a href='/cgi/access?footer_active_subpage=usage'>Usage</a></li>
+</ul>
+</div>
+<div class='column'>
+<h2><a href='/cgi/info'>Info</a></h2>
+<ul>
+<li><a href='/cgi/info?footer_active_subpage=scores'>Scores</a></li>
+<li><a href='/cgi/info?footer_active_subpage=scenarios'>Use scenarios</a></li>
+<li><a href='/cgi/info?footer_active_subpage=faqs'>FAQs</a></li>
+<li><a href='/cgi/info?footer_active_subpage=cookies'>Cookies/Privacy</a></li>
+</ul>
+</div>
+<div class='column'>
+<h2><a href='/cgi/about'>About</a></h2>
+<ul>
+<li><a href='/cgi/about?footer_active_subpage=content'>Content</a></li>
+<li><a href='/cgi/about?footer_active_subpage=references'>References</a></li>
+<li><a href='/cgi/about?footer_active_subpage=contributors'>People</a></li>
+<li><a href='/cgi/about?footer_active_subpage=statistics'>Statistics</a></li>
+</ul>
+</div>
+</div>
+<div class='elixir_container'><div class='elixir_cdr_message'>STRING is a Core Data Resource as designated by <a href='https://globalbiodata.org/scientific-activities/global-core-biodata-resources/'>Global Biodata Coalition</a> and <a href='https://www.elixir-europe.org/platforms/data/core-data-resources'>ELIXIR</a>.</div></div>
+</div></body></html>

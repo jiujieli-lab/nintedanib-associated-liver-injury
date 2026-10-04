@@ -1,0 +1,62 @@
+[
+  {
+    "document_chembl_id": "CHEMBL1240338",
+    "title": "BIBF 1120: triple angiokinase inhibitor with sustained receptor blockade and good antitumor efficacy.",
+    "doi": "10.1158/0008-5472.can-07-6307",
+    "pubmed_id": 18559524,
+    "authors": "Hilberg F, Roth GJ, Krssak M, Kautschitsch S, Sommergruber W, Tontsch-Grunt U, Garin-Chesa P, Bader G, Zoephel A, Quant J, Heckel A, Rettig WJ.",
+    "journal": "Cancer Res",
+    "year": 2008,
+    "volume": "68",
+    "first_page": "4774",
+    "last_page": "4782"
+  },
+  {
+    "document_chembl_id": "CHEMBL4130391",
+    "title": "Novel methyl indolinone-6-carboxylates containing an indole moiety as angiokinase inhibitors.",
+    "doi": "10.1016/j.ejmech.2017.08.031",
+    "pubmed_id": 28826084,
+    "authors": "Qin M, Tian Y, Sun X, Yu S, Xia J, Gong P, Zhang H, Zhao Y.",
+    "journal": "Eur J Med Chem",
+    "year": 2017,
+    "volume": "139",
+    "first_page": "492",
+    "last_page": "502"
+  },
+  {
+    "document_chembl_id": "CHEMBL1137777",
+    "title": "Design, synthesis, and evaluation of indolinones as triple angiokinase inhibitors and the discovery of a highly specific 6-methoxycarbonyl-substituted indolinone (BIBF 1120).",
+    "doi": "10.1021/jm900431g",
+    "pubmed_id": 19522465,
+    "authors": "Roth GJ, Heckel A, Colbatzky F, Handschuh S, Kley J, Lehmann-Lintz T, Lotz R, Tontsch-Grunt U, Walter R, Hilberg F.",
+    "journal": "J Med Chem",
+    "year": 2009,
+    "volume": "52",
+    "first_page": "4466",
+    "last_page": "4480"
+  },
+  {
+    "document_chembl_id": "CHEMBL3992544",
+    "title": "Novel 6-methoxycarbonyl indolinones bearing a pyrrole Mannich base moiety as angiokinase inhibitors.",
+    "doi": "10.1016/j.bmc.2017.01.039",
+    "pubmed_id": 28190652,
+    "authors": "Qin M, Yan S, Wang L, Zhang H, Tian Y, Zhao Y, Gong P.",
+    "journal": "Bioorg Med Chem",
+    "year": 2017,
+    "volume": "25",
+    "first_page": "1778",
+    "last_page": "1786"
+  },
+  {
+    "document_chembl_id": "CHEMBL1908390",
+    "title": "Comprehensive analysis of kinase inhibitor selectivity.",
+    "doi": "10.1038/nbt.1990",
+    "pubmed_id": 22037378,
+    "authors": "Davis MI, Hunt JP, Herrgard S, Ciceri P, Wodicka LM, Pallares G, Hocker M, Treiber DK, Zarrinkar PP.",
+    "journal": "Nat Biotechnol",
+    "year": 2011,
+    "volume": "29",
+    "first_page": "1046",
+    "last_page": "1051"
+  }
+]

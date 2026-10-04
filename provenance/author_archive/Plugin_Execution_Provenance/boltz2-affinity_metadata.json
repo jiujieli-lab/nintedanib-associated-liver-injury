@@ -1,0 +1,803 @@
+{
+  "retrieved_date": "2026-10-02",
+  "schema": {
+    "tool_key": "boltz2-affinity",
+    "description": "Predicted binding affinity (log10 IC50 μM) and binder probability for a small molecule against a protein target, via Boltz-2.",
+    "input_schema": {
+      "$defs": {
+        "Chain": {
+          "description": "Represents a single molecular chain with optional modifications.\n\nA chain consists of a sequence (protein, DNA, RNA, or ligand) along with\nits entity type and any chemical modifications. This class supports both\nsimple use cases (just a sequence) and complex cases with post-translational\nmodifications or nucleotide modifications.\n\nAttributes:\n    id (str | None): Optional chain identifier. ``None`` when the\n        consumer assigns identifiers positionally; set explicitly when the\n        chain's identity must be preserved (e.g. inverse-folding outputs\n        keyed to an input structure's chains).\n\n    sequence (str): The sequence of the chain. Format depends on entity_type:\n\n        - Protein: Amino acid sequence in single-letter code (e.g., \"MVLSPADKTN\")\n        - DNA: Nucleotide sequence (e.g., \"ATCGATCG\")\n        - RNA: Nucleotide sequence (e.g., \"AUGCAUGC\")\n        - Ligand: SMILES string or other model-specific format\n\n    entity_type (str | None): Type of molecular entity. Valid options:\n        ``\"protein\"``, ``\"dna\"``, ``\"rna\"``, ``\"ligand\"``. If ``None``,\n        automatically inferred from sequence composition using\n        ``detect_sequence_type()``.\n\n    modifications (list[ChainModification]): List of\n        modifications to apply to this chain. Each modification can be either:\n\n        - A ChainModification object\n        - A dict with ``position`` and ``modification_code`` keys (e.g. from JSON deserialization)\n        - A tuple of (position, modification_code) for convenience\n\n        All dicts and tuples are automatically converted to ChainModification objects.\n        Default: empty list (no modifications).\n\nExamples:\n    >>> # Simple protein chain (no modifications)\n    >>> chain = Chain(sequence=\"MVLSPADKTN\")\n    >>>\n    >>> # Protein with phosphorylation using ChainModification objects\n    >>> chain = Chain(\n    ...     sequence=\"MVLSPADKTN\",\n    ...     entity_type=\"protein\",\n    ...     modifications=[ChainModification(position=5, modification_code=\"SEP\")],\n    ... )\n    >>>\n    >>> # Protein with phosphorylation using tuples (more convenient)\n    >>> chain = Chain(sequence=\"MVLSPADKTN\", entity_type=\"protein\", modifications=[(5, \"SEP\")])\n    >>>\n    >>> # RNA with multiple modifications using tuples\n    >>> chain = Chain(sequence=\"AUGCAUGC\", entity_type=\"rna\", modifications=[(1, \"2MG\"), (4, \"5MC\")])\n\nNote:\n    The entity_type is automatically inferred if not provided, but can be\n    explicitly set for clarity or to override auto-detection. Modifications\n    are validated to ensure they don't exceed the sequence length.",
+          "properties": {
+            "id": {
+              "anyOf": [
+                {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional chain identifier; None when identifiers are assigned positionally.",
+              "title": "Id"
+            },
+            "sequence": {
+              "description": "Sequence of the chain (protein, DNA, RNA, or ligand SMILES)",
+              "title": "Sequence",
+              "type": "string"
+            },
+            "entity_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Entity type: 'protein', 'dna', 'rna', or 'ligand'. Auto-inferred if None.",
+              "title": "Entity Type"
+            },
+            "modifications": {
+              "description": "List of modifications to apply to this chain",
+              "items": {
+                "$ref": "#/$defs/ChainModification"
+              },
+              "title": "Modifications",
+              "type": "array"
+            }
+          },
+          "required": [
+            "sequence"
+          ],
+          "title": "Chain",
+          "type": "object"
+        },
+        "ChainModification": {
+          "description": "Represents a modification to a specific position in a molecular chain.\n\nModifications are specified using Chemical Component Dictionary (CCD) codes\nfrom the wwPDB.\n\nIMPORTANT NOTE: THE MODIFICATION POSITIONS USE 1-BASED INDEXING, WHICH\nFOLLOWS THE STANDARD BIOLOGICAL CONVENTIONS.\n\nAttributes:\n    position (int): 1-based position in the sequence where the modification occurs.\n        Must be greater than or equal to 1 and within the sequence length.\n\n    modification_code (str): Chemical Component Dictionary (CCD) code identifying\n        the modification. Commonly used examples for different entity types include:\n\n        - Protein PTMs: \"SEP\" (phosphoserine), \"TPO\" (phosphothreonine),\n          \"HY3\" (hydroxyproline), \"P1L\" (pyroglutamic acid)\n        - RNA modifications: \"2MG\" (2'-O-methylguanosine), \"5MC\" (5-methylcytidine),\n          \"PSU\" (pseudouridine)\n        - DNA modifications: \"6OG\" (8-oxoguanine), \"6MA\" (N6-methyladenine)\n\nExamples:\n    >>> # Phosphoserine at position 5\n    >>> mod = ChainModification(position=5, modification_code=\"SEP\")\n    >>>\n    >>> # 2'-O-methylguanosine at position 1 in RNA\n    >>> mod = ChainModification(position=1, modification_code=\"2MG\")\n\nNote:\n    Position indexing is 1-based (first residue/base is position 1), following\n    standard biological conventions and matching the format expected by most\n    structure prediction tools.",
+          "properties": {
+            "position": {
+              "description": "1-based position in the sequence where modification occurs",
+              "title": "Position",
+              "type": "integer"
+            },
+            "modification_code": {
+              "description": "Chemical Component Dictionary (CCD) code for the modification",
+              "title": "Modification Code",
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "modification_code"
+          ],
+          "title": "ChainModification",
+          "type": "object"
+        },
+        "Complex": {
+          "additionalProperties": false,
+          "description": "An ordered multi-entity molecular complex.\n\nRepresents one or more chains (biopolymer ``Chain`` and/or ligand ``Fragment``)\nin a deterministic input order, each carrying an optional ``id``. Used as the\ncanonical multi-entity input to structure-prediction tools (whose inputs declare\n``complexes: list[Complex]``) and as the base of the inverse-folding output\ntype (``DesignedComplex``), so a design feeds a structure predictor directly\nvia LSP.\n\nConstruction is lenient. ``chains`` accepts:\n\n- A bare string (shorthand for a single-chain complex).\n- A list mixing strings (biopolymer sequences / SMILES — multi-fragment SMILES\n  auto-splits into N ``Fragment`` entries), dicts (``Chain`` or ``Fragment``\n  kwargs), ``Chain``/``Fragment`` instances, or ``Ligands`` collections\n  (expanded into one ``Fragment`` per fragment).\n\nThere is no chain-count cap; ``chain_label(i)`` generates positional fallback\nIDs A..Z, AA..ZZ, AAA... for chains without an explicit ``id``.\n\nUse ``Complex.from_structure(structure)`` to build a faithful ``Complex`` from\nan existing ``Structure`` (polymer chains + ligand HETATMs in input order).\n\nAttributes:\n    chains (list[Chain | Fragment]): Chains in the complex, in input order.",
+          "properties": {
+            "chains": {
+              "description": "Chains in the complex. Strings, dicts, Chain, Fragment, or Ligands.",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/Chain"
+                  },
+                  {
+                    "$ref": "#/$defs/Fragment"
+                  }
+                ]
+              },
+              "title": "Chains",
+              "type": "array"
+            }
+          },
+          "required": [
+            "chains"
+          ],
+          "title": "Complex",
+          "type": "object"
+        },
+        "ComplexMSAs": {
+          "additionalProperties": false,
+          "description": "MSAs for one complex's protein chains, keyed by chain index.\n\n``paired`` marks the per-chain MSAs as row-aligned across chains by taxonomy\n(row N of every chain is the same organism), which lets downstream predictors\nengage cross-chain pairing. Unpaired MSAs are independent per chain. A bare\n``dict[int, MSA]`` supplied to ``StructurePredictionInput.msas`` is coerced to\nan unpaired ``ComplexMSAs``.\n\nAttributes:\n    per_chain (dict[int, MSA]): Chain index (position in ``Complex.chains``)\n        → its MSA. When ``paired`` is ``True`` these are the row-aligned paired MSAs.\n    paired (bool): Whether the per-chain MSAs are row-aligned across chains.\n        When ``True``, all chains must share the same row count.\n    unpaired_per_chain (dict[int, MSA] | None): For paired heterocomplexes only,\n        each chain's deep *unpaired* MSA (independent homologs), retained alongside\n        the paired rows so predictors can use full per-chain depth. ``None`` otherwise.",
+          "properties": {
+            "per_chain": {
+              "additionalProperties": {
+                "$ref": "#/$defs/MSA"
+              },
+              "description": "Chain index → MSA for each protein chain.",
+              "title": "Per Chain",
+              "type": "object"
+            },
+            "paired": {
+              "default": false,
+              "description": "Whether rows are taxonomy-aligned across chains.",
+              "title": "Paired",
+              "type": "boolean"
+            },
+            "unpaired_per_chain": {
+              "anyOf": [
+                {
+                  "additionalProperties": {
+                    "$ref": "#/$defs/MSA"
+                  },
+                  "type": "object"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Deep per-chain unpaired MSAs retained alongside paired rows; set only for paired heterocomplexes.",
+              "title": "Unpaired Per-Chain MSAs"
+            }
+          },
+          "required": [
+            "per_chain"
+          ],
+          "title": "ComplexMSAs",
+          "type": "object"
+        },
+        "Fragment": {
+          "additionalProperties": false,
+          "description": "A single small molecule with optional CCD code.\n\nAt least one of ``smiles`` or ``ccd_code`` must be provided. When only one\nis given, the other is resolved automatically from the CCD database. When\nboth are given, they are validated to refer to the same molecule.\n\nA Fragment must contain exactly one molecule. For multi-component inputs\n(dot-separated SMILES, multiple CCD codes), use ``Ligands`` instead.\n\nThe RDKit ``Mol`` object is lazy-loaded from the SMILES on first access\nvia the ``mol`` property. Use ``Fragment.from_mol()`` to construct from an\nexisting Mol.\n\nAttributes:\n    smiles (str | None): SMILES string (canonicalized to RDKit form on construction).\n    ccd_code (str | None): CCD code from the Chemical Component Dictionary.\n    entity_type (Literal[\"ligand\"]): Always ``\"ligand\"``. Lets Fragments be used\n        interchangeably with ``Chain`` in structure-prediction inputs.\n    name (str | None): Human-readable molecule name.\n    metrics (dict[str, float]): Computed metrics for this fragment.",
+          "properties": {
+            "id": {
+              "anyOf": [
+                {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional identifier (free-form; e.g. a chain letter for in-complex use).",
+              "title": "Id"
+            },
+            "smiles": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "SMILES string",
+              "title": "Smiles"
+            },
+            "ccd_code": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "CCD code",
+              "title": "Ccd Code"
+            },
+            "entity_type": {
+              "const": "ligand",
+              "default": "ligand",
+              "description": "Always 'ligand'",
+              "title": "Entity Type",
+              "type": "string"
+            },
+            "name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Molecule name",
+              "title": "Name"
+            },
+            "metrics": {
+              "additionalProperties": {
+                "type": "number"
+              },
+              "description": "Computed metrics",
+              "title": "Metrics",
+              "type": "object"
+            }
+          },
+          "title": "Fragment",
+          "type": "object"
+        },
+        "MSA": {
+          "additionalProperties": false,
+          "description": "Multiple Sequence Alignment (MSA) representation.\n\nA Pydantic model for storing and analyzing aligned biological sequences.\nSupports both protein and nucleotide alignments. Sequences are always held\nin memory. Use ``MSA.from_file()`` to load from FASTA or A3M files.\n\nAttributes:\n    aligned_sequences (list[str]): Aligned sequences with ``-`` characters\n        indicating gaps. All sequences must have the same length.\n    sequence_ids (list[str]): Identifiers for each sequence. Auto-generated\n        as ``seq_0``, ``seq_1``, ... if not provided.",
+          "properties": {
+            "aligned_sequences": {
+              "description": "Aligned sequences, all same length, with '-' for gaps",
+              "items": {
+                "type": "string"
+              },
+              "title": "Aligned Sequences",
+              "type": "array"
+            },
+            "sequence_ids": {
+              "description": "Sequence identifiers",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sequence Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "aligned_sequences",
+            "sequence_ids"
+          ],
+          "title": "MSA",
+          "type": "object"
+        },
+        "SingleChainSelection": {
+          "additionalProperties": false,
+          "description": "Selection of exactly one whole chain.\n\nThe single-chain analog of ``ChainSelection``, for tools that operate on one\nchain at a time (e.g. DSSP, which reports percentages for one chain). The\nabsent-selection state is the parent field being ``None``.\n\nAccepts shorthand at construction:\n\n- ``\"A\"``          → ``SingleChainSelection(chain=\"A\")``\n- ``{\"chain\": \"A\"}`` → ``SingleChainSelection(chain=\"A\")``\n\nAttributes:\n    chain (str): The selected chain ID.",
+          "properties": {
+            "chain": {
+              "description": "Chain ID to select.",
+              "title": "Chain",
+              "type": "string"
+            }
+          },
+          "required": [
+            "chain"
+          ],
+          "title": "SingleChainSelection",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Input for Boltz-2 affinity prediction.\n\nAttributes:\n    complexes (list[Complex]): Each needs >=1 protein target and >=1 ligand chain.\n    msas (list[ComplexMSAs] | None): Inherited per-complex MSAs;\n        each entry is a ``ComplexMSAs`` (``paired=True`` for taxonomy-paired heterocomplexes).\n    binder_chain (list[SingleChainSelection | None] | None): Ligand to score per complex;\n        one value broadcasts to all complexes, None auto-detects each complex's sole ligand.",
+      "properties": {
+        "complexes": {
+          "description": "List of complexes to predict structure for containing chains and entity types.",
+          "items": {
+            "$ref": "#/$defs/Complex"
+          },
+          "title": "Complexes",
+          "type": "array"
+        },
+        "msas": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ComplexMSAs"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Per-complex MSAs; a bare dict[int, MSA] is coerced to an unpaired ComplexMSAs.",
+          "title": "MSAs"
+        },
+        "binder_chain": {
+          "anyOf": [
+            {
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/SingleChainSelection"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "broadcastable": true,
+          "default": null,
+          "description": "Ligand chain to score per complex; one value broadcasts to all, None auto-detects.",
+          "title": "Binder Chain"
+        }
+      },
+      "required": [
+        "complexes"
+      ],
+      "title": "Boltz2AffinityInput",
+      "type": "object"
+    },
+    "config_schema": {
+      "$defs": {
+        "Mmseqs2HomologySearchConfig": {
+          "additionalProperties": false,
+          "description": "Configuration for ``mmseqs2-homology-search``.\n\nAttributes:\n    search_mode (Literal[\"local\", \"remote\"]): ``\"local\"`` runs MMseqs2\n        against a registry-provisioned DB on disk; ``\"remote\"`` (the\n        default) queries the ColabFold MSA API over the network and needs\n        no local DB.\n    dataset (Literal[\"colabfold-envdb-202108\", \"uniref30-2302\"]): Local-only\n        (ignored when remote). Registered key of the searchable reference\n        database; one ColabFold protein DB.\n    device (str): Local-only (ignored when remote). A ``cuda`` device runs\n        MMseqs2-GPU and requires a ``.idx_pad`` index, an NVIDIA GPU\n        (Turing+), and a Linux host; ``\"cpu\"`` (the default) runs the CPU\n        pipeline. A specific device such as ``\"cuda:1\"`` is honoured.\n    use_metagenomic_db (bool): Include the metagenomic/environmental DB\n        (ColabFoldDB envdb) to deepen unpaired MSAs. Works in both modes;\n        local mode requires the ``colabfold-envdb-202108`` dataset\n        provisioned. Default ``False``. Does not affect cross-chain pairing.\n    pairing_strategy (Literal[\"greedy\", \"complete\"]): Cross-chain pairing\n        strategy for paired (multi-chain) groups. ``\"greedy\"`` pairs a\n        species found in at least two chains; ``\"complete\"`` only pairs a\n        species present in every chain. Ignored for singleton groups.\n    sensitivity (float | None): Local-only (ignored when remote). MMseqs2\n        ``-s`` override; ignored on a ``cuda`` device. ``None`` uses the\n        dataset's registered default.\n    num_threads (int | None): Local-only. CPU threads; ``None`` auto-detects\n        all cores.\n    timeout (int | None): Local subprocess cap, or seconds to wait for a remote submission.\n        Generous by default: the MSA server queues, and a submission carries many queries.\n        ``None`` waits indefinitely.\n\nNote:\n    A3M files are written to a per-call temporary directory and parsed\n    into in-memory ``MSA`` objects on the result. The temp dir is\n    cleaned up after the call returns. Use ``result.export(path, \"a3m\")``\n    to materialize files at a chosen location — same persistence API\n    as every other proto-tool with file outputs.",
+          "properties": {
+            "verbose": {
+              "default": 0,
+              "description": "Verbosity level (0=quiet, 1=info, 2=debug, 3=raw subprocess stderr). True→1, False→0.",
+              "maximum": 3,
+              "minimum": 0,
+              "reload_on_change": false,
+              "title": "Verbose",
+              "type": "integer"
+            },
+            "device": {
+              "default": "cpu",
+              "description": "`cuda` (or `cuda:N`) runs MMseqs2-GPU, needing a `.idx_pad` index and Linux; `cpu` runs on CPU.",
+              "reload_on_change": false,
+              "title": "Device",
+              "type": "string"
+            },
+            "timeout": {
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": 21600,
+              "description": "Seconds per local subprocess or remote submission; `None` waits indefinitely.",
+              "reload_on_change": false,
+              "title": "Timeout"
+            },
+            "seed": {
+              "anyOf": [
+                {
+                  "exclusiveMaximum": 4294967296,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Random seed for reproducible results. Some cacheable tools gate cache on this field.",
+              "reload_on_change": false,
+              "title": "Random Seed"
+            },
+            "search_mode": {
+              "default": "remote",
+              "description": "`remote` queries ColabFold's MSA API; `local` runs MMseqs2 against a registry-provisioned DB.",
+              "enum": [
+                "local",
+                "remote"
+              ],
+              "reload_on_change": false,
+              "title": "Search Mode",
+              "type": "string"
+            },
+            "dataset": {
+              "default": "uniref30-2302",
+              "description": "Registered ColabFold protein database to search (e.g. `uniref30-2302`); one per call.",
+              "enum": [
+                "colabfold-envdb-202108",
+                "uniref30-2302"
+              ],
+              "reload_on_change": false,
+              "title": "Dataset",
+              "type": "string"
+            },
+            "use_metagenomic_db": {
+              "default": false,
+              "description": "Include the metagenomic/environmental DB (ColabFoldDB envdb); local mode needs it provisioned.",
+              "reload_on_change": false,
+              "title": "Use Metagenomic Database",
+              "type": "boolean"
+            },
+            "pairing_strategy": {
+              "default": "greedy",
+              "description": "Cross-chain pairing for paired groups: `greedy` (species in >=2 chains) or `complete` (all).",
+              "enum": [
+                "greedy",
+                "complete"
+              ],
+              "reload_on_change": false,
+              "title": "Pairing Strategy",
+              "type": "string"
+            },
+            "sensitivity": {
+              "anyOf": [
+                {
+                  "maximum": 9,
+                  "minimum": 1,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "MMseqs2 `-s` override (1.0-9.0); ignored on GPU; `None` uses the dataset's default.",
+              "reload_on_change": false,
+              "title": "MMseqs2 Sensitivity"
+            },
+            "num_threads": {
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "CPU threads; `None` auto-detects all available cores.",
+              "reload_on_change": false,
+              "title": "Number of Threads"
+            }
+          },
+          "title": "Mmseqs2HomologySearchConfig",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Boltz-2 affinity config: all inherited Boltz2Config structure-pass settings plus the affinity-pass controls.\n\nAttributes:\n    recycling_steps (int): Inherited. Refinement passes for the structure pass. Default: ``3``.\n    sampling_steps (int): Inherited. Denoising steps for the structure pass. Default: ``200``.\n    diffusion_samples (int): Inherited. Structure samples per complex. Default: ``1``.\n    step_scale (float): Inherited. Diffusion step size for the structure pass. Default: ``1.5``.\n    max_msa_seqs (int): Inherited. Cap on MSA depth fed into the model. Default: ``8192``.\n    subsample_msa (bool): Inherited. Randomly subsample the MSA each run. Default: ``False``.\n    num_workers (int): Inherited. Dataloader workers for prediction. Default: ``min(cpu_count, 4)``.\n    use_msa (bool): Inherited. Use MMseqs2 MSAs for protein chains. Supplied MSAs are always used and override ``use_msa=False``. Default: ``True``.\n    pair_heterocomplex_msas (bool): Inherited. Use taxonomy-paired MSA generation for heterocomplex protein chains. Default: ``True``.\n    msa_search_config (Mmseqs2HomologySearchConfig | None): Inherited. MMseqs2 homology-search config. Default: ``None``.\n    include_pae_matrix (bool): No-op for affinity; excluded from the cache key. Default: ``False``.\n    affinity_mw_correction (bool): Apply molecular-weight correction to the affinity value head. Default: ``False``.\n    sampling_steps_affinity (int): Denoising steps for the affinity pass. Default: ``200``.\n    diffusion_samples_affinity (int): Diffusion samples per complex for the affinity pass. Default: ``5``.",
+      "properties": {
+        "verbose": {
+          "default": 0,
+          "description": "Verbosity level (0=quiet, 1=info, 2=debug, 3=raw subprocess stderr). True→1, False→0.",
+          "maximum": 3,
+          "minimum": 0,
+          "reload_on_change": false,
+          "title": "Verbose",
+          "type": "integer"
+        },
+        "timeout": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": 1200,
+          "description": "Maximum execution time in seconds.",
+          "reload_on_change": false,
+          "title": "Timeout"
+        },
+        "seed": {
+          "anyOf": [
+            {
+              "exclusiveMaximum": 4294967296,
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Random seed for reproducible results. Some cacheable tools gate cache on this field.",
+          "reload_on_change": false,
+          "title": "Random Seed"
+        },
+        "include_pae_matrix": {
+          "default": false,
+          "description": "Not applicable to affinity; no PAE matrix is emitted.",
+          "reload_on_change": false,
+          "title": "Include PAE Matrix",
+          "type": "boolean"
+        },
+        "use_msa": {
+          "default": true,
+          "description": "Whether to auto-generate MSAs via MMseqs2 homology search; supplied MSAs are always used",
+          "reload_on_change": false,
+          "title": "Use MSA",
+          "type": "boolean"
+        },
+        "msa_search_config": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Mmseqs2HomologySearchConfig"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Nested MMseqs2 homology-search config for MSA generation; None uses default settings.",
+          "reload_on_change": false,
+          "title": "MSA Search Config"
+        },
+        "pair_heterocomplex_msas": {
+          "default": true,
+          "description": "Whether heterocomplex protein chains should use taxonomy-paired MSA generation.",
+          "reload_on_change": false,
+          "title": "Pair Heterocomplex MSAs",
+          "type": "boolean"
+        },
+        "recycling_steps": {
+          "default": 3,
+          "description": "Iterative refinement passes through the model. Higher = more accurate but slower.",
+          "minimum": 0,
+          "reload_on_change": true,
+          "title": "Number of Recycling Steps",
+          "type": "integer"
+        },
+        "sampling_steps": {
+          "default": 200,
+          "description": "Denoising steps in the diffusion process. Higher = more refined but slower.",
+          "minimum": 1,
+          "reload_on_change": true,
+          "title": "Number of Sampling Steps",
+          "type": "integer"
+        },
+        "diffusion_samples": {
+          "default": 1,
+          "description": "Structure samples per complex; best by confidence is kept. Higher = more thorough but slower.",
+          "minimum": 1,
+          "reload_on_change": true,
+          "title": "Number of Diffusion Samples",
+          "type": "integer"
+        },
+        "step_scale": {
+          "default": 1.5,
+          "description": "Diffusion step size (typical range 1.0-2.0). Lower values produce more sample diversity.",
+          "exclusiveMinimum": 0,
+          "reload_on_change": true,
+          "title": "Diffusion Step Scale",
+          "type": "number"
+        },
+        "max_msa_seqs": {
+          "default": 8192,
+          "description": "Maximum number of MSA sequences fed into the model. Lower this to reduce GPU memory on deep MSAs.",
+          "minimum": 1,
+          "reload_on_change": false,
+          "title": "Max MSA Sequences",
+          "type": "integer"
+        },
+        "subsample_msa": {
+          "default": false,
+          "description": "Randomly subsample the MSA on each run for sample diversity (loses determinism).",
+          "reload_on_change": true,
+          "title": "Subsample MSA",
+          "type": "boolean"
+        },
+        "num_workers": {
+          "default": 4,
+          "description": "Number of dataloader workers for prediction.",
+          "minimum": 1,
+          "reload_on_change": false,
+          "title": "Number of Workers",
+          "type": "integer"
+        },
+        "affinity_mw_correction": {
+          "default": false,
+          "description": "Apply molecular-weight correction to the Boltz-2 affinity value head.",
+          "reload_on_change": true,
+          "title": "Affinity MW Correction",
+          "type": "boolean"
+        },
+        "sampling_steps_affinity": {
+          "default": 200,
+          "description": "Denoising steps for the affinity prediction pass.",
+          "minimum": 1,
+          "reload_on_change": true,
+          "title": "Affinity Sampling Steps",
+          "type": "integer"
+        },
+        "diffusion_samples_affinity": {
+          "default": 5,
+          "description": "Independent diffusion samples per complex for the affinity pass.",
+          "minimum": 1,
+          "reload_on_change": true,
+          "title": "Affinity Diffusion Samples",
+          "type": "integer"
+        }
+      },
+      "title": "Boltz2AffinityConfig",
+      "type": "object"
+    },
+    "output_schema": {
+      "$defs": {
+        "BFactorType": {
+          "description": "What the B-factor column contains.",
+          "enum": [
+            "temperature_factor",
+            "pLDDT",
+            "normalized_pLDDT",
+            "confidence",
+            "unknown",
+            "unspecified"
+          ],
+          "title": "BFactorType",
+          "type": "string"
+        },
+        "Metrics": {
+          "additionalProperties": true,
+          "description": "Dual-access metric container for tool outputs.\n\nStores arbitrary metric values via Pydantic's ``extra=\"allow\"``, so values\nare accessible both as attributes (``m.plddt``) and as items (``m[\"plddt\"]``).\nSubclasses may declare additional Pydantic fields for raw model outputs\n(logits, vocab, pdb_source, etc.) — those live in ``__dict__`` and do not\nleak into metric iteration. ``items``, ``keys``, ``values``, and\n``__contains__`` walk ``__pydantic_extra__`` only.\n\nSubclasses declare ``metric_spec`` to document ranges, types, and\navailability. Validation against the spec is performed by test helpers\n(``tests/tool_infra_tests/_metric_helpers.py``), not at construction.\n\nExample:\n    >>> class ESM2Score(Metrics):\n    ...     metric_spec: ClassVar = {\n    ...         \"perplexity\": {\"type\": \"float\", \"min\": 1.0, \"max\": None},\n    ...         \"log_likelihood\": {\"type\": \"float\", \"min\": None, \"max\": 0.0},\n    ...     }\n    ...     logits: list[list[float]] | None = None  # raw model output\n    >>> s = ESM2Score(perplexity=3.14, log_likelihood=-10.5, logits=[[0.1]])\n    >>> s.perplexity\n    3.14\n    >>> s[\"perplexity\"]\n    3.14\n    >>> s.logits\n    [[0.1]]\n    >>> list(s.items())\n    [('perplexity', 3.14), ('log_likelihood', -10.5)]\n    >>> \"logits\" in s\n    False\n\nAttributes:\n    metric_spec (ClassVar[dict[str, MetricSpec]]): Per-subclass declarative\n        metadata describing each metric's type, range, and availability.\n        Empty on the base class; subclasses override.\n    primary_metric (str | None): Name of the metric that best summarizes\n        the result overall (e.g. ``\"avg_plddt\"`` for AlphaFold2). Used by\n        downstream UI and reporting to pick a headline value.",
+          "properties": {
+            "primary_metric": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Headline metric used to rank results.",
+              "title": "Primary Metric"
+            },
+            "metric_type": {
+              "default": "Metrics",
+              "description": "Concrete Metrics subclass tag; enables typed reconstruction after a serialization round-trip.",
+              "title": "Metric Type",
+              "type": "string"
+            }
+          },
+          "title": "Metrics",
+          "type": "object"
+        },
+        "Structure": {
+          "additionalProperties": false,
+          "description": "Standardized representation of a macromolecular structure (protein, nucleic acid, etc.).\n\nA Pydantic model storing structure content as a PDB or CIF format string.\nThe ``structure`` field accepts either the raw content string or a path to a\n``.pdb``/``.cif``/``.mmcif`` file — paths are loaded transparently at construction\ntime. ``Structure.from_file()`` is also available as an explicit factory.\n\n``Structure.model_validate`` also accepts a bare ``str`` or ``Path`` as shorthand\nfor ``{\"structure\": <value>}``, so any nested field typed ``Structure`` (e.g.\n``SequenceStructurePair.structure``, ``MutationInput.structure``) takes a raw\nPDB/CIF string or file path directly — no ``{\"structure\": ...}`` envelope required.\n\nHeavy objects (gemmi parsed structure) are lazy-loaded via ``PrivateAttr``.\n\nAttributes:\n    structure (str): Raw structure content in PDB or CIF format.\n    structure_format (Literal[\"pdb\", \"cif\"] | None): Format of the content string (auto-detected if omitted).\n    b_factor_type (BFactorType): What the B-factor column represents.\n    source (str | None): Optional source identifier (filepath or tool name).\n    metrics (Metrics): Associated metrics (e.g., pLDDT, pTM scores,\n        per-chain lists, pairwise matrices). None values are stripped at construction.",
+          "properties": {
+            "structure": {
+              "description": "Raw structure content (PDB or CIF format string)",
+              "title": "PDB or CIF Content",
+              "type": "string"
+            },
+            "structure_format": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "pdb",
+                    "cif"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Format of the structure content",
+              "title": "Structure Format"
+            },
+            "b_factor_type": {
+              "$ref": "#/$defs/BFactorType",
+              "default": "unspecified",
+              "description": "What the B-factor column represents",
+              "title": "B-Factor Type"
+            },
+            "source": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Origin identifier (e.g. file path, PDB ID, or producing tool name)",
+              "title": "Source"
+            },
+            "metrics": {
+              "$ref": "#/$defs/Metrics",
+              "description": "Structure-level metrics attached by the producing tool (e.g. pLDDT, pTM, PAE)",
+              "title": "Associated Metrics"
+            }
+          },
+          "required": [
+            "structure"
+          ],
+          "title": "Structure",
+          "type": "object"
+        }
+      },
+      "description": "Boltz-2 affinity output; ``structures`` holds one predicted pose per complex with affinity metrics.",
+      "examples": [
+        {
+          "errors": [],
+          "execution_time": 45.2,
+          "metadata": {
+            "blast_version": "2.14.0",
+            "database_size": 1000000
+          },
+          "success": true,
+          "timestamp": "2025-10-06T10:30:00Z",
+          "tool_id": "blast-search",
+          "warnings": []
+        }
+      ],
+      "properties": {
+        "structures": {
+          "description": "List of predicted structures, one per input complex.",
+          "items": {
+            "$ref": "#/$defs/Structure"
+          },
+          "title": "Structures",
+          "type": "array"
+        }
+      },
+      "required": [
+        "structures"
+      ],
+      "title": "Boltz2AffinityOutput",
+      "type": "object"
+    },
+    "has_example": true,
+    "status": "needs_deploy"
+  },
+  "example": {
+    "result": {
+      "complexes": [
+        {
+          "chains": [
+            {
+              "id": null,
+              "sequence": "MKTLPGCDA",
+              "entity_type": "protein",
+              "modifications": []
+            },
+            {
+              "id": null,
+              "smiles": "N[C@@H](Cc1ccc(O)cc1)C(=O)O",
+              "ccd_code": "TYR",
+              "entity_type": "ligand",
+              "name": null,
+              "metrics": {}
+            }
+          ]
+        }
+      ],
+      "msas": null,
+      "binder_chain": null
+    }
+  },
+  "info": {
+    "tool_key": "boltz2-affinity",
+    "description": "Predicted binding affinity (log10 IC50 μM) and binder probability for a small molecule against a protein target, via Boltz-2.",
+    "category": "structure_prediction",
+    "source": "https://github.com/evo-design/proto-tools/tree/main/proto_tools/tools/structure_prediction/boltz2",
+    "links": {
+      "github": "https://github.com/jwohlwend/boltz",
+      "organizations": [
+        "Boltz",
+        "MIT Jameel Clinic",
+        "Recursion"
+      ]
+    },
+    "bibtex": "@article{passaro2025boltz2,\n  title={Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction},\n  author={Passaro, Saro and Corso, Gabriele and Wohlwend, Jeremy and Reveiz, Mateo and Thaler, Stephan and Somnath, Vignesh Ram and Getz, Noah and Portnoi, Tally and Roy, Julien and St{\\\"a}rk, Hannes and Kwabi-Addo, David and Beaini, Dominique and Jaakkola, Tommi and Barzilay, Regina},\n  journal={bioRxiv},\n  year={2025},\n  doi={10.1101/2025.06.14.659707},\n  publisher={Cold Spring Harbor Laboratory}\n}\n\n@article{wohlwend2024boltz1,\n  title={Boltz-1: Democratizing Biomolecular Interaction Modeling},\n  author={Wohlwend, Jeremy and Corso, Gabriele and Passaro, Saro and Reveiz, Mateo and Leidal, Ken and Swanson, Wojtek and Turnbull, Robert and Shuaibi, Muhammed and Ahdritz, Gustaf and Getz, Gad and Jaakkola, Tommi and Barzilay, Regina},\n  journal={bioRxiv},\n  year={2024},\n  doi={10.1101/2024.11.19.624167},\n  publisher={Cold Spring Harbor Laboratory}\n}",
+    "doi": "10.1101/2025.06.14.659707",
+    "docs_url": "https://bio-pro.mintlify.app/tools/structure-prediction/boltz2",
+    "license": {
+      "code": {
+        "spdx": "MIT",
+        "url": "https://github.com/jwohlwend/boltz/blob/main/LICENSE"
+      },
+      "commercial_use": "yes",
+      "redistribution": true,
+      "attribution_required": false,
+      "notes": "Boltz-2 (Wohlwend et al.) code and HuggingFace weights (boltz-community/boltz-2) are both MIT-licensed.",
+      "last_updated": "2026-05-01"
+    },
+    "weights_access": "open"
+  }
+}

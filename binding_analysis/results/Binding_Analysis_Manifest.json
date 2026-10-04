@@ -1,0 +1,17 @@
+{
+  "analysis_date_UTC": "2026-10-02",
+  "frozen_rows": 11,
+  "sensitivity_rows": 14,
+  "raw_target_rows": 26,
+  "methods": "Exact relations, human target, valid pChEMBL, no duplicate flags; original BAO filter preserved as primary and relaxed only in labeled sensitivity; no inferential cross-assay pooling.",
+  "not_performed": [
+    "Conventional docking",
+    "Boltz structure/binding prediction: authentication pending",
+    "Molecular dynamics: no trajectories or MD engine available"
+  ],
+  "source_hashes": {
+    "chembl_all_nintedanib_activities.csv": "d3cb38208f3313ab93dd1056c6dee26ae2c8a947e3c3a42200ed9f6a7bc0a184",
+    "chembl_human_single_protein_activities.csv": "57541e7d9b41bbc21763125ac403d2a00b8e75bf483ff679378190d9c15f9c72",
+    "Inductive_Bio_Raw_Predictions.json": "394307d0c800474383d5b8b0c2ece25990eb6d2536fd9e1dd4b23d356580abe7"
+  }
+}

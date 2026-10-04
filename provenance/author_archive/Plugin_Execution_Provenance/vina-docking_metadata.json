@@ -1,0 +1,799 @@
+{
+  "retrieved_date": "2026-10-02",
+  "schema": {
+    "tool_key": "vina-docking",
+    "description": "Dock a small molecule into a rigid receptor with AutoDock Vina or Vinardo scoring.",
+    "input_schema": {
+      "$defs": {
+        "BFactorType": {
+          "description": "What the B-factor column contains.",
+          "enum": [
+            "temperature_factor",
+            "pLDDT",
+            "normalized_pLDDT",
+            "confidence",
+            "unknown",
+            "unspecified"
+          ],
+          "title": "BFactorType",
+          "type": "string"
+        },
+        "Fragment": {
+          "additionalProperties": false,
+          "description": "A single small molecule with optional CCD code.\n\nAt least one of ``smiles`` or ``ccd_code`` must be provided. When only one\nis given, the other is resolved automatically from the CCD database. When\nboth are given, they are validated to refer to the same molecule.\n\nA Fragment must contain exactly one molecule. For multi-component inputs\n(dot-separated SMILES, multiple CCD codes), use ``Ligands`` instead.\n\nThe RDKit ``Mol`` object is lazy-loaded from the SMILES on first access\nvia the ``mol`` property. Use ``Fragment.from_mol()`` to construct from an\nexisting Mol.\n\nAttributes:\n    smiles (str | None): SMILES string (canonicalized to RDKit form on construction).\n    ccd_code (str | None): CCD code from the Chemical Component Dictionary.\n    entity_type (Literal[\"ligand\"]): Always ``\"ligand\"``. Lets Fragments be used\n        interchangeably with ``Chain`` in structure-prediction inputs.\n    name (str | None): Human-readable molecule name.\n    metrics (dict[str, float]): Computed metrics for this fragment.",
+          "properties": {
+            "id": {
+              "anyOf": [
+                {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional identifier (free-form; e.g. a chain letter for in-complex use).",
+              "title": "Id"
+            },
+            "smiles": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "SMILES string",
+              "title": "Smiles"
+            },
+            "ccd_code": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "CCD code",
+              "title": "Ccd Code"
+            },
+            "entity_type": {
+              "const": "ligand",
+              "default": "ligand",
+              "description": "Always 'ligand'",
+              "title": "Entity Type",
+              "type": "string"
+            },
+            "name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Molecule name",
+              "title": "Name"
+            },
+            "metrics": {
+              "additionalProperties": {
+                "type": "number"
+              },
+              "description": "Computed metrics",
+              "title": "Metrics",
+              "type": "object"
+            }
+          },
+          "title": "Fragment",
+          "type": "object"
+        },
+        "Metrics": {
+          "additionalProperties": true,
+          "description": "Dual-access metric container for tool outputs.\n\nStores arbitrary metric values via Pydantic's ``extra=\"allow\"``, so values\nare accessible both as attributes (``m.plddt``) and as items (``m[\"plddt\"]``).\nSubclasses may declare additional Pydantic fields for raw model outputs\n(logits, vocab, pdb_source, etc.) — those live in ``__dict__`` and do not\nleak into metric iteration. ``items``, ``keys``, ``values``, and\n``__contains__`` walk ``__pydantic_extra__`` only.\n\nSubclasses declare ``metric_spec`` to document ranges, types, and\navailability. Validation against the spec is performed by test helpers\n(``tests/tool_infra_tests/_metric_helpers.py``), not at construction.\n\nExample:\n    >>> class ESM2Score(Metrics):\n    ...     metric_spec: ClassVar = {\n    ...         \"perplexity\": {\"type\": \"float\", \"min\": 1.0, \"max\": None},\n    ...         \"log_likelihood\": {\"type\": \"float\", \"min\": None, \"max\": 0.0},\n    ...     }\n    ...     logits: list[list[float]] | None = None  # raw model output\n    >>> s = ESM2Score(perplexity=3.14, log_likelihood=-10.5, logits=[[0.1]])\n    >>> s.perplexity\n    3.14\n    >>> s[\"perplexity\"]\n    3.14\n    >>> s.logits\n    [[0.1]]\n    >>> list(s.items())\n    [('perplexity', 3.14), ('log_likelihood', -10.5)]\n    >>> \"logits\" in s\n    False\n\nAttributes:\n    metric_spec (ClassVar[dict[str, MetricSpec]]): Per-subclass declarative\n        metadata describing each metric's type, range, and availability.\n        Empty on the base class; subclasses override.\n    primary_metric (str | None): Name of the metric that best summarizes\n        the result overall (e.g. ``\"avg_plddt\"`` for AlphaFold2). Used by\n        downstream UI and reporting to pick a headline value.",
+          "properties": {
+            "primary_metric": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Headline metric used to rank results.",
+              "title": "Primary Metric"
+            },
+            "metric_type": {
+              "default": "Metrics",
+              "description": "Concrete Metrics subclass tag; enables typed reconstruction after a serialization round-trip.",
+              "title": "Metric Type",
+              "type": "string"
+            }
+          },
+          "title": "Metrics",
+          "type": "object"
+        },
+        "Structure": {
+          "additionalProperties": false,
+          "description": "Standardized representation of a macromolecular structure (protein, nucleic acid, etc.).\n\nA Pydantic model storing structure content as a PDB or CIF format string.\nThe ``structure`` field accepts either the raw content string or a path to a\n``.pdb``/``.cif``/``.mmcif`` file — paths are loaded transparently at construction\ntime. ``Structure.from_file()`` is also available as an explicit factory.\n\n``Structure.model_validate`` also accepts a bare ``str`` or ``Path`` as shorthand\nfor ``{\"structure\": <value>}``, so any nested field typed ``Structure`` (e.g.\n``SequenceStructurePair.structure``, ``MutationInput.structure``) takes a raw\nPDB/CIF string or file path directly — no ``{\"structure\": ...}`` envelope required.\n\nHeavy objects (gemmi parsed structure) are lazy-loaded via ``PrivateAttr``.\n\nAttributes:\n    structure (str): Raw structure content in PDB or CIF format.\n    structure_format (Literal[\"pdb\", \"cif\"] | None): Format of the content string (auto-detected if omitted).\n    b_factor_type (BFactorType): What the B-factor column represents.\n    source (str | None): Optional source identifier (filepath or tool name).\n    metrics (Metrics): Associated metrics (e.g., pLDDT, pTM scores,\n        per-chain lists, pairwise matrices). None values are stripped at construction.",
+          "properties": {
+            "structure": {
+              "description": "Raw structure content (PDB or CIF format string)",
+              "title": "PDB or CIF Content",
+              "type": "string"
+            },
+            "structure_format": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "pdb",
+                    "cif"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Format of the structure content",
+              "title": "Structure Format"
+            },
+            "b_factor_type": {
+              "$ref": "#/$defs/BFactorType",
+              "default": "unspecified",
+              "description": "What the B-factor column represents",
+              "title": "B-Factor Type"
+            },
+            "source": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Origin identifier (e.g. file path, PDB ID, or producing tool name)",
+              "title": "Source"
+            },
+            "metrics": {
+              "$ref": "#/$defs/Metrics",
+              "description": "Structure-level metrics attached by the producing tool (e.g. pLDDT, pTM, PAE)",
+              "title": "Associated Metrics"
+            }
+          },
+          "required": [
+            "structure"
+          ],
+          "title": "Structure",
+          "type": "object"
+        },
+        "VinaReferenceLigandBox": {
+          "additionalProperties": false,
+          "description": "Search box derived from a coordinate-bearing reference ligand.\n\nAttributes:\n    reference_ligand (Structure): Ligand coordinates in the receptor coordinate frame.\n    padding (float): Padding added to both sides of each ligand bounding-box axis.",
+          "properties": {
+            "mode": {
+              "const": "reference_ligand",
+              "default": "reference_ligand",
+              "description": "Center and size the search box around reference-ligand coordinates.",
+              "title": "Box Mode",
+              "type": "string"
+            },
+            "reference_ligand": {
+              "$ref": "#/$defs/Structure",
+              "description": "Coordinate-bearing ligand structure aligned to the receptor.",
+              "title": "Reference Ligand"
+            },
+            "padding": {
+              "default": 4,
+              "description": "Padding added on each side of the ligand bounding box in angstroms.",
+              "exclusiveMinimum": 0,
+              "title": "Box Padding",
+              "type": "number"
+            }
+          },
+          "required": [
+            "reference_ligand"
+          ],
+          "title": "VinaReferenceLigandBox",
+          "type": "object"
+        },
+        "VinaSearchBox": {
+          "additionalProperties": false,
+          "description": "Explicit AutoDock Vina search-box coordinates.\n\nAttributes:\n    center (Vector3): Box center ``(x, y, z)`` in angstroms.\n    size (Vector3): Positive box dimensions ``(x, y, z)`` in angstroms.",
+          "properties": {
+            "mode": {
+              "const": "coordinates",
+              "default": "coordinates",
+              "description": "Use an explicitly positioned search box.",
+              "title": "Box Mode",
+              "type": "string"
+            },
+            "center": {
+              "description": "Search-box center (x, y, z) in angstroms.",
+              "maxItems": 3,
+              "minItems": 3,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "title": "Box Center",
+              "type": "array"
+            },
+            "size": {
+              "description": "Search-box dimensions (x, y, z) in angstroms.",
+              "maxItems": 3,
+              "minItems": 3,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "title": "Box Size",
+              "type": "array"
+            }
+          },
+          "required": [
+            "center",
+            "size"
+          ],
+          "title": "VinaSearchBox",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Inputs for rigid-receptor docking with AutoDock Vina.\n\nAttributes:\n    receptor (Structure): Receptor coordinates to parameterize as a rigid PDBQT model.\n    ligands (list[Fragment]): Small molecules to dock against the receptor, each scored\n        independently. SMILES strings are accepted, and a single ligand is normalized\n        into a one-element list.\n    search_box (VinaSearchBox | VinaReferenceLigandBox): Explicit search box or a box\n        derived from a reference ligand in the receptor coordinate frame.",
+      "properties": {
+        "receptor": {
+          "$ref": "#/$defs/Structure",
+          "description": "Rigid receptor structure in PDB or mmCIF format.",
+          "title": "Receptor"
+        },
+        "ligands": {
+          "description": "Ligand Fragments or SMILES strings to dock into the receptor.",
+          "items": {
+            "$ref": "#/$defs/Fragment"
+          },
+          "minItems": 1,
+          "title": "Ligands",
+          "type": "array"
+        },
+        "search_box": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/VinaSearchBox"
+            },
+            {
+              "$ref": "#/$defs/VinaReferenceLigandBox"
+            }
+          ],
+          "description": "Explicit search-box coordinates or a coordinate-bearing reference ligand.",
+          "title": "Search Box"
+        }
+      },
+      "required": [
+        "receptor",
+        "ligands",
+        "search_box"
+      ],
+      "title": "VinaDockingInput",
+      "type": "object"
+    },
+    "config_schema": {
+      "additionalProperties": false,
+      "description": "Configuration for AutoDock Vina docking.\n\nAttributes:\n    scoring_function (Literal[\"vina\", \"vinardo\"]): Vina-family scoring function.\n    exhaustiveness (int): Number of independent Monte Carlo search runs.\n    num_poses (int): Maximum poses retained and returned.\n    energy_range (float): Maximum affinity difference from the best returned pose.\n    min_rmsd (float): Minimum RMSD separation between retained poses.\n    max_evaluations (int): Search evaluation cap; zero uses Vina's heuristic.\n    cpu (int): Worker threads; zero lets Vina use all available CPUs.\n    grid_spacing (float): Affinity-map grid spacing in angstroms.\n    allow_bad_residues (bool): Delete receptor residues Meeko cannot parameterize.\n    seed (int | None): Positive signed 32-bit seed; generated and returned when omitted.",
+      "properties": {
+        "verbose": {
+          "default": 0,
+          "description": "Verbosity level (0=quiet, 1=info, 2=debug, 3=raw subprocess stderr). True→1, False→0.",
+          "maximum": 3,
+          "minimum": 0,
+          "reload_on_change": false,
+          "title": "Verbose",
+          "type": "integer"
+        },
+        "timeout": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": 3600,
+          "description": "Maximum execution time in seconds. None waits indefinitely.",
+          "reload_on_change": false,
+          "title": "Timeout"
+        },
+        "seed": {
+          "anyOf": [
+            {
+              "exclusiveMaximum": 2147483648,
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Positive signed 32-bit seed; generated and returned when omitted.",
+          "reload_on_change": false,
+          "title": "Random Seed"
+        },
+        "scoring_function": {
+          "default": "vina",
+          "description": "Scoring function: Vina or Vinardo.",
+          "enum": [
+            "vina",
+            "vinardo"
+          ],
+          "reload_on_change": false,
+          "title": "Scoring Function",
+          "type": "string"
+        },
+        "exhaustiveness": {
+          "default": 8,
+          "description": "Independent Monte Carlo runs; higher values search more thoroughly.",
+          "maximum": 2147483647,
+          "minimum": 1,
+          "reload_on_change": false,
+          "title": "Exhaustiveness",
+          "type": "integer"
+        },
+        "num_poses": {
+          "default": 9,
+          "description": "Maximum number of ranked poses to retain and return.",
+          "maximum": 2147483647,
+          "minimum": 1,
+          "reload_on_change": false,
+          "title": "Number of Poses",
+          "type": "integer"
+        },
+        "energy_range": {
+          "default": 3,
+          "description": "Maximum affinity difference from the best returned pose in kcal/mol.",
+          "exclusiveMinimum": 0,
+          "reload_on_change": false,
+          "title": "Energy Range",
+          "type": "number"
+        },
+        "min_rmsd": {
+          "default": 1,
+          "description": "Minimum RMSD separation between retained poses in angstroms.",
+          "exclusiveMinimum": 0,
+          "reload_on_change": false,
+          "title": "Minimum RMSD",
+          "type": "number"
+        },
+        "max_evaluations": {
+          "default": 0,
+          "description": "Search evaluation cap; zero uses Vina's heuristic.",
+          "maximum": 2147483647,
+          "minimum": 0,
+          "reload_on_change": false,
+          "title": "Maximum Evaluations",
+          "type": "integer"
+        },
+        "cpu": {
+          "default": 0,
+          "description": "CPU threads used by Vina; zero uses all available CPUs.",
+          "maximum": 2147483647,
+          "minimum": 0,
+          "reload_on_change": false,
+          "title": "CPU Threads",
+          "type": "integer"
+        },
+        "grid_spacing": {
+          "default": 0.375,
+          "description": "Affinity-map grid spacing in angstroms; minimum 0.1.",
+          "minimum": 0.1,
+          "reload_on_change": false,
+          "title": "Grid Spacing",
+          "type": "number"
+        },
+        "allow_bad_residues": {
+          "default": false,
+          "description": "Delete receptor residues that Meeko cannot match to chemical templates.",
+          "reload_on_change": false,
+          "title": "Allow Bad Residues",
+          "type": "boolean"
+        }
+      },
+      "title": "VinaDockingConfig",
+      "type": "object"
+    },
+    "output_schema": {
+      "$defs": {
+        "VinaDockingPose": {
+          "additionalProperties": false,
+          "description": "One ranked docking pose with metrics and molecular-file representations.",
+          "properties": {
+            "rank": {
+              "description": "One-based Vina pose rank.",
+              "minimum": 1,
+              "title": "Pose Rank",
+              "type": "integer"
+            },
+            "metrics": {
+              "$ref": "#/$defs/VinaDockingPoseMetrics",
+              "description": "Affinity and RMSD-from-best-mode bounds reported by Vina.",
+              "title": "Pose Metrics"
+            },
+            "sdf": {
+              "description": "This pose as one SDF record with preserved bond orders.",
+              "minLength": 1,
+              "title": "SDF Pose",
+              "type": "string"
+            },
+            "pdbqt": {
+              "description": "This pose as one Vina PDBQT MODEL block.",
+              "minLength": 1,
+              "title": "PDBQT Pose",
+              "type": "string"
+            }
+          },
+          "required": [
+            "rank",
+            "metrics",
+            "sdf",
+            "pdbqt"
+          ],
+          "title": "VinaDockingPose",
+          "type": "object"
+        },
+        "VinaDockingPoseMetrics": {
+          "additionalProperties": true,
+          "description": "AutoDock Vina score and distance bounds for one ranked pose.",
+          "properties": {
+            "primary_metric": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": "affinity",
+              "description": "Headline metric used to rank docking poses.",
+              "title": "Primary Metric"
+            },
+            "metric_type": {
+              "default": "Metrics",
+              "description": "Concrete Metrics subclass tag; enables typed reconstruction after a serialization round-trip.",
+              "title": "Metric Type",
+              "type": "string"
+            }
+          },
+          "title": "VinaDockingPoseMetrics",
+          "type": "object"
+        },
+        "VinaLigandResult": {
+          "additionalProperties": false,
+          "description": "Docking result for one ligand, holding everything specific to that ligand.\n\nAttributes:\n    smiles (str): SMILES of the docked ligand, echoed for provenance.\n    seed (int): Seed actually used for this ligand, advanced from the request seed\n        by the ligand's position so duplicate ligands still sample independently.\n    poses (list[VinaDockingPose]): Ranked poses in ascending affinity order.\n    poses_sdf (str): This ligand's returned poses in a combined SDF payload.\n    poses_pdbqt (str): This ligand's returned poses in a combined PDBQT payload.\n    optimization_method (str | None): Force field used to minimize the input conformer.\n    optimization_converged (bool | None): Whether conformer minimization converged.\n    optimization_attempts (int | None): Conformer minimization attempts made.\n    optimization_iteration_limits (list[int]): Iteration cap used for each attempt.\n    warnings (list[str]): Ligand-specific preparation warnings.",
+          "properties": {
+            "smiles": {
+              "description": "SMILES of the ligand these poses were docked from.",
+              "minLength": 1,
+              "title": "Ligand SMILES",
+              "type": "string"
+            },
+            "seed": {
+              "description": "Seed used for this ligand's conformer generation and docking search.",
+              "exclusiveMaximum": 2147483648,
+              "minimum": 1,
+              "title": "Ligand Seed",
+              "type": "integer"
+            },
+            "poses": {
+              "description": "Ranked docking poses with affinity and RMSD metrics.",
+              "items": {
+                "$ref": "#/$defs/VinaDockingPose"
+              },
+              "title": "Docking Poses",
+              "type": "array"
+            },
+            "poses_sdf": {
+              "description": "This ligand's returned docking poses as SDF records.",
+              "minLength": 1,
+              "title": "Combined SDF",
+              "type": "string"
+            },
+            "poses_pdbqt": {
+              "description": "This ligand's returned docking poses as PDBQT MODEL blocks.",
+              "minLength": 1,
+              "title": "Combined PDBQT",
+              "type": "string"
+            },
+            "optimization_method": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Force field used to minimize the input conformer, if any.",
+              "title": "Optimization Method"
+            },
+            "optimization_converged": {
+              "anyOf": [
+                {
+                  "type": "boolean"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Whether conformer minimization converged.",
+              "title": "Optimization Converged"
+            },
+            "optimization_attempts": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Number of conformer minimization attempts made.",
+              "title": "Optimization Attempts"
+            },
+            "optimization_iteration_limits": {
+              "description": "Iteration cap applied on each minimization attempt.",
+              "items": {
+                "type": "integer"
+              },
+              "title": "Optimization Iteration Limits",
+              "type": "array"
+            },
+            "warnings": {
+              "description": "Preparation warnings specific to this ligand.",
+              "items": {
+                "type": "string"
+              },
+              "title": "Ligand Warnings",
+              "type": "array"
+            }
+          },
+          "required": [
+            "smiles",
+            "seed",
+            "poses",
+            "poses_sdf",
+            "poses_pdbqt"
+          ],
+          "title": "VinaLigandResult",
+          "type": "object"
+        },
+        "VinaSearchBox": {
+          "additionalProperties": false,
+          "description": "Explicit AutoDock Vina search-box coordinates.\n\nAttributes:\n    center (Vector3): Box center ``(x, y, z)`` in angstroms.\n    size (Vector3): Positive box dimensions ``(x, y, z)`` in angstroms.",
+          "properties": {
+            "mode": {
+              "const": "coordinates",
+              "default": "coordinates",
+              "description": "Use an explicitly positioned search box.",
+              "title": "Box Mode",
+              "type": "string"
+            },
+            "center": {
+              "description": "Search-box center (x, y, z) in angstroms.",
+              "maxItems": 3,
+              "minItems": 3,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "title": "Box Center",
+              "type": "array"
+            },
+            "size": {
+              "description": "Search-box dimensions (x, y, z) in angstroms.",
+              "maxItems": 3,
+              "minItems": 3,
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "title": "Box Size",
+              "type": "array"
+            }
+          },
+          "required": [
+            "center",
+            "size"
+          ],
+          "title": "VinaSearchBox",
+          "type": "object"
+        }
+      },
+      "description": "Per-ligand AutoDock Vina results and shared reproducibility metadata.\n\nAttributes:\n    results (list[VinaLigandResult]): One entry per input ligand, in input order.\n    seed (int): Concrete random seed used by Vina and ligand conformer generation.\n    search_box (VinaSearchBox): Resolved search-box coordinates.\n    scoring_function (Literal[\"vina\", \"vinardo\"]): Scoring function used.",
+      "examples": [
+        {
+          "errors": [],
+          "execution_time": 45.2,
+          "metadata": {
+            "blast_version": "2.14.0",
+            "database_size": 1000000
+          },
+          "success": true,
+          "timestamp": "2025-10-06T10:30:00Z",
+          "tool_id": "blast-search",
+          "warnings": []
+        }
+      ],
+      "properties": {
+        "results": {
+          "description": "Docking result per input ligand, in input order.",
+          "items": {
+            "$ref": "#/$defs/VinaLigandResult"
+          },
+          "title": "Results",
+          "type": "array"
+        },
+        "seed": {
+          "description": "Base seed for the request; each ligand advances it by its position.",
+          "exclusiveMaximum": 2147483648,
+          "minimum": 1,
+          "title": "Random Seed",
+          "type": "integer"
+        },
+        "search_box": {
+          "$ref": "#/$defs/VinaSearchBox",
+          "description": "Explicit center and dimensions used to compute Vina affinity maps.",
+          "title": "Resolved Search Box"
+        },
+        "scoring_function": {
+          "description": "Vina-family scoring function used for docking.",
+          "enum": [
+            "vina",
+            "vinardo"
+          ],
+          "title": "Scoring Function",
+          "type": "string"
+        }
+      },
+      "required": [
+        "results",
+        "seed",
+        "search_box",
+        "scoring_function"
+      ],
+      "title": "VinaDockingOutput",
+      "type": "object"
+    },
+    "has_example": true,
+    "status": "needs_deploy"
+  },
+  "example": {
+    "result": {
+      "receptor": {
+        "structure": "<176,170 characters elided — a file path or http(s) URL is accepted instead, here or in place of the whole field, e.g. '/path/to/structure.pdb'>",
+        "structure_format": "pdb",
+        "b_factor_type": "unspecified",
+        "metrics": {
+          "primary_metric": null,
+          "metric_type": "Metrics"
+        }
+      },
+      "ligands": [
+        {
+          "id": null,
+          "smiles": "Cc1ccc(NC(=O)c2ccc(CN3CC[NH+](C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+          "ccd_code": null,
+          "entity_type": "ligand",
+          "name": null,
+          "metrics": {}
+        }
+      ],
+      "search_box": {
+        "mode": "coordinates",
+        "center": [
+          15.19,
+          53.903,
+          16.917
+        ],
+        "size": [
+          20,
+          20,
+          20
+        ]
+      }
+    }
+  },
+  "info": {
+    "tool_key": "vina-docking",
+    "description": "Dock a small molecule into a rigid receptor with AutoDock Vina or Vinardo scoring.",
+    "category": "molecular_docking",
+    "source": "https://github.com/evo-design/proto-tools/tree/main/proto_tools/tools/molecular_docking/vina",
+    "links": {
+      "github": "https://github.com/ccsb-scripps/AutoDock-Vina",
+      "website": "https://vina.scripps.edu",
+      "paper": "https://doi.org/10.1021/acs.jcim.1c00203",
+      "organizations": [
+        "Scripps Research",
+        "Forli Lab"
+      ]
+    },
+    "bibtex": "@article{eberhardt2021autodockvina,\n  title={{AutoDock Vina 1.2.0}: New Docking Methods, Expanded Force Field, and Python Bindings},\n  author={Eberhardt, Jerome and Santos-Martins, Diogo and Tillack, Andreas F. and Forli, Stefano},\n  journal={Journal of Chemical Information and Modeling},\n  volume={61},\n  number={8},\n  pages={3891--3898},\n  year={2021},\n  publisher={American Chemical Society},\n  doi={10.1021/acs.jcim.1c00203}\n}\n\n@article{trott2010autodockvina,\n  title={{AutoDock Vina}: Improving the Speed and Accuracy of Docking with a New Scoring Function, Efficient Optimization, and Multithreading},\n  author={Trott, Oleg and Olson, Arthur J.},\n  journal={Journal of Computational Chemistry},\n  volume={31},\n  number={2},\n  pages={455--461},\n  year={2010},\n  publisher={Wiley},\n  doi={10.1002/jcc.21334}\n}\n\n@article{santosmartins2025meeko,\n  title={Meeko: Molecule Parametrization and Software Interoperability for Docking and Beyond},\n  author={Santos-Martins, Diogo and He, Yiran and Eberhardt, Jerome and Sharma, Parnika and Bruciaferri, Niccolo and Holcomb, Matthew and Llanos, Manuel A. and Hansel-Harris, Althea and Barkdull, Allison Pearl and Tillack, Andreas Frank and Bianco, Giulia and Paulsen, May-Linn and Mato, Joani and Taneja, Ishan and Forli, Stefano},\n  journal={Journal of Chemical Information and Modeling},\n  volume={65},\n  number={24},\n  pages={13045--13050},\n  year={2025},\n  publisher={American Chemical Society},\n  doi={10.1021/acs.jcim.5c02271}\n}\n\n@article{quiroga2016vinardo,\n  title={Vinardo: A Scoring Function Based on {AutoDock Vina} Improves Scoring, Docking, and Virtual Screening},\n  author={Quiroga, Rodrigo and Villarreal, Marcos A.},\n  journal={PLOS ONE},\n  volume={11},\n  number={5},\n  pages={e0155183},\n  year={2016},\n  publisher={Public Library of Science},\n  doi={10.1371/journal.pone.0155183}\n}\n\n@article{nagar2002abl,\n  title={Crystal Structures of the Kinase Domain of {c-Abl} in Complex with the Small Molecule Inhibitors {PD173955} and Imatinib ({STI-571})},\n  author={Nagar, Bhushan and Bornmann, William G. and Pellicena, Patricia and Schindler, Thomas and Veach, Darren R. and Miller, W. Todd and Clarkson, Bayard and Kuriyan, John},\n  journal={Cancer Research},\n  volume={62},\n  number={15},\n  pages={4236--4243},\n  year={2002},\n  publisher={American Association for Cancer Research},\n  pmid={12154025},\n  url={https://pubmed.ncbi.nlm.nih.gov/12154025/}\n}",
+    "doi": "10.1021/acs.jcim.1c00203",
+    "docs_url": "https://bio-pro.mintlify.app/tools/molecular-docking/vina",
+    "license": {
+      "code": {
+        "spdx": "Apache-2.0",
+        "url": "https://github.com/ccsb-scripps/AutoDock-Vina/blob/develop/LICENSE"
+      },
+      "data": {
+        "name": "the RCSB Protein Data Bank",
+        "spdx": "CC0-1.0",
+        "url": "https://www.rcsb.org/pages/policies",
+        "attribution_required": false
+      },
+      "bundled_dependencies": [
+        {
+          "name": "Meeko",
+          "spdx": "Custom (LGPL-2.1-or-later)",
+          "url": "https://github.com/forlilab/Meeko/blob/develop/LICENSE",
+          "text": "Meeko is free software that may be redistributed and modified under the\nGNU Lesser General Public License as published by the Free Software\nFoundation, version 2.1 or any later version. It is distributed without\nwarranty. Full terms are available at the canonical URL above.\n"
+        },
+        {
+          "name": "RCSB Protein Data Bank fixture data",
+          "spdx": "CC0-1.0",
+          "url": "https://www.rcsb.org/pages/policies"
+        }
+      ],
+      "commercial_use": "yes",
+      "redistribution": true,
+      "attribution_required": false,
+      "notes": "AutoDock Vina is Apache-2.0 licensed. Meeko is installed as a separate Python dependency under LGPL-2.1-or-later and is used for receptor and ligand PDBQT preparation and pose conversion. The bundled receptor and reference-ligand fixtures are derived from chain A of RCSB PDB entry 1IEP and are distributed under CC0-1.0.",
+      "last_updated": "2026-07-27"
+    },
+    "weights_access": "open"
+  }
+}

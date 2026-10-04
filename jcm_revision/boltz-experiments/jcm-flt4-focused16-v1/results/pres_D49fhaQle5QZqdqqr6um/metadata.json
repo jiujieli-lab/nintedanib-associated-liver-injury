@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 3.4446115493774414,
+    "permeability": 0.607308030128479,
+    "solubility": "medium-confidence"
+  },
+  "created_at": "2026-10-02T15:16:12.814Z",
+  "external_id": "tivozanib",
+  "id": "pres_D49fhaQle5QZqdqqr6um",
+  "metrics": {
+    "binding_confidence": 0.7886714935302734,
+    "complex_iplddt": 0.8204004168510437,
+    "complex_plddt": 0.7552725672721863,
+    "iptm": 0.8935075998306274,
+    "optimization_score": 0.46315091848373413,
+    "ptm": 0.7709071636199951,
+    "structure_confidence": 0.7829195857048035
+  },
+  "smiles": "COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC"
+}

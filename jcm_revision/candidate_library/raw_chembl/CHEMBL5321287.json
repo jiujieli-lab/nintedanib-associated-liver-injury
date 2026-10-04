@@ -1,0 +1,24 @@
+{
+  "abstract": "Poly(ADP-ribose) polymerase (PARP) inhibitors have been approved for the treatment of breast cancer (BC) with breast cancer susceptibility (BRCA) gene mutation. Leveraging new synthetic lethal interactions may be an effective way to broaden the indication of PARP inhibitors for BC patients with wild-type BRCA. Vascular endothelial growth factor receptor (VEGFR)-mediated suppression of angiogenesis has been reported to improve the sensitivity of wild-type BRCA cells to PARP inhibitors through synthetic lethality. Herein, we reported the conjugation of a PARP inhibitor with a VEGFR inhibitor pharmacophore to construct dual VEGFR and PARP inhibitors. The most potent compound <b>14b</b> is identified to exert promising activities against VEGFR and PARP in the nanomolar range and possesses significant <i>in vitro</i> and <i>in vivo</i> antitumor and antimetastasis features. It also presented a favorable pharmacokinetic characteristics in rats with an oral bioavailability of 60.1%. Collectively, <b>14b</b> may be a promising therapeutic agent of BRCA wild-type BC.",
+  "authors": "Li Y, Liu Y, Zhang D, Chen J, Yang G, Tang P, Yang C, Liu J, Zhang J, Ouyang L.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_35",
+    "creation_date": "2024-12-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5321287",
+  "doi": "10.1021/acs.jmedchem.3c00640",
+  "doi_chembl": null,
+  "first_page": "12069",
+  "issue": "17",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "12100",
+  "patent_id": null,
+  "pubmed_id": 37616488,
+  "src_id": 1,
+  "title": "Discovery, Synthesis, and Evaluation of Novel Dual Inhibitors of a Vascular Endothelial Growth Factor Receptor and Poly(ADP-Ribose) Polymerase for BRCA Wild-Type Breast Cancer Therapy.",
+  "volume": "66",
+  "year": 2023
+}

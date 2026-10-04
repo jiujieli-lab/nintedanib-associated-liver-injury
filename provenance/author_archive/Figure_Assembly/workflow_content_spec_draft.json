@@ -1,0 +1,359 @@
+{
+  "status": "INSPECTION ONLY; awaits parent updated analysis story before rendering",
+  "workflow_panels": [
+    {
+      "final_figure": "Figure_1",
+      "original_figure": "Figure_1",
+      "source_file": "work/source/转化医学投稿20260922/Figures/Figure 1.tif",
+      "source_canvas_px": [
+        2008,
+        2358
+      ],
+      "source_crop_ltrb": [
+        0,
+        0,
+        2008,
+        211
+      ],
+      "source_crop_px": [
+        2008,
+        211
+      ],
+      "reassembled_canvas_px": [
+        2024,
+        2445
+      ],
+      "reassembled_placement": {
+        "panel": "A",
+        "x": 12,
+        "y": 12,
+        "width": 2000,
+        "height": 198
+      },
+      "proposed_panel_px": [
+        2000,
+        380
+      ],
+      "concept": {
+        "message": "Clinical injury evidence and liver-cell context prioritize receptors for experimental investigation.",
+        "stages": [
+          {
+            "title": "Clinical injury",
+            "icons": [
+              "human silhouette",
+              "serum tube",
+              "liver"
+            ],
+            "labels": [
+              "FAERS signal",
+              "13 serum proteins"
+            ]
+          },
+          {
+            "title": "Drug + liver cells",
+            "icons": [
+              "nintedanib capsule",
+              "receptor on cell membrane",
+              "liver-cell cluster"
+            ],
+            "labels": [
+              "Pharmacology + HepG2",
+              "5-donor liver atlas"
+            ]
+          },
+          {
+            "title": "Target priorities",
+            "icons": [
+              "weighted gene network",
+              "two receptor nodes"
+            ],
+            "labels": [
+              "Calibrated integration",
+              "PDGFRA • FLT4"
+            ]
+          },
+          {
+            "title": "Independent evaluation",
+            "icons": [
+              "mouse beside liver",
+              "lung"
+            ],
+            "labels": [
+              "Liver exposure challenge",
+              "Pulmonary response context"
+            ]
+          }
+        ],
+        "caveat": "No rescue, protection, causal DILI mechanism or successful validation claim. Final title/stages await updated analysis story."
+      }
+    },
+    {
+      "final_figure": "Figure_5",
+      "original_figure": "Figure_4",
+      "source_file": "work/source/转化医学投稿20260922/Figures/Figure 4.tif",
+      "source_canvas_px": [
+        2008,
+        2214
+      ],
+      "source_crop_ltrb": [
+        0,
+        0,
+        2008,
+        228
+      ],
+      "source_crop_px": [
+        2008,
+        228
+      ],
+      "reassembled_canvas_px": [
+        2030,
+        2259
+      ],
+      "reassembled_placement": {
+        "panel": "A",
+        "x": 12,
+        "y": 12,
+        "width": 2006,
+        "height": 216
+      },
+      "proposed_panel_px": [
+        2006,
+        380
+      ],
+      "concept": {
+        "message": "Cell localization and raw-distance calibration constrain the interpretation of virtual knockouts.",
+        "stages": [
+          {
+            "title": "Liver-cell context",
+            "icons": [
+              "human liver",
+              "three cell phenotypes"
+            ],
+            "labels": [
+              "5 human donors",
+              "Compartment + detection"
+            ]
+          },
+          {
+            "title": "Virtual knockout",
+            "icons": [
+              "small gene network with one gray removed node"
+            ],
+            "labels": [
+              "210 archived runs",
+              "Raw network distances"
+            ]
+          },
+          {
+            "title": "Numerical audit",
+            "icons": [
+              "screen/filter with gray nodes rejected"
+            ],
+            "labels": [
+              "Zero threshold ≤10⁻¹²",
+              "132 numerical-zero runs"
+            ]
+          },
+          {
+            "title": "Clinical projection",
+            "icons": [
+              "protein anchors around retained network"
+            ],
+            "labels": [
+              "29 nonzero target runs",
+              "Matched-null comparison"
+            ]
+          }
+        ],
+        "caveat": "132/210 numerical-zero includes non-target runs; 29 valid pharmacologic-target runs are not 210−132. Network edges are computational associations; no successful biological enrichment claim."
+      }
+    },
+    {
+      "final_figure": "Figure_6",
+      "original_figure": "Figure_5",
+      "source_file": "work/source/转化医学投稿20260922/Figures/Figure 5.tif",
+      "source_canvas_px": [
+        2008,
+        2295
+      ],
+      "source_crop_ltrb": [
+        0,
+        0,
+        2008,
+        219
+      ],
+      "source_crop_px": [
+        2008,
+        219
+      ],
+      "reassembled_canvas_px": [
+        2030,
+        2263
+      ],
+      "reassembled_placement": {
+        "panel": "A",
+        "x": 12,
+        "y": 12,
+        "width": 2006,
+        "height": 216
+      },
+      "proposed_panel_px": [
+        2006,
+        380
+      ],
+      "concept": {
+        "message": "Donor-balanced clinical-protein-guided integration yields stable receptor priorities.",
+        "stages": [
+          {
+            "title": "Liver + clinical anchors",
+            "icons": [
+              "donor cells",
+              "serum tube",
+              "protein chain"
+            ],
+            "labels": [
+              "Donor-balanced networks",
+              "13 protein weights"
+            ]
+          },
+          {
+            "title": "Calibrated proximity",
+            "icons": [
+              "weighted network",
+              "gray background nodes"
+            ],
+            "labels": [
+              "1,999 matched null sets",
+              "Expression + detection"
+            ]
+          },
+          {
+            "title": "Evidence integration",
+            "icons": [
+              "four small aligned evidence symbols",
+              "fusion ring"
+            ],
+            "labels": [
+              "Pharmacology · network",
+              "HepG2 · STRING"
+            ]
+          },
+          {
+            "title": "Frozen priorities",
+            "icons": [
+              "two highlighted receptor nodes",
+              "lock"
+            ],
+            "labels": [
+              "17 targets · 6 algorithms",
+              "PDGFRA • FLT4"
+            ]
+          }
+        ],
+        "caveat": "The six algorithms include historical comparator and five revised rules. Stable rank is experimental priority, not causal proof. Do not show macrophage PDGFRA as robust expression."
+      }
+    },
+    {
+      "final_figure": "Figure_7",
+      "original_figure": "Figure_6",
+      "source_file": "work/source/转化医学投稿20260922/Figures/Figure 6.tif",
+      "source_canvas_px": [
+        2008,
+        2310
+      ],
+      "source_crop_ltrb": [
+        0,
+        0,
+        2008,
+        221
+      ],
+      "source_crop_px": [
+        2008,
+        221
+      ],
+      "reassembled_canvas_px": [
+        2030,
+        2370
+      ],
+      "reassembled_placement": {
+        "panel": "A",
+        "x": 12,
+        "y": 12,
+        "width": 2006,
+        "height": 214
+      },
+      "proposed_panel_px": [
+        2006,
+        380
+      ],
+      "concept": {
+        "message": "An independent whole-animal liver dataset challenges frozen target ranks.",
+        "stages": [
+          {
+            "title": "Frozen candidates",
+            "icons": [
+              "lock",
+              "small receptor panel"
+            ],
+            "labels": [
+              "17 targets",
+              "6 algorithms"
+            ]
+          },
+          {
+            "title": "Independent mouse liver",
+            "icons": [
+              "three mouse group silhouettes",
+              "liver"
+            ],
+            "labels": [
+              "Healthy 3 · disease 9",
+              "Nintedanib 10"
+            ]
+          },
+          {
+            "title": "Animal-level analysis",
+            "icons": [
+              "transcript reads on screen",
+              "mouse-linked samples"
+            ],
+            "labels": [
+              "Genome-wide + target family",
+              "92,378 allocations"
+            ]
+          },
+          {
+            "title": "External rank challenge",
+            "icons": [
+              "ranked nodes beside liver response symbol"
+            ],
+            "labels": [
+              "12 measured targets",
+              "Priority vs. hepatic effect"
+            ]
+          }
+        ],
+        "caveat": "22 animals in all groups; 19 in disease-vs-treatment contrast and leave-one-animal-out sensitivity. GSE125975 measures pharmacodynamics, not DILI rescue. Kdr significant only candidate-family, not genome-wide."
+      }
+    }
+  ],
+  "not_workflows": [
+    "Figure 2A is a quantitative discovery-effect plot and must not be replaced.",
+    "Figure 3A is a quantitative response-distribution plot.",
+    "Figure 4 is the new six-panel biochemical evidence figure."
+  ],
+  "references": {
+    "principles": [
+      "Biomedical object icons are primary; one short heading and one or two short captions per stage.",
+      "White background, restrained blue-gray organization, warm red/orange biological accents.",
+      "Thin black/gray outlines and directional arrows; horizontal experimental progression.",
+      "Logical group boxes only where they identify experimental stages; no redundant boxed paragraphs.",
+      "Preserve main stage order, exact sample denominators, measured versus inferred distinctions."
+    ],
+    "do_not_copy": [
+      "Decorative brain circuit background or particular reference illustrations.",
+      "Chart miniatures with invented values.",
+      "Causal/activation arrows unsupported by the manuscript."
+    ]
+  }
+}

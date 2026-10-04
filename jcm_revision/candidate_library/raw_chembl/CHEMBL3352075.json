@@ -1,0 +1,24 @@
+{
+  "abstract": "Starting from our previously identified novel c-Met kinase inhibitors bearing 1H-imidazo[4,5-h][1,6]naphthyridin-2(3H)-one scaffold, a global structural exploration was conducted to furnish an optimal binding motif for further development, directed by the enzyme inhibitory mechanism. First round SAR study picked two imidazonaphthyridinone frameworks with 1,8- and 3,5-disubstitution pattern as class I and class II c-Met kinase inhibitors, respectively. Further structural optimization on type II inhibitors by truncation of the imidazonaphthyridinone core and incorporation of an N-phenyl cyclopropane-1,1-dicarboxamide pharmacophore led to the discovery of novel imidazopyridine-based c-Met kinase inhibitors, displaying nanomolar enzyme inhibitory activity and improved Met kinase selectivity. More significantly, the new chemotype c-Met kinase inhibitors effectively inhibited Met phosphorylation and its downstream signaling as well as the proliferation of Met-dependent EBC-1 human lung cancer cells at submicromolar concentrations.",
+  "authors": "An XD, Liu H, Xu ZL, Jin Y, Peng X, Yao YM, Geng M, Long YQ.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_21",
+    "creation_date": "2016-02-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL3352075",
+  "doi": "10.1016/j.bmcl.2014.11.070",
+  "doi_chembl": null,
+  "first_page": "708",
+  "issue": "3",
+  "journal": "Bioorg Med Chem Lett",
+  "journal_full_title": "Bioorganic & medicinal chemistry letters.",
+  "last_page": "716",
+  "patent_id": null,
+  "pubmed_id": 25529740,
+  "src_id": 1,
+  "title": "Discovery of potent 1H-imidazo[4,5-b]pyridine-based c-Met kinase inhibitors via mechanism-directed structural optimization.",
+  "volume": "25",
+  "year": 2015
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "A series of new ureidoindolin-2-one derivatives were synthesized and evaluated as inhibitors of receptor tyrosine kinases. Investigation of structure-activity relationships at positions 5, 6, and 7 of the oxindole skeleton led to the identification of 6-ureido-substituted 3-pyrrolemethylidene-2-oxindole derivatives that potently inhibited both the vascular endothelial growth factor receptor (VEGFR) and platelet-derived growth factor receptor (PDGFR) families of receptor tyrosine kinases. Several derivatives showed potency against the PDGFR inhibiting both its enzymatic and cellular functions in the single-digit nanomolar range. Among them, compound 35 was a potent inhibitor against tyrosine kinases, including VEGFR and PDGFR families, as well as Aurora kinases. Inhibitor 36 (non-substituted on the pyrrole or phenyl ring) had a moderate pharmacokinetic profile and completely inhibited tumor growth initiated with the myeloid leukemia cell line, MV4-11, in a subcutaneous xenograft model in BALB/c nude mice.",
+  "authors": "Khanwelkar RR, Chen GS, Wang HC, Yu CW, Huang CH, Lee O, Chen CH, Hwang CS, Ko CH, Chou NT, Lin MW, Wang LM, Chen YC, Hseu TH, Chang CN, Hsu HC, Lin HC, Shih YC, Chou SH, Tseng HW, Liu CP, Tu CM, Hu TL, Tsai YJ, Chern JW.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_8",
+    "creation_date": "2010-10-26"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1177651",
+  "doi": "10.1016/j.bmc.2010.05.021",
+  "doi_chembl": null,
+  "first_page": "4674",
+  "issue": "13",
+  "journal": "Bioorg Med Chem",
+  "journal_full_title": "Bioorganic & medicinal chemistry.",
+  "last_page": "4686",
+  "patent_id": null,
+  "pubmed_id": 20570526,
+  "src_id": 1,
+  "title": "Synthesis and structure-activity relationship of 6-arylureido-3-pyrrol-2-ylmethylideneindolin-2-one derivatives as potent receptor tyrosine kinase inhibitors.",
+  "volume": "18",
+  "year": 2010
+}

@@ -1,0 +1,96 @@
+{
+  "GSE278200": {
+    "diagnostics": {
+      "n_samples": 12,
+      "n_genes": 13598,
+      "design_rank": 3,
+      "residual_df": 9,
+      "prior_df": 4.7496829231504565,
+      "winsorized_log_variance": 0.7705083136029833,
+      "group_levels": [
+        "BLM",
+        "SAL",
+        "NINT"
+      ],
+      "method": "TMM logCPM plus robust limma-trend-style empirical-Bayes moderated linear model"
+    },
+    "reversal": {
+      "n_disease_responsive": 3647,
+      "fraction_directionally_reversed": 0.944337811900192,
+      "fraction_closer_to_control": 0.9435152179873869,
+      "median_reversal_index_among_directional": 0.5138079347306481,
+      "fraction_directional_with_reversal_index_0.5_to_1.5": 0.5150987224157956,
+      "median_absolute_disease_log2FC": 0.9399923789219855,
+      "median_absolute_treatment_log2FC": 0.4914273135999372,
+      "spearman_disease_vs_treatment_rho": -0.8668315841522666,
+      "spearman_nominal_p_gene_as_unit_descriptive": 0.0,
+      "selection": "disease q<0.05 and |log2FC|>=0.5",
+      "caution": "Gene-wise geometry is descriptive because genes are correlated; the gene-wise correlation p value is not used for biological inference."
+    },
+    "group_n": {
+      "BLM": 4,
+      "NINT": 4,
+      "SAL": 4
+    }
+  },
+  "GSE308578": {
+    "diagnostics": {
+      "n_samples": 43,
+      "n_genes": 14305,
+      "design_rank": 3,
+      "residual_df": 40,
+      "prior_df": 4.408720924948866,
+      "winsorized_log_variance": 0.6228088280676475,
+      "group_levels": [
+        "BLM_vehicle",
+        "NINT",
+        "CTRL"
+      ],
+      "method": "TMM logCPM plus robust limma-trend-style empirical-Bayes moderated linear model"
+    },
+    "reversal": {
+      "n_disease_responsive": 3499,
+      "fraction_directionally_reversed": 0.7885110031437553,
+      "fraction_closer_to_control": 0.7885110031437553,
+      "median_reversal_index_among_directional": 0.2574722168688234,
+      "fraction_directional_with_reversal_index_0.5_to_1.5": 0.1417180137731062,
+      "median_absolute_disease_log2FC": 0.8936844746755535,
+      "median_absolute_treatment_log2FC": 0.2471991428367763,
+      "spearman_disease_vs_treatment_rho": -0.6401626052152403,
+      "spearman_nominal_p_gene_as_unit_descriptive": 0.0,
+      "selection": "disease q<0.05 and |log2FC|>=0.5",
+      "caution": "Gene-wise geometry is descriptive because genes are correlated; the gene-wise correlation p value is not used for biological inference."
+    },
+    "group_n": {
+      "BLM_vehicle": 16,
+      "CTRL": 10,
+      "NINT": 17
+    },
+    "metadata_resolution": "GEO SOFT and ARRIVE Supplementary Figure S1 agree on CTRL 10, vehicle 16, nintedanib 17; main Figure 6 caption in source article reverses vehicle/nintedanib n. No sample was relabelled."
+  },
+  "GSE120804": {
+    "group_n": {
+      "BDL": 10,
+      "BDL_EXT-1024": 9,
+      "BDL_Nint": 10,
+      "BDL_Sora": 10,
+      "Sham": 9
+    },
+    "scope": "pooled-tissue slice observations; exploratory only"
+  },
+  "GSE120679": {
+    "group_n": {
+      "None_0_None": 6,
+      "None_72_None": 6,
+      "TGFb_72_Nint": 6,
+      "TGFb_72_None": 6,
+      "TGFb_72_Pirf": 6,
+      "TGFb_72_Sora": 6
+    },
+    "scope": "pooled-tissue slice observations; exploratory only"
+  },
+  "PXD024058": {
+    "n_proteins": 5951,
+    "scope": "descriptive only because replicate provenance is internally inconsistent"
+  }
+}

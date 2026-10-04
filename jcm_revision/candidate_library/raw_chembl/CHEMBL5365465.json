@@ -1,0 +1,24 @@
+{
+  "abstract": "The oxetane ring is an emergent, underexplored motif in drug discovery that shows attractive properties such as low molecular weight, high polarity, and marked three-dimensionality. Oxetanes have garnered further interest as isosteres of carbonyl groups and as molecular tools to fine-tune physicochemical properties of drug compounds such as p<i>K</i><sub>a</sub>, LogD, aqueous solubility, and metabolic clearance. This perspective highlights recent applications of oxetane motifs in drug discovery campaigns (2017-2022), with emphasis on the effect of the oxetane on medicinally relevant properties and on the building blocks used to incorporate the oxetane ring. Based on this analysis, we provide an overview of the potential benefits of appending an oxetane to a drug compound, as well as potential pitfalls, challenges, and future directions.",
+  "authors": "Rojas JJ, Bull JA.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_35",
+    "creation_date": "2024-12-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5365465",
+  "doi": "10.1021/acs.jmedchem.3c01101",
+  "doi_chembl": null,
+  "first_page": "12697",
+  "issue": "18",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "12709",
+  "patent_id": null,
+  "pubmed_id": 37676858,
+  "src_id": 1,
+  "title": "Oxetanes in Drug Discovery Campaigns.",
+  "volume": "66",
+  "year": 2023
+}

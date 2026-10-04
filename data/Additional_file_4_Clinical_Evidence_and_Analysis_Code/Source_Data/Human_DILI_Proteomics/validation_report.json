@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "n_checks": 14,
+  "checks": [
+    {
+      "check": "source_hash_matches_manifest",
+      "passed": true,
+      "detail": "5911fe3d24efa1b639000e5c9176ef9cee7a44b4bed7ff75fe818ee1d6ef6b16"
+    },
+    {
+      "check": "thirteen_discovery_candidates",
+      "passed": true,
+      "detail": "13"
+    },
+    {
+      "check": "thirteen_confirmatory_candidates",
+      "passed": true,
+      "detail": "13"
+    },
+    {
+      "check": "no_duplicate_long_keys_discovery",
+      "passed": true,
+      "detail": "protein-group-position keys are unique"
+    },
+    {
+      "check": "no_duplicate_long_keys_confirmatory",
+      "passed": true,
+      "detail": "protein-group-position keys are unique"
+    },
+    {
+      "check": "canonical_onset_rows",
+      "passed": true,
+      "detail": "{'DO': {'ACO1': 82, 'ALDOB': 82, 'ASS1': 82, 'CES1': 82, 'CPS1': 82, 'DMGDH': 82, 'FAH': 82, 'FBP1': 82, 'GSTA1': 82, 'HPD': 82, 'LECT2': 82, 'OTC': 82, 'PCK2': 82}, 'HV': {'ACO1': 60, 'ALDOB': 60, 'ASS1': 60, 'CES1': 60, 'CPS1': 60, 'DMGDH': 60, 'FAH': 60, 'FBP1': 60, 'GSTA1': 60, 'HPD': 60, 'LECT2': 60, 'OTC': 60, 'PCK2': 60}, 'NDO': {'ACO1': 34, 'ALDOB': 34, 'ASS1': 34, 'CES1': 34, 'CPS1': 34, 'DMGDH': 34, 'FAH': 34, 'FBP1': 34, 'GSTA1': 34, 'HPD': 34, 'LECT2': 34, 'OTC': 34, 'PCK2': 34}}"
+    },
+    {
+      "check": "valid_range_mann_whitney_q_bh",
+      "passed": true,
+      "detail": "mann_whitney_q_bh"
+    },
+    {
+      "check": "valid_range_welch_t_q_bh",
+      "passed": true,
+      "detail": "welch_t_q_bh"
+    },
+    {
+      "check": "valid_range_roc_auc_group1_positive",
+      "passed": true,
+      "detail": "roc_auc_group1_positive"
+    },
+    {
+      "check": "valid_correlation_q",
+      "passed": true,
+      "detail": "spearman_q_bh"
+    },
+    {
+      "check": "fbp1_specificity_effect_reproduced",
+      "passed": true,
+      "detail": "-0.505345394736842"
+    },
+    {
+      "check": "fbp1_specificity_fdr_reproduced",
+      "passed": true,
+      "detail": "0.0004687724004871"
+    },
+    {
+      "check": "discovery_duplicate_detected",
+      "passed": true,
+      "detail": "ALDOB/HPD exact duplicate is explicitly flagged"
+    },
+    {
+      "check": "no_wide_multivariable_matrix_emitted",
+      "passed": true,
+      "detail": "Cross-protein positional joins are prohibited"
+    }
+  ]
+}

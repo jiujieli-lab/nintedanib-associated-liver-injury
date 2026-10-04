@@ -1,0 +1,387 @@
+MDPI Reference List and Citations Style Guide
+
+11th Edition
+MDPI Production Team
+
+1
+
+The Reference List and Citations Style Guide for MDPI ACS Journals
+
+Preface
+This guide has been prepared speciﬁcally for people who edit ACS Style
+manuscripts that will be published by MDPI. The guide has been divided into
+two parts as follows:
+Part I: In-text citations.
+The citation format for all the references mentioned in the main text.
+Part II: The reference list.
+Provides the information necessary for a reader to locate and retrieve
+any source you cite in the body of the paper. Each source you cite in the
+paper must appear in your reference list; likewise, each entry in the
+reference list must be cited in your text.
+MDPI’s style for citations and references lists is widely based on the style used
+by the American Chemical Society. Please refer to the ACS Style Guide [1] or
+enquire with a journal’s Editorial Oﬃce if you have any questions regarding the
+preparation of citations and reference lists.
+MDPI Production Team
+December 2025
+
+2
+
+The Reference List and Citations Style Guide for MDPI ACS Journals
+
+Contents
+Preface ................................................................................................................................................................................ 2
+Part I. In-Text Citations .................................................................................................................................................... 4
+1. Citations ......................................................................................................................................................................... 4
+Part II. Reference List ....................................................................................................................................................... 4
+2. Reference List ................................................................................................................................................................ 4
+2.1. Reference List Format ............................................................................................................................................. 4
+2.2. General Considerations ........................................................................................................................................... 4
+3. Reference Elements ...................................................................................................................................................... 5
+3.1. Author Element....................................................................................................................................................... 5
+3.2. Editor Element ........................................................................................................................................................ 5
+4. Common Types of References .................................................................................................................................... 5
+4.1. Journal/Periodical Articles ...................................................................................................................................... 5
+4.2. Books ...................................................................................................................................................................... 6
+4.2.1. Books Without Editors ......................................................................................................................................... 6
+4.2.2. Books with Editors ............................................................................................................................................... 6
+4.3. Conferences or Meetings ......................................................................................................................................... 7
+4.3.1. Proceedings .......................................................................................................................................................... 7
+4.3.2. Oral Presentations Without Published Material ................................................................................................. 7
+4.3.3. Conference Proceedings Published in a Book ....................................................................................................... 7
+4.3.4. Conference Proceedings Published in a Journal ................................................................................................... 8
+4.4. Website and Online Resources ................................................................................................................................ 8
+4.5. Thesis ...................................................................................................................................................................... 8
+4.6. Patent ...................................................................................................................................................................... 8
+4.7. Standard .................................................................................................................................................................. 8
+4.8. Software .................................................................................................................................................................. 8
+4.9. Magazines and Newspapers .................................................................................................................................... 9
+4.10. Reports and Bulletins ............................................................................................................................................ 9
+References .......................................................................................................................................................................... 9
+
+3
+
+The Reference List and Citations Style Guide for MDPI ACS Journals
+
+Part I. In-Text Citations
+1. Citations
+•
+
+The references should be cited using Arabic numbers within square brackets, “[]”, such as “[1]”,
+“[1,2]”, and “[2–4]”. Additionally, they must be cited in ascending order of appearance in the text.
+
+•
+
+We recommend preparing the references with a bibliography software package, such as EndNote,
+ReferenceManager, or Zotero, to avoid typing mistakes and duplicated references.
+
+•
+
+The Ref. number should not be used as the subject in sentences of the main text (e.g., “[1]
+introduced …” is incorrect). We advise adding “Ref.” or “author names” before the citation, e.g.,
+replace “[1] proposes a systematic” with “Ref. [1] proposes a systematic” or “Liu [1] proposes a
+systematic”.
+
+•
+
+Citations with more than two consecutive references should utilize an en dash (–) in between the
+numbers: “[1]”, “[1,2]”, “[3–5]”, and “[1,3–5,7]”.
+
+•
+
+Other content, such as page number, text, etc., should not be included in the square brackets of
+the reference citations; please remove them. For example, “[14, pp. 223–224]” should be replaced
+by “(pp. 223–224, [14])” or “[14] (pp. 223–224)”, or the page range should be included in the
+bibliography; the formats below are also acceptable:
+[58] p. 220
+[58], p. 220
+
+Part II. Reference List
+2. Reference List
+2.1. Reference List Format
+•
+
+Section Heading should be correct; it can be “Reference(s)” or “Reference(s) and Note(s)”,
+depending on the content.
+
+•
+
+Use Arabic numbers with a period, such as “1.”, “2.”, “3.”… A tab should be added after each
+reference number.
+
+•
+
+Alignment = justiﬁed; hanging = 0.75 cm; font size = 9 pt; line spacing: at least 14 pt.
+
+2.2. General Considerations
+To allow automated treatment of bibliographic information, references and citations must
+be prepared according to the following general rules:
+•
+
+Only one reference should be listed per single number, e.g., “1. (a) ref. 1; (b) ref. 2” is not allowed;
+it should be divided into two references.
+
+•
+
+Duplicate references are not allowed.
+
+•
+
+Include the digital object identiﬁer (DOI) for all references where available.
+
+•
+
+Avoid including notes with the references, e.g., do not write:
+10. Díaz et al. recently reported a multigram display of azide and cyanide components on a
+versatile scaﬀold, see: Díaz, D.D.; Converso, A.; Sharpless, K.B.; Finn, M.G. 2,6-Dichloro-9thiabicyclo[3.3.1]nonane: Multigram Display of Azide and Cyanide Components on a Versatile
+Scaﬀold. Molecules 2006, 11, 212–218.
+Instead, format the reference as follows:
+10. Díaz, D.D.; Converso, A.; Sharpless, K.B.; Finn, M.G. 2,6-Dichloro-9-thiabicyclo[3.3.1]nonane:
+Multigram Display of Azide and Cyanide Components on a Versatile Scaﬀold. Molecules 2006, 11,
+212–218, https://doi.org/10.3390/11040212.
+4
+
+The Reference List and Citations Style Guide for MDPI ACS Journals
+And add the note in the text next to the citation:
+… recently reported by Díaz et al. [10].
+
+3. Reference Elements
+3.1. Author Element
+•
+
+Authors must be listed in the same order as they appear in the original document. Diﬀerent
+authors are separated with semicolons (;):
+Author 1; Author 2; Author 3
+
+•
+
+For every author, list the last name ﬁrst, then the ﬁrst letter of the ﬁrst name and, if available,
+the ﬁrst letter of the middle name.
+
+•
+
+Last names should be separated from the ﬁrst and middle name by a comma, and the ﬁrst
+and middle initials should end with a period:
+Lastname, F.M.; Lastname, F.M.
+
+•
+
+Special cases include “van”, “von”, “de”, and others:
+von Lastname, F.M.; van Lastname, F.M.
+
+•
+
+For author names with suﬃxes “Jr.”, “Sr.”, “II”, etc.:
+Lastname, F.M., Jr.; Lastname, F.M., Sr.
+
+•
+
+For documents co-authored by a large number of persons (more than 10 authors), you can cite the
+first ten authors, then add a semicolon and add ‘et al.’ at the end:
+Author 1; Author 2; Author 3; Author 4; Author 5; Author 6; Author 7; Author 8; Author 9; Author
+10; et al.
+
+3.2. Editor Element
+•
+
+List editors’ names in the same way as authors’ names, except that multiple editors are separated
+by commas instead of semicolons:
+Editor 1, Editor 2, Editor 3
+
+•
+
+Add ‘Ed.’ (one editor) or ‘Eds.’ (multiple editors) at the end of the list:
+Editor 1, Ed.
+
+or
+Editor 1, Editor 2, Editor 3, Eds.
+
+4. Common Types of References
+4.1. Journal/Periodical Articles
+Basic Format:
+Author 1, F.M.; Author 2, F.M.; Author 3, F.M. Title of the article. Journal Abbreviation Year, Volume,
+Firstpage–Lastpage/Article Number. https://doi.org/.
+Example: 1:
+Díaz, D.D.; Converso, A.; Sharpless, K.B.; Finn, M.G. 2,6-Dichloro-9-thiabicyclo[3.3.1]nonane:
+Multigram Display of Azide and Cyanide Components on a Versatile Scaﬀold. Molecules 2006, 11,
+212–218, https://doi.org/10.3390/11040212.
+
+5
+
+The Reference List and Citations Style Guide for MDPI ACS Journals
+Example: 2: Journal article with reprinted work
+Rindler, W. Visual horizons in world-models. Mon. Not. R. Astr. Soc. 1956, 116, 662–677. Reprint in
+Gen. Rel. Grav. 2002, 34, 133–153.
+Example: 3: Journal article with correction work
+The type of correction is determined by the actual type of the article and may include, but is not
+limited to “Correction in”, “Erratum in”, “Addendum in”, and “Corrigendum in”.
+Malik, R.; Chauhan, G.; Traylor, M.; Sargurupremraj, M.; Okada, Y.; Mishra, A.; Rutten-Jacobs, L.;
+Giese, A.-K.; van der Laan, S.W.; Gretarsdottir, S.; et al. Multiancestry genome-wide association study
+of 520,000 subjects identiﬁes 32 loci associated with stroke and stroke subtypes. Nat. Genet. 2018, 50,
+524–537. https://doi.org/10.1038/s41588-018-0058-3. Correction in Nat. Genet. 2019, 51, 1192–1193.
+https://doi.org/10.1038/s41588-019-0449-0.
+Example: 4: Retraction work
+If it is necessary to cite a retracted article, the following reference format should be used:
+Morisky, D.E.; Ang, A.; Krousel-Wood, M.; Ward, H.J. Predictive validity of a medication adherence
+measure in an outpatient setting. J. Clin. Hypertens. 2008, 10, 348–354. https://doi.org/10.1111/j.17517176.2008.07572.x. Retraction in J. Clin. Hypertens. 2023, 25, 889.
+Tips:
+•
+
+Journal abbreviations are listed at: http://www.issn.org/2-22661-LTWA-online.php; do not
+abbreviate journal names which only have one word (e.g., Energies, Humanities, Religions, etc.;
+keep the journal name Physical A or Physical B as it is).
+
+•
+
+The issue number is not included. (The issue part number, e.g., Pt 2 or Supplemental Issue
+Number (Suppl. S36), should also not be included).
+
+4.2. Books
+4.2.1. Books Without Editors
+Basic Format:
+Author 1, F.M.; Author 2, F.M.; Author 3, F.M. Title of the Book, Edition (if available); Publisher:
+City, Country, Year; Chapter (optional), pp. Page range (optional).
+Example:
+Desiraju, G.R.; Steiner, T. The Weak Hydrogen Bond in Structural Chemistry and Biology, 2nd ed.;
+Oxford University Press: New York, NY, USA, 1999; pp. 10–25.
+4.2.2. Books with Editors
+Basic Format:
+Author 1, F.M.; Author 2, F.M.; Author 3, F.M. Title of the contribution. In Title of the Book, Edition
+(if available); Editor 1, Editor 2, Eds.; Publisher: City, Country, Year; Volume (optional), pp. Pages
+(optional).
+Example:
+Dodd, J.S.; Solla, L.; Bérard, P.M. References. In The ACS Style Guide, 3rd ed.; Coghill, A., Garson,
+L., Eds.; American Chemical Society: Washington, DC, USA, 2006; Volume 1, pp. 292–325.
+Tips:
+•
+
+Pagination: Use the abbreviations “p.” and “pp.” to indicate single and multiple pages,
+respectively, e.g.:
+p. 1
+6
+
+The Reference List and Citations Style Guide for MDPI ACS Journals
+pp. 1–20
+pp. 1, 15, 20
+240p (to cite the whole book)
+•
+
+Editor: Note that multiple editors are separated by commas (unlike authors, which are separated
+by semicolons).
+
+•
+
+Publisher Location: Use the city name where the publisher’s headquarters are located or, if a
+subsidiary publishes the book, use the subsidiary’s city name; for cities in the USA and Canada,
+add the city name, the abbreviation of the state, and ‘USA’, e.g., Springﬁeld, IL, USA.
+
+4.3. Conferences or Meetings
+4.3.1. Proceedings
+Basic Format:
+Author 1, F.M.; Author 2, F.M.; Author 3, F.M. Title of Presentation. In Proceedings of the Name
+of the Conference, Location of Conference, Country, Date of Conference (Day Month Year);
+Abstract Number (optional), Pagination (optional).
+Example:
+Chum, O.; Philbin, J.; Zisserman, A. Near duplicate image detection: Min-Hash and tf-idf
+weighting. In Proceedings of the 19th British Machine Vision Conference (BMVC 2008), Leeds,
+UK, 1–4 September 2008; pp. 812–815.
+4.3.2. Oral Presentations Without Published Material
+Basic Format:
+Author 1, F.M.; Author 2, F.M.; Author 3, F.M. Title of Presentation (if any). Presented at the
+Name of Conference, Location of Conference, Country, Date of Conference; Paper number (if
+available).
+Example:
+Zhang, Z.; Chen, H.; Zhong, J.; Chen, Y.; Lu, Y. ZnO Nanotip-based QCM Biosensors. Presented
+at the IEEE International Frequency Control Symposium and Exposition, Miami, FL, USA, 4–7
+June 2006.
+4.3.3. Conference Proceedings Published in a Book
+Basic Format:
+Author 1, F.M.; Author 2, F.M.; Author 3, F.M. Title of the Presentation. In Title of the Collected
+Work; Editor 1, Editor 2, Eds.; Publisher: City, Country, Year; Abstract Number (optional),
+Pagination (optional).
+Example: 1
+Boom, K.D.; Bower, M.; Arguel, A.; Siemon, J.; Scholkmann, A. Relationship between
+computational thinking and a measure of intelligence as a general problem-solving ability. In
+Proceedings of the Annual Conference on Innovation and Technology in Computer Science Education,
+ITiCSE; ACM: New York, NY, USA, 2018; pp. 206–211.
+Example: 2:
+Nilsson, A.; Petersson, F.; Persson, H.W.; Jönsson, H.; Laurell, T. Manipulation of Suspended
+Particles in a Laminar Flow. In Micro Total Analysis Systems 2002, Proceedings of the µTAS 2002
+Symposium, Nara, Japan, 3−7 November 2002; Baba, Y., Shoji, S., van den Berg, A., Eds.; Kluwer
+Academic: Dordrecht, The Netherlands, 2002; Volume 2, pp. 751−753.
+
+7
+
+The Reference List and Citations Style Guide for MDPI ACS Journals
+4.3.4. Conference Proceedings Published in a Journal
+Basic Format:
+Author 1, F.M.; Author 2, F.M.; Author 3, F.M. Title of the Presentation. Journal Abbreviation Year,
+Volume, Firstpage–Lastpage/Article Number.
+Example:
+Culot, C.; Durant, F.; Mosley, D.H.; Andre, J.M.; Vercauteren, D.P. Conformational Analyses of
+the Polymorphism of Triglycerides. Int. J. Quantum Chem. Quantum Biol. Symp. 1994, 52, 57−77.
+https://doi.org/10.1002/qua.560520706.
+4.4. Website and Online Resources
+Basic Format:
+Author (if available). Title of the Webpage (if available). Available online: http://... (accessed on
+date).
+Example:
+Choosing Wisely Canada. Sixteen Tests and Treatments to Question in Orthopaedics. 2023.
+Available online: https://choosingwiselycanada.org/recommendation/orthopaedics/ (accessed on
+12 August 2023).
+4.5. Thesis
+Basic Format:
+Author, F.M. Title of Thesis. Level of Thesis, Degree-Granting University, Location of University,
+Date (Year, Day Month are optional).
+Example:
+Mäckel, H. Capturing the Spectra of Silicon Solar Cells. Ph.D. Thesis, The Australian National
+University, Acton, Australia, December 2004.
+4.6. Patent
+Basic Format:
+Patent Owner 1; Patent Owner 2; et al. Title of Patent. Patent Number, Date (Day Month Year, the
+Application granted date).
+Example:
+Sheem, S.K. Low-Cost Fiber Optic Pressure Sensor. U.S. Patent 6,738,537, 18 May 2004.
+Thomas, W.M.; Nicholas, E.D.; Needham, J.C.; Murch, M.G.; Temple-Smith, P.; Dawes, C.J.
+Friction Stir Butt Welding. International Patent Application No. PCT/GB92/02203; GB Patent
+Application No. 9125978.8; U.S. Patent Application No. 5,460,317, 6 December 1991.
+4.7. Standard
+Basic Format:
+Standard’s Number; Standard’s Title. Publisher: City, Country, Year.
+Example:
+TB 10099-2017; Code for Design of Railway Station and Terminal. China Railway Publishing
+House: Beijing, China, 2017.
+4.8. Software
+Basic Format:
+Creator (if available). Title of the Software, version, revision or edition (if available); comments (if
+available); Publisher: Place of Publication, Year.
+8
+
+The Reference List and Citations Style Guide for MDPI ACS Journals
+Example:
+Mathematica, version 5.1; Software for Technical Computation; Wolfram Research: Champaign,
+IL, USA, 2004
+4.9. Magazines and Newspapers
+Basic Format:
+Author 1, F.M.; Author 2, F.M.; Author 3, F.M. Title of article. Title of Periodical, Day Month Year,
+Pagination (Optional).
+Example:
+Squires, S. Falling short on nutrients. The Washington Post, 4 October 2005, p. H1.
+4.10. Reports and Bulletins
+Basic Format:
+Author 1, F.M.; Author 2, F.M.; Author 3, F.M. Title of Report or Bulletin; Technical Report or
+Bulletin Number (Optional); Publisher: City, Country, Date; Pagination (Optional).
+Example:
+Hung, C.-C.; Hurst, J.; Santiago, D. Boron Nitride Nanoribbons from Exfoliation of Boron Nitride
+Nanotubes; NASA/TM-2017-219455; National Aeronautics and Space Administration, Glenn
+Research Center: Cleveland, OH, USA, 2017
+
+References
+1.
+
+The ACS Style Guide, 3rd ed.; Coghill, A.M., Garson, L.R., Eds.; American Chemical Society: Washington,
+DC, USA; Oxford University Press: New York, NY, USA, 2006.
+
+9
+
+

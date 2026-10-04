@@ -1,0 +1,190 @@
+{
+  "dataset": "PXD052594; Zenodo 10.5281/zenodo.11395642",
+  "analysis_timestamp_utc": "2026-09-04T20:25:42.940884+00:00",
+  "statistical_unit": "individual mouse",
+  "contrast": "all nintedanib (n=10) versus all vehicle animals in processed proteome matrix (n=13)",
+  "selection_guardrail": "No radiomic response cluster was used for conditioning, exclusion, stratification, or adjustment.",
+  "protein_test": "two-sided Welch t test on deposited processed log2 abundance; BH across 7,006 proteins",
+  "phosphosite_test": "two-sided Welch t test on log2-transformed deposited iMaxLFQ values in the separate random 5+5 subset; BH across 20,043 sites",
+  "module_test": "Welch t, exact Mann-Whitney, and seeded 100,000-label Monte Carlo permutation; BH across five prespecified modules",
+  "software": {
+    "python": "3.12.13",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "inputs": [
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/raw/Raw_data_values_Lauer_et_al_2024.xlsx",
+      "bytes": 8853110,
+      "sha256": "0b9654d795568ac5172c75312192a1277d02f76e76f43c0d95d7716db04546d4",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/raw/Mus_musculus.gene_info.gz",
+      "bytes": 3919943,
+      "sha256": "2f802fd00ad34771d3aad86e27a87878b7e9087a2a808b8e9d0765ac4d75c548",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/raw/R_Script_Lauer_et_al_2024.R",
+      "bytes": 104166,
+      "sha256": "3e3132293082874a9860d8060081a3c34f18f6736877332646cc06ca599544f3",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/code/analyze_pxd052594.py",
+      "bytes": 25376,
+      "sha256": "805b0da71e75636ab2c2a903aa5cc18bdf649aca3931f56370f5988b04ec688f",
+      "release_path": "Code/PXD052594/analyze_pxd052594.py",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.pdf",
+      "bytes": 160100,
+      "sha256": "c904c563b2e0737da651bf50a2c3d97ee6fd2a57c9096ca8e701ac573452b24a",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S7_PXD052594.pdf",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.png",
+      "bytes": 1776527,
+      "sha256": "507c70e0ffc5df58db52bb076d948784078d26248391f12cb54f9416fe0a926a",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S7_PXD052594.png",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+      "bytes": 223577,
+      "sha256": "4d71771669483a1bf6f6918764e15945df31fbe91aa6a415b38b9c69776aba9b",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S7_PXD052594.svg",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.tiff",
+      "bytes": 3256580,
+      "sha256": "1abe23a7f9f74ad479122958014c82d00d43048b72bf60751a8fbc6f356ca00c",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S7_PXD052594.tiff",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/animal_sample_manifest.csv",
+      "bytes": 1017,
+      "sha256": "0a07026cf33a39cf2db9764b63748123383a8762a693f9469b8b4937287ec6c4",
+      "release_path": "Source_Data/PXD052594/results/animal_sample_manifest.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/candidate_contrasts.csv",
+      "bytes": 1706,
+      "sha256": "dbf87ce088865d1e0d3c8486c4fad954b3e50efa457aa7517c37fcce3e2a4efe",
+      "release_path": "Source_Data/PXD052594/results/candidate_contrasts.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/candidate_expression_by_animal.csv",
+      "bytes": 12299,
+      "sha256": "5dec48fe1b4d054a8cbb40d87ffccd3b72128e0a407608517afa52c33d938a16",
+      "release_path": "Source_Data/PXD052594/results/candidate_expression_by_animal.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/module_contrasts.csv",
+      "bytes": 1271,
+      "sha256": "26b1fed273379323fb355cff114bb0431299d4de7126c453b2e13b4c9bfadf2d",
+      "release_path": "Source_Data/PXD052594/results/module_contrasts.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/module_protein_membership.csv",
+      "bytes": 1765,
+      "sha256": "dcb36b26fd43eaaa954525917f57e57a0179029d71e7c5cee4550bc5b320aa80",
+      "release_path": "Source_Data/PXD052594/results/module_protein_membership.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/module_scores_by_animal.csv",
+      "bytes": 15190,
+      "sha256": "bbb2beca19047548169502eccdba5f91bb571e400465e558a9291386f714454a",
+      "release_path": "Source_Data/PXD052594/results/module_scores_by_animal.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/phosphoproteome_PCA_and_sample_manifest.csv",
+      "bytes": 1129,
+      "sha256": "7c2d0a8e9c463128eae9651568b28c26993bf26208e1c45c21f5df9aa512c809",
+      "release_path": "Source_Data/PXD052594/results/phosphoproteome_PCA_and_sample_manifest.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/phosphosite_NINT_vs_vehicle_all_deposited_subset_animals.csv",
+      "bytes": 4525972,
+      "sha256": "07d469376ed4755b7ef8fc7083b794f64c01417e0b12066991694812c3746d26",
+      "release_path": "Source_Data/PXD052594/results/phosphosite_NINT_vs_vehicle_all_deposited_subset_animals.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/phosphosite_target_pathway_summary.csv",
+      "bytes": 767,
+      "sha256": "81f324d4059474e0fa20aa374347127069edf3aa794ee8758f7c5d0189b0f3c3",
+      "release_path": "Source_Data/PXD052594/results/phosphosite_target_pathway_summary.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/proteome_NINT_vs_vehicle_all_animals.csv",
+      "bytes": 1184923,
+      "sha256": "28e5a6b207ae2715c60fa22c5e90d0d06f4bbf3bc1a9614651631e3a098fb908",
+      "release_path": "Source_Data/PXD052594/results/proteome_NINT_vs_vehicle_all_animals.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/results/proteome_PCA.csv",
+      "bytes": 2806,
+      "sha256": "86429c15e57ba03f604e2358e154c1dcc15eb75fab31c0bd1c7b82eeacc358c6",
+      "release_path": "Source_Data/PXD052594/results/proteome_PCA.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    },
+    {
+      "path": "fresh_analysis/preclinical/pxd052594/validation/validation_checks.json",
+      "bytes": 614,
+      "sha256": "673cef7b18ac0cb375aa89b7f704996b82d1c4f12e030e1b5a0d90ac90e0cde2",
+      "release_path": "Source_Data/PXD052594/validation/validation_checks.json",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file"
+    }
+  ],
+  "release_mapping_policy": "All released code, analytical outputs, validation files, and figure derivatives are mapped by release_path and re-hashed. Large public raw inputs are not duplicated; their frozen source-run hashes retain the successful upstream full-analysis audit.",
+  "release_visual_update": {
+    "date_utc": "2026-09-05",
+    "scope": "print-layout-only S6/S7 label deconfliction and 600-dpi raster export",
+    "analytical_values_changed": false,
+    "release_script": "Code/Core/finalize_s6_s7_figure_exports.py"
+  }
+}

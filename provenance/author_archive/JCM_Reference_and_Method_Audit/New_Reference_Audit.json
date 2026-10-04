@@ -1,0 +1,116 @@
+[
+  {
+    "number": 98,
+    "status": "primary_DOI_metadata_verified",
+    "doi": "10.1021/acs.jcim.1c00203",
+    "authors_total": 4,
+    "authors_listed": 4,
+    "source_url": "https://api.crossref.org/works/10.1021/acs.jcim.1c00203",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_98.json",
+    "sha256": "5d7def7ef45d80aca8349f6cd7b29d11bca72d2feff65c70c52d159658efcb08"
+  },
+  {
+    "number": 99,
+    "status": "primary_DOI_metadata_verified",
+    "doi": "10.1021/acs.jcim.5c02271",
+    "authors_total": 15,
+    "authors_listed": 10,
+    "source_url": "https://api.crossref.org/works/10.1021/acs.jcim.5c02271",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_99.json",
+    "sha256": "45d44f13bb17d0a59bfe0596cda91241820e99acbf09739236d2046f1a8bb1ed"
+  },
+  {
+    "number": 100,
+    "status": "software_release_metadata_verified",
+    "doi": "10.5281/zenodo.22140358",
+    "authors_total": 30,
+    "authors_listed": 10,
+    "source_url": "https://api.datacite.org/dois/10.5281/zenodo.22140358",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_100.json",
+    "sha256": "b67847ed27b94d3b6cde8690ce5fe202ad1e0a1e97c8719723d8e98d77116cd8"
+  },
+  {
+    "number": 101,
+    "status": "primary_DOI_metadata_verified",
+    "doi": "10.1093/nar/gkad1011",
+    "authors_total": 23,
+    "authors_listed": 10,
+    "source_url": "https://api.crossref.org/works/10.1093/nar/gkad1011",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_101.json",
+    "sha256": "2148b9d2b12914def395f4560ea72a901844d79b353aba3839e344ac6752abe9"
+  },
+  {
+    "number": 102,
+    "status": "primary_DOI_metadata_verified",
+    "doi": "10.1093/nar/gkab1061",
+    "authors_total": 27,
+    "authors_listed": 10,
+    "source_url": "https://api.crossref.org/works/10.1093/nar/gkab1061",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_102.json",
+    "sha256": "6bca34053561a1b895d07819f9c0c03d59842b866652c1ea9a9ff319accd05a6"
+  },
+  {
+    "number": 103,
+    "status": "primary_DOI_metadata_verified",
+    "doi": "10.1038/s41586-021-03819-2",
+    "authors_total": 34,
+    "authors_listed": 10,
+    "source_url": "https://api.crossref.org/works/10.1038/s41586-021-03819-2",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_103.json",
+    "sha256": "3e9a7bfa032a16f26d19653ec1c2466acdbda022032ef1e2553fd6c79b99d4cc"
+  },
+  {
+    "number": 104,
+    "status": "official_structure_dataset_metadata_verified",
+    "doi": "10.2210/pdb6JOL/pdb",
+    "authors_total": 3,
+    "authors_listed": 3,
+    "source_url": "https://data.rcsb.org/rest/v1/core/entry/6JOL",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_104_rcsb.json",
+    "sha256": "748eb9586d2ab8cd70266152e67b1907c546481b8c9a8430acd3b0000676ff0d"
+  },
+  {
+    "number": 105,
+    "status": "primary_DOI_metadata_verified",
+    "doi": "10.1016/j.ajpath.2020.06.006",
+    "authors_total": 9,
+    "authors_listed": 9,
+    "source_url": "https://api.crossref.org/works/10.1016/j.ajpath.2020.06.006",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_105.json",
+    "sha256": "8a5db20e1a69b9240f046e336ba37a7c6c126beb47c0f5afcfc435854efd8d9f"
+  },
+  {
+    "number": 106,
+    "status": "primary_DOI_metadata_verified",
+    "doi": "10.1007/s10456-020-09718-w",
+    "authors_total": 8,
+    "authors_listed": 8,
+    "source_url": "https://api.crossref.org/works/10.1007/s10456-020-09718-w",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_106.json",
+    "sha256": "855ec904b3d8a2ada7e52259fab19229c9427a2d4fded80546eacb043dd5836e"
+  },
+  {
+    "number": 107,
+    "status": "primary_DOI_metadata_verified",
+    "doi": "10.1038/nbt1358",
+    "authors_total": 21,
+    "authors_listed": 10,
+    "source_url": "https://api.crossref.org/works/10.1038/nbt1358",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_107.json",
+    "sha256": "46d5b3d9a14280de7df1ec9fcc7d2fdd0d86c662688f20724ec9b08719289691"
+  },
+  {
+    "number": 108,
+    "status": "official_provider_documentation_verified",
+    "source_url": "https://api.boltz.bio/docs/api/guides/small-molecule-library-screen/",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_108_boltz.html",
+    "sha256": "f4c67b58bb4d54dc1b45a8e161b89c40dcb22b84694e7cf70148f23b46df61bb"
+  },
+  {
+    "number": 109,
+    "status": "official_provider_documentation_verified",
+    "source_url": "https://www.inductive.bio/mcp-connector",
+    "metadata_file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_109_inductive.html",
+    "sha256": "d9217bedd6df5a20d1379b53c84769cd36f3b9b9e3ad7ecb69eef058cf798f7c"
+  }
+]

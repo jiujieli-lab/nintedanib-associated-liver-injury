@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 2.631504535675049,
+    "permeability": 0.5599334239959717,
+    "solubility": "medium-confidence"
+  },
+  "created_at": "2026-10-02T15:16:18.062Z",
+  "external_id": "lenvatinib",
+  "id": "pres_loaiBi5y3cT9o4x76Mat",
+  "metrics": {
+    "binding_confidence": 0.7540518045425415,
+    "complex_iplddt": 0.8123741745948792,
+    "complex_plddt": 0.744075357913971,
+    "iptm": 0.8948132991790771,
+    "optimization_score": 0.527628481388092,
+    "ptm": 0.7627432942390442,
+    "structure_confidence": 0.7742229700088501
+  },
+  "smiles": "COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O"
+}

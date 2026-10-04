@@ -1,0 +1,27 @@
+protein,group,n_boxplot_values,n_correlation_values,same_value_multiset_after_log2,same_row_order_after_log2,participant_linkage_interpretation
+ACO1,HV,60,60,True,False,Same values but different order; row number is not a stable participant identifier
+ACO1,DO,82,82,True,False,Same values but different order; row number is not a stable participant identifier
+ALDOB,HV,60,60,True,True,See source-level QC
+ALDOB,DO,82,82,True,True,See source-level QC
+ASS1,HV,60,60,True,True,See source-level QC
+ASS1,DO,82,82,True,True,See source-level QC
+CES1,HV,60,60,True,True,See source-level QC
+CES1,DO,82,82,True,False,Same values but different order; row number is not a stable participant identifier
+CPS1,HV,60,60,False,False,See source-level QC
+CPS1,DO,82,82,True,False,Same values but different order; row number is not a stable participant identifier
+DMGDH,HV,60,60,True,True,See source-level QC
+DMGDH,DO,82,82,True,True,See source-level QC
+FAH,HV,60,60,True,True,See source-level QC
+FAH,DO,82,82,True,True,See source-level QC
+FBP1,HV,60,60,True,True,See source-level QC
+FBP1,DO,82,82,True,False,Same values but different order; row number is not a stable participant identifier
+GSTA1,HV,60,60,True,True,See source-level QC
+GSTA1,DO,82,82,True,True,See source-level QC
+HPD,HV,60,60,False,True,See source-level QC
+HPD,DO,82,82,True,True,See source-level QC
+LECT2,HV,60,60,True,False,Same values but different order; row number is not a stable participant identifier
+LECT2,DO,82,82,True,False,Same values but different order; row number is not a stable participant identifier
+OTC,HV,60,60,False,True,See source-level QC
+OTC,DO,82,82,False,True,See source-level QC
+PCK2,HV,60,60,False,False,See source-level QC
+PCK2,DO,82,82,False,False,See source-level QC

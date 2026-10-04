@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 4.305112361907959,
+    "permeability": 0.756926417350769,
+    "solubility": "high-risk"
+  },
+  "created_at": "2026-10-02T15:16:17.431Z",
+  "external_id": "sorafenib",
+  "id": "pres_D3qQHaL87MwxIzwKuup3",
+  "metrics": {
+    "binding_confidence": 0.6899625658988953,
+    "complex_iplddt": 0.870691180229187,
+    "complex_plddt": 0.8031355142593384,
+    "iptm": 0.9217647314071655,
+    "optimization_score": 0.5269253253936768,
+    "ptm": 0.7833075523376465,
+    "structure_confidence": 0.8268613815307617
+  },
+  "smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1"
+}

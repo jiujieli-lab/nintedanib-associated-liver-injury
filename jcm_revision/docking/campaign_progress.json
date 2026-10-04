@@ -1,0 +1,678 @@
+{
+  "completed": 96,
+  "total": 96,
+  "results": [
+    {
+      "target": "PDGFRA",
+      "name": "nintedanib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_nintedanib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "nintedanib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_nintedanib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "imatinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_imatinib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "imatinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_imatinib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "crenolanib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_crenolanib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "crenolanib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_crenolanib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "avapritinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_avapritinib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "avapritinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_avapritinib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "ripretinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_ripretinib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "ripretinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_ripretinib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "axitinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_axitinib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "axitinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_axitinib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "tivozanib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_tivozanib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "tivozanib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_tivozanib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "lenvatinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_lenvatinib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "lenvatinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_lenvatinib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "sunitinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_sunitinib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "sunitinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_sunitinib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "pazopanib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_pazopanib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "pazopanib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_pazopanib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "sorafenib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_sorafenib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "sorafenib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_sorafenib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "regorafenib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_regorafenib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "regorafenib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_regorafenib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "ponatinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_ponatinib_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "ponatinib",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_ponatinib_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "MAZ51",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_MAZ51_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "MAZ51",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_MAZ51_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "pirfenidone",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_pirfenidone_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "pirfenidone",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_pirfenidone_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "nerandomilast",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/PDGFRA_nerandomilast_104729.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "nerandomilast",
+      "seed": 104729,
+      "returncode": 0,
+      "log": "logs/FLT4_nerandomilast_104729.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "nintedanib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_nintedanib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "nintedanib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_nintedanib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "imatinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_imatinib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "imatinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_imatinib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "crenolanib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_crenolanib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "crenolanib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_crenolanib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "avapritinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_avapritinib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "avapritinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_avapritinib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "ripretinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_ripretinib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "ripretinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_ripretinib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "axitinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_axitinib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "axitinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_axitinib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "tivozanib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_tivozanib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "tivozanib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_tivozanib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "lenvatinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_lenvatinib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "lenvatinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_lenvatinib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "sunitinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_sunitinib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "sunitinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_sunitinib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "pazopanib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_pazopanib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "pazopanib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_pazopanib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "sorafenib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_sorafenib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "sorafenib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_sorafenib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "regorafenib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_regorafenib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "regorafenib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_regorafenib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "ponatinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_ponatinib_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "ponatinib",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_ponatinib_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "MAZ51",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_MAZ51_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "MAZ51",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_MAZ51_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "pirfenidone",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_pirfenidone_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "pirfenidone",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_pirfenidone_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "nerandomilast",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/PDGFRA_nerandomilast_130363.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "nerandomilast",
+      "seed": 130363,
+      "returncode": 0,
+      "log": "logs/FLT4_nerandomilast_130363.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "nintedanib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_nintedanib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "nintedanib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_nintedanib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "imatinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_imatinib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "imatinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_imatinib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "crenolanib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_crenolanib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "crenolanib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_crenolanib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "avapritinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_avapritinib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "avapritinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_avapritinib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "ripretinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_ripretinib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "ripretinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_ripretinib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "axitinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_axitinib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "axitinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_axitinib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "tivozanib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_tivozanib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "tivozanib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_tivozanib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "lenvatinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_lenvatinib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "lenvatinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_lenvatinib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "sunitinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_sunitinib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "sunitinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_sunitinib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "pazopanib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_pazopanib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "pazopanib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_pazopanib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "sorafenib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_sorafenib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "sorafenib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_sorafenib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "regorafenib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_regorafenib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "regorafenib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_regorafenib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "ponatinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_ponatinib_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "ponatinib",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_ponatinib_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "MAZ51",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_MAZ51_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "MAZ51",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_MAZ51_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "pirfenidone",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_pirfenidone_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "pirfenidone",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_pirfenidone_155921.log"
+    },
+    {
+      "target": "PDGFRA",
+      "name": "nerandomilast",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/PDGFRA_nerandomilast_155921.log"
+    },
+    {
+      "target": "FLT4",
+      "name": "nerandomilast",
+      "seed": 155921,
+      "returncode": 0,
+      "log": "logs/FLT4_nerandomilast_155921.log"
+    }
+  ]
+}

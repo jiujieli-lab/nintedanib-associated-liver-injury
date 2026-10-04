@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 118023034,
+        "MolecularFormula": "C26H27FN10",
+        "MolecularWeight": "498.6",
+        "SMILES": "C[C@](C1=CC=C(C=C1)F)(C2=CN=C(N=C2)N3CCN(CC3)C4=NC=NN5C4=CC(=C5)C6=CN(N=C6)C)N",
+        "ConnectivitySMILES": "CC(C1=CC=C(C=C1)F)(C2=CN=C(N=C2)N3CCN(CC3)C4=NC=NN5C4=CC(=C5)C6=CN(N=C6)C)N",
+        "InChI": "InChI=1S/C26H27FN10/c1-26(28,20-3-5-22(27)6-4-20)21-13-29-25(30-14-21)36-9-7-35(8-10-36)24-23-11-18(16-37(23)33-17-31-24)19-12-32-34(2)15-19/h3-6,11-17H,7-10,28H2,1-2H3/t26-/m0/s1",
+        "InChIKey": "DWYRIWUZIJHQKQ-SANMLTNESA-N"
+      }
+    ]
+  }
+}

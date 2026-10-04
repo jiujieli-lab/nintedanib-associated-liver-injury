@@ -1,0 +1,272 @@
+[
+  {
+    "file": "ENVIRONMENT.json",
+    "sha256": "30b1b7453a244cb35cdcf3bcdec6fc4135185cd2f02bf73873c6a3e7455c33f4",
+    "bytes": 167
+  },
+  {
+    "file": "README.txt",
+    "sha256": "8630cefcaac9ace19077317c6028f0531fad7fcd30d1c3af863771932e3d3cff",
+    "bytes": 875
+  },
+  {
+    "file": "binding_analysis/CHEMBL1137777_Document.json",
+    "sha256": "fe52ba0929a3354889c86d36a83455c3b3befccd419213c5d52ba99e5d4911b9",
+    "bytes": 1879
+  },
+  {
+    "file": "binding_analysis/CHEMBL1240338_Document.json",
+    "sha256": "48f55a180221b9f3b21c223ba8ba259b7ffa8d342b5b211479c71e884715737d",
+    "bytes": 2450
+  },
+  {
+    "file": "binding_analysis/CHEMBL1908390_Document.json",
+    "sha256": "58d5582d2e7d0cde21946b9a560dfe7493fda1eb2b54f8d9b2772dd37781f2eb",
+    "bytes": 1637
+  },
+  {
+    "file": "binding_analysis/CHEMBL3992544_Document.json",
+    "sha256": "27d8bbd7fd511e5d454561057454f22de90ba6080e3925873be8fe899962660a",
+    "bytes": 1328
+  },
+  {
+    "file": "binding_analysis/CHEMBL4130391_Document.json",
+    "sha256": "fd116743b1a2efa1e1278301e99b044ed34db1b524f4035969a84488083322a6",
+    "bytes": 1232
+  },
+  {
+    "file": "binding_analysis/FLT4_UniProt.json",
+    "sha256": "07d16a0c8983b5d7c09cb117408d5049e3c2239c6a38559956a3b8bfd269cb57",
+    "bytes": 118819
+  },
+  {
+    "file": "binding_analysis/Inductive_Bio_Raw_Predictions.json",
+    "sha256": "394307d0c800474383d5b8b0c2ece25990eb6d2536fd9e1dd4b23d356580abe7",
+    "bytes": 3122
+  },
+  {
+    "file": "binding_analysis/Nintedanib_ChEMBL.json",
+    "sha256": "c2873a1bd385467168e5c8c14f0d434c10a1693607f1442e2b7ac702100161d1",
+    "bytes": 6324
+  },
+  {
+    "file": "binding_analysis/PDGFRA_UniProt.json",
+    "sha256": "641cccb26e20a339a4b866d58980c4cf2f5ff067c63b3a42811869da9bddda09",
+    "bytes": 135368
+  },
+  {
+    "file": "binding_analysis/analyze_binding_evidence.py",
+    "sha256": "a1b8c8dbac0c3949299328ec2a1e38d34c00d6225fcbdacba681e87ca20fe4ea",
+    "bytes": 11613
+  },
+  {
+    "file": "binding_analysis/chembl_all_nintedanib_activities.csv",
+    "sha256": "d3cb38208f3313ab93dd1056c6dee26ae2c8a947e3c3a42200ed9f6a7bc0a184",
+    "bytes": 2367367
+  },
+  {
+    "file": "binding_analysis/chembl_human_single_protein_activities.csv",
+    "sha256": "57541e7d9b41bbc21763125ac403d2a00b8e75bf483ff679378190d9c15f9c72",
+    "bytes": 178526
+  },
+  {
+    "file": "binding_analysis/chembl_target_summary.csv",
+    "sha256": "fda76feee74f7b0adafcf16e8f960f9637e52e43b656937a2374afde963dc381",
+    "bytes": 31950
+  },
+  {
+    "file": "binding_analysis/results/Binding_All_Target_Records_Audited.csv",
+    "sha256": "07eb015ef7e45e310ab415c18aa82b591ec11848f488bdd80d889531e29b5d38",
+    "bytes": 23835
+  },
+  {
+    "file": "binding_analysis/results/Binding_Analysis_Manifest.json",
+    "sha256": "0e2b108b90c5cb1fe6e16f160e9e5dd625c454a81a435c942ede7a0e3fea85ae",
+    "bytes": 862
+  },
+  {
+    "file": "binding_analysis/results/Binding_Assay_Stratified_Summary.csv",
+    "sha256": "9302812f2c0a8a8feec893dd9e662c5710ed96d4076b9ea5696f85de744a39ea",
+    "bytes": 903
+  },
+  {
+    "file": "binding_analysis/results/Binding_Leave_One_Document_Out.csv",
+    "sha256": "9c96b859837b6fa4019eb009588e7ec39917b7df76d394711e70895e33c5a408",
+    "bytes": 1429
+  },
+  {
+    "file": "binding_analysis/results/Binding_Primary_Citations.json",
+    "sha256": "053a134a7af866765a2f863015b35907bdce6b651e78c9d458348990cddf937c",
+    "bytes": 2359
+  },
+  {
+    "file": "binding_analysis/results/Binding_Record_Audit_Counts.csv",
+    "sha256": "ea21375b66eb6bfbc2cb7cf9b38802739887d65547e62d1e470bab2cffa87199",
+    "bytes": 154
+  },
+  {
+    "file": "binding_analysis/results/Binding_Within_Document_Contrasts.csv",
+    "sha256": "2c309e67df344f862920bbd39bc1fe620dc55370168e6f011830f77dfbc44220",
+    "bytes": 488
+  },
+  {
+    "file": "binding_analysis/results/Inductive_Physicochemical_Predictions.csv",
+    "sha256": "8e1d84f8d227cedb8dadb19202ac4f6c73827b5c248e93a9ab37fbb6b18ac3e2",
+    "bytes": 1244
+  },
+  {
+    "file": "binding_analysis/results/SMILES_Verification.json",
+    "sha256": "423980966f5d5759b23513e5308214aae3baa28d9416fe6ef3b919696fcb1f7a",
+    "bytes": 339
+  },
+  {
+    "file": "binding_analysis/sciplex_dose_concordance.csv",
+    "sha256": "30e848ca2577aec471aa42fcc85a42f24bf0bbc496848fc964a65dd8b68891a7",
+    "bytes": 77599
+  },
+  {
+    "file": "binding_analysis/sciplex_nintedanib_signature_long.csv",
+    "sha256": "2be93a831f240af7f48aa3a53c76876259f59aad3f13ba0febcbc5ba0f805100",
+    "bytes": 303907
+  },
+  {
+    "file": "binding_analysis/source_manifest.csv",
+    "sha256": "fef70e1d38607cfe245730d8ba523065c1c4c1231b136418941b00641801745b",
+    "bytes": 525
+  },
+  {
+    "file": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/network_diffusion/network_clinical_seed_weights.csv",
+    "sha256": "7c9a143e56c5d7fb45bd345c106ba187d1a7974261e1469b55c156dbe10b5ca6",
+    "bytes": 9029
+  },
+  {
+    "file": "data/Additional_file_4_Clinical_Evidence_and_Analysis_Code/Analysis/network_diffusion/network_specification_scores.csv",
+    "sha256": "715556deaa7c6c41b529aca5f28e8f3d252ac135d8d68ea8a66736cc604feb08",
+    "bytes": 875337
+  },
+  {
+    "file": "data/Additional_file_5_Liver_and_Lung_Single_Cell_Data/Source_Data/Liver_Single_Cell/cell_metadata.csv",
+    "sha256": "d94cc143d3075032374493a2fe9848424edb65ab974f49ea456e5c2eea53dfc4",
+    "bytes": 667033
+  },
+  {
+    "file": "data/Additional_file_5_Liver_and_Lung_Single_Cell_Data/Source_Data/Liver_Single_Cell/endothelial_network_matrix.csv.gz",
+    "sha256": "b1227a4e090fad260c7264c2fb28d8b3bd86c22c0d8f53ffc02e87ca0ecd7d84",
+    "bytes": 1389231
+  },
+  {
+    "file": "data/Additional_file_5_Liver_and_Lung_Single_Cell_Data/Source_Data/Liver_Single_Cell/hepatocyte_network_matrix.csv.gz",
+    "sha256": "ca04e809eba7018afb80841fdbc6bf53ce7f40e2cee81983d05ef6285e8c9f4a",
+    "bytes": 7375543
+  },
+  {
+    "file": "data/Additional_file_5_Liver_and_Lung_Single_Cell_Data/Source_Data/Liver_Single_Cell/macrophage_network_matrix.csv.gz",
+    "sha256": "506b1c291e43ab5a0c86a46995cac411a6d1b17e592f30486ef174ed0a604b1b",
+    "bytes": 2084506
+  },
+  {
+    "file": "new_virtual/README.txt",
+    "sha256": "95fe756895627186498f2b4e88adfca51f1b234f35529828dba646f75095ff56",
+    "bytes": 3313
+  },
+  {
+    "file": "new_virtual/analysis_specification.json",
+    "sha256": "c5c351d9f635371f3c3d3801740a480727a71be2274afd714abb9ff5ee9f82fc",
+    "bytes": 2118
+  },
+  {
+    "file": "new_virtual/donor_covariance_qc.csv",
+    "sha256": "2c7543d07be993f0b1dc9fe4333cb58de640408cf9c681597f9c4c07b6187fd0",
+    "bytes": 723
+  },
+  {
+    "file": "new_virtual/donor_omission_ranges.csv",
+    "sha256": "f137a221044a0e0ea1a3c2f586539f6e6ebee30c43ad4487947371114dc93c0e",
+    "bytes": 577
+  },
+  {
+    "file": "new_virtual/donor_target_expression.csv",
+    "sha256": "9e61d6e7ad0ca0b2cbe3cb81b2f0fe7e06c1a56d9eb63a954a3ca4ad3f03e5b4",
+    "bytes": 1841
+  },
+  {
+    "file": "new_virtual/edge_attenuation_sensitivity.csv",
+    "sha256": "20665cd6b571d7d7921584651e4c3345899fe797cb08a1b7b09859c3b845a76a",
+    "bytes": 2004
+  },
+  {
+    "file": "new_virtual/figure_s11_chart_contract.json",
+    "sha256": "3aba770d0f3ffc67e18de679dc97b2fd5e50e751362be494361d2bb4b9d4f600",
+    "bytes": 1573
+  },
+  {
+    "file": "new_virtual/gene_level_perturbations.csv.gz",
+    "sha256": "dbe04eba26a2146d9ab6389ed0f03069452bb79a50aae5193ac5414159975e9f",
+    "bytes": 520823
+  },
+  {
+    "file": "new_virtual/input_manifest.csv",
+    "sha256": "6c94ca1e5ba97a69cd2bc6fa601ee6dc0e782570aa083310cc70c54553935358",
+    "bytes": 619
+  },
+  {
+    "file": "new_virtual/make_figure_s11.py",
+    "sha256": "58aec021a6e2c979d5d49f09fa11ba61299ad35a106bb96c529a37d3554ad37a",
+    "bytes": 10127
+  },
+  {
+    "file": "new_virtual/matched_control_pools.csv",
+    "sha256": "765039a6fe1c64912c42ac8c783b3fa0614c2a38da0341fa7453674b610bc26d",
+    "bytes": 48750
+  },
+  {
+    "file": "new_virtual/matched_null_metrics.csv.gz",
+    "sha256": "20b4116062c66769f51f2340c0014166fc205beb5e40728d674ffa761c94658b",
+    "bytes": 124570
+  },
+  {
+    "file": "new_virtual/nonadditivity_by_donor_omission.csv",
+    "sha256": "4ccc5dde39437caca4dfa091da9a15a00bb0a369b7d64bc8e5c768caf84b2bc8",
+    "bytes": 1632
+  },
+  {
+    "file": "new_virtual/nonadditivity_calibration.csv",
+    "sha256": "8ec46da679aa7369037c9361e59d947ae88bc3eac895b07bd8d59896eefcf925",
+    "bytes": 613
+  },
+  {
+    "file": "new_virtual/output_manifest.csv",
+    "sha256": "e68faa48dd7eef8c98683abe2d5eb1dca7aaa93683c68da0014d19b37844af59",
+    "bytes": 3467
+  },
+  {
+    "file": "new_virtual/perturbation_metrics.csv",
+    "sha256": "bfc29324c9361cab008da2636d98e63771ad2e4e3a4089967a64a6f839dcd5f6",
+    "bytes": 16639
+  },
+  {
+    "file": "new_virtual/primary_calibration.csv",
+    "sha256": "181de336108efc9617ad73b786e4c49cf4f35adf1e276d8fcbbdd6060252878f",
+    "bytes": 2754
+  },
+  {
+    "file": "new_virtual/run_target_pair_perturbation.py",
+    "sha256": "4cd5de8639452dc81dfc10d52e39ddae9638dbd611be82f1b6efac1b4c258493",
+    "bytes": 12836
+  },
+  {
+    "file": "new_virtual/target_to_target_redistribution.csv",
+    "sha256": "6ccfcdf7ccb1e6a62cdac0148b724c1714d7e26accc30472485f533db9722a0f",
+    "bytes": 625
+  },
+  {
+    "file": "new_virtual/validate_extension.py",
+    "sha256": "2e9b32877891e4839400c316f2e04ff98a2a4d2881044a5da63fc13d9c487f86",
+    "bytes": 2253
+  },
+  {
+    "file": "new_virtual/validation_summary.json",
+    "sha256": "990372a7b4eb08f2d09db4eab4bf455d492c5b791e8638fae2aba8fc4665da86",
+    "bytes": 837
+  }
+]

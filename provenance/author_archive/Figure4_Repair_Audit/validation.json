@@ -1,0 +1,18 @@
+{
+  "file": "/workspace/scratch/c5634a2d588f/figure4_repair/Figure_4_Repaired_1200dpi.tiff",
+  "bytes": 4759108,
+  "format": "Classic TIFF, 8-bit RGB, LZW lossless compression",
+  "pixels": [
+    10080,
+    10080
+  ],
+  "dpi": [
+    1200.0,
+    1200.0
+  ],
+  "first_ifd_offset": 4718604,
+  "source_alpha_opaque": true,
+  "rgb_pixels_identical_to_source": true,
+  "decoded_rgb_sha256": "f02bd4f788e1e444466979a96c57ed7c2dfdc0a7f9c269b86ee9f6bf0463745f",
+  "file_sha256": "e834ead9ed28120d46bcd9c7e5b34d57778e782f37f66deabde0cb16035a2000"
+}

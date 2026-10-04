@@ -1,0 +1,50 @@
+{
+  "purpose": "Runtime/preparation feasibility only; ligand-free predicted scaffold; not evidence of nintedanib binding or stability",
+  "status": "completed_feasibility_benchmark",
+  "versions": {
+    "openmm": "8.4.0",
+    "pdbfixer": "1.12.0",
+    "numpy": "2.2.6"
+  },
+  "platform": "CPU",
+  "threads": 1,
+  "input_sha256": "4cfaeec72ac5a90e205e864dc43038d4ad71598f7f112b82d817674ebebeb871",
+  "source": "/workspace/scratch/c5634a2d588f/work/jcm_revision/docking/FLT4_AF_receptor.pdb",
+  "shared_executor_docking_campaign_running": true,
+  "detected_missing_residues": {},
+  "detected_missing_atoms": {},
+  "terminal_additions": {
+    "A1173LEU": [
+      "OXT"
+    ]
+  },
+  "protein_atoms_including_H": 5193,
+  "box_lengths_nm": [
+    9.990782597253828,
+    8.355652803324872,
+    7.35009088256048
+  ],
+  "solvated_atoms": 57629,
+  "solvated_residues": 17875,
+  "setup_seconds": 10.536291911001172,
+  "limited_minimization_seconds": 175.27396035799757,
+  "timings": [
+    {
+      "steps": 100,
+      "simulated_ps": 0.2,
+      "wall_seconds": 30.844957176002936,
+      "ns_per_day": 0.5602212349136819,
+      "potential_energy_kJ_per_mol": -792533.0650873567
+    },
+    {
+      "steps": 100,
+      "simulated_ps": 0.2,
+      "wall_seconds": 27.948478520000208,
+      "ns_per_day": 0.6182805259912185,
+      "potential_energy_kJ_per_mol": -788992.8127869634
+    }
+  ],
+  "total_integrated_ps": 0.44,
+  "median_ns_per_day": 0.5892508804524502,
+  "interpretation": "One-thread result measured under shared docking load, on protein-only scaffold. Not a production equilibration, target-ligand simulation, or convergence demonstration. No ligand force-field parameters were generated."
+}

@@ -1,0 +1,16 @@
+{
+  "library_size": 16,
+  "targets": [
+    "PDGFRA",
+    "FLT4"
+  ],
+  "objective": "Compare target engagement among clinically characterized agents and explicit mechanistic/clinical comparators; no inference that stronger dual inhibition protects the liver.",
+  "primary_boltz_metric": "binding_confidence within each target for binder identification",
+  "secondary_boltz_metric": "optimization_score within each target",
+  "filters": "server defaults, exclusions retained with reasons",
+  "direction": "inhibition comparator screen; a binding pose does not identify activation versus inhibition",
+  "clinical_interpretation": "Human authorization/indication, experimental wild-type target pharmacology and labeled hepatic liabilities considered separately from predictions.",
+  "docking": "Independent structure-based docking with ligand-redocking calibration for PDGFRA; FLT4 predicted kinase scaffold labeled explicitly if no experimental kinase complex is available.",
+  "md": "Genuine trajectories required for dynamics; no relaxation or conformer ensemble interpreted as production MD.",
+  "selection": "No compound promoted as hepatoprotective solely from affinity, docking score or physicochemical prediction."
+}

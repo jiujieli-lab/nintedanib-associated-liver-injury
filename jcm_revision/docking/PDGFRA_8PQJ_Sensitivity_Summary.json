@@ -1,0 +1,18 @@
+[
+  {
+    "receptor": "Primary_6JOL",
+    "n_searches_completed": 3,
+    "median_vina_score_kcal_mol": -8.52,
+    "minimum_score": -8.613,
+    "maximum_score": -8.502,
+    "max_top_pose_pairwise_RMSD_A": 9.350918992270223
+  },
+  {
+    "receptor": "Sensitivity_8PQJ",
+    "n_searches_completed": 3,
+    "median_vina_score_kcal_mol": -6.495,
+    "minimum_score": -6.884,
+    "maximum_score": -6.481,
+    "max_top_pose_pairwise_RMSD_A": 5.094215653562381
+  }
+]

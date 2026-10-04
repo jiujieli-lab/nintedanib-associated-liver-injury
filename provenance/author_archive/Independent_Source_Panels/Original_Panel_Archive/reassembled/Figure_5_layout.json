@@ -1,0 +1,92 @@
+{
+  "original_figure": "Figure_4",
+  "new_figure": "Figure_5",
+  "dpi": [
+    300.0,
+    300.0
+  ],
+  "canvas_px": [
+    2030,
+    2259
+  ],
+  "placements": [
+    {
+      "panel": "A",
+      "x": 12,
+      "y": 12,
+      "width": 2006,
+      "height": 216
+    },
+    {
+      "panel": "B",
+      "x": 41,
+      "y": 246,
+      "width": 636,
+      "height": 454
+    },
+    {
+      "panel": "C",
+      "x": 695,
+      "y": 246,
+      "width": 636,
+      "height": 455
+    },
+    {
+      "panel": "D",
+      "x": 1349,
+      "y": 246,
+      "width": 640,
+      "height": 454
+    },
+    {
+      "panel": "E",
+      "x": 27,
+      "y": 719,
+      "width": 708,
+      "height": 599
+    },
+    {
+      "panel": "F",
+      "x": 753,
+      "y": 719,
+      "width": 706,
+      "height": 599
+    },
+    {
+      "panel": "G",
+      "x": 1477,
+      "y": 719,
+      "width": 525,
+      "height": 615
+    },
+    {
+      "panel": "H",
+      "x": 98,
+      "y": 1352,
+      "width": 961,
+      "height": 397
+    },
+    {
+      "panel": "I",
+      "x": 1077,
+      "y": 1352,
+      "width": 854,
+      "height": 441
+    },
+    {
+      "panel": "J",
+      "x": 149,
+      "y": 1811,
+      "width": 927,
+      "height": 431
+    },
+    {
+      "panel": "K",
+      "x": 1094,
+      "y": 1811,
+      "width": 787,
+      "height": 436
+    }
+  ],
+  "rule": "only all-white border trim; no resampling; original pixels retained"
+}

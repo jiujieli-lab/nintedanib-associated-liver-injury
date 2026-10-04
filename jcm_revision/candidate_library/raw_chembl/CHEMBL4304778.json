@@ -1,0 +1,24 @@
+{
+  "abstract": "Hepatocellular carcinoma (HCC) is one of the most common malignant tumors. Traditional chemotherapy drugs are hard to reach a satisfactory therapeutic effect since advanced HCC is highly chemo-resistant. Sorafenib is an oral multikinase inhibitor that can suppress tumor cell proliferation, angiogenesis and induce cancer cell apoptosis. However, the poor solubility, rapid metabolism and low bioavailability of sorafenib greatly restricted its further clinical application. During the past decade, numerous sorafenib derivatives have been designed and synthesized to overcome its disadvantages and improve its clinical performance. This article focuses on the therapeutic effects and mechanisms of various sorafenib derivatives with modifications on the N-methylpicolinamide group, urea group, central aromatic ring or others. More importantly, this review summarizes the current status of the structure-activity relationship (SAR) of reported sorafenib derivatives, which can provide some detailed information of future directions for further structural modifications of sorafenib to discovery new anti-tumor drugs with improved clinical performance.",
+  "authors": "Chen F, Fang Y, Zhao R, Le J, Zhang B, Huang R, Chen Z, Shao J.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_28",
+    "creation_date": "2021-01-15"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4304778",
+  "doi": "10.1016/j.ejmech.2019.06.070",
+  "doi_chembl": null,
+  "first_page": "916",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "935",
+  "patent_id": null,
+  "pubmed_id": 31306818,
+  "src_id": 1,
+  "title": "Evolution in medicinal chemistry of sorafenib derivatives for hepatocellular carcinoma.",
+  "volume": "179",
+  "year": 2019
+}

@@ -1,0 +1,20 @@
+{
+  "source_member_records": 2325,
+  "source_code_appearances": 118,
+  "unique_original_source_code_files": 113,
+  "original_python_files": 109,
+  "original_javascript_files": 4,
+  "unique_retained_source_files": 2098,
+  "empty_download_placeholders_omitted": 11,
+  "identical_shared_path_duplicates_merged": 7,
+  "identical_code_copies_merged": 5,
+  "nested_original_source_archives_expanded": 5,
+  "nested_panel_source_scripts_retained": 3,
+  "omitted_panel_asset_files": 198,
+  "omitted_panel_asset_bytes": 146883137,
+  "original_source_code_bytes_changed": 0,
+  "source_python_syntax_pass": 109,
+  "source_python_syntax_fail": 0,
+  "new_analysis_results_generated": false,
+  "analysis_or_provider_calls_executed": false
+}

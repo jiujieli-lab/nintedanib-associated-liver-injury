@@ -1,0 +1,13 @@
+figure,panel,source,dataset,metric,unit,n,summary_source
+Figure S10,A,Pulmonary/disjoint_reference_splits.csv,GSE278200,reversal_fraction,oriented disease-animal reference split,6,Pulmonary/shared_reference_summary.csv
+Figure S10,B,Pulmonary/disjoint_reference_splits.csv,GSE278200,rho,oriented disease-animal reference split,6,Pulmonary/shared_reference_summary.csv
+Figure S10,C,Pulmonary/disjoint_reference_splits.csv,GSE278200,median_restoration,oriented disease-animal reference split,6,Pulmonary/shared_reference_summary.csv
+Figure S10,D,Pulmonary/disjoint_reference_splits.csv,GSE308578,reversal_fraction,oriented disease-animal reference split,500,Pulmonary/shared_reference_summary.csv
+Figure S10,E,Pulmonary/disjoint_reference_splits.csv,GSE308578,rho,oriented disease-animal reference split,500,Pulmonary/shared_reference_summary.csv
+Figure S10,F,Pulmonary/disjoint_reference_splits.csv,GSE308578,median_restoration,oriented disease-animal reference split,500,Pulmonary/shared_reference_summary.csv
+Figure S10,G,Pulmonary/animal_label_permutations.csv,GSE278200,reversal_fraction,whole-animal treatment allocation,70,Pulmonary/shared_reference_summary.csv
+Figure S10,H,Pulmonary/animal_label_permutations.csv,GSE278200,rho,whole-animal treatment allocation,70,Pulmonary/shared_reference_summary.csv
+Figure S10,I,Pulmonary/animal_label_permutations.csv,GSE278200,median_restoration,whole-animal treatment allocation,70,Pulmonary/shared_reference_summary.csv
+Figure S10,J,Pulmonary/animal_label_permutations.csv,GSE308578,reversal_fraction,whole-animal treatment allocation,1000,Pulmonary/shared_reference_summary.csv
+Figure S10,K,Pulmonary/animal_label_permutations.csv,GSE308578,rho,whole-animal treatment allocation,1000,Pulmonary/shared_reference_summary.csv
+Figure S10,L,Pulmonary/animal_label_permutations.csv,GSE308578,median_restoration,whole-animal treatment allocation,1000,Pulmonary/shared_reference_summary.csv

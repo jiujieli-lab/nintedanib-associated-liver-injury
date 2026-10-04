@@ -1,0 +1,24 @@
+{
+  "abstract": "Inhibition of c-Kit has the potential to treat mast cell associated fibrotic diseases. We report the discovery of several aminoquinazoline pyridones that are potent inhibitors of c-Kit with greater than 200-fold selectivity against KDR, p38, Lck, and Src. In vivo efficacy of pyridone 16 by dose-dependent inhibition of histamine release was demonstrated in a rodent pharmacodynamic model of mast cell activation.",
+  "authors": "Hu E, Tasker A, White RD, Kunz RK, Human J, Chen N, B\u00fcrli R, Hungate R, Novak P, Itano A, Zhang X, Yu V, Nguyen Y, Tudor Y, Plant M, Flynn S, Xu Y, Meagher KL, Whittington DA, Ng GY.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_2",
+    "creation_date": "2009-11-30"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1150317",
+  "doi": "10.1021/jm800188g",
+  "doi_chembl": null,
+  "first_page": "3065",
+  "issue": "11",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "3068",
+  "patent_id": null,
+  "pubmed_id": 18447379,
+  "src_id": 1,
+  "title": "Discovery of aryl aminoquinazoline pyridones as potent, selective, and orally efficacious inhibitors of receptor tyrosine kinase c-Kit.",
+  "volume": "51",
+  "year": 2008
+}

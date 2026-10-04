@@ -1,0 +1,39 @@
+file,field,definition
+discovery_tidy.csv,cohort,Discovery cohort; source values are TMT VSN-normalized relative intensities.
+discovery_tidy.csv,protein,HGNC-style protein/gene symbol supplied by the source workbook.
+discovery_tidy.csv,group,HV healthy volunteer; DO DILI onset; DF DILI follow-up; NDO non-DILI acute liver injury onset; NDF non-DILI follow-up; NAFLD chronic control.
+discovery_tidy.csv,source_row_index_within_group,Sequential position inside one protein/group block; not a participant identifier across proteins.
+discovery_tidy.csv,value,Numeric source value; ND and blank entries are represented as missing.
+discovery_tidy.csv,is_not_detected,True only when the workbook explicitly labels the cell ND/not detected.
+*_tidy.csv,source_value_text,Exact trimmed cell text retained for auditability.
+*_tidy.csv,is_starred_source_value,"True for a value carrying an unexplained source asterisk, currently the PCK2 3077.0266 value."
+*_tidy.csv,source_sheet/source_excel_row/source_excel_column,One-based workbook provenance for the parsed cell.
+confirmatory_tidy.csv,assay,SureQuant light/heavy ratio for most candidates; PCK2 was measured by ELISA and workbook units are unstated.
+confirmatory_tidy.csv,analysis_sample_key,Convenience key for a protein-specific row series. It must not be used to join proteins.
+confirmatory_tidy.csv,is_invalid_nonnumeric_text,Nonblank source text that could not be parsed as numeric and was not explicitly ND.
+alt_correlation_pairs.csv,log2_biomarker,Workbook-provided log2 biomarker value paired with ALT within a single protein scatterplot block.
+alt_correlation_pairs.csv,log2_alt,Workbook-provided log2 ALT value paired with the biomarker in the same row.
+effect_estimates.csv,cliffs_delta_group1_minus_group2,P(group1 > group2) minus P(group1 < group2); range -1 to 1.
+effect_estimates.csv,n1_source_rows/n2_source_rows,"Rows present in the selected source series, including missing/ND rows."
+effect_estimates.csv,n1_observed/n2_observed,Finite numeric observations included in the complete-case primary test.
+effect_estimates.csv,group*_median/q1/q3,Group-specific median and interquartile range on the original workbook scale.
+effect_estimates.csv,median_difference_*,"Group1 median minus group2 median, with percentile bootstrap CI."
+effect_estimates.csv,median_ratio_*,Group1 median divided by group2 median for confirmatory positive-scale values; not defined for discovery VSN values.
+effect_estimates.csv,mann_whitney_q_bh,Benjamini-Hochberg FDR within cohort and contrast across candidate proteins.
+effect_estimates.csv,hedges_g_*,"Bias-corrected standardized mean difference on the documented secondary transform, with bootstrap CI."
+effect_estimates.csv,welch_t_p/welch_t_q_bh,Secondary Welch-test p value and within-contrast BH FDR.
+effect_estimates.csv,roc_auc_group1_positive,Univariate apparent AUC with group1 as the positive class; values below 0.5 indicate lower values in group1.
+effect_estimates.csv,roc_auc_separation,"max(AUC, 1-AUC), reported only as direction-free separation magnitude."
+left_censor_sensitivity.csv,substitution_value_half_min_positive,"One-half of the smallest positive value for that protein, used only in sensitivity analysis."
+missingness_stats.csv,fisher_*,Fisher exact test of observed versus missing/ND proportions and BH FDR.
+alt_correlation_pairs.csv,is_likely_numeric_ND_substitution,QC flag for undocumented numeric replacements of canonical ND values in Supp Fig 7.
+alt_correlation_pairs.csv,log2_biomarker_primary,Biomarker value after setting undocumented numeric ND substitutions to missing.
+correlation_stats.csv,stratum,HV_plus_DO is pooled and susceptible to group separation; DO and HV are within-group sensitivity analyses.
+correlation_stats.csv,correlation_input_rule,Whether undocumented numeric ND substitutions were excluded (primary) or retained (sensitivity).
+correlation_stats.csv,spearman_*,"Spearman rho, bootstrap CI, two-sided p value, and BH FDR within input rule and stratum."
+candidate_evidence_table.csv,evidence_tier,"Rule-based descriptive tier from FDR-controlled univariate evidence, not a causal target rank."
+zonal_scores_tidy.csv,score,Workbook-provided ssGSEA pathway/zone signature score.
+source_block_counts.csv,declared_n,"Sample count printed in a block header, where available."
+source_block_counts.csv,rows_through_last_nonblank,Rows from block header through the last supplied cell; retains internal blanks.
+row_order_linkage_qc.csv,same_value_multiset_after_log2,Whether boxplot and ALT-correlation blocks contain the same numeric values regardless of order.
+row_order_linkage_qc.csv,same_row_order_after_log2,Whether those same values occur in the same order; failures demonstrate unsafe positional joining.

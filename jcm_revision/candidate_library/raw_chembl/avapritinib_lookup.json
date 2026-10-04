@@ -1,0 +1,151 @@
+{
+  "molecules": [
+    {
+      "atc_classifications": [
+        "L01EX18"
+      ],
+      "availability_type": 1,
+      "biotherapeutic": null,
+      "black_box_warning": 0,
+      "chemical_probe": 0,
+      "chirality": 1,
+      "cross_references": [
+        {
+          "xref_id": "avapritinib",
+          "xref_name": "avapritinib",
+          "xref_src": "DailyMed"
+        },
+        {
+          "xref_id": "human/EPAR/ayvakyt",
+          "xref_name": "ayvakyt",
+          "xref_src": "EMA"
+        }
+      ],
+      "dosed_ingredient": true,
+      "first_approval": 2020,
+      "first_in_class": 0,
+      "helm_notation": null,
+      "inorganic_flag": 0,
+      "max_phase": "4.0",
+      "molecule_chembl_id": "CHEMBL4204794",
+      "molecule_hierarchy": {
+        "active_chembl_id": "CHEMBL4204794",
+        "molecule_chembl_id": "CHEMBL4204794",
+        "parent_chembl_id": "CHEMBL4204794"
+      },
+      "molecule_properties": {
+        "alogp": "2.61",
+        "aromatic_rings": 5,
+        "full_molformula": "C26H27FN10",
+        "full_mwt": "498.57",
+        "hba": 10,
+        "hbd": 1,
+        "heavy_atoms": 37,
+        "mw_freebase": "498.57",
+        "np_likeness_score": "-1.68",
+        "num_ro5_violations": 0,
+        "psa": "106.29",
+        "qed_weighted": "0.39",
+        "ro3_pass": "N",
+        "rtb": 5
+      },
+      "molecule_structures": {
+        "canonical_smiles": "Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1",
+        "molfile": "\n     RDKit          2D\n\n 37 42  0  0  0  0  0  0  0  0999 V2000\n   -5.8631   -0.7284    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.6837   -0.8146    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.8552   -1.6216    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.1407   -2.0341    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.5277   -1.4821    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.1731    1.2918    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.7862    0.7397    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.4507   -0.0139    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.6302    0.0723    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.4587    0.8792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -4.4586    2.5292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -5.1731    2.1168    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.7442    1.2917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.7442    2.1166    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -6.0976   -2.8580    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0768    0.8068    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3623    1.2193    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -3.0768   -0.0182    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -2.3623   -0.4307    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6478   -0.0182    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -1.6478    0.8068    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9333   -0.4307    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2189   -0.0182    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.9333   -1.2557    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n   -0.2189   -1.6682    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4956   -1.2557    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.4956   -0.4307    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.2101   -1.6682    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9245   -1.2557    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.9144   -2.4022    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.7102   -2.2366    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6389   -0.0182    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9245   -0.4307    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.6389   -1.6682    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3535   -1.2557    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.3534   -0.4307    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.0679   -0.0182    0.0000 F   0  0  0  0  0  0  0  0  0  0  0  0\n  1  2  1  0\n  2  3  2  0\n  3  4  1  0\n  4  5  1  0\n  1  5  2  0\n  6  7  1  0\n  7  8  2  0\n  8  9  1  0\n  9 10  2  0\n 11 12  2  0\n 13 14  2  0\n 11 14  1  0\n 10 13  1  0\n 12  6  1  0\n  6 10  1  0\n  8  1  1  0\n  4 15  1  0\n 13 16  1  0\n 18 19  1  0\n 19 20  1  0\n 20 21  1  0\n 17 21  1  0\n 17 16  1  0\n 16 18  1  0\n 20 22  1  0\n 24 25  1  0\n 25 26  2  0\n 26 27  1  0\n 23 27  2  0\n 23 22  1  0\n 22 24  2  0\n 26 28  1  0\n 28 29  1  0\n 28 30  1  1\n 28 31  1  6\n 32 33  1  0\n 34 35  2  0\n 35 36  1  0\n 32 36  2  0\n 33 29  2  0\n 29 34  1  0\n 36 37  1  0\nM  END\n> <chembl_id>\nCHEMBL4204794\n\n> <chembl_pref_name>\nAVAPRITINIB",
+        "standard_inchi": "InChI=1S/C26H27FN10/c1-26(28,20-3-5-22(27)6-4-20)21-13-29-25(30-14-21)36-9-7-35(8-10-36)24-23-11-18(16-37(23)33-17-31-24)19-12-32-34(2)15-19/h3-6,11-17H,7-10,28H2,1-2H3/t26-/m0/s1",
+        "standard_inchi_key": "DWYRIWUZIJHQKQ-SANMLTNESA-N"
+      },
+      "molecule_synonyms": [
+        {
+          "molecule_synonym": "70C366",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "70C366"
+        },
+        {
+          "molecule_synonym": "Avapritinib",
+          "syn_type": "ATC",
+          "synonyms": "AVAPRITINIB"
+        },
+        {
+          "molecule_synonym": "Avapritinib",
+          "syn_type": "EMA",
+          "synonyms": "AVAPRITINIB"
+        },
+        {
+          "molecule_synonym": "Avapritinib",
+          "syn_type": "FDA",
+          "synonyms": "AVAPRITINIB"
+        },
+        {
+          "molecule_synonym": "Avapritinib",
+          "syn_type": "INN",
+          "synonyms": "AVAPRITINIB"
+        },
+        {
+          "molecule_synonym": "Avapritinib",
+          "syn_type": "OTHER",
+          "synonyms": "AVAPRITINIB"
+        },
+        {
+          "molecule_synonym": "Avapritinib",
+          "syn_type": "USAN",
+          "synonyms": "AVAPRITINIB"
+        },
+        {
+          "molecule_synonym": "Ayvakit",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "AYVAKIT"
+        },
+        {
+          "molecule_synonym": "Ayvakyt",
+          "syn_type": "TRADE_NAME",
+          "synonyms": "AYVAKYT"
+        },
+        {
+          "molecule_synonym": "BLU-285",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "BLU-285"
+        },
+        {
+          "molecule_synonym": "C-366",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "C-366"
+        },
+        {
+          "molecule_synonym": "X-720776",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "X-720776"
+        },
+        {
+          "molecule_synonym": "X720776",
+          "syn_type": "RESEARCH_CODE",
+          "synonyms": "X720776"
+        }
+      ],
+      "molecule_type": "Small molecule",
+      "natural_product": 0,
+      "oral": true,
+      "orphan": 1,
+      "parenteral": false,
+      "polymer_flag": 0,
+      "pref_name": "AVAPRITINIB",
+      "prodrug": 0,
+      "structure_type": "MOL",
+      "therapeutic_flag": true,
+      "topical": false,
+      "usan_stem": "-tinib",
+      "usan_stem_definition": "tyrosine kinase inhibitors",
+      "usan_substem": "-tinib",
+      "usan_year": 2017,
+      "veterinary": 0,
+      "withdrawn_flag": false
+    }
+  ],
+  "page_meta": {
+    "limit": 100,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 1
+  }
+}

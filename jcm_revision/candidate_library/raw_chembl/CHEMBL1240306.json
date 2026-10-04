@@ -1,0 +1,24 @@
+{
+  "abstract": "Chronic myelogenous leukemia (CML) is a myeloproliferative disorder characterized at the molecular level by the expression of Bcr-abl, a 210-kDa fusion protein with deregulated tyrosine kinase activity. Encouraged by the clinical validation of Bcr-abl as the target for the treatment of CML by imatinib, we sought to identify pharmacological agents that could target this kinase by a distinct mechanism. We report the discovery of a new class of Bcr-abl inhibitors using an unbiased differential cytotoxicity screen of a combinatorial kinase-directed heterocycle library. Compounds in this class (exemplified by GNF-2) show exclusive antiproliferative activity toward Bcr-abl-transformed cells, with potencies similar to imatinib, while showing no inhibition of the kinase activity of full-length or catalytic domain of c-abl. We propose that this new class of compounds inhibits Bcr-abl kinase activity through an allosteric non-ATP competitive mechanism.",
+  "authors": "Adri\u00e1n FJ, Ding Q, Sim T, Velentza A, Sloan C, Liu Y, Zhang G, Hur W, Ding S, Manley P, Mestan J, Fabbro D, Gray NS.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_10",
+    "creation_date": "2011-05-26"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1240306",
+  "doi": "10.1038/nchembio760",
+  "doi_chembl": null,
+  "first_page": "95",
+  "issue": "2",
+  "journal": "Nat Chem Biol",
+  "journal_full_title": "Nature chemical biology.",
+  "last_page": "102",
+  "patent_id": null,
+  "pubmed_id": 16415863,
+  "src_id": 1,
+  "title": "Allosteric inhibitors of Bcr-abl-dependent cell proliferation.",
+  "volume": "2",
+  "year": 2006
+}

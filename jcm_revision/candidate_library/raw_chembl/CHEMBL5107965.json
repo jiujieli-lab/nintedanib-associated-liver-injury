@@ -1,0 +1,24 @@
+{
+  "abstract": "Chronic myeloid leukemia (CML) is a malignant disease of the hematopoietic system with crucial pathogenic protein named BCR-ABL, which endangers the life of patients severely. As a milestone of targeted drug, Imatinib has achieved great success in the treatment of CML. Nevertheless, inevitable drug resistance of Imatinib has occurred frequently in clinical due to the several mutations in the BCR-ABL kinase. Subsequently, the second-generation of tyrosine kinase inhibitors (TKIs) against BCR-ABL was developed to address the mutants of Imatinib resistance, except T315I. To date, the third-generation of TKIs targeting T315I has been developed for improving the selectivity and safety. Notably, the first allosteric inhibitor has been in market which could overcome the mutations in ATP binding site effectively. Meanwhile, some advanced technology, such as proteolysis-targeting chimeras (PROTAC) based on different E3 ligand, are highly expected to overcome the drug resistance by selectively degrading the targeted proteins. In this review, we summarized the current research progress of inhibitors and degraders targeting BCR-ABL for the treatment of CML.",
+  "authors": "Pan YL, Zeng SX, Hao RR, Liang MH, Shen ZR, Huang WH.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_33",
+    "creation_date": "2023-05-31"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5107965",
+  "doi": "10.1016/j.ejmech.2022.114442",
+  "doi_chembl": null,
+  "first_page": "114442",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "114442",
+  "patent_id": null,
+  "pubmed_id": 35551036,
+  "src_id": 1,
+  "title": "The progress of small-molecules and degraders against BCR-ABL for the treatment of CML.",
+  "volume": "238",
+  "year": 2022
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "Macrocycles have gained significant attention in drug discovery, with over 70 macrocyclic compounds currently in clinical use. Despite this progress, the effective methods for designing macrocycles remain elusive. In this study, we present Macro-Hop, a reinforced learning framework designed to rapidly and comprehensively explore the macrocycle chemical space. Macro-Hop efficiently generates novel macrocyclic scaffolds that not only align with predefined physicochemical properties but also exhibit 3D structural similarities to a specified reference compound. As a proof of concept, we applied Macro-Hop to design a new series of macrocycle inhibitors targeting PDGFR\u03b1<sup>D842\u00a0V</sup> kinase. The representative compound <b>L7</b> exhibited high potency against PDGFR\u03b1<sup>D842\u00a0V</sup> in both biochemical and cellular assays with IC<sub>50</sub> values of 23.8 and 2.1 nM, respectively. <b>L7</b> effectively inhibited clinically relevant secondary mutants PDGFR\u03b1<sup>D842\u00a0V/G680R</sup> (IC<sub>50</sub> = 64.1 nM) and PDGFR\u03b1<sup>D842\u00a0V/T674I</sup> (IC<sub>50</sub> = 27.6 nM), highlighting the rapid effectiveness of wet-leb validation with Macro-Hop.",
+  "authors": "Liang H, Huang S, Xu X, Yin Z, Hussain M, Song X, Yi J, He Y, Guo J, Tu Z, Zhang Z, Zhou Y, Lu X.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_37",
+    "creation_date": "2026-05-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL6103658",
+  "doi": "10.1021/acs.jmedchem.5c00087",
+  "doi_chembl": null,
+  "first_page": "6698",
+  "issue": "6",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "6717",
+  "patent_id": null,
+  "pubmed_id": 40101196,
+  "src_id": 1,
+  "title": "Designing Macrocyclic Kinase Inhibitors Using Macrocycle Scaffold Hopping with Reinforced Learning (Macro-Hop).",
+  "volume": "68",
+  "year": 2025
+}

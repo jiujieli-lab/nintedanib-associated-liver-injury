@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 2.7450313568115234,
+    "permeability": 1.2304768562316895,
+    "solubility": "medium-confidence"
+  },
+  "created_at": "2026-10-02T15:16:13.852Z",
+  "external_id": "nerandomilast",
+  "id": "pres_RHMXr0rnH9Y3aE0JvATy",
+  "metrics": {
+    "binding_confidence": 0.03530673310160637,
+    "complex_iplddt": 0.7068806290626526,
+    "complex_plddt": 0.7455148696899414,
+    "iptm": 0.7401001453399658,
+    "optimization_score": 0.32624754309654236,
+    "ptm": 0.7277145981788635,
+    "structure_confidence": 0.7444319128990173
+  },
+  "smiles": "O=[S@@]1CCc2nc(N3CCC(c4ncc(Cl)cn4)CC3)nc(NC3(CO)CCC3)c21"
+}

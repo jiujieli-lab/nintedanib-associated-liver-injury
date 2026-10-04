@@ -1,0 +1,177 @@
+original_figure,original_panel,panel_title,role,planned_figure,planned_panel,output_file
+Figure_1,A,Integrated study workflow,panel,Figure_1,A,work/panels/independent/Figure_1/Figure_1_A.tiff
+Figure_1,B,Report-set composition,panel,Figure_1,B,work/panels/independent/Figure_1/Figure_1_B.tiff
+Figure_1,C,Primary comparator reporting signals,panel,Figure_1,C,work/panels/independent/Figure_1/Figure_1_C.tiff
+Figure_1,D,Specification and influence analyses,panel,Figure_1,D,work/panels/independent/Figure_1/Figure_1_D.tiff
+Figure_1,E,Annual broad-endpoint ROR,panel,Figure_1,E,work/panels/independent/Figure_1/Figure_1_E.tiff
+Figure_1,F,Annual narrow-endpoint ROR,panel,Figure_1,F,work/panels/independent/Figure_1/Figure_1_F.tiff
+Figure_1,G,Crude and year-stratified estimates,panel,Figure_1,G,work/panels/independent/Figure_1/Figure_1_G.tiff
+Figure_1,H,Sex-stratified signals,panel,Figure_1,H,work/panels/independent/Figure_1/Figure_1_H.tiff
+Figure_1,I,Age-stratified signals,panel,Figure_1,I,work/panels/independent/Figure_1/Figure_1_I.tiff
+Figure_1,J,Serious outcomes,panel,Figure_1,J,work/panels/independent/Figure_1/Figure_1_J.tiff
+Figure_1,K,Time to onset,panel,Figure_1,K,work/panels/independent/Figure_1/Figure_1_K.tiff
+Figure_2,A,Discovery onset versus non-drug injury,panel,Figure_2,A,work/panels/independent/Figure_2/Figure_2_A.tiff
+Figure_2,B,Confirmation acute DILI versus healthy,panel,Figure_2,B,work/panels/independent/Figure_2/Figure_2_B.tiff
+Figure_2,C,Confirmation DILI versus non-drug injury,panel,Figure_2,C,work/panels/independent/Figure_2/Figure_2_C.tiff
+Figure_2,D,FBP1 distribution,panel,Figure_2,D,work/panels/independent/Figure_2/Figure_2_D.tiff
+Figure_2,E,FBP1 apparent ROC,panel,Figure_2,E,work/panels/independent/Figure_2/Figure_2_E.tiff
+Figure_2,F,Cross-cohort direction stability,panel,Figure_2,F,work/panels/independent/Figure_2/Figure_2_F.tiff
+Figure_2,G,ALT severity association,panel,Figure_2,G,work/panels/independent/Figure_2/Figure_2_G.tiff
+Figure_2,H,Acute-DILI follow-up source block,panel,Figure_2,H,work/panels/independent/Figure_2/Figure_2_H.tiff
+Figure_2,I,Injury detection versus etiology specificity,panel,Figure_2,I,work/panels/independent/Figure_2/Figure_2_I.tiff
+Figure_2,J,Censoring and source-value sensitivity,panel,Figure_2,J,work/panels/independent/Figure_2/Figure_2_J.tiff
+Figure_3,A,Global response distribution,panel,Figure_3,A,work/panels/independent/Figure_3/Figure_3_A.tiff
+Figure_3,B,Genome-wide dose ordering,panel,Figure_3,B,work/panels/independent/Figure_3/Figure_3_B.tiff
+Figure_3,C,Measured dose profiles,panel,Figure_3,C,work/panels/independent/Figure_3/Figure_3_C.tiff
+Figure_3,D,Proteomic-anchor profiles,panel,Figure_3,D,work/panels/independent/Figure_3/Figure_3_D.tiff
+Figure_3,E,Anchor-set competitive test,panel,Figure_3,E,work/panels/independent/Figure_3/Figure_3_E.tiff
+Figure_3,F,Prespecified mechanism modules,panel,Figure_3,F,work/panels/independent/Figure_3/Figure_3_F.tiff
+Figure_3,G,Cross-context concordance lower dose,panel,Figure_3,G,work/panels/independent/Figure_3/Figure_3_G.tiff
+Figure_3,H,Cross-context concordance higher dose,panel,Figure_3,H,work/panels/independent/Figure_3/Figure_3_H.tiff
+Figure_3,I,High-confidence ChEMBL targets,panel,Figure_3,I,work/panels/independent/Figure_3/Figure_3_I.tiff
+Figure_3,J,Potency–transcription relationship,panel,Figure_3,J,work/panels/independent/Figure_3/Figure_3_J.tiff
+Figure_4,A,Localization and perturbation workflow,panel,Figure_5,A,work/panels/independent/Figure_4/Figure_4_A.tiff
+Figure_4,B,Hepatocyte embedding,panel,Figure_5,B,work/panels/independent/Figure_4/Figure_4_B.tiff
+Figure_4,C,Endothelial embedding,panel,Figure_5,C,work/panels/independent/Figure_4/Figure_4_C.tiff
+Figure_4,D,Macrophage embedding,panel,Figure_5,D,work/panels/independent/Figure_4/Figure_4_D.tiff
+Figure_4,E,Drug-target localization,panel,Figure_5,E,work/panels/independent/Figure_4/Figure_4_E.tiff
+Figure_4,F,Injury-protein localization,panel,Figure_5,F,work/panels/independent/Figure_4/Figure_4_F.tiff
+Figure_4,G,Donor detection,panel,Figure_5,G,work/panels/independent/Figure_4/Figure_4_G.tiff
+Figure_4,H,Raw perturbation distances,panel,Figure_5,H,work/panels/independent/Figure_4/Figure_4_H.tiff
+Figure_4,I,Eligible nonzero target runs,panel,Figure_5,I,work/panels/independent/Figure_4/Figure_4_I.tiff
+Figure_4,J,FGFR1 seed audit,panel,Figure_5,J,work/panels/independent/Figure_4/Figure_4_J.tiff
+Figure_4,K,Clinical-protein projection,panel,Figure_5,K,work/panels/independent/Figure_4/Figure_4_K.tiff
+Figure_5,A,Network integration workflow,panel,Figure_6,A,work/panels/independent/Figure_5/Figure_5_A.tiff
+Figure_5,B,Clinical-protein network proximity,panel,Figure_6,B,work/panels/independent/Figure_5/Figure_5_B.tiff
+Figure_5,C,Detection versus network significance,panel,Figure_6,C,work/panels/independent/Figure_5/Figure_5_C.tiff
+Figure_5,D,PDGFRA seed contributions,panel,Figure_6,D,work/panels/independent/Figure_5/Figure_5_D.tiff
+Figure_5,E,Biological donor omissions,panel,Figure_6,E,work/panels/independent/Figure_5/Figure_5_E.tiff
+Figure_5,F,Six-algorithm ranks,panel,Figure_6,F,work/panels/independent/Figure_5/Figure_5_F.tiff
+Figure_5,G,Priority changes,panel,Figure_6,G,work/panels/independent/Figure_5/Figure_5_G.tiff
+Figure_5,H,Component-omission stability,panel,Figure_6,H,work/panels/independent/Figure_5/Figure_5_H.tiff
+Figure_5,I,Withheld-feature agreement,panel,Figure_6,I,work/panels/independent/Figure_5/Figure_5_I.tiff
+Figure_5,J,Weight perturbation,panel,Figure_6,J,work/panels/independent/Figure_5/Figure_5_J.tiff
+Figure_5,K,Donor-omission ranks,panel,Figure_6,K,work/panels/independent/Figure_5/Figure_5_K.tiff
+Figure_5,L,Integration inputs,panel,Figure_6,L,work/panels/independent/Figure_5/Figure_5_L.tiff
+Figure_5,M,Joint network criteria,panel,Figure_6,M,work/panels/independent/Figure_5/Figure_5_M.tiff
+Figure_6,A,Independent hepatic workflow,panel,Figure_7,A,work/panels/independent/Figure_6/Figure_6_A.tiff
+Figure_6,B,Independent liver transcriptomes,panel,Figure_7,B,work/panels/independent/Figure_6/Figure_6_B.tiff
+Figure_6,C,Hepatic drug-response transcriptome,panel,Figure_7,C,work/panels/independent/Figure_6/Figure_6_C.tiff
+Figure_6,D,Fixed target candidates,panel,Figure_7,D,work/panels/independent/Figure_6/Figure_6_D.tiff
+Figure_6,E,Kdr expression,panel,Figure_7,E,work/panels/independent/Figure_6/Figure_6_E.tiff
+Figure_6,F,Flt1 expression,panel,Figure_7,F,work/panels/independent/Figure_6/Figure_6_F.tiff
+Figure_6,G,Fgfr1 expression,panel,Figure_7,G,work/panels/independent/Figure_6/Figure_6_G.tiff
+Figure_6,H,Animal omissions,panel,Figure_7,H,work/panels/independent/Figure_6/Figure_6_H.tiff
+Figure_6,I,Program effects,panel,Figure_7,I,work/panels/independent/Figure_6/Figure_6_I.tiff
+Figure_6,J,Genome-wide contrast counts,panel,Figure_7,J,work/panels/independent/Figure_6/Figure_6_J.tiff
+Figure_6,K,Disease–treatment geometry,panel,Figure_7,K,work/panels/independent/Figure_6/Figure_6_K.tiff
+Figure_6,L,Disjoint-reference sensitivity,panel,Figure_7,L,work/panels/independent/Figure_6/Figure_6_L.tiff
+Figure_6,M,Independent rank association,panel,Figure_7,M,work/panels/independent/Figure_6/Figure_6_M.tiff
+Figure_S1,A,Preferred-term signals,panel,Figure_S1,A,work/panels/independent/Figure_S1/Figure_S1_A.tiff
+Figure_S1,B,Matched-drug role,panel,Figure_S1,B,work/panels/independent/Figure_S1/Figure_S1_B.tiff
+Figure_S1,C,Matched-drug indication,panel,Figure_S1,C,work/panels/independent/Figure_S1/Figure_S1_C.tiff
+Figure_S1,D,Time-to-onset completeness,panel,Figure_S1,D,work/panels/independent/Figure_S1/Figure_S1_D.tiff
+Figure_S1,E,2022 narrow endpoint country,panel,Figure_S1,E,work/panels/independent/Figure_S1/Figure_S1_E.tiff
+Figure_S1,F,2022 narrow endpoint month,panel,Figure_S1,F,work/panels/independent/Figure_S1/Figure_S1_F.tiff
+Figure_S2,Shared_Title,Shared_Title,supporting_element,Figure_S2,Shared_Title,work/panels/supporting_elements/Figure_S2_Shared_Title.tiff
+Figure_S2,A,ACO1,panel,Figure_S2,A,work/panels/independent/Figure_S2/Figure_S2_A.tiff
+Figure_S2,B,ALDOB,panel,Figure_S2,B,work/panels/independent/Figure_S2/Figure_S2_B.tiff
+Figure_S2,C,ASS1,panel,Figure_S2,C,work/panels/independent/Figure_S2/Figure_S2_C.tiff
+Figure_S2,D,CES1,panel,Figure_S2,D,work/panels/independent/Figure_S2/Figure_S2_D.tiff
+Figure_S2,E,CPS1,panel,Figure_S2,E,work/panels/independent/Figure_S2/Figure_S2_E.tiff
+Figure_S2,F,DMGDH,panel,Figure_S2,F,work/panels/independent/Figure_S2/Figure_S2_F.tiff
+Figure_S2,G,FAH,panel,Figure_S2,G,work/panels/independent/Figure_S2/Figure_S2_G.tiff
+Figure_S2,H,FBP1,panel,Figure_S2,H,work/panels/independent/Figure_S2/Figure_S2_H.tiff
+Figure_S2,I,GSTA1,panel,Figure_S2,I,work/panels/independent/Figure_S2/Figure_S2_I.tiff
+Figure_S2,J,HPD,panel,Figure_S2,J,work/panels/independent/Figure_S2/Figure_S2_J.tiff
+Figure_S2,K,LECT2,panel,Figure_S2,K,work/panels/independent/Figure_S2/Figure_S2_K.tiff
+Figure_S2,L,OTC,panel,Figure_S2,L,work/panels/independent/Figure_S2/Figure_S2_L.tiff
+Figure_S2,M,PCK2,panel,Figure_S2,M,work/panels/independent/Figure_S2/Figure_S2_M.tiff
+Figure_S2,Shared_Legend_or_Footnote,Shared_Legend_or_Footnote,supporting_element,Figure_S2,Shared_Legend_or_Footnote,work/panels/supporting_elements/Figure_S2_Shared_Legend_or_Footnote.tiff
+Figure_S3,Shared_Title,Shared_Title,supporting_element,Figure_S3,Shared_Title,work/panels/supporting_elements/Figure_S3_Shared_Title.tiff
+Figure_S3,A,Injury-effect concordance,panel,Figure_S3,A,work/panels/independent/Figure_S3/Figure_S3_A.tiff
+Figure_S3,B,Etiology-effect concordance,panel,Figure_S3,B,work/panels/independent/Figure_S3/Figure_S3_B.tiff
+Figure_S3,C,Follow-up effect concordance,panel,Figure_S3,C,work/panels/independent/Figure_S3/Figure_S3_C.tiff
+Figure_S3,D,Case-mix inflation audit,panel,Figure_S3,D,work/panels/independent/Figure_S3/Figure_S3_D.tiff
+Figure_S3,E,Differential detection,panel,Figure_S3,E,work/panels/independent/Figure_S3/Figure_S3_E.tiff
+Figure_S3,F,Left-censor sensitivity,panel,Figure_S3,F,work/panels/independent/Figure_S3/Figure_S3_F.tiff
+Figure_S3,G,Starred source value influence,panel,Figure_S3,G,work/panels/independent/Figure_S3/Figure_S3_G.tiff
+Figure_S3,H,Liver-zone score,panel,Figure_S3,H,work/panels/independent/Figure_S3/Figure_S3_H.tiff
+Figure_S3,I,Source-block counts,panel,Figure_S3,I,work/panels/independent/Figure_S3/Figure_S3_I.tiff
+Figure_S3,J,Row-order linkage audit,panel,Figure_S3,J,work/panels/independent/Figure_S3/Figure_S3_J.tiff
+Figure_S4,Shared_Title,Shared_Title,supporting_element,Figure_S4,Shared_Title,work/panels/supporting_elements/Figure_S4_Shared_Title.tiff
+Figure_S4,A,Trend distribution,panel,Figure_S4,A,work/panels/independent/Figure_S4/Figure_S4_A.tiff
+Figure_S4,B,Small-n exact-test calibration,panel,Figure_S4,B,work/panels/independent/Figure_S4/Figure_S4_B.tiff
+Figure_S4,C,Trend-direction robustness,panel,Figure_S4,C,work/panels/independent/Figure_S4/Figure_S4_C.tiff
+Figure_S4,D,Module response direction,panel,Figure_S4,D,work/panels/independent/Figure_S4/Figure_S4_D.tiff
+Figure_S4,E,Sci-Plex correlation sensitivity,panel,Figure_S4,E,work/panels/independent/Figure_S4/Figure_S4_E.tiff
+Figure_S4,F,Sci-Plex sign concordance,panel,Figure_S4,F,work/panels/independent/Figure_S4/Figure_S4_F.tiff
+Figure_S4,G,Measured-landmark sensitivity,panel,Figure_S4,G,work/panels/independent/Figure_S4/Figure_S4_G.tiff
+Figure_S4,H,ChEMBL target-set response,panel,Figure_S4,H,work/panels/independent/Figure_S4/Figure_S4_H.tiff
+Figure_S5,Shared_Title,Shared_Title,supporting_element,Figure_S5,Shared_Title,work/panels/supporting_elements/Figure_S5_Shared_Title.tiff
+Figure_S5,A,Sample-by-participant visits,panel,Figure_S5,A,work/panels/independent/Figure_S5/Figure_S5_A.tiff
+Figure_S5,B,Prespecified transcript slopes,panel,Figure_S5,B,work/panels/independent/Figure_S5/Figure_S5_B.tiff
+Figure_S5,C,Participant-level slope heterogeneity,panel,Figure_S5,C,work/panels/independent/Figure_S5/Figure_S5_C.tiff
+Figure_S5,D,Longitudinal-summary agreement,panel,Figure_S5,D,work/panels/independent/Figure_S5/Figure_S5_D.tiff
+Figure_S5,E,FBP1 trajectories,panel,Figure_S5,E,work/panels/independent/Figure_S5/Figure_S5_E.tiff
+Figure_S5,F,Module trajectories,panel,Figure_S5,F,work/panels/independent/Figure_S5/Figure_S5_F.tiff
+Figure_S5,Shared_Legend_or_Footnote,Shared_Legend_or_Footnote,supporting_element,Figure_S5,Shared_Legend_or_Footnote,work/panels/supporting_elements/Figure_S5_Shared_Legend_or_Footnote.tiff
+Figure_S6,Shared_Title,Shared_Title,supporting_element,Figure_S6,Shared_Title,work/panels/supporting_elements/Figure_S6_Shared_Title.tiff
+Figure_S6,A,Library cell yield,panel,Figure_S6,A,work/panels/independent/Figure_S6/Figure_S6_A.tiff
+Figure_S6,B,Library QC,panel,Figure_S6,B,work/panels/independent/Figure_S6/Figure_S6_B.tiff
+Figure_S6,C,All-cell pseudobulk PCA,panel,Figure_S6,C,work/panels/independent/Figure_S6/Figure_S6_C.tiff
+Figure_S6,D,Broad-lineage composition,panel,Figure_S6,D,work/panels/independent/Figure_S6/Figure_S6_D.tiff
+Figure_S6,E,Macrophage abundance,panel,Figure_S6,E,work/panels/independent/Figure_S6/Figure_S6_E.tiff
+Figure_S6,F,Macrophage pseudobulk PCA,panel,Figure_S6,F,work/panels/independent/Figure_S6/Figure_S6_F.tiff
+Figure_S6,G,Day 7 macrophage contrast,panel,Figure_S6,G,work/panels/independent/Figure_S6/Figure_S6_G.tiff
+Figure_S6,H,Day 14 macrophage contrast,panel,Figure_S6,H,work/panels/independent/Figure_S6/Figure_S6_H.tiff
+Figure_S6,I,Macrophage programs,panel,Figure_S6,I,work/panels/independent/Figure_S6/Figure_S6_I.tiff
+Figure_S6,J,Macrophage target-protein expression,panel,Figure_S6,J,work/panels/independent/Figure_S6/Figure_S6_J.tiff
+Figure_S7,Shared_Title,Shared_Title,supporting_element,Figure_S7,Shared_Title,work/panels/supporting_elements/Figure_S7_Shared_Title.tiff
+Figure_S7,A,Animal matrix completeness,panel,Figure_S7,A,work/panels/independent/Figure_S7/Figure_S7_A.tiff
+Figure_S7,B,Lung-proteome PCA,panel,Figure_S7,B,work/panels/independent/Figure_S7/Figure_S7_B.tiff
+Figure_S7,C,Animal protein contrast,panel,Figure_S7,C,work/panels/independent/Figure_S7/Figure_S7_C.tiff
+Figure_S7,D,Protein-level contrasts,panel,Figure_S7,D,work/panels/independent/Figure_S7/Figure_S7_D.tiff
+Figure_S7,E,Protein programs,panel,Figure_S7,E,work/panels/independent/Figure_S7/Figure_S7_E.tiff
+Figure_S7,F,ECM remodeling,panel,Figure_S7,F,work/panels/independent/Figure_S7/Figure_S7_F.tiff
+Figure_S7,G,Macrophage repair,panel,Figure_S7,G,work/panels/independent/Figure_S7/Figure_S7_G.tiff
+Figure_S7,H,RTK response,panel,Figure_S7,H,work/panels/independent/Figure_S7/Figure_S7_H.tiff
+Figure_S7,I,FGFR1 and DILI-associated proteins,panel,Figure_S7,I,work/panels/independent/Figure_S7/Figure_S7_I.tiff
+Figure_S7,J,Processed protein abundance,panel,Figure_S7,J,work/panels/independent/Figure_S7/Figure_S7_J.tiff
+Figure_S8,Shared_Title,Shared_Title,supporting_element,Figure_S8,Shared_Title,work/panels/supporting_elements/Figure_S8_Shared_Title.tiff
+Figure_S8,A,Network specification ranks,panel,Figure_S8,A,work/panels/independent/Figure_S8/Figure_S8_A.tiff
+Figure_S8,B,Donor-omission counts,panel,Figure_S8,B,work/panels/independent/Figure_S8/Figure_S8_B.tiff
+Figure_S8,C,Matched-null sensitivity,panel,Figure_S8,C,work/panels/independent/Figure_S8/Figure_S8_C.tiff
+Figure_S8,D,Covariance estimator,panel,Figure_S8,D,work/panels/independent/Figure_S8/Figure_S8_D.tiff
+Figure_S8,E,Clinical-weight sensitivity,panel,Figure_S8,E,work/panels/independent/Figure_S8/Figure_S8_E.tiff
+Figure_S8,F,FGFR1 clinical weights,panel,Figure_S8,F,work/panels/independent/Figure_S8/Figure_S8_F.tiff
+Figure_S8,G,Integrated specification sensitivity,panel,Figure_S8,G,work/panels/independent/Figure_S8/Figure_S8_G.tiff
+Figure_S8,H,Integration-weight sensitivity,panel,Figure_S8,H,work/panels/independent/Figure_S8/Figure_S8_H.tiff
+Figure_S8,I,Missingness conventions,panel,Figure_S8,I,work/panels/independent/Figure_S8/Figure_S8_I.tiff
+Figure_S8,J,L1000 measurement restriction,panel,Figure_S8,J,work/panels/independent/Figure_S8/Figure_S8_J.tiff
+Figure_S8,K,Block-permuted aggregation,panel,Figure_S8,K,work/panels/independent/Figure_S8/Figure_S8_K.tiff
+Figure_S8,L,Donor-specific regularization,panel,Figure_S8,L,work/panels/independent/Figure_S8/Figure_S8_L.tiff
+Figure_S9,Shared_Title,Shared_Title,supporting_element,Figure_S9,Shared_Title,work/panels/supporting_elements/Figure_S9_Shared_Title.tiff
+Figure_S9,A,Rat-lung transcriptomes,panel,Figure_S9,A,work/panels/independent/Figure_S9/Figure_S9_A.tiff
+Figure_S9,B,Rat disease–treatment geometry,panel,Figure_S9,B,work/panels/independent/Figure_S9/Figure_S9_B.tiff
+Figure_S9,C,Rat-lung drug response,panel,Figure_S9,C,work/panels/independent/Figure_S9/Figure_S9_C.tiff
+Figure_S9,D,Rat targets and injury proteins,panel,Figure_S9,D,work/panels/independent/Figure_S9/Figure_S9_D.tiff
+Figure_S9,E,Rat-lung programs,panel,Figure_S9,E,work/panels/independent/Figure_S9/Figure_S9_E.tiff
+Figure_S9,F,Mouse-lung transcriptomes,panel,Figure_S9,F,work/panels/independent/Figure_S9/Figure_S9_F.tiff
+Figure_S9,G,Mouse disease–treatment geometry,panel,Figure_S9,G,work/panels/independent/Figure_S9/Figure_S9_G.tiff
+Figure_S9,H,Mouse targets and efflux,panel,Figure_S9,H,work/panels/independent/Figure_S9/Figure_S9_H.tiff
+Figure_S9,I,Hepatic-context perturbation,panel,Figure_S9,I,work/panels/independent/Figure_S9/Figure_S9_I.tiff
+Figure_S9,J,Cross-model drug response,panel,Figure_S9,J,work/panels/independent/Figure_S9/Figure_S9_J.tiff
+Figure_S10,Shared_Title,Shared_Title,supporting_element,Figure_S10,Shared_Title,work/panels/supporting_elements/Figure_S10_Shared_Title.tiff
+Figure_S10,A,Rat disjoint-reference reversal,panel,Figure_S10,A,work/panels/independent/Figure_S10/Figure_S10_A.tiff
+Figure_S10,B,Rat disjoint-reference correlation,panel,Figure_S10,B,work/panels/independent/Figure_S10/Figure_S10_B.tiff
+Figure_S10,C,Rat disjoint-reference restoration,panel,Figure_S10,C,work/panels/independent/Figure_S10/Figure_S10_C.tiff
+Figure_S10,D,Mouse disjoint-reference reversal,panel,Figure_S10,D,work/panels/independent/Figure_S10/Figure_S10_D.tiff
+Figure_S10,E,Mouse disjoint-reference correlation,panel,Figure_S10,E,work/panels/independent/Figure_S10/Figure_S10_E.tiff
+Figure_S10,F,Mouse disjoint-reference restoration,panel,Figure_S10,F,work/panels/independent/Figure_S10/Figure_S10_F.tiff
+Figure_S10,G,Rat reversal permutation,panel,Figure_S10,G,work/panels/independent/Figure_S10/Figure_S10_G.tiff
+Figure_S10,H,Rat correlation permutation,panel,Figure_S10,H,work/panels/independent/Figure_S10/Figure_S10_H.tiff
+Figure_S10,I,Rat restoration permutation,panel,Figure_S10,I,work/panels/independent/Figure_S10/Figure_S10_I.tiff
+Figure_S10,J,Mouse reversal permutation,panel,Figure_S10,J,work/panels/independent/Figure_S10/Figure_S10_J.tiff
+Figure_S10,K,Mouse correlation permutation,panel,Figure_S10,K,work/panels/independent/Figure_S10/Figure_S10_K.tiff
+Figure_S10,L,Mouse restoration permutation,panel,Figure_S10,L,work/panels/independent/Figure_S10/Figure_S10_L.tiff

@@ -1,0 +1,24 @@
+{
+  "abstract": "Although orphan drug applications required by the EMEA must include assessments of similarity to pre-existing products, these can be difficult to quantify. Here we illustrate a paradigm in comparing nilotinib to the prototype kinase inhibitor imatinib, and equate the degree of structural similarity to differences in properties. Nilotinib was discovered following re-engineering of imatinib, employing structural biology and medicinal chemistry strategies to optimise cellular potency and selectivity towards BCR-ABL1. Through evolving only to conserve these properties, this resulted in significant structural differences between nilotinib and imatinib, quantified by a Daylight-fingerprint-Tanimoto similarity coefficient of 0.6, with the meaning of this absolute measure being supported by an analysis of similarity distributions of similar drug-like molecules. This dissimilarity is reflected in the drugs having substantially different preclinical pharmacology and a lack of cross-intolerance in CML patients, which translates into nilotinib being an efficacious treatment for CML, with a favourable side-effect profile.",
+  "authors": "Manley PW, Stiefl N, Cowan-Jacob SW, Kaufman S, Mestan J, Wartmann M, Wiesmann M, Woodman R, Gallagher N.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_10",
+    "creation_date": "2011-05-26"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1250538",
+  "doi": "10.1016/j.bmc.2010.08.026",
+  "doi_chembl": null,
+  "first_page": "6977",
+  "issue": "19",
+  "journal": "Bioorg Med Chem",
+  "journal_full_title": "Bioorganic & medicinal chemistry.",
+  "last_page": "6986",
+  "patent_id": null,
+  "pubmed_id": 20817538,
+  "src_id": 1,
+  "title": "Structural resemblances and comparisons of the relative pharmacological properties of imatinib and nilotinib.",
+  "volume": "18",
+  "year": 2010
+}

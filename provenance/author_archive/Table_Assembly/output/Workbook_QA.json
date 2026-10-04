@@ -1,0 +1,54 @@
+{
+  "sheets": 9,
+  "checks": [
+    {
+      "sheet": "N20_Library",
+      "exact_source_values": true,
+      "rows": 16,
+      "columns": 19
+    },
+    {
+      "sheet": "N21_Boltz",
+      "exact_source_values": true,
+      "rows": 32,
+      "columns": 27
+    },
+    {
+      "sheet": "N22_Docking_Runs",
+      "exact_source_values": true,
+      "rows": 96,
+      "columns": 9
+    },
+    {
+      "sheet": "N23_Docking_Summary",
+      "exact_source_values": true,
+      "rows": 32,
+      "columns": 11
+    },
+    {
+      "sheet": "N24_Properties",
+      "exact_source_values": true,
+      "rows": 48,
+      "columns": 19
+    },
+    {
+      "sheet": "N25_Assay_Disposition",
+      "exact_source_values": true,
+      "rows": 191,
+      "columns": 41
+    },
+    {
+      "sheet": "N26_Activity_Summary",
+      "exact_source_values": true,
+      "rows": 96,
+      "columns": 12
+    },
+    {
+      "sheet": "N27_Matched_Kd",
+      "exact_source_values": true,
+      "rows": 12,
+      "columns": 41
+    }
+  ],
+  "formula_errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}

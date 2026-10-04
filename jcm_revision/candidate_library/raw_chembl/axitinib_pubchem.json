@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 6450551,
+        "MolecularFormula": "C22H18N4OS",
+        "MolecularWeight": "386.5",
+        "SMILES": "CNC(=O)C1=CC=CC=C1SC2=CC3=C(C=C2)C(=NN3)/C=C/C4=CC=CC=N4",
+        "ConnectivitySMILES": "CNC(=O)C1=CC=CC=C1SC2=CC3=C(C=C2)C(=NN3)C=CC4=CC=CC=N4",
+        "InChI": "InChI=1S/C22H18N4OS/c1-23-22(27)18-7-2-3-8-21(18)28-16-10-11-17-19(25-26-20(17)14-16)12-9-15-6-4-5-13-24-15/h2-14H,1H3,(H,23,27)(H,25,26)/b12-9+",
+        "InChIKey": "RITAVMQDGBJQJZ-FMIVXFBMSA-N"
+      }
+    ]
+  }
+}

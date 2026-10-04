@@ -1,0 +1,46 @@
+{
+  "analysis_population": {
+    "hepg2_level5_genes": 12328,
+    "measured_landmark_genes": 978,
+    "inferred_genes": 11350,
+    "doses_um": [
+      0.04,
+      0.12,
+      0.37,
+      1.11,
+      3.33,
+      10.0
+    ],
+    "exposure_hours": 24
+  },
+  "exact_dose_trend": {
+    "minimum_p": 0.002777777777777778,
+    "minimum_bh_q": 0.26753472222222224,
+    "bh_q_lt_0_05": 0
+  },
+  "dili_anchor_set": {
+    "represented": 12,
+    "competitive_z": -0.03515300045297285,
+    "permutation_p": 0.5109395624175033
+  },
+  "best_nominal_mechanism_module": {
+    "name": "Bile-acid transport",
+    "competitive_z": 1.386477996199349,
+    "permutation_p": 0.08375664973401065,
+    "bh_q": 0.5862965481380745
+  },
+  "matched_10uM_hepg2_mcf7": {
+    "n_overlap": 786,
+    "spearman_rho": 0.13966857962820484,
+    "spearman_bh_q": 0.00011385357115543146,
+    "sign_concordance": 0.5699745547073791,
+    "sign_bh_q": 0.0001974041622571212
+  },
+  "multi_document_chembl_potency_vs_transcript_response": {
+    "n_targets": 16,
+    "spearman_rho": -0.07352941176470588,
+    "p_value": 0.7866792491258566
+  },
+  "main_figure_panels": 10,
+  "interpretation_boundary": "The perturbation results are in-vitro prioritization evidence and do not demonstrate nintedanib-specific clinical DILI or causal target mediation."
+}

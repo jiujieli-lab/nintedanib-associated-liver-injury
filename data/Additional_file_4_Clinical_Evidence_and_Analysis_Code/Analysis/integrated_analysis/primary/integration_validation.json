@@ -1,0 +1,248 @@
+{
+  "decision": "PASS",
+  "n_checks": 48,
+  "n_passed": 48,
+  "checks": [
+    {
+      "check": "17 distinct candidates retained",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling ABL1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling AXL",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling CDK4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling FGFR1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling FGFR2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling FGFR3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling FGFR4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling FLT1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling FLT3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling FLT4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling JAK1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling KDR",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling LRRK2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling LYN",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling MET",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling PDGFRA",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "network pooling TYK2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "percentile feature pharmacology",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "percentile feature clinical_network",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "percentile feature HepG2_perturbation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "percentile feature STRING_context",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "independent geometric ranks",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "primary top five",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "exact original median consensus",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "omission means RRA",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "omission means geometric",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "omission means legacy_consensus",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "omission means maximin",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "omission means mean",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "omission means median",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "all 85 calibrated tests present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no FDR-confirmed fusion hits",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "all 34 weight sensitivity outputs",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "72 network specifications",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "five donor omissions",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "30 connected biological nodes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "17 by 13 target protein links",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "input provenance candidate_consensus_ranking.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "input provenance candidate_network_summary.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "input provenance network_specification_scores.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "input provenance network_donor_lodo_scores.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "input provenance donor_level_target_expression.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "input provenance network_target_anchor_contributions.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "input provenance candidate_evidence_table.csv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "210 run and 132 numeric zero audit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "102 drug runs and 73 numeric zero",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "numerical threshold separation",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "interpretation": "Arithmetic, source identity, and output consistency checks; not certification of biological causality."
+}

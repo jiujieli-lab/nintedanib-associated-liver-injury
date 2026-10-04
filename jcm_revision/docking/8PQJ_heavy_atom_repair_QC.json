@@ -1,0 +1,104 @@
+{
+  "software": "PDBFixer1.12.0/OpenMM8.4.0",
+  "seed": 104729,
+  "missing_residue_reconstruction": false,
+  "missing_heavy_atoms": {
+    "A:566": [
+      "OG"
+    ],
+    "A:573": [
+      "CG2",
+      "CG1",
+      "CD1"
+    ],
+    "A:585": [
+      "CG",
+      "CD",
+      "NE",
+      "CZ",
+      "NH1",
+      "NH2"
+    ],
+    "A:666": [
+      "CG",
+      "CD",
+      "CE",
+      "NZ"
+    ],
+    "A:667": [
+      "OG"
+    ],
+    "A:776": [
+      "OG"
+    ],
+    "A:777": [
+      "CG",
+      "CD",
+      "OE1",
+      "OE2"
+    ],
+    "A:780": [
+      "CG",
+      "OD1",
+      "ND2"
+    ],
+    "A:785": [
+      "CG",
+      "OD1",
+      "OD2"
+    ],
+    "A:900": [
+      "CG",
+      "SD",
+      "CE"
+    ],
+    "A:973": [
+      "CG",
+      "OD1",
+      "OD2"
+    ]
+  },
+  "missing_terminal_atoms": {
+    "A:973": [
+      "OXT"
+    ]
+  },
+  "initial_atoms": 2608,
+  "repaired_atoms": 2641,
+  "max_deposited_atom_displacement_A": 0.0,
+  "added_atoms": [
+    "A:566:OG",
+    "A:573:CG2",
+    "A:573:CG1",
+    "A:573:CD1",
+    "A:585:CG",
+    "A:585:CD",
+    "A:585:NE",
+    "A:585:CZ",
+    "A:585:NH1",
+    "A:585:NH2",
+    "A:666:CG",
+    "A:666:CD",
+    "A:666:CE",
+    "A:666:NZ",
+    "A:667:OG",
+    "A:776:OG",
+    "A:777:CG",
+    "A:777:CD",
+    "A:777:OE1",
+    "A:777:OE2",
+    "A:780:CG",
+    "A:780:OD1",
+    "A:780:ND2",
+    "A:785:CG",
+    "A:785:OD1",
+    "A:785:OD2",
+    "A:900:CG",
+    "A:900:SD",
+    "A:900:CE",
+    "A:973:CG",
+    "A:973:OD1",
+    "A:973:OD2",
+    "A:973:OXT"
+  ]
+}

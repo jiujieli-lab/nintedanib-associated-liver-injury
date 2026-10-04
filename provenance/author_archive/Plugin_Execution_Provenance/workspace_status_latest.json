@@ -1,0 +1,16 @@
+{
+  "account": "huangshaoxinok@163.com",
+  "credentials": {
+    "modal": {
+      "connected": false,
+      "token_id": null,
+      "environment": null
+    },
+    "huggingface": {
+      "connected": false,
+      "note": "Needed only for tools whose model weights are gated on HuggingFace."
+    }
+  },
+  "tools_deployed": 0,
+  "note": "You have not linked your Modal workspace to your Proto account. Connect your Modal workspace at https://proto.evodesign.org/settings/account/modal to run deployable models and tools. Tools marked ready_to_run that need no deployment work without it."
+}

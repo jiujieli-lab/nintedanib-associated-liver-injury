@@ -1,0 +1,22 @@
+{
+  "source_file": "/workspace/scratch/c5634a2d588f/deliverables/Supplementary_Materials/Additional_file_4_Targeted_Analyses.docx",
+  "source_sha256": "f71a8f5b2ba9d058ea7fc00d0bafa15615b9b10a55ef66b18f7e03563890235c",
+  "output": "/workspace/scratch/c5634a2d588f/work/jcm_revision/submission/Supplementary_Materials/Additional_file_4_Targeted_Analyses.docx",
+  "final_reference_map": "/workspace/scratch/c5634a2d588f/work/jcm_revision/manuscript/Final_Reference_Number_Map.json",
+  "final_reference_map_sha256": "762e88e4627c50f72c6f7ec330b15fc34ddd9487939c1bebd645ecd41d049833",
+  "local_reference_mapping": {
+    "1": 73,
+    "2": 75,
+    "3": 76
+  },
+  "moved_results_paragraphs": 10,
+  "moved_S12_legend_paragraphs": 1,
+  "all_moved_text_present_after_documented_editorial_and_reference_normalization": true,
+  "source_paragraph_18": "Quantitative content merged with complete moved target-pair paragraph; unique causal/score interpretation retained separately.",
+  "source_content_preserved": true,
+  "words": 3219,
+  "section_count": 13,
+  "render_status": "Rendered and visually inspected all 7 pages; title border and theme-font overrides removed; no clipping, overlap or missing glyphs observed.",
+  "pages": 7,
+  "moved_blocks_verified": 11
+}

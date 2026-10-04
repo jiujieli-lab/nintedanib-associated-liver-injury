@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 2.677849531173706,
+    "permeability": 0.3937140703201294,
+    "solubility": "medium-confidence"
+  },
+  "created_at": "2026-10-02T15:19:51.515Z",
+  "external_id": "imatinib",
+  "id": "pres_El5PkTZ0qk9YvZ8V8XIZ",
+  "metrics": {
+    "binding_confidence": 0.8044793605804443,
+    "complex_iplddt": 0.8377373814582825,
+    "complex_plddt": 0.80448317527771,
+    "iptm": 0.8854641914367676,
+    "optimization_score": 0.44044217467308044,
+    "ptm": 0.8035913109779358,
+    "structure_confidence": 0.8206793665885925
+  },
+  "smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1"
+}

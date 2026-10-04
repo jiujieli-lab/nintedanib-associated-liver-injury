@@ -1,0 +1,300 @@
+{
+  "hits": {
+    "hits": [
+      {
+        "created": "2026-08-28T07:21:11.013780+00:00",
+        "modified": "2026-08-28T07:21:11.160833+00:00",
+        "id": 22140358,
+        "conceptrecid": "591637",
+        "doi": "10.5281/zenodo.22140358",
+        "conceptdoi": "10.5281/zenodo.591637",
+        "doi_url": "https://doi.org/10.5281/zenodo.22140358",
+        "metadata": {
+          "title": "rdkit/rdkit: 2026_03_6 (Q1 2026) Release",
+          "doi": "10.5281/zenodo.22140358",
+          "publication_date": "2026-08-28",
+          "description": "<h1>Release_2026.03.6</h1>\n<p>(Changes relative to Release_2026.03.5)</p>\n<h2>Acknowledgements</h2>\n<p>(Note: I'm no longer attempting to manually curate names. If you would like to\nsee your contribution acknowledged with your name, please set your name in\nGitHub)</p>\n<p>Kevin Boyd, Michael Cho, David Cosgrove, Mike DePaulo, Paul Emsley, Guillaume\nGodin, Niels Maeder, Vedran Mileti\u0107, younes ouzza, Ricardo Rodriguez, Wonseok\nShin, Chris Von Bargen, Rachel Walker, Shin,</p>\n<h2>New Features and Enhancements:</h2>\n<ul>\n<li>Synthon space shape search\n(github pull #9279 from DavidACosgrove)</li>\n<li>Speed-up BertzCT, no value changes\n(github pull #9447 from gratus907)</li>\n<li>change source of freetype in docker builds\n(github pull #9448 from greglandrum)</li>\n<li>Install header for SGroup data label API\n(github pull #9453 from cdvonbargen)</li>\n<li>support ignoreAtoms in RDKitFingerprintGenerators\n(github pull #9459 from greglandrum)</li>\n<li>ConfGen: Use a better estimate of 1-2 distances when we don't have UFF atom params\n(github pull #9465 from greglandrum)</li>\n<li>Reduce SMILES parser bond property staging\n(github pull #9476 from scal444)</li>\n<li>Reuse Hanoi scratch buffer in canonical ranking\n(github pull #9478 from scal444)</li>\n<li>Use insertion sort for canonical neighbors\n(github pull #9492 from scal444)</li>\n<li>Reduce comparisons and branches in bondholder compare\n(github pull #9497 from scal444)</li>\n<li>Cache isAtomConjugCand in markConjAtomBonds\n(github pull #9498 from scal444)</li>\n<li>Make checking in checked iterators stricter to avoid heap-use-after-free problems\n(github pull #9500 from ricrogz)</li>\n</ul>\n<h2>Documentation:</h2>\n<ul>\n<li>Correct comment in Point::signedAngleTo.\n(github pull #9445 from DavidACosgrove)</li>\n</ul>\n<h2>Bug Fixes:</h2>\n<ul>\n<li>make GaussianShape build without SimDivPickers on big-endian\n(github pull #9438 from mikedep333)</li>\n<li>Fix numpy dtype handling in the InfoTheory wrappers\n(github pull #9443 from gratus907)</li>\n<li>Three small bugs\n(github pull #9444 from vedranmiletic)</li>\n<li>Fixes for AI-found critical issues\n(github pull #9450 from ricrogz)</li>\n<li>Fixes for AI-found high impact issues (1/2)\n(github pull #9451 from ricrogz)</li>\n<li>Fixes for AI-found high impact issues (2/2)\n(github pull #9452 from ricrogz)</li>\n<li>fixes bug in RandomizeActivities when shuffle is false\n(github pull #9463 from greglandrum)</li>\n<li>CML Writer atom parity problem\n(github issue #9464 from pemsley)</li>\n<li>Fixes for AI-found medium impact issues (C++ code)\n(github pull #9466 from ricrogz)</li>\n<li>Change of behaviour in fragmentOnBonds between 2026.03.4 and master\n(github issue #9468 from DavidACosgrove)</li>\n<li>MMFF Minimization fails to parametrize cyclophosphazene\n(github issue #9473 from scal444)</li>\n<li>support building with boost 1.92.0\n(github pull #9494 from cho-m)</li>\n<li>Fix bug with basic substructure highlighting in the IPythonConsole code\n(github pull #9495 from greglandrum)</li>\n<li>Fix maeparser includes declaration\n(github pull #9496 from ricrogz)</li>\n<li>ROMol Move Constructor Leaks\n(github issue #9504 from scal444)</li>\n<li>CIPLabeler: backport &quot;recent&quot; fixes from https://github.com/SiMolecule/centres\n(github pull #9516 from ricrogz)</li>\n<li>Fix/erronous return in ff contributions\n(github pull #9523 from nmaeder)</li>\n<li>Fix build issue with TBB in debug builds\n(github pull #9532 from ricrogz)</li>\n</ul>\n<h2>Cleanup work:</h2>\n<ul>\n<li>Address some &quot;unused-but-set&quot; warnings\n(github pull #9439 from ricrogz)</li>\n<li>Fix harmless test issues found by ASAN\n(github pull #9506 from scal444)</li>\n<li>Enable numpy's &quot;modern&quot; API\n(github pull #9510 from ricrogz)</li>\n<li>CIPLabeler: remove the PairList integer mechanism\n(github pull #9515 from ricrogz)</li>\n</ul>",
+          "access_right": "open",
+          "creators": [
+            {
+              "name": "Greg Landrum",
+              "affiliation": null
+            },
+            {
+              "name": "Paolo Tosco",
+              "affiliation": null
+            },
+            {
+              "name": "Ricardo Rodriguez",
+              "affiliation": null
+            },
+            {
+              "name": "Brian Kelley",
+              "affiliation": null
+            },
+            {
+              "name": "David Cosgrove",
+              "affiliation": "CozChemIx Limited"
+            },
+            {
+              "name": "Riccardo Vianello",
+              "affiliation": null
+            },
+            {
+              "name": "sriniker",
+              "affiliation": null
+            },
+            {
+              "name": "Peter Gedeck",
+              "affiliation": null
+            },
+            {
+              "name": "Gareth Jones",
+              "affiliation": "Glysade LLC"
+            },
+            {
+              "name": "Dan Nealschneider",
+              "affiliation": "@schrodinger"
+            },
+            {
+              "name": "Eisuke Kawashima",
+              "affiliation": "nil"
+            },
+            {
+              "name": "NadineSchneider",
+              "affiliation": null
+            },
+            {
+              "name": "tadhurst-cdd",
+              "affiliation": null
+            },
+            {
+              "name": "Andrew Dalke",
+              "affiliation": null
+            },
+            {
+              "name": "Niels Maeder",
+              "affiliation": null
+            },
+            {
+              "name": "Matt Swain",
+              "affiliation": "@DEShawResearch"
+            },
+            {
+              "name": "Yakov Pechersky",
+              "affiliation": "@treelinebio"
+            },
+            {
+              "name": "Brian Cole",
+              "affiliation": null
+            },
+            {
+              "name": "Kevin Boyd",
+              "affiliation": null
+            },
+            {
+              "name": "Samo Turk",
+              "affiliation": null
+            },
+            {
+              "name": "Aleksandr Savelev",
+              "affiliation": null
+            },
+            {
+              "name": "Rachel Walker",
+              "affiliation": "@schrodinger"
+            },
+            {
+              "name": "Alain Vaucher",
+              "affiliation": "Google"
+            },
+            {
+              "name": "Maciej W\u00f3jcikowski",
+              "affiliation": "@merckgroup"
+            },
+            {
+              "name": "Hussein Faara",
+              "affiliation": "@schrodinger"
+            },
+            {
+              "name": "Ichiru Take",
+              "affiliation": null
+            },
+            {
+              "name": "Vincent F. Scalfani",
+              "affiliation": "University of Alabama"
+            },
+            {
+              "name": "Steven Kearnes",
+              "affiliation": null
+            },
+            {
+              "name": "Kazuya Ujihara",
+              "affiliation": null
+            },
+            {
+              "name": "Daniel Probst",
+              "affiliation": "Wageningen University"
+            }
+          ],
+          "related_identifiers": [
+            {
+              "identifier": "https://github.com/rdkit/rdkit/tree/Release_2026_03_6",
+              "relation": "isSupplementTo",
+              "resource_type": "software",
+              "scheme": "url"
+            }
+          ],
+          "version": "Release_2026_03_6",
+          "custom": {
+            "code:codeRepository": "https://github.com/rdkit/rdkit"
+          },
+          "resource_type": {
+            "title": "Software",
+            "type": "software"
+          },
+          "license": {
+            "id": "bsd-3-clause"
+          },
+          "relations": {
+            "version": [
+              {
+                "index": 135,
+                "is_last": false,
+                "parent": {
+                  "pid_type": "recid",
+                  "pid_value": "591637"
+                }
+              }
+            ]
+          }
+        },
+        "title": "rdkit/rdkit: 2026_03_6 (Q1 2026) Release",
+        "links": {
+          "self": "https://zenodo.org/api/records/22140358",
+          "self_html": "https://zenodo.org/records/22140358",
+          "preview_html": "https://zenodo.org/records/22140358?preview=1",
+          "doi": "https://doi.org/10.5281/zenodo.22140358",
+          "self_doi": "https://doi.org/10.5281/zenodo.22140358",
+          "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.22140358",
+          "reserve_doi": "https://zenodo.org/api/records/22140358/draft/pids/doi",
+          "parent": "https://zenodo.org/api/records/591637",
+          "parent_html": "https://zenodo.org/records/591637",
+          "parent_doi": "https://doi.org/10.5281/zenodo.591637",
+          "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.591637",
+          "self_iiif_manifest": "https://zenodo.org/api/iiif/record:22140358/manifest",
+          "self_iiif_sequence": "https://zenodo.org/api/iiif/record:22140358/sequence/default",
+          "files": "https://zenodo.org/api/records/22140358/files",
+          "media_files": "https://zenodo.org/api/records/22140358/media-files",
+          "archive": "https://zenodo.org/api/records/22140358/files-archive",
+          "archive_media": "https://zenodo.org/api/records/22140358/media-files-archive",
+          "latest": "https://zenodo.org/api/records/22140358/versions/latest",
+          "latest_html": "https://zenodo.org/records/22140358/latest",
+          "versions": "https://zenodo.org/api/records/22140358/versions",
+          "draft": "https://zenodo.org/api/records/22140358/draft",
+          "access_links": "https://zenodo.org/api/records/22140358/access/links",
+          "access_grants": "https://zenodo.org/api/records/22140358/access/grants",
+          "access_users": "https://zenodo.org/api/records/22140358/access/users",
+          "access_request": "https://zenodo.org/api/records/22140358/access/request",
+          "access": "https://zenodo.org/api/records/22140358/access",
+          "communities": "https://zenodo.org/api/records/22140358/communities",
+          "communities-suggestions": "https://zenodo.org/api/records/22140358/communities-suggestions",
+          "request_deletion": "https://zenodo.org/api/records/22140358/request-deletion",
+          "file_modification": "https://zenodo.org/api/records/22140358/file-modification",
+          "quota_increase": "https://zenodo.org/api/records/22140358/quota-increase",
+          "requests": "https://zenodo.org/api/records/22140358/requests"
+        },
+        "updated": "2026-08-28T07:21:11.160833+00:00",
+        "recid": "22140358",
+        "revision": 4,
+        "files": [
+          {
+            "id": "a1df73e4-f81a-484c-a710-13a709c228c0",
+            "key": "rdkit/rdkit-Release_2026_03_6.zip",
+            "size": 87281648,
+            "checksum": "md5:aef05fbee3faf67a889f3cf3468de816",
+            "links": {
+              "self": "https://zenodo.org/api/records/22140358/files/rdkit/rdkit-Release_2026_03_6.zip/content"
+            }
+          }
+        ],
+        "swh": null,
+        "owners": [
+          {
+            "id": "3940"
+          }
+        ],
+        "status": "published",
+        "stats": {
+          "downloads": 8733,
+          "unique_downloads": 8189,
+          "views": 81055,
+          "unique_views": 73797,
+          "version_downloads": 26,
+          "version_unique_downloads": 26,
+          "version_unique_views": 775,
+          "version_views": 881
+        },
+        "state": "done",
+        "submitted": true
+      }
+    ],
+    "total": 1
+  },
+  "aggregations": {
+    "publication_date": {
+      "buckets": [
+        {
+          "key": "2026",
+          "doc_count": 1,
+          "label": "2026",
+          "is_selected": false
+        }
+      ],
+      "label": "Publication date"
+    },
+    "access_status": {
+      "buckets": [
+        {
+          "key": "open",
+          "doc_count": 1,
+          "label": "Open",
+          "is_selected": false
+        }
+      ],
+      "label": "Access status"
+    },
+    "resource_type": {
+      "buckets": [
+        {
+          "key": "software",
+          "doc_count": 1,
+          "label": "Software",
+          "is_selected": false,
+          "inner": {
+            "buckets": []
+          }
+        }
+      ],
+      "label": "Resource types"
+    },
+    "subject": {
+      "buckets": [],
+      "label": "Subjects"
+    },
+    "file_type": {
+      "buckets": [
+        {
+          "key": "zip",
+          "doc_count": 1,
+          "label": "ZIP",
+          "is_selected": false
+        }
+      ],
+      "label": "File type"
+    }
+  },
+  "links": {
+    "self": "https://zenodo.org/api/records?allversions=True&page=1&q=%222026_03_6%22&size=20&sort=bestmatch"
+  }
+}

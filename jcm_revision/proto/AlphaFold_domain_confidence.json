@@ -1,0 +1,20 @@
+{
+  "PDGFRA": {
+    "start": 593,
+    "end": 954,
+    "n_residues": 362,
+    "mean_plddt": 74.34198895027625,
+    "minimum_plddt": 24.91,
+    "fraction_below_70": 0.32044198895027626,
+    "sha256_full_structure": "ec00fb28996196b5ba7114e4be11e38282b435edd9d545459722284303541bc1"
+  },
+  "FLT4": {
+    "start": 845,
+    "end": 1173,
+    "n_residues": 329,
+    "mean_plddt": 77.65939209726444,
+    "minimum_plddt": 25.08,
+    "fraction_below_70": 0.23404255319148937,
+    "sha256_full_structure": "9cf8f02fc131ff228e1e6a6905249d431aba669b2375f71c07507d5acbfd7696"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "revised_file": "deliverables/Manuscript/Revised_Manuscript_Clean.docx",
+  "source_author_order_preserved": true,
+  "source_correspondence_preserved": true,
+  "source_results_not_exactly_reproduced_after_expected_figure_remapping": [],
+  "abstract_words": 315,
+  "references": 97,
+  "undefined_citations": [],
+  "uncited_reference_numbers": [],
+  "nonconsecutive_reference_numbers": [],
+  "main_figure_headings": [
+    "Figure 1 Hepatic adverse event reporting motivates a clinically guided molecular investigation",
+    "Figure 2 Human serum proteins specify the injury phenotype for target prioritization",
+    "Figure 3 Drug exposure connects biochemical pharmacology with heterogeneous transcriptional responses",
+    "Figure 4 Endpoint-resolved biochemical evidence supports engagement of PDGFRA and FLT4",
+    "Figure 5 Liver localization and numerical auditing calibrate virtual perturbation evidence",
+    "Figure 6 Clinical-protein-guided integration prioritizes PDGFRA and FLT4",
+    "Figure 7 Independent hepatic exposure tests the frozen candidate priorities"
+  ],
+  "main_tables": 2,
+  "raw_placeholder_matches": []
+}

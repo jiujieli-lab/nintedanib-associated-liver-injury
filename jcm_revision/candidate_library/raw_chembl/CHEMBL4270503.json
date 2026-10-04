@@ -1,0 +1,24 @@
+{
+  "abstract": "Renal cell carcinoma (RCC) is the most common type of kidney cancer in adults and is known to be the 10th most common type of cancer in the world. Most of the currently available RCC drugs are tyrosine kinase inhibitors (TKIs). However, combination therapies of TKIs and immune checkpoint inhibitors such as programmed cell death protein 1 (PD-1) and programmed cell death protein 1 ligand 1 (PD-L1) inhibitors are the focus of most of the final stage clinical trials. Meanwhile, other small molecule therapies for RCC that target indoleamine-2,3-dioxygenase (IDO1), glutaminase, C-X-C chemokine receptor 4 (CXCR4), and transglutaminase 2 (TG2) are emerging as the next generation of therapeutics. In this review, these three major streams for the development of small molecule drugs for RCC are described.",
+  "authors": "Song M.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_26",
+    "creation_date": "2020-01-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4270503",
+  "doi": "10.1016/j.ejmech.2017.08.007",
+  "doi_chembl": null,
+  "first_page": "383",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "392",
+  "patent_id": null,
+  "pubmed_id": 28844802,
+  "src_id": 1,
+  "title": "Recent developments in small molecule therapies for renal cell carcinoma.",
+  "volume": "142",
+  "year": 2017
+}

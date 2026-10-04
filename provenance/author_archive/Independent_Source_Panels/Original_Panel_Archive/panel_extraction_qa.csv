@@ -1,0 +1,17 @@
+figure,panel_count,supporting_element_count,source_area_px,cropped_area_px,complete_area_coverage,all_pixels_equal
+Figure_1,11,0,4734864,4734864,True,True
+Figure_2,10,0,4734864,4734864,True,True
+Figure_3,10,0,4742896,4849320,True,True
+Figure_4,11,0,4445712,4471050,True,True
+Figure_5,13,0,4608360,4608360,True,True
+Figure_6,13,0,4638480,4638480,True,True
+Figure_S1,6,0,179666654,179666654,True,True
+Figure_S2,13,2,111737304,111737304,True,True
+Figure_S3,10,1,141757726,141757726,True,True
+Figure_S4,8,1,126422391,126422391,True,True
+Figure_S5,6,2,145197904,145197904,True,True
+Figure_S6,10,1,332506668,332506668,True,True
+Figure_S7,10,1,292886062,292886062,True,True
+Figure_S8,12,1,372479180,372479180,True,True
+Figure_S9,10,1,254924000,254924000,True,True
+Figure_S10,12,1,316305264,316305264,True,True

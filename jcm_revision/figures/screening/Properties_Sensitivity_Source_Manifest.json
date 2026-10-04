@@ -1,0 +1,14 @@
+{
+  "sensitivity_rows": 6,
+  "receptors": [
+    "Primary_6JOL",
+    "Sensitivity_8PQJ"
+  ],
+  "seeds": [
+    104729,
+    130363,
+    155921
+  ],
+  "source_sha256": "cf3ffc9a449071783b9a3f89705a401ac51badb776ed225d5a4a8a7b93823f2a",
+  "not_part_of_primary_96_rankings": true
+}

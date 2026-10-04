@@ -1,0 +1,690 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2026-10-01T03:51:21Z",
+      "timestamp": 1790826681071,
+      "version": "4.1.0"
+    },
+    "reference-count": 25,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              2
+            ]
+          ],
+          "date-time": "2024-01-02T00:00:00Z",
+          "timestamp": 1704153600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              1,
+              2
+            ]
+          ],
+          "date-time": "2024-01-02T00:00:00Z",
+          "timestamp": 1704153600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Nat Commun"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Avapritinib is the only potent and selective inhibitor approved for the treatment of D842V-mutant gastrointestinal stromal tumors (GIST), the most common primary mutation of the platelet-derived growth factor receptor \u03b1 (PDGFRA). The approval was based on the NAVIGATOR trial, which revealed overall response rates of more than 90%. Despite this transformational activity, patients eventually progress, mostly due to acquired resistance mutations or following discontinuation due to neuro-cognitive side effects. These patients have no therapeutic alternative and face a dismal prognosis. Notable, little is known about this drug\u2019s binding mode and its medicinal chemistry development, which is instrumental for the development of the next generation of drugs. Against this background, we solve the crystal structures of avapritinib in complex with wild-type and mutant PDGFRA and stem cell factor receptor (KIT), which provide evidence and understanding of inhibitor binding and lead to the identification of a sub-pocket (G\u03b1-pocket). We utilize this information to design, synthesize and characterize avapritinib derivatives for the determination of key pharmacophoric features to overcome drug resistance and limit potential blood-brain barrier penetration.</jats:p>",
+    "DOI": "10.1038/s41467-023-44376-8",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          2
+        ]
+      ],
+      "date-time": "2024-01-02T13:02:26Z",
+      "timestamp": 1704200546000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 39,
+    "title": [
+      "Avapritinib-based SAR studies unveil a binding pocket in KIT and PDGFRA"
+    ],
+    "prefix": "10.1038",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5385-8735",
+        "authenticated-orcid": false,
+        "given": "A.",
+        "family": "Teuber",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4070-7791",
+        "authenticated-orcid": false,
+        "given": "T.",
+        "family": "Schulz",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "B. S.",
+        "family": "Fletcher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5918-7568",
+        "authenticated-orcid": false,
+        "given": "R.",
+        "family": "Gontla",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2078-8857",
+        "authenticated-orcid": false,
+        "given": "T.",
+        "family": "M\u00fchlenberg",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "M.-L.",
+        "family": "Zischinsky",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2942-263X",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Niggenaber",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6103-7371",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Weisner",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. B.",
+        "family": "Kleinb\u00f6lting",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5993-7082",
+        "authenticated-orcid": false,
+        "given": "J.",
+        "family": "Lategahn",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0854-4507",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Sievers",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1529-8933",
+        "authenticated-orcid": false,
+        "given": "M. P.",
+        "family": "M\u00fcller",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5949-8120",
+        "authenticated-orcid": false,
+        "given": "S.",
+        "family": "Bauer",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1970-7642",
+        "authenticated-orcid": false,
+        "given": "D.",
+        "family": "Rauh",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          2
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "44376_CR1",
+        "doi-asserted-by": "publisher",
+        "first-page": "577",
+        "DOI": "10.1126/science.279.5350.577",
+        "volume": "279",
+        "author": "S Hirota",
+        "year": "1998",
+        "unstructured": "Hirota, S. et al. Gain-of-function mutations of c-kit in human gastrointestinal stromal tumors. Science 279, 577\u2013580 (1998).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "44376_CR2",
+        "doi-asserted-by": "publisher",
+        "first-page": "708",
+        "DOI": "10.1126/science.1079666",
+        "volume": "299",
+        "author": "MC Heinrich",
+        "year": "2003",
+        "unstructured": "Heinrich, M. C. et al. PDGFRA activating mutations in gastrointestinal stromal tumors. Science 299, 708\u2013710 (2003).",
+        "journal-title": "Science"
+      },
+      {
+        "key": "44376_CR3",
+        "doi-asserted-by": "publisher",
+        "first-page": "672500",
+        "DOI": "10.3389/fonc.2021.672500",
+        "volume": "11",
+        "author": "S Bauer",
+        "year": "2021",
+        "unstructured": "Bauer, S., George, S., von Mehren, M. & Heinrich, M. C. Early and next-generation KIT/PDGFRA kinase inhibitors and the future of treatment for advanced gastrointestinal stromal tumor. Front. Oncol. 11, 672500 (2021).",
+        "journal-title": "Front. Oncol."
+      },
+      {
+        "key": "44376_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "20",
+        "DOI": "10.1016/j.annonc.2021.09.005",
+        "volume": "33",
+        "author": "PG Casali",
+        "year": "2022",
+        "unstructured": "Casali, P. G. et al. Gastrointestinal stromal tumours: ESMO-EURACAN-GENTURIS Clinical Practice Guidelines for diagnosis, treatment and follow-up. Ann. Oncol. 33, 20\u201333 (2022).",
+        "journal-title": "Ann. Oncol."
+      },
+      {
+        "key": "44376_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "935",
+        "DOI": "10.1016/S1470-2045(20)30269-2",
+        "volume": "21",
+        "author": "MC Heinrich",
+        "year": "2020",
+        "unstructured": "Heinrich, M. C. et al. Avapritinib in advanced PDGFRA D842V-mutant gastrointestinal stromal tumour (NAVIGATOR): a multicentre, open-label, phase 1 trial. Lancet Oncol. 21, 935\u2013946 (2020).",
+        "journal-title": "Lancet Oncol."
+      },
+      {
+        "key": "44376_CR6",
+        "doi-asserted-by": "publisher",
+        "first-page": "5357",
+        "DOI": "10.1200/JCO.2005.14.068",
+        "volume": "23",
+        "author": "CL Corless",
+        "year": "2005",
+        "unstructured": "Corless, C. L. et al. PDGFRA mutations in gastrointestinal stromal tumors: frequency, spectrum and in vitro sensitivity to imatinib. J. Clin. Oncol. 23, 5357\u20135364 (2005).",
+        "journal-title": "J. Clin. Oncol."
+      },
+      {
+        "key": "44376_CR7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rizzo, A. Pantaleo, M. A., Astolfi, A., Indio, V. & Nannini, M. The identity of PDGFRA D842V-mutant gastrointestinal stromal tumors (GIST). Cancers 13, 705 (2021).",
+        "DOI": "10.3390/cancers13040705"
+      },
+      {
+        "key": "44376_CR8",
+        "doi-asserted-by": "publisher",
+        "first-page": "132",
+        "DOI": "10.1016/j.ejca.2020.12.008",
+        "volume": "145",
+        "author": "RL Jones",
+        "year": "2021",
+        "unstructured": "Jones, R. L. et al. Avapritinib in unresectable or metastatic PDGFRA D842V-mutant gastrointestinal stromal tumours: long-term efficacy and safety data from the NAVIGATOR phase I trial. Eur. J. Cancer 145, 132\u2013142 (2021).",
+        "journal-title": "Eur. J. Cancer"
+      },
+      {
+        "key": "44376_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "108",
+        "DOI": "10.1158/2159-8290.CD-20-0487",
+        "volume": "11",
+        "author": "S Grunewald",
+        "year": "2021",
+        "unstructured": "Grunewald, S. et al. Resistance to avapritinib in PDGFRA-driven GIST is caused by secondary mutations in the PDGFRA kinase domain. Cancer Discov. 11, 108\u2013125 (2021).",
+        "journal-title": "Cancer Discov."
+      },
+      {
+        "key": "44376_CR10",
+        "doi-asserted-by": "publisher",
+        "first-page": "1639",
+        "DOI": "10.2217/fon-2020-0348",
+        "volume": "16",
+        "author": "A Smrke",
+        "year": "2020",
+        "unstructured": "Smrke, A., Gennatas, S., Huang, P. & Jones, R. L. Avapritinib in the treatment of PDGFRA exon 18 mutated gastrointestinal stromal tumors. Future Oncol. 16, 1639\u20131646 (2020).",
+        "journal-title": "Future Oncol."
+      },
+      {
+        "key": "44376_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "433",
+        "DOI": "10.1007/s40265-020-01275-2",
+        "volume": "80",
+        "author": "S Dhillon",
+        "year": "2020",
+        "unstructured": "Dhillon, S. Avapritinib: first approval. Drugs 80, 433\u2013439 (2020).",
+        "journal-title": "Drugs"
+      },
+      {
+        "key": "44376_CR12",
+        "doi-asserted-by": "publisher",
+        "first-page": "5078",
+        "DOI": "10.1158/1078-0432.CCR-20-1706",
+        "volume": "26",
+        "author": "C Serrano",
+        "year": "2020",
+        "unstructured": "Serrano, C. & George, S. Gastrointestinal stromal tumor: challenges and opportunities for a new decade. Clin. Cancer Res. 26, 5078\u20135085 (2020).",
+        "journal-title": "Clin. Cancer Res."
+      },
+      {
+        "key": "44376_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "2183",
+        "DOI": "10.1038/s41591-021-01538-9",
+        "volume": "27",
+        "author": "DJ DeAngelo",
+        "year": "2021",
+        "unstructured": "DeAngelo, D. J. et al. Safety and efficacy of avapritinib in advanced systemic mastocytosis: the phase 1 EXPLORER trial. Nat. Med. 27, 2183\u20132191 (2021).",
+        "journal-title": "Nat. Med."
+      },
+      {
+        "key": "44376_CR14",
+        "first-page": "77",
+        "volume": "11",
+        "author": "JA Gilreath",
+        "year": "2019",
+        "unstructured": "Gilreath, J. A., Tchertanov, L. & Deininger, M. W. Novel approaches to treating advanced systemic mastocytosis. Clin. Pharm. 11, 77\u201392 (2019).",
+        "journal-title": "Clin. Pharm."
+      },
+      {
+        "key": "44376_CR15",
+        "doi-asserted-by": "publisher",
+        "first-page": "e1435183",
+        "DOI": "10.1080/23723556.2018.1435183",
+        "volume": "5",
+        "author": "AK Gardino",
+        "year": "2018",
+        "unstructured": "Gardino, A. K. et al. Targeting kinases with precision. Mol. Cell Oncol. 5, e1435183 (2018).",
+        "journal-title": "Mol. Cell Oncol."
+      },
+      {
+        "key": "44376_CR16",
+        "doi-asserted-by": "publisher",
+        "first-page": "4283",
+        "DOI": "10.1158/0008-5472.CAN-18-3139",
+        "volume": "79",
+        "author": "B Apsel Winger",
+        "year": "2019",
+        "unstructured": "Apsel Winger, B. et al. ATP-competitive inhibitors midostaurin and avapritinib have distinct resistance profiles in exon 17-mutant KIT. Cancer Res. 79, 4283\u20134292 (2019).",
+        "journal-title": "Cancer Res."
+      },
+      {
+        "key": "44376_CR17",
+        "doi-asserted-by": "publisher",
+        "first-page": "8797",
+        "DOI": "10.1021/acs.jmedchem.8b00938",
+        "volume": "61",
+        "author": "JG Kettle",
+        "year": "2018",
+        "unstructured": "Kettle, J. G. et al. Discovery of N-(4-[5-fluoro-7-(2-methoxyethoxy)quinazolin-4-yl]aminophenyl)-2-[4-(propan-2-yl)-1 H-1,2,3-triazol-1-yl]acetamide (AZD3229), a potent pan-KIT mutant inhibitor for the treatment of gastrointestinal stromal tumors. J. Med. Chem 61, 8797\u20138810 (2018).",
+        "journal-title": "J. Med. Chem"
+      },
+      {
+        "key": "44376_CR18",
+        "doi-asserted-by": "publisher",
+        "first-page": "738",
+        "DOI": "10.1016/j.ccell.2019.04.006",
+        "volume": "35",
+        "author": "BD Smith",
+        "year": "2019",
+        "unstructured": "Smith, B. D. et al. Ripretinib (DCC-2618) is a switch control kinase inhibitor of a broad spectrum of oncogenic and drug-resistant KIT and PDGFRA variants. Cancer Cell 35, 738\u2013751.e739 (2019).",
+        "journal-title": "Cancer Cell"
+      },
+      {
+        "key": "44376_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "3294",
+        "DOI": "10.1200/JCO.20.00522",
+        "volume": "38",
+        "author": "F Janku",
+        "year": "2020",
+        "unstructured": "Janku, F. et al. Switch control inhibition of KIT and PDGFRA in patients with advanced gastrointestinal stromal tumor: a phase I study of ripretinib. J. Clin. Oncol. 38, 3294\u20133303 (2020).",
+        "journal-title": "J. Clin. Oncol."
+      },
+      {
+        "key": "44376_CR20",
+        "doi-asserted-by": "publisher",
+        "first-page": "499",
+        "DOI": "10.1038/d41573-019-00099-4",
+        "volume": "18",
+        "author": "MT Villanueva",
+        "year": "2019",
+        "unstructured": "Villanueva, M. T. Ripretinib turns off the switch in GIST. Nat. Rev. Drug Discov. 18, 499 (2019).",
+        "journal-title": "Nat. Rev. Drug Discov."
+      },
+      {
+        "key": "44376_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "105463",
+        "DOI": "10.1016/j.phrs.2021.105463",
+        "volume": "165",
+        "author": "R Roskoski Jr.",
+        "year": "2021",
+        "unstructured": "Roskoski, R. Jr. Properties of FDA-approved small molecule protein kinase inhibitors: a 2021 update. Pharm. Res. 165, 105463 (2021).",
+        "journal-title": "Pharm. Res."
+      },
+      {
+        "key": "44376_CR22",
+        "doi-asserted-by": "publisher",
+        "first-page": "4555",
+        "DOI": "10.1016/j.bmc.2016.07.059",
+        "volume": "24",
+        "author": "M Kissova",
+        "year": "2016",
+        "unstructured": "Kissova, M., Maga, G. & Crespan, E. The human tyrosine kinase Kit and its gatekeeper mutant T670I, show different kinetic properties: implications for drug design. Bioorg. Med. Chem. 24, 4555\u20134562 (2016).",
+        "journal-title": "Bioorg. Med. Chem."
+      },
+      {
+        "key": "44376_CR23",
+        "doi-asserted-by": "publisher",
+        "first-page": "420",
+        "DOI": "10.1021/cn100007x",
+        "volume": "1",
+        "author": "TT Wager",
+        "year": "2010",
+        "unstructured": "Wager, T. T. et al. Defining desirable central nervous system drug space through the alignment of molecular properties, in vitro ADME, and safety attributes. ACS Chem. Neurosci. 1, 420\u2013434 (2010).",
+        "journal-title": "ACS Chem. Neurosci."
+      },
+      {
+        "key": "44376_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "435",
+        "DOI": "10.1021/cn100008c",
+        "volume": "1",
+        "author": "TT Wager",
+        "year": "2010",
+        "unstructured": "Wager, T. T., Hou, X., Verhoest, P. R. & Villalobos, A. Moving beyond rules: the development of a central nervous system multiparameter optimization (CNS MPO) approach to enable alignment of druglike properties. ACS Chem. Neurosci. 1, 435\u2013449 (2010).",
+        "journal-title": "ACS Chem. Neurosci."
+      },
+      {
+        "key": "44376_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "349",
+        "DOI": "10.1016/j.ijpharm.2004.10.007",
+        "volume": "288",
+        "author": "Q Wang",
+        "year": "2005",
+        "unstructured": "Wang, Q. et al. Evaluation of the MDR-MDCK cell line as a permeability screen for the blood-brain barrier. Int. J. Pharm. 288, 349\u2013359 (2005).",
+        "journal-title": "Int. J. Pharm."
+      }
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41467-023-44376-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-023-44376-8",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41467-023-44376-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          5
+        ]
+      ],
+      "date-time": "2024-01-05T17:02:32Z",
+      "timestamp": 1704474152000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41467-023-44376-8"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          2
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "44376"
+    ],
+    "URL": "https://doi.org/10.1038/s41467-023-44376-8",
+    "relation": {},
+    "ISSN": [
+      "2041-1723"
+    ],
+    "issn-type": [
+      {
+        "value": "2041-1723",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          2
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "11 July 2023",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "11 December 2023",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "2 January 2024",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "D.R. reports lecture and consulting fees from Pfizer, AZ, Sanofi, BI, and Bayer; is a shareholder of Centessa Pharmaceuticals plc., outside the submitted word. S.B. reports grants and personal fees from Blueprint Medicines, Incyte, and Novartis, PharmaMar, Eli Lilly & Co, Adcendo, Bayer, Blueprint Medicines, Boehringer Ingelheim, Cogent, Daiichi Sankyo, Deciphera, GSK, Exelixis, Novartis, Roche, PharmaMar. J.L. is a shareholder of Centessa Pharmaceuticals plc., outside the submitted work. The remaining authors declare no competing interests.",
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "63"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "Recently, irreversible inhibitors have attracted great interest in antitumors due to their advantages of forming covalent bonds to target proteins. Herein, some benzothiazepinone compounds (BTZs) have been designed and synthesized as novel covalent GSK-3\u03b2 inhibitors with high selectivity for the kinase panel. The irreversible covalent binding mode was identified by kinetics and mass spectrometry, and the main labeled residue was confirmed to be the unique Cys14 that exists only in GSK-3\u03b2. The candidate <b>4</b>-<b>3</b> (IC<sub>50</sub> = 6.6 \u03bcM) showed good proliferation inhibition and apoptosis-inducing ability to leukemia cell lines, low cytotoxicity on normal cell lines, and no hERG inhibition, which hinted the potential efficacy and safety. Furthermore, <b>4</b>-<b>3</b> exhibited decent pharmacokinetic properties <i>in vivo</i> and remarkably inhibited tumor growth in the acute promyelocytic leukemia (APL) mouse model. All the results suggest that these newly irreversible BTZ compounds might be useful in the treatment of cancer such as APL.",
+  "authors": "Zhang P, Min Z, Gao Y, Bian J, Lin X, He J, Ye D, Li Y, Peng C, Cheng Y, Chu Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_32",
+    "creation_date": "2023-01-26"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5036319",
+  "doi": "10.1021/acs.jmedchem.0c02254",
+  "doi_chembl": null,
+  "first_page": "7341",
+  "issue": "11.0",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "7358",
+  "patent_id": null,
+  "pubmed_id": 34027661,
+  "src_id": 1,
+  "title": "Discovery of Novel Benzothiazepinones as Irreversible Covalent Glycogen Synthase Kinase 3\u03b2 Inhibitors for the Treatment of Acute Promyelocytic Leukemia.",
+  "volume": "64",
+  "year": 2021
+}

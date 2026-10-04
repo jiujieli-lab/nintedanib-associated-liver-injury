@@ -1,0 +1,482 @@
+[
+  {
+    "before": "The liver atlas located these quantities within a multicellular tissue. Descriptive embeddings documented hepatocyte, endothelial, and macrophage structure (Fig. 4B–D). Equal-donor estimates showed prominent endothelial detection of KDR (31.9%), FLT1 (52.2%), FLT4 (16.2%), and FGFR1 (22.2%). FGFR2 and FGFR3 were most detectable in cholangiocytes; PDGFRA and PDGFRB were most evident in stellate cells, although that compartment comprised only 37 cells from four donors (Fig. 4E,G). The injury genes were predominantly hepatocellular: detection reached 94.5% for ALDOB, 84.8% for CES1, 74.2% for CPS1, 58.6% for GSTA1, 54.7% for FBP1, and 29.9% for LECT2 (Fig. 4F). This distribution directs the mechanistic question toward non-parenchymal receptor signaling and its effects on hepatocellular injury.",
+    "after": "The liver atlas located these quantities within a multicellular tissue. Descriptive embeddings documented hepatocyte, endothelial, and macrophage structure (Fig. 5B–D). Equal-donor estimates showed prominent endothelial detection of KDR (31.9%), FLT1 (52.2%), FLT4 (16.2%), and FGFR1 (22.2%). FGFR2 and FGFR3 were most detectable in cholangiocytes; PDGFRA and PDGFRB were most evident in stellate cells, although that compartment comprised only 37 cells from four donors (Fig. 5E,G). The injury genes were predominantly hepatocellular: detection reached 94.5% for ALDOB, 84.8% for CES1, 74.2% for CPS1, 58.6% for GSTA1, 54.7% for FBP1, and 29.9% for LECT2 (Fig. 5F). This distribution directs the mechanistic question toward non-parenchymal receptor signaling and its effects on hepatocellular injury."
+  },
+  {
+    "before": "Before evaluating that connection, we audited 95731 gene-level records from 210 virtual-knockout runs (Fig. 4H–K). In 132 runs, maximum displacement was at floating-point scale, no greater than 2.85×10−15. The smallest maximum among nonzero runs was 4.73×10−7; classifications were identical using cutoffs of 10−14, 10−12, or 10−10. Of 102 drug-target runs, 73 were numerically zero and 29 were quantifiable. Percentile normalization had assigned ordered scores even to noise-scale distances, so those runs could not support a biological perturbation claim.",
+    "after": "Before evaluating that connection, we audited 95731 gene-level records from 210 virtual-knockout runs (Fig. 5H–K). In 132 runs, maximum displacement was at floating-point scale, no greater than 2.85×10−15. The smallest maximum among nonzero runs was 4.73×10−7; classifications were identical using cutoffs of 10−14, 10−12, or 10−10. Of 102 drug-target runs, 73 were numerically zero and 29 were quantifiable. Percentile normalization had assigned ordered scores even to noise-scale distances, so those runs could not support a biological perturbation claim."
+  },
+  {
+    "before": "FGFR1 illustrated the consequence. Only one of three endothelial runs was numerically nonzero (maximum 6.02×10−6); the other two maxima were approximately 10−15, as was its available macrophage result (Fig. 4J). The earlier favorable percentiles therefore did not establish reproducible FGFR1 perturbation. Across all 29 quantifiable drug-target runs, projection of the continuous human DILI-versus-non-DILI protein profile did not exceed expression-matched backgrounds (minimum upper-tail P=0.352). The valid FGFR1 endothelial run had standardized difference −2.20 and P=1.000 (Fig. 4K). Numerical calibration thus changed the target interpretation and established the need for an independently calibrated way to connect drug pharmacology to the clinical phenotype.",
+    "after": "FGFR1 illustrated the consequence. Only one of three endothelial runs was numerically nonzero (maximum 6.02×10−6); the other two maxima were approximately 10−15, as was its available macrophage result (Fig. 5J). The earlier favorable percentiles therefore did not establish reproducible FGFR1 perturbation. Across all 29 quantifiable drug-target runs, projection of the continuous human DILI-versus-non-DILI protein profile did not exceed expression-matched backgrounds (minimum upper-tail P=0.352). The valid FGFR1 endothelial run had standardized difference −2.20 and P=1.000 (Fig. 5K). Numerical calibration thus changed the target interpretation and established the need for an independently calibrated way to connect drug pharmacology to the clinical phenotype."
+  },
+  {
+    "before": "We propagated the continuous protein phenotype through donor-balanced shrinkage networks and evaluated target proximity against matched seed sets (Fig. 5B). The fixed 17-target universe produced 50 evaluable target–compartment combinations; FGFR2 lacked an endothelial value. All primary computations passed numerical checks, with maximum linear-system residual 8.88×10−16 across the 18 graph specifications. Four clinical-weight profiles generated 3600 candidate estimates. Five actual donor omissions generated 250 estimates, including one undefined null-adjusted value retained as unavailable.",
+    "after": "We propagated the continuous protein phenotype through donor-balanced shrinkage networks and evaluated target proximity against matched seed sets (Fig. 6B). The fixed 17-target universe produced 50 evaluable target–compartment combinations; FGFR2 lacked an endothelial value. All primary computations passed numerical checks, with maximum linear-system residual 8.88×10−16 across the 18 graph specifications. Four clinical-weight profiles generated 3600 candidate estimates. Five actual donor omissions generated 250 estimates, including one undefined null-adjusted value retained as unavailable."
+  },
+  {
+    "before": "Three primary associations reached joint-family q=0.00833: endothelial LRRK2 (Z=27.424), endothelial TYK2 (Z=5.670), and macrophage PDGFRA (Z=7.299). LRRK2 and PDGFRA also met the specified graph- and donor-rank stability requirements. Their same-compartment detection fractions were nevertheless only 4.184% and 0.139%, respectively; TYK2 detection was 5.324%. No candidate satisfied significance, stability, and the inherited 10% expression threshold together (Fig. 5C,M). The threshold was retained rather than relaxed to recover a preferred molecule.",
+    "after": "Three primary associations reached joint-family q=0.00833: endothelial LRRK2 (Z=27.424), endothelial TYK2 (Z=5.670), and macrophage PDGFRA (Z=7.299). LRRK2 and PDGFRA also met the specified graph- and donor-rank stability requirements. Their same-compartment detection fractions were nevertheless only 4.184% and 0.139%, respectively; TYK2 detection was 5.324%. No candidate satisfied significance, stability, and the inherited 10% expression threshold together (Fig. 6C,M). The threshold was retained rather than relaxed to recover a preferred molecule."
+  },
+  {
+    "before": "Seed decomposition explained why apparently large network effects required this qualification. OTC and ALDOB contributed 47.43% and 45.74% of the endothelial LRRK2 score; PCK2 contributed 92.68% for endothelial TYK2, and HPD contributed 91.41% for macrophage PDGFRA (Fig. 5D). The latter receptor was detected in just two cells across two donors. Degree-matched calibration retained the endothelial associations across matching-pool sizes, but macrophage PDGFRA lost FDR significance with the 100-gene pool. Donor omissions also produced negative as well as positive Z values for the endothelial candidates (Fig. 5E). FGFR1 had negative primary null-adjusted scores in all three modeled compartments. These findings identify sparse or concentrated connections, rather than broad, expression-supported disruption of the clinical program.",
+    "after": "Seed decomposition explained why apparently large network effects required this qualification. OTC and ALDOB contributed 47.43% and 45.74% of the endothelial LRRK2 score; PCK2 contributed 92.68% for endothelial TYK2, and HPD contributed 91.41% for macrophage PDGFRA (Fig. 6D). The latter receptor was detected in just two cells across two donors. Degree-matched calibration retained the endothelial associations across matching-pool sizes, but macrophage PDGFRA lost FDR significance with the 100-gene pool. Donor omissions also produced negative as well as positive Z values for the endothelial candidates (Fig. 6E). FGFR1 had negative primary null-adjusted scores in all three modeled compartments. These findings identify sparse or concentrated connections, rather than broad, expression-supported disruption of the clinical program."
+  },
+  {
+    "before": "The network feature was then combined with pharmacology, HepG2 response, and STRING association context to choose reproducible experiments (Fig. 5L). The primary geometric ordering was PDGFRA, FLT4, FGFR2, JAK1, and FGFR3; FGFR1 moved from third in the historical consensus to fourteenth (Fig. 5F,G). This ranking followed the same fixed candidate set and a rule selected before the independent liver challenge. PDGFRA and FLT4 occupied the first two positions under revised median, arithmetic, geometric, and maximin fusion; robust rank aggregation placed them first and third. Both remained in the top five across all 5000 source-weight perturbations, compared with 92.9% for FGFR2, 70.0% for JAK1, and 58.9% for FGFR3 (Fig. 5J). Measurable endothelial FLT4 expression identifies a cellular starting point for perturbation, while PDGFRA prioritization directs receptor-expression verification in an appropriately sampled hepatic system.",
+    "after": "The network feature was then combined with pharmacology, HepG2 response, and STRING association context to choose reproducible experiments (Fig. 6L). The primary geometric ordering was PDGFRA, FLT4, FGFR2, JAK1, and FGFR3; FGFR1 moved from third in the historical consensus to fourteenth (Fig. 6F,G). This ranking followed the same fixed candidate set and a rule selected before the independent liver challenge. PDGFRA and FLT4 occupied the first two positions under revised median, arithmetic, geometric, and maximin fusion; robust rank aggregation placed them first and third. Both remained in the top five across all 5000 source-weight perturbations, compared with 92.9% for FGFR2, 70.0% for JAK1, and 58.9% for FGFR3 (Fig. 6J). Measurable endothelial FLT4 expression identifies a cellular starting point for perturbation, while PDGFRA prioritization directs receptor-expression verification in an appropriately sampled hepatic system."
+  },
+  {
+    "before": "The algorithm comparison separated rank stability from predictive evidence. Geometric fusion retained full-data ranks after component omission with mean Spearman correlation 0.833 versus 0.793 for the exact historical consensus, and mean top-five Jaccard overlap 0.607 versus 0.506 (Fig. 5H). Agreement with the omitted feature was weak, however: mean correlation 0.045 for geometric fusion, with maximin highest at 0.115 (Fig. 5I). None of the five revised methods produced a competitive q value below 0.05; minima were 0.139 for robust rank aggregation and 0.178 for geometric fusion. Numerically valid legacy virtual-knockout comparisons were also limited: requiring three evaluable seeds left only two endothelial and two macrophage candidates, insufficient for an informative broad algorithm comparison.",
+    "after": "The algorithm comparison separated rank stability from predictive evidence. Geometric fusion retained full-data ranks after component omission with mean Spearman correlation 0.833 versus 0.793 for the exact historical consensus, and mean top-five Jaccard overlap 0.607 versus 0.506 (Fig. 6H). Agreement with the omitted feature was weak, however: mean correlation 0.045 for geometric fusion, with maximin highest at 0.115 (Fig. 6I). None of the five revised methods produced a competitive q value below 0.05; minima were 0.139 for robust rank aggregation and 0.178 for geometric fusion. Numerically valid legacy virtual-knockout comparisons were also limited: requiring three evaluable seeds left only two endothelial and two macrophage candidates, insufficient for an informative broad algorithm comparison."
+  },
+  {
+    "before": "Across 72 fixed graph-and-clinical-weight combinations, geometric rank correlations ranged from 0.782 to 1.000 (median 0.946), with mean top-five overlap 0.949. PDGFRA remained first after each donor omission; FLT4 ranked second to fifth (Fig. 5K). Alternative missing-value treatments preserved the leading five, while masking inferred HepG2 transcripts changed the overall ranking more substantially (Supplementary Fig. S8). Together, these analyses place PDGFRA and FLT4 at the front of a reproducible experimental sequence: verify receptor expression and engagement in the relevant hepatic compartment, measure its effects on the clinical injury-protein phenotype, and test reciprocal rescue.",
+    "after": "Across 72 fixed graph-and-clinical-weight combinations, geometric rank correlations ranged from 0.782 to 1.000 (median 0.946), with mean top-five overlap 0.949. PDGFRA remained first after each donor omission; FLT4 ranked second to fifth (Fig. 6K). Alternative missing-value treatments preserved the leading five, while masking inferred HepG2 transcripts changed the overall ranking more substantially (Supplementary Fig. S8). Together, these analyses place PDGFRA and FLT4 at the front of a reproducible experimental sequence: verify receptor expression and engagement in the relevant hepatic compartment, measure its effects on the clinical injury-protein phenotype, and test reciprocal rescue."
+  },
+  {
+    "before": "We challenged the frozen priorities in GSE125975, an independent experiment containing 22 mouse non-tumor liver profiles: three healthy controls, nine disease controls, and ten nintedanib-treated animals [55] (Fig. 6B). The deposited matrix contained 13392 features. Nintedanib altered 92 at genome-wide q<0.05, including 73 with absolute log2 difference at least 0.5; Welch sensitivity analysis retained 13 discoveries. Disease versus healthy liver yielded 338 moderated-test discoveries, while treated versus healthy liver yielded 784, indicating an observable response without simple restoration to the healthy transcriptome (Fig. 6C,J).",
+    "after": "We challenged the frozen priorities in GSE125975, an independent experiment containing 22 mouse non-tumor liver profiles: three healthy controls, nine disease controls, and ten nintedanib-treated animals [55] (Fig. 7B). The deposited matrix contained 13392 features. Nintedanib altered 92 at genome-wide q<0.05, including 73 with absolute log2 difference at least 0.5; Welch sensitivity analysis retained 13 discoveries. Disease versus healthy liver yielded 338 moderated-test discoveries, while treated versus healthy liver yielded 784, indicating an observable response without simple restoration to the healthy transcriptome (Fig. 7C,J)."
+  },
+  {
+    "before": "Only 12 of 17 targets and two of 13 clinical-protein genes were represented. Kdr decreased with nintedanib (log2 difference −0.2796; moderated 95% CI −0.4489 to −0.1102). Its genome-wide q value was 0.1192, but exact whole-animal testing gave P=0.002273, q=0.0273 across the 12 measured candidates, and conservative q=0.0386 across the full 17-candidate family (Fig. 6D,E). The direction persisted after every treated- or disease-animal omission (range −0.3180 to −0.2425; Fig. 6H). Adjustment for two run-date groups inferred from CEL filenames retained the decrease and candidate-family significance (log2 difference −0.2768; genome-wide q=0.1114; conditional-randomization full-family q=0.02950). These date tokens were a technical sensitivity rather than verified batch annotations.",
+    "after": "Only 12 of 17 targets and two of 13 clinical-protein genes were represented. Kdr decreased with nintedanib (log2 difference −0.2796; moderated 95% CI −0.4489 to −0.1102). Its genome-wide q value was 0.1192, but exact whole-animal testing gave P=0.002273, q=0.0273 across the 12 measured candidates, and conservative q=0.0386 across the full 17-candidate family (Fig. 7D,E). The direction persisted after every treated- or disease-animal omission (range −0.3180 to −0.2425; Fig. 7H). Adjustment for two run-date groups inferred from CEL filenames retained the decrease and candidate-family significance (log2 difference −0.2768; genome-wide q=0.1114; conditional-randomization full-family q=0.02950). These date tokens were a technical sensitivity rather than verified batch annotations."
+  },
+  {
+    "before": "The Kdr response was concordant with reduced VEGFR2 phosphorylation and downstream AKT/ERK signaling reported in the same source experiment [55]. Together, the transcript and biochemical measurements from this source support use of the VEGFR arm as a hepatic pharmacodynamic comparator. The individual-animal profiles illustrate receptor-specific responses (Fig. 6E–G): Fgfr1 was essentially unchanged (log2 difference 0.0242; genome-wide q=0.9589), and no prespecified module passed exact-permutation correction (Fig. 6I). Of 297 disease-associated features meeting both statistical and effect thresholds, 51.2% changed oppositely under treatment; disjoint disease-reference analysis reduced median reversal to 46.0%, with median disease–treatment correlation 0.149 (Fig. 6K,L).",
+    "after": "The Kdr response was concordant with reduced VEGFR2 phosphorylation and downstream AKT/ERK signaling reported in the same source experiment [55]. Together, the transcript and biochemical measurements from this source support use of the VEGFR arm as a hepatic pharmacodynamic comparator. The individual-animal profiles illustrate receptor-specific responses (Fig. 7E–G): Fgfr1 was essentially unchanged (log2 difference 0.0242; genome-wide q=0.9589), and no prespecified module passed exact-permutation correction (Fig. 7I). Of 297 disease-associated features meeting both statistical and effect thresholds, 51.2% changed oppositely under treatment; disjoint disease-reference analysis reduced median reversal to 46.0%, with median disease–treatment correlation 0.149 (Fig. 7K,L)."
+  },
+  {
+    "before": "Finally, we tested whether priority predicted absolute hepatic expression-effect magnitude among the same 12 measured candidates. Correlations ranged from −0.274 for maximin to 0.252 for robust rank aggregation; geometric fusion yielded −0.252 (exact whole-animal P=0.461). All six method-level q values were at least 0.681 (Fig. 6M). The independent challenge identifies selective hepatic drug responsiveness and supports KDR as an organ-level pharmacodynamic comparator for subsequent testing of the PDGFRA and FLT4 priorities.",
+    "after": "Finally, we tested whether priority predicted absolute hepatic expression-effect magnitude among the same 12 measured candidates. Correlations ranged from −0.274 for maximin to 0.252 for robust rank aggregation; geometric fusion yielded −0.252 (exact whole-animal P=0.461). All six method-level q values were at least 0.681 (Fig. 7M). The independent challenge identifies selective hepatic drug responsiveness and supports KDR as an organ-level pharmacodynamic comparator for subsequent testing of the PDGFRA and FLT4 priorities."
+  },
+  {
+    "before": "Figure 4 Liver localization and numerical auditing calibrate virtual perturbation evidence",
+    "after": "Figure 5 Liver localization and numerical auditing calibrate virtual perturbation evidence"
+  },
+  {
+    "before": "Figure 5 Clinical-protein-guided integration prioritizes PDGFRA and FLT4",
+    "after": "Figure 6 Clinical-protein-guided integration prioritizes PDGFRA and FLT4"
+  },
+  {
+    "before": "Figure 6 Independent hepatic exposure tests the frozen candidate priorities",
+    "after": "Figure 7 Independent hepatic exposure tests the frozen candidate priorities"
+  },
+  {
+    "before": "We conducted a secondary analysis of public clinical, pharmacological and experimental data to connect nintedanib exposure with a human liver-injury protein phenotype and identify targets for subsequent perturbation-and-rescue experiments. The analysis followed observational-study reporting principles and READUS-PV recommendations where applicable [48, 49, 50]. Comparative pharmacovigilance defined the clinical problem; human serum proteins supplied the phenotype; drug-binding and exposure-response data positioned candidate targets within donor-balanced liver networks. Numerical calibration, alternative aggregation rules and biological-sample sensitivity analyses tested the resulting priorities. An independently identified nintedanib-exposed liver dataset challenged the frozen ranking, while pulmonary datasets evaluated the treatment response that a liver-sparing intervention would need to preserve. These measurements were integrated without treating circulating proteins as established drug targets or network proximity as a causal effect.",
+    "after": "We conducted a secondary analysis of public clinical, pharmacological and experimental data to connect nintedanib exposure with a human liver-injury protein phenotype and identify targets for subsequent perturbation-and-rescue experiments. The study sequence is summarized in Fig. 1A. The analysis followed observational-study reporting principles and READUS-PV recommendations where applicable [48, 49, 50]. Comparative pharmacovigilance defined the clinical problem; human serum proteins supplied the phenotype; drug-binding and exposure-response data positioned candidate targets within donor-balanced liver networks. Numerical calibration, alternative aggregation rules and biological-sample sensitivity analyses tested the resulting priorities. An independently identified nintedanib-exposed liver dataset challenged the frozen ranking, while pulmonary datasets evaluated the treatment response that a liver-sparing intervention would need to preserve. These measurements were integrated without treating circulating proteins as established drug targets or network proximity as a causal effect."
+  },
+  {
+    "before": "The deposited normalized GSE115469 atlas contained 8,444 cells from five donors [32]. Published labels defined hepatocyte (n=3,501), endothelial (n=844), macrophage (n=1,192), other immune (n=2,751), cholangiocyte (n=119) and stellate (n=37) compartments. Mean expression and detection fraction were calculated within donor and compartment before equal-donor averaging. Cells did not supply independent biological degrees of freedom. The 37 stellate cells from four donors supported exploratory localization only. Network universes combined 650 variance-ranked eligible genes with forced clinical, pharmacological and mechanism genes, excluding zero-variance features; the resulting hepatocyte, endothelial and macrophage matrices contained 705, 717 and 716 genes.",
+    "after": "The deposited normalized GSE115469 atlas contained 8,444 cells from five donors [32]. Published labels defined hepatocyte (n=3,501), endothelial (n=844), macrophage (n=1,192), other immune (n=2,751), cholangiocyte (n=119) and stellate (n=37) compartments. Mean expression and detection fraction were calculated within donor and compartment before equal-donor averaging. Cells did not supply independent biological degrees of freedom. The 37 stellate cells from four donors supported exploratory localization only. Network universes combined 650 variance-ranked eligible genes with forced clinical, pharmacological and mechanism genes, excluding zero-variance features; the resulting hepatocyte, endothelial and macrophage matrices contained 705, 717 and 716 genes. Figure 5A summarizes the localization and numerical-calibration sequence."
+  },
+  {
+    "before": "Within each donor and compartment, genes were centered and standardized, with constant genes assigned zero vectors. Ledoit–Wolf covariance shrinkage was fitted before conversion to correlations and equal-donor averaging [39, 43]. The primary symmetric graph retained positive correlations and each gene's 20 strongest neighbors; an edge was retained if selected by either endpoint. Self-edges were removed, and isolated nodes received a self-loop only to define a stochastic transition. Sensitivity crossed positive versus absolute correlations, 10/20/40 neighbors and restart probabilities 0.3/0.5/0.7, yielding 18 graph specifications. An unshrunk Pearson ablation tested covariance regularization.",
+    "after": "Within each donor and compartment, genes were centered and standardized, with constant genes assigned zero vectors. Ledoit–Wolf covariance shrinkage was fitted before conversion to correlations and equal-donor averaging [39, 43]. The primary symmetric graph retained positive correlations and each gene's 20 strongest neighbors; an edge was retained if selected by either endpoint. Self-edges were removed, and isolated nodes received a self-loop only to define a stochastic transition. Sensitivity crossed positive versus absolute correlations, 10/20/40 neighbors and restart probabilities 0.3/0.5/0.7, yielding 18 graph specifications. An unshrunk Pearson ablation tested covariance regularization. Figure 6A summarizes the clinically weighted network integration."
+  },
+  {
+    "before": "GSE125975 was withheld from candidate construction and algorithm selection. Its 22 distinct male C57BL/6J mice comprised three healthy controls, nine DEN/CCl4 disease controls and ten diseased animals receiving oral nintedanib 50 mg/kg; non-tumoral liver was collected at 17 weeks of age [55]. The source did not establish nintedanib-induced hepatotoxicity, and the dataset was not classified as DILI-positive.",
+    "after": "GSE125975 was withheld from candidate construction and algorithm selection. Its 22 distinct male C57BL/6J mice comprised three healthy controls, nine DEN/CCl4 disease controls and ten diseased animals receiving oral nintedanib 50 mg/kg; non-tumoral liver was collected at 17 weeks of age [55]. The source did not establish nintedanib-induced hepatotoxicity, and the dataset was not classified as DILI-positive. The independent evaluation design is shown in Fig. 7A."
+  },
+  {
+    "before": "The candidate universe comprised 17 pharmacological proteins: ABL1, AXL, CDK4, FGFR1, FGFR2, FGFR3, FGFR4, FLT1, FLT3, FLT4, JAK1, KDR, LRRK2, LYN, MET, PDGFRA and TYK2. The clinical phenotype comprised the 13 proteins released by the serum-proteomics source study. All candidates and discordant findings were retained. Source-specific analyses were initially frozen on 4 September 2026. Additional numerical auditing, clinical-weighted projection, shrinkage-network estimation, aggregation comparisons and shared-reference sensitivities were developed on 19 September 2026. Their settings and the final integration rule were fixed before inspection of GSE125975. They were not prospectively preregistered. Dataset eligibility depended on exposure, tissue, comparison, downloadable measurements and recoverable experimental units, rather than agreement with a preferred mechanism. Tables 1 and 2 identify resources and provenance. Additional file 1 contains Extended Methods and detailed results; Additional file 2 contains the supplementary figures; Additional file 3 contains the complete supplementary tables. Figures S1–S10 are retained in their original order in Additional file 2.",
+    "after": "The candidate universe comprised 17 pharmacological proteins: ABL1, AXL, CDK4, FGFR1, FGFR2, FGFR3, FGFR4, FLT1, FLT3, FLT4, JAK1, KDR, LRRK2, LYN, MET, PDGFRA and TYK2. The clinical phenotype comprised the 13 proteins released by the serum-proteomics source study. All candidates and discordant findings were retained. Source-specific analyses were initially frozen on 4 September 2026. Additional numerical auditing, clinical-weighted projection, shrinkage-network estimation, aggregation comparisons and shared-reference sensitivities were developed on 19 September 2026. Their settings and the final integration rule were fixed before inspection of GSE125975. They were not prospectively preregistered. Dataset eligibility depended on exposure, tissue, comparison, downloadable measurements and recoverable experimental units, rather than agreement with a preferred mechanism. Tables 1 and 2 identify resources and provenance. Additional file 1 contains Extended Methods and detailed results; Additional file 2 contains the supplementary figures; Additional file 3 contains the complete supplementary tables. Supplementary Figures S1–S11 are provided in Additional file 2. Target-focused binding and virtual-intervention methods and results are detailed in Additional file 4, with their complete numerical tables in Additional file 5."
+  },
+  {
+    "before": "Methods: We integrated active-comparator pharmacovigilance, 13 human serum injury proteins, nintedanib pharmacology and cellular responses, and a five-donor liver atlas. Numerical auditing preceded clinical-protein projection of virtual knockouts. Donor-balanced shrinkage networks, matched-null propagation, six-algorithm comparison, donor omission and weight perturbation assessed candidate robustness. Frozen rankings were evaluated against independent liver profiles from 22 mice; pulmonary datasets defined relevant antifibrotic response readouts.",
+    "after": "Methods: We integrated active-comparator pharmacovigilance, 13 human serum injury proteins, nintedanib pharmacology and cellular responses, and a five-donor liver atlas. Numerical auditing, donor-balanced shrinkage networks, matched-null propagation, six-algorithm comparison, donor omission and weight perturbation evaluated candidate robustness. Endpoint-resolved biochemical records and single/joint target-network interventions characterized the two priorities. Frozen rankings were challenged in independent liver profiles from 22 mice; pulmonary datasets defined antifibrotic readouts."
+  },
+  {
+    "before": "Results: PDGFRA and FLT4 led the integrated ranking, occupying the first two positions under four revised aggregation rules and remaining among the top five in all 5000 weight perturbations. PDGFRA ranked first after every donor omission; FLT4 ranked second to fifth. The narrow hepatic reporting odds ratio for nintedanib versus pirfenidone was 3.997 (95% confidence interval 3.226–4.951), with substantial temporal heterogeneity. FBP1 distinguished drug-related from other acute liver injury within the released serum panel (Cliff's delta −0.505; q=0.000469). Numerical auditing identified noise-scale displacement in 132 of 210 virtual-knockout runs, correcting the earlier FGFR1 prioritization. No integrated target passed competitive calibration, and frozen rankings were not significantly associated with external hepatic expression-effect magnitude. Independent liver analysis identified decreased Kdr expression within the prespecified candidate family (log2 difference −0.280; exact-test q=0.0386; genome-wide q=0.119). Pulmonary responses varied by model; calibrated global reversal did not survive multiplicity correction.",
+    "after": "Results: PDGFRA and FLT4 ranked first and second under four aggregation rules and remained among the top five in all 5000 weight perturbations. PDGFRA remained first after each donor omission; FLT4 ranked second to fifth. Reported direct Kd values were 16 and 95 nM, respectively, supporting biochemical engagement. The narrow hepatic reporting odds ratio for nintedanib versus pirfenidone was 3.997 (95% confidence interval 3.226–4.951), with temporal heterogeneity. FBP1 distinguished drug-related from other acute liver injury within the released serum panel (Cliff’s delta −0.505; q=0.000469). Numerical auditing identified noise-scale displacement in 132/210 virtual-knockout runs, correcting the earlier FGFR1 prioritization. Neither competitive ranking calibration nor targeted network interventions established significant enrichment, and rankings were not significantly associated with external hepatic expression effects. Independent liver analysis identified decreased Kdr expression within the candidate family (log2 difference −0.280; exact-test q=0.0386; genome-wide q=0.119). Pulmonary responses varied by model; calibrated global reversal did not survive multiplicity correction."
+  },
+  {
+    "before": "Reproducibility, statistical units and artificial-intelligence assistance",
+    "after": "Reproducibility and statistical units"
+  },
+  {
+    "before": "OpenAI ChatGPT with Codex tools (used in September 2026) assisted literature discovery, analytical code development, figure production, manuscript drafting and consistency checking. Its outputs were not treated as scientific observations or independent validation. The submitted methods and source-linked results specify what was calculated, and the authors remain responsible for the manuscript. No new human samples, cell experiments or animal experiments were generated. The supplementary perturbation-and-rescue protocol is explicitly prospective and contributes no observed result.",
+    "after": "No new human samples, cell experiments or animal experiments were generated. The supplementary perturbation-and-rescue protocol is prospective and contributes no observed result."
+  },
+  {
+    "before": "The publicly available datasets analysed in this study are accessible through the repositories and source publications identified in Tables 1 and 2, with dataset identifiers and access links provided in these tables and the corresponding references. Supplementary tables are provided in Additional file 3. The analysis code, figure-composition scripts and associated computational documentation are available from the corresponding author, upon reasonable request. This documentation distinguishes archived results from reconstructed auxiliary files and identifies the historical comparator outputs separately from the numerically calibrated analyses supporting the present conclusions. Extended methods, detailed results and the prospective validation protocol are provided in Additional file 1, and supplementary Figures S1–S10 are included in Additional file 2.",
+    "after": "The public datasets analysed in this study are accessible through the repositories and source publications identified in Tables 1 and 2. Extended methods and the prospective biological protocol are provided in Additional file 1; Supplementary Figures S1–S11 in Additional file 2; the original complete supplementary tables in Additional file 3; and the targeted biochemical and virtual-intervention methods, results and tables in Additional files 4 and 5. Additional file 6 contains the new analysis scripts, input specifications, source-linked outputs and numerical checks. The accompanying source reproducibility archive retains the original five data/code packages and figure-composition records. This documentation distinguishes archived source results, reconstructed auxiliary files and calibrated analyses. The raw Inductive Bio responses include exact inputs and resolved model versions."
+  },
+  {
+    "before": "Additional file 2. Supplementary Figures S1–S10. Additional_file_2_Supplementary_Figures.pdf. All ten supplementary figures, retaining every original data panel.",
+    "after": "Additional file 2. Supplementary Figures S1–S11. Additional_file_2_Supplementary_Figures.pdf. All ten original supplementary figures and the targeted single/joint network-intervention figure, retaining every original data panel."
+  },
+  {
+    "before": "Additional file 1. Extended methods and results. Additional_file_1_Supplementary_Information.pdf. Complete extended methods and results, full figure definitions, supplementary figure legends, table descriptions and the prospective perturbation-and-rescue protocol.",
+    "after": "Additional file 1. Extended methods and results. Additional_file_1_Supplementary_Information.pdf. Complete extended methods and results, full figure definitions, supplementary figure legends, table descriptions and the prospective perturbation-and-rescue protocol. References in this supplement are numbered independently."
+  },
+  {
+    "before": "We further resolved the PDGFRA and FLT4 records within the frozen ChEMBL extraction by endpoint, assay and source document. Direct dissociation constants (Kd), inhibition constants (Ki) and half-maximal inhibitory concentrations (IC50) were analysed separately. The original eligibility rules remained primary. A labelled assay-format sensitivity additionally admitted exact, validity-clean human single-protein records whose descriptions specified recombinant kinase assays but whose BioAssay Ontology format was recorded generically. Duplicate-flagged, nonquantitative kinetic and single-concentration inhibition records were retained in the disposition table and excluded from potency summaries. We reported every eligible concentration, observed range, document-balanced median and leave-one-document-out median; matched-document contrasts compared the same endpoint without assuming matched assay conditions. No inferential pooling across assay types or conventional molecular docking was performed. Direct Kd observations were traced to the original kinase-binding study [97].",
+    "after": "We further resolved the PDGFRA and FLT4 records within the frozen ChEMBL extraction by endpoint, assay and source document. Direct dissociation constants (Kd), inhibition constants (Ki) and half-maximal inhibitory concentrations (IC50) were analysed separately. The original eligibility rules remained primary. A labelled assay-format sensitivity additionally admitted exact, validity-clean human single-protein records whose descriptions specified recombinant kinase assays but whose BioAssay Ontology format was recorded generically. Duplicate-flagged, nonquantitative kinetic and single-concentration inhibition records were retained in the disposition table and excluded from potency summaries. We reported every eligible concentration, observed range, document-balanced median and leave-one-document-out median; matched-document contrasts compared the same endpoint without assuming matched assay conditions. No inferential pooling across assay types or conventional molecular docking was performed. Direct Kd observations were traced to the original kinase-binding study [54]."
+  },
+  {
+    "before": "The clinical-network feature for target t was Nt=Σc(dtcZtc)/Σcdtc across available compartments, where detection d and null-adjusted proximity Z always came from the same compartment. This descriptive pooled feature was not subjected to a standard-normal Z test. Three archived features were unchanged: pharmacology combined maximum-pChEMBL percentile, median-pChEMBL percentile and source-confidence values with weights 0.55/0.25/0.20; HepG2 combined absolute dose-correlation and maximum-|z| percentiles with weights 0.60/0.40, multiplied by measurement reliability of 1.0/0.8/0.5 for landmark/best-inferred/other-inferred genes; STRING combined target-to-clinical-protein path-score and weighted-degree percentiles with weights 0.65/0.35 [54]. Exact definitions and the retained 227-edge STRING network are supplied in Extended Methods.",
+    "after": "The clinical-network feature for target t was Nt=Σc(dtcZtc)/Σcdtc across available compartments, where detection d and null-adjusted proximity Z always came from the same compartment. This descriptive pooled feature was not subjected to a standard-normal Z test. Three archived features were unchanged: pharmacology combined maximum-pChEMBL percentile, median-pChEMBL percentile and source-confidence values with weights 0.55/0.25/0.20; HepG2 combined absolute dose-correlation and maximum-|z| percentiles with weights 0.60/0.40, multiplied by measurement reliability of 1.0/0.8/0.5 for landmark/best-inferred/other-inferred genes; STRING combined target-to-clinical-protein path-score and weighted-degree percentiles with weights 0.65/0.35 [55]. Exact definitions and the retained 227-edge STRING network are supplied in Extended Methods."
+  },
+  {
+    "before": "The extension adopted perturbation-delta benchmarking and cell-context applicability principles from State [95] and explicit matrix and donor provenance from scBaseCount [96]. We retained the deposited normalized GSE115469 matrices and their five donor identifiers; no State checkpoint, scBaseCount-derived observations or new experimental perturbation data entered the analysis. Within the fixed hepatocyte, endothelial and macrophage gene universes, we reconstructed the original equal-donor Ledoit–Wolf positive top-20-neighbour graph with restart probability 0.5 and discovery DO-versus-HV clinical-protein weights. All incident edges were removed for PDGFRA, FLT4 or both targets, isolated nodes received self-loops, and the column-stochastic transition was rebuilt before propagation. The primary magnitude was the clinical-weighted absolute difference between intervened and baseline propagation scores divided by the weighted baseline score. The joint residual was the dual-intervention score minus both single-intervention scores plus the baseline. KDR and FGFR1 supplied comparator deletions; sham deletion and reapplication of the original graph checked numerical consistency. These operations change network proximity and do not estimate transcript abundance or biological rescue.",
+    "after": "The extension adopted perturbation-delta benchmarking and cell-context applicability principles from State [56] and explicit matrix and donor provenance from scBaseCount [57]. We retained the deposited normalized GSE115469 matrices and their five donor identifiers; no State checkpoint, scBaseCount-derived observations or new experimental perturbation data entered the analysis. Within the fixed hepatocyte, endothelial and macrophage gene universes, we reconstructed the original equal-donor Ledoit–Wolf positive top-20-neighbour graph with restart probability 0.5 and discovery DO-versus-HV clinical-protein weights. All incident edges were removed for PDGFRA, FLT4 or both targets, isolated nodes received self-loops, and the column-stochastic transition was rebuilt before propagation. The primary magnitude was the clinical-weighted absolute difference between intervened and baseline propagation scores divided by the weighted baseline score. The joint residual was the dual-intervention score minus both single-intervention scores plus the baseline. KDR and FGFR1 supplied comparator deletions; sham deletion and reapplication of the original graph checked numerical consistency. These operations change network proximity and do not estimate transcript abundance or biological rescue."
+  },
+  {
+    "before": "GSE125975 was withheld from candidate construction and algorithm selection. Its 22 distinct male C57BL/6J mice comprised three healthy controls, nine DEN/CCl4 disease controls and ten diseased animals receiving oral nintedanib 50 mg/kg; non-tumoral liver was collected at 17 weeks of age [55]. The source did not establish nintedanib-induced hepatotoxicity, and the dataset was not classified as DILI-positive. The independent evaluation design is shown in Fig. 7A.",
+    "after": "GSE125975 was withheld from candidate construction and algorithm selection. Its 22 distinct male C57BL/6J mice comprised three healthy controls, nine DEN/CCl4 disease controls and ten diseased animals receiving oral nintedanib 50 mg/kg; non-tumoral liver was collected at 17 weeks of age [58]. The source did not establish nintedanib-induced hepatotoxicity, and the dataset was not classified as DILI-positive. The independent evaluation design is shown in Fig. 7A."
+  },
+  {
+    "before": "Additional sources retained their actual experimental units. GSE120804 liver slices and GSE120679 lung slices originated from pooled rat tissue and supplied descriptive slice-level context [56, 57]. PXD024058 had conflicting biological/technical replicate descriptions and was analysed without inferential P values [58]. GSE151374 comprised 18 independently prepared single-cell libraries pooling three mice each; pool-level pseudobulk and exact 3-versus-3 tests, not cells, supplied inference [46]. PXD052594 included all 23 deposited lung proteomes (10 treated, 13 vehicle), without post-treatment radiomic selection; postrandomization attrition was retained as a limitation [47]. Its 7,006-protein and 20,043-phosphosite families were analysed separately. GSE299128 supplied 57 longitudinal blood samples from seven participants without adjudicated DILI; participant-specific slopes used all 128 sign assignments and 30-gene BH correction. Full eligibility, preprocessing, pooling, attrition and multiplicity details remain in Extended Methods.",
+    "after": "Additional sources retained their actual experimental units. GSE120804 liver slices and GSE120679 lung slices originated from pooled rat tissue and supplied descriptive slice-level context [59, 60]. PXD024058 had conflicting biological/technical replicate descriptions and was analysed without inferential P values [61]. GSE151374 comprised 18 independently prepared single-cell libraries pooling three mice each; pool-level pseudobulk and exact 3-versus-3 tests, not cells, supplied inference [46]. PXD052594 included all 23 deposited lung proteomes (10 treated, 13 vehicle), without post-treatment radiomic selection; postrandomization attrition was retained as a limitation [47]. Its 7,006-protein and 20,043-phosphosite families were analysed separately. GSE299128 supplied 57 longitudinal blood samples from seven participants without adjudicated DILI; participant-specific slopes used all 128 sign assignments and 30-gene BH correction. Full eligibility, preprocessing, pooling, attrition and multiplicity details remain in Extended Methods."
+  },
+  {
+    "before": "The frozen pharmacology set contained 11 quantitative records for the two priorities: seven for PDGFRA and four for FLT4. Direct binding measurements reported Kd values of 16 nM for PDGFRA and 95 nM for FLT4 in the same kinase-binding study [97], complementing the cellular-context ranking with measured receptor-binding evidence (Fig. 4A,B). PDGFRA IC50 values spanned 1.9–560 nM across five source documents, with a median of 18 nM; FLT4 IC50 values spanned 5–34 nM across three documents, with a median of 13 nM. A separate PDGFRA Ki was 8.4 nM. Thus, both receptors had submicromolar experimental pharmacological support, while direct affinity and inhibitory potency remained distinct endpoints.",
+    "after": "The frozen pharmacology set contained 11 quantitative records for the two priorities: seven for PDGFRA and four for FLT4. Direct binding measurements reported Kd values of 16 nM for PDGFRA and 95 nM for FLT4 in the same kinase-binding study [54], complementing the cellular-context ranking with measured receptor-binding evidence (Fig. 4A,B). PDGFRA IC50 values spanned 1.9–560 nM across five source documents, with a median of 18 nM; FLT4 IC50 values spanned 5–34 nM across three documents, with a median of 13 nM. A separate PDGFRA Ki was 8.4 nM. Thus, both receptors had submicromolar experimental pharmacological support, while direct affinity and inhibitory potency remained distinct endpoints."
+  },
+  {
+    "before": "We challenged the frozen priorities in GSE125975, an independent experiment containing 22 mouse non-tumor liver profiles: three healthy controls, nine disease controls, and ten nintedanib-treated animals [55] (Fig. 7B). The deposited matrix contained 13392 features. Nintedanib altered 92 at genome-wide q<0.05, including 73 with absolute log2 difference at least 0.5; Welch sensitivity analysis retained 13 discoveries. Disease versus healthy liver yielded 338 moderated-test discoveries, while treated versus healthy liver yielded 784, indicating an observable response without simple restoration to the healthy transcriptome (Fig. 7C,J).",
+    "after": "We challenged the frozen priorities in GSE125975, an independent experiment containing 22 mouse non-tumor liver profiles: three healthy controls, nine disease controls, and ten nintedanib-treated animals [58] (Fig. 7B). The deposited matrix contained 13392 features. Nintedanib altered 92 at genome-wide q<0.05, including 73 with absolute log2 difference at least 0.5; Welch sensitivity analysis retained 13 discoveries. Disease versus healthy liver yielded 338 moderated-test discoveries, while treated versus healthy liver yielded 784, indicating an observable response without simple restoration to the healthy transcriptome (Fig. 7C,J)."
+  },
+  {
+    "before": "The Kdr response was concordant with reduced VEGFR2 phosphorylation and downstream AKT/ERK signaling reported in the same source experiment [55]. Together, the transcript and biochemical measurements from this source support use of the VEGFR arm as a hepatic pharmacodynamic comparator. The individual-animal profiles illustrate receptor-specific responses (Fig. 7E–G): Fgfr1 was essentially unchanged (log2 difference 0.0242; genome-wide q=0.9589), and no prespecified module passed exact-permutation correction (Fig. 7I). Of 297 disease-associated features meeting both statistical and effect thresholds, 51.2% changed oppositely under treatment; disjoint disease-reference analysis reduced median reversal to 46.0%, with median disease–treatment correlation 0.149 (Fig. 7K,L).",
+    "after": "The Kdr response was concordant with reduced VEGFR2 phosphorylation and downstream AKT/ERK signaling reported in the same source experiment [58]. Together, the transcript and biochemical measurements from this source support use of the VEGFR arm as a hepatic pharmacodynamic comparator. The individual-animal profiles illustrate receptor-specific responses (Fig. 7E–G): Fgfr1 was essentially unchanged (log2 difference 0.0242; genome-wide q=0.9589), and no prespecified module passed exact-permutation correction (Fig. 7I). Of 297 disease-associated features meeting both statistical and effect thresholds, 51.2% changed oppositely under treatment; disjoint disease-reference analysis reduced median reversal to 46.0%, with median disease–treatment correlation 0.149 (Fig. 7K,L)."
+  },
+  {
+    "before": "The clinical proteome gives that question a measurable endpoint. Changes in intermediary-metabolism, nitrogen-handling, and detoxification proteins provide a more specific experimental phenotype than a generic injury gene list. This interpretation fits the development of mechanistic biomarkers and the need to qualify them for a particular clinical use [31, 59, 60]. FBP1 is especially informative because its direction depends on the comparator: higher in DILI than in health, but lower than in acute non-drug injury. Our reanalysis extends the interpretation of this source-reported candidate [30] by using its etiologic contrast to guide receptor screening within a broader human injury-protein phenotype. Measuring intracellular FBP1 activity together with extracellular release and viability is necessary to distinguish metabolic regulation from cell damage, altered clearance, or tissue loss.",
+    "after": "The clinical proteome gives that question a measurable endpoint. Changes in intermediary-metabolism, nitrogen-handling, and detoxification proteins provide a more specific experimental phenotype than a generic injury gene list. This interpretation fits the development of mechanistic biomarkers and the need to qualify them for a particular clinical use [31, 62, 63]. FBP1 is especially informative because its direction depends on the comparator: higher in DILI than in health, but lower than in acute non-drug injury. Our reanalysis extends the interpretation of this source-reported candidate [30] by using its etiologic contrast to guide receptor screening within a broader human injury-protein phenotype. Measuring intracellular FBP1 activity together with extracellular release and viability is necessary to distinguish metabolic regulation from cell damage, altered clearance, or tissue loss."
+  },
+  {
+    "before": "The relationship between receptor activity, transcription, and protein release determines the measurements needed to test these candidates. Kinase inhibition can change phosphorylation without changing receptor transcript abundance; extracellular injury-protein concentrations can rise without increased intracellular transcription. Accordingly, the assays should resolve the sequence linking receptor engagement, cellular response, and injury-protein release. LINCS and chemical single-cell transcriptomics provide exposure-response information [34, 35] that can guide the design of primary multicellular hepatic experiments. The cellular separation between endothelial receptor expression and hepatocellular injury proteins gives a plausible setting in which to investigate such interactions. Liver atlases and fibrotic-niche studies support the relevance of this organization [32, 61] and motivate compartment-resolved testing of candidate intercellular mediators.",
+    "after": "The relationship between receptor activity, transcription, and protein release determines the measurements needed to test these candidates. Kinase inhibition can change phosphorylation without changing receptor transcript abundance; extracellular injury-protein concentrations can rise without increased intracellular transcription. Accordingly, the assays should resolve the sequence linking receptor engagement, cellular response, and injury-protein release. LINCS and chemical single-cell transcriptomics provide exposure-response information [34, 35] that can guide the design of primary multicellular hepatic experiments. The cellular separation between endothelial receptor expression and hepatocellular injury proteins gives a plausible setting in which to investigate such interactions. Liver atlases and fibrotic-niche studies support the relevance of this organization [32, 64] and motivate compartment-resolved testing of candidate intercellular mediators."
+  },
+  {
+    "before": "The revised network analysis connects receptor selection to a clinically weighted injury phenotype within a donor-balanced liver reference. Covariance shrinkage, random walk with restart, and rank aggregation are established methods [39, 40, 41, 42, 43]; their value here arises from combining them with continuous human protein effects, numerical and expression checks, actual donor-omission reconstruction, and matched-background calibration. These steps address different sources of instability before experimental resources are committed. Seed decomposition and compartment-specific detection further indicate where an apparent connection needs targeted biological sampling. This clinically specified and auditable integration complements the broader effort to benchmark inferred networks and perturbation responses against appropriate baselines [36, 37, 38, 62].",
+    "after": "The revised network analysis connects receptor selection to a clinically weighted injury phenotype within a donor-balanced liver reference. Covariance shrinkage, random walk with restart, and rank aggregation are established methods [39, 40, 41, 42, 43]; their value here arises from combining them with continuous human protein effects, numerical and expression checks, actual donor-omission reconstruction, and matched-background calibration. These steps address different sources of instability before experimental resources are committed. Seed decomposition and compartment-specific detection further indicate where an apparent connection needs targeted biological sampling. This clinically specified and auditable integration complements the broader effort to benchmark inferred networks and perturbation responses against appropriate baselines [36, 37, 38, 65]."
+  },
+  {
+    "before": "The endpoint-resolved pharmacology adds a direct biochemical basis for this experimental choice: both receptors have measured nanomolar binding affinity, alongside inhibitory activity across multiple source documents. Assay-dependent relative potency argues for measuring occupancy or proximal receptor phosphorylation at the same intracellular nintedanib exposure in the selected hepatic systems. The virtual-intervention extension then asks a different question—how changing each receptor node alters the clinically weighted network. Its calibrated results support neither a synergistic interaction nor a directional PDGFRA–FLT4 regulatory relationship. State emphasizes evaluation against held-out measured perturbations within the model’s supported intervention domain [95], while scBaseCount provides principles for improving reference-cell provenance and coverage [96]. Together, these considerations focus the next validation on target-expressing hepatic contexts and experimentally measured perturbation responses.",
+    "after": "The endpoint-resolved pharmacology adds a direct biochemical basis for this experimental choice: both receptors have measured nanomolar binding affinity, alongside inhibitory activity across multiple source documents. Assay-dependent relative potency argues for measuring occupancy or proximal receptor phosphorylation at the same intracellular nintedanib exposure in the selected hepatic systems. The virtual-intervention extension then asks a different question—how changing each receptor node alters the clinically weighted network. Its calibrated results support neither a synergistic interaction nor a directional PDGFRA–FLT4 regulatory relationship. State emphasizes evaluation against held-out measured perturbations within the model’s supported intervention domain [56], while scBaseCount provides principles for improving reference-cell provenance and coverage [57]. Together, these considerations focus the next validation on target-expressing hepatic contexts and experimentally measured perturbation responses."
+  },
+  {
+    "before": "Independent liver exposure adds KDR as a pharmacodynamic comparator to this experimental strategy. The candidate-family Kdr decrease and reduced VEGFR2 phosphorylation reported in the same source experiment indicate hepatic responsiveness of nintedanib's VEGFR arm [55]. Measuring this comparator alongside PDGFRA and FLT4 can help separate effective hepatic drug engagement from changes in injury-protein release. Angiocrine control of liver regeneration and recent endothelial FGF1–hepatocyte FGFR4 work provide examples of intercellular metabolic regulation that inform assay design [63, 64]. Receptor activity, mediator release, and hepatocyte metabolic function should therefore be resolved over time in the same exposure-controlled system.",
+    "after": "Independent liver exposure adds KDR as a pharmacodynamic comparator to this experimental strategy. The candidate-family Kdr decrease and reduced VEGFR2 phosphorylation reported in the same source experiment indicate hepatic responsiveness of nintedanib's VEGFR arm [58]. Measuring this comparator alongside PDGFRA and FLT4 can help separate effective hepatic drug engagement from changes in injury-protein release. Angiocrine control of liver regeneration and recent endothelial FGF1–hepatocyte FGFR4 work provide examples of intercellular metabolic regulation that inform assay design [66, 67]. Receptor activity, mediator release, and hepatocyte metabolic function should therefore be resolved over time in the same exposure-controlled system."
+  },
+  {
+    "before": "FGFR1 supplies an additional comparator for compartment-specific testing. Its context-dependent biology includes vascular-niche fibrosis, hepatocyte detoxification during regeneration, and macrophage inflammatory regulation [65, 66, 67]. Testing it alongside PDGFRA and FLT4 would directly examine whether the revised experimental priorities better capture the relevant injury response. Increased metabolic transcripts in nintedanib-exposed liver slices and reported antifibrotic effects in experimental liver disease further indicate that tissue state should be incorporated into the design [56, 68, 69]. Parallel uninjured and disease-conditioned hepatic systems, with intracellular drug quantification, can distinguish altered drug disposition from improved cellular tolerance at comparable exposure.",
+    "after": "FGFR1 supplies an additional comparator for compartment-specific testing. Its context-dependent biology includes vascular-niche fibrosis, hepatocyte detoxification during regeneration, and macrophage inflammatory regulation [68, 69, 70]. Testing it alongside PDGFRA and FLT4 would directly examine whether the revised experimental priorities better capture the relevant injury response. Increased metabolic transcripts in nintedanib-exposed liver slices and reported antifibrotic effects in experimental liver disease further indicate that tissue state should be incorporated into the design [59, 71, 72]. Parallel uninjured and disease-conditioned hepatic systems, with intracellular drug quantification, can distinguish altered drug disposition from improved cellular tolerance at comparable exposure."
+  },
+  {
+    "before": "Pulmonary preservation completes this experimental logic. The responsive rat contrasts and the weaker mouse response show why a liver-sparing intervention should first be assessed in a pulmonary system with demonstrated drug activity and then challenged in another model [44, 45]. Animal-level permutation and disjoint-reference analyses also show why a large negative disease–treatment correlation is insufficient evidence of restoration. Cell and protein datasets add tests of generalization while retaining their pool or animal denominators [46, 47]. The decisive outcome is preserved suppression of fibroblast activation, matrix production, and functional or histological fibrosis at an exposure that reduces hepatic injury. Efforts to separate pulmonary delivery from systemic exposure emphasize the clinical value of this objective [70, 71].",
+    "after": "Pulmonary preservation completes this experimental logic. The responsive rat contrasts and the weaker mouse response show why a liver-sparing intervention should first be assessed in a pulmonary system with demonstrated drug activity and then challenged in another model [44, 45]. Animal-level permutation and disjoint-reference analyses also show why a large negative disease–treatment correlation is insufficient evidence of restoration. Cell and protein datasets add tests of generalization while retaining their pool or animal denominators [46, 47]. The decisive outcome is preserved suppression of fibroblast activation, matrix production, and functional or histological fibrosis at an exposure that reduces hepatic injury. Efforts to separate pulmonary delivery from systemic exposure emphasize the clinical value of this objective [73, 74]."
+  },
+  {
+    "before": "The next study should implement donor-replicated hepatic perturbation of PDGFRA and FLT4, with KDR and FGFR1 comparators, and measure receptor activity, candidate secreted mediators, intracellular metabolism, and extracellular FBP1, GSTA1, and OTC together. Reciprocal rescue should follow an exposure-controlled injury effect. Parent nintedanib, BIBF 1202, and relevant downstream metabolites should be quantified to distinguish disposition from cellular tolerance [28, 29]. Prospective clinical sampling can then connect serial injury proteins and pharmacokinetics to adjudicated liver-test changes and pulmonary response. Existing circulating-biomarker studies support the feasibility of serial assessment [72, 73]. New spatial transcriptomic and protein atlases can refine localization and guide selection of the definitive cellular system [74, 75].",
+    "after": "The next study should implement donor-replicated hepatic perturbation of PDGFRA and FLT4, with KDR and FGFR1 comparators, and measure receptor activity, candidate secreted mediators, intracellular metabolism, and extracellular FBP1, GSTA1, and OTC together. Reciprocal rescue should follow an exposure-controlled injury effect. Parent nintedanib, BIBF 1202, and relevant downstream metabolites should be quantified to distinguish disposition from cellular tolerance [28, 29]. Prospective clinical sampling can then connect serial injury proteins and pharmacokinetics to adjudicated liver-test changes and pulmonary response. Existing circulating-biomarker studies support the feasibility of serial assessment [75, 76]. New spatial transcriptomic and protein atlases can refine localization and guide selection of the definitive cellular system [77, 78]."
+  },
+  {
+    "before": "ChEMBL; LINCS [76]",
+    "after": "ChEMBL; LINCS [79]"
+  },
+  {
+    "before": "openFDA [77]",
+    "after": "openFDA [80]"
+  },
+  {
+    "before": "US FDA/openFDA [77]",
+    "after": "US FDA/openFDA [80]"
+  },
+  {
+    "before": "Gene Expression Omnibus [78]",
+    "after": "Gene Expression Omnibus [81]"
+  },
+  {
+    "before": "Harmonizome [79]",
+    "after": "Harmonizome [82]"
+  },
+  {
+    "before": "Gene Expression Omnibus [80]",
+    "after": "Gene Expression Omnibus [83]"
+  },
+  {
+    "before": "Gene Expression Omnibus [81]",
+    "after": "Gene Expression Omnibus [84]"
+  },
+  {
+    "before": "Gene Expression Omnibus [82]",
+    "after": "Gene Expression Omnibus [85]"
+  },
+  {
+    "before": "Gene Expression Omnibus [83]",
+    "after": "Gene Expression Omnibus [86]"
+  },
+  {
+    "before": "GEO; NCBI BioProject [84, 85]",
+    "after": "GEO; NCBI BioProject [87, 88]"
+  },
+  {
+    "before": "Gene Expression Omnibus [86, 87]",
+    "after": "Gene Expression Omnibus [89, 90]"
+  },
+  {
+    "before": "PRIDE/ProteomeXchange [88]",
+    "after": "PRIDE/ProteomeXchange [91]"
+  },
+  {
+    "before": "PRIDE; Zenodo [89, 90]",
+    "after": "PRIDE; Zenodo [92, 93]"
+  },
+  {
+    "before": "Gene Expression Omnibus [91]",
+    "after": "Gene Expression Omnibus [94]"
+  },
+  {
+    "before": "DDBJ BioProject [92]",
+    "after": "DDBJ BioProject [95]"
+  },
+  {
+    "before": "ChEMBL [93]",
+    "after": "ChEMBL [96]"
+  },
+  {
+    "before": "STRING [94]",
+    "after": "STRING [97]"
+  },
+  {
+    "before": "openFDA drug/event API; release updated 30 July 2026 [77]",
+    "after": "openFDA drug/event API; release updated 30 July 2026 [80]"
+  },
+  {
+    "before": "GEO GSE70138; official supplementary directory [78]",
+    "after": "GEO GSE70138; official supplementary directory [81]"
+  },
+  {
+    "before": "ChEMBL activity API [76, 93]",
+    "after": "ChEMBL activity API [79, 96]"
+  },
+  {
+    "before": "Harmonizome Sci-Plex gene sets MCF7_Nintedanib_1µM_24h and MCF7_Nintedanib_10µM_24h [79]",
+    "after": "Harmonizome Sci-Plex gene sets MCF7_Nintedanib_1µM_24h and MCF7_Nintedanib_10µM_24h [82]"
+  },
+  {
+    "before": "GEO GSE115469 [80]",
+    "after": "GEO GSE115469 [83]"
+  },
+  {
+    "before": "STRING API [94]",
+    "after": "STRING API [97]"
+  },
+  {
+    "before": "GEO GSE278200 [82]",
+    "after": "GEO GSE278200 [85]"
+  },
+  {
+    "before": "GEO GSE308578 [83]",
+    "after": "GEO GSE308578 [86]"
+  },
+  {
+    "before": "GEO GSE151374; BioProject PRJNA635636 [84, 85]",
+    "after": "GEO GSE151374; BioProject PRJNA635636 [87, 88]"
+  },
+  {
+    "before": "DDBJ DRA012991 / PRJDB12477 [92]",
+    "after": "DDBJ DRA012991 / PRJDB12477 [95]"
+  },
+  {
+    "before": "GEO GSE120804; GEO GSE120679 [86, 87]",
+    "after": "GEO GSE120804; GEO GSE120679 [89, 90]"
+  },
+  {
+    "before": "PRIDE PXD024058 [88]",
+    "after": "PRIDE PXD024058 [91]"
+  },
+  {
+    "before": "PRIDE PXD052594; Zenodo record 11395642 [89, 90]",
+    "after": "PRIDE PXD052594; Zenodo record 11395642 [92, 93]"
+  },
+  {
+    "before": "GEO GSE299128 [91]",
+    "after": "GEO GSE299128 [94]"
+  },
+  {
+    "before": "GEO GSE125975 [81]",
+    "after": "GEO GSE125975 [84]"
+  },
+  {
+    "before": "97. Davis MI, Hunt JP, Herrgard S, Ciceri P, Wodicka LM, Pallares G, et al. Comprehensive analysis of kinase inhibitor selectivity. Nat Biotechnol. 2011;29:1046-1051. https://doi.org/10.1038/nbt.1990.",
+    "after": "54. Davis MI, Hunt JP, Herrgard S, Ciceri P, Wodicka LM, Pallares G, et al. Comprehensive analysis of kinase inhibitor selectivity. Nat Biotechnol. 2011;29:1046-1051. https://doi.org/10.1038/nbt.1990."
+  },
+  {
+    "before": "54. Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, et al. The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. Nucleic Acids Res. 2023;51:D638-D646. https://doi.org/10.1093/nar/gkac1000.",
+    "after": "55. Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, et al. The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. Nucleic Acids Res. 2023;51:D638-D646. https://doi.org/10.1093/nar/gkac1000."
+  },
+  {
+    "before": "95. Adduri AK, Gautam D, Bevilacqua B, Naghipourfar M, Imran A, Shah R, et al. Predicting cellular responses to perturbation across diverse contexts with State. Cell. 2026;189:5914-5931. https://doi.org/10.1016/j.cell.2026.07.052.",
+    "after": "56. Adduri AK, Gautam D, Bevilacqua B, Naghipourfar M, Imran A, Shah R, et al. Predicting cellular responses to perturbation across diverse contexts with State. Cell. 2026;189:5914-5931. https://doi.org/10.1016/j.cell.2026.07.052."
+  },
+  {
+    "before": "96. Youngblut ND, Carpenter C, Nayebnazar A, Adduri A, Shah R, Ricci-Tam C, et al. scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository. Cell. 2026;189:5932-5944. https://doi.org/10.1016/j.cell.2026.08.025.",
+    "after": "57. Youngblut ND, Carpenter C, Nayebnazar A, Adduri A, Shah R, Ricci-Tam C, et al. scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository. Cell. 2026;189:5932-5944. https://doi.org/10.1016/j.cell.2026.08.025."
+  },
+  {
+    "before": "55. Moeini A, Torrecilla S, Tovar V, Montironi C, Andreu-Oller C, Peix J, et al. An Immune Gene Expression Signature Associated With Development of Human Hepatocellular Carcinoma Identifies Mice That Respond to Chemopreventive Agents. Gastroenterology. 2019;157:1383-1397.e11. https://doi.org/10.1053/j.gastro.2019.07.028.",
+    "after": "58. Moeini A, Torrecilla S, Tovar V, Montironi C, Andreu-Oller C, Peix J, et al. An Immune Gene Expression Signature Associated With Development of Human Hepatocellular Carcinoma Identifies Mice That Respond to Chemopreventive Agents. Gastroenterology. 2019;157:1383-1397.e11. https://doi.org/10.1053/j.gastro.2019.07.028."
+  },
+  {
+    "before": "56. Huang X, Cai H, Ammar R, Zhang Y, Wang Y, Ravi K, et al. Molecular characterization of a precision-cut rat liver slice model for the evaluation of antifibrotic compounds. Am J Physiol Gastrointest Liver Physiol. 2019;316:G15-G24. https://doi.org/10.1152/ajpgi.00281.2018.",
+    "after": "59. Huang X, Cai H, Ammar R, Zhang Y, Wang Y, Ravi K, et al. Molecular characterization of a precision-cut rat liver slice model for the evaluation of antifibrotic compounds. Am J Physiol Gastrointest Liver Physiol. 2019;316:G15-G24. https://doi.org/10.1152/ajpgi.00281.2018."
+  },
+  {
+    "before": "57. Huang X, Li L, Ammar R, Zhang Y, Wang Y, Ravi K, et al. Molecular characterization of a precision-cut rat lung slice model for the evaluation of antifibrotic drugs. Am J Physiol Lung Cell Mol Physiol. 2019;316:L348-L357. https://doi.org/10.1152/ajplung.00339.2018.",
+    "after": "60. Huang X, Li L, Ammar R, Zhang Y, Wang Y, Ravi K, et al. Molecular characterization of a precision-cut rat lung slice model for the evaluation of antifibrotic drugs. Am J Physiol Lung Cell Mol Physiol. 2019;316:L348-L357. https://doi.org/10.1152/ajplung.00339.2018."
+  },
+  {
+    "before": "58. Zhang L, Qu S, Wang L, Wang C, Yu Q, Zhang Z, et al. Tianlongkechuanling Inhibits Pulmonary Fibrosis Through Down-Regulation of Arginase-Ornithine Pathway. Front Pharmacol. 2021;12:661129. https://doi.org/10.3389/fphar.2021.661129.",
+    "after": "61. Zhang L, Qu S, Wang L, Wang C, Yu Q, Zhang Z, et al. Tianlongkechuanling Inhibits Pulmonary Fibrosis Through Down-Regulation of Arginase-Ornithine Pathway. Front Pharmacol. 2021;12:661129. https://doi.org/10.3389/fphar.2021.661129."
+  },
+  {
+    "before": "59. Kullak-Ublick GA, Andrade RJ, Merz M, End P, Benesic A, Gerbes AL, et al. Drug-induced liver injury: recent advances in diagnosis and risk assessment. Gut. 2017;66:1154-1164. https://doi.org/10.1136/gutjnl-2016-313369.",
+    "after": "62. Kullak-Ublick GA, Andrade RJ, Merz M, End P, Benesic A, Gerbes AL, et al. Drug-induced liver injury: recent advances in diagnosis and risk assessment. Gut. 2017;66:1154-1164. https://doi.org/10.1136/gutjnl-2016-313369."
+  },
+  {
+    "before": "60. Weaver RJ, Blomme EA, Chadwick AE, Copple IM, Gerets HHJ, Goldring CE, et al. Managing the challenge of drug-induced liver injury: a roadmap for the development and deployment of preclinical predictive models. Nat Rev Drug Discov. 2020;19:131-148. https://doi.org/10.1038/s41573-019-0048-x.",
+    "after": "63. Weaver RJ, Blomme EA, Chadwick AE, Copple IM, Gerets HHJ, Goldring CE, et al. Managing the challenge of drug-induced liver injury: a roadmap for the development and deployment of preclinical predictive models. Nat Rev Drug Discov. 2020;19:131-148. https://doi.org/10.1038/s41573-019-0048-x."
+  },
+  {
+    "before": "61. Ramachandran P, Dobie R, Wilson-Kanamori JR, Dora EF, Henderson BEP, Luu NT, et al. Resolving the fibrotic niche of human liver cirrhosis at single-cell level. Nature. 2019;575:512-518. https://doi.org/10.1038/s41586-019-1631-3.",
+    "after": "64. Ramachandran P, Dobie R, Wilson-Kanamori JR, Dora EF, Henderson BEP, Luu NT, et al. Resolving the fibrotic niche of human liver cirrhosis at single-cell level. Nature. 2019;575:512-518. https://doi.org/10.1038/s41586-019-1631-3."
+  },
+  {
+    "before": "62. Chevalley M, Roohani YH, Mehrjou A, Leskovec J, Schwab P. A large-scale benchmark for network inference from single-cell perturbation data. Commun Biol. 2025;8:412. https://doi.org/10.1038/s42003-025-07764-y.",
+    "after": "65. Chevalley M, Roohani YH, Mehrjou A, Leskovec J, Schwab P. A large-scale benchmark for network inference from single-cell perturbation data. Commun Biol. 2025;8:412. https://doi.org/10.1038/s42003-025-07764-y."
+  },
+  {
+    "before": "63. Ding BS, Nolan DJ, Butler JM, James D, Babazadeh AO, Rosenwaks Z, et al. Inductive angiocrine signals from sinusoidal endothelium are required for liver regeneration. Nature. 2010;468:310-315. https://doi.org/10.1038/nature09493.",
+    "after": "66. Ding BS, Nolan DJ, Butler JM, James D, Babazadeh AO, Rosenwaks Z, et al. Inductive angiocrine signals from sinusoidal endothelium are required for liver regeneration. Nature. 2010;468:310-315. https://doi.org/10.1038/nature09493."
+  },
+  {
+    "before": "64. Fang Z, Che B, Ling Y, Liu P, Liu J, Song P, et al. Liver endothelial zonation orchestrates hepatic steatosis onset through retinoic acid-regulated FGF1. Sci Adv. 2026;12:eaed4384. https://doi.org/10.1126/sciadv.aed4384.",
+    "after": "67. Fang Z, Che B, Ling Y, Liu P, Liu J, Song P, et al. Liver endothelial zonation orchestrates hepatic steatosis onset through retinoic acid-regulated FGF1. Sci Adv. 2026;12:eaed4384. https://doi.org/10.1126/sciadv.aed4384."
+  },
+  {
+    "before": "65. Ding BS, Cao Z, Lis R, Nolan DJ, Guo P, Simons M, et al. Divergent angiocrine signals from vascular niche balance liver regeneration and fibrosis. Nature. 2014;505:97-102. https://doi.org/10.1038/nature12681.",
+    "after": "68. Ding BS, Cao Z, Lis R, Nolan DJ, Guo P, Simons M, et al. Divergent angiocrine signals from vascular niche balance liver regeneration and fibrosis. Nature. 2014;505:97-102. https://doi.org/10.1038/nature12681."
+  },
+  {
+    "before": "66. Böhm F, Speicher T, Hellerbrand C, Dickson C, Partanen JM, Ornitz DM, et al. FGF receptors 1 and 2 control chemically induced injury and compound detoxification in regenerating livers of mice. Gastroenterology. 2010;139:1385-1396. https://doi.org/10.1053/j.gastro.2010.06.069.",
+    "after": "69. Böhm F, Speicher T, Hellerbrand C, Dickson C, Partanen JM, Ornitz DM, et al. FGF receptors 1 and 2 control chemically induced injury and compound detoxification in regenerating livers of mice. Gastroenterology. 2010;139:1385-1396. https://doi.org/10.1053/j.gastro.2010.06.069."
+  },
+  {
+    "before": "67. Zhao YN, Liu ZD, Yan T, Xu TX, Jin TY, Jiang YS, et al. Macrophage-specific FGFR1 deletion alleviates high-fat-diet-induced liver inflammation by inhibiting the MAPKs/TNF pathways. Acta Pharmacol Sin. 2024;45:988-1001. https://doi.org/10.1038/s41401-024-01226-7.",
+    "after": "70. Zhao YN, Liu ZD, Yan T, Xu TX, Jin TY, Jiang YS, et al. Macrophage-specific FGFR1 deletion alleviates high-fat-diet-induced liver inflammation by inhibiting the MAPKs/TNF pathways. Acta Pharmacol Sin. 2024;45:988-1001. https://doi.org/10.1038/s41401-024-01226-7."
+  },
+  {
+    "before": "68. Wollin L, Togbe D, Ryffel B. Effects of nintedanib in an animal model of liver fibrosis. Biomed Res Int. 2020;2020:3867198. https://doi.org/10.1155/2020/3867198.",
+    "after": "71. Wollin L, Togbe D, Ryffel B. Effects of nintedanib in an animal model of liver fibrosis. Biomed Res Int. 2020;2020:3867198. https://doi.org/10.1155/2020/3867198."
+  },
+  {
+    "before": "69. Wu YT, Li QZ, Wu YQ, Mu M, Wu H, Tian HY, et al. Nintedanib attenuates NLRP3 inflammasome-driven liver fibrosis by targeting Src signaling. Int Immunopharmacol. 2024;143:113630. https://doi.org/10.1016/j.intimp.2024.113630.",
+    "after": "72. Wu YT, Li QZ, Wu YQ, Mu M, Wu H, Tian HY, et al. Nintedanib attenuates NLRP3 inflammasome-driven liver fibrosis by targeting Src signaling. Int Immunopharmacol. 2024;143:113630. https://doi.org/10.1016/j.intimp.2024.113630."
+  },
+  {
+    "before": "70. Mu X, Zeng C, Liu H, Sun X, Cao Y, Wu M, et al. Decoupling efficacy from toxicity: Inhalable liposomal nintedanib for safe and effective treatment of pulmonary fibrosis. Eur J Pharm Biopharm. 2026;224:115097. https://doi.org/10.1016/j.ejpb.2026.115097.",
+    "after": "73. Mu X, Zeng C, Liu H, Sun X, Cao Y, Wu M, et al. Decoupling efficacy from toxicity: Inhalable liposomal nintedanib for safe and effective treatment of pulmonary fibrosis. Eur J Pharm Biopharm. 2026;224:115097. https://doi.org/10.1016/j.ejpb.2026.115097."
+  },
+  {
+    "before": "71. Fares WH, Castagna M. Safety and Pharmacokinetic Data for Inhaled Administration of Nintedanib Dry Powder Inhalation for Treatment of Pulmonary Fibrotic Diseases. J Aerosol Med Pulm Drug Deliv. 2026;39:185-197. https://doi.org/10.1177/19412711251414386.",
+    "after": "74. Fares WH, Castagna M. Safety and Pharmacokinetic Data for Inhaled Administration of Nintedanib Dry Powder Inhalation for Treatment of Pulmonary Fibrotic Diseases. J Aerosol Med Pulm Drug Deliv. 2026;39:185-197. https://doi.org/10.1177/19412711251414386."
+  },
+  {
+    "before": "72. Miceli V, Callari A, Calzolari E, Castelbuono S, Carcione C, Lanzarone N, et al. Circulating biomarkers in patients with progressive fibrosing interstitial lung disease treated with nintedanib: a pilot study. Sci Rep. 2025;15:27115. https://doi.org/10.1038/s41598-025-12952-1.",
+    "after": "75. Miceli V, Callari A, Calzolari E, Castelbuono S, Carcione C, Lanzarone N, et al. Circulating biomarkers in patients with progressive fibrosing interstitial lung disease treated with nintedanib: a pilot study. Sci Rep. 2025;15:27115. https://doi.org/10.1038/s41598-025-12952-1."
+  },
+  {
+    "before": "73. Maher TM, Jenkins RG, Bonella F, Assassi S, Diefenbach C, Ittrich C, et al. Circulating biomarkers in subjects with progressive pulmonary fibrosis: data from the INBUILD trial. ERJ Open Res. 2026;12:00158-2025. https://doi.org/10.1183/23120541.00158-2025.",
+    "after": "76. Maher TM, Jenkins RG, Bonella F, Assassi S, Diefenbach C, Ittrich C, et al. Circulating biomarkers in subjects with progressive pulmonary fibrosis: data from the INBUILD trial. ERJ Open Res. 2026;12:00158-2025. https://doi.org/10.1183/23120541.00158-2025."
+  },
+  {
+    "before": "74. Yakubovsky O, Bahar Halpern K, Shir S, Novoselsky R, Afriat A, Egozi A, et al. A spatial atlas of the healthy human liver from live donors. Nature. 2026;653:1148-1157. https://doi.org/10.1038/s41586-026-10377-y.",
+    "after": "77. Yakubovsky O, Bahar Halpern K, Shir S, Novoselsky R, Afriat A, Egozi A, et al. A spatial atlas of the healthy human liver from live donors. Nature. 2026;653:1148-1157. https://doi.org/10.1038/s41586-026-10377-y."
+  },
+  {
+    "before": "75. Weiss CAM, Brown LA, Miranda L, Pellizzoni P, Steigerwald S, Remmert K, et al. Single-cell spatial proteomics maps human liver zonation patterns and their vulnerability to disruption in tissue architecture. Nat Metab. 2026;8:741-756. https://doi.org/10.1038/s42255-026-01459-2.",
+    "after": "78. Weiss CAM, Brown LA, Miranda L, Pellizzoni P, Steigerwald S, Remmert K, et al. Single-cell spatial proteomics maps human liver zonation patterns and their vulnerability to disruption in tissue architecture. Nat Metab. 2026;8:741-756. https://doi.org/10.1038/s42255-026-01459-2."
+  },
+  {
+    "before": "76. EMBL-European Bioinformatics Institute. ChEMBL: nintedanib (CHEMBL502835). https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL502835. Accessed 4 Sep 2026.",
+    "after": "79. EMBL-European Bioinformatics Institute. ChEMBL: nintedanib (CHEMBL502835). https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL502835. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "77. U.S. Food and Drug Administration. openFDA drug adverse event API. Release updated 30 July 2026. https://api.fda.gov/drug/event.json. Accessed 4 Sep 2026.",
+    "after": "80. U.S. Food and Drug Administration. openFDA drug adverse event API. Release updated 30 July 2026. https://api.fda.gov/drug/event.json. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "78. National Center for Biotechnology Information. Gene Expression Omnibus: GSE70138 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138. Accessed 4 Sep 2026.",
+    "after": "81. National Center for Biotechnology Information. Gene Expression Omnibus: GSE70138 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "79. Ma’ayan Laboratory. Harmonizome: Sci-Plex chemical perturbation gene sets. https://maayanlab.cloud/Harmonizome/. Accessed 4 Sep 2026.",
+    "after": "82. Ma’ayan Laboratory. Harmonizome: Sci-Plex chemical perturbation gene sets. https://maayanlab.cloud/Harmonizome/. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "80. National Center for Biotechnology Information. Gene Expression Omnibus: GSE115469 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469. Accessed 4 Sep 2026.",
+    "after": "83. National Center for Biotechnology Information. Gene Expression Omnibus: GSE115469 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "81. National Center for Biotechnology Information. Gene Expression Omnibus: GSE125975 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125975. Accessed 19 Sep 2026.",
+    "after": "84. National Center for Biotechnology Information. Gene Expression Omnibus: GSE125975 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125975. Accessed 19 Sep 2026."
+  },
+  {
+    "before": "82. National Center for Biotechnology Information. Gene Expression Omnibus: GSE278200 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278200. Accessed 4 Sep 2026.",
+    "after": "85. National Center for Biotechnology Information. Gene Expression Omnibus: GSE278200 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278200. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "83. National Center for Biotechnology Information. Gene Expression Omnibus: GSE308578 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE308578. Accessed 4 Sep 2026.",
+    "after": "86. National Center for Biotechnology Information. Gene Expression Omnibus: GSE308578 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE308578. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "84. National Center for Biotechnology Information. Gene Expression Omnibus: GSE151374 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151374. Accessed 4 Sep 2026.",
+    "after": "87. National Center for Biotechnology Information. Gene Expression Omnibus: GSE151374 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151374. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "85. National Center for Biotechnology Information. BioProject: PRJNA635636 [dataset]. https://www.ncbi.nlm.nih.gov/bioproject/PRJNA635636. Accessed 4 Sep 2026.",
+    "after": "88. National Center for Biotechnology Information. BioProject: PRJNA635636 [dataset]. https://www.ncbi.nlm.nih.gov/bioproject/PRJNA635636. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "86. National Center for Biotechnology Information. Gene Expression Omnibus: GSE120804 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120804. Accessed 4 Sep 2026.",
+    "after": "89. National Center for Biotechnology Information. Gene Expression Omnibus: GSE120804 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120804. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "87. National Center for Biotechnology Information. Gene Expression Omnibus: GSE120679 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120679. Accessed 4 Sep 2026.",
+    "after": "90. National Center for Biotechnology Information. Gene Expression Omnibus: GSE120679 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120679. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "88. EMBL-European Bioinformatics Institute. PRIDE Archive: PXD024058 [dataset]. https://www.ebi.ac.uk/pride/archive/projects/PXD024058. Accessed 4 Sep 2026.",
+    "after": "91. EMBL-European Bioinformatics Institute. PRIDE Archive: PXD024058 [dataset]. https://www.ebi.ac.uk/pride/archive/projects/PXD024058. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "89. EMBL-European Bioinformatics Institute. PRIDE Archive: PXD052594 [dataset]. https://www.ebi.ac.uk/pride/archive/projects/PXD052594. Accessed 4 Sep 2026.",
+    "after": "92. EMBL-European Bioinformatics Institute. PRIDE Archive: PXD052594 [dataset]. https://www.ebi.ac.uk/pride/archive/projects/PXD052594. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "90. Lauer D, Gote-Schniering J. Radioproteomics stratifies molecular response to antifibrotic treatment in pulmonary fibrosis [dataset]. Version 1. Zenodo. 2024. https://doi.org/10.5281/zenodo.11395642. Accessed 4 Sep 2026.",
+    "after": "93. Lauer D, Gote-Schniering J. Radioproteomics stratifies molecular response to antifibrotic treatment in pulmonary fibrosis [dataset]. Version 1. Zenodo. 2024. https://doi.org/10.5281/zenodo.11395642. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "91. National Center for Biotechnology Information. Gene Expression Omnibus: GSE299128 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299128. Accessed 4 Sep 2026.",
+    "after": "94. National Center for Biotechnology Information. Gene Expression Omnibus: GSE299128 [dataset]. https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299128. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "92. DNA Data Bank of Japan. BioProject: PRJDB12477; DRA012991 [dataset]. https://ddbj.nig.ac.jp/resource/bioproject/PRJDB12477. Accessed 4 Sep 2026.",
+    "after": "95. DNA Data Bank of Japan. BioProject: PRJDB12477; DRA012991 [dataset]. https://ddbj.nig.ac.jp/resource/bioproject/PRJDB12477. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "93. EMBL-European Bioinformatics Institute. ChEMBL activity API: nintedanib (CHEMBL502835). https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL502835&limit=1000. Accessed 4 Sep 2026.",
+    "after": "96. EMBL-European Bioinformatics Institute. ChEMBL activity API: nintedanib (CHEMBL502835). https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL502835&limit=1000. Accessed 4 Sep 2026."
+  },
+  {
+    "before": "94. STRING Consortium. STRING application programming interface. https://string-db.org/api/. Accessed 4 Sep 2026.",
+    "after": "97. STRING Consortium. STRING application programming interface. https://string-db.org/api/. Accessed 4 Sep 2026."
+  }
+]

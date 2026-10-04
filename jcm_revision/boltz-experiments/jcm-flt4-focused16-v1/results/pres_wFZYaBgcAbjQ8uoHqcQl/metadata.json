@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 4.183916091918945,
+    "permeability": 0.7740586996078491,
+    "solubility": "high-risk"
+  },
+  "created_at": "2026-10-02T15:16:17.549Z",
+  "external_id": "regorafenib",
+  "id": "pres_wFZYaBgcAbjQ8uoHqcQl",
+  "metrics": {
+    "binding_confidence": 0.6189568042755127,
+    "complex_iplddt": 0.8713880181312561,
+    "complex_plddt": 0.7953031063079834,
+    "iptm": 0.9199000597000122,
+    "optimization_score": 0.4855883717536926,
+    "ptm": 0.7845941781997681,
+    "structure_confidence": 0.8202224969863892
+  },
+  "smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1"
+}

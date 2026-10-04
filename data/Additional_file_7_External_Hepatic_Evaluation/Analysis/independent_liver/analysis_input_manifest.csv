@@ -1,0 +1,7 @@
+file,source,download_date_utc,bytes,sha256,analysis_role
+matrix.txt.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE125nnn/GSE125975/matrix/GSE125975_series_matrix.txt.gz,2026-09-19,1666306,d3d6317da957c655452167f7e50fe42a6e709351fde2e325e5ba4606cb20bb67,deposited expression
+soft.gz,https://ftp.ncbi.nlm.nih.gov/geo/series/GSE125nnn/GSE125975/soft/GSE125975_family.soft.gz,2026-09-19,2847969,6540e9cbd7db08bffbae60a7ee0fb5a4078f5b8ed14ad275f9c649ea5c753e67,annotation
+GPL21382.txt,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21382&targ=self&form=text&view=full,2026-09-19,1051174,48bb51cf65b9418173a0e2aa19446c3895438d376288a60ba0b71f8441384a92,annotation
+gene_info.gz,https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Mus_musculus.gene_info.gz,2026-09-19,3931438,5e0ab796f17f03c4a57785ead427a8411c469a57385536eb17f268eb7c3ed49a,annotation
+sample_metadata.csv,derived from GSE125975 deposited metadata; included fixed annotation,2026-09-19,11847,7b6470e9a174d72075eae4ee0ee3b52706ef178f7b412a2dbf4ce52b0aaf728c,annotation
+CEL_file_manifest.csv,CEL filenames from GSE125975 archive; annotation only; CEL signal data not analyzed,2026-09-19,12745,0ae12470fc7000968d09b8de903d5fecc4c86cbd49fd2ef043c55f76e31b45c1,annotation

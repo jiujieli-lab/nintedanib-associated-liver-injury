@@ -1,0 +1,24 @@
+{
+  "abstract": "Identification of potent anticancer agents with high selectivity and low toxicity remains on the way to human health. Pyridazine featuring advantageous physicochemical properties and antitumor potential usually is regarded as a central core in numerous anticancer derivatives. There are several approved pyridazine-based drugs in the market and analogues currently going through different clinical phases or registration statuses, suggesting pyridazine as a promising drug-like scaffold. The current review is intended to provide a comprehensive and updated overview of pyridazine derivatives as potential anticancer agents. In particular, we focused on their structure-activity relationship (SAR) studies, design strategies, binding modes and biological activities in the hope of offering novel insights for further rational design of more active and less toxic anticancer drugs.",
+  "authors": "He ZX, Gong YP, Zhang X, Ma LY, Zhao W.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_33",
+    "creation_date": "2023-05-31"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5104091",
+  "doi": "10.1016/j.ejmech.2020.112946",
+  "doi_chembl": null,
+  "first_page": "112946",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "112946",
+  "patent_id": null,
+  "pubmed_id": 33129590,
+  "src_id": 1,
+  "title": "Pyridazine as a privileged structure: An updated review on anticancer activity of pyridazine containing bioactive molecules.",
+  "volume": "209",
+  "year": 2021
+}

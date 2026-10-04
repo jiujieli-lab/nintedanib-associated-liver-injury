@@ -1,0 +1,24 @@
+{
+  "abstract": "Kinases have emerged as one of the most prolific therapeutic targets. An important criterion in the therapeutic success of inhibitors targeting the nucleotide binding pocket of kinases is the inhibitor residence time. Recently, covalent kinase inhibitors have attracted attention since they confer terminal inhibition and should thus be more effective than reversible inhibitors with transient inhibition. The most robust approach to design irreversible inhibitors is to capitalize on the nucleophilicity of a cysteine thiol group present in the target protein. Herein, we report a systematic analysis of cysteine residues present in the nucleotide binding site of kinases, which could be harnessed for irreversible inhibition, taking into consideration the different kinase conformations. We demonstrate the predictive power of this analysis with the design and validation of an irreversible inhibitor of KIT/PDGFR kinases. This is the first example of a covalent kinase inhibitor that combines a pharmacophore addressing the DFG-out conformation with a covalent trap.",
+  "authors": "Leproult E, Barluenga S, Moras D, Wurtz JM, Winssinger N.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_12",
+    "creation_date": "2011-11-18"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1764978",
+  "doi": "10.1021/jm101396q",
+  "doi_chembl": null,
+  "first_page": "1347",
+  "issue": "5",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "1355",
+  "patent_id": null,
+  "pubmed_id": 21322567,
+  "src_id": 1,
+  "title": "Cysteine mapping in conformationally distinct kinase nucleotide binding sites: application to the design of selective covalent inhibitors.",
+  "volume": "54",
+  "year": 2011
+}

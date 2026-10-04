@@ -1,0 +1,356 @@
+{
+  "manifest_path": "Source_Data/GSE151374/results/analysis_manifest.json",
+  "manifest_sha256": "e558f28bdc62172eabf64f5c9e0e969c1a8cc9517d03afdd1947d3da08a749b8",
+  "entries_checked": 43,
+  "release_entries_checked": 23,
+  "omitted_public_raw_inputs_checked_upstream": 20,
+  "all_recorded_hashes_match": true,
+  "all_available_release_hashes_match": true,
+  "audit_scope": "Combined audit: current-file verification for every available release entry and the successful frozen upstream audit for public raw inputs omitted from the capsule.",
+  "entries": [
+    {
+      "path": "fresh_analysis/preclinical/gse151374/code/analyze_gse151374.py",
+      "release_path": "Code/GSE151374/analyze_gse151374.py",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/metadata/GSE151374_family.soft.gz",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSE151374_RAW.tar",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576588_751_1_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576589_751_2_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576590_751_3_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576591_751_4_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576592_751_5_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576593_751_6_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576594_751_7_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576595_751_8_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576596_751_9_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576597_751_10_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576598_751_11_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576599_751_12_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576600_751_13_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576601_751_14_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576602_751_15_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576603_751_16_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576604_751_17_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/raw/GSM4576605_751_18_raw_feature_bc_matrix.h5",
+      "release_path": null,
+      "available_in_release": false,
+      "verification_basis": "upstream_full_analysis_audit_before_raw_input_deduplication",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.pdf",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S6_GSE151374.pdf",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.png",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S6_GSE151374.png",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S6_GSE151374.svg",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.tiff",
+      "release_path": "Supplementary_Figures/Supplementary_Figure_S6_GSE151374.tiff",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/candidate_and_phenotype_tracks.csv",
+      "release_path": "Source_Data/GSE151374/results/candidate_and_phenotype_tracks.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/candidate_gene_contrasts.csv",
+      "release_path": "Source_Data/GSE151374/results/candidate_gene_contrasts.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/celltype_counts_and_proportions_by_library.csv",
+      "release_path": "Source_Data/GSE151374/results/celltype_counts_and_proportions_by_library.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/celltype_proportion_contrasts.csv",
+      "release_path": "Source_Data/GSE151374/results/celltype_proportion_contrasts.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/library_manifest.csv",
+      "release_path": "Source_Data/GSE151374/results/library_manifest.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/macrophage_DE_NINT_vs_BLM_day14.csv",
+      "release_path": "Source_Data/GSE151374/results/macrophage_DE_NINT_vs_BLM_day14.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/macrophage_DE_NINT_vs_BLM_day7.csv",
+      "release_path": "Source_Data/GSE151374/results/macrophage_DE_NINT_vs_BLM_day7.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/macrophage_module_contrasts.csv",
+      "release_path": "Source_Data/GSE151374/results/macrophage_module_contrasts.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/macrophage_module_scores_by_library.csv",
+      "release_path": "Source_Data/GSE151374/results/macrophage_module_scores_by_library.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/module_gene_membership.csv",
+      "release_path": "Source_Data/GSE151374/results/module_gene_membership.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/pca_all_retained_pseudobulk.csv",
+      "release_path": "Source_Data/GSE151374/results/pca_all_retained_pseudobulk.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/pca_macrophage_pseudobulk.csv",
+      "release_path": "Source_Data/GSE151374/results/pca_macrophage_pseudobulk.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/pseudobulk_all_retained_counts.tsv.gz",
+      "release_path": "Source_Data/GSE151374/results/pseudobulk_all_retained_counts.tsv.gz",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/pseudobulk_macrophage_counts.tsv.gz",
+      "release_path": "Source_Data/GSE151374/results/pseudobulk_macrophage_counts.tsv.gz",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/results/qc_by_library.csv",
+      "release_path": "Source_Data/GSE151374/results/qc_by_library.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/validation/aggregate_marker_expression_by_celltype.csv",
+      "release_path": "Source_Data/GSE151374/validation/aggregate_marker_expression_by_celltype.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/validation/marker_score_separation_by_library.csv",
+      "release_path": "Source_Data/GSE151374/validation/marker_score_separation_by_library.csv",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    },
+    {
+      "path": "fresh_analysis/preclinical/gse151374/validation/validation_checks.json",
+      "release_path": "Source_Data/GSE151374/validation/validation_checks.json",
+      "available_in_release": true,
+      "verification_basis": "release_capsule_current_file",
+      "bytes_match": true,
+      "sha256_match": true
+    }
+  ]
+}

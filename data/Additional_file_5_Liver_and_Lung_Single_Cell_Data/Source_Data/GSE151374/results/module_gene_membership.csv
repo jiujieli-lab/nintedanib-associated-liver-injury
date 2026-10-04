@@ -1,0 +1,47 @@
+module,gene,present_in_matrix,used_in_score
+Repair macrophage,Mrc1,True,True
+Repair macrophage,Retnla,True,True
+Repair macrophage,Chil3,True,True
+Repair macrophage,Il10,True,True
+Repair macrophage,Mertk,True,True
+Repair macrophage,Marco,True,True
+Repair macrophage,Igf1,True,True
+Repair macrophage,Trem2,True,True
+Repair macrophage,Gpnmb,True,True
+Repair macrophage,Fabp5,True,True
+Inflammatory,Il1b,True,True
+Inflammatory,Tnf,True,True
+Inflammatory,Nfkbia,True,True
+Inflammatory,Cxcl2,True,True
+Inflammatory,Ccl2,True,True
+Inflammatory,Ccr2,True,True
+Inflammatory,S100a8,True,True
+Inflammatory,S100a9,True,True
+Inflammatory,Nlrp3,True,True
+ECM remodeling,Spp1,True,True
+ECM remodeling,Tgfb1,True,True
+ECM remodeling,Mmp9,True,True
+ECM remodeling,Mmp12,True,True
+ECM remodeling,Timp1,True,True
+ECM remodeling,Lgals3,True,True
+ECM remodeling,Fn1,True,True
+ECM remodeling,Col1a1,True,True
+ECM remodeling,Col3a1,True,True
+Alveolar homeostasis,Pparg,True,True
+Alveolar homeostasis,Car4,True,True
+Alveolar homeostasis,Marco,True,True
+Alveolar homeostasis,Siglecf,True,True
+Alveolar homeostasis,Fabp4,True,True
+Alveolar homeostasis,Ear1,True,True
+Alveolar homeostasis,Itgax,True,True
+RTK-response,Fgfr1,True,True
+RTK-response,Fgfr2,True,True
+RTK-response,Fgfr3,True,True
+RTK-response,Pdgfra,True,True
+RTK-response,Pdgfrb,True,True
+RTK-response,Kdr,True,True
+RTK-response,Flt1,True,True
+RTK-response,Mapk1,True,True
+RTK-response,Mapk3,True,True
+RTK-response,Akt1,True,True
+RTK-response,Stat3,True,True

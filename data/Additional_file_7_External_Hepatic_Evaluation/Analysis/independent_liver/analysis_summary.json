@@ -1,0 +1,67 @@
+{
+  "dataset": "GSE125975",
+  "group_counts": {
+    "NINT": 10,
+    "DISEASE": 9,
+    "CONTROL": 3
+  },
+  "unique_animals": 22,
+  "dose_mg_kg": 50,
+  "treatment_weeks": null,
+  "treatment_duration_note": "Specific treatment duration not independently resolved from available GEO metadata and full-text narrative; not used in analysis",
+  "age_weeks": 17,
+  "sex": "male",
+  "strain": "C57BL/6J",
+  "tissue": "non-tumor liver parenchyma",
+  "model": "DEN followed by weekly CCl4; established fibrosis before randomization",
+  "raw_matrix_features": 13392,
+  "analyzed_gene_features": 13392,
+  "mapped_features": 13311,
+  "unmapped_features": 81,
+  "collapsed_duplicate_symbols": 0,
+  "residual_df": 19,
+  "prior_df": 5.873199513885589,
+  "prior_variance": 0.05022206468346721,
+  "total_df": 24.873199513885588,
+  "mean_expression_log_variance_spearman": 0.327978593724889,
+  "exact_treatment_label_allocations": 92378,
+  "pca_variance": [
+    0.2618335672626287,
+    0.13068937493263072,
+    0.09836200548829079,
+    0.06449548955280404
+  ],
+  "DE_counts": {
+    "NINT_vs_DISEASE": {
+      "BH_q05": 92,
+      "BH_q05_FC05": 73,
+      "Welch_q05": 13
+    },
+    "DISEASE_vs_CONTROL": {
+      "BH_q05": 338,
+      "BH_q05_FC05": 297,
+      "Welch_q05": 167
+    },
+    "NINT_vs_CONTROL": {
+      "BH_q05": 784,
+      "BH_q05_FC05": 669,
+      "Welch_q05": 464
+    }
+  },
+  "treatment_modules_exact_q05": [],
+  "geometry": {
+    "disease_q05_fc05_n": 297,
+    "opposite_direction_fraction": 0.5117845117845118,
+    "closer_to_control_fraction": 0.5117845117845118,
+    "spearman_effects": 0.10770410434839967
+  },
+  "disjoint_reference": {
+    "splits": 126,
+    "median_reversal": 0.4598069713647603,
+    "min_reversal": 0.35185185185185186,
+    "max_reversal": 0.5335648148148148,
+    "median_spearman": 0.14927492865370667
+  },
+  "source_primary_doi": "10.1053/j.gastro.2019.07.028",
+  "interpretation": "Independent hepatic pharmacodynamic-response evaluation. Original source reported no serum ALT/AST evidence of hepatotoxicity. Not a DILI-positive model or target-causal validation."
+}

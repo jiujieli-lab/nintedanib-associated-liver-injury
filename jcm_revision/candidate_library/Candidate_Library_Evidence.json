@@ -1,0 +1,1163 @@
+[
+  {
+    "name": "nintedanib",
+    "chembl_id": "CHEMBL502835",
+    "pref_name": "NINTEDANIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1",
+    "standard_inchi": "InChI=1S/C31H33N5O4/c1-34-15-17-36(18-16-34)20-27(37)35(2)24-12-10-23(11-13-24)32-29(21-7-5-4-6-8-21)28-25-14-9-22(31(39)40-3)19-26(25)33-30(28)38/h4-14,19,32H,15-18,20H2,1-3H3,(H,33,38)/b29-28-",
+    "standard_inchi_key": "XZXHXSATPCNXJR-ZIADKAODSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL502835.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL502835",
+    "source_molecule_properties": {
+      "alogp": "3.62",
+      "aromatic_rings": 3,
+      "full_molformula": "C31H33N5O4",
+      "full_mwt": "539.64",
+      "hba": 7,
+      "hbd": 2,
+      "heavy_atoms": 40,
+      "mw_freebase": "539.64",
+      "np_likeness_score": "-1.13",
+      "num_ro5_violations": 1,
+      "psa": "94.22",
+      "qed_weighted": "0.35",
+      "ro3_pass": "N",
+      "rtb": 7
+    },
+    "screen_role": "index_drug_positive_reference",
+    "identity_status": "ready",
+    "pubchem_exact_key_cids": [
+      9809715
+    ],
+    "identity_resolution": "Keep established ChEMBL502835 Z keto-enamine parent. PubChem common-name resolution returns a different enol-imine tautomer; exact InChIKey query validates selected parent.",
+    "clinical_evidence": {
+      "compound": "nintedanib",
+      "brand": "OFEV",
+      "regulatory_status": "FDA-approved; initial US approval 2014",
+      "approved_indications_summary": "Adults with idiopathic pulmonary fibrosis; chronic fibrosing interstitial lung diseases with a progressive phenotype; slowing pulmonary-function decline in systemic-sclerosis-associated ILD.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da1c9f37-779e-4682-816f-93d0faa4cfc9",
+      "label_updated": "2025-11-20",
+      "prescribing_information_revision": "2025-05",
+      "target_mechanism": "ATP-competitive multikinase inhibitor: PDGFR-alpha/beta, FGFR1-3, VEGFR1-3, CSF1R and FLT3; also Lck, Lyn and Src.",
+      "pdgfra_explicit": true,
+      "flt4_vegfr3_explicit": true,
+      "hepatic_safety_summary": "Dedicated warning for elevated liver enzymes and DILI, including fatal postmarketing liver injury. Liver testing before treatment, regularly in the first 3 months and subsequently. Reduced dose in mild hepatic impairment; not recommended in moderate/severe impairment.",
+      "liver_fibrosis_evidence_caution": "Pulmonary antifibrotic approval is not liver-fibrosis approval; the label documents clinically important hepatic risk.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da1c9f37-779e-4682-816f-93d0faa4cfc9",
+          "ref_id": "turn33view0",
+          "sections": "1; 5.1-5.2; 12.1",
+          "supporting_ref_ids": [
+            "turn39view0",
+            "turn39view1",
+            "turn45view11"
+          ]
+        }
+      ],
+      "hepatic_warning_category": "dedicated_warning"
+    },
+    "candidate_role": "Index drug and biochemical positive reference",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 19,
+      "eligible_exact_human_mapped_nonvariant": 8,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 7,
+      "eligible_exact_human_mapped_nonvariant": 5,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "imatinib",
+    "chembl_id": "CHEMBL941",
+    "pref_name": "IMATINIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "standard_inchi": "InChI=1S/C29H31N7O/c1-21-5-10-25(18-27(21)34-29-31-13-11-26(33-29)24-4-3-12-30-19-24)32-28(37)23-8-6-22(7-9-23)20-36-16-14-35(2)15-17-36/h3-13,18-19H,14-17,20H2,1-2H3,(H,32,37)(H,31,33,34)",
+    "standard_inchi_key": "KTUFNOKKBVMGRW-UHFFFAOYSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL941.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL941",
+    "source_molecule_properties": {
+      "alogp": "4.59",
+      "aromatic_rings": 4,
+      "full_molformula": "C29H31N7O",
+      "full_mwt": "493.62",
+      "hba": 7,
+      "hbd": 2,
+      "heavy_atoms": 37,
+      "mw_freebase": "493.62",
+      "np_likeness_score": "-1.80",
+      "num_ro5_violations": 0,
+      "psa": "86.28",
+      "qed_weighted": "0.39",
+      "ro3_pass": "N",
+      "rtb": 7
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "imatinib",
+      "brand": "GLEEVEC",
+      "regulatory_status": "FDA-approved; initial US approval 2001",
+      "approved_indications_summary": "Defined settings of Ph-positive CML/ALL; PDGFR-rearranged MDS/MPD; aggressive systemic mastocytosis without KIT D816V or unknown status; HES/CEL; DFSP; KIT-positive unresectable/metastatic GIST and adjuvant KIT-positive GIST.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b",
+      "label_updated": "2026-07-13",
+      "target_mechanism": "BCR-ABL, PDGF receptor and KIT inhibitor. Mechanism section names the PDGF receptor family; the HES/CEL indication explicitly identifies FIP1L1-PDGFR-alpha fusion kinase.",
+      "pdgfra_explicit": true,
+      "pdgfra_explicit_qualification": "Alpha is explicit in indication 1.7; mechanism 12.1 uses generic PDGF receptor wording.",
+      "flt4_vegfr3_explicit": false,
+      "hepatic_safety_summary": "Dedicated hepatotoxicity warning: fatal liver failure and severe injury requiring transplantation reported. Monitor liver function before therapy and monthly or as indicated; interruption/dose reduction may be necessary.",
+      "liver_fibrosis_evidence_caution": "Do not imply inhibition of every PDGFRA mutant; indication-specific biology and hepatic toxicity prevent blanket liver-repurposing claims.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b",
+          "ref_id": "turn33view1",
+          "sections": "1; 5.4; 12.1",
+          "supporting_ref_ids": [
+            "turn39view2",
+            "turn39view3",
+            "turn39view4"
+          ]
+        }
+      ],
+      "hepatic_warning_category": "dedicated_warning"
+    },
+    "candidate_role": "PDGFRA-directed mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 31,
+      "eligible_exact_human_mapped_nonvariant": 7,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 8,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "crenolanib",
+    "chembl_id": "CHEMBL2105728",
+    "pref_name": "CRENOLANIB",
+    "max_phase": "3.0",
+    "canonical_smiles": "CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1",
+    "standard_inchi": "InChI=1S/C26H29N5O2/c1-26(14-32-15-26)16-33-20-6-7-22-21(13-20)28-17-31(22)24-8-5-18-3-2-4-23(25(18)29-24)30-11-9-19(27)10-12-30/h2-8,13,17,19H,9-12,14-16,27H2,1H3",
+    "standard_inchi_key": "DYNHJHQFHQTFTP-UHFFFAOYSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL2105728.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL2105728",
+    "source_molecule_properties": {
+      "alogp": "3.92",
+      "aromatic_rings": 4,
+      "full_molformula": "C26H29N5O2",
+      "full_mwt": "443.55",
+      "hba": 7,
+      "hbd": 1,
+      "heavy_atoms": 33,
+      "mw_freebase": "443.55",
+      "np_likeness_score": "-0.99",
+      "num_ro5_violations": 0,
+      "psa": "78.43",
+      "qed_weighted": "0.50",
+      "ro3_pass": "N",
+      "rtb": 5
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "crenolanib",
+      "brand": null,
+      "regulatory_status": "Investigational. Sponsor's indexed primary page states no regulatory authority approval; no approved FDA label identified.",
+      "approved_indications_summary": "None established; studied in FLT3-mutant AML and PDGFRA-mutant GIST.",
+      "label_url": null,
+      "label_updated": null,
+      "target_mechanism": "Primary biochemical/cellular work supports PDGFRA and PDGFRB inhibition, including PDGFRA D842V, and FLT3 inhibition. FLT3 activity is not FLT4 evidence.",
+      "pdgfra_explicit": true,
+      "flt4_vegfr3_explicit": false,
+      "hepatic_safety_summary": "No approved label to classify. The 44-patient chemotherapy-combination AML study reported dose reductions for adverse events including liver dysfunction; attribution cannot isolate crenolanib from chemotherapy. Human liver-fibrosis safety is unestablished.",
+      "liver_fibrosis_evidence_caution": "Use as an investigational mechanistic comparator; do not call clinically validated or hepatoprotective.",
+      "clinical_evidence": "Wang et al., J Clin Oncol 2024;42:1776-1787, DOI 10.1200/JCO.23.01061, NCT02283177: 44 adults receiving crenolanib plus intensive chemotherapy. PDGFRA-mutant GIST phase II registered as NCT01243346.",
+      "source_refs": [
+        {
+          "url": "https://arogpharma.com/",
+          "ref_id": "turn50search1",
+          "sections": "Indexed sponsor statement; direct open returned error"
+        },
+        {
+          "url": "https://aacrjournals.org/clincancerres/article/18/16/4375/15179/Crenolanib-Inhibits-the-Drug-Resistant-PDGFRA",
+          "ref_id": "turn36search15",
+          "sections": "Heinrich et al. 2012 primary pharmacology; DOI 10.1158/1078-0432.CCR-12-0625; search-indexed text; direct open 403"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38324741/",
+          "ref_id": "turn45view1",
+          "sections": "Primary trial abstract"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11107896/",
+          "ref_id": "turn47search11",
+          "sections": "Primary trial full-text indexed adverse-event statement; direct open was CAPTCHA"
+        },
+        {
+          "url": "https://clinicaltrials.gov/study/NCT01243346",
+          "ref_id": "turn50search13",
+          "sections": "Registered PDGFRA-mutant GIST phase II trial"
+        }
+      ],
+      "hepatic_warning_category": "investigational_no_approved_label"
+    },
+    "candidate_role": "PDGFRA-directed mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 1,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 0,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "avapritinib",
+    "chembl_id": "CHEMBL4204794",
+    "pref_name": "AVAPRITINIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1",
+    "standard_inchi": "InChI=1S/C26H27FN10/c1-26(28,20-3-5-22(27)6-4-20)21-13-29-25(30-14-21)36-9-7-35(8-10-36)24-23-11-18(16-37(23)33-17-31-24)19-12-32-34(2)15-19/h3-6,11-17H,7-10,28H2,1-2H3/t26-/m0/s1",
+    "standard_inchi_key": "DWYRIWUZIJHQKQ-SANMLTNESA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL4204794.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL4204794",
+    "source_molecule_properties": {
+      "alogp": "2.61",
+      "aromatic_rings": 5,
+      "full_molformula": "C26H27FN10",
+      "full_mwt": "498.57",
+      "hba": 10,
+      "hbd": 1,
+      "heavy_atoms": 37,
+      "mw_freebase": "498.57",
+      "np_likeness_score": "-1.68",
+      "num_ro5_violations": 0,
+      "psa": "106.29",
+      "qed_weighted": "0.39",
+      "ro3_pass": "N",
+      "rtb": 5
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "avapritinib",
+      "brand": "AYVAKIT",
+      "regulatory_status": "FDA-approved; initial US approval 2020",
+      "approved_indications_summary": "Adults with unresectable/metastatic GIST carrying PDGFRA exon 18 mutations, including D842V; advanced systemic mastocytosis; indolent systemic mastocytosis.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9",
+      "label_updated": "2026-09-14",
+      "target_mechanism": "Inhibits KIT D816V, PDGFRA and PDGFRA D842 mutants and additional KIT mutants; potential targets include wild-type KIT, PDGFRB and CSF1R.",
+      "pdgfra_explicit": true,
+      "flt4_vegfr3_explicit": false,
+      "hepatic_safety_summary": "No dedicated hepatotoxicity warning in the reviewed warnings section; increased bilirubin, AST and ALT occur in laboratory adverse-event tables. Dose reduction is recommended in severe hepatic impairment.",
+      "liver_fibrosis_evidence_caution": "Mutation-oriented oncology/mastocytosis evidence does not establish benefit or safety for wild-type PDGFRA inhibition in liver fibrosis.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=645c887c-8cd4-4623-8da9-ac223d71a8b9",
+          "ref_id": "turn33view2",
+          "sections": "1; 2.7; 5; 6.1; 8.7; 12.1",
+          "supporting_ref_ids": [
+            "turn39view5",
+            "turn39view6",
+            "turn45view9"
+          ]
+        }
+      ],
+      "hepatic_warning_category": "laboratory_abnormalities_and_impairment_guidance"
+    },
+    "candidate_role": "PDGFRA-directed mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 9,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 0,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "ripretinib",
+    "chembl_id": "CHEMBL4216467",
+    "pref_name": "RIPRETINIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21",
+    "standard_inchi": "InChI=1S/C24H21BrFN5O2/c1-3-31-21-12-22(27-2)28-13-14(21)9-17(23(31)32)16-10-20(19(26)11-18(16)25)30-24(33)29-15-7-5-4-6-8-15/h4-13H,3H2,1-2H3,(H,27,28)(H2,29,30,33)",
+    "standard_inchi_key": "CEFJVGZHQAGLHS-UHFFFAOYSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL4216467.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL4216467",
+    "source_molecule_properties": {
+      "alogp": "5.67",
+      "aromatic_rings": 4,
+      "full_molformula": "C24H21BrFN5O2",
+      "full_mwt": "510.37",
+      "hba": 5,
+      "hbd": 3,
+      "heavy_atoms": 33,
+      "mw_freebase": "510.37",
+      "np_likeness_score": "-1.53",
+      "num_ro5_violations": 2,
+      "psa": "88.05",
+      "qed_weighted": "0.32",
+      "ro3_pass": "N",
+      "rtb": 5
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "ripretinib",
+      "brand": "QINLOCK",
+      "regulatory_status": "FDA-approved; initial US approval 2020",
+      "approved_indications_summary": "Adults with advanced GIST following at least 3 prior kinase inhibitors, including imatinib.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f18e462-03dd-4296-a02a-a0577e3ee78d",
+      "label_updated": "2025-05-12",
+      "target_mechanism": "Inhibits wild-type and mutant KIT and PDGFRA; other in-vitro targets include PDGFRB, TIE2, VEGFR2 and BRAF.",
+      "pdgfra_explicit": true,
+      "flt4_vegfr3_explicit": false,
+      "hepatic_safety_summary": "No dedicated hepatotoxicity warning in the reviewed warnings section. INVICTUS laboratory abnormalities included increased bilirubin and ALT. Current section 8.6 recommends no dose adjustment for Child-Pugh A, B or C.",
+      "liver_fibrosis_evidence_caution": "No-dose-adjustment guidance is pharmacokinetic/label guidance, not proof of hepatic safety or liver-fibrosis efficacy.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9f18e462-03dd-4296-a02a-a0577e3ee78d",
+          "ref_id": "turn41view2",
+          "sections": "1; 5; 6.1; 8.6; 12.1",
+          "supporting_ref_ids": [
+            "turn45view3",
+            "turn45view4",
+            "turn45view5",
+            "turn47view0"
+          ]
+        }
+      ],
+      "hepatic_warning_category": "laboratory_abnormalities_and_impairment_guidance"
+    },
+    "candidate_role": "PDGFRA-directed mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 6,
+      "eligible_exact_human_mapped_nonvariant": 1,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 0,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "axitinib",
+    "chembl_id": "CHEMBL1289926",
+    "pref_name": "AXITINIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1",
+    "standard_inchi": "InChI=1S/C22H18N4OS/c1-23-22(27)18-7-2-3-8-21(18)28-16-10-11-17-19(25-26-20(17)14-16)12-9-15-6-4-5-13-24-15/h2-14H,1H3,(H,23,27)(H,25,26)/b12-9+",
+    "standard_inchi_key": "RITAVMQDGBJQJZ-FMIVXFBMSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1289926.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL1289926",
+    "source_molecule_properties": {
+      "alogp": "4.64",
+      "aromatic_rings": 4,
+      "full_molformula": "C22H18N4OS",
+      "full_mwt": "386.48",
+      "hba": 4,
+      "hbd": 2,
+      "heavy_atoms": 28,
+      "mw_freebase": "386.48",
+      "np_likeness_score": "-1.43",
+      "num_ro5_violations": 0,
+      "psa": "70.67",
+      "qed_weighted": "0.52",
+      "ro3_pass": "N",
+      "rtb": 5
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "axitinib",
+      "brand": "INLYTA",
+      "regulatory_status": "US approved; initial approval 2012; DailyMed marketing status New Drug Application.",
+      "approved_indications_summary": "Advanced renal cell carcinoma: first line with avelumab or pembrolizumab; monotherapy after one prior systemic therapy fails.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=84137882-e000-47da-bd5b-fa76ab3c76f9",
+      "label_updated": "2025-02-19",
+      "target_mechanism": "Inhibits VEGFR1, VEGFR2 and VEGFR3 at therapeutic plasma concentrations; PDGFRA is not named in section 12.1.",
+      "pdgfra_explicit": false,
+      "flt4_vegfr3_explicit": true,
+      "hepatic_safety_summary": "Section 5.11 warns of liver-enzyme elevations with monotherapy and increased frequency of grade 3\u20134 ALT/AST elevations with avelumab or pembrolizumab. Liver tests require monitoring; severe combination-associated hepatotoxicity can require interruption, corticosteroids or permanent discontinuation. No hepatic boxed warning.",
+      "liver_fibrosis_evidence_caution": "Cancer approval and kinase inhibition do not establish efficacy or safety for liver fibrosis; no liver-fibrosis indication is listed.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=84137882-e000-47da-bd5b-fa76ab3c76f9",
+          "ref_id": "turn38view0",
+          "sections": "DailyMed metadata; highlights; 1; 5.11; 12.1"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=84137882-e000-47da-bd5b-fa76ab3c76f9",
+          "ref_id": "turn43view0",
+          "sections": "12.1"
+        }
+      ],
+      "prescribing_information_revision": "2024-07",
+      "hepatic_warning_category": "dedicated_warning"
+    },
+    "candidate_role": "VEGFR/multikinase mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 1,
+      "eligible_exact_human_mapped_nonvariant": 1,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 4,
+      "eligible_exact_human_mapped_nonvariant": 1,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "tivozanib",
+    "chembl_id": "CHEMBL1289494",
+    "pref_name": "TIVOZANIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC",
+    "standard_inchi": "InChI=1S/C22H19ClN4O5/c1-12-8-21(27-32-12)26-22(28)25-16-5-4-13(9-15(16)23)31-18-6-7-24-17-11-20(30-3)19(29-2)10-14(17)18/h4-11H,1-3H3,(H2,25,26,27,28)",
+    "standard_inchi_key": "SPMVMDHWKHCIDT-UHFFFAOYSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1289494.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL1289494",
+    "source_molecule_properties": {
+      "alogp": "5.64",
+      "aromatic_rings": 4,
+      "full_molformula": "C22H19ClN4O5",
+      "full_mwt": "454.87",
+      "hba": 7,
+      "hbd": 2,
+      "heavy_atoms": 32,
+      "mw_freebase": "454.87",
+      "np_likeness_score": "-1.57",
+      "num_ro5_violations": 1,
+      "psa": "107.74",
+      "qed_weighted": "0.39",
+      "ro3_pass": "N",
+      "rtb": 6
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "tivozanib",
+      "brand": "FOTIVDA",
+      "regulatory_status": "US approved; initial approval 2021; DailyMed marketing status New Drug Application.",
+      "approved_indications_summary": "Adults with relapsed or refractory advanced renal cell carcinoma after at least two systemic therapies.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83",
+      "label_updated": "2026-09-15",
+      "target_mechanism": "Inhibits VEGFR1/2/3 phosphorylation, c-KIT and PDGFR-beta at clinically relevant concentrations; PDGFRA is not named.",
+      "pdgfra_explicit": false,
+      "flt4_vegfr3_explicit": true,
+      "hepatic_safety_summary": "No dedicated hepatotoxicity warning or boxed warning in this label. TIVO-3 laboratory abnormalities include ALT elevation (30%; grade 3\u20134, 4%), AST elevation (28%; grade 3\u20134, 1%), and bilirubin elevation (11%; grade 3\u20134, 3%). Dose adjustment applies to moderate hepatic impairment; severe impairment is to be avoided.",
+      "liver_fibrosis_evidence_caution": "Absence of a dedicated warning is not evidence of hepatic safety; no liver-fibrosis indication or efficacy is established by this label.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83",
+          "ref_id": "turn38view1",
+          "sections": "DailyMed metadata; 1; 5; 8.7"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83",
+          "ref_id": "turn56view4",
+          "sections": "6.1 Table 3"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de77155c-ecf2-4f15-9758-21d271449d83",
+          "ref_id": "turn43view1",
+          "sections": "12.1"
+        }
+      ],
+      "prescribing_information_revision": "2025-01",
+      "hepatic_warning_category": "laboratory_abnormalities_and_impairment_guidance"
+    },
+    "candidate_role": "VEGFR/multikinase mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 4,
+      "eligible_exact_human_mapped_nonvariant": 2,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 6,
+      "eligible_exact_human_mapped_nonvariant": 3,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "lenvatinib",
+    "chembl_id": "CHEMBL1289601",
+    "pref_name": "LENVATINIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O",
+    "standard_inchi": "InChI=1S/C21H19ClN4O4/c1-29-19-10-17-13(9-14(19)20(23)27)18(6-7-24-17)30-12-4-5-16(15(22)8-12)26-21(28)25-11-2-3-11/h4-11H,2-3H2,1H3,(H2,23,27)(H2,25,26,28)",
+    "standard_inchi_key": "WOSKHXYHFSIKNG-UHFFFAOYSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1289601.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL1289601",
+    "source_molecule_properties": {
+      "alogp": "4.07",
+      "aromatic_rings": 3,
+      "full_molformula": "C21H19ClN4O4",
+      "full_mwt": "426.86",
+      "hba": 5,
+      "hbd": 3,
+      "heavy_atoms": 30,
+      "mw_freebase": "426.86",
+      "np_likeness_score": "-1.35",
+      "num_ro5_violations": 0,
+      "psa": "115.57",
+      "qed_weighted": "0.55",
+      "ro3_pass": "N",
+      "rtb": 6
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "lenvatinib",
+      "brand": "LENVIMA",
+      "regulatory_status": "US approved; initial approval 2015; DailyMed marketing status New Drug Application.",
+      "approved_indications_summary": "Progressive, recurrent/metastatic radioactive-iodine-refractory differentiated thyroid cancer; advanced renal cell carcinoma with pembrolizumab first line or everolimus after one antiangiogenic therapy; unresectable hepatocellular carcinoma first line; advanced pMMR/non-MSI-H endometrial carcinoma with pembrolizumab after systemic therapy progression when curative surgery/radiation is unsuitable.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+      "label_updated": "2026-06-30",
+      "target_mechanism": "Inhibits VEGFR1/2/3; label explicitly identifies VEGFR3 as FLT4 and includes PDGFRA, FGFR1\u20134, KIT and RET.",
+      "pdgfra_explicit": true,
+      "flt4_vegfr3_explicit": true,
+      "hepatic_safety_summary": "Section 5.4 hepatotoxicity warning includes serious and fatal hepatic events. Liver monitoring is required; grade 3\u20134 toxicity may require withholding/discontinuation and hepatic failure requires discontinuation. No hepatic boxed warning.",
+      "liver_fibrosis_evidence_caution": "Hepatocellular carcinoma approval does not establish antifibrotic efficacy or suitability for nonmalignant liver disease; no liver-fibrosis indication is listed.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+          "ref_id": "turn46view1",
+          "sections": "metadata; 1"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+          "ref_id": "turn52view1",
+          "sections": "5.4"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e",
+          "ref_id": "turn43view2",
+          "sections": "12.1"
+        }
+      ],
+      "prescribing_information_revision": null,
+      "hepatic_warning_category": "dedicated_warning"
+    },
+    "candidate_role": "VEGFR/multikinase mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 1,
+      "eligible_exact_human_mapped_nonvariant": 1,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 5,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "sunitinib",
+    "chembl_id": "CHEMBL535",
+    "pref_name": "SUNITINIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+    "standard_inchi": "InChI=1S/C22H27FN4O2/c1-5-27(6-2)10-9-24-22(29)20-13(3)19(25-14(20)4)12-17-16-11-15(23)7-8-18(16)26-21(17)28/h7-8,11-12,25H,5-6,9-10H2,1-4H3,(H,24,29)(H,26,28)/b17-12-",
+    "standard_inchi_key": "WINHZLLDWRZWRT-ATVHPVEESA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL535.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL535",
+    "source_molecule_properties": {
+      "alogp": "3.33",
+      "aromatic_rings": 2,
+      "full_molformula": "C22H27FN4O2",
+      "full_mwt": "398.48",
+      "hba": 3,
+      "hbd": 3,
+      "heavy_atoms": 29,
+      "mw_freebase": "398.48",
+      "np_likeness_score": "-1.21",
+      "num_ro5_violations": 0,
+      "psa": "77.23",
+      "qed_weighted": "0.63",
+      "ro3_pass": "N",
+      "rtb": 7
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "sunitinib",
+      "brand": "SUTENT",
+      "regulatory_status": "US approved; initial approval 2006; DailyMed marketing status New Drug Application.",
+      "approved_indications_summary": "Adult GIST after imatinib progression/intolerance; advanced renal cell carcinoma; adjuvant therapy after nephrectomy for high-risk recurrent RCC; progressive, well-differentiated pancreatic neuroendocrine tumors with unresectable locally advanced/metastatic disease.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c",
+      "label_updated": "2026-02-20",
+      "target_mechanism": "Inhibits PDGFR-alpha/beta, VEGFR1/2/3, KIT, FLT3, CSF-1R and RET.",
+      "pdgfra_explicit": true,
+      "flt4_vegfr3_explicit": true,
+      "hepatic_safety_summary": "Boxed hepatotoxicity warning: hepatic injury can be severe or fatal. Hepatic monitoring and interruption, dose reduction or discontinuation are specified; section 5.1 describes liver failure/death.",
+      "liver_fibrosis_evidence_caution": "Oncology approval and receptor inhibition do not establish antifibrotic benefit or acceptable safety in liver fibrosis; no such indication is listed.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c",
+          "ref_id": "turn46view2",
+          "sections": "metadata; boxed warning; 1"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c",
+          "ref_id": "turn43view3",
+          "sections": "12.1"
+        }
+      ],
+      "prescribing_information_revision": "2025-10",
+      "hepatic_warning_category": "boxed_hepatotoxicity_warning"
+    },
+    "candidate_role": "VEGFR/multikinase mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 18,
+      "eligible_exact_human_mapped_nonvariant": 4,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 10,
+      "eligible_exact_human_mapped_nonvariant": 5,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "pazopanib",
+    "chembl_id": "CHEMBL477772",
+    "pref_name": "PAZOPANIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O",
+    "standard_inchi": "InChI=1S/C21H23N7O2S/c1-13-5-6-15(11-19(13)31(22,29)30)24-21-23-10-9-20(25-21)27(3)16-7-8-17-14(2)28(4)26-18(17)12-16/h5-12H,1-4H3,(H2,22,29,30)(H,23,24,25)",
+    "standard_inchi_key": "CUIHSIWYWATEQL-UHFFFAOYSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL477772.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL477772",
+    "source_molecule_properties": {
+      "alogp": "3.14",
+      "aromatic_rings": 4,
+      "full_molformula": "C21H23N7O2S",
+      "full_mwt": "437.53",
+      "hba": 8,
+      "hbd": 2,
+      "heavy_atoms": 31,
+      "mw_freebase": "437.53",
+      "np_likeness_score": "-1.70",
+      "num_ro5_violations": 0,
+      "psa": "119.03",
+      "qed_weighted": "0.49",
+      "ro3_pass": "N",
+      "rtb": 5
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "pazopanib",
+      "brand": "VOTRIENT",
+      "regulatory_status": "US approved; initial approval 2009; DailyMed marketing status New Drug Application.",
+      "approved_indications_summary": "Adults with advanced renal cell carcinoma or advanced soft-tissue sarcoma after prior chemotherapy. Efficacy in adipocytic sarcoma or GIST is not established.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7",
+      "label_updated": "2025-12-16",
+      "target_mechanism": "Multikinase inhibitor including VEGFR1/2/3, PDGFR-alpha/beta, FGFR1/3, KIT, ITK, LCK and c-FMS.",
+      "pdgfra_explicit": true,
+      "flt4_vegfr3_explicit": true,
+      "hepatic_safety_summary": "Boxed hepatotoxicity warning for severe and fatal hepatic toxicity. Baseline and ongoing liver monitoring and withholding, dose reduction or discontinuation according to severity are required.",
+      "liver_fibrosis_evidence_caution": "Oncology approval and receptor inhibition do not establish antifibrotic efficacy; hepatic toxicity is particularly relevant to repurposing for liver disease. No liver-fibrosis indication is listed.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7",
+          "ref_id": "turn46view3",
+          "sections": "metadata; boxed warning; 1; 5.1"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7",
+          "ref_id": "turn43view4",
+          "sections": "12.1"
+        }
+      ],
+      "prescribing_information_revision": "2024-01",
+      "hepatic_warning_category": "boxed_hepatotoxicity_warning"
+    },
+    "candidate_role": "VEGFR/multikinase mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 4,
+      "eligible_exact_human_mapped_nonvariant": 3,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 8,
+      "eligible_exact_human_mapped_nonvariant": 2,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "sorafenib",
+    "chembl_id": "CHEMBL1336",
+    "pref_name": "SORAFENIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+    "standard_inchi": "InChI=1S/C21H16ClF3N4O3/c1-26-19(30)18-11-15(8-9-27-18)32-14-5-2-12(3-6-14)28-20(31)29-13-4-7-17(22)16(10-13)21(23,24)25/h2-11H,1H3,(H,26,30)(H2,28,29,31)",
+    "standard_inchi_key": "MLDQJTXFUGDVEO-UHFFFAOYSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1336.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL1336",
+    "source_molecule_properties": {
+      "alogp": "5.55",
+      "aromatic_rings": 3,
+      "full_molformula": "C21H16ClF3N4O3",
+      "full_mwt": "464.83",
+      "hba": 4,
+      "hbd": 3,
+      "heavy_atoms": 32,
+      "mw_freebase": "464.83",
+      "np_likeness_score": "-1.46",
+      "num_ro5_violations": 1,
+      "psa": "92.35",
+      "qed_weighted": "0.46",
+      "ro3_pass": "N",
+      "rtb": 5
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "sorafenib",
+      "brand": "NEXAVAR",
+      "regulatory_status": "US approved; initial approval 2005; DailyMed marketing status New Drug Application.",
+      "approved_indications_summary": "Unresectable hepatocellular carcinoma; advanced renal cell carcinoma; progressive, locally recurrent/metastatic differentiated thyroid carcinoma refractory to radioactive iodine.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0",
+      "label_updated": "2023-08-28",
+      "target_mechanism": "Inhibits RAF-family and cell-surface kinases including VEGFR1/2/3, KIT, FLT3, RET and PDGFR-beta. PDGFRA is not named.",
+      "pdgfra_explicit": false,
+      "flt4_vegfr3_explicit": true,
+      "hepatic_safety_summary": "Section 5.10 warns of drug-induced hepatocellular injury, potentially causing liver failure or death; severe injury occurred in 2/3357 patients in a global monotherapy database. Regular liver tests and discontinuation for significant unexplained transaminase elevations are specified. No hepatic boxed warning.",
+      "liver_fibrosis_evidence_caution": "Hepatocellular carcinoma approval does not establish antifibrotic efficacy or safety for nonmalignant liver disease; no liver-fibrosis indication is listed.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0",
+          "ref_id": "turn46view4",
+          "sections": "metadata; 1"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0",
+          "ref_id": "turn56view6",
+          "sections": "5.10"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b50667e4-5ebc-4968-a646-d605058dbef0",
+          "ref_id": "turn43view5",
+          "sections": "12.1"
+        }
+      ],
+      "prescribing_information_revision": "2023-08",
+      "hepatic_warning_category": "dedicated_warning"
+    },
+    "candidate_role": "VEGFR/multikinase mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 10,
+      "eligible_exact_human_mapped_nonvariant": 5,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 18,
+      "eligible_exact_human_mapped_nonvariant": 9,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "regorafenib",
+    "chembl_id": "CHEMBL1946170",
+    "pref_name": "REGORAFENIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1",
+    "standard_inchi": "InChI=1S/C21H15ClF4N4O3/c1-27-19(31)18-10-13(6-7-28-18)33-12-3-5-17(16(23)9-12)30-20(32)29-11-2-4-15(22)14(8-11)21(24,25)26/h2-10H,1H3,(H,27,31)(H2,29,30,32)",
+    "standard_inchi_key": "FNHKPVJBJVTLMP-UHFFFAOYSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1946170.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL1946170",
+    "source_molecule_properties": {
+      "alogp": "5.69",
+      "aromatic_rings": 3,
+      "full_molformula": "C21H15ClF4N4O3",
+      "full_mwt": "482.82",
+      "hba": 4,
+      "hbd": 3,
+      "heavy_atoms": 33,
+      "mw_freebase": "482.82",
+      "np_likeness_score": "-1.82",
+      "num_ro5_violations": 1,
+      "psa": "92.35",
+      "qed_weighted": "0.41",
+      "ro3_pass": "N",
+      "rtb": 5
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "regorafenib",
+      "brand": "STIVARGA",
+      "regulatory_status": "US approved; initial approval 2012; DailyMed marketing status New Drug Application.",
+      "approved_indications_summary": "Adults with previously treated metastatic colorectal cancer (fluoropyrimidine/oxaliplatin/irinotecan, anti-VEGF and, if RAS wild-type, anti-EGFR therapy); advanced unresectable/metastatic GIST after imatinib and sunitinib; hepatocellular carcinoma after sorafenib.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+      "label_updated": "2026-02-09",
+      "target_mechanism": "Regorafenib and/or active metabolites inhibit multiple kinases, explicitly including VEGFR3 and PDGFR-alpha, at clinically achieved concentrations.",
+      "pdgfra_explicit": true,
+      "flt4_vegfr3_explicit": true,
+      "hepatic_safety_summary": "Boxed hepatotoxicity warning for severe and sometimes fatal hepatic toxicity. Baseline and ongoing liver monitoring plus interruption, reduction or discontinuation according to severity/persistence are specified. Hepatic warning updated February 2026.",
+      "liver_fibrosis_evidence_caution": "Hepatocellular carcinoma approval does not establish antifibrotic efficacy or safety for nonmalignant liver disease; no liver-fibrosis indication is listed.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+          "ref_id": "turn46view5",
+          "sections": "metadata; boxed warning; 1; recent changes"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7",
+          "ref_id": "turn43view6",
+          "sections": "12.1"
+        }
+      ],
+      "prescribing_information_revision": "2026-02",
+      "hepatic_warning_category": "boxed_hepatotoxicity_warning"
+    },
+    "candidate_role": "VEGFR/multikinase mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 7,
+      "eligible_exact_human_mapped_nonvariant": 1,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 5,
+      "eligible_exact_human_mapped_nonvariant": 1,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "ponatinib",
+    "chembl_id": "CHEMBL1171837",
+    "pref_name": "PONATINIB",
+    "max_phase": "4.0",
+    "canonical_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+    "standard_inchi": "InChI=1S/C29H27F3N6O/c1-20-5-6-22(16-21(20)8-10-25-18-33-27-4-3-11-34-38(25)27)28(39)35-24-9-7-23(26(17-24)29(30,31)32)19-37-14-12-36(2)13-15-37/h3-7,9,11,16-18H,12-15,19H2,1-2H3,(H,35,39)",
+    "standard_inchi_key": "PHXJVRSECIGDHY-UHFFFAOYSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1171837.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL1171837",
+    "source_molecule_properties": {
+      "alogp": "4.46",
+      "aromatic_rings": 4,
+      "full_molformula": "C29H27F3N6O",
+      "full_mwt": "532.57",
+      "hba": 6,
+      "hbd": 1,
+      "heavy_atoms": 39,
+      "mw_freebase": "532.57",
+      "np_likeness_score": "-1.80",
+      "num_ro5_violations": 1,
+      "psa": "65.77",
+      "qed_weighted": "0.39",
+      "ro3_pass": "N",
+      "rtb": 4
+    },
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "ponatinib",
+      "brand": "ICLUSIG",
+      "regulatory_status": "US approved; initial approval 2012. Newly diagnosed Ph+ ALL combination indication has accelerated approval.",
+      "approved_indications_summary": "Adults: newly diagnosed Ph+ ALL with chemotherapy; Ph+ ALL monotherapy when other kinase inhibitors are unsuitable or T315I-positive; CP-CML after resistance/intolerance to at least two kinase inhibitors; AP/BP-CML when other kinase inhibitors are unsuitable; T315I-positive CML. Not recommended for newly diagnosed CP-CML.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac",
+      "label_updated": "2026-08-14",
+      "target_mechanism": "Inhibits ABL and T315I-mutant ABL. Label names VEGFR/PDGFR families among additional targets but does not specify VEGFR3/FLT4 or PDGFRA isoforms.",
+      "pdgfra_explicit": false,
+      "flt4_vegfr3_explicit": false,
+      "hepatic_safety_summary": "Boxed warning includes hepatotoxicity, liver failure and death, alongside arterial/venous vascular events and heart failure. Liver-test monitoring and interruption or discontinuation according to severity are specified.",
+      "liver_fibrosis_evidence_caution": "Family-level label target information cannot independently establish binding to either requested isoform; no liver-fibrosis indication is listed, and oncology approval does not establish antifibrotic benefit.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac",
+          "ref_id": "turn56view2",
+          "sections": "1; boxed warning"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac",
+          "ref_id": "turn43view7",
+          "sections": "12.1"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac",
+          "ref_id": "turn40view14",
+          "sections": "metadata"
+        }
+      ],
+      "prescribing_information_revision": "2025-10",
+      "hepatic_warning_category": "boxed_hepatotoxicity_warning"
+    },
+    "candidate_role": "VEGFR/multikinase mechanistic comparator",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 9,
+      "eligible_exact_human_mapped_nonvariant": 3,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 0,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "MAZ51",
+    "chembl_id": "CHEMBL597366",
+    "pref_name": null,
+    "max_phase": null,
+    "canonical_smiles": "CN(C)c1ccc(/C=C2\\C(=O)Nc3ccccc32)c2ccccc12",
+    "standard_inchi": "InChI=1S/C21H18N2O/c1-23(2)20-12-11-14(15-7-3-4-9-17(15)20)13-18-16-8-5-6-10-19(16)22-21(18)24/h3-13H,1-2H3,(H,22,24)/b18-13-",
+    "standard_inchi_key": "VFCXONOPGCDDBQ-AQTBWJFISA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL597366.json",
+    "pubchem_cid": 9839842,
+    "identity_resolution": "ChEMBL search hit with absent pref_name; exact stereochemical InChIKey matches PubChem CID9839842, whose synonyms include MAZ51. Research comparator; other isomer records exist.",
+    "screen_role": "mechanistic_inhibition_comparator",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "MAZ51",
+      "brand": null,
+      "regulatory_status": "Nonclinical research compound; no approved medicine label identified.",
+      "approved_indications_summary": "None established.",
+      "label_url": null,
+      "label_updated": null,
+      "target_mechanism": "Indolinone inhibitor of VEGFR3 kinase/ligand-induced phosphorylation in recombinant and cellular assays. The original study reported strong VEGFR3 inhibition at 5 micromolar with little/no VEGFR2 effect; at 50 micromolar VEGFR2 inhibition also occurred. Possible inhibition of other RTKs was explicitly acknowledged.",
+      "pdgfra_explicit": false,
+      "flt4_vegfr3_explicit": true,
+      "hepatic_safety_summary": "No clinical label or established human hepatic-safety profile. Nonclinical experimental use must not be described as clinically safe.",
+      "liver_fibrosis_evidence_caution": "A VEGFR3 inhibition control for mechanistic experiments; cannot substitute for VEGFR3 activation or validate the therapeutic direction of FLT4 modulation.",
+      "source_refs": [
+        {
+          "url": "https://febs.onlinelibrary.wiley.com/doi/10.1046/j.1432-1033.2001.02476.x",
+          "ref_id": "turn45view2",
+          "sections": "Kirkin et al., Eur J Biochem 2001;268:5530-5540, Figures 6-7 and Discussion"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11683876/",
+          "ref_id": "turn41view5",
+          "sections": "Primary paper abstract"
+        }
+      ],
+      "hepatic_warning_category": "nonclinical_no_human_safety_label"
+    },
+    "candidate_role": "Nonclinical FLT4 inhibition comparator; off-target caution",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 0,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 0,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "pirfenidone",
+    "chembl_id": "CHEMBL1256391",
+    "pref_name": "PIRFENIDONE",
+    "max_phase": "4.0",
+    "canonical_smiles": "Cc1ccc(=O)n(-c2ccccc2)c1",
+    "standard_inchi": "InChI=1S/C12H11NO/c1-10-7-8-12(14)13(9-10)11-5-3-2-4-6-11/h2-9H,1H3",
+    "standard_inchi_key": "ISWRGOKTTBVCFA-UHFFFAOYSA-N",
+    "structure_url": "https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1256391.json",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL1256391",
+    "source_molecule_properties": {
+      "alogp": "2.15",
+      "aromatic_rings": 2,
+      "full_molformula": "C12H11NO",
+      "full_mwt": "185.23",
+      "hba": 2,
+      "hbd": 0,
+      "heavy_atoms": 14,
+      "mw_freebase": "185.23",
+      "np_likeness_score": "-1.10",
+      "num_ro5_violations": 0,
+      "psa": "22.00",
+      "qed_weighted": "0.67",
+      "ro3_pass": "Y",
+      "rtb": 1
+    },
+    "screen_role": "clinical_nonkinase_reference_not_validated_nonbinder",
+    "identity_status": "ready",
+    "clinical_evidence": {
+      "compound": "pirfenidone",
+      "brand": "ESBRIET",
+      "regulatory_status": "FDA-approved; initial US approval 2014",
+      "approved_indications_summary": "Idiopathic pulmonary fibrosis.",
+      "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e",
+      "label_updated": "2025-12-05",
+      "target_mechanism": "The label states that its mechanism in IPF has not been established. It is not label-established as a direct PDGFRA or FLT4 inhibitor.",
+      "pdgfra_explicit": false,
+      "flt4_vegfr3_explicit": false,
+      "hepatic_safety_summary": "Dedicated warning for elevated liver enzymes/DILI, including fatal postmarketing liver injury. Liver tests before therapy, monthly for 6 months and every 3 months thereafter. Not recommended in severe hepatic impairment.",
+      "liver_fibrosis_evidence_caution": "Suitable as an approved pulmonary antifibrotic comparator; target-specific docking relevance is unestablished and pulmonary approval is not hepatoprotection.",
+      "source_refs": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e",
+          "ref_id": "turn41view1",
+          "sections": "1; 5.1; 8.6; 12.1",
+          "supporting_ref_ids": [
+            "turn45view7",
+            "turn47view2"
+          ]
+        }
+      ],
+      "hepatic_warning_category": "dedicated_warning"
+    },
+    "candidate_role": "Pulmonary clinical nonkinase reference; not validated receptor nonbinder",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 0,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 0,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  },
+  {
+    "name": "nerandomilast",
+    "chembl_id": "CHEMBL5314532",
+    "pref_name": "NERANDOMILAST",
+    "max_phase": "4.0",
+    "canonical_smiles": "C1CC(C1)(CO)NC2=NC(=NC3=C2[S@](=O)CC3)N4CCC(CC4)C5=NC=C(C=N5)Cl",
+    "standard_inchi": "InChI=1S/C20H25ClN6O2S/c21-14-10-22-17(23-11-14)13-2-7-27(8-3-13)19-24-15-4-9-30(29)16(15)18(25-19)26-20(12-28)5-1-6-20/h10-11,13,28H,1-9,12H2,(H,24,25,26)/t30-/m1/s1",
+    "standard_inchi_key": "UHYCLWAANUGUMN-SSEXGKCCSA-N",
+    "structure_url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/166177189/property/IsomericSMILES,InChI,InChIKey/JSON",
+    "retrieved_utc": "2026-10-02T14:48:03Z",
+    "source_parent": "CHEMBL5314532",
+    "source_molecule_properties": {
+      "alogp": "2.29",
+      "aromatic_rings": 2,
+      "full_molformula": "C20H25ClN6O2S",
+      "full_mwt": "448.98",
+      "hba": 8,
+      "hbd": 2,
+      "heavy_atoms": 30,
+      "mw_freebase": "448.98",
+      "np_likeness_score": "-0.82",
+      "num_ro5_violations": 0,
+      "psa": "110.12",
+      "qed_weighted": "0.67",
+      "ro3_pass": "N",
+      "rtb": 5
+    },
+    "screen_role": "clinical_nonkinase_reference_not_validated_nonbinder",
+    "identity_status": "ready",
+    "chembl_record_stereo_unspecified": "[O-][S+]1CCc2nc(N3CCC(c4ncc(Cl)cn4)CC3)nc(NC3(CO)CCC3)c21",
+    "chembl_record_inchi_key": "UHYCLWAANUGUMN-UHFFFAOYSA-N",
+    "max_phase_source_chembl_stale": "2.0",
+    "pubchem_cid": 166177189,
+    "identity_resolution": "PubChem 166177189 (5R) sulfoxide matches JASCAYD label section 11. ChEMBL5314532 sulfur stereochemistry unspecified; ChEMBL max_phase stale. Use selected PubChem stereospecific parent.",
+    "label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa1b14c6-957f-d326-5099-911bfe33e391",
+    "clinical_evidence": {
+      "compound": "nerandomilast",
+      "chemical_identity_note": {
+        "label_section_11": "One chiral center; R-stereoisomer. Label name contains (5R) and the displayed structure specifies sulfoxide sulfur stereochemistry.",
+        "label_chemical_name": "[1-[[(5R)-2-[4-(5-chloropyrimidin-2-yl)-1-piperidyl]-5-oxo-6,7-dihydrothieno[3,2-d]pyrimidin-4-yl]amino]cyclobutyl]methanol",
+        "structure_url": "https://www.dailymed.nlm.nih.gov/dailymed/image.cfm?name=jascayd-01.jpg&setid=fa1b14c6-957f-d326-5099-911bfe33e391",
+        "structure_ref_id": "turn60view0"
+      },
+      "brand": "JASCAYD",
+      "regulatory_status": "FDA-approved; initial US approval 2025",
+      "approved_indications_summary": "Adults with idiopathic pulmonary fibrosis and progressive pulmonary fibrosis.",
+      "label_url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa1b14c6-957f-d326-5099-911bfe33e391",
+      "label_updated": "2026-08-14",
+      "prescribing_information_revision": "2026-08",
+      "target_mechanism": "PDE4 inhibitor with at least nine-fold in-vitro preference for PDE4B over PDE4A/C/D; elevates intracellular cAMP. Not label-established as a PDGFRA or FLT4 inhibitor.",
+      "pdgfra_explicit": false,
+      "flt4_vegfr3_explicit": false,
+      "hepatic_safety_summary": "No dedicated hepatotoxicity warning in reviewed label. Severe hepatic impairment has not been studied and use is not recommended; mild/moderate impairment uses the standard dose.",
+      "liver_fibrosis_evidence_caution": "Approved pulmonary antifibrotic comparator with a different molecular target. Absence of a dedicated liver warning is not comparative proof of hepatic safety.",
+      "source_refs": [
+        {
+          "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa1b14c6-957f-d326-5099-911bfe33e391",
+          "ref_id": "turn33view3",
+          "sections": "1; 8.7; 12.1",
+          "supporting_ref_ids": [
+            "turn39view7",
+            "turn41view0",
+            "turn45view10"
+          ]
+        },
+        {
+          "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-idiopathic-pulmonary-fibrosis",
+          "ref_id": "turn48view0",
+          "sections": "FDA approval announcement"
+        },
+        {
+          "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-chronic-progressive-lung-disease",
+          "ref_id": "turn48view1",
+          "sections": "FDA PPF approval announcement"
+        }
+      ],
+      "hepatic_warning_category": "hepatic_impairment_guidance_no_dedicated_hepatotoxicity_warning"
+    },
+    "candidate_role": "Pulmonary clinical nonkinase reference; not validated receptor nonbinder",
+    "hepatoprotection_established": false,
+    "clinical_substitute_recommendation": "Not established by this screen; no clinical switching recommendation",
+    "PDGFRA_evidence": {
+      "raw_records": 0,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    },
+    "FLT4_evidence": {
+      "raw_records": 0,
+      "eligible_exact_human_mapped_nonvariant": 0,
+      "note": "No variant described is not proof of wild-type construct. No record does not prove no binding."
+    }
+  }
+]

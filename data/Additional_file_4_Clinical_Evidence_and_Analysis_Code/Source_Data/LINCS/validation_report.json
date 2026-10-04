@@ -1,0 +1,234 @@
+{
+  "status": "PASS",
+  "n_checks": 55,
+  "n_passed": 55,
+  "checks": [
+    {
+      "check": "source exists: Source_Data/Pharmacology/sciplex_nintedanib_signature_long.csv",
+      "passed": true
+    },
+    {
+      "check": "source hash matches: Source_Data/Pharmacology/sciplex_nintedanib_signature_long.csv",
+      "passed": true
+    },
+    {
+      "check": "source exists: Source_Data/Pharmacology/chembl_target_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "source hash matches: Source_Data/Pharmacology/chembl_target_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "source exists: Source_Data/Pharmacology/chembl_human_single_protein_activities.csv",
+      "passed": true
+    },
+    {
+      "check": "source hash matches: Source_Data/Pharmacology/chembl_human_single_protein_activities.csv",
+      "passed": true
+    },
+    {
+      "check": "12,328 unique L1000 genes",
+      "passed": true
+    },
+    {
+      "check": "gene symbols are unique",
+      "passed": true
+    },
+    {
+      "check": "978 measured landmark genes",
+      "passed": true
+    },
+    {
+      "check": "all genome-wide q values valid",
+      "passed": true
+    },
+    {
+      "check": "no genome-wide exact-trend FDR hit",
+      "passed": true
+    },
+    {
+      "check": "minimum exact P equals 2/720",
+      "passed": true
+    },
+    {
+      "check": "direction consistency bounded",
+      "passed": true
+    },
+    {
+      "check": "LOO stability bounded",
+      "passed": true
+    },
+    {
+      "check": "13 prespecified DILI anchors audited",
+      "passed": true
+    },
+    {
+      "check": "12 DILI anchors represented",
+      "passed": true
+    },
+    {
+      "check": "DMGDH is the only absent DILI anchor",
+      "passed": true
+    },
+    {
+      "check": "seven prespecified mechanism modules",
+      "passed": true
+    },
+    {
+      "check": "module q values valid",
+      "passed": true
+    },
+    {
+      "check": "four Sci-Plex dose pairs in two analysis subsets",
+      "passed": true
+    },
+    {
+      "check": "Sci-Plex sensitivity subsets complete",
+      "passed": true
+    },
+    {
+      "check": "Sci-Plex concordance bounded",
+      "passed": true
+    },
+    {
+      "check": "16 multi-document potent targets represented in L1000",
+      "passed": true
+    },
+    {
+      "check": "all eight canonical target families represented",
+      "passed": true
+    },
+    {
+      "check": "figure exists: Figure_3_Nintedanib_HepG2_Dose_Perturbation.svg",
+      "passed": true
+    },
+    {
+      "check": "figure exists: Figure_3_Nintedanib_HepG2_Dose_Perturbation.pdf",
+      "passed": true
+    },
+    {
+      "check": "figure exists: Figure_3_Nintedanib_HepG2_Dose_Perturbation.png",
+      "passed": true
+    },
+    {
+      "check": "figure exists: Figure_3_Nintedanib_HepG2_Dose_Perturbation.tiff",
+      "passed": true
+    },
+    {
+      "check": "SVG is well-formed: Figure_3_Nintedanib_HepG2_Dose_Perturbation",
+      "passed": true
+    },
+    {
+      "check": "high-resolution raster dimensions: Figure_3_Nintedanib_HepG2_Dose_Perturbation.png",
+      "passed": true
+    },
+    {
+      "check": "approximately 600 dpi: Figure_3_Nintedanib_HepG2_Dose_Perturbation.png",
+      "passed": true
+    },
+    {
+      "check": "high-resolution raster dimensions: Figure_3_Nintedanib_HepG2_Dose_Perturbation.tiff",
+      "passed": true
+    },
+    {
+      "check": "approximately 600 dpi: Figure_3_Nintedanib_HepG2_Dose_Perturbation.tiff",
+      "passed": true
+    },
+    {
+      "check": "figure exists: Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.svg",
+      "passed": true
+    },
+    {
+      "check": "figure exists: Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.pdf",
+      "passed": true
+    },
+    {
+      "check": "figure exists: Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.png",
+      "passed": true
+    },
+    {
+      "check": "figure exists: Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.tiff",
+      "passed": true
+    },
+    {
+      "check": "SVG is well-formed: Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness",
+      "passed": true
+    },
+    {
+      "check": "high-resolution raster dimensions: Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.png",
+      "passed": true
+    },
+    {
+      "check": "approximately 600 dpi: Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.png",
+      "passed": true
+    },
+    {
+      "check": "high-resolution raster dimensions: Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.tiff",
+      "passed": true
+    },
+    {
+      "check": "approximately 600 dpi: Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.tiff",
+      "passed": true
+    },
+    {
+      "check": "main figure contains panel A",
+      "passed": true
+    },
+    {
+      "check": "main figure contains panel B",
+      "passed": true
+    },
+    {
+      "check": "main figure contains panel C",
+      "passed": true
+    },
+    {
+      "check": "main figure contains panel D",
+      "passed": true
+    },
+    {
+      "check": "main figure contains panel E",
+      "passed": true
+    },
+    {
+      "check": "main figure contains panel F",
+      "passed": true
+    },
+    {
+      "check": "main figure contains panel G",
+      "passed": true
+    },
+    {
+      "check": "main figure contains panel H",
+      "passed": true
+    },
+    {
+      "check": "main figure contains panel I",
+      "passed": true
+    },
+    {
+      "check": "main figure contains panel J",
+      "passed": true
+    },
+    {
+      "check": "caption retains clinical-causality boundary",
+      "passed": true
+    },
+    {
+      "check": "manuscript-ready Methods and Results present",
+      "passed": true
+    },
+    {
+      "check": "manuscript text retains interpretation boundary",
+      "passed": true
+    }
+  ],
+  "main_figure_panels": 10,
+  "main_figure_formats": [
+    "SVG",
+    "PDF",
+    "PNG 600 dpi",
+    "TIFF 600 dpi"
+  ]
+}

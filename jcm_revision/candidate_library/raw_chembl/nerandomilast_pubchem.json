@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 166177189,
+        "MolecularFormula": "C20H25ClN6O2S",
+        "MolecularWeight": "449.0",
+        "SMILES": "C1CC(C1)(CO)NC2=NC(=NC3=C2[S@](=O)CC3)N4CCC(CC4)C5=NC=C(C=N5)Cl",
+        "ConnectivitySMILES": "C1CC(C1)(CO)NC2=NC(=NC3=C2S(=O)CC3)N4CCC(CC4)C5=NC=C(C=N5)Cl",
+        "InChI": "InChI=1S/C20H25ClN6O2S/c21-14-10-22-17(23-11-14)13-2-7-27(8-3-13)19-24-15-4-9-30(29)16(15)18(25-19)26-20(12-28)5-1-6-20/h10-11,13,28H,1-9,12H2,(H,24,25,26)/t30-/m1/s1",
+        "InChIKey": "UHYCLWAANUGUMN-SSEXGKCCSA-N"
+      }
+    ]
+  }
+}

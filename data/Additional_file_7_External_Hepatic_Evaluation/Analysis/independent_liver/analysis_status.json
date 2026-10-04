@@ -1,0 +1,21 @@
+{
+  "status": "final_frozen",
+  "expression_source": "deposited 13392 x 22 log2 RMA matrix",
+  "raw_CEL_signal_analyzed": false,
+  "standard_affy_RMA_executed": false,
+  "raw_environment_attempt_status": "terminated before environment available; no raw reprocessing results included",
+  "exclude_from_submission": [
+    "CEL/",
+    "GSE125975_RAW.tar",
+    "r_env/",
+    "bin/",
+    "micromamba.tar.bz2",
+    "reprocess_CEL_standard_RMA.R",
+    "rma_background4.c",
+    "rma_common.c",
+    "rma_medpolish.c",
+    "custom.cdf.gz",
+    "custom.cdf.txt.gz",
+    "HTMG430PM_Mm_ENTREZG.cdf"
+  ]
+}

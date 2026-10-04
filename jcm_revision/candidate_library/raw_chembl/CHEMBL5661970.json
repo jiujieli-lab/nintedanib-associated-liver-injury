@@ -1,0 +1,24 @@
+{
+  "abstract": "Vascular endothelial growth factor (VEGF) plays a key role in tumor angiogenesis by stimulating the proangiogenic signaling of endothelial cells via activation of VEGF receptor (VEGFR) tyrosine kinases. Therefore, VEGFRs are an attractive therapeutic target for cancer treatment. In the present study, we show that a quinoline-urea derivative, KRN951, is a novel tyrosine kinase inhibitor for VEGFRs with antitumor angiogenesis and antigrowth activities. KRN951 potently inhibited VEGF-induced VEGFR-2 phosphorylation in endothelial cells at in vitro subnanomolar IC50 values (IC50 = 0.16 nmol/L). It also inhibited ligand-induced phosphorylation of platelet-derived growth factor receptor-beta (PDGFR-beta) and c-Kit (IC50 = 1.72 and 1.63 nmol/L, respectively). KRN951 blocked VEGF-dependent, but not VEGF-independent, activation of mitogen-activated protein kinases and proliferation of endothelial cells. In addition, it inhibited VEGF-mediated migration of human umbilical vein endothelial cells. Following p.o. administration to athymic rats, KRN951 decreased the microvessel density within tumor xenografts and attenuated VEGFR-2 phosphorylation levels in tumor endothelium. It also displayed antitumor activity against a wide variety of human tumor xenografts, including lung, breast, colon, ovarian, pancreas, and prostate cancer. Furthermore, dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) analysis revealed that a significant reduction in tumor vascular hyperpermeability was closely associated with the antitumor activity of KRN951. These findings suggest that KRN951 is a highly potent, p.o. active antiangiogenesis and antitumor agent and that DCE-MRI would be useful in detecting early responses to KRN951 in a clinical setting. KRN951 is currently in phase I clinical development for the treatment of patients with advanced cancer.",
+  "authors": "Nakamura K, Taguchi E, Miura T, Yamamoto A, Takahashi K, Bichat F, Guilbaud N, Hasegawa K, Kubo K, Fujiwara Y, Suzuki R, Kubo K, Shibuya M, Isae T.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_36",
+    "creation_date": "2025-07-28"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5661970",
+  "doi": "10.1158/0008-5472.can-05-4290",
+  "doi_chembl": null,
+  "first_page": "9134",
+  "issue": "18",
+  "journal": "Cancer Res",
+  "journal_full_title": "Cancer research.",
+  "last_page": "9142",
+  "patent_id": null,
+  "pubmed_id": 16982756,
+  "src_id": 72,
+  "title": "KRN951, a highly potent inhibitor of vascular endothelial growth factor receptor tyrosine kinases, has antitumor activities and affects functional vascular properties.",
+  "volume": "66",
+  "year": 2006
+}

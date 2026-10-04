@@ -1,0 +1,58 @@
+{
+  "model_profiles": [
+    {
+      "target": "PDGFRA",
+      "scored": 12,
+      "filtered": 4,
+      "plot_order": [
+        "crenolanib",
+        "ripretinib",
+        "axitinib",
+        "tivozanib",
+        "imatinib",
+        "sorafenib",
+        "lenvatinib",
+        "avapritinib",
+        "pazopanib",
+        "regorafenib",
+        "pirfenidone",
+        "nerandomilast",
+        "nintedanib",
+        "sunitinib",
+        "ponatinib",
+        "MAZ51"
+      ]
+    },
+    {
+      "target": "FLT4",
+      "scored": 12,
+      "filtered": 4,
+      "plot_order": [
+        "tivozanib",
+        "lenvatinib",
+        "pazopanib",
+        "axitinib",
+        "ripretinib",
+        "sorafenib",
+        "regorafenib",
+        "crenolanib",
+        "avapritinib",
+        "imatinib",
+        "pirfenidone",
+        "nerandomilast",
+        "nintedanib",
+        "sunitinib",
+        "ponatinib",
+        "MAZ51"
+      ]
+    }
+  ],
+  "score_field": "binding_confidence",
+  "score_interpretation": "dimensionless provider score, not a calibrated probability or measured affinity",
+  "source_sha256": "7532787954bb92e00fc118d9d420b5f0f12b8953906390695002dac48c598e2e",
+  "molecular_panel_sha256": {
+    "D": "8c1a852d107542f365aa8ae748f3b8f61571b1890472c8112885b8967faeae09",
+    "E": "fa9bb00a171bf3002c71de5a6d6e1a2e2aa57aba40035c0d503f90b76c76cd8c",
+    "F": "a07c49edad26bc4312654981827a0c63e8e557511534ebdff0440f77cbc2cad2"
+  }
+}

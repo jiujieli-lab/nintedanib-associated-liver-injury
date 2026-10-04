@@ -1,0 +1,915 @@
+[
+  [
+    "Figure_or_Supplement",
+    "Panel_Scope",
+    "Primary_Artifact",
+    "Primary_Source_Tables",
+    "Statistical_Unit",
+    "Key_Analysis",
+    "Inference_Boundary",
+    "Caption_or_Manifest"
+  ],
+  [
+    "Graphical Abstract",
+    "Study architecture only",
+    "fresh_analysis/figures/Graphical_Abstract_Public_Data_Target_Map.svg",
+    "README; Data_Sources; Figure_Source_Map",
+    "Not applicable",
+    "Evidence-flow schematic; no new numerical result",
+    "Must not be interpreted as an additional result figure",
+    "Manuscript graphical-abstract legend"
+  ],
+  [
+    "Figure 1",
+    "A-J",
+    "fresh_analysis/figures/Figure_1_FAERS.svg",
+    "fresh_analysis/figures/Figure_1_FAERS_panel_source_data.csv; fresh_analysis/faers/results/overall_active_comparator_signals.csv; fresh_analysis/faers/results/report_level_specification_signals.csv",
+    "Latest-version safetyreportid (report)",
+    "Active-comparator disproportionality, calendar-time, onset, outcome, subgroup, and specification analyses",
+    "Reporting disproportionality, not incidence or causality",
+    "fresh_analysis/figures/Figure_1_FAERS_caption.md"
+  ],
+  [
+    "Figure 2",
+    "A-J",
+    "fresh_analysis/figures/Figure_2_Human_DILI_Proteomics.svg",
+    "fresh_analysis/proteomics/effect_estimates.csv; fresh_analysis/proteomics/correlation_stats.csv; fresh_analysis/proteomics/zonal_effect_estimates.csv; fresh_analysis/proteomics/qc_counts.csv",
+    "Participant within protein-specific source series",
+    "Human DILI-associated proteome effects and robustness",
+    "Not nintedanib-specific; cross-protein participant linkage unavailable",
+    "fresh_analysis/figures/Figure_2_manifest.json"
+  ],
+  [
+    "Figure 3",
+    "A-J",
+    "fresh_analysis/figures/Figure_3_Nintedanib_HepG2_Dose_Perturbation.svg",
+    "fresh_analysis/lincs/analysis/gene_dose_response_metrics.csv.gz; fresh_analysis/lincs/analysis/mechanism_module_statistics.csv; fresh_analysis/lincs/analysis/sciplex_hepg2_concordance.csv; fresh_analysis/pharmacology/chembl_target_summary.csv",
+    "Composite Level-5 signature at one dose; ChEMBL activity/document",
+    "HepG2 concentration response, module shifts, orthogonal list overlap, and biochemical pharmacology",
+    "Cell-line and biochemical context do not establish clinical hepatotoxicity",
+    "fresh_analysis/lincs/analysis/Figure_3_caption.md"
+  ],
+  [
+    "Figure 4",
+    "A-J",
+    "Figures/Figure_4_Liver_Localization_and_Perturbation_QC.pdf",
+    "target_expression_by_compartment.csv; vko_numerical_run_audit.csv; network_evaluable_legacy_comparison.csv",
+    "Donor for expression; seed/network run for computational stability",
+    "Donor-aware localization, numerical reliability audit and QC-filtered virtual perturbation",
+    "Healthy liver and unsigned numerical displacement; failed numerical runs remain visible",
+    "Main_Manuscript.docx, Figure 4 legend"
+  ],
+  [
+    "Figure 5",
+    "A",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Network/candidate_network_summary.csv",
+    "candidate–compartment",
+    "matched-null z; BH across 50 hypotheses",
+    "Network proximity and ranking robustness; experimental causality is not established",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Figure 5",
+    "B",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Network/candidate_network_summary.csv",
+    "candidate–compartment",
+    "detection versus empirical q",
+    "Network proximity and ranking robustness; experimental causality is not established",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Figure 5",
+    "C",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Network/network_target_anchor_contributions.csv",
+    "protein seed",
+    "additive contribution",
+    "Network proximity and ranking robustness; experimental causality is not established",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Figure 5",
+    "D",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Network/network_donor_lodo_scores.csv",
+    "omitted donor",
+    "fixed primary network, donor omission",
+    "Network proximity and ranking robustness; experimental causality is not established",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Figure 5",
+    "E",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Integration/algorithm_candidate_rankings.csv",
+    "candidate",
+    "rank; same 17 targets",
+    "Network proximity and ranking robustness; experimental causality is not established",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Figure 5",
+    "F",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Integration/candidate_integrated_summary.csv",
+    "candidate",
+    "descriptive",
+    "Network proximity and ranking robustness; experimental causality is not established",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Figure 5",
+    "G",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Integration/algorithm_benchmark_summary.csv",
+    "algorithm × omitted family",
+    "rank stability, not prediction accuracy",
+    "Network proximity and ranking robustness; experimental causality is not established",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Figure 5",
+    "H",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Integration/algorithm_family_omission_evaluation.csv",
+    "candidate rankings",
+    "withheld component concordance",
+    "Network proximity and ranking robustness; experimental causality is not established",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Figure 5",
+    "I",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Integration/algorithm_weight_sensitivity.csv",
+    "Dirichlet weight draw",
+    "top-five frequency",
+    "Network proximity and ranking robustness; experimental causality is not established",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Figure 5",
+    "J",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Integration/algorithm_specification_donor_missingness_sensitivity.csv",
+    "omitted donor",
+    "geometric fusion with retained-donor detection weights",
+    "Network proximity and ranking robustness; experimental causality is not established",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Supplementary Figure S9",
+    "A",
+    "Supplementary_Figures/Supplementary_Figure_S9_Liver_and_Lung_Context.pdf",
+    "fresh_analysis/preclinical/results/GSE278200_pca_coordinates.csv; fresh_analysis/preclinical/results/GSE278200_sample_metadata.csv",
+    "Independent animal",
+    "PCA of rat lung transcriptomes",
+    "Small male-rat bleomycin experiment; not liver/DILI evidence",
+    "Supplementary_Information.pdf, Figure S9 legend"
+  ],
+  [
+    "Supplementary Figure S9",
+    "B",
+    "Supplementary_Figures/Supplementary_Figure_S9_Liver_and_Lung_Context.pdf",
+    "fresh_analysis/preclinical/results/GSE278200_reversal_geometry.csv.gz; fresh_analysis/preclinical/results/GSE278200_differential_expression.csv.gz",
+    "Gene as display unit; animal-level contrasts underneath",
+    "Disease-versus-treatment reversal geometry",
+    "Genes are correlated; correlation P is descriptive, not biological inference",
+    "Supplementary_Information.pdf, Figure S9 legend"
+  ],
+  [
+    "Supplementary Figure S9",
+    "C",
+    "Supplementary_Figures/Supplementary_Figure_S9_Liver_and_Lung_Context.pdf",
+    "fresh_analysis/preclinical/results/GSE278200_differential_expression.csv.gz; fresh_analysis/preclinical/results/GSE278200_expression_filter.csv.gz",
+    "Independent animal",
+    "Genome-wide animal-level nintedanib-versus-BLM differential expression",
+    "BH spans 13,598 expressed genes",
+    "Supplementary_Information.pdf, Figure S9 legend"
+  ],
+  [
+    "Supplementary Figure S9",
+    "D",
+    "Supplementary_Figures/Supplementary_Figure_S9_Liver_and_Lung_Context.pdf",
+    "fresh_analysis/preclinical/results/GSE278200_candidate_results.csv",
+    "Independent animal",
+    "Prespecified target, anchor, and fibrosis-gene effects",
+    "Absence after filtering is explicitly retained; no liver-safety inference",
+    "Supplementary_Information.pdf, Figure S9 legend"
+  ],
+  [
+    "Supplementary Figure S9",
+    "E",
+    "Supplementary_Figures/Supplementary_Figure_S9_Liver_and_Lung_Context.pdf",
+    "fresh_analysis/preclinical/results/GSE278200_module_scores.csv; fresh_analysis/preclinical/results/GSE278200_module_contrasts.csv; fresh_analysis/preclinical/results/GSE278200_module_coverage.csv",
+    "Independent animal",
+    "Seven prespecified module effects with exact label permutations",
+    "Smallest attainable two-sided P and within-contrast BH are preserved",
+    "Supplementary_Information.pdf, Figure S9 legend"
+  ],
+  [
+    "Supplementary Figure S9",
+    "F",
+    "Supplementary_Figures/Supplementary_Figure_S9_Liver_and_Lung_Context.pdf",
+    "fresh_analysis/preclinical/results/GSE308578_pca_coordinates.csv; fresh_analysis/preclinical/results/GSE308578_sample_metadata.csv",
+    "Independent animal",
+    "PCA of mouse lung transcriptomes",
+    "GEO/ARRIVE 10/16/17 labels retained despite conflicting main-caption n",
+    "Supplementary_Information.pdf, Figure S9 legend"
+  ],
+  [
+    "Supplementary Figure S9",
+    "G",
+    "Supplementary_Figures/Supplementary_Figure_S9_Liver_and_Lung_Context.pdf",
+    "fresh_analysis/preclinical/results/GSE308578_reversal_geometry.csv.gz; fresh_analysis/preclinical/results/GSE308578_differential_expression.csv.gz",
+    "Gene as display unit; animal-level contrasts underneath",
+    "Disease-versus-treatment reversal geometry",
+    "Genes are correlated; reversal magnitude is model-specific and descriptive",
+    "Supplementary_Information.pdf, Figure S9 legend"
+  ],
+  [
+    "Supplementary Figure S9",
+    "H",
+    "Supplementary_Figures/Supplementary_Figure_S9_Liver_and_Lung_Context.pdf",
+    "fresh_analysis/preclinical/results/GSE308578_candidate_results.csv; fresh_analysis/preclinical/results/GSE308578_leave_one_animal_out_summary.csv; fresh_analysis/preclinical/results/GSE308578_leave_one_animal_out_full.csv.gz",
+    "Independent animal",
+    "Prespecified effects with 33 leave-one-relevant-animal-out deletions",
+    "Whole-lung response does not validate hepatic toxicity or safety",
+    "Supplementary_Information.pdf, Figure S9 legend"
+  ],
+  [
+    "Supplementary Figure S9",
+    "I",
+    "Supplementary_Figures/Supplementary_Figure_S9_Liver_and_Lung_Context.pdf",
+    "fresh_analysis/preclinical/results/GSE120804_sample_metadata.csv; fresh_analysis/preclinical/results/GSE120804_candidate_results.csv; fresh_analysis/preclinical/results/GSE120804_differential_expression.csv.gz; fresh_analysis/preclinical/results/GSE120804_module_contrasts.csv",
+    "Pooled-tissue liver-slice observation",
+    "Exploratory BDL liver-PCLS effects",
+    "Slices were allocated after tissue pooling; no animal-population or DILI inference",
+    "Supplementary_Information.pdf, Figure S9 legend"
+  ],
+  [
+    "Supplementary Figure S9",
+    "J",
+    "Supplementary_Figures/Supplementary_Figure_S9_Liver_and_Lung_Context.pdf",
+    "fresh_analysis/preclinical/results/cross_model_candidate_module_effects.csv; fresh_analysis/preclinical/results/GSE120679_candidate_results.csv; fresh_analysis/preclinical/results/GSE120679_module_contrasts.csv; fresh_analysis/preclinical/results/PXD024058_candidate_effects_descriptive.csv; fresh_analysis/preclinical/results/PXD024058_protein_effects_descriptive.csv.gz",
+    "Model-specific: independent animal, pooled lung-slice observation, or unresolved protein replicate",
+    "Cross-model candidate/module effect display",
+    "GSE120679 cannot support animal-population inference; PXD024058 is descriptive only",
+    "Supplementary_Information.pdf, Figure S9 legend"
+  ],
+  [
+    "Supplementary Figure S1",
+    "FAERS supporting panels",
+    "fresh_analysis/figures/Supplementary_Figure_S1_FAERS.svg",
+    "fresh_analysis/figures/Supplementary_Figure_S1_FAERS_panel_source_data.csv; fresh_analysis/faers/results/preferred_term_signals.csv; fresh_analysis/faers/results/annual_active_comparator_signals.csv",
+    "Latest-version safetyreportid (report)",
+    "Preferred-term and temporal sensitivity analyses",
+    "Reporting disproportionality only",
+    "fresh_analysis/figures/Supplementary_Figure_S1_FAERS_caption.md"
+  ],
+  [
+    "Supplementary Figure S2",
+    "Protein distributions",
+    "fresh_analysis/figures/Supplementary_Figure_S2_Protein_Distributions.svg",
+    "fresh_analysis/proteomics/effect_estimates.csv; fresh_analysis/proteomics/qc_counts.csv",
+    "Participant within protein-specific source series",
+    "Distribution and availability views",
+    "Multi-drug DILI; not nintedanib-specific",
+    "fresh_analysis/figures/Supplementary_Figure_S2_caption.md"
+  ],
+  [
+    "Supplementary Figure S3",
+    "Proteomics robustness",
+    "fresh_analysis/figures/Supplementary_Figure_S3_Proteomics_Robustness.svg",
+    "fresh_analysis/proteomics/effect_estimates.csv; fresh_analysis/proteomics/correlation_stats.csv; fresh_analysis/proteomics/missingness_stats.csv; fresh_analysis/proteomics/left_censor_sensitivity.csv; fresh_analysis/proteomics/row_order_linkage_qc.csv",
+    "Participant within protein-specific source series",
+    "Discovery/confirmation concordance, missingness, censoring, outlier, zone, source-block, and linkage audits",
+    "Univariate protein-wise inference only; no defensible participant-level multivariable matrix",
+    "fresh_analysis/figures/Supplementary_Figure_S3_caption.md"
+  ],
+  [
+    "Supplementary Figure S4",
+    "Nintedanib perturbation robustness",
+    "fresh_analysis/figures/Supplementary_Figure_S4_Nintedanib_Perturbation_Robustness.svg",
+    "fresh_analysis/lincs/analysis/gene_dose_response_metrics.csv.gz; fresh_analysis/lincs/analysis/sciplex_hepg2_concordance.csv",
+    "Composite signature at one dose",
+    "Dose-pattern and cross-cell-line sensitivity analyses",
+    "No clinical exposure or outcome inference",
+    "fresh_analysis/figures/Supplementary_Figure_S4_caption.md"
+  ],
+  [
+    "Supplementary Figure S5",
+    "Whole-blood sensitivity",
+    "fresh_analysis/figures/Supplementary_Figure_S5_Whole_Blood_Sensitivity.svg",
+    "fresh_analysis/blood_longitudinal/target_longitudinal_summary.csv; fresh_analysis/blood_longitudinal/participant_slopes.csv",
+    "Participant",
+    "Exact two-sided participant-level sign-flip test over all 2^7 assignments",
+    "Small single-arm blood cohort without adjudicated DILI; systemic detectability only",
+    "fresh_analysis/figures/Supplementary_Figure_S5_caption.md"
+  ],
+  [
+    "Supplementary Figure S6",
+    "A",
+    "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+    "fresh_analysis/preclinical/gse151374/results/qc_by_library.csv",
+    "Pooled 10x library (three mice per pool)",
+    "QC-retained cell count by library",
+    "Cells are descriptive nested observations; n=3 pooled libraries per condition-time",
+    "fresh_analysis/preclinical/gse151374/docs/Supplementary_Figure_S6_caption.md"
+  ],
+  [
+    "Supplementary Figure S6",
+    "B",
+    "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+    "fresh_analysis/preclinical/gse151374/results/qc_by_library.csv",
+    "Pooled 10x library (three mice per pool)",
+    "Median UMI and detected-gene library QC",
+    "No cell-level inferential test",
+    "fresh_analysis/preclinical/gse151374/docs/Supplementary_Figure_S6_caption.md"
+  ],
+  [
+    "Supplementary Figure S6",
+    "C",
+    "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+    "fresh_analysis/preclinical/gse151374/results/pca_all_retained_pseudobulk.csv",
+    "Pooled 10x library (three mice per pool)",
+    "All-retained-cell library-pseudobulk PCA",
+    "PCA is descriptive; the pool is the inferential unit",
+    "fresh_analysis/preclinical/gse151374/docs/Supplementary_Figure_S6_caption.md"
+  ],
+  [
+    "Supplementary Figure S6",
+    "D",
+    "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+    "fresh_analysis/preclinical/gse151374/results/celltype_counts_and_proportions_by_library.csv",
+    "Pooled 10x library (three mice per pool)",
+    "Broad marker-rule lineage composition",
+    "Marker-rule labels are broad descriptive strata, not cell-level replication",
+    "fresh_analysis/preclinical/gse151374/docs/Supplementary_Figure_S6_caption.md"
+  ],
+  [
+    "Supplementary Figure S6",
+    "E",
+    "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+    "fresh_analysis/preclinical/gse151374/results/celltype_proportion_contrasts.csv",
+    "Pooled 10x library (three mice per pool)",
+    "Day-matched macrophage fractions with exhaustive 3-versus-3 permutation tests",
+    "All exact-permutation BH families are null; minimum two-sided exact P=0.10",
+    "fresh_analysis/preclinical/gse151374/docs/Supplementary_Figure_S6_caption.md"
+  ],
+  [
+    "Supplementary Figure S6",
+    "F",
+    "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+    "fresh_analysis/preclinical/gse151374/results/pca_macrophage_pseudobulk.csv",
+    "Pooled 10x library (three mice per pool)",
+    "Macrophage-stratum library-pseudobulk PCA",
+    "PCA is descriptive; lung context only",
+    "fresh_analysis/preclinical/gse151374/docs/Supplementary_Figure_S6_caption.md"
+  ],
+  [
+    "Supplementary Figure S6",
+    "G",
+    "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+    "fresh_analysis/preclinical/gse151374/results/macrophage_DE_NINT_vs_BLM_day7.csv",
+    "Pooled 10x library (three mice per pool)",
+    "Day-7 macrophage-pseudobulk gene-level Welch contrasts with BH",
+    "No gene met q<0.10; no cell-level inference",
+    "fresh_analysis/preclinical/gse151374/docs/Supplementary_Figure_S6_caption.md"
+  ],
+  [
+    "Supplementary Figure S6",
+    "H",
+    "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+    "fresh_analysis/preclinical/gse151374/results/macrophage_DE_NINT_vs_BLM_day14.csv",
+    "Pooled 10x library (three mice per pool)",
+    "Day-14 macrophage-pseudobulk gene-level Welch contrasts with BH",
+    "No gene met q<0.10; no cell-level inference",
+    "fresh_analysis/preclinical/gse151374/docs/Supplementary_Figure_S6_caption.md"
+  ],
+  [
+    "Supplementary Figure S6",
+    "I",
+    "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+    "fresh_analysis/preclinical/gse151374/results/macrophage_module_scores_by_library.csv; fresh_analysis/preclinical/gse151374/results/macrophage_module_contrasts.csv",
+    "Pooled 10x library (three mice per pool)",
+    "Five prespecified macrophage-program contrasts",
+    "No multiplicity-controlled program signal",
+    "fresh_analysis/preclinical/gse151374/docs/Supplementary_Figure_S6_caption.md"
+  ],
+  [
+    "Supplementary Figure S6",
+    "J",
+    "fresh_analysis/figures/Supplementary_Figure_S6_GSE151374.svg",
+    "fresh_analysis/preclinical/gse151374/results/candidate_and_phenotype_tracks.csv; fresh_analysis/preclinical/gse151374/results/candidate_gene_contrasts.csv",
+    "Pooled 10x library (three mice per pool)",
+    "Fgfr1 and clinical DILI-associated metabolic protein tracks",
+    "Fgfr1 and Fbp1/Gsta1/Otc link receptor signaling with metabolic responses; these measurements are from lung tissue",
+    "fresh_analysis/preclinical/gse151374/docs/Supplementary_Figure_S6_caption.md"
+  ],
+  [
+    "Supplementary Figure S7",
+    "A",
+    "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+    "fresh_analysis/preclinical/pxd052594/results/animal_sample_manifest.csv; fresh_analysis/preclinical/pxd052594/results/proteome_NINT_vs_vehicle_all_animals.csv",
+    "Individual mouse",
+    "Quantified-protein completeness across all 23 retained animals",
+    "No radiomic response cluster was used",
+    "fresh_analysis/preclinical/pxd052594/docs/Supplementary_Figure_S7_caption.md"
+  ],
+  [
+    "Supplementary Figure S7",
+    "B",
+    "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+    "fresh_analysis/preclinical/pxd052594/results/proteome_PCA.csv",
+    "Individual mouse",
+    "PCA of 2,000 most variable proteins",
+    "Descriptive pulmonary separation; not hepatic safety",
+    "fresh_analysis/preclinical/pxd052594/docs/Supplementary_Figure_S7_caption.md"
+  ],
+  [
+    "Supplementary Figure S7",
+    "C",
+    "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+    "fresh_analysis/preclinical/pxd052594/results/proteome_NINT_vs_vehicle_all_animals.csv",
+    "Individual mouse",
+    "Unconditioned all-animal protein contrast",
+    "BH across 7,006 proteins is null; post-treatment responder conditioning is prohibited",
+    "fresh_analysis/preclinical/pxd052594/docs/Supplementary_Figure_S7_caption.md"
+  ],
+  [
+    "Supplementary Figure S7",
+    "D",
+    "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+    "fresh_analysis/preclinical/pxd052594/results/proteome_NINT_vs_vehicle_all_animals.csv",
+    "Individual mouse",
+    "Standardized abundance display for 20 smallest nominal protein P values",
+    "Display selection is not an inferential threshold",
+    "fresh_analysis/preclinical/pxd052594/docs/Supplementary_Figure_S7_caption.md"
+  ],
+  [
+    "Supplementary Figure S7",
+    "E",
+    "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+    "fresh_analysis/preclinical/pxd052594/results/module_contrasts.csv",
+    "Individual mouse",
+    "Five prespecified protein-program contrasts",
+    "No module met BH significance",
+    "fresh_analysis/preclinical/pxd052594/docs/Supplementary_Figure_S7_caption.md"
+  ],
+  [
+    "Supplementary Figure S7",
+    "F",
+    "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+    "fresh_analysis/preclinical/pxd052594/results/module_scores_by_animal.csv",
+    "Individual mouse",
+    "Extracellular-matrix module scores",
+    "Pulmonary contextual sensitivity only",
+    "fresh_analysis/preclinical/pxd052594/docs/Supplementary_Figure_S7_caption.md"
+  ],
+  [
+    "Supplementary Figure S7",
+    "G",
+    "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+    "fresh_analysis/preclinical/pxd052594/results/module_scores_by_animal.csv",
+    "Individual mouse",
+    "Macrophage-repair module scores",
+    "Pulmonary contextual sensitivity only",
+    "fresh_analysis/preclinical/pxd052594/docs/Supplementary_Figure_S7_caption.md"
+  ],
+  [
+    "Supplementary Figure S7",
+    "H",
+    "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+    "fresh_analysis/preclinical/pxd052594/results/module_scores_by_animal.csv",
+    "Individual mouse",
+    "RTK-response module scores",
+    "Pulmonary contextual sensitivity only",
+    "fresh_analysis/preclinical/pxd052594/docs/Supplementary_Figure_S7_caption.md"
+  ],
+  [
+    "Supplementary Figure S7",
+    "I",
+    "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+    "fresh_analysis/preclinical/pxd052594/results/candidate_contrasts.csv",
+    "Individual mouse",
+    "Prespecified drug-target, metabolic and lung-response protein effects",
+    "Fgfr1 and Fbp1/Gsta1/Otc connect the receptor and metabolic components of the hypothesis",
+    "fresh_analysis/preclinical/pxd052594/docs/Supplementary_Figure_S7_caption.md"
+  ],
+  [
+    "Supplementary Figure S7",
+    "J",
+    "fresh_analysis/figures/Supplementary_Figure_S7_PXD052594.svg",
+    "fresh_analysis/preclinical/pxd052594/results/candidate_expression_by_animal.csv",
+    "Individual mouse",
+    "Absolute deposited abundance of prespecified tracks",
+    "Nonquantified proteins are retained; lung context is not liver/DILI confirmation",
+    "fresh_analysis/preclinical/pxd052594/docs/Supplementary_Figure_S7_caption.md"
+  ],
+  [
+    "Supplementary table-only sensitivity",
+    "PXD052594 phosphoproteome",
+    "fresh_analysis/preclinical/pxd052594/results/phosphosite_NINT_vs_vehicle_all_deposited_subset_animals.csv",
+    "fresh_analysis/preclinical/pxd052594/results/phosphosite_NINT_vs_vehicle_all_deposited_subset_animals.csv; fresh_analysis/preclinical/pxd052594/results/phosphosite_target_pathway_summary.csv",
+    "Individual mouse in the distinct deposited random 5-versus-5 subset",
+    "All 20,043 phosphosite contrasts with BH; 994 sites q<0.05",
+    "Not a panel in Supplementary Figure S7; distinct from the 23-animal proteome and interpreted only as contextual pulmonary signaling",
+    "fresh_analysis/preclinical/pxd052594/results/analysis_manifest.json"
+  ],
+  [],
+  [],
+  [],
+  [
+    "Figure_or_Supplement",
+    "Panel_Scope",
+    "Primary_Artifact",
+    "Primary_Source_Tables",
+    "Statistical_Unit",
+    "Key_Analysis",
+    "Inference_Boundary",
+    "Caption_or_Manifest"
+  ],
+  [
+    "Figure 5",
+    "K",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Integration/integrated_family_percentile_scores.csv",
+    "candidate × source family",
+    "rank-scaled score",
+    "Computational robustness; not target-causal validation",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Figure 5",
+    "L",
+    "Figures/Figure_5_Phenotype_Guided_Network_Integration.pdf",
+    "Network/candidate_network_summary.csv",
+    "candidate–compartment",
+    "joint statistical, specification, donor and expression criteria",
+    "Computational robustness; not target-causal validation",
+    "Main_Manuscript.docx, Figure 5 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "A",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Network/candidate_network_summary.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "B",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Network/candidate_network_summary.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "C",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Network/network_null_matching_sensitivity.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "D",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Network/network_shrinkage_ablation.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "E",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Network/network_specification_scores.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "F",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Network/network_specification_scores.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "G",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Integration/candidate_integrated_summary.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "H",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Integration/algorithm_weight_sensitivity.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "I",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Integration/algorithm_specification_donor_missingness_sensitivity.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "J",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Integration/algorithm_specification_donor_missingness_sensitivity.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "K",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Integration/algorithm_block_permutation_calibration.csv",
+    "candidate",
+    "descriptive",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S8",
+    "L",
+    "Supplementary_Figures/Supplementary_Figure_S8_Network_and_Algorithm_Robustness.pdf",
+    "Network/network_donor_covariance_qc.csv",
+    "donor",
+    "Ledoit–Wolf coefficient",
+    "Computational robustness; not target-causal validation",
+    "Supplementary_Information.pdf, Figure S8 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "A",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/disjoint_reference_splits.csv; Pulmonary/shared_reference_summary.csv",
+    "oriented disease-animal reference split",
+    "GSE278200: reversal_fraction",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "B",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/disjoint_reference_splits.csv; Pulmonary/shared_reference_summary.csv",
+    "oriented disease-animal reference split",
+    "GSE278200: rho",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "C",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/disjoint_reference_splits.csv; Pulmonary/shared_reference_summary.csv",
+    "oriented disease-animal reference split",
+    "GSE278200: median_restoration",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "D",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/disjoint_reference_splits.csv; Pulmonary/shared_reference_summary.csv",
+    "oriented disease-animal reference split",
+    "GSE308578: reversal_fraction",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "E",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/disjoint_reference_splits.csv; Pulmonary/shared_reference_summary.csv",
+    "oriented disease-animal reference split",
+    "GSE308578: rho",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "F",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/disjoint_reference_splits.csv; Pulmonary/shared_reference_summary.csv",
+    "oriented disease-animal reference split",
+    "GSE308578: median_restoration",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "G",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/animal_label_permutations.csv; Pulmonary/shared_reference_summary.csv",
+    "whole-animal treatment allocation",
+    "GSE278200: reversal_fraction",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "H",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/animal_label_permutations.csv; Pulmonary/shared_reference_summary.csv",
+    "whole-animal treatment allocation",
+    "GSE278200: rho",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "I",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/animal_label_permutations.csv; Pulmonary/shared_reference_summary.csv",
+    "whole-animal treatment allocation",
+    "GSE278200: median_restoration",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "J",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/animal_label_permutations.csv; Pulmonary/shared_reference_summary.csv",
+    "whole-animal treatment allocation",
+    "GSE308578: reversal_fraction",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "K",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/animal_label_permutations.csv; Pulmonary/shared_reference_summary.csv",
+    "whole-animal treatment allocation",
+    "GSE308578: rho",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Supplementary Figure S10",
+    "L",
+    "Supplementary_Figures/Supplementary_Figure_S10_Shared_Reference_Sensitivity.pdf",
+    "Pulmonary/animal_label_permutations.csv; Pulmonary/shared_reference_summary.csv",
+    "whole-animal treatment allocation",
+    "GSE308578: median_restoration",
+    "Within-dataset sensitivity; shared controls and correlated genes preclude independent-gene inference",
+    "Supplementary_Information.pdf, Figure S10 legend"
+  ],
+  [
+    "Figure 6",
+    "A",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/sample_PCA.csv",
+    "animal; all 22",
+    "PCA of 2,000 variable genes",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "B",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/NINT_vs_DISEASE_all_genes.csv",
+    "19 treated/disease animals; variance model all 22",
+    "moderated-test BH across 13,392 features",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "C",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/fixed_targets_and_clinical_proteins.csv",
+    "19 treated/disease animals; variance model all 22",
+    "moderated CI; star exact BH across full fixed 17-candidate family",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "D",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/Figure6_animal_expression_source.csv",
+    "22 individual animals; exact treatment test 19",
+    "points individual animals, bars group means; exact BH family 17",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "E",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/Figure6_animal_expression_source.csv",
+    "22 individual animals; exact treatment test 19",
+    "points individual animals, bars group means; exact BH family 17",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "F",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/Figure6_animal_expression_source.csv",
+    "22 individual animals; exact treatment test 19",
+    "points individual animals, bars group means; exact BH family 17",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "G",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/fixed_targets_and_clinical_proteins.csv",
+    "each omitted disease/treated animal",
+    "full-sample effect and 19 omission estimate min/max; not confidence intervals",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "H",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/module_contrasts.csv; module_gene_membership.csv",
+    "19 disease/treated animals; standardized over all 22",
+    "Welch CI; exact BH across seven modules; measured/requested member coverage",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "I",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/analysis_summary.json",
+    "22 independent animals",
+    "three contrast-specific genome-wide multiplicity families",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "J",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/DISEASE_vs_CONTROL_all_genes.csv; NINT_vs_DISEASE_all_genes.csv",
+    "genes descriptive; shared disease animals",
+    "disease q<.05 and abs log2 effect≥.5; no independent-feature inference",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "K",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/disjoint_disease_reference_sensitivity.csv",
+    "oriented 4/5 disease-animal reference partition",
+    "126 overlapping splits, effect-only feature selection; descriptive sensitivity",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ],
+  [
+    "Figure 6",
+    "L",
+    "Figures/Figure_6_Independent_Hepatic_Pharmacodynamics.pdf",
+    "Independent_liver/Heldout_rank/external_rank_association_summary.csv",
+    "12 measured candidates; 19 disease/treated animals",
+    "frozen negative-rank priority versus absolute effect; two-sided exact animal-label P, BH across six algorithms",
+    "Independent hepatic pharmacodynamics; not a DILI-positive or target-causal experiment",
+    "Main_Manuscript.docx, Figure 6 legend"
+  ]
+]

@@ -1,0 +1,109 @@
+{
+  "atc_classifications": [
+    "L01EX03"
+  ],
+  "availability_type": 1,
+  "biotherapeutic": null,
+  "black_box_warning": 1,
+  "chemical_probe": 0,
+  "chirality": 2,
+  "cross_references": [],
+  "dosed_ingredient": false,
+  "first_approval": 2009,
+  "first_in_class": 0,
+  "helm_notation": null,
+  "inorganic_flag": 0,
+  "max_phase": "4.0",
+  "molecule_chembl_id": "CHEMBL477772",
+  "molecule_hierarchy": {
+    "active_chembl_id": "CHEMBL477772",
+    "molecule_chembl_id": "CHEMBL477772",
+    "parent_chembl_id": "CHEMBL477772"
+  },
+  "molecule_properties": {
+    "alogp": "3.14",
+    "aromatic_rings": 4,
+    "full_molformula": "C21H23N7O2S",
+    "full_mwt": "437.53",
+    "hba": 8,
+    "hbd": 2,
+    "heavy_atoms": 31,
+    "mw_freebase": "437.53",
+    "np_likeness_score": "-1.70",
+    "num_ro5_violations": 0,
+    "psa": "119.03",
+    "qed_weighted": "0.49",
+    "ro3_pass": "N",
+    "rtb": 5
+  },
+  "molecule_structures": {
+    "canonical_smiles": "Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O",
+    "molfile": "\n     RDKit          2D\n\n 31 34  0  0  0  0  0  0  0  0999 V2000\n    4.8500   -3.1792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8500   -4.0042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9917   -6.8917    0.0000 S   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6375   -4.2542    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.1167   -3.5917    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4250   -5.6542    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    5.6375   -2.9292    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1375   -4.4167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4167   -4.0042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7042   -5.2417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4250   -6.4792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.2792   -6.4792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1375   -2.7667    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7042   -4.4167    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    3.4167   -3.1792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5667   -6.8917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.1375   -6.8917    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    2.7042   -6.8917    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    7.7042   -7.3042    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    6.2792   -7.3042    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9917   -5.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8542   -6.4792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    7.7042   -6.4792    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0\n    6.2792   -5.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.5667   -5.2417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9917   -6.4792    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9417   -3.5917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    4.8542   -5.6542    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    5.8917   -2.1417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    1.9917   -4.0042    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    6.9917   -5.2417    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n  2  1  1  0\n  3 12  1  0\n  4  2  2  0\n  5  7  1  0\n  6 10  2  0\n  7  1  2  0\n  8  2  1  0\n  9 15  1  0\n 10 14  1  0\n 11  6  1  0\n 12 16  1  0\n 13  1  1  0\n 14  9  1  0\n 15 13  2  0\n 16 22  2  0\n 17 11  1  0\n 18 26  1  0\n 19  3  2  0\n 20  3  2  0\n 21 10  1  0\n 22 17  1  0\n 23  3  1  0\n 24 25  1  0\n 25 28  2  0\n 26 21  2  0\n 27  5  1  0\n 28 22  1  0\n 29  7  1  0\n 30 14  1  0\n 31 24  1  0\n  5  4  1  0\n  8  9  2  0\n 11 18  2  0\n 24 12  2  0\nM  END\n> <chembl_id>\nCHEMBL477772\n\n> <chembl_pref_name>\nPAZOPANIB",
+    "standard_inchi": "InChI=1S/C21H23N7O2S/c1-13-5-6-15(11-19(13)31(22,29)30)24-21-23-10-9-20(25-21)27(3)16-7-8-17-14(2)28(4)26-18(17)12-16/h5-12H,1-4H3,(H2,22,29,30)(H,23,24,25)",
+    "standard_inchi_key": "CUIHSIWYWATEQL-UHFFFAOYSA-N"
+  },
+  "molecule_synonyms": [
+    {
+      "molecule_synonym": "GW-786034",
+      "syn_type": "RESEARCH_CODE",
+      "synonyms": "GW-786034"
+    },
+    {
+      "molecule_synonym": "GW786034",
+      "syn_type": "RESEARCH_CODE",
+      "synonyms": "GW786034"
+    },
+    {
+      "molecule_synonym": "NSC-752782",
+      "syn_type": "RESEARCH_CODE",
+      "synonyms": "NSC-752782"
+    },
+    {
+      "molecule_synonym": "Pazopanib",
+      "syn_type": "ATC",
+      "synonyms": "PAZOPANIB"
+    },
+    {
+      "molecule_synonym": "Pazopanib",
+      "syn_type": "BNF",
+      "synonyms": "PAZOPANIB"
+    },
+    {
+      "molecule_synonym": "Pazopanib",
+      "syn_type": "INN",
+      "synonyms": "PAZOPANIB"
+    },
+    {
+      "molecule_synonym": "Pazopanib",
+      "syn_type": "MERCK_INDEX",
+      "synonyms": "PAZOPANIB"
+    },
+    {
+      "molecule_synonym": "Pazopanib",
+      "syn_type": "OTHER",
+      "synonyms": "PAZOPANIB"
+    },
+    {
+      "molecule_synonym": "Votrient",
+      "syn_type": "TRADE_NAME",
+      "synonyms": "VOTRIENT"
+    }
+  ],
+  "molecule_type": "Small molecule",
+  "natural_product": 1,
+  "oral": true,
+  "orphan": 0,
+  "parenteral": false,
+  "polymer_flag": 0,
+  "pref_name": "PAZOPANIB",
+  "prodrug": 0,
+  "structure_type": "MOL",
+  "therapeutic_flag": true,
+  "topical": false,
+  "usan_stem": "-anib",
+  "usan_stem_definition": "angiogenesis inhibitors",
+  "usan_substem": "-anib",
+  "usan_year": 2005,
+  "veterinary": 0,
+  "withdrawn_flag": false
+}

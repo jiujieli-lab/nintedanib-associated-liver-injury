@@ -1,0 +1,24 @@
+{
+  "target": "FLT4",
+  "name": "imatinib",
+  "canonical_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+  "formal_charge": 0,
+  "seed": 155921,
+  "exhaustiveness": 32,
+  "cpu": 2,
+  "n_poses": 10,
+  "energy_range": 5,
+  "scoring_function": "vina",
+  "ligand_MMFF_converged": true,
+  "receptor": "FLT4_AF_receptor.pdbqt",
+  "box_center": [
+    -11.70296657511592,
+    3.171971718907356,
+    -11.885502883613114
+  ],
+  "box_size": [
+    22.0,
+    22.75049403297901,
+    29.379676430523403
+  ]
+}

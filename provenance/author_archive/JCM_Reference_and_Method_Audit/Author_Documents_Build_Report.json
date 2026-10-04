@@ -1,0 +1,27 @@
+{
+  "cover_letter": "/workspace/scratch/c5634a2d588f/work/jcm_revision/submission/Cover_Letter.docx",
+  "checklist": "/workspace/scratch/c5634a2d588f/work/jcm_revision/submission/Author_Information/Author_Submission_Checklist.docx",
+  "cover_letter_missing_only_author_attestations": true,
+  "required_attestations_not_invented": true,
+  "production_MD_status": "not_completed",
+  "screening_status": "both_succeeded",
+  "cost_scope": "authorized_estimate_USD_0.90_not_reconciled_receipt",
+  "portal_size_status": "pending_final_packaging",
+  "references": 110,
+  "main_figures": 7,
+  "supplementary_figures": 14,
+  "workflow_panels": 4,
+  "render_qa": {
+    "cover_letter_pages": 1,
+    "author_checklist_pages": 2,
+    "all_pages_visually_inspected": true,
+    "clipping_overlap_missing_glyphs": false,
+    "unconfirmed_attestations_absent_from_cover_letter": true
+  },
+  "official_links": [
+    "https://www.mdpi.com/journal/jcm/instructions",
+    "https://www.mdpi.com/journal/jcm/about",
+    "https://www.mdpi.com/ethics",
+    "https://mdpi-res.com/data/mdpi-acs-references-guide-v11-2025.12.pdf"
+  ]
+}

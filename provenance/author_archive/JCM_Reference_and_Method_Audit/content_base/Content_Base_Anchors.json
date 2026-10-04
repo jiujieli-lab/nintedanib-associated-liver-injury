@@ -1,0 +1,140 @@
+{
+  "abstract_results": {
+    "paragraph_index_in_base": 10,
+    "starts_with": "Results: PDGFRA and FLT4 ranked",
+    "exact_text": "Results: PDGFRA and FLT4 ranked first and second under four aggregation rules and remained among the top five in all 5000 weight perturbations. PDGFRA remained first after donor omission; FLT4 ranked second to fifth. Reported dissociation constants were 16 and 95 nM, respectively. The narrow hepatic reporting odds ratio for nintedanib versus pirfenidone was 3.997 (95% confidence interval 3.226–4.951), with temporal heterogeneity. FBP1 distinguished drug-related from other acute liver injury (Cliff’s delta −0.505; q=0.000469). Competitive ranking and network interventions did not establish significant enrichment. Independent liver analysis identified decreased Kdr expression within the candidate family (log2 difference −0.280; q=0.0386; genome-wide q=0.119), without significant ranking–response association. Pulmonary responses varied by model.",
+    "style": "Normal"
+  },
+  "abstract_conclusions": {
+    "paragraph_index_in_base": 11,
+    "starts_with": "Conclusions: PDGFRA and FLT4 are",
+    "exact_text": "Conclusions: PDGFRA and FLT4 are reproducible priorities for studying nintedanib-associated liver injury. Their biochemical engagement and cellular context support exposure-controlled perturbation and rescue experiments that measure hepatic injury while preserving pulmonary antifibrotic activity. KDR provides a hepatic pharmacodynamic comparator; the protective intervention direction remains to be established.",
+    "style": "Normal"
+  },
+  "methods_binding_heading": {
+    "paragraph_index_in_base": 36,
+    "starts_with": "2.5. Target-focused biochemical",
+    "exact_text": "2.5. Target-focused biochemical binding evidence and molecular-property predictions",
+    "style": "Heading 2"
+  },
+  "methods_target_pair_heading": {
+    "paragraph_index_in_base": 54,
+    "starts_with": "2.9. Single and joint",
+    "exact_text": "2.9. Single and joint target interventions in the clinical network",
+    "style": "Heading 2"
+  },
+  "methods_hepatic_heading": {
+    "paragraph_index_in_base": 57,
+    "starts_with": "2.10. Independent hepatic",
+    "exact_text": "2.10. Independent hepatic pharmacodynamics",
+    "style": "Heading 2"
+  },
+  "methods_reproducibility_heading": {
+    "paragraph_index_in_base": 67,
+    "starts_with": "2.12. Reproducibility",
+    "exact_text": "2.12. Reproducibility and statistical units",
+    "style": "Heading 2"
+  },
+  "results_priority_heading": {
+    "paragraph_index_in_base": 88,
+    "starts_with": "3.5. Clinical-protein-guided",
+    "exact_text": "3.5. Clinical-protein-guided integration prioritizes PDGFRA and FLT4",
+    "style": "Heading 2"
+  },
+  "results_hepatic_heading": {
+    "paragraph_index_in_base": 95,
+    "starts_with": "3.6. Independent liver",
+    "exact_text": "3.6. Independent liver exposure identifies KDR as a pharmacodynamic comparator",
+    "style": "Heading 2"
+  },
+  "results_pulmonary_heading": {
+    "paragraph_index_in_base": 100,
+    "starts_with": "3.7. Pulmonary responses",
+    "exact_text": "3.7. Pulmonary responses define the therapeutic constraint on a liver-sparing intervention",
+    "style": "Heading 2"
+  },
+  "discussion_heading": {
+    "paragraph_index_in_base": 107,
+    "starts_with": "4. Discussion",
+    "exact_text": "4. Discussion",
+    "style": "Heading 1"
+  },
+  "discussion_biochemical_paragraph": {
+    "paragraph_index_in_base": 115,
+    "starts_with": "The endpoint-resolved pharmacology adds",
+    "exact_text": "The endpoint-resolved pharmacology adds a direct biochemical basis for this experimental choice: both receptors have measured nanomolar binding affinity, alongside inhibitory activity across multiple source documents. Assay-dependent relative potency argues for measuring occupancy or proximal receptor phosphorylation at the same intracellular nintedanib exposure in the selected hepatic systems. The network interventions assess sensitivity to receptor-node deletion; their nonsignificant matched-background effects leave the biological direction and interaction between PDGFRA and FLT4 unresolved. State emphasizes evaluation against held-out measured perturbations within the model’s supported intervention domain [56], while scBaseCount provides principles for improving reference-cell provenance and coverage [57]. Together, these considerations focus the next validation on target-expressing hepatic contexts and experimentally measured perturbation responses.",
+    "style": "Normal"
+  },
+  "discussion_cellular_paragraph": {
+    "paragraph_index_in_base": 116,
+    "starts_with": "PDGFRA and FLT4 provide complementary",
+    "exact_text": "PDGFRA and FLT4 provide complementary entry points into the hypothesis that non-parenchymal receptor signaling influences hepatocyte susceptibility during nintedanib exposure. PDGFRA combines strong biochemical support with stable integrated priority; its stellate-associated localization directs initial testing toward adequately sampled stellate-cell–hepatocyte systems. Receptor protein and activity should first be measured in those systems, because the macrophage proximity signal was dominated by HPD and arose from only two detected cells. FLT4 has clearer endothelial detection, making sinusoidal endothelial–hepatocyte co-culture a defined starting point. For each receptor, time-resolved perturbation, conditioned-medium transfer, direct co-culture, and reciprocal rescue can test the sequence from receptor activity through candidate secreted mediators to the hepatocyte injury phenotype. Comparing receptor inhibition with restoration will test whether either direction improves tolerance at matched exposure.",
+    "style": "Normal"
+  },
+  "discussion_next_study_paragraph": {
+    "paragraph_index_in_base": 120,
+    "starts_with": "The next study should implement",
+    "exact_text": "The next study should implement donor-replicated hepatic perturbation of PDGFRA and FLT4, with KDR and FGFR1 comparators, and measure receptor activity, candidate secreted mediators, intracellular metabolism, and extracellular FBP1, GSTA1, and OTC together. Reciprocal rescue should follow an exposure-controlled injury effect. Parent nintedanib, BIBF 1202, and relevant downstream metabolites should be quantified to distinguish disposition from cellular tolerance [28, 29]. Prospective clinical sampling can then connect serial injury proteins and pharmacokinetics to adjudicated liver-test changes and pulmonary response. Existing circulating-biomarker studies support the feasibility of serial assessment [75, 76]. New spatial transcriptomic and protein atlases can refine localization and guide selection of the definitive cellular system [77, 78].",
+    "style": "Normal"
+  },
+  "discussion_limitations": {
+    "paragraph_index_in_base": 121,
+    "starts_with": "Several limitations define",
+    "exact_text": "Several limitations define the scope of these findings. The prioritization establishes a reproducible experimental order, rather than a causal DILI target or a protective intervention direction: competitive calibration did not confirm a candidate, and the fixed rankings were not significantly associated with hepatic transcript-response magnitude. No public cohort jointly measured nintedanib exposure, adjudicated DILI, target perturbation, and the serum protein panel. The proteomic candidates were selected by the source study, and missing identifiers prevented paired or multivariable analyses. The liver networks use five healthy donors and a fixed, previously selected gene universe; donor omission does not repeat that upstream feature selection. PDGFRA localization requires improved stellate-cell sampling, and the unsigned network scores require bidirectional experimental perturbation. The six HepG2 consensus doses do not estimate biological variation at each concentration, and inferred transcripts influence ranking. Analysis settings were fixed before the independent liver challenge but were not prospectively preregistered. Cross-species exposure, tissue state, pooling, postrandomization losses, and incomplete measurements constrain the preclinical comparisons. Donor-replicated multicellular hepatic models, exposure-controlled perturbation and rescue, and prospective clinical protein sampling provide a direct route to address these gaps.",
+    "style": "Normal"
+  },
+  "conclusions_heading": {
+    "paragraph_index_in_base": 122,
+    "starts_with": "5. Conclusions",
+    "exact_text": "5. Conclusions",
+    "style": "Heading 1"
+  },
+  "conclusions_paragraph": {
+    "paragraph_index_in_base": 123,
+    "starts_with": "Clinical-protein-guided integration prioritizes",
+    "exact_text": "Clinical-protein-guided integration prioritizes PDGFRA and FLT4 for experimental investigation of nintedanib-associated liver injury. Their stability across aggregation rules, source-weight perturbations, and donor omission focuses the next stage of research on two receptor candidates with distinct hepatic cellular contexts. The framework connects drug pharmacology to a measurable human injury phenotype and supplies KDR as a hepatic pharmacodynamic comparator. The translational objective is to establish the receptor-to-injury sequence, identify a rescuable hepatocellular response at matched drug exposure, and preserve pulmonary antifibrotic activity.",
+    "style": "Normal"
+  },
+  "supplementary_materials": {
+    "paragraph_index_in_base": 124,
+    "starts_with": "Supplementary Materials",
+    "exact_text": "Supplementary Materials",
+    "style": "Heading 1"
+  },
+  "data_availability": {
+    "paragraph_index_in_base": 139,
+    "starts_with": "Data Availability Statement",
+    "exact_text": "Data Availability Statement",
+    "style": "Heading 1"
+  },
+  "acknowledgments": {
+    "paragraph_index_in_base": 142,
+    "starts_with": "Acknowledgments",
+    "exact_text": "Acknowledgments",
+    "style": "Heading 1"
+  },
+  "reference_heading": {
+    "paragraph_index_in_base": 167,
+    "starts_with": "References",
+    "exact_text": "References",
+    "style": "Heading 1"
+  },
+  "figure_4_legend": {
+    "paragraph_index_in_base": 156,
+    "starts_with": "Figure 4 Endpoint-resolved",
+    "exact_text": "Figure 4 Endpoint-resolved biochemical evidence supports engagement of PDGFRA and FLT4",
+    "style": "Heading 2"
+  },
+  "figure_5_legend": {
+    "paragraph_index_in_base": 158,
+    "starts_with": "Figure 5 Clinical-protein-guided",
+    "exact_text": "Figure 5 Clinical-protein-guided integration prioritizes PDGFRA and FLT4",
+    "style": "Heading 2"
+  },
+  "figure_6_legend": {
+    "paragraph_index_in_base": 160,
+    "starts_with": "Figure 6 Independent hepatic",
+    "exact_text": "Figure 6 Independent hepatic exposure tests the fixed candidate priorities",
+    "style": "Heading 2"
+  }
+}

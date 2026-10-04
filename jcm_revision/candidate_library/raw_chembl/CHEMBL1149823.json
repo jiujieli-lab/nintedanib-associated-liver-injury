@@ -1,0 +1,24 @@
+{
+  "abstract": "Kinase inhibitors constitute an important new class of cancer drugs, whose selective efficacy is largely determined by underlying tumor cell genetics. We established a high-throughput platform to profile 500 cell lines derived from diverse epithelial cancers for sensitivity to 14 kinase inhibitors. Most inhibitors were ineffective against unselected cell lines but exhibited dramatic cell killing of small nonoverlapping subsets. Cells with exquisite sensitivity to EGFR, HER2, MET, or BRAF kinase inhibitors were marked by activating mutations or amplification of the drug target. Although most cell lines recapitulated known tumor-associated genotypes, the screen revealed low-frequency drug-sensitizing genotypes in tumor types not previously associated with drug susceptibility. Furthermore, comparing drugs thought to target the same kinase revealed striking differences, predictive of clinical efficacy. Genetically defined cancer subsets, irrespective of tissue type, predict response to kinase inhibitors, and provide an important preclinical model to guide early clinical applications of novel targeted inhibitors.",
+  "authors": "McDermott U, Sharma SV, Dowell L, Greninger P, Montagut C, Lamb J, Archibald H, Raudales R, Tam A, Lee D, Rothenberg SM, Supko JG, Sordella R, Ulkus LE, Iafrate AJ, Maheswaran S, Njauw CN, Tsao H, Drew L, Hanke JH, Ma XJ, Erlander MG, Gray NS, Haber DA, Settleman J.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_2",
+    "creation_date": "2009-11-30"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1149823",
+  "doi": "10.1073/pnas.0707498104",
+  "doi_chembl": null,
+  "first_page": "19936",
+  "issue": "50",
+  "journal": "Proc Natl Acad Sci U S A",
+  "journal_full_title": "Proceedings of the National Academy of Sciences of the United States of America.",
+  "last_page": "19941",
+  "patent_id": null,
+  "pubmed_id": 18077425,
+  "src_id": 1,
+  "title": "Identification of genotype-correlated sensitivity to selective kinase inhibitors by using high-throughput tumor cell line profiling.",
+  "volume": "104",
+  "year": 2007
+}

@@ -1,0 +1,149 @@
+{
+  "tool_key": "pdb-fetch-fasta",
+  "description": "Fetch chain sequences from RCSB PDB with protein/nucleotide classification",
+  "input_schema": {
+    "additionalProperties": false,
+    "description": "Input for PDB FASTA chain fetch.\n\nAttributes:\n    pdb_id (str): PDB accession (e.g. '1LBG').",
+    "properties": {
+      "pdb_id": {
+        "description": "PDB accession (e.g. '1LBG')",
+        "title": "PDB ID",
+        "type": "string"
+      }
+    },
+    "required": [
+      "pdb_id"
+    ],
+    "title": "PdbFetchFastaInput",
+    "type": "object"
+  },
+  "config_schema": {
+    "additionalProperties": false,
+    "description": "Configuration for PDB FASTA fetches (no user-facing settings).",
+    "properties": {
+      "verbose": {
+        "default": 0,
+        "description": "Verbosity level (0=quiet, 1=info, 2=debug, 3=raw subprocess stderr). True→1, False→0.",
+        "maximum": 3,
+        "minimum": 0,
+        "reload_on_change": false,
+        "title": "Verbose",
+        "type": "integer"
+      },
+      "timeout": {
+        "anyOf": [
+          {
+            "minimum": 1,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": 3600,
+        "description": "Maximum execution time in seconds. None waits indefinitely.",
+        "reload_on_change": false,
+        "title": "Timeout"
+      },
+      "seed": {
+        "anyOf": [
+          {
+            "exclusiveMaximum": 4294967296,
+            "minimum": 0,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Random seed for reproducible results. Some cacheable tools gate cache on this field.",
+        "reload_on_change": false,
+        "title": "Random Seed"
+      }
+    },
+    "title": "PdbFetchFastaConfig",
+    "type": "object"
+  },
+  "output_schema": {
+    "$defs": {
+      "PdbChain": {
+        "description": "Single entity from PDB FASTA (one record = one unique sequence).\n\nAttributes:\n    chain_ids (list[str]): Author-assigned chain identifiers sharing this sequence\n        (typically multi-element for homo-oligomers).\n    header (str): Full FASTA header line.\n    sequence (str): Chain sequence string.\n    is_protein (bool): True if protein, False if nucleic acid.",
+        "properties": {
+          "chain_ids": {
+            "description": "Author-assigned chain IDs sharing this sequence",
+            "items": {
+              "type": "string"
+            },
+            "title": "Chain IDs",
+            "type": "array"
+          },
+          "header": {
+            "description": "FASTA header",
+            "title": "FASTA Header",
+            "type": "string"
+          },
+          "sequence": {
+            "description": "Chain sequence",
+            "title": "Sequence",
+            "type": "string"
+          },
+          "is_protein": {
+            "description": "True if protein, False if nucleic acid",
+            "title": "Is Protein",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "header",
+          "sequence",
+          "is_protein"
+        ],
+        "title": "PdbChain",
+        "type": "object"
+      }
+    },
+    "description": "Output from PDB FASTA chain fetch.\n\nAttributes:\n    chains (list[PdbChain]): Parsed chain sequences with protein/nucleotide classification.\n    source_url (str | None): URL used for the request.",
+    "examples": [
+      {
+        "errors": [],
+        "execution_time": 45.2,
+        "metadata": {
+          "blast_version": "2.14.0",
+          "database_size": 1000000
+        },
+        "success": true,
+        "timestamp": "2025-10-06T10:30:00Z",
+        "tool_id": "blast-search",
+        "warnings": []
+      }
+    ],
+    "properties": {
+      "chains": {
+        "description": "Parsed chain sequences",
+        "items": {
+          "$ref": "#/$defs/PdbChain"
+        },
+        "title": "Chains",
+        "type": "array"
+      },
+      "source_url": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Request URL",
+        "title": "Source URL"
+      }
+    },
+    "title": "PdbFetchFastaOutput",
+    "type": "object"
+  },
+  "has_example": true,
+  "status": "ready_to_run"
+}

@@ -1,0 +1,18 @@
+{
+  "figure": "S13",
+  "size_px": [
+    4320,
+    6090
+  ],
+  "dpi": [
+    600.0,
+    600.0
+  ],
+  "mode": "RGB",
+  "tiff_ifd_offset": 2323830,
+  "reopen_after_writer_exit": true,
+  "tiff_png_pixel_equal": true,
+  "pdf_render_visually_verified": true,
+  "verified_primary_runs": 96,
+  "tiff_sha256": "f7ff1ccb75199de37e7298c9ee342fb52e4bd9d90939d297e85bd883e4efca46"
+}

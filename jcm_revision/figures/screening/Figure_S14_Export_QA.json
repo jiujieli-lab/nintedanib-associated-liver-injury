@@ -1,0 +1,20 @@
+{
+  "figure": "S14",
+  "size_px": [
+    4320,
+    4410
+  ],
+  "dpi": [
+    600.0,
+    600.0
+  ],
+  "mode": "RGB",
+  "tiff_ifd_offset": 1278448,
+  "reopen_after_writer_exit": true,
+  "tiff_png_pixel_equal": true,
+  "pdf_molecular_images_minimum_ppi": 600,
+  "complete_property_predictions": 48,
+  "separate_receptor_sensitivity_searches": 6,
+  "tiff_sha256": "338786e479f645416a9abf86740daac9ec5a6c21c99edec9d1712eeb392c2972",
+  "pdf_render_visually_verified": true
+}

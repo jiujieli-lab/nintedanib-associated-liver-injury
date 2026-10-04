@@ -1,0 +1,491 @@
+{
+  "tool_key": "alphafold-db-fetch",
+  "description": "Fetch predicted structure (PDB/mmCIF), per-residue pLDDT, and PAE matrix from the AlphaFold Protein Structure Database by UniProt accession",
+  "input_schema": {
+    "additionalProperties": false,
+    "description": "Input for AlphaFold DB fetch.\n\nAttributes:\n    uniprot_id (str): UniProt accession to look up (e.g. 'P04637').\n    isoform (int | None): Isoform number to select from the multi-record\n        AFDB response. ``None`` (default) returns the canonical entry\n        (``AF-{accession}-F1``); ``2`` selects ``AF-{accession}-2-F1``,\n        etc. AFDB typically exposes isoforms 2-9 for human proteins.\n        Raises ``ValueError`` if the requested isoform doesn't exist.",
+    "properties": {
+      "uniprot_id": {
+        "description": "UniProt accession (e.g. 'P04637')",
+        "title": "UniProt Accession",
+        "type": "string"
+      },
+      "isoform": {
+        "anyOf": [
+          {
+            "minimum": 2,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Isoform number to fetch; None returns the canonical record. For non-canonical isoforms only.",
+        "title": "Isoform Number"
+      }
+    },
+    "required": [
+      "uniprot_id"
+    ],
+    "title": "AlphaFoldDBFetchInput",
+    "type": "object"
+  },
+  "config_schema": {
+    "additionalProperties": false,
+    "description": "Configuration for AlphaFold DB fetch.\n\nAttributes:\n    structure_format (Literal[\"pdb\", \"cif\"]): Structure file format.\n    include_structure (bool): If True (default), fetch the structure body\n        and the per-residue pLDDT array, returning a parsed ``Structure``\n        on the output. Set to False for metadata-only probes (URLs, mean\n        pLDDT, gene, sequence) — saves ~100-500 KB per call, meaningful\n        for batch sweeps.\n    include_pae (bool): If True, also fetch the PAE (predicted aligned\n        error) matrix and attach it to ``output.structure.metrics[\"pae\"]``.\n        Disabled by default — PAE files can be tens of MB for long proteins.\n        No-op when ``include_structure=False``.\n    include_msa (bool): If True, fetch the A3M MSA used as input to the\n        AlphaFold prediction. Disabled by default — A3M files can be\n        hundreds of KB to several MB for highly conserved proteins.",
+    "properties": {
+      "verbose": {
+        "default": 0,
+        "description": "Verbosity level (0=quiet, 1=info, 2=debug, 3=raw subprocess stderr). True→1, False→0.",
+        "maximum": 3,
+        "minimum": 0,
+        "reload_on_change": false,
+        "title": "Verbose",
+        "type": "integer"
+      },
+      "timeout": {
+        "anyOf": [
+          {
+            "minimum": 1,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": 3600,
+        "description": "Maximum execution time in seconds. None waits indefinitely.",
+        "reload_on_change": false,
+        "title": "Timeout"
+      },
+      "seed": {
+        "anyOf": [
+          {
+            "exclusiveMaximum": 4294967296,
+            "minimum": 0,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Random seed for reproducible results. Some cacheable tools gate cache on this field.",
+        "reload_on_change": false,
+        "title": "Random Seed"
+      },
+      "structure_format": {
+        "default": "pdb",
+        "description": "Structure file format (pdb or mmCIF); ignored when include_structure=False",
+        "enum": [
+          "pdb",
+          "cif"
+        ],
+        "reload_on_change": false,
+        "title": "Structure Format",
+        "type": "string"
+      },
+      "include_structure": {
+        "default": true,
+        "description": "Fetch the structure body and per-residue pLDDT; disable for metadata-only probes",
+        "reload_on_change": false,
+        "title": "Include Structure",
+        "type": "boolean"
+      },
+      "include_pae": {
+        "default": false,
+        "description": "Also fetch the predicted aligned error matrix; tens of MB for long proteins",
+        "reload_on_change": false,
+        "title": "Include PAE Matrix",
+        "type": "boolean"
+      },
+      "include_msa": {
+        "default": false,
+        "description": "Fetch the A3M MSA used for prediction; large for conserved proteins",
+        "reload_on_change": false,
+        "title": "Include MSA",
+        "type": "boolean"
+      }
+    },
+    "title": "AlphaFoldDBFetchConfig",
+    "type": "object"
+  },
+  "output_schema": {
+    "$defs": {
+      "BFactorType": {
+        "description": "What the B-factor column contains.",
+        "enum": [
+          "temperature_factor",
+          "pLDDT",
+          "normalized_pLDDT",
+          "confidence",
+          "unknown",
+          "unspecified"
+        ],
+        "title": "BFactorType",
+        "type": "string"
+      },
+      "Metrics": {
+        "additionalProperties": true,
+        "description": "Dual-access metric container for tool outputs.\n\nStores arbitrary metric values via Pydantic's ``extra=\"allow\"``, so values\nare accessible both as attributes (``m.plddt``) and as items (``m[\"plddt\"]``).\nSubclasses may declare additional Pydantic fields for raw model outputs\n(logits, vocab, pdb_source, etc.) — those live in ``__dict__`` and do not\nleak into metric iteration. ``items``, ``keys``, ``values``, and\n``__contains__`` walk ``__pydantic_extra__`` only.\n\nSubclasses declare ``metric_spec`` to document ranges, types, and\navailability. Validation against the spec is performed by test helpers\n(``tests/tool_infra_tests/_metric_helpers.py``), not at construction.\n\nExample:\n    >>> class ESM2Score(Metrics):\n    ...     metric_spec: ClassVar = {\n    ...         \"perplexity\": {\"type\": \"float\", \"min\": 1.0, \"max\": None},\n    ...         \"log_likelihood\": {\"type\": \"float\", \"min\": None, \"max\": 0.0},\n    ...     }\n    ...     logits: list[list[float]] | None = None  # raw model output\n    >>> s = ESM2Score(perplexity=3.14, log_likelihood=-10.5, logits=[[0.1]])\n    >>> s.perplexity\n    3.14\n    >>> s[\"perplexity\"]\n    3.14\n    >>> s.logits\n    [[0.1]]\n    >>> list(s.items())\n    [('perplexity', 3.14), ('log_likelihood', -10.5)]\n    >>> \"logits\" in s\n    False\n\nAttributes:\n    metric_spec (ClassVar[dict[str, MetricSpec]]): Per-subclass declarative\n        metadata describing each metric's type, range, and availability.\n        Empty on the base class; subclasses override.\n    primary_metric (str | None): Name of the metric that best summarizes\n        the result overall (e.g. ``\"avg_plddt\"`` for AlphaFold2). Used by\n        downstream UI and reporting to pick a headline value.",
+        "properties": {
+          "primary_metric": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Headline metric used to rank results.",
+            "title": "Primary Metric"
+          },
+          "metric_type": {
+            "default": "Metrics",
+            "description": "Concrete Metrics subclass tag; enables typed reconstruction after a serialization round-trip.",
+            "title": "Metric Type",
+            "type": "string"
+          }
+        },
+        "title": "Metrics",
+        "type": "object"
+      },
+      "Structure": {
+        "additionalProperties": false,
+        "description": "Standardized representation of a macromolecular structure (protein, nucleic acid, etc.).\n\nA Pydantic model storing structure content as a PDB or CIF format string.\nThe ``structure`` field accepts either the raw content string or a path to a\n``.pdb``/``.cif``/``.mmcif`` file — paths are loaded transparently at construction\ntime. ``Structure.from_file()`` is also available as an explicit factory.\n\n``Structure.model_validate`` also accepts a bare ``str`` or ``Path`` as shorthand\nfor ``{\"structure\": <value>}``, so any nested field typed ``Structure`` (e.g.\n``SequenceStructurePair.structure``, ``MutationInput.structure``) takes a raw\nPDB/CIF string or file path directly — no ``{\"structure\": ...}`` envelope required.\n\nHeavy objects (gemmi parsed structure) are lazy-loaded via ``PrivateAttr``.\n\nAttributes:\n    structure (str): Raw structure content in PDB or CIF format.\n    structure_format (Literal[\"pdb\", \"cif\"] | None): Format of the content string (auto-detected if omitted).\n    b_factor_type (BFactorType): What the B-factor column represents.\n    source (str | None): Optional source identifier (filepath or tool name).\n    metrics (Metrics): Associated metrics (e.g., pLDDT, pTM scores,\n        per-chain lists, pairwise matrices). None values are stripped at construction.",
+        "properties": {
+          "structure": {
+            "description": "Raw structure content (PDB or CIF format string)",
+            "title": "PDB or CIF Content",
+            "type": "string"
+          },
+          "structure_format": {
+            "anyOf": [
+              {
+                "enum": [
+                  "pdb",
+                  "cif"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Format of the structure content",
+            "title": "Structure Format"
+          },
+          "b_factor_type": {
+            "$ref": "#/$defs/BFactorType",
+            "default": "unspecified",
+            "description": "What the B-factor column represents",
+            "title": "B-Factor Type"
+          },
+          "source": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Origin identifier (e.g. file path, PDB ID, or producing tool name)",
+            "title": "Source"
+          },
+          "metrics": {
+            "$ref": "#/$defs/Metrics",
+            "description": "Structure-level metrics attached by the producing tool (e.g. pLDDT, pTM, PAE)",
+            "title": "Associated Metrics"
+          }
+        },
+        "required": [
+          "structure"
+        ],
+        "title": "Structure",
+        "type": "object"
+      }
+    },
+    "description": "Output from AlphaFold DB fetch.\n\nCSV export writes the structure, MSA, and raw record as sibling sidecar\nfiles referenced by ``structure_path``, ``msa_path``, ``raw_path``\ncolumns; see the README for the layout. JSON export is unchanged.\n\nAttributes:\n    uniprot_accession (str): Primary UniProt accession that was looked up.\n    entry_id (str): AlphaFold entry identifier (e.g. 'AF-P04637-F1').\n    gene (str | None): Gene symbol from the AlphaFold record.\n    organism_scientific_name (str | None): Source organism scientific name.\n    tax_id (int | None): NCBI taxonomy ID.\n    sequence (str): Amino-acid sequence covered by the prediction.\n    sequence_length (int): Length of the predicted sequence.\n    sequence_start (int): 1-indexed start residue of the prediction (relative\n        to the full UniProt sequence; >1 only for non-first fragments of very\n        long proteins).\n    sequence_end (int): 1-indexed inclusive end residue of the prediction.\n    latest_version (int): Latest version of the AlphaFold DB prediction (this is\n        the version of the served prediction; AlphaFold DB always serves the\n        latest).\n    model_created_date (str | None): ISO 8601 timestamp when this prediction was\n        generated.\n    mean_plddt (float | None): Mean per-residue pLDDT for the prediction\n        (AlphaFold DB's globalMetricValue field). Always populated from the\n        metadata response, regardless of ``include_structure``; when\n        ``include_structure=True`` it is also mirrored at\n        ``structure.metrics[\"avg_plddt\"]``.\n    pdb_url (str): URL to the PDB structure file on AlphaFold DB.\n    cif_url (str): URL to the mmCIF structure file on AlphaFold DB.\n    bcif_url (str | None): URL to the BinaryCIF structure file; ``None``\n        on legacy entries that predate the bcif export.\n    pae_doc_url (str): URL to the PAE JSON document on AlphaFold DB.\n    plddt_doc_url (str): URL to the per-residue pLDDT JSON document on\n        AlphaFold DB.\n    pae_image_url (str): URL to the rendered PAE PNG on AlphaFold DB.\n    msa_url (str | None): URL to the MSA A3M used for prediction, when present.\n    am_annotations_url (str | None): AlphaMissense pathogenicity CSV URL\n        (sequence coords); None for non-human or unscored entries.\n    am_annotations_hg19_url (str | None): AlphaMissense annotations on GRCh37.\n    am_annotations_hg38_url (str | None): AlphaMissense annotations on GRCh38.\n    sequence_checksum (str | None): CRC64 checksum of the predicted sequence.\n    structure (Structure | None): Parsed AlphaFold structure (PDB or mmCIF\n        body in ``structure_format``, ``b_factor_type=BFactorType.PLDDT``)\n        with an :class:`AlphaFoldDBMetrics` ``metrics`` container carrying\n        ``avg_plddt``, ``plddt_per_residue``, and (when ``include_pae=True``)\n        ``pae``. None when ``include_structure=False``.\n    msa_a3m (str | None): A3M-format MSA contents used as input to the\n        AlphaFold prediction. None when ``include_msa`` is False or when the\n        entry has no associated MSA URL.\n    source_url (str): AlphaFold DB API URL used for the metadata lookup.\n    raw_entry (dict[str, Any]): Complete AlphaFold DB JSON record for advanced\n        programmatic access.",
+    "examples": [
+      {
+        "errors": [],
+        "execution_time": 45.2,
+        "metadata": {
+          "blast_version": "2.14.0",
+          "database_size": 1000000
+        },
+        "success": true,
+        "timestamp": "2025-10-06T10:30:00Z",
+        "tool_id": "blast-search",
+        "warnings": []
+      }
+    ],
+    "properties": {
+      "uniprot_accession": {
+        "description": "Primary UniProt accession",
+        "title": "UniProt Accession",
+        "type": "string"
+      },
+      "entry_id": {
+        "description": "AlphaFold entry identifier (e.g. 'AF-P04637-F1')",
+        "title": "Entry ID",
+        "type": "string"
+      },
+      "gene": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Gene symbol",
+        "title": "Gene"
+      },
+      "organism_scientific_name": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Source organism scientific name",
+        "title": "Organism"
+      },
+      "tax_id": {
+        "anyOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "NCBI taxonomy ID",
+        "title": "Taxonomy ID"
+      },
+      "sequence": {
+        "description": "Amino-acid sequence covered by the prediction",
+        "title": "Sequence",
+        "type": "string"
+      },
+      "sequence_length": {
+        "description": "Length of the predicted sequence",
+        "title": "Sequence Length",
+        "type": "integer"
+      },
+      "sequence_start": {
+        "description": "1-indexed inclusive start residue of the prediction",
+        "title": "Sequence Start",
+        "type": "integer"
+      },
+      "sequence_end": {
+        "description": "1-indexed inclusive end residue of the prediction",
+        "title": "Sequence End",
+        "type": "integer"
+      },
+      "latest_version": {
+        "description": "Latest AlphaFold DB version of this prediction (always the served version)",
+        "title": "Latest Version",
+        "type": "integer"
+      },
+      "model_created_date": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "ISO 8601 model creation timestamp",
+        "title": "Model Created Date"
+      },
+      "mean_plddt": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Mean per-residue pLDDT confidence (0-100 scale)",
+        "title": "Mean pLDDT"
+      },
+      "pdb_url": {
+        "description": "URL to PDB structure file",
+        "title": "PDB URL",
+        "type": "string"
+      },
+      "cif_url": {
+        "description": "URL to mmCIF structure file",
+        "title": "mmCIF URL",
+        "type": "string"
+      },
+      "bcif_url": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "URL to BinaryCIF structure file (None on legacy entries)",
+        "title": "BinaryCIF URL"
+      },
+      "pae_doc_url": {
+        "description": "URL to PAE JSON document",
+        "title": "PAE Document URL",
+        "type": "string"
+      },
+      "plddt_doc_url": {
+        "description": "URL to per-residue pLDDT JSON document",
+        "title": "pLDDT Document URL",
+        "type": "string"
+      },
+      "pae_image_url": {
+        "description": "URL to rendered PAE PNG",
+        "title": "PAE Image URL",
+        "type": "string"
+      },
+      "msa_url": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "URL to MSA A3M file, when present",
+        "title": "MSA URL"
+      },
+      "am_annotations_url": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "URL to AlphaMissense pathogenicity CSV (sequence coords)",
+        "title": "AlphaMissense URL"
+      },
+      "am_annotations_hg19_url": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "URL to AlphaMissense annotations on GRCh37",
+        "title": "AlphaMissense hg19 URL"
+      },
+      "am_annotations_hg38_url": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "URL to AlphaMissense annotations on GRCh38",
+        "title": "AlphaMissense hg38 URL"
+      },
+      "sequence_checksum": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "CRC64 checksum of the predicted sequence (cache validation)",
+        "title": "Sequence Checksum"
+      },
+      "structure": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/Structure"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Parsed AlphaFold Structure (PLDDT B-factors, metrics with pLDDT and PAE); None when skipped",
+        "title": "Predicted Structure"
+      },
+      "msa_a3m": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "A3M-format MSA contents used as input to prediction",
+        "title": "MSA A3M"
+      },
+      "source_url": {
+        "description": "AlphaFold DB API URL used for lookup",
+        "title": "Source URL",
+        "type": "string"
+      },
+      "raw_entry": {
+        "additionalProperties": true,
+        "description": "Complete AlphaFold DB JSON record for advanced programmatic access",
+        "title": "Raw Entry",
+        "type": "object"
+      }
+    },
+    "required": [
+      "uniprot_accession",
+      "entry_id",
+      "sequence",
+      "sequence_length",
+      "sequence_start",
+      "sequence_end",
+      "latest_version",
+      "pdb_url",
+      "cif_url",
+      "pae_doc_url",
+      "plddt_doc_url",
+      "pae_image_url",
+      "source_url"
+    ],
+    "title": "AlphaFoldDBFetchOutput",
+    "type": "object"
+  },
+  "has_example": true,
+  "status": "ready_to_run"
+}

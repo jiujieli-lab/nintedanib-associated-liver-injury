@@ -1,0 +1,24 @@
+{
+  "abstract": "HER2 kinase as a well-established target for breast cancer (BC) therapy is associated with aggressive clinical outcomes; thus, herein we present structural optimization for HER2-selective targeting. HER2 profiling of the developed derivatives demonstrated potent and selective inhibitions (IC: 5.4-12 nM) compared to lapatinib (IC: 95.5 nM). Favorably, 17d exhibited minimum off-target kinase activation. NCI-5-dose screening revealed broad-spectrum activities (GI: 1.43-2.09 \u03bcM) and 17d had a remarkable selectivity toward BC. Our compounds revealed significant selective and potent antiproliferative activities (\u223c20-fold) against HER2+ (AU565, BT474) compared to HER2(-) cells. At 0.1 IC, 15i, 17d, and 25b inhibited pERK1/2 and pAkt by immunoblotting. Furthermore, 17d demonstrated potent in vivo tumor regression against the BT474 xenograft model. Notably, a metastasis case was observed in the vehicle but not in the test mice groups. CD-1 mice metabolic stability assay revealed high stability and low intrinsic clearance of 17d (T > 145 min and CL < 9.6 mL/min/kg).",
+  "authors": "Elwaie TA,Abbas SE,Aly EI,George RF,Ali H,Kraiouchkine N,Abdelwahed KS,Fandy TE,El Sayed KA,Abd Elmageed ZY,Ali HI",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_30",
+    "creation_date": "2022-02-22"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4715878",
+  "doi": "10.1021/acs.jmedchem.0c01647",
+  "doi_chembl": null,
+  "first_page": "15906",
+  "issue": "24.0",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "15945",
+  "patent_id": null,
+  "pubmed_id": 33314925,
+  "src_id": 1,
+  "title": "HER2 Kinase-Targeted Breast Cancer Therapy: Design, Synthesis, and In Vitro and In Vivo Evaluation of Novel Lapatinib Congeners as Selective and Potent HER2 Inhibitors with Favorable Metabolic Stability.",
+  "volume": "63",
+  "year": 2020
+}

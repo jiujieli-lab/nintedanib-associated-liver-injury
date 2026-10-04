@@ -1,0 +1,11 @@
+ADD TO THE COVER LETTER ONLY AFTER CORRESPONDING-AUTHOR CONFIRMATION
+
+JCM requires declarations covering both points below. These sentences may be inserted once confirmed:
+
+Neither this manuscript nor any portion is published in another journal or being considered for publication elsewhere.
+
+“All authors have approved the manuscript and agree with its submission to JCM.”
+
+If there was an earlier submission of this manuscript to an MDPI journal, acknowledge the actual journal and history. The previous manuscript ID is strongly recommended in the submission system. No statement of no earlier submission has been drafted because the history is not established.
+
+The scientific cover-letter text is in Cover_Letter.txt. It contains no unconfirmed authorship-approval, exclusivity or submission-history declaration.

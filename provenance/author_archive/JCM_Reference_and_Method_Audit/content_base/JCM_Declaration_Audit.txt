@@ -1,0 +1,26 @@
+JCM DECLARATION AUDIT
+
+Checked against the actual current Instructions for Authors page retrieved on 2 October 2026. This audit distinguishes manuscript text supported by the source from attestations controlled by the submitting author.
+
+Author Contributions: required for this multiauthor article. Source roles are present. Author_Contributions_JCM_Format.txt converts the exact assignments into the requested role-first CRediT form without assigning additional work. The source says all authors approved the earlier final manuscript; approval of the final expanded submission must be confirmed separately.
+
+Funding: required; two NSFC grants and one Jiangxi grant are present. No publication-cost funding was specified. The supplied grant identifiers are preserved.
+
+Institutional Review Board Statement: source public-data secondary-analysis description is present and was preserved exactly in the base. No approval or waiver number was supplied. Detailed JCM human-data guidance says that an exemption determination or applicable legal basis should support non-applicability when relevant; the author must confirm the appropriate institutional basis, without inventing an approval.
+
+Informed Consent Statement: a separate section is provided, grounded in deidentified secondary use and source-study consent. No new participant consent or formal waiver is asserted. No identifiable participant information is included.
+
+Data Availability Statement: mandatory for this Article. Repository references and supplied supplementary materials are identified. Final bundle names, downloadable outputs and any separately archived large files must be reconciled after final packaging. The guide recommends trusted repositories; it does not mandate invention of a code DOI.
+
+Acknowledgments and GenAI disclosure: substantive GenAI use requires a Methods account and an Acknowledgments disclosure of the tool/version, purpose and author responsibility. Both sections are present. Root must update actual Boltz/Inductive/other provider versions and methods as the completed analysis dictates. A superficial-language-editing-only declaration would be inaccurate here.
+
+Conflicts of Interest: mandatory. The source no-known-conflicts declaration is preserved. Funder involvement is additionally required but not specified by the source. Company affiliation alone is not evidence of a conflict; the authors must disclose applicable employment, ownership or other interests and confirm sponsor roles.
+
+Supplementary Materials: identify actual files/figures/tables. Source Figure 5 is S12 and all supplementary citations must share the final main bibliography numbering. Root will integrate the moved text and final file list.
+
+Cover letter: required, with significance and fit, declarations of exclusivity/nonpublication and all-author approval, and any prior MDPI submission disclosed. Cover_Letter.txt contains clean scientific text. Required_Cover_Letter_Attestations.txt contains statements to add only after author confirmation. Reviewers belong in the submission portal, not the letter.
+
+Author information: full names/affiliations and at least one corresponding author are present. Seven coauthor email addresses are absent. The guide provides email display/opt-out arrangements; ORCID and biography are encouraged, not stated as mandatory.
+
+Source URL: https://www.mdpi.com/journal/jcm/instructions
+Archived source: ../jcm_instructions.html and ../jcm_instructions.txt

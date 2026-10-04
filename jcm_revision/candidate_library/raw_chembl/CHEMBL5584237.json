@@ -1,0 +1,24 @@
+{
+  "abstract": "Design and synthesis of novel 4-carboxamidopyrido[3,2-b]pyridine derivatives as novel rigid analogues of sorafenib are reported herein. The target compounds showed potent antiproliferative activities against a panel of NCI-60 cancer cell lines as well as hepatocellular carcinoma cell line. Compounds 8g and 9f were among the most promising derivatives in terms of effectiveness and safety. Therefore, they were further examined to demonstrate their ability to induce apoptosis and alter cell cycle progression in hepatocellular carcinoma cells. The most potent compounds were tested against a panel of kinases that indicated their selectivity against FMS kinase. Compounds 8g and 8h showed the most potent activities against FMS kinase with IC<sub>50</sub> values of 21.5 and 73.9\u00a0nM, respectively. The two compounds were also tested in NanoBRET assay to investigate their ability to inhibit FMS kinase in cells (IC<sub>50</sub>\u00a0=\u00a0563\u00a0nM (8g) and 1347\u00a0nM (8h) vs. IC<sub>50</sub>\u00a0=\u00a01654\u00a0nM for sorafenib). Furthermore, compounds 8g and 8h possess potent inhibitory activities against macrophages when investigated in bone marrow-derived macrophages (BMDM) assay (IC<sub>50</sub>\u00a0=\u00a056\u00a0nM and 167\u00a0nM, respectively, 164\u00a0nM for sorafenib). The safety and selectivity of these compounds were confirmed when tested against normal cell lines. Their safety profile was further confirmed using hERG assay. In silico studies were carried out to investigate their binding modes in the active site of FMS kinase, and to develop a QSAR model for these new motifs.",
+  "authors": "Sebastian A, Abu Rabah RR, Zaraei SO, Vunnam S, Sultan S, Anbar HS, El-Gamal R, Tarazi H, Sarg N, Alhamad DW, Al Shamma SA, Shahin AI, Omar HA, Al-Tel TH, El-Gamal MI.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_36",
+    "creation_date": "2025-07-28"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5584237",
+  "doi": "10.1016/j.ejmech.2024.116557",
+  "doi_chembl": null,
+  "first_page": "116557",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "116557",
+  "patent_id": null,
+  "pubmed_id": 38850857,
+  "src_id": 1,
+  "title": "Design, synthesis, biological evaluation, and in silico studies of novel pyridopyridine derivatives as anticancer candidates targeting FMS kinase.",
+  "volume": "274",
+  "year": 2024
+}

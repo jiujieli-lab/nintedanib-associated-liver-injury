@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 11167602,
+        "MolecularFormula": "C21H15ClF4N4O3",
+        "MolecularWeight": "482.8",
+        "SMILES": "CNC(=O)C1=NC=CC(=C1)OC2=CC(=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F)F",
+        "ConnectivitySMILES": "CNC(=O)C1=NC=CC(=C1)OC2=CC(=C(C=C2)NC(=O)NC3=CC(=C(C=C3)Cl)C(F)(F)F)F",
+        "InChI": "InChI=1S/C21H15ClF4N4O3/c1-27-19(31)18-10-13(6-7-28-18)33-12-3-5-17(16(23)9-12)30-20(32)29-11-2-4-15(22)14(8-11)21(24,25)26/h2-10H,1H3,(H,27,31)(H2,29,30,32)",
+        "InChIKey": "FNHKPVJBJVTLMP-UHFFFAOYSA-N"
+      }
+    ]
+  }
+}

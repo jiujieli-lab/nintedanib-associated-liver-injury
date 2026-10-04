@@ -1,0 +1,24 @@
+{
+  "abstract": "Stem cell factor receptor (c-KIT) and platelet derived growth factor receptor alpha (PDGFR\u03b1) kinases play an important role in gastrointestinal stromal tumors (GISTs). Here, we have discovered an c-KIT/PDGFR\u03b1 dual inhibitor, compound 31, with single-digit nanomolar potency against c-KIT and PDGFR\u03b1. Compared to Imatinib (1), 31 showed better antiproliferative efficacy against various TEL-c-KIT/PDGFR\u03b1-BaF3 isogenic cells, including three 1-resistant BaF3 cell lines, as well as against GIST-T1 and GIST-882 cell lines. Furthermore, compound 31 showed a good KinomeScan selectivity (468 kinases) (S score (1) = 0.01 at 1 \u03bcM concentration), good metabolic stability in liver microsomes, and no hERG inhibitory activity. It was worth noting that 31 inhibited GIST-T1 tumor growth (TGI = 81.5%) and even the BaF3-TEL-cKIT-T670I tumor progression (TGI = 41.9%, 1-resistant GISTs) at a dosage of 100 mg/kg/day without exhibiting apparent toxicity.",
+  "authors": "Lu Y, Mao F, Li X, Zheng X, Wang M, Xu Q, Zhu J, Li J.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_25",
+    "creation_date": "2018-12-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4011618",
+  "doi": "10.1021/acs.jmedchem.7b00468",
+  "doi_chembl": null,
+  "first_page": "5099",
+  "issue": "12",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "5119",
+  "patent_id": null,
+  "pubmed_id": 28541695,
+  "src_id": 1,
+  "title": "Discovery of Potent, Selective Stem Cell Factor Receptor/Platelet Derived Growth Factor Receptor Alpha (c-KIT/PDGFR\u03b1) Dual Inhibitor for the Treatment of Imatinib-Resistant Gastrointestinal Stromal Tumors (GISTs).",
+  "volume": "60",
+  "year": 2017
+}

@@ -1,0 +1,27 @@
+{
+  "main_figures": 7,
+  "supplementary_figures": 11,
+  "new_independent_panels": 15,
+  "original_source_packages_byte_identical": true,
+  "original_workbook_byte_identical": true,
+  "archive_checks": {
+    "Independent_Panels/Original_165_Panels.zip": "PASS",
+    "Supplementary_Materials/Additional_file_6_Targeted_Analysis_Code.zip": "PASS",
+    "Reproducibility/Original_Source_Packages/Additional_file_7_External_Hepatic_Evaluation.zip": "PASS",
+    "Reproducibility/Original_Source_Packages/Additional_file_6_Preclinical_Response_and_Proteomics_Data.zip": "PASS",
+    "Reproducibility/Original_Source_Packages/Additional_file_4_Clinical_Evidence_and_Analysis_Code.zip": "PASS",
+    "Reproducibility/Original_Source_Packages/Additional_file_8_Pulmonary_Sensitivity_Data.zip": "PASS",
+    "Reproducibility/Original_Source_Packages/Additional_file_5_Liver_and_Lung_Single_Cell_Data.zip": "PASS",
+    "Manuscript/Revised_Manuscript_Clean.docx": "PASS",
+    "Manuscript/Cover_Letter.docx": "PASS",
+    "Manuscript/Revised_Manuscript_Tracked.docx": "PASS",
+    "Supplementary_Materials/Additional_file_4_Targeted_Analyses.docx": "PASS",
+    "Supplementary_Materials/Additional_file_3_Supplementary_Tables.xlsx": "PASS",
+    "Supplementary_Materials/Additional_file_5_Targeted_Analysis_Tables.xlsx": "PASS"
+  },
+  "new_code_files": 55,
+  "new_code_archive_MB": 12.090511,
+  "accepted_tracked_text_equals_clean": true,
+  "retained_original_results_paragraphs": 37,
+  "main_reference_count": 97
+}

@@ -1,0 +1,23 @@
+98. Eberhardt, J.; Santos-Martins, D.; Tillack, A.F.; Forli, S. AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. J. Chem. Inf. Model. 2021, 61, 3891–3898. https://doi.org/10.1021/acs.jcim.1c00203.
+
+99. Santos-Martins, D.; He, Y.; Eberhardt, J.; Sharma, P.; Bruciaferri, N.; Holcomb, M.; Llanos, M.A.; Hansel-Harris, A.; Barkdull, A.P.; Tillack, A.F.; et al. Meeko: Molecule Parametrization and Software Interoperability for Docking and Beyond. J. Chem. Inf. Model. 2025, 65, 13045–13050. https://doi.org/10.1021/acs.jcim.5c02271.
+
+100. Landrum, G.; Tosco, P.; Rodriguez, R.; Kelley, B.; Cosgrove, D.; Vianello, R.; sriniker; Gedeck, P.; Jones, G.; Nealschneider, D.; et al. rdkit/rdkit: 2026_03_6 (Q1 2026) Release; Version Release_2026_03_6; Zenodo: 2026. https://doi.org/10.5281/zenodo.22140358.
+
+101. Varadi, M.; Bertoni, D.; Magana, P.; Paramval, U.; Pidruchna, I.; Radhakrishnan, M.; Tsenkov, M.; Nair, S.; Mirdita, M.; Yeo, J.; et al. AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences. Nucleic Acids Res. 2024, 52, D368–D375. https://doi.org/10.1093/nar/gkad1011.
+
+102. Varadi, M.; Anyango, S.; Deshpande, M.; Nair, S.; Natassia, C.; Yordanova, G.; Yuan, D.; Stroe, O.; Wood, G.; Laydon, A.; et al. AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models. Nucleic Acids Res. 2022, 50, D439–D444. https://doi.org/10.1093/nar/gkab1061.
+
+103. Jumper, J.; Evans, R.; Pritzel, A.; Green, T.; Figurnov, M.; Ronneberger, O.; Tunyasuvunakool, K.; Bates, R.; Žídek, A.; Potapenko, A.; et al. Highly accurate protein structure prediction with AlphaFold. Nature 2021, 596, 583–589. https://doi.org/10.1038/s41586-021-03819-2.
+
+104. Liang, L.; Yan, X.E.; Yun, C.H. Crystal structure of PDGFRA in complex with imatinib by co-crystallization; Protein Data Bank Entry 6JOL; Protein Data Bank: 2020. https://doi.org/10.2210/pdb6JOL/pdb.
+
+105. Kikuchi, A.; Singh, S.; Poddar, M.; Nakao, T.; Schmidt, H.M.; Gayden, J.D.; Sato, T.; Arteel, G.E.; Monga, S.P. Hepatic Stellate Cell–Specific Platelet-Derived Growth Factor Receptor-α Loss Reduces Fibrosis and Promotes Repair after Hepatocellular Injury. Am. J. Pathol. 2020, 190, 2080–2094. https://doi.org/10.1016/j.ajpath.2020.06.006.
+
+106. Nakamoto, S.; Ito, Y.; Nishizawa, N.; Goto, T.; Kojo, K.; Kumamoto, Y.; Watanabe, M.; Majima, M. Lymphangiogenesis and accumulation of reparative macrophages contribute to liver repair after hepatic ischemia–reperfusion injury. Angiogenesis 2020, 23, 395–410. https://doi.org/10.1007/s10456-020-09718-w.
+
+107. Karaman, M.W.; Herrgard, S.; Treiber, D.K.; Gallant, P.; Atteridge, C.E.; Campbell, B.T.; Chan, K.W.; Ciceri, P.; Davis, M.I.; Edeen, P.T.; et al. A quantitative analysis of kinase inhibitor selectivity. Nat. Biotechnol. 2008, 26, 127–132. https://doi.org/10.1038/nbt1358.
+
+108. Boltz. Screen Small Molecule Libraries. Available online: https://api.boltz.bio/docs/api/guides/small-molecule-library-screen/ (accessed on 2 October 2026).
+
+109. Inductive Bio. Inductive Bio MCP Connector. Available online: https://www.inductive.bio/mcp-connector (accessed on 2 October 2026).

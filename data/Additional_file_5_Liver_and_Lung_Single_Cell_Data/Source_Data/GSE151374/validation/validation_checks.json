@@ -1,0 +1,11 @@
+{
+  "sample_count": 18,
+  "all_six_condition_cells_have_three_libraries": true,
+  "all_libraries_retain_at_least_1000_cells": true,
+  "all_libraries_retain_at_least_100_macrophages": true,
+  "no_cell_level_inferential_tests": true,
+  "exact_permutation_minimum_two_sided_p_for_3v3": 0.1,
+  "gene_level_BH_present_day7": true,
+  "gene_level_BH_present_day14": true,
+  "module_BH_present": true
+}

@@ -1,0 +1,24 @@
+{
+  "abstract": "Novel naphthalimide derivatives were designed and synthesized to modulate both topoisomerase II (topo II) and receptor tyrosine kinases (RTKs). Most target compounds exhibited effective and selective antiproliferative activities against three cancer cell lines by inhibiting topo II. The IC50 values ranged from 1.5 to 19.1 \u03bcM. Moreover, compounds 8d and 12d moderately inhibited various angiogenesis-related RTKs, including FGFR1, VEGFR2 and PDGFR\u03b1. The representative compound 8d was then proved to possess antiangiogenic activity, which was evidenced by the inhibition of migration and tube formation activities of HMEC-1 cells. To our knowledge, it is the first time naphthalimides were identified as tyrosine kinases inhibitors (TKIs) besides their conventional cytotoxicity.",
+  "authors": "Wang X, Chen Z, Tong L, Tan S, Zhou W, Peng T, Han K, Ding J, Xie H, Xu Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_18",
+    "creation_date": "2014-03-12"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL2407039",
+  "doi": "10.1016/j.ejmech.2013.05.002",
+  "doi_chembl": null,
+  "first_page": "477",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "486",
+  "patent_id": null,
+  "pubmed_id": 23770449,
+  "src_id": 1,
+  "title": "Naphthalimides exhibit in vitro antiproliferative and antiangiogenic activities by inhibiting both topoisomerase II (topo II) and receptor tyrosine kinases (RTKs).",
+  "volume": "65",
+  "year": 2013
+}

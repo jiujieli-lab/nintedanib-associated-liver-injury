@@ -1,0 +1,24 @@
+{
+  "abstract": "The discovery of a novel potent type II ABL/c-KIT dual kinase inhibitor compound 34 (CHMFL-ABL/KIT-155), which utilized a hydrogen bond formed by NH on the kinase backbone and carbonyl oxygen of 34 as a unique hinge binding, is described. 34 potently inhibited purified ABL (IC50: 46 nM) and c-KIT kinase (IC50: 75 nM) in the biochemical assays and displayed high selectivity (S Score (1) = 0.03) at the concentration of 1 \u03bcM among 468 kinases/mutants in KINOMEscan assay. It exhibited strong antiproliferative activities against BCR-ABL/c-KIT driven CML/GISTs cancer cell lines through blockage of the BCR-ABL/c-KIT mediated signaling pathways, arresting cell cycle progression and induction of apoptosis. 34 possessed a good oral PK property and effectively suppressed the tumor progression in the K562 (CML) and GIST-T1 (GISTs) cells mediated xenograft mouse model. The distinct hinge-binding mode of 34 provided a novel pharmacophore for expanding the chemical structure diversity for the type II kinase inhibitors discovery.",
+  "authors": "Wang Q, Liu F, Wang B, Zou F, Qi Z, Chen C, Yu K, Hu C, Qi S, Wang W, Hu Z, Liu J, Wang W, Wang L, Liang Q, Zhang S, Ren T, Liu Q, Liu J.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_24",
+    "creation_date": "2018-04-23"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL3877303",
+  "doi": "10.1021/acs.jmedchem.6b01290",
+  "doi_chembl": null,
+  "first_page": "273",
+  "issue": "1",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "289",
+  "patent_id": null,
+  "pubmed_id": 27966954,
+  "src_id": 1,
+  "title": "Discovery of 4-Methyl-N-(4-((4-methylpiperazin-1-yl)methyl)-3-(trifluoromethyl)phenyl)-3-((1-nicotinoylpiperidin-4-yl)oxy)benzamide (CHMFL-ABL/KIT-155) as a Novel Highly Potent Type II ABL/KIT Dual Kinase Inhibitor with a Distinct Hinge Binding.",
+  "volume": "60",
+  "year": 2017
+}

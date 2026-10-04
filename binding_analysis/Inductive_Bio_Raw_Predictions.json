@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"model_id\": \"mcp_public_logd\",\n  \"model_version\": \"1.7.0\",\n  \"requested_model_version\": \"latest\",\n  \"config_version\": \"2e470585d6abf7db208daeb5838384032e1f4ccdbec3da3d607cfb8a864c2e45\",\n  \"predictions\": [\n    {\n      \"prediction_type\": \"LipophilicityPrediction\",\n      \"error\": false,\n      \"out_of_domain_flag\": false,\n      \"continuous_prediction\": 2.522630453109741,\n      \"continuous_prediction_low\": 1.5785327571057117,\n      \"continuous_prediction_high\": 3.4469340878047814,\n      \"categorical_prediction_numeric\": 1,\n      \"categorical_prediction\": \"Medium Lipophilicity\",\n      \"predicted_probabilities\": [\n        0.27602743636038024,\n        0.7103137227796021,\n        0.013658840860017563\n      ],\n      \"low_confidence_flag\": false,\n      \"status\": \"success\",\n      \"smiles\": \"COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1\"\n    }\n  ],\n  \"status\": \"success\"\n}"
+    },
+    {
+      "type": "text",
+      "text": "{\n  \"model_id\": \"mcp_public_apka\",\n  \"model_version\": \"1.4.0\",\n  \"requested_model_version\": \"latest\",\n  \"config_version\": \"9d883adf65493018e5edb794d8430059a123bfed4351727fb92baa5b6bec74f9\",\n  \"predictions\": [\n    {\n      \"prediction_type\": \"PKAPrediction\",\n      \"error\": false,\n      \"out_of_domain_flag\": false,\n      \"continuous_prediction\": 10.945478439331055,\n      \"continuous_prediction_low\": 7.998441800522269,\n      \"continuous_prediction_high\": 11.195696102749292,\n      \"categorical_prediction_numeric\": 2,\n      \"categorical_prediction\": \"Low acidity\",\n      \"predicted_probabilities\": [\n        0.021073649889109772,\n        0.3424553251716115,\n        0.6364710249392788\n      ],\n      \"low_confidence_flag\": false,\n      \"status\": \"success\",\n      \"smiles\": \"COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1\"\n    }\n  ],\n  \"status\": \"success\"\n}"
+    },
+    {
+      "type": "text",
+      "text": "{\n  \"model_id\": \"mcp_public_bpka\",\n  \"model_version\": \"1.4.0\",\n  \"requested_model_version\": \"latest\",\n  \"config_version\": \"178e97d761a26a370bf580dbac57ba3c1bde53bf609aba8bcec5e771a11a0bce\",\n  \"predictions\": [\n    {\n      \"prediction_type\": \"PKAPrediction\",\n      \"error\": false,\n      \"out_of_domain_flag\": false,\n      \"continuous_prediction\": 7.712056636810303,\n      \"continuous_prediction_low\": 7.408575246825894,\n      \"continuous_prediction_high\": 8.766281872491737,\n      \"categorical_prediction_numeric\": 1,\n      \"categorical_prediction\": \"Moderate basicity\",\n      \"predicted_probabilities\": [\n        0.000016268699476116257,\n        0.9726684725006445,\n        0.027315258799879394\n      ],\n      \"low_confidence_flag\": false,\n      \"status\": \"success\",\n      \"smiles\": \"COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1\"\n    }\n  ],\n  \"status\": \"success\"\n}"
+    }
+  ],
+  "isError": false
+}

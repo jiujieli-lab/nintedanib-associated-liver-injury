@@ -1,0 +1,10 @@
+compartment,minimum_numerically_evaluable_vko_runs,n_common_candidates,spearman_rho,spearman_p_descriptive,interpretation
+Hepatocyte,1,1,,,conditional exploratory comparison; different network estimands; not predictive validation
+Hepatocyte,2,0,,,conditional exploratory comparison; different network estimands; not predictive validation
+Hepatocyte,3,0,,,conditional exploratory comparison; different network estimands; not predictive validation
+Endothelial,1,8,0.38095238095238104,0.35181255311756476,conditional exploratory comparison; different network estimands; not predictive validation
+Endothelial,2,5,-0.09999999999999999,0.8728885715695384,conditional exploratory comparison; different network estimands; not predictive validation
+Endothelial,3,2,,,conditional exploratory comparison; different network estimands; not predictive validation
+Macrophage,1,6,0.08571428571428573,0.8717434402332361,conditional exploratory comparison; different network estimands; not predictive validation
+Macrophage,2,5,-0.09999999999999999,0.8728885715695384,conditional exploratory comparison; different network estimands; not predictive validation
+Macrophage,3,2,,,conditional exploratory comparison; different network estimands; not predictive validation

@@ -1,0 +1,784 @@
+MDPI Author Layout Style Guide | MDPI
+Skip to Content
+Journals
+Active Journals
+Journal Finder
+Proceedings Series
+Propose a Journal
+Transferred & Acquired Journals
+Discontinued Titles
+Topics
+Our Topics
+All Topics
+About Topics
+Topics Awards
+Subject Editors
+Propose a Topic
+By Subjects
+Biology & Life Sciences
+Chemistry & Materials
+Computer Science &
+Mathematics
+Engineering
+Environmental &
+Earth Sciences
+Medicine &
+Pharmacology
+Public Health &
+Healthcare
+Social Sciences, Arts
+& Humanities
+Author Services
+Information
+General Content
+Open Access Policy
+Editorial Process
+Publication Ethics
+Special Issues Guidelines
+Article Processing Charge
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+Partnerships
+Institutional Open
+Access Program
+Societies
+Conferences
+Publishing Services
+About
+Company
+About Us
+Mission
+Impact
+History
+Leadership
+Office Locations
+Careers
+Awards
+Products
+Accessibility
+Media
+News
+Blog
+Press
+Contact
+Support
+Send Feedback
+All Journals
+Search
+Advanced Toggle search boxSearch Sign in
+Submit Open mobile navigation
+Home
+Guidelines
+Guidelines for Authors
+MDPI Author Layout Style Guide
+MDPI Author Layout Style Guide
+1. Introduction
+Welcome to the MDPI style guide. Its purpose is to offer guidance and advice to authors intending to publish in an MDPI journal. Topics covered include formatting and conventions specific to MDPI and some tips for how to improve clarity and writing style.
+This is a guide, not a set of instructions. English is a flexible language and most of its rules can be broken under the right circumstances. Our aim is to communicate the latest scholarly findings in a way that is accessible and readable. Most of the guidelines here are to aid clarity and precision. Where rigidly following this guide does not achieve that goal, exceptions can be made.
+We do not expect authors to have strictly followed all of these guidelines when they submit their paper. Preparing a manuscript for publication is a key task of a publisher and includes applying the house style. Our editors will not reject a manuscript where the authors do not add a space before a unit of measurement or use the wrong tense to describe their experiment—at MDPI, we pride ourselves on providing a comprehensive production service prior to publication. Authors may benefit from reading and applying the conventions given here, though, as improving clarity and removing ambiguity can increase the chance of passing peer review.
+This style guide is organized according to the sections of a research article. It begins with the front matter, which includes the title, article type, author information, and abstract. It continues with the main text, where the majority of advice on writing style can be found. There is a chapter on the presentation of mathematical content, followed by one on representations of data—including how to assemble tables and figures. Next comes information about the back matter, which includes various declarations by the authors and advice on writing the bibliography. Finally, there is a short section on publication ethics and how to revise and resubmit a paper.
+2. Front Matter
+The front matter covers parts of the article that usually appear at the top of the first page and give general information, including the title, abstract, journal name, and information about the authors. The format is standardized and much of it is added and formatted by the publisher.
+2.1. Article Types
+All articles are assigned a type, depending on the content of the article. This is useful to readers, informing them of the style of content to expect (original research, review, communication, etc.) and for indexing services when applying filters to search results. The most common article types can be found at https://www.mdpi.com/about/article_types, although is not exhaustive. Editors have the final say on which type should be assigned to a published article.
+2.2. Article Titles
+There are few rules about the titles of submitted papers; however, there are some points that authors should keep in mind. The title conveys the main topic of the research and normally includes the principal results. It should be concise, descriptive, and grammatically correct. Periods should be avoided; instead, authors can use commas, colons, or en dashes. Italics should only be used where they are required for specific nomenclature (such as species names or journal titles) but should not be used for emphasis.
+We recommend that authors keep their audience in mind and try to appeal to as broad a readership as possible. Therefore, avoid abbreviations and jargon that those outside of your field may not understand. Creative and original titles can be used, but make sure they do not sacrifice clarity in an effort to be eye-catching. Running titles should be avoided.
+Some article types, including Corrections, Retractions, and Expression of Concern, have specific formats for the title that must be followed. We also strongly recommend this format for Comments and Reply, although authors may submit an alternative title, which will be used at the discretion of the editorial office. An example of the standard format is as follows:
+Correction: Nasonova et al. Linking Regional Winter Sea Ice Thickness and Surface Roughness to Spring Melt Pond Fraction on Landfast Arctic Sea Ice. Remote Sens. 2018, 10, 37
+For titles of Comments, the following is an example of the standard format without a comment title:
+Comment on Tanmoy et al. CRISPR-Cas Diversity in Clinical Salmonella enterica Serovar Typhi Isolates from South Asian Countries. Genes 2020, 11, 1365
+Titles of book reviews should have the following format:
+Book Review: Microbiology in Dairy Processing: Challenges and Opportunities; Poltronieri, P., Ed.; IFT Press Series: Wiley-Blackwell, UK, 2017; ISBN: 978-1-119-11480-2
+2.3. Author Names and Affiliations
+In order to identify who wrote the paper and contributed to the work, author names and affiliations are displayed at the beginning of a paper. More details about qualification for authorship and author roles are given in the section on author contributions.
+It is very important that author names and affiliations are correct. Incorrect information can mean a lack of proper attribution or incorrect citation and can even lead to problems with promotion or funding.
+The publisher attempts to verify the authors’ identities and where necessary will make contact with the authors to confirm details. Misrepresenting affiliations is extremely serious and may constitute fraud.
+Below are some important points about author names:
+Author names should be written in full (the last name must be the full name), with capitalized initials and in the order “Firstname Lastname”.
+Middle names can be abbreviated, and a dot should be added after the abbreviated name, e.g., “Mark N. Breckels”.
+A normal space is required between initial letters, e.g., “Fernanda C. G. Barbosa”.
+A group or team name can be the author name. If provided the member list, add a note for the group/team name in the Authorship section to indicate that complete authors are listed in the Acknowledgments, Appendix or Supplementary Materials, e.g., “on behalf of the ELANS Study Group †.
+† Collaborators/Membership of the group/team Name is provided in the Supplementary Materials”.
+To avoid additional checks, please indicate any authors that only have a single name.
+We strongly recommend that authors use the suggested standard name format, but for any special cases, please indicate it during proofreading.
+If an author name contains II, III, IV, 2nd, 3rd, etc., there should be no comma between II, III, IV, 2nd, 3rd, etc. and the author names (e.g., Charles J. Smith III). If there is an author name with Jr. or Sr., there should be a comma between Jr., Sr., and author names (e.g., Teodoro Fajardo, Jr.).
+Any titles (Prof., Dr., Mr., Ms., etc.) or Academic suffixes (MD, MSc., BSc., etc.) should be avoided.
+Affiliations should be those that the authors had at the time the work was carried out. The main role of the affiliations is, as far as possible, to unambiguously identify the authors. Please pay attention to the following important points about affiliations:
+The necessary composition of affiliations is institution, city post/Zip code, and country/region, e.g., “Department of Materials Science and Engineering, Pusan National University, Busan 46241, Republic of Korea”.
+If the address is a university, it should usually have department/school/faculty/campus as well. Note that the address information should be sorted from subordinate to superior; e.g., the department should be put before the university, and they should be separated by commas.
+For the USA and Canada, the state/province (abbreviated) must be provided, and the zip code should be added after state/province, e.g., “Department of Botany and Plant Pathology, Oregon State University, Corvallis, OR 97331, USA”.
+Except for the USA and Canada, it is not recommended to add state/province information. If provided, it should be abbreviated as much as possible, placed before the country name and after the city name, and separated by a comma. Whether or not there is state/province information needs to be consistent within the same article. City and country name should be in English.
+The post code should be put before (for European countries except for the UK) or after (for other countries including the UK) the city, except for the USA, Canada, and Australia where the zip code or postal code is put after the state or province abbreviation. The post code can be omitted or replaced by P.O. Box if the countries/regions do not use a postal code.
+Please use “Independent Researcher” as the authors’ affiliation when they do not have any affiliated institutes (e.g., “Independent Researcher, 08036 Barcelona, Spain”).
+Authors may also add a current address as a note in the front matter, but the current address should not be the same as any address in affiliations.
+Content words in affiliations in English need to be capitalized.
+Duplicate affiliation information should be merged in one item; multiple affiliations/addresses cannot be listed in one item.
+The same university title, city, postcode, province/state (with or without an abbreviation), and country information should be consistent with the same format used in each item.
+Titles (Dr., Mr., Ms., etc.), academic suffixes (MD, MSc., BSc., etc.), sponsor information, non-email social accounts should be avoided.
+We strongly recommend that authors use the suggested standard affiliation format, but for any special cases, please indicate it during proofreading.
+We strongly recommend that authors have an ORCID account (see orcid.org), which is a unique identifier for scholarly researchers. Your ORCID can be added in the submission system and will be included in the final version of the paper with an icon linking to your online ORCID profile.
+We also strongly recommend that authors have a SciProfiles account (see https://sciprofiles.com/), which is a social network for researchers and scholars. It will help you find relevant publications and conferences and keep you updated with the latest events in your network. Your SciProfiles can be added in the submission system and will be shown on the paper’s homepage with an icon (before each author name) linking to your online SciProfiles.
+2.4. Abstracts
+The abstract contains a summary of the entire paper and can be up to 200 words long with only one paragraph. It must not contain any images or tables (although a graphical abstract may also be submitted). Do not included running title, website links, equations, figures (or other graphical elements), tables, or structures that require display on a line separate from the text.
+Authors should follow the style of a structured abstract, which is based on the IMRAD structure of a paper but without using headings. In other words, give a background and motivation to the paper, a brief description of the methods, the principal results, and then conclusions or interpretations. Some journals in the medical field may require subheadings within the abstract; you may refer to the instructions for authors to see if this is required.
+Abstracts must be self-contained: they are often displayed and read independently of the rest of the paper. This means that any abbreviations used must be defined in the abstract, and no reference can be made to the bibliography or any figures. Citations to previously published papers are not required in abstracts.
+The abstract, along with the main title, is the first part of your paper that a reader will see. It should give them a good overview of all the major aspects of the work carried out. It should not be thought of as a sales pitch to encourage readers to download and read the full article, although including some motivation is a good idea. Instead, you should focus on making it informative and comprehensive. A well-written abstract will mean that someone who goes on to read the full article will already have a good idea of the content and will be able to focus on the parts they are most interested in.
+2.5. Graphical Abstract
+A graphical abstract (GA) is an image that appears beneath the text abstract. In addition to summarizing the content, it should represent the topic of the article in an attention-grabbing way. Moreover, before you submit any figures for the graphical abstract, please check the following list to ensure your files meet MDPI’s graphical abstract (GA) criteria:
+A graphical abstract should not be exactly the same as any figure in the body of the paper, a simple superposition of several subfigures, or a combination of the text abstract and a picture.
+A graphical abstract should be original and unpublished artwork. Any postage stamps, currency from any country, or trademarked items should not be included in it. No copyrighted material should be used in a GA.
+A graphical abstract should be a high-quality illustration or diagram in any of the following file formats: PNG, JPEG, or TIFF.
+The minimum required size for the graphical abstract is 560 × 1100 pixels (height × width).
+Written text in a graphical abstract should be clear and easy to read. It is recommended to use fonts such as Times, Arial, Courier, Helvetica, Ubuntu, and Calibri.
+Please use symbols correctly, and do not use commas instead of decimal points in numbers.
+Avoid large blocks of text or large blank spaces in the image.
+Do not include “Graphical Abstract” as a heading in the image.
+The graphical abstract will be displayed on the online version of the article, but is typically absent from the print version or article PDF file.
+2.6. Digital Object Identifiers
+A Digital Object Identifier (DOI) is a unique number registered through a central organization, usually CrossRef for journal articles. Its role is to act as a persistent identifier, meaning that if the URL of an article changes, the DOI can still be used to find its most recent location. The DOI is defined by the publisher.
+We recommend using the DOI (expressed as a URL) when citing articles as it will help readers to quickly locate the cited work. Any article can be located from the DOI by prefixing it with https://doi.org/, e.g., https://doi.org/10.3390/s10100001.
+2.7. Pagination
+In addition to the DOI, MDPI also issues pagination for articles. This includes several numbers or series of letters that identify where and when the paper was published:
+ISSN: A code that uniquely identifies serial works, such as academic journals. Each journal has a unique ISSN.
+Volume, Issue: These numbers originated from when journals were physically printed. Typically, journals publish one volume per year with issues on a biannual, quarterly, monthly, or semi-monthly basis. Electronic journals still often use these, and they are useful for identifying when a paper was published.
+Page range or article number: These identify the specific article in an issue. The page number typically starts with 1 at the beginning of a volume. Many electronic journals have switched to article numbers, which assigns a single number to the entire paper.
+Except for the ISSN, these numbers occur in citations, e.g., Sensors 2013, 13(6), 6910–6935. Note, however, that the MDPI reference style omits the issue number (see the section on references).
+2.8. Copyright Statement
+This part does not need to be edited by the authors and has a standard wording. Copyright of the manuscript is not transferred from the authors to MDPI, meaning that those who produce the work retain ownership. Sometimes, authors are not legally entitled to own the work. In these cases, it should first be verified whether this applies in Switzerland, where MDPI is registered. If so, the authors should inform the editorial office about the correct copyright owner.
+The license determines how the work can be used after publication. MDPI articles are published using a creative commons CC BY license, meaning that the work may be reused—either in full or in part—without restriction, provided that the original source is acknowledged. In practice, this means that anyone using the article must cite it and thus give recognition to the authors. The terms of this license are what makes the articles open access. A different open access license may only be used in exceptional circumstances and must be approved at the submission step by the editorial office.
+3. Structure and Formatting
+The next few sections cover the main text of an article, which is written almost entirely by the authors. For research articles, this is where details of the experiments and results are presented. The main text may be supplemented by additional documents or sections, such as appendixes and supplementary material. Accession numbers, URLs, or DOI URLs can be used to refer to data or code hosted on other websites. URLs should not be embedded, for example, “Science History Institute (https://digital.sciencehistory.org/)” should be used rather than “Science History Institute” with an embedded link, as the latter will look like an underlined phrase when printed out rather than a hyperlink.
+3.1. Overall Structure
+Research articles have a standard structure, which is set out in the instructions for authors of the journal and the journal template. The majority of journals use a so-called IMRAD structure, meaning that the sections are Introduction, Materials and Methods, Results, and Discussions. Some journals require a Conclusions section at the end, and others have the Materials and Methods section after the Results and Discussions. Authors may choose to have Results and Discussions as one or two sections.
+Review articles, essays, and other article types usually have a different structure, which is often more flexible. There should, however, still be a logical pattern. We recommend that the structure of an article is still considered, so the paper firstly presents a motivation for the work, followed by relevant data and previous work, and gives conclusions at the end. For systematic reviews, the structure should more closely follow that of a research article, with the methods describing how literature was chosen for inclusion.
+Figures, tables, and schemes should appear in the text shortly after the first time they are cited. Where possible, they should be in the same section as the citation. It is not necessary to add them at the top or bottom of a page, and they should not break paragraphs. However, authors do not need to strictly follow these rules, and the production team will determine the most appropriate placement of figures. Note that there may be some adjustments in figure placement between author proofreading and final publication. Further details about adding these elements are given below.
+3.2. Paragraph Content and Structure
+There are no specific requirements from MDPI regarding the structure of paragraphs, but they should follow conventions for English writing. Paragraphs should contain and develop a single theme. They should be self-contained, which means, for example, that you should not use pronouns (it, he, she, they) referring to previous paragraphs.
+A recommended structure for paragraphs is first to introduce the main idea, then give further relevant details, and finally to give interpretations or conclusions. This structure gives clarity to readers: if the idea contained in a paragraph is not clear from the start, there is more chance for misinterpretation. In some subjects, particularly in the humanities, an alternative structure may produce a particular effect on the reader that the author is trying to create; however, we recommend that care be taken to ensure that the message is as clear as possible.
+3.3. Headings and Sections
+For research articles, the headings are defined. For other types of paper, the authors have more flexibility to choose the headings. You may use up to three levels of headings/subheadings. Section headings are numbered, with first-level headings as, e.g., 1.; second-level heading as, e.g., 1.2.; and third-level headings as, e.g., 1.2.3. (as in this guide). Any headings used in a fourth level may simply appear as a paragraph with no indentation. In this case, though, we recommend reassessing the section definitions to see whether only three levels could be used. Headings without numbers may also be used to introduce a series of different cases. See the mathematics section for certain special environments with their own heading styles (e.g., Theorem, Proposition, and Proof).
+Headings are written using title case, which means that the first letter of all words is capitalized with the exception of short words, including articles (a, the, etc.), and prepositions with four letters or less (in, on, for, etc.). Pronouns (he, she, it, etc.) should be capitalized, as should prepositions used in compound words (e.g., set-up). Capitalize each component of compound words if the component would be capitalized when standing alone (e.g., Half-Life and Cross-Link).
+Italicized species names should not be capitalized (e.g., in Escherichia coli). The first word of the title and the first word after a colon or em dash should be capitalized regardless of the previous rules.
+3.4. Formatting, Fonts, and Symbols
+When writing symbols, use common, standard fonts where possible. If you are using a template in Microsoft Word, ensure that the font is correctly set for all text, especially when copying and pasting text from a different document. The format painter tool can help.
+Avoid using fonts such as symbol, wingdings, or webdings. Authors should also avoid adding symbols as pictures, as this can lead to difficulties in formatting the final version. If there is a symbol you have difficulty in adding, leave a comment in the text so that the production team can take note.
+For LaTeX, we recommend using an editor that includes a good list of symbols in the menus and a spell checker. This increases accuracy in writing and decreases the need to memorize many different codes. Table 1 contains LaTeX codes for a few especially useful symbols.
+Table 1. Commonly used LaTeX symbols.
+Symbol Name
+Symbol
+LaTeX Code
+En dash
+–
+--
+Em dash
+—
+---
+Micro/mu
+µ
+\upmu (from the upgreek package)
+Degree symbol
+°
+$^{\circ}$
+New line
+(n/a)
+\\
+3.5. Abbreviations
+Most abbreviated phrases should be written in full the first time that they are used, with the abbreviation in brackets, for example, “small angle X-ray scattering (SAXS)”. Some very common abbreviations do not need to be defined—some of these are universal and others depend on your intended audience. Below are a few common abbreviations that usually do not need defining. Non-standard abbreviations for phrases that are commonly used throughout an article can be defined, but avoid redefining abbreviations that already have a more common meaning. Words used in abbreviations do not need to be capitalized, even if the abbreviation is capitalized.
+Note that the abstract, main text, and figure/table/scheme captions are treated separately for abbreviations. This means that you need to define the abbreviation the first time you use it in each part—you may have to define the same abbreviation three separate times. The reason for this is that they are often displayed in isolation; for example, indexing services usually only display the abstract and you can browse figures without the main text via the journal website.
+Table 2. Common abbreviations that do not need defining in the text. This list is not exhaustive, and you may still choose to define these abbreviations for clarity.
+Abbreviation
+Meaning
+AMP
+adenosine monophosphate
+ANOVA
+analysis of variance
+ATP
+adenosine triphosphate
+CI
+confidence interval
+CNS
+central nervous system
+COSY
+correlation spectroscopy
+DMSO
+dimethyl sulfoxide
+DNA
+deoxyribonucleic acid
+DPPH
+2,2-diphenyl-1-picrylhydrazyl
+ESR
+electro-spin resonance
+FTIR
+Fourier-transform infrared spectroscopy
+GDP
+gross domestic product
+GFP
+green fluorescent protein
+GIS
+geographic information system
+GLC
+gas–liquid chromatography
+GTP
+guanosine triphosphate
+HPLC
+high performance liquid chromatography
+HPLC/MS
+high performance liquid chromatography/mass spectrometry
+IR
+infrared
+LC–MS
+Liquid chromatography–mass spectrometry
+MALDI-TOF
+Matrix Assisted Laser Desorption/Ionization Time-of-Flight
+MEMS
+micro-electro-mechanical systems
+NMR
+nuclear magnetic resonance
+NOE
+nuclear Overhauser effect
+NOESY
+nuclear Overhauser effect spectroscopy
+PCR, RT-PCR, qPCR
+polymerase chain reaction, real-time PCR, quantitative PCR
+pKa
+negative base-10 logarithm of the acid dissociation constant of a solution
+R&D
+research and development
+RGB
+red green blue
+RNA
+ribonucleic acid
+SD
+standard deviation
+SDS-PAGE
+sodium dodecyl sulphate polyacrylamide gel electrophoresis
+TOCSY
+total correlated spectroscopy
+UV-vis
+ultraviolet-visible
+v/v, w/v, etc.
+volume per volume, weight per volume, etc.
+The following Latin abbreviations may also be used in text: etc. (et cetera), to indicate that a list is incomplete; i.e., (id est), meaning “in other words” to add clarification to a phrase; and e.g., (exempli gratia), meaning “for the sake of example” to introduce a list of examples. Note that it is not necessary to use, “e.g.” and “etc.” in the same list. Confusion between “i.e.” and “e.g.” is common—if your list of examples is complete, then use “i.e.” but if there are additional cases not mentioned, then use “e.g.” Both “e.g.” and “i.e.” should be followed by a comma and do not need to be italicized.
+Do not abbreviate “also known as” to “aka” or use an ampersand (&) instead of “and”—they should be written in full.
+3.6. Italics
+Authors may use italics for emphasis at their discretion. Be careful that there is no confusion, especially in disciplines where italicization is used for another purpose, such as in mathematical symbols or gene names.
+Foreign words do not need to be highlighted or italicized, including Greek/Latin terms, such as i.e., e.g., etc., et al., vs., ca., cf., in vivo, ex vivo, in situ, ex situ, in vitro, in utero, ad hoc, in silico, ab initio, vice versa, and via. Authors may choose use italics for purposes of emphasis or where a term is being defined. Journal and book titles should always be written in italics, e.g., International Journal of Environmental Research and Public Health.
+Italics must be used for the genus and species when using Latin names of organisms. The first time the name is used it should be spelled out in full, but for further uses, the genus can be abbreviated to the first letter. Note that the species is always written without a capital letter, including when it appears in a title; the genus name should always be capitalized. Similarly, italics should be used for gene names (but not for the corresponding proteins). Examples:
+Escherichia coli is a common bacterium ... E. coli was used in this article.
+Lac1 is the gene that encodes for the Lac1 protein.
+3.7. Bold Font
+Bold font should generally be avoided. If you wish to add emphasis, italics are preferred. Bold font is used in specific contexts, including figure captions and subtitles. In chemistry, bold numbers can be used to refer to molecules defined in Schemes.
+3.8. Quotations
+Any text taken from previous work, whether published or not, should be clearly indicated. The recommended way to do this is as a quotation accompanied by a citation and bibliography entry. Quotations should appear in double quotation marks (“ . . . ”). Long quotations may appear as a block quotation: a separate paragraph set off from the rest of the text with an indent on both sides. The exact formatting will be completed by a layout editor during production.
+3.9. Notes
+Most scientific journals from MDPI do not allow notes. Check the instructions for authors of the journal to see the specific policy of a journal.
+Where notes are permitted, they may be used to add additional explanatory notes to text. All notes will be shown in the Notes section, which is before the References section. Information essential to understanding the text should not be added to notes. They can be used to add additional sources, explain the background to a particular point, reinforce ideas, or clarify intended meaning. Notes should not be used as a replacement for a bibliography, since citations included only in notes will not be detected and counted by indexing services.
+3.10. Lists, Itemized Lists, and Bullet Points
+Most lists can be included as inline text; however, authors may decide that the information is more clearly represented using bullet points. If there is a specific order to the list, a numbered list may be used. A descriptive list may also be used, in which each item begins with an emphasized word or short phrase.
+For inline lists, items should be separated by commas. An exception is where one or more items contains a comma, in which case semicolons can be used. Do not use commas for lists of two items. Serial (or Oxford) commas are recommended; however, they may be omitted if done so consistently, especially when not using American English for spellings.
+For itemized lists, introduce the list with a colon, add a semicolon at the end of each item, and a period at the end of the last item. Alternatively, periods may be used at the end of each item. Always capitalize the first word of each item.
+Examples of lists. Using bullets:
+The first;
+The second;
+The third.
+A numbered list:
+The first;
+The second;
+The third.
+A descriptive list:
+Item 1 the first;
+Item 2 the second;
+Item 3 the third.
+Note that lists that mention that only a few examples are given do not need to end with ‘etc.’, ‘and so on’, or similar text. Doing so means that you have indicated twice that the list is incomplete. For example:
+Examples include red, white, and green varieties.
+Popular varieties are red, white, green, etc.
+3.11. Patents
+Authors may declare any patents related to the published work, either those pending or already obtained. The aim of this section is to create a better link between research articles and new inventions to which they have contributed. This section is not obligatory, and there is no penalty for not declaring patents, but in most cases authors benefit from adding any relevant information here.
+When declaring patents, please include the patent number and title so that any interested readers can access the full details.
+We strongly recommend against submitting papers for publication before patents have been granted, since publication can compromise the patent application process. Published papers will not be removed from journals in order for patent applications to be filed.
+4. Grammar and Tenses
+4.1. Tenses
+In scientific writing, the language around what is already known and what remains unknown needs to be precise. This relates to the passage of time and hence the use of tenses. The following looks at how tenses are used in each part of a research paper.
+4.1.1. Introduction
+In the introduction, current problems and past work are typically discussed, along with a description of what the paper presents. The authors should use the present tense to describe outstanding problems:
+“The increase in the number of RF electromagnetic sources is associated with a growing concern about potential harmful health effects of human exposure to RF radiation.”
+Former work can be in the past or present tense:
+“These uncertainties are due to the directivity of the body-worn antennas [5], or body shadowing in which the body shields part of the EM fields.”
+“In [4] it was shown that the location of PEMs contributes to the uncertainty of their measurements and results in an underestimation of the incident electric fields.”
+New results being presented by the authors should be in the present tense (not future):
+“The designed antennas and the frequency bands of the BWDM are summarized in Section 2.2. Section 2.3 presents the design of the receiver nodes.”
+4.1.2. Methods
+Methods should typically be presented in the simple past tense:
+“The multi-antenna measurement system consisted of 22 autonomously working measurement units, for 11 different frequency bands, connected to a common serial bus system.”
+An exception is where methods are described in the form of instructions or an algorithm. These are most often used in theoretical papers:
+“The following describes the calibration procedure. First, place the subject (Sb-1) on a rotational platform in the far field of a transmitting horn antenna (TX) in an anechoic chamber.”
+The present perfect should be avoided:
+“The subject has been placed on a rotational platform . . . ”
+4.1.3. Results and Discussion
+This is the section where tenses are most often mixed and there is more flexibility/ambiguity about the correct tense to use. As a rule, established facts should use the present tense; however, difficulty arises when a single result is presented as establishing a fact. Authors may write the same phrase in different ways:
+“The results show that commercial PEMs underestimate the actual incident power densities by a factor of 1.6 to 20.6.”
+“In our study, commercial PEMs underestimated the actual incident power densities by a factor of 1.6 to 20.6.”
+“Commercial PEMs underestimate the actual incident power densities by a factor of 1.6 to 20.6.”
+The first example uses the present tense because the results are fixed and will not change in the future. The second uses the past tense, much like the methods section, to describe what happened during the experiments. The third is a bolder statement that generalizes the results of the paper to all commercial PEMs.
+The second is the best option as it is a clear statement of what happened during the current study. Anything that speculates or extrapolates the results should be clearly differentiated. For example:
+“In our study, commercial PEMs underestimated the actual incident power densities by a factor of 1.6 to 20.6. This could imply significant measurement errors where PEMs are used in an industrial environment.”
+This phrasing separates the third statement above into two distinct phrases that differentiate the results from the conclusions.
+4.1.4. Review Papers
+In a review, the writing often jumps rapidly between established facts, the results of studies, and speculation. Paragraphs or sections can be a microcosm of a complete paper, firstly setting out a problem, describing work done, and then making a conclusion about the current state of the field or speculating on the future. Be aware of which tense is appropriate for each statement:
+“Smartphone imaging is used extensively in remote sensing, for example in aerial photography and grass roots mapping applications . . . It has been applied quantitatively, for example in determining ‘leaf area index’, which is a measure of foliage cover [18], and could offer powerful tools for tracking longer term trends in sky [19], land cover and vegetation conditions.”
+There are different writing styles for reviews, such as using references to support a stated fact, written in the present tense:
+“LOD is defined as the smallest concentration of an analyte that can be reliably detected, where reliable detection means the sensor response should be different from that of blank/reference [27].”
+Alternatively, the authors may describe work done, similar to a methods section:
+“A microstrip coupled CSRR has been proposed as a chemical sensor [34]. In this setup, the microstrip line is designed on the top of substrate and CSRR is etched on the bottom ground. Withayachumnankul et al. [33] varied the concentration of water–ethanol solution, and the corresponding S-parameters were measured. To validate the proposed sensing system, the measured complex permittivity values of mixture were compared with the reference ones. This sensor showed four times higher sensitivity compared to their previous work.”
+It is authors’ responsibility to differentiate established facts from speculation through the use of tenses. Use of tenses should be consistent throughout a manuscript in order not to confuse readers.
+(Quotations in this section adapted from Sensors 2018, 18, 272; https://doi.org/10.3390/s18010272, Sensors 2018, 18, 232; https://doi.org/10.3390/s18010232, and Sensors 2018, 18, 223; https://doi.org/10.3390/s18010223.)
+4.2. Plurals
+Plurals need to agree with other parts of the sentence; this is an area where errors often occur, particularly in complex phrases. For example:
+“The full implementation of the trained networks are available at”
+should be
+“The full implementation of the network algorithms is available at”
+since the verb agrees with “implementation”, not “networks”.
+The word “data” should be considered to be plural, so write “The data show that . . . ” rather than “The data shows that . . . ”. The singular form is “datum”.
+4.3. Different Types of English: US vs. British
+In MDPI papers, US, British, or other variations of English can be used; however, authors must be consistent throughout the paper. We recommend that authors use American English unless they live or work in a country that uses a different variation (e.g., the UK, Australia, or Canada).
+One of most notable differences between British and US English is the use of -ise instead of -ize as a suffix. Some words are spelled differently; a few examples are
+British
+US
+Enquire
+Inquire
+Travelled
+Traveled
+Aluminium
+Aluminum
+Orientated
+Oriented
+A good spell-checker can help to identify words that are incorrectly spelled and authors should set the proofing language in their writing software to the version of English they wish to use.
+4.4. Non-English Words
+Articles can include text written in languages other than English provided that a translation is provided. This includes labels used in figures. Note that non-English words or phrases do not need italicizing.
+4.5. Voice and Person
+Authors may write using the active or passive voice, and in first-person or third-person where appropriate. Stylistic consistency, conciseness, and clarity should be prioritized.
+5. Punctuation
+Authors should have a good knowledge of standard punctuation. This guide is not intended to be comprehensive and authors should refer to textbooks to ensure the correct use of punctuation. In this section, we highlight aspects that particularly reflect the MDPI style.
+5.1. Periods/Full Stops
+Periods that end sentences should be followed by a single space. Most abbreviations use periods to indicate where letters have been omitted. Note that “vs.” should be followed by a period, except in papers covering law, where the convention is to omit a period.
+5.2. Commas
+Good use of commas can ensure clarity in your writing. Sometimes, it comes down to personal preference; however, there are some guiding principles that should be applied. See Section 3.10 for the use of commas in lists.
+Commas separate non-restrictive sentence modifiers—a phrase added to a sentence that is not essential to its meaning. Do not add commas for restrictive modifiers. For example:
+“Due to a slower than expected process, the experiment continued for an additional five days.”
+“The experiment continued for an additional five days in one case.”
+With regard to style, it is usually best to minimize the number of commas used in writing. Since commas separate different ideas, too many commas in a single sentence may be an indication that the structure is too complex. The result will be that readers are confused, especially if the sentence starts on one theme, adds a lengthy subclause for explanation, then goes back to the original theme.
+5.3. Hyphens and Dashes
+There are four types of dashes used in writing:
+- Hyphen: joins two separate words into a single concept.
+– En dash: a mid-sized dash (longer than a hyphen but shorter than an em dash), shows a link or relationship between two concepts, or a range.
+— Em dash: used to introduce a phrase or subclause that clarifies the previous phrase.
+− Minus sign: used in equations or negative numbers.
+When using prefixes and suffixes, hyphens are not required unless omitting them creates ambiguity in the meaning or double letters. Some words are conventionally written with or without hyphens, and for others, multiple forms are in common use. You will not be expected to know all of these and the editorial team will check before publication. A few examples are
+Prehistoric, lifelike, anti-inflammatory, and un-ionize.
+For compound adjectives, hyphens should typically be used. Two words together used to modify a single noun are termed “unit modifiers”. Note that hyphens should also be used in double-barreled names. For example:
+Three-dimensional, time-dependent, Parker-Bowles, and grey-green. Chemical names, however, should not be hyphenated (e.g., sulfuric acid).
+En dashes can be used to denote a chemical bond, a range between two numbers, or a relationship between two separate entities. They are also used between the last names of two different people when their names are used for a scientific concept. Some examples:
+Carbon–oxygen bond
+A time–frequency plot
+17–30 m in length
+Fabry–Perot
+Bose–Einstein
+For MDPI papers, em dashes are preferred to colons when introducing phrases that provide clarification or definitions. Spaces should not be included either side of em dashes. For example:
+“We measured alignment using linear dichroism—differential absorbance in perpendicular directions.”
+We recommend using em dashes sparingly to avoid disrupting the flow of sentences.
+5.4. Colons and Semicolons
+As mentioned above, em dashes are preferred to colons for introducing definitions. Colons may be used to introduce lists or before equations, but not where they separate a verb and its object or a preposition and its object.
+Semicolons may be used in lists, as mentioned above. For other uses of semicolons, refer to a grammar book. In general, we recommend using semicolons sparingly and considering whether a period or comma would be more appropriate.
+5.5. Apostrophes
+Apply the common usage of apostrophes to indicate ownership or contraction of words, although note that most contractions should be written in full (“cannot” instead of “can’t”, “it is” instead of “it’s”, etc.). Do not use apostrophes to pluralize abbreviations or numbers, e.g.,
+“The results of five PCRs are shown.” “This was common practice in the 1960s.”
+6. Numbers and Mathematical Environments
+6.1. Numbers
+Numbers should usually be written as digits, with a few exceptions. Where there are five or more digits to the left of the decimal point, use a comma to separate every three digits, e.g., 123,456 or 153,958.9476. As in the previous sentence, numbers 0–9 should be written as words unless they are a measurement, i.e., they are accompanied by a unit. For example:
+five trees
+5 m from the tree
+If a sentence starts with a number, the number should always be written out in full; however, it is often better to reword the sentence. As an example:
+. . . and was heated. One hundred and seventeen grams of NaCl was added to the mixture.
+However, this could be reworded as:
+. . . and was heated. A total of 117 g NaCl was added to the mixture.
+6.2. Measurements and Units
+When writing about measurements, use a space between a number and its unit. SI or SI-derived units should be used where possible; if you use alternative units, please explain to the editors why it is necessary. Middle dot (always use middle dot as multiple sign in units) or a normal space can be used in units; however, they must be consistent throughout the paper. For example:
+3×108 m⋅s−13 \times 10^8 \, \text{m} \cdot \text{s}^{-1}.
+Do not leave a space before a percentage (%) symbol, since the symbol is part of the number and not a unit. The same applies to degree (°) symbols when used for angles, so write 90° but 90 °C.
+A space is optional between wt%, mol%, vol%, at% or wt.%, mol.%, vol.%, at.%, but keep the format consistent within a paper. Other formats are not allowed, e.g.,wt %, % wt.
+For some common time units and measurement units, it is recommended to use abbreviated units if Arabic numerals are in front of them.
+Table 3. Abbreviated SI Fundamental Units.
+Units
+Abbreviation
+second/seconds
+s
+minute/minutes
+min
+hour/hours
+h
+millimeter/millimeters
+mm
+centimeter/centimeters
+cm
+meter/meters
+m
+kilometer/kilometers
+km
+gram/grams
+g
+kilogram/kilograms
+kg
+liter/liters
+L
+Powers of 10 can be indicated by a prefix to a unit. The following table shows terms that can be used in this way. For example, 1 pm = 1 × 10−12 m.
+Table 4. Prefixes to units that indicate powers of 10.
+Symbol
+Prefix
+Power of 10
+y
+yocto
+−24
+z
+zepto
+−21
+a
+atto
+−18
+f
+femto
+−15
+p
+pico
+−12
+n
+nano
+−9
+µ
+micro
+−6
+m
+milli
+−3
+c
+centi
+−2
+d
+deci
+−1
+da
+decka
+1
+h
+hecta
+2
+k
+kilo
+3
+M
+mega
+6
+G
+giga
+9
+T
+tera
+12
+P
+peta
+15
+E
+exa
+18
+Z
+zetta
+21
+Y
+yotta
+24
+6.3. Dates and Times
+Times should be written using the 24-hour clock with a colon between the hours and minutes, e.g., 12:42. Dates should be written with the format day (as a digit) month (as a word) year (four digits), e.g., 1 January 2001. BC (before Christ) or AD (anno domini) can be added if necessary; CE (Christian era) and BCE (before the Christian era) are also acceptable. Where other calendars are used (e.g., lunar calendars), we recommended including the date using the Gregorian calendar as well.
+6.4. Symbols
+Mathematical symbols that appear between two numbers should have a space on either side, such as in “a = 2b”. Do not leave a space around mathematical operators in subscripts and superscripts, e.g., an+1, and also do not leave a space around other expressions in subscripts and superscripts, unless doing so would lead to confusion or misreading, e.g., E365nm. Do not leave a space where there is only one number, e.g., “the number of samples in each case was >50”. Do not include a space when writing ratios, e.g., 1:100. Decimals need to be completed; e.g., a = .01 should be written as a = 0.01. Use scientific notation, i.e., a × 10b rather than aEb or aeb. Leave a space before or after trigonometric function, e.g., cos Θ, cot Θ, sin Θ, tan Θ, sec Θ, csc Θ, etc.
+6.5. Equations
+You may include appropriate equations in your manuscript. They may be included inline or as a separate paragraph. Non-inline equations may be numbered starting from 1 (do not include a section number), e.g., Equation (1). In the appendixes, all equations should be prefixed with A and in the supplementary information with S, e.g., Equation (A1), Equation (S1). Subequations are not recommended; if necessary, they should be cited, for example, as Equation (1a). Minor or trivial equations do not necessarily need to be numbered, at the discretion of the author. In derivations involving multiple steps, obvious intermediate results may be omitted.
+Punctuate equations as part of a regular sentence. For example, if the equation comes at the end of a sentence, a period should be placed immediately after the equation. It is not necessary to always use a colon to end the paragraph before an equation. If the equation is followed by “where . . . ” to define the symbols used, “where” should be all lower case and flushed to the margin (without first line indentation) to indicate that it does not begin a new paragraph.
+All terms used in an equation should be defined in the text. It is highly recommended to check specifically for this during proofreading before submission, as undefined terms could lead reviewers and editors to misinterpret your meaning. Additionally, be aware of multiply defined symbols, and we recommend using standard notation in the field where it exists (e.g., P for a probability function). The format (italics/non-italics) of each character in an Equation should be consistent with the main text. Symbols used in equations should use italic font, although exceptions will be permitted where there is a convention not to use italics. Words and numbers in equations should not use italic font, for example,
+P(x)=2aifx>0.P(x) = 2a \quad \text{if} \quad x > 0.
+The final formatting of equations will be done by MDPI staff. To assist them, take note of any examples in the journal template. In Microsoft Word, make sure your equations can be edited using the standard Word equation editor, rather than appearing as a picture. The content of one equation should be in the same environment (written in plain text or Word equation editor). Formatting is sometimes changed during production, and errors may be introduced if the equation appears only as a figure. LaTeX is convenient for writing equations. Users of LaTeX should try, where possible, to use common packages for introducing symbols, since this will make the production process more straightforward and error-free.
+6.6. When to Use Mathematical Environments
+Papers that report mathematical proofs have a structure that differs from other kinds of research papers. They usually contain a short motivation and introduction followed by a series of logically argued results (lemmas, proofs, corollaries, etc.) intermingled with some examples, remarks, and definitions. In principle, these environments could be used by authors from any field, but it is recommended only to use them for mathematics, as some readers may not be familiar with the structure. The following environments may be used for mathematical content: Theorem, Lemma, Corollary, Proposition, Characterization, Property, Problem, Example, Examples and Definitions, Hypothesis, Remark, and Definition. Any mathematical environments should be labeled with an Arabic number and numbered sequentially.
+The ‘Proof’ environment may be used for (mathematical) proofs of results. If they immediately follow the result, there is no need to state which result they refer to. If they appear later, the type and number of the result should be referenced, e.g., “Proof of Theorem 3”. This can be automated in LaTeX using the \label and \ref commands. Proofs may finish with a square box or “Q.E.D.”—the LaTeX proof environment automatically adds the former.
+Note that the MDPI LaTeX class file automatically loads the amsmath and amsthm environments packages, which contain many commonly used symbols. You can see comments in the preamble of the MDPI LaTeX template for more details.
+7. Figures, Tables, and Data
+Figures, tables, and similar items may be added to the text as appropriate. This section details how to use these. Authors are required to make their original data available unless there is a valid reason for not doing so (e.g., related to patient confidentiality). The best way to do this is to publish the data at the same time as, or before, the published article. This may be done alongside the article as an Appendix or Supplementary Material or on a separate platform. In the latter case, we strongly recommend a platform that uses the datacite mechanism (see https://datacite.org) to assign a digital object identifier (DOI) to your data.
+For figures previously published or tables cited from other publications, the necessary permission must be obtained from the copyright holder. For non-open access journals, this can usually be obtained via an online form or by e-mailing the editorial office. It is the authors’ responsibility to obtain the necessary permission.
+Any figures, tables, supplementary information, etc., must be cited in the main text of the document, e.g.,
+“The data are shown in Table 3.”
+“This case is depicted in Figure 3d.”
+Do not abbreviate Table and Figure to Tab. or Fig. The cited object should usually appear shortly after the citation and at the end of a paragraph. The final position of objects in the published PDF file is determined by the MDPI production team and may change between proofreading and publication.
+7.1. Figures
+Figures are graphics that support the main text. They may show data, an algorithm, a model, an image, or any other pictorial representation. Figures must be clear and readable, and we recommend a minimum resolution of 600 dpi. Any common figure formats may be used, including (but not limited to) tif, jpg, and png. For CAD and similar formats, a representation as, for example, a png file may be included in the text and the full original file included as supplementary material.
+Others notes on figures:
+The order and the citation of each Figure must be in sequence and correct. All the images should not be duplicated.
+The integrity of image must be ensured; avoid missing or overlapping text. All fonts must be embedded.
+Scale bars and numbers need to be clearly identified.
+The aspect ratio should be locked.
+Special characters or icons in an image (e.g., *, **, #, ...) need to have a corresponding explanation (may be added in the image or caption); the special symbols should be the same as those in the caption.
+Some symbols, such as the red/blue wavy lines under the words, which indicate spelling/grammar errors, and the new-line/paragraph sign after the word, should not appear in the image.
+Non-English words are not allowed in the figures unless there is an explanation.
+Unit format should be correct and keep the consistent format within a paper.
+The right form of minus sign and en dash must be used; see Section 3 for the use of hyphens and dashes.
+The subscripts/subscripts of chemical formulas and the en dash of chemical bonds should be correct.
+For numbers with five or more digits in images, commas should be added; see Section 1 for the use of numbers.
+Add 0 before the decimal point; the decimal point should always be a dot in numbers.
+e or E to mean “multiplied by the power of 10” is not allowed; please use the correct scientific notation for numbers, e.g., 3.7 × 10⁵ (not 3.7e5 or 7E+5).
+References in the form of “[XX]” are not allowed in the image.
+Except for Retraction of paper, other pictures cannot be watermarked.
+Including QR codes in images is not recommended. Instead, providing URLs and displaying them in the caption or text for improved readability is better.
+Note that the production process may change the type of your file, and all files will be published in tif format. This should not affect the quality of your figure; however, if you notice a decrease in the quality after publication, you should contact the editorial office as soon as possible.
+For figures with more than one part, the panels should be labeled a, b, c, d, etc., and each part can be separately cited in the main text. Each part must be individually described in the caption. It is recommended to use label “A, B...” or “a, b...” instead of “left, right, top, bottom” for the subfigures.
+Captions are mandatory and are added below figures.
+7.2. Tables
+Long lists of categorized data may be added as a table. This could be done, for example, where there are many cases with similar information or many numerical data.
+Tables will be reformatted to the standard MDPI style prior to publication, and the journal template provides an example. Use of color (including the color of table background and texts) is not recommended in tables but may be accommodated where necessary; if necessary, colors must be described in an image or a caption. Similarly, merged cells may be included but should be used sparingly, and it must be clear which rows/columns correspond to each other. Do not supply tables as images—they must be editable by MDPI staff.
+Subtables are not recommended; if necessary, subtables could be numbered by Latin letters with parentheses, e.g., (a), (b), (c), etc., or (A), (B), (C), etc., which should be put before the table. Additionally, use the format of Table 1a,b in the main text.
+A table footnote can be added to explain material referring to the whole table and to specific entries, and it usually comprises one paragraph. A hyphen may be inserted into a table body cell to stand for “None”: such an entry does not need further explanation in the table footnote.
+Very large tables, or many different tables showing similar cases, may be included in an Appendix or as supplementary data.
+Captions are mandatory for tables and are placed above the table.
+Others notes on tables:
+The order and the citation of each table must be made in sequence and correct.
+Vertical line, blank row, and columns are not advised.
+Any special characters or icons in table (e.g., *, **, #, ...) need to have a corresponding explanation.
+7.3. Boxes
+A box is equivalent to a table with a single cell. They are typically used to describe a case study that illustrates and supports some aspect of the main text. Boxes must include a caption, placed above. Each box should be marked by continuous numbers and cited in the main text. Boxs should be editable; do not use uneditable images.
+7.4. Schemes
+Schemes are common in chemistry to define the synthesis of a chemical. They can be included in a similar manner to figures. Carefully verify that the structures given are correct. It is not usually necessary to include hydrogen molecules in schemes. Captions are mandatory for schemes and are placed below the scheme. Each scheme should be marked by continuous numbers and should be cited in the main text.
+7.5. Algorithms
+Algorithms are typically used in computing to explain a series of steps performed in a calculation or program. They may simply be included in the main text, but can also be numbered for easier citation. Use of monospace font is common for algorithms but not mandatory. A caption must be included above the algorithm. Each algorithm should be remarked by continuous numbers and should be cited in the main text. Algorithms should be editable; do not use uneditable images.
+7.6. Captions
+As mentioned above, captions are obligatory and must be placed above or below objects. They should provide a description of the object such that the reader does not need to refer to the main text to fully understand it. For example
+“The four methods used.”
+is not helpful to readers, whereas
+“The four minimization methods used to find the optimum parameters of the Navier–Stokes equation for three microfluidic devices.”
+is better. Recall that figures and captions sometimes appear online separately from the rest of the article and so must make sense when not accompanied by the main text.
+7.7. Copyright Permission in Caption
+For previously published figures or tables, the necessary permission must be obtained from the copyright holder, except for publications with the open access license. The copyright permission can usually be obtained via an online form or by e-mailing the copyright holder. It is the authors’ responsibility to obtain the necessary permission.
+In MDPI publications, credit lines for art reproduced from previously published work appear at the end of the caption in parentheses in one of two formats:
+Format 1 (ACS Style)
+Reprinted with permission from Ref. [X]. Copyright Year Copyright Owner’s Name.
+For example,
+Reprinted with permission from Ref. [10]. Copyright 2003 American Pharmaceutical Association.
+Format 2 (Chicago Style)
+Reprinted with permission from Author Names (Year of Publication). Copyright Year Copyright Owner’s Name.
+For example,
+Reprinted with permission from Camiola and Altieri (2006). Copyright 2006 American Institute of Physics.
+If you adapt or use only part of a figure or table, permission is still needed. The credit line for adapted material is similar except “reprinted” is replaced with “adapted”, as below:
+Format 1 (ACS Style)
+Adapted with permission from Ref. [X]. Copyright Year Copyright Owner’s Name.
+Format 2 (Chicago Style)
+Adapted with permission from Author Names (Year of Publication). Copyright Year Copyright Owner’s Name.
+For figures or tables previously published with the open access license, the copyright belongs to the author. The following description should be added at the end of the caption in parentheses in one of two formats:
+Format 1 (ACS Style)
+Reprinted from Ref. [X].
+Adapted from Ref. [X].
+Format 2 (Chicago Style)
+Reprinted from Author Names (Year of Publication).
+Adapted from Author Names (Year of Publication).
+8. Back Matter
+The back matter includes important information that supplements the main text and provides further information and context. Most of the back matter is provided by the authors, but the structures are quite standard.
+The sequence of back matter elements in an article is listed below. Although each of them can be optional, very few articles have no reference list of some sort. There is no numeral label for back matter headings:
+Supplementary Materials
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest/Disclaimer
+Glossary/Nomenclature/Abbreviations
+Appendix
+References
+8.1. Supplementary Material
+Some additional data or information can be included in supplementary material or in an Appendix (see below). Examples of information suitable as supplementary material include additional graphs, original datasets, and computer programs. In most cases, authors are free to choose what is included as supplementary material. There is also no restriction on file type, although we recommend using common, open file types that will remain readable in the future. There may be restrictions on file size for files hosted by MDPI; however, the editorial office will be able to offer alternative options if this is a problem.
+There are two ways that supplementary material can be added. Either it can be submitted to MDPI along with the manuscript, or it can be hosted on a third-party platform and details included in the paper. In the latter case, authors should use a repository that uses datacite or an equivalent mechanism to give the files a digital object identifier. The website must also have a policy for data preservation, which reduces the chance that at some point in the future the link to the files will no longer work. A personal website, for example, would not be suitable. There is a list of suitable repositories at https://www.re3data.org. The link of Externally Hosted Supplementary Files can be listed in the “Supplementary Materials” section, and accessed date is necessary.
+Supplementary Materials must be mentioned in main text. The citation format of Supplementary Figure, Scheme, Table, Equation, etc. should start with prefix S (i.e., Figure S1, Equation S2, Table S1, etc.).
+Citations in the Supplementary Materials should also be included in the main references (otherwise, they will not count towards citations metrics); if references in individual supplementary files are put in the main text, all of the references must have a citation in the “Supplementary Materials” section (e.g., “References [x,x] are cited in the supplementary materials”) or in main text.
+8.2. Author Contributions
+Each author is expected to have made substantial contributions to the conception or design of the work; the acquisition, analysis, or interpretation of data; or the creation of new software used in the work; or they must have drafted the work or substantively revised it. In addition, each author must have approved the submitted version (and versions substantially edited by journal staff that involve the author’s contribution to the study) and agrees to be personally accountable for the author’s own contributions and for ensuring that questions related to the accuracy or integrity of any part of the work, even ones in which the author was not personally involved, are appropriately investigated, resolved, and documented in the literature.
+MDPI uses the CREDiT taxonomy for authorship and a standard wording is given in the journal article template. Further details are available at https://casrai.org/credit/, and a brief explanation of each role is available at https://www.mdpi.com/data/contributor-role-instruction.pdf.
+8.3. Funding
+Financial support in preparation of the publication is included in the funding section. Check carefully that the details given are accurate, and use the standard spelling of funding agency names at https://search.crossref.org/funding. Any errors may affect your future funding.
+8.4. Institutional Review Board Statement
+In this section, please add the Institutional Review Board Statement and approval number and approved date for studies involving humans or animals (for more details, see https://www.mdpi.com/ethics). Please note that the Editorial Office might ask you for further information, and it is recommended to upload the approval file to the journal office when submitting the manuscript. You might also add “not applicable” for studies not involving humans or animals to exclude this statement.
+8.5. Informed Consent Statement
+Any research article describing a study involving humans should contain this statement. Written informed consent for publication must be obtained from participating patients who can be identified (including the patients themselves). Please state “Written informed consent has been obtained from the patient(s) to publish this paper” if applicable. You might also add “Not applicable” for studies not involving humans.
+8.6. Data Availability Statement
+We encourage all authors of articles published in MDPI journals to share their research data. In this section, please provide details regarding where data supporting reported results can be found, including links to publicly archived datasets analyzed or generated during the study. Where no new data were created, or where data is unavailable due to privacy or ethical restrictions, a statement is still required. Suggested Data Availability Statements are available in section “MDPI Research Data Policies” at https://www.mdpi.com/ethics.
+8.7. Acknowledgments
+Acknowledgments are a place to recognize any contributions made to the paper that do not meet the criteria for authorship. This may include technical support, gifts received, or organizational assistance. There are few restrictions on what should be included, with the primary exception that anyone who meets the criteria for authors must be included as an author and not merely acknowledged. Personal acknowledgments (e.g., of family members) are acceptable, and it is recommended to add the full name for them; titles (Dr., Mr., Prof., etc.) or Academic suffixes (MD, MSc., BSc., etc.) should not be used. This section should be kept relatively short.
+8.8. Conflicts of Interest
+MDPI uses the recommendations of the International Committee of Medical Journal Editors with regard to Conflicts of Interest (CoIs) (http://www.icmje.org/icmje-recommendations.pdf):
+“A conflict of interest exists when professional judgment concerning a primary interest (such as patients’ welfare or the validity of research) may be influenced by a secondary interest (such as financial gain). Perceptions of conflict of interest are as important as actual conflicts of interest.”
+CoIs come in different forms and can affect authors, editors, and publishing staff. Having a CoI does not mean that your paper will not be published; however, omitting them could lead to retraction or at least re-evaluation of your paper. No conflicted third parties should be able to directly influence the results of your research or have a say in the final version. Conflicts of interest where there is a negative effect on the author as a result of the paper’s publication should also be declared.
+Types of CoIs include:
+Direct/indirect: This concerns whether the CoI refers specifically to an author (direct) or one of their associates, such as a close colleague or family member (indirect).
+Financial/non-financial: Both of these are important. Financial CoIs concern receiving money from people or organizations with a vested interest in the outcome of the research, holding patents or salaried positions that depend on the research outcomes, or holding shares or other items whose value is dependent on the research. Non-financial CoIs include benefits to groups the author is associated with and reputational benefits.
+There are some grey areas about what to disclose as a conflict of interest. If you are unsure, we recommend making a declaration and checking with the editorial office prior to publication. Colleagues may also be able to provide advice. Examples of CoI statements can be found in the instructions for authors and the journal submission template.
+8.9. Glossary/Nomenclature/Abbreviations
+This is an optional section defining terms and abbreviations used in the paper. It can be omitted for most papers but may be useful if a large number of novel terms are defined. They can also be used where the author expects the readership to be unfamiliar with many of the terms used, for example, if the paper is multidisciplinary.
+8.10. Appendixes
+Authors can use Appendixes to add further information to support the results reported in the manuscript. They should be used when including the information in the main text would disrupt the flow for readers or where only a minority of the audience is expected to be interested. Appendixes may include full details of lengthy mathematical proofs, additional figures, further experimental details, or additional data. If the information is very lengthy or in a format that does not work well on a printed page, it may also be included as supplementary material (see above).
+Appendixes must be cited in the main text. Note that sections in the Appendix are labeled with capital letters (as opposed to numbers, which are in the main text), e.g., Appendix A, Appendix B. Sub-headings should be listed sequentially with the correct number (e.g., Appendix A.1., Appendix A.2.1, etc.).
+Figures, tables, equations, etc. in an Appendix are prefixed with “A” (regardless of the section), and numbering begins from 1 at the beginning of the Appendix (i.e., Figure A1, Figure A2, etc.).
+8.11. References
+Almost all papers contain a reference list giving details of previous work cited in the manuscript. The purpose of the reference list is to enable others to find works on which the published paper is based.
+A citation should be included when what you are writing refers to or is based on previous work. Examples can also be cited. The citation list should contain only references to static content, i.e., something that is not expected to change over time. This includes journal and newspaper articles, patents, and details of specific equipment. Content that does not fulfil these criteria may be listed directly in the main text and might include company websites, or websites to track project development (such as github).
+The reference section is highly structured, and different types of references are formatted in a specific way. Full details are available from the instructions for authors page of the journal you are submitting to; however, below are examples of the most common types.
+MDPI uses three reference styles: (1) based on the American Chemical Society (ACS) style; (2) based on the Chicago style; (3) based on the APA style. You should consult the instructions for authors to see which one applies to the journal you are submitting to. Templates for both are available for most common referencing software. Examples of the most common reference types are given in the following two sections.
+8.11.1. ACS Reference Style
+Journal article
+Fisher, J.A.; Krapf, C.B.E.; Lang, S.C.; Nichols, G.J.; Payenberg, T.H.D. Sedimentology and architecture of the Douglas Creek terminal splay, Lake Eyre, central Australia. Sedimentology 2008, 55, 1915–1930.
+Conference paper
+Chum, O.; Philbin, J.; Zisserman, A. Near duplicate image detection: min-Hash and tf-idf weighting. In Proceedings of the 19th British Machine Vision Conference (BMVC 2008), Leeds, UK, 1–4 September 2008; pp. 812–815.
+Book with editors
+Shaw, P.A.; Bryant, R.G. Playas, pans and salt lakes. In Arid Zone Geomorphology: Process, Form and Change in Drylands; Thomas, D.S.G., Ed.; John Wiley & Sons, Ltd.: Chichester, UK, 2011; pp. 373–401.
+Book without editors
+McKie, T. A Comparison of Modern Dryland Depositional Systems with the Rotliegend Group in the Netherlands. In The Permian Rotliegend of The Netherlands; SEPM Society for Sedimentary Geology: Darlington, UK, 2011; pp. 89–103.
+Preprint
+Ward, D.W.; Nelson, K.A. Finite Difference Time Domain (FDTD) Simulations of Electromagnetic Wave Propagation Using a Spreadsheet. arXiv 2004, arXiv:physics/0402096. Available online: http://arxiv.org/abs/physics/0402096 (accessed on 13 October 2004).
+Thesis
+Mäckel, H. Capturing the Spectra of Silicon Solar Cells. Ph.D. Thesis, The Australian National University, Acton, Australia, 2004.
+Patent
+Sheem, S.K. Low-Cost Fiber Optic Pressure Sensor. U.S. Patent 6,738,537, 18 May 2004.
+Company website
+Proto Labs Ltd. Protolabs. Available online: https://uploads.protolabs.co.uk/es/PartUpload-MultiPart.aspx?LinkFrom=FC (accessed on 24 April 2017).
+Software
+Mathematica, version 5.1; Software for Technical Computation; Wolfram Research: Champaign, IL, USA, 2004.
+Data set
+The Sadtler Standard Spectra: 300 MHz Proton NMR Standards; Bio-Rad, Sadtler Division: Philadelphia, PA, USA, 1994; No. 7640 (1-Chloropentane).
+Newspaper
+Squires, S. Falling short on nutrients. The Washington Post, 4 October 2005, p. H1.
+Standard
+Standard’s Number; Standard’s Title. Publisher: City, State, Country, Year.
+Blog
+Matthew, L. FCC Chair Willing to Consecrate XM-Sirius Union. Ars Technica (blog), 16 June 2008. Available online: http://arstechnica.com/news.ars/post/20080616-fcc-chair-willing-to-consecrate-xm-sirius-union.html (accessed on 23 May 2017).
+Unpublished work
+Unpublished materials intended for publication:
+Author 1, A.B.; Author 2, C. Title of Unpublished Work (optional). Correspondence Affiliation, City, State, Country. year, status (manuscript in preparation; to be submitted).
+Author 1, A.B.; Author 2, C. Title of Unpublished Work. Abbreviated Journal Name year, phrase indicating stage of publication (submitted; accepted; in press).
+Unpublished materials not intended for publication:
+Author 1, A.B. (Affiliation, City, State, Country); Author 2, C. (Affiliation, City, State, Country). Phase describing the material, year. (phase: Personal communication; Private communication; Unpublished work; etc.)
+Presentation
+Zhang, Z.; Chen, H.; Zhong, J.; Chen, Y.; Lu, Y. ZnO nanotip-based QCM biosensors. Presented at the IEEE International Frequency Control Symposium and Exposition, Miami, FL, USA, 4–7 June 2006.
+8.11.2. Chicago Reference Style
+Journal article
+Žilinské, Asta. 2010. Negative and positive effects of foreign direct investment. Economics and Management 15: 332–36.
+Conference paper
+Teplin, Linda A., Gary M. McClelland, Karen M. Abram, and Jason J. Washburn. 2005. Early Violent Death in Delinquent Youth: A Prospective Longitudinal Study. Paper presented at the Annual Meeting of the American Psychology-Law Society, La Jolla, CA, USA, March 1.
+Book with editors
+Gould, Glenn. 1984. Streisand as Schwarzkopf. In The Glenn Gould Reade. Edited by Tim Page. New York: Vintage, pp. 310–12.
+Book without editors
+Huang, Yongfu. 2011. Determinants of Financial Development. London: Palgrave Macmillan UK.
+Preprint
+Lein, Matthias. 2008. Characterization of Agostic Interactions in Theory and Computation. Preprint, submitted July 10. Available online: http://xxx.lanl.gov/abs/0807.1751 (accessed on 16 July 2017).
+Thesis
+Choi, Mihwa. 2008. Contesting Imaginaires in Death Rituals during the Northern Song Dynasty. Ph.D. thesis, University of Chicago, Chicago, IL, USA, May 1.
+Patent
+Kraay, Aart. 1984. Transparency on Foreign Direct Investment. U.S. Patent 3,5871,325, June 26.
+Company website
+Claessens, Stijn, Daniela Klingebiel, and Sergio L. Schmukler. 2001. FDI and Stock Market Development: Complements or Substitutes? Available online: http://www.iadb.org/WMSFiles/products/research/files/pubS-FDI-4.pdf (accessed on 23 December 2017).
+Software
+Sony. 2014. Sony Vegas Trial (version 13). Minato: Sony.
+Data set
+The Sadtler Standard Spectra: 300 MHz Proton NMR Standards. 1994. No. 7640 (1-Chloropentane). Philadelphia: Bio-Rad, Sadtler Division.
+Newspaper
+Weisberg, Michael. 2012. Cross-national studies in crime and justice. New York Times, March 3.
+Blog
+Lasar, Matthew. 2008. FCC Chair Willing to Consecrate XM-Sirius Union. Ars Technica (blog), June 16. Available online: http://arstechnica.com/news.ars/post/20080616-fcc-chair-willing-to-consecrate-xm-sirius-union.html (accessed on 23 May 2017).
+Unpublished work
+Williamson, Oliver E. 2017. The New Institutional Economics: Taking Stock; Looking Ahead. Published Weekly, forthcoming.
+Presentation
+Posthuma, Jonathan. 2015. The God of Material Things. Paper presented at Dordt College Kuyper Scholar’s Honor Program, Sioux Center, Iowa, IA, USA, September 28.
+Standard
+Institute. Year. Standard Title. Standard Number. City: Publisher.
+8.11.3. APA Reference Style
+Journal article
+Author, A. A. (Date). Title of the journal article: Subtitle. Journal Title, Volume(Issue), Firstpage–Lastpage/Article Number. https://doi.org/DOI.
+Conference paper
+Author, A. A., Author, B. B., & Author, C. C. (Year, Month day–day). Title of contribution [Type of contribution]. Conference Name, Conference City, Conference Country.
+Presentation
+Maddox, S., Hurling, J., Stewart, E., & Edwards, A. (2016, March 30–April 2). If mama ain’t happy, nobody’s happy: The effect of parental depression on mood dysregulation in children [Paper presentation]. Southeastern Psychological Association 62nd Annual Meeting, New Orleans, LA, USA.
+Book with editors
+Author, A. A. (Date). Title of the book: Subtitle (A. Editor, Ed.). Publisher Name.
+Book without editors
+Author, A. A. (Date). Title of the book: Subtitle. Publisher Name.
+Reports
+Author, A. A., Author, B. B., & Author, C. C. (Date). Title of the report: Subtitle (Report No. XXXX). Agency Name.
+Preprint
+Author, A. A., Author, B. B., & Author, C. C. (Date). Title of the work. Name of Database/Name of Archive. https://doi.org/DOI.
+Thesis
+Author, A. A. (Date). Title of the thesis: Subtitle [XX Thesis, Name of Institution Awarding the Degree].
+Patent
+Inventor, A. A., Inventor, B. B., & Inventor, C. C. (Date). Title of the patent: Subtitle (Patent No. #,###,###). Patent Office Name.
+Website
+Author, A. A., Author, B. B., & Author, C. C. (Date). Title of the webpage: Subtitle. Site Name (optional). Available online: https://URL (accessed on day month year).
+Software
+Developer, A. A. (Date). Title of the software: Subtitle (Version #.#) [Computer software]. Producer Name.
+Data set
+Author, A. A., Author, B. B., & Author, C. C. (Date). Title of the data set: Subtitle [Data set]. Archive Name. https://doi.org.DOI.
+Newspaper
+Author, A. A., Author, B. B., & Author, C. C. (Year, Month day). Title of the newspaper article: Subtitle. Newspaper Title, ###, ###/Available online: https://URL (accessed on) (optional).
+Magazine
+Author, A. A., Author, B. B., & Author, C. C. (Year, Month day). Title of magazine article: Subtitle. Magazine Title, Volume(Issue), Firstpage–Lastpage.
+Unpublished work
+Author, A. A., Author, B. B., & Author, C. C. (Date). Title of the unpublished manuscript: Subtitle [Unpublished manuscript/Manuscript in preparation/Manuscript submitted for publication]. Affiliation Information.
+9. Publication Ethics
+Research and publication ethics is a large topic, and a full discussion is beyond the scope of this guide. For further information, we recommend consulting local sources such as university ethics committees or libraries or the Committee on Publication Ethics (https://publicationethics.org).
+Here, are the main points to be aware of when writing and submitting papers:
+Authorship: Include all and only authors that qualify for authorship. Avoid “gift authorship” for those that did not contribute, and avoid omitting someone who played a significant role in the work.
+Add ethical approval: If your work required ethical approval, add the name of the committee that approved the work and the approval code in the Institutional Review Board Statement and Informed Consent Statement. Additionally, make sure that you have obtained permission to publish from any relevant third parties, such as funders, collaborators, or research subjects.
+Plagiarism/copied text: It is considered unethical to present someone else’s words or ideas as your own—this is plagiarism. In addition, large amounts of copied text can constitute a copyright infringement. Do not directly copy text from other sources unless it is clearly indicated as such using quotation marks and is correctly cited.
+Cite sources appropriately: Related to plagiarism, make sure that citations are made appropriately. Ensure that you have cited all of the relevant work. At the same time, avoid citing work that is outside the scope of the paper. Where reviewers or editors suggest that you add extra citations, you may disagree provided that you can argue why they are not relevant. It is also not necessary to add extra citations to the journal you intend to submit to—this will not make your paper any more or less likely to be accepted for publication.
+Ensure that all of your co-authors are aware of the ethical standards expected for academic publishing. Any infringement is considered by publishers as the responsibility of all authors.
+10. Revision and Resubmission
+This part briefly covers general advice about how to revise and resubmit your manuscript. You will receive notification by email of specific opportunities to revise and resubmit your paper. If you urgently need to submit a new version at some other time during the peer review process, please make a request to the editorial office via email, but it may not always be possible if the paper is with editors or reviewers.
+During revision, authors will be asked to prepare point-to-point responses to the reviewers’ comments, as well as a new cover letter to the Academic Editor summarizing the changes made and/or any authorship change thats should be highlighted.
+Please use the “track changes” feature in Microsoft Word when making revisions. This makes it easier for editors and reviewers to see the changes that have been made. The “compare” function in Word can add tracked changes to the final version by comparing it with an earlier version.
+During the proofreading stage, authors will find parts of the text highlighted together with comments that the editorial office would like you to check in the latest version of your manuscript. These could be to verify information that has been added or modified, to check the original meaning of a word/phrase/sentence where it is ambiguous, or to request additional information. Please pay close attention to these parts to ensure that the final published version is as you intended. Common requests are to ask to define abbreviations, to add the city and country of companies from which materials were sourced, to check the author names and affiliations, to check modifications made to the reference list, etc.
+For papers written in LaTex, it is not necessary to highlight changes, but there is various document comparison software that can be used to see the differences between different versions of tex files. Check carefully for comments in the tex file, prefixed by %, where authors may need to give feedback.
+Reviewer comments are made to improve your work and help to make it acceptable for journal publication. Authors should be able to modify their manuscript to accommodate most comments. Sometimes, however, authors feel that remarks made are not completely fair or misunderstand their work. In this case, you can write a response to the reviewers and editors explaining your point of view. In addition, if a reviewer suggests additional experiments that would take an unreasonably long time, you can also explain the situation. While the reviewers’ comments are taken into serious consideration, it is the editor(s) (Editor-in-Chief/Guest Editor/assigned Editorial Board Member) handling the paper who make(s) the final acceptance decision.
+If authors have difficulty understanding a request for revision, or re-uploading your document, get in touch with the assistant editor handling your paper via email. Make sure you quote the manuscript ID assigned to your paper in all correspondence.
+© 2026 by MDPI. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+1. Introduction2. Front Matter3. Structure and Formatting4. Grammar and Tenses5. Punctuation6. Numbers and Mathematical Environments7. Figures, Tables, and Data8. Back Matter9. Publication Ethics10. Revision and Resubmission
+Discover
+Articles
+Journals
+Research Awards
+Open Access Policy
+Services
+Author Services
+Conferences
+Societies
+Products & Solutions
+Books
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+Company
+About Us
+Careers
+Press Office
+Blog
+Support
+Pay an Invoice
+Processing Charges
+Discount Policy
+Contact Us
+© 2026 MDPI (Basel, Switzerland) unless otherwise stated.
+AccessibilityTerms and ConditionsTerms of UseLegal NoticePrivacy Policy Privacy Settings Disclaimer

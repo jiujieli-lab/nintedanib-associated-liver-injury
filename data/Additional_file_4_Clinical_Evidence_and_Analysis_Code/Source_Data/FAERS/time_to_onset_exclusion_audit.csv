@@ -1,0 +1,5 @@
+endpoint,drug,endpoint_reports,exact_date_pairs_before_window,negative_intervals_excluded,intervals_0_365_included,intervals_over_365_excluded,exact_pair_inclusion_percent
+narrow,nintedanib,340,105,7,94,4,89.52380952380952
+narrow,pirfenidone,112,36,0,34,2,94.44444444444444
+broad,nintedanib,1773,783,125,600,58,76.62835249042146
+broad,pirfenidone,717,199,4,180,15,90.45226130653266

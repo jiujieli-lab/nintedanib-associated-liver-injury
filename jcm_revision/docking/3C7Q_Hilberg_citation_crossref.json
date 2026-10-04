@@ -1,0 +1,651 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2026-10-01T14:19:22Z",
+      "timestamp": 1790864362388,
+      "version": "4.1.0"
+    },
+    "reference-count": 46,
+    "publisher": "American Association for Cancer Research (AACR)",
+    "issue": "12",
+    "content-domain": {
+      "domain": [
+        "aacrjournals.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [],
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          6,
+          15
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Inhibition of tumor angiogenesis through blockade of the vascular endothelial growth factor (VEGF) signaling pathway is a novel treatment modality in oncology. Preclinical findings suggest that long-term clinical outcomes may improve with blockade of additional proangiogenic receptor tyrosine kinases: platelet-derived growth factor receptors (PDGFR) and fibroblast growth factor receptors (FGFR). BIBF 1120 is an indolinone derivative potently blocking VEGF receptor (VEGFR), PDGFR and FGFR kinase activity in enzymatic assays (IC50, 20\u2013100 nmol/L). BIBF 1120 inhibits mitogen-activated protein kinase and Akt signaling pathways in three cell types contributing to angiogenesis, endothelial cells, pericytes, and smooth muscle cells, resulting in inhibition of cell proliferation (EC50, 10\u201380 nmol/L) and apoptosis. In all tumor models tested thus far, including human tumor xenografts growing in nude mice and a syngeneic rat tumor model, BIBF 1120 is highly active at well-tolerated doses (25\u2013100 mg/kg daily p.o.), as measured by magnetic resonance imaging of tumor perfusion after 3 days, reducing vessel density and vessel integrity after 5 days, and inducing profound growth inhibition. A distinct pharmacodynamic feature of BIBF 1120 in cell culture is sustained pathway inhibition (up to 32 hours after 1-hour treatment), suggesting slow receptor off-kinetics. Although BIBF 1120 is rapidly metabolized in vivo by methylester cleavage, resulting in a short mean residence time, once daily oral dosing is fully efficacious in xenograft models. These distinctive pharmacokinetic and pharmacodynamic properties may help explain clinical observations with BIBF 1120, currently entering phase III clinical development. [Cancer Res 2008;68(12):4774\u201382]</jats:p>",
+    "DOI": "10.1158/0008-5472.can-07-6307",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          6,
+          16
+        ]
+      ],
+      "date-time": "2008-06-16T13:52:54Z",
+      "timestamp": 1213624374000
+    },
+    "page": "4774-4782",
+    "update-policy": "https://doi.org/10.1158/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 928,
+    "title": [
+      "BIBF 1120: Triple Angiokinase Inhibitor with Sustained Receptor Blockade and Good Antitumor Efficacy"
+    ],
+    "prefix": "10.1158",
+    "volume": "68",
+    "author": [
+      {
+        "given": "Frank",
+        "family": "Hilberg",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "1Boehringer Ingelheim Austria GmbH, Vienna, Austria and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gerald J.",
+        "family": "Roth",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Boehringer Ingelheim Pharma GmbH & Co KG, Biberach, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Martin",
+        "family": "Krssak",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Boehringer Ingelheim Austria GmbH, Vienna, Austria and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Susanna",
+        "family": "Kautschitsch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Boehringer Ingelheim Austria GmbH, Vienna, Austria and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wolfgang",
+        "family": "Sommergruber",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Boehringer Ingelheim Austria GmbH, Vienna, Austria and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ulrike",
+        "family": "Tontsch-Grunt",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Boehringer Ingelheim Austria GmbH, Vienna, Austria and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Pilar",
+        "family": "Garin-Chesa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Boehringer Ingelheim Austria GmbH, Vienna, Austria and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gerd",
+        "family": "Bader",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Boehringer Ingelheim Austria GmbH, Vienna, Austria and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andreas",
+        "family": "Zoephel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Boehringer Ingelheim Austria GmbH, Vienna, Austria and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jens",
+        "family": "Quant",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Boehringer Ingelheim Austria GmbH, Vienna, Austria and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Armin",
+        "family": "Heckel",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "2Boehringer Ingelheim Pharma GmbH & Co KG, Biberach, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wolfgang J.",
+        "family": "Rettig",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "1Boehringer Ingelheim Austria GmbH, Vienna, Austria and"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1086",
+    "published-online": {
+      "date-parts": [
+        [
+          2008,
+          6,
+          16
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2022061700303115100_B1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Herbst RS. Therapeutic options to target angiogenesis in human malignancies. Expert Opin Emerg Drugs\u20082006; 11: 635\u201350.",
+        "DOI": "10.1517/14728214.11.4.635"
+      },
+      {
+        "key": "2022061700303115100_B2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Morabito A, De Maio E, Di Maio M, Normanno N, Perrone F. Tyrosine kinase inhibitors of vascular endothelial growth factor receptors in clinical trials: current status and future directions. Oncologist\u20082006; 11: 753\u201364.",
+        "DOI": "10.1634/theoncologist.11-7-753"
+      },
+      {
+        "key": "2022061700303115100_B3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Panares RL, Garcia AA. Bevacizumab in the management of solid tumors. Expert Rev Anticancer Ther\u20082007; 7: 433\u201345.",
+        "DOI": "10.1586/14737140.7.4.433"
+      },
+      {
+        "key": "2022061700303115100_B4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Grandinetti CA, Goldspiel BR. Sorafenib and sunitinib: novel targeted therapies for renal cell cancer. Pharmacotherapy\u20082007; 27: 1125\u201344.",
+        "DOI": "10.1592/phco.27.8.1125"
+      },
+      {
+        "key": "2022061700303115100_B5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cilley JC, Barfi K, Benson AB III, Mulcahy MF. Bevacizumab in the treatment of colorectal cancer. Expert Opin Biol Ther\u20082007; 7: 739\u201349.",
+        "DOI": "10.1517/14712598.7.5.739"
+      },
+      {
+        "key": "2022061700303115100_B6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kane RC, Farrell AT, Saber H, et al. Sorafenib for the treatment of advanced renal cell carcinoma. Clin Cancer Res\u20082006; 12: 7271\u201378.",
+        "DOI": "10.1158/1078-0432.CCR-06-1249"
+      },
+      {
+        "key": "2022061700303115100_B7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Herbst RS. Toxicities of antiangiogenic therapy in non-small-cell lung cancer. Clin Lung Cancer\u20082006; 8 Suppl 1: S23\u201330.",
+        "DOI": "10.3816/CLC.2006.s.010"
+      },
+      {
+        "key": "2022061700303115100_B8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Folkman J. Tumor angiogenesis: therapeutic implications. N Engl J Med\u20081971; 285: 1182\u20136.",
+        "DOI": "10.1056/NEJM197111182852108"
+      },
+      {
+        "key": "2022061700303115100_B9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Armulik A, Abramsson A, Betsholtz C. Endothelial/pericyte interactions. Circ Res\u20082005; 97: 512\u201323.",
+        "DOI": "10.1161/01.RES.0000182903.16652.d7"
+      },
+      {
+        "key": "2022061700303115100_B10",
+        "unstructured": "Jain RK. Antiangiogenic therapy for cancer: current and emerging concepts. Oncology (Huntingt)\u20082005; 19: 7\u201316."
+      },
+      {
+        "key": "2022061700303115100_B11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ferrara N. VEGF and the quest for tumour angiogenesis factors. Nat Rev Cancer\u20082002; 2: 795\u2013803.",
+        "DOI": "10.1038/nrc909"
+      },
+      {
+        "key": "2022061700303115100_B12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lu D, Kussie P, Pytowski B, et al. Identification of the residues in the extracellular region of KDR important for interaction with vascular endothelial growth factor and neutralizing anti-KDR antibodies. J Biol Chem\u20082000; 275: 14321\u201330.",
+        "DOI": "10.1074/jbc.275.19.14321"
+      },
+      {
+        "key": "2022061700303115100_B13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wiesmann C, Fuh G, Christinger HW, Eigenbrot C, Wells JA, de Vos AM. Crystal structure at 1.7 A resolution of VEGF in complex with domain 2 of the Flt-1 receptor. Cell\u20081997; 91: 695\u2013704.",
+        "DOI": "10.1016/S0092-8674(00)80456-0"
+      },
+      {
+        "key": "2022061700303115100_B14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gille H, Kowalski J, Li B, et al. Analysis of biological effects and signaling properties of Flt-1 (VEGFR-1) and KDR (VEGFR-2). A reassessment using novel receptor-specific vascular endothelial growth factor mutants. J Biol Chem\u20082001; 276: 3222\u201330.",
+        "DOI": "10.1074/jbc.M002016200"
+      },
+      {
+        "key": "2022061700303115100_B15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Takahashi T, Ueno H, Shibuya M. VEGF activates protein kinase C-dependent, but Ras-independent Raf-MEK-MAP kinase pathway for DNA synthesis in primary endothelial cells. Oncogene\u20081999; 18: 2221\u201330.",
+        "DOI": "10.1038/sj.onc.1202527"
+      },
+      {
+        "key": "2022061700303115100_B16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rousseau S, Houle F, Kotanides H, et al. Vascular endothelial growth factor (VEGF)-driven actin-based motility is mediated by VEGFR2 and requires concerted activation of stress-activated protein kinase 2 (stress-activated protein kinase (SAPK)2/p38) and geldanamycin-sensitive phosphorylation of focal adhesion kinase. J Biol Chem\u20082000; 275: 10661\u201372.",
+        "DOI": "10.1074/jbc.275.14.10661"
+      },
+      {
+        "key": "2022061700303115100_B17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Carmeliet P, Lampugnani MG, Moons L, et al. Targeted deficiency or cytosolic truncation of the VE-cadherin gene in mice impairs VEGF-mediated endothelial survival and angiogenesis. Cell\u20081999; 98: 147\u201357.",
+        "DOI": "10.1016/S0092-8674(00)81010-7"
+      },
+      {
+        "key": "2022061700303115100_B18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rini BI. Sorafenib. Expert Opin Pharmacother\u20082006; 7: 453\u201361.",
+        "DOI": "10.1517/14656566.7.4.453"
+      },
+      {
+        "key": "2022061700303115100_B19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rini BI. Sunitinib. Expert Opin Pharmacother\u20082007; 8: 2359\u201369.",
+        "DOI": "10.1517/14656566.8.14.2359"
+      },
+      {
+        "key": "2022061700303115100_B20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Casanovas O, Hicklin DJ, Bergers G, Hanahan D. Drug resistance by evasion of antiangiogenic targeting of VEGF signaling in late-stage pancreatic islet tumors. Cancer Cell\u20082005; 8: 299\u2013309.",
+        "DOI": "10.1016/j.ccr.2005.09.005"
+      },
+      {
+        "key": "2022061700303115100_B21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cao H, Zhang H, Zheng X, Gao D. 3D QSAR studies on a series of potent and high selective inhibitors for three kinases of RTK family. J Mol Graph Model\u20082007; 26: 236\u201345.",
+        "DOI": "10.1016/j.jmgm.2006.12.001"
+      },
+      {
+        "key": "2022061700303115100_B22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "McTigue MA, Wickersham JA, Pinko C, et al. Crystal structure of the kinase domain of human vascular endothelial growth factor receptor 2: a key enzyme in angiogenesis. Structure\u20081999; 7: 319\u201330.",
+        "DOI": "10.1016/S0969-2126(99)80042-2"
+      },
+      {
+        "key": "2022061700303115100_B23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Emsley P, Cowtan K. Coot: model-building tools for molecular graphics. Acta Crystallogr D Biol Crystallogr\u20082004; 60: 2126\u201332.",
+        "DOI": "10.1107/S0907444904019158"
+      },
+      {
+        "key": "2022061700303115100_B24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Legrier ME, de Pinieux G, Poirson-Bichat F, et al. [A new model of human prostate cancer, the PAC120 xenograft]. Pathol Biol (Paris)\u20082003; 51: 1\u20134.",
+        "DOI": "10.1016/S0369-8114(02)00314-0"
+      },
+      {
+        "key": "2022061700303115100_B25",
+        "unstructured": "Geyer SJ, Landay A. Immunogenetic and immunologic aspects of gliosarcoma growth in rats. Lab Invest\u20081983; 49: 436\u201344."
+      },
+      {
+        "key": "2022061700303115100_B26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Steegmaier M, Hoffmann M, Baum A, et al. BI 2536, a potent and selective inhibitor of polo-like kinase 1, inhibits tumor growth in vivo. Curr Biol\u20082007; 17: 316\u201322.",
+        "DOI": "10.1016/j.cub.2006.12.037"
+      },
+      {
+        "key": "2022061700303115100_B27",
+        "unstructured": "Rupp C, Dolznig H, Puri C, et al. Mouse endosialin, a C-type lectin-like cell surface receptor: expression during embryonic development and induction in experimental cancer neoangiogenesis. Cancer Immun\u20082006; 6: 10."
+      },
+      {
+        "key": "2022061700303115100_B28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tofts PS, Brix G, Buckley DL, et al. Estimating kinetic parameters from dynamic contrast-enhanced T([1])-weighted MRI of a diffusable tracer: standardized quantities and symbols. J Magn Reson Imaging\u20081999; 10: 223\u201332.",
+        "DOI": "10.1002/(SICI)1522-2586(199909)10:3<223::AID-JMRI2>3.0.CO;2-S"
+      },
+      {
+        "key": "2022061700303115100_B29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kulimova E, Oelmann E, Bisping G, et al. Growth inhibition and induction of apoptosis in acute myeloid leukemia cells by new indolinone derivatives targeting fibroblast growth factor, platelet-derived growth factor, and vascular endothelial growth factor receptors. Mol Cancer Ther\u20082006; 5: 3105\u201312.",
+        "DOI": "10.1158/1535-7163.MCT-06-0323"
+      },
+      {
+        "key": "2022061700303115100_B30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sennino B, Falcon BL, McCauley D, et al. Sequential loss of tumor vessel pericytes and endothelial cells after inhibition of platelet-derived growth factor B by selective aptamer AX102. Cancer Res\u20082007; 67: 7358\u201367.",
+        "DOI": "10.1158/0008-5472.CAN-07-0293"
+      },
+      {
+        "key": "2022061700303115100_B31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Takahashi T, Shibuya M. The 230 kDa mature form of KDR/Flk-1 (VEGF receptor-2) activates the PLC-\u03b3 pathway and partially induces mitotic signals in NIH3T3 fibroblasts. Oncogene\u20081997; 14: 2079\u201389.",
+        "DOI": "10.1038/sj.onc.1201047"
+      },
+      {
+        "key": "2022061700303115100_B32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bergers G, Song S. The role of pericytes in blood-vessel formation and maintenance. Neuro Oncol\u20082005; 7: 452\u201364.",
+        "DOI": "10.1215/S1152851705000232"
+      },
+      {
+        "key": "2022061700303115100_B33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Benjamin LE, Hemo I, Keshet E. A plasticity window for blood vessel remodeling is defined by pericyte coverage of the preformed endothelial network and is regulated by PDGF-B and VEGF. Development\u20081998; 125: 1591\u20138.",
+        "DOI": "10.1242/dev.125.9.1591"
+      },
+      {
+        "key": "2022061700303115100_B34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mancuso MR, Davis R, Norberg SM, et al. Rapid vascular regrowth in tumors after reversal of VEGF inhibition. J Clin Invest\u20082006; 116: 2610\u201321.",
+        "DOI": "10.1172/JCI24612"
+      },
+      {
+        "key": "2022061700303115100_B35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bergers G, Song S, Meyer-Morse N, Bergsland E, Hanahan D. Benefits of targeting both pericytes and endothelial cells in the tumor vasculature with kinase inhibitors. J Clin Invest\u20082003; 111: 1287\u201395.",
+        "DOI": "10.1172/JCI200317929"
+      },
+      {
+        "key": "2022061700303115100_B36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chaudhary NI, Roth GJ, Hilberg F, et al. Inhibition of PDGF, VEGF and FGF signalling attenuates fibrosis. Eur Respir J\u20082007; 29: 976\u201385.",
+        "DOI": "10.1183/09031936.00152106"
+      },
+      {
+        "key": "2022061700303115100_B37",
+        "unstructured": "Wood JM, Bold G, Buchdunger E, et al. PTK787/ZK 222584, a novel and potent inhibitor of vascular endothelial growth factor receptor tyrosine kinases, impairs vascular endothelial growth factor-induced responses and tumor growth after oral administration. Cancer Res\u20082000; 60: 2178\u201389."
+      },
+      {
+        "key": "2022061700303115100_B38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wilhelm SM, Carter C, Tang L, et al. BAY 43\u20139006 exhibits broad spectrum oral antitumor activity and targets the RAF/MEK/ERK pathway and receptor tyrosine kinases involved in tumor progression and angiogenesis. Cancer Res\u20082004; 64: 7099\u2013109.",
+        "DOI": "10.1158/0008-5472.CAN-04-1443"
+      },
+      {
+        "key": "2022061700303115100_B39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wedge SR, Kendrew J, Hennequin LF, et al. CEDERANIB: a highly potent, orally bioavailable, vascular endothelial growth factor receptor-2 tyrosine kinase inhibitor for the treatment of cancer. Cancer Res\u20082005; 65: 4389\u2013400.",
+        "DOI": "10.1158/0008-5472.CAN-04-4409"
+      },
+      {
+        "key": "2022061700303115100_B40",
+        "unstructured": "Ruegg C, Mutter N. Anti-angiogenic therapies in cancer: achievements and open questions. Bull Cancer\u20082007; 94: 753\u201362."
+      },
+      {
+        "key": "2022061700303115100_B41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim KJ, Li B, Winer J, et al. Inhibition of vascular endothelial growth factor-induced angiogenesis suppresses tumour growth in vivo. Nature\u20081993; 362: 841\u20134.",
+        "DOI": "10.1038/362841a0"
+      },
+      {
+        "key": "2022061700303115100_B42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shaw AT, Kirsch DG, Jacks T. Future of early detection of lung cancer: the role of mouse models. Clin Cancer Res\u20082005; 11: 4999\u20135003s.",
+        "DOI": "10.1158/1078-0432.CCR-05-9005"
+      },
+      {
+        "key": "2022061700303115100_B43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bergers G, Javaherian K, Lo KM, Folkman J, Hanahan D. Effects of angiogenesis inhibitors on multistage carcinogenesis in mice. Science\u20081999; 284: 808\u201312.",
+        "DOI": "10.1126/science.284.5415.808"
+      },
+      {
+        "key": "2022061700303115100_B44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hanahan D, Christofori G, Naik P, Arbeit J. Transgenic mouse models of tumour angiogenesis: the angiogenic switch, its molecular controls, and prospects for preclinical therapeutic models. Eur J Cancer\u20081996; 32A: 2386\u201393.",
+        "DOI": "10.1016/S0959-8049(96)00401-7"
+      },
+      {
+        "key": "2022061700303115100_B45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mross KB, Gmehling D, Frost A, et al. A clinical, phase I pharmacokinetic (PK) and pharmacodynamic study of twice-daily BIBF 1120 in advanced cancer patients. J Clin Oncol\u20082005; 23: 3031.",
+        "DOI": "10.1200/jco.2005.23.16_suppl.3031"
+      },
+      {
+        "key": "2022061700303115100_B46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Von Pawel J, Kaiser R, Eschbach C, et al. A double blind phase II study of BIBF 1120 in patients suffering from relapsed advanced non-small cell lung cancer (NSCLC). J Clin Oncol\u20082007; 25: 7635.",
+        "DOI": "10.1200/jco.2007.25.18_suppl.7635"
+      }
+    ],
+    "container-title": [
+      "Cancer Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://aacrjournals.org/cancerres/article-pdf/68/12/4774/2593641/4774.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "syndication"
+      },
+      {
+        "URL": "https://aacrjournals.org/cancerres/article-pdf/68/12/4774/2593641/4774.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2022-06-17T01:41:07Z",
+      "timestamp": 1655430067000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://aacrjournals.org/cancerres/article/68/12/4774/540838/BIBF-1120-Triple-Angiokinase-Inhibitor-with"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          6,
+          15
+        ]
+      ]
+    },
+    "references-count": 46,
+    "journal-issue": {
+      "issue": "12",
+      "published-online": {
+        "date-parts": [
+          [
+            2008,
+            6,
+            16
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            6,
+            15
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1158/0008-5472.can-07-6307",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1158/0008-5472.c.6497339.v1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1158/0008-5472.22374101",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1158/0008-5472.c.6497339",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.1158/0008-5472.22374101.v1",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "0008-5472",
+      "1538-7445"
+    ],
+    "issn-type": [
+      {
+        "value": "0008-5472",
+        "type": "print"
+      },
+      {
+        "value": "1538-7445",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2008,
+          6,
+          15
+        ]
+      ]
+    }
+  }
+}

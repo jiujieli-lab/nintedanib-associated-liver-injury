@@ -1,0 +1,13 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 9809715,
+        "MolecularFormula": "C31H33N5O4",
+        "SMILES": "CN1CCN(CC1)CC(=O)N(C)C2=CC=C(C=C2)N/C(=C\\3/C4=C(C=C(C=C4)C(=O)OC)NC3=O)/C5=CC=CC=C5",
+        "InChI": "InChI=1S/C31H33N5O4/c1-34-15-17-36(18-16-34)20-27(37)35(2)24-12-10-23(11-13-24)32-29(21-7-5-4-6-8-21)28-25-14-9-22(31(39)40-3)19-26(25)33-30(28)38/h4-14,19,32H,15-18,20H2,1-3H3,(H,33,38)/b29-28-",
+        "InChIKey": "XZXHXSATPCNXJR-ZIADKAODSA-N"
+      }
+    ]
+  }
+}

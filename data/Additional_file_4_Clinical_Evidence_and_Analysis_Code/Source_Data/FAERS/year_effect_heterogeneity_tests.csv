@@ -1,0 +1,9 @@
+endpoint,window,test,statistic,degrees_of_freedom,p_value,i2_percent,calendar_strata_total,estimable_strata,continuity_corrected_strata,interpretation
+narrow,all_years,Tarone-adjusted Breslow-Day,88.25434621529466,11,3.6637359812630166e-14,,13,12,0,tests equality of annual odds ratios
+narrow,all_years,Inverse-variance Cochran Q,43.11266305705881,11,1.0381310309410039e-05,74.48545457411967,13,12,1,heterogeneity of estimable annual log-RORs
+narrow,exclude_2022,Tarone-adjusted Breslow-Day,33.92521640584324,10,0.00019016298099105988,,12,11,0,tests equality of annual odds ratios
+narrow,exclude_2022,Inverse-variance Cochran Q,31.945370273909422,10,0.0004089179642641821,68.69655942549132,12,11,0,heterogeneity of estimable annual log-RORs
+broad,all_years,Tarone-adjusted Breslow-Day,63.325369250923984,12,5.552200810221564e-09,,13,13,0,tests equality of annual odds ratios
+broad,all_years,Inverse-variance Cochran Q,61.39384545688669,12,1.2560042610899139e-08,80.45406683569463,13,13,0,heterogeneity of estimable annual log-RORs
+broad,exclude_2022,Tarone-adjusted Breslow-Day,40.28344742835485,11,3.199346023374794e-05,,12,12,0,tests equality of annual odds ratios
+broad,exclude_2022,Inverse-variance Cochran Q,39.52913773121904,11,4.305171178772789e-05,72.17242613589191,12,12,0,heterogeneity of estimable annual log-RORs

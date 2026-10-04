@@ -1,0 +1,24 @@
+{
+  "abstract": "Activating mutations in the receptor tyrosine kinase FLT3 are present in up to approximately 30% of acute myeloid leukemia (AML) patients, implicating FLT3 as a driver of the disease and therefore as a target for therapy. We report the characterization of AC220, a second-generation FLT3 inhibitor, and a comparison of AC220 with the first-generation FLT3 inhibitors CEP-701, MLN-518, PKC-412, sorafenib, and sunitinib. AC220 exhibits low nanomolar potency in biochemical and cellular assays and exceptional kinase selectivity, and in animal models is efficacious at doses as low as 1 mg/kg given orally once daily. The data reveal that the combination of excellent potency, selectivity, and pharmacokinetic properties is unique to AC220, which therefore is the first drug candidate with a profile that matches the characteristics desirable for a clinical FLT3 inhibitor.",
+  "authors": "Zarrinkar PP, Gunawardane RN, Cramer MD, Gardner MF, Brigham D, Belli B, Karaman MW, Pratz KW, Pallares G, Chao Q, Sprankle KG, Patel HK, Levis M, Armstrong RC, James J, Bhagwat SS.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_10",
+    "creation_date": "2011-05-26"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1240346",
+  "doi": "10.1182/blood-2009-05-222034",
+  "doi_chembl": null,
+  "first_page": "2984",
+  "issue": "14",
+  "journal": "Blood",
+  "journal_full_title": null,
+  "last_page": "2992",
+  "patent_id": null,
+  "pubmed_id": 19654408,
+  "src_id": 1,
+  "title": "AC220 is a uniquely potent and selective inhibitor of FLT3 for the treatment of acute myeloid leukemia (AML).",
+  "volume": "114",
+  "year": 2009
+}

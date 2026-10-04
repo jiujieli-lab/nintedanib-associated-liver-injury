@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 9911830,
+        "MolecularFormula": "C22H19ClN4O5",
+        "MolecularWeight": "454.9",
+        "SMILES": "CC1=CC(=NO1)NC(=O)NC2=C(C=C(C=C2)OC3=C4C=C(C(=CC4=NC=C3)OC)OC)Cl",
+        "ConnectivitySMILES": "CC1=CC(=NO1)NC(=O)NC2=C(C=C(C=C2)OC3=C4C=C(C(=CC4=NC=C3)OC)OC)Cl",
+        "InChI": "InChI=1S/C22H19ClN4O5/c1-12-8-21(27-32-12)26-22(28)25-16-5-4-13(9-15(16)23)31-18-6-7-24-17-11-20(30-3)19(29-2)10-14(17)18/h4-11H,1-3H3,(H2,25,26,27,28)",
+        "InChIKey": "SPMVMDHWKHCIDT-UHFFFAOYSA-N"
+      }
+    ]
+  }
+}

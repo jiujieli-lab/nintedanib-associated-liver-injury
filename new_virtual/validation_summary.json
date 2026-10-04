@@ -1,0 +1,24 @@
+{
+  "config_sha256": "c5c351d9f635371f3c3d3801740a480727a71be2274afd714abb9ff5ee9f82fc",
+  "n_primary_tests": 9,
+  "n_primary_fdr_discoveries": 0,
+  "n_nonadditivity_fdr_discoveries": 0,
+  "max_solver_residual": 9.71445146547012e-17,
+  "max_sham_change": 0.0,
+  "max_restoration_residual": 0.0,
+  "wall_seconds": 52.79962086677551,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "interpretation": "Undirected transcript covariance intervention is not receptor inhibition, State prediction, clinical causal identification, synergy, or a biological rescue.",
+  "baseline_reproduction_against_archived_primary_graph_max_abs_difference": 4.0657581468206416e-20,
+  "n_baseline_target_compartment_scores_reproduced": 50,
+  "figure_size_pixels": [
+    10080,
+    10080
+  ],
+  "figure_dpi": [
+    1200.0,
+    1200.0
+  ],
+  "individual_panels": 9
+}

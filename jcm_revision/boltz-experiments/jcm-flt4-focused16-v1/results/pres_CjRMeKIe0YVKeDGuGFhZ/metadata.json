@@ -1,0 +1,20 @@
+{
+  "adme": {
+    "lipophilicity": 3.0027079582214355,
+    "permeability": 0.6507309675216675,
+    "solubility": "medium-confidence"
+  },
+  "created_at": "2026-10-02T15:16:15.147Z",
+  "external_id": "pazopanib",
+  "id": "pres_CjRMeKIe0YVKeDGuGFhZ",
+  "metrics": {
+    "binding_confidence": 0.7465399503707886,
+    "complex_iplddt": 0.7953863143920898,
+    "complex_plddt": 0.7379530668258667,
+    "iptm": 0.8878252506256104,
+    "optimization_score": 0.3769913613796234,
+    "ptm": 0.7467209696769714,
+    "structure_confidence": 0.7679275274276733
+  },
+  "smiles": "Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O"
+}

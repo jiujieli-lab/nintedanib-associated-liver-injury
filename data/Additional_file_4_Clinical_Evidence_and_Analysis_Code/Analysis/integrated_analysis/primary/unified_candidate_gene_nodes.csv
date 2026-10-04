@@ -1,0 +1,31 @@
+gene_symbol,biological_quantity,evaluated_by,causal_status
+FLT4,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+PDGFRA,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+FGFR1,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+KDR,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+JAK1,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+LYN,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+FLT1,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+FGFR2,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+FGFR3,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+ABL1,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+CDK4,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+FLT3,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+FGFR4,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+TYK2,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+AXL,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+LRRK2,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+MET,candidate drug-binding protein,"pharmacology, liver-network propagation, cell perturbation",hypothesis to test
+ACO1,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+ALDOB,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+ASS1,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+CES1,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+CPS1,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+DMGDH,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+FAH,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+FBP1,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+GSTA1,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+HPD,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+LECT2,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+OTC,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout
+PCK2,circulating liver-injury protein readout,human DILI clinical effect and liver-network position,phenotype readout

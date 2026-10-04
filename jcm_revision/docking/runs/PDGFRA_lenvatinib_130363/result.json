@@ -1,0 +1,100 @@
+{
+  "target": "PDGFRA",
+  "name": "lenvatinib",
+  "canonical_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O",
+  "formal_charge": 0,
+  "seed": 130363,
+  "exhaustiveness": 32,
+  "cpu": 2,
+  "n_poses": 10,
+  "energy_range": 5,
+  "scoring_function": "vina",
+  "ligand_MMFF_converged": true,
+  "receptor": "PDGFRA_6JOL_receptor.pdbqt",
+  "box_center": [
+    -38.4125,
+    157.04899999999998,
+    0.794
+  ],
+  "box_size": [
+    22.0,
+    28.72200000000001,
+    25.84
+  ],
+  "elapsed_seconds": 88.25666783400084,
+  "pose_energies": [
+    [
+      -10.353,
+      -13.984,
+      -0.488,
+      3.631,
+      -0.488
+    ],
+    [
+      -8.991,
+      -12.617,
+      -0.016,
+      3.154,
+      -0.488
+    ],
+    [
+      -8.857,
+      -11.791,
+      -0.66,
+      3.107,
+      -0.488
+    ],
+    [
+      -8.822,
+      -11.362,
+      -1.043,
+      3.094,
+      -0.488
+    ],
+    [
+      -8.74,
+      -11.033,
+      -1.26,
+      3.066,
+      -0.488
+    ],
+    [
+      -8.714,
+      -11.628,
+      -0.63,
+      3.056,
+      -0.488
+    ],
+    [
+      -8.383,
+      -12.432,
+      0.62,
+      2.94,
+      -0.488
+    ],
+    [
+      -8.308,
+      -10.396,
+      -1.315,
+      2.914,
+      -0.488
+    ],
+    [
+      -8.102,
+      -10.201,
+      -1.231,
+      2.842,
+      -0.488
+    ],
+    [
+      -7.893,
+      -9.874,
+      -1.275,
+      2.768,
+      -0.488
+    ]
+  ],
+  "best_vina_score_kcal_mol": -10.353,
+  "reference_RMSD_A_receptor_frame": [],
+  "output_dir": "runs/PDGFRA_lenvatinib_130363"
+}

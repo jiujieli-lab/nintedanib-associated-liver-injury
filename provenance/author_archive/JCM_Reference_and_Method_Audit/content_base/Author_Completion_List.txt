@@ -1,0 +1,20 @@
+AUTHOR COMPLETION BEFORE JCM SUBMISSION
+
+The manuscript and cover-letter scientific text can be finalized from the documented results. The following statements or metadata require the corresponding author’s confirmation and cannot be established from public sources or analytical outputs.
+
+1. Final-version approval and submission status
+Obtain all eight authors’ approval of the exact submitted version, including the new analyses. Confirm that neither the manuscript nor parts of it are currently published in or under consideration by another journal. JCM requires both declarations in the cover letter; the accompanying clean cover-letter text intentionally does not assert unconfirmed facts. Once confirmed, add the two statements supplied in Required_Cover_Letter_Attestations.txt. If the manuscript was previously submitted to any MDPI journal, identify that journal and acknowledge the submission; enter the earlier manuscript ID in the portal when available. Do not infer a negative submission history.
+
+2. Author contact information
+The source supplies Hui Liu’s corresponding email (LIUHUIOKCA@163.com). Supply the submission email addresses of Shaoxin Huang, Yong Yang, Xinyu Zhou, Xinyi Chen, Shan Li, Wenyan Fan and Jianjun Xiong. Obtain consent for email display or identify authors requesting nondisplay at proof stage, as described in the guide. Verify that the listed affiliations remain current and identify where the work was conducted. ORCIDs and biographies are encouraged, not identified as mandatory by the guide; missing ORCIDs are not a submission blocker in this checklist.
+
+3. Conflicts and sponsor involvement
+Confirm the existing no-conflicts declaration against each author’s actual relationships. Shaoxin Huang and Yong Yang list Jiangxi Jiujieli Life Technology Co., Ltd.; disclose relevant employment, ownership or other interests if applicable, without inferring them from the affiliation alone. State the sponsors’ actual role in study design, execution, analysis/interpretation, writing and the decision to publish. A no-role sentence may be added only after confirmation. Retain the supplied grants unless the authors correct them; identify publication-cost funding if applicable.
+
+4. Public-data ethics basis
+The source states that only deidentified public data were reanalysed, with no new recruitment or procedures. Retain that factual account. Confirm the institutionally applicable basis for secondary-use ethics and consent non-applicability or exemption; supply an existing exemption determination or relevant local/national basis if required. Do not create an ethics-approval number, waiver or new participant-consent claim. The journal’s detailed human-data guidance permits editorial requests for this basis.
+
+5. Data and AI disclosure final reconciliation
+Confirm that every dataset/code link or supplemental-file pointer in the final Data Availability Statement resolves to material actually supplied or publicly archived. If a separate large reproducibility archive is used, provide an accessible final location rather than an assumed DOI. Reconcile the Methods and Acknowledgments with the actual tools/model versions used in completed analyses and confirm author review of their outputs. The current manuscript correctly treats GenAI assistance as substantive and does not describe it as language editing alone.
+
+Source: Journal of Clinical Medicine, Instructions for Authors, https://www.mdpi.com/journal/jcm/instructions (retrieved 2 October 2026), sections Submission Process, Cover Letter, Author List and Affiliations, Back Matter, Research Involving Human Subjects, and Research Data Policies. This list records only source-dependent completion items; it does not require optional ORCIDs, biographies, a graphical abstract, or speculative additional experiments.

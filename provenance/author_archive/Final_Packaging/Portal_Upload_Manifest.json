@@ -1,0 +1,107 @@
+{
+  "journal": "Journal of Clinical Medicine",
+  "guide_checked": "2026-10-02",
+  "portal_limit_bytes": 120000000,
+  "selected_upload_bytes": 61072012,
+  "selected_upload_MB": 61.072,
+  "selected_files": [
+    {
+      "file": "Cover_Letter.docx",
+      "bytes": 37503,
+      "sha256": "db37bc556676adc4fe0e35f9aa5c4b7da7785339a290d4bbb05ae078db31048f"
+    },
+    {
+      "file": "Main_Figures/Figure_1.tiff",
+      "bytes": 828646,
+      "sha256": "9c32ffeddc4643b973f440208252336f76da24f4625dff9aefa4dd08a4ad26eb"
+    },
+    {
+      "file": "Main_Figures/Figure_2.tiff",
+      "bytes": 1941920,
+      "sha256": "d95d4c3f8e367d258cde04e94602b2208f19ca97bbf6b6fb45b0a8d046a49afa"
+    },
+    {
+      "file": "Main_Figures/Figure_3.tiff",
+      "bytes": 2266700,
+      "sha256": "470c4a1e7f129547afa7780df19a93e3550f60befd1ee180e603de6f8484b510"
+    },
+    {
+      "file": "Main_Figures/Figure_4.tiff",
+      "bytes": 4759108,
+      "sha256": "e834ead9ed28120d46bcd9c7e5b34d57778e782f37f66deabde0cb16035a2000"
+    },
+    {
+      "file": "Main_Figures/Figure_5.tiff",
+      "bytes": 1050790,
+      "sha256": "a107272f90b38bbd0391d775a3c47db454f11e45703de990d4320ca942ffa082"
+    },
+    {
+      "file": "Main_Figures/Figure_6.tiff",
+      "bytes": 857952,
+      "sha256": "52e92c66a959a22a06e1d9510aba17d7f5ca4bd16a8b2d5470a7b0663c51cd51"
+    },
+    {
+      "file": "Main_Figures/Figure_7.tiff",
+      "bytes": 1387432,
+      "sha256": "1fcb65e90b3677922af59a84317835f0fa023f09d80f6c02c5e4c5d085a24583"
+    },
+    {
+      "file": "Manuscript/JCM_Manuscript.docx",
+      "bytes": 5384948,
+      "sha256": "88806f797ff666063cbd54f887f8ae64caa7215ecac2215c24afd713e6f02867"
+    },
+    {
+      "file": "Supplementary_Materials/Additional_file_1_Supplementary_Information.pdf",
+      "bytes": 882614,
+      "sha256": "c98daec370b9aa59f8e7ed6d990fab79173504a4e5b35d578f8d00b705c865aa"
+    },
+    {
+      "file": "Supplementary_Materials/Additional_file_2_Supplementary_Figures.pdf",
+      "bytes": 5422622,
+      "sha256": "2b826520ddb7a8ed1a89b4b6459d4179589d57b8776c9d61d3233c940bcfea14"
+    },
+    {
+      "file": "Supplementary_Materials/Additional_file_3_Supplementary_Tables.xlsx",
+      "bytes": 8381409,
+      "sha256": "1339c659b4e6f02ddf8b172f0ebe2b4d739a3d33b4c280d481758c3147a866e0"
+    },
+    {
+      "file": "Supplementary_Materials/Additional_file_4_Targeted_Analyses.docx",
+      "bytes": 47102,
+      "sha256": "3728f61892f3884aba2cb01d5c45e2981b48cba5880128803aaa27a48666a283"
+    },
+    {
+      "file": "Supplementary_Materials/Additional_file_5_Targeted_Analysis_Tables.xlsx",
+      "bytes": 88536,
+      "sha256": "d09004557b44bbfd5dfaa150016e98d415760baeee9205dadc466865667b70a2"
+    },
+    {
+      "file": "Supplementary_Materials/Additional_file_6_Targeted_Analysis_Code.zip",
+      "bytes": 12090511,
+      "sha256": "68e13657d226245729a8bfbbad98868e7b7e649dba14fb687fcd23ff2cc8a551"
+    },
+    {
+      "file": "Supplementary_Materials/Additional_file_7_Screening_Methods_and_Results.docx",
+      "bytes": 57037,
+      "sha256": "08186f59fa7b353b975c7f2ab02b74a8c2208f088ab0cb66c577c03ecc994445"
+    },
+    {
+      "file": "Supplementary_Materials/Additional_file_8_Screening_Tables.xlsx",
+      "bytes": 113651,
+      "sha256": "d4026bc4855d43473eba7bba8437bfa6f4d4d1d692634e0d232bc48d418a011f"
+    },
+    {
+      "file": "Supplementary_Materials/Additional_file_9_Screening_Code_and_Data.zip",
+      "bytes": 15473531,
+      "sha256": "0164a086f6c28368ace41c0511974196733aa5c818c6b681728cc5c5e0565fea"
+    }
+  ],
+  "author_attestations_required": true,
+  "production_MD_completed": false,
+  "paid_screening": "Both jobs succeeded under authorized USD0.90 estimate; final billing not reconciled",
+  "docking_searches": {
+    "primary": 96,
+    "apo_sensitivity": 3,
+    "separate_redocking_control": 1
+  }
+}

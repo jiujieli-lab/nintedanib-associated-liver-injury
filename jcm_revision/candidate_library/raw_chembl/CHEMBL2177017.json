@@ -1,0 +1,24 @@
+{
+  "abstract": "The recent launch onto the market of five VEGFR inhibitors indicates the therapeutic value of these agents and the importance of the research in the field of angiogenesis inhibitors for future oncologic therapy. In this Perspective we briefly report the inhibitors that are in clinical use, while we dedicate two wider sections to the compounds that are in clinical trials and to the new derivatives appearing in the literature. We especially consider the medicinal chemistry aspect of the topic and report the structure-activity relationship studies and the binding mode of some inhibitors as well as the biological data of the compounds discovered in the past 5 years.",
+  "authors": "Musumeci F, Radi M, Brullo C, Schenone S.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_16",
+    "creation_date": "2013-05-07"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL2177017",
+  "doi": "10.1021/jm301085w",
+  "doi_chembl": null,
+  "first_page": "10797",
+  "issue": "24",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "10822",
+  "patent_id": null,
+  "pubmed_id": 23098265,
+  "src_id": 1,
+  "title": "Vascular endothelial growth factor (VEGF) receptors: drugs and new inhibitors.",
+  "volume": "55",
+  "year": 2012
+}

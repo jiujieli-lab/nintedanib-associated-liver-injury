@@ -1,0 +1,9 @@
+{
+  "structure_confidence": 0.7679275274276733,
+  "binding_confidence": 0.7465399503707886,
+  "optimization_score": 0.3769913613796234,
+  "iptm": 0.8878252506256104,
+  "ptm": 0.7467209696769714,
+  "complex_plddt": 0.7379530668258667,
+  "complex_iplddt": 0.7953863143920898
+}

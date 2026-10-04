@@ -1,0 +1,24 @@
+{
+  "abstract": "We report the structure-activity relationship of quinoline and quinazoline derivatives, which include urea, thiourea, urethane, and acylthiourea groups, as inhibitors of the platelet-derived growth factor (PDGF) receptor autophosphorylation. Our previous studies showed that the quinoline and quinazoline derivatives including urea, thiourea, and carbamate groups were highly potent compounds as the PDGF receptor autophosphorylation inhibitor, but these compounds did not exhibit receptor selectivity between the PDGF receptor and the c-kit receptor. As a result of further synthesis and biological evaluation, we have found that the quinoline and quinazoline-acylthiourea derivatives showed not only good inhibitory activity for the PDGF receptor but also receptor selectivity between the PDGF receptor and the c-kit receptor. Furthermore N-{4-[(6,7-dimethoxy-4-quinolyl)oxy]phenyl}-N'-(2-methylbenzoyl)thiourea exhibited potent oral efficacy in in vivo assay using the rat carotid balloon injury model. Therefore, the quinoline and quinazoline-acylthiourea derivatives may be expected to have potential as therapeutic agents for the treatment of restenosis.",
+  "authors": "Furuta T, Sakai T, Senga T, Osawa T, Kubo K, Shimizu T, Suzuki R, Yoshino T, Endo M, Miwa A.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_1",
+    "creation_date": "2009-09-03"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL1146076",
+  "doi": "10.1021/jm0506423",
+  "doi_chembl": null,
+  "first_page": "2186",
+  "issue": "7",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "2192",
+  "patent_id": null,
+  "pubmed_id": 16570914,
+  "src_id": 1,
+  "title": "Identification of potent and selective inhibitors of PDGF receptor autophosphorylation.",
+  "volume": "49",
+  "year": 2006
+}

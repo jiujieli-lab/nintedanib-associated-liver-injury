@@ -1,0 +1,8 @@
+{
+  "all_source_and_prediction_strings_identical": true,
+  "canonical_smiles_length": 72,
+  "stereobond_backslash_count": 1,
+  "source_standard_inchi_key": "XZXHXSATPCNXJR-ZIADKAODSA-N",
+  "source_heavy_atoms": 40,
+  "interpretation": "Byte-identical molecular strings; JSON backslash escaping does not change the submitted stereobond."
+}

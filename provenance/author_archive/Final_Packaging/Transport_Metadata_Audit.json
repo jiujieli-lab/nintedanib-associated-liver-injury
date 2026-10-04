@@ -1,0 +1,30 @@
+[
+  {
+    "file": "screening_archive/jcm_revision/proto/PDGFRA_alphafold_fetch_result.json",
+    "transport_url_fields_removed": [
+      "/result/structure/structure/_url",
+      "/result/structure/metrics/plddt_per_residue/_url"
+    ]
+  },
+  {
+    "file": "screening_archive/jcm_revision/proto/FLT4_alphafold_fetch_result.json",
+    "transport_url_fields_removed": [
+      "/result/structure/structure/_url",
+      "/result/structure/metrics/plddt_per_residue/_url"
+    ]
+  },
+  {
+    "file": "author_archive/Plugin_Execution_Provenance/PDGFRA_alphafold_fetch_result.json",
+    "transport_url_fields_removed": [
+      "/result/structure/structure/_url",
+      "/result/structure/metrics/plddt_per_residue/_url"
+    ]
+  },
+  {
+    "file": "author_archive/Plugin_Execution_Provenance/FLT4_alphafold_fetch_result.json",
+    "transport_url_fields_removed": [
+      "/result/structure/structure/_url",
+      "/result/structure/metrics/plddt_per_residue/_url"
+    ]
+  }
+]

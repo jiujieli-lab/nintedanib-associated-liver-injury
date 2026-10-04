@@ -1,0 +1,24 @@
+{
+  "abstract": "The dysregulation of kinases has emerged as a major class of targets for anticancer drug discovery given its node roles in the etiology of tumorigenesis, progression, invasion, and metastasis of malignancies, which is validated by the FDA approval of 28 small molecule kinase inhibitor (SMKI) drugs for cancer treatment at the end of 2015. While the preclinical and clinical data of these drugs are widely presented, it is highly essential to give an updated review on the medical indications, design principles and binding modes of these anti-tumor SMKIs approved by the FDA to offer insights for the future development of SMKIs with specific efficacy and safety.",
+  "authors": "Wang Y, Nan X, Duan Y, Wang Q, Liang Z, Yin H.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_37",
+    "creation_date": "2026-05-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL6074624",
+  "doi": "10.1016/j.bmc.2024.117870",
+  "doi_chembl": null,
+  "first_page": "117870",
+  "issue": null,
+  "journal": "Bioorg Med Chem",
+  "journal_full_title": "Bioorganic & medicinal chemistry.",
+  "last_page": "117870",
+  "patent_id": null,
+  "pubmed_id": 39128361,
+  "src_id": 1,
+  "title": "FDA-approved small molecule kinase inhibitors for cancer treatment (2001-2015): Medical indication, structural optimization, and binding mode Part I.",
+  "volume": "111",
+  "year": 2024
+}

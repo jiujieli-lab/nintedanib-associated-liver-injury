@@ -1,0 +1,24 @@
+{
+  "abstract": "Cyclin-dependent kinase 8 (CDK8) plays an momentous role in transcription regulation by forming kinase module or transcription factor phosphorylation. A large number of evidences have identified CDK8 as an important factor in cancer occurrence and development. In addition, CDK8 also participates in the regulation of cancer cell stress response to radiotherapy and chemotherapy, assists tumor cell invasion, metastasis, and drug resistance. Therefore, CDK8 is regarded as a promising target for cancer therapy. Most studies in recent years supported the role of CDK8 as a carcinogen, however, under certain conditions, CDK8 exists as a tumor suppressor. The functional diversity of CDK8 and its exceptional role in different types of cancer have aroused great interest from scientists but even more controversy during the discovery of CDK8 inhibitors. In addition, CDK8 appears to be an effective target for inflammation diseases and immune system disorders. Therefore, we summarized the research results of CDK8, involving physiological/pathogenic mechanisms and the development status of compounds targeting CDK8, provide a reference for the feasibility evaluation of CDK8 as a therapeutic target, and guidance for researchers who are involved in this field for the first time.",
+  "authors": "Wu D, Zhang Z, Chen X, Yan Y, Liu X.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_34",
+    "creation_date": "2024-03-28"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5241055",
+  "doi": "10.1016/j.ejmech.2020.113043",
+  "doi_chembl": null,
+  "first_page": "113043",
+  "issue": null,
+  "journal": "Eur J Med Chem",
+  "journal_full_title": "European journal of medicinal chemistry.",
+  "last_page": "113043",
+  "patent_id": null,
+  "pubmed_id": 33257171,
+  "src_id": 1,
+  "title": "Angel or Devil ? - CDK8 as the new drug target.",
+  "volume": "213",
+  "year": 2021
+}

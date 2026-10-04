@@ -1,0 +1,193 @@
+1. Raghu, G.; Remy-Jardin, M.; Richeldi, L.; Thomson, C.C.; Inoue, Y.; Johkoh, T.; Kreuter, M.; Lynch, D.A.; Maher, T.M.; Martinez, F.J.; et al. Idiopathic Pulmonary Fibrosis (an Update) and Progressive Pulmonary Fibrosis in Adults: An Official ATS/ERS/JRS/ALAT Clinical Practice Guideline. Am. J. Respir. Crit. Care Med. 2022, 205, e18–e47. https://doi.org/10.1164/rccm.202202-0399st.
+
+2. Brown, K.K.; Martinez, F.J.; Walsh, S.L.F.; Thannickal, V.J.; Prasse, A.; Schlenker-Herceg, R.; Goeldner, R.-G.; Clerisme-Beaty, E.; Tetzlaff, K.; Cottin, V.; et al. The natural history of progressive fibrosing interstitial lung diseases. Eur. Respir. J. 2020, 55, 2000085. https://doi.org/10.1183/13993003.00085-2020.
+
+3. Richeldi, L.; du Bois, R.M.; Raghu, G.; Azuma, A.; Brown, K.K.; Costabel, U.; Cottin, V.; Flaherty, K.R.; Hansell, D.M.; Inoue, Y.; et al. Efficacy and Safety of Nintedanib in Idiopathic Pulmonary Fibrosis. N. Engl. J. Med. 2014, 370, 2071–2082. https://doi.org/10.1056/nejmoa1402584.
+
+4. Flaherty, K.R.; Wells, A.U.; Cottin, V.; Devaraj, A.; Walsh, S.L.F.; Inoue, Y.; Richeldi, L.; Kolb, M.; Tetzlaff, K.; Stowasser, S.; et al. Nintedanib in Progressive Fibrosing Interstitial Lung Diseases. N. Engl. J. Med. 2019, 381, 1718–1727. https://doi.org/10.1056/nejmoa1908681.
+
+5. Distler, O.; Highland, K.B.; Gahlemann, M.; Azuma, A.; Fischer, A.; Mayes, M.D.; Raghu, G.; Sauter, W.; Girard, M.; Alves, M.; et al. Nintedanib for Systemic Sclerosis–Associated Interstitial Lung Disease. N. Engl. J. Med. 2019, 380, 2518–2528. https://doi.org/10.1056/nejmoa1903076.
+
+6. Richeldi, L.; Azuma, A.; Cottin, V.; Kreuter, M.; Maher, T.M.; Martinez, F.J.; Oldham, J.M.; Valenzuela, C.; Clerisme-Beaty, E.; Gordat, M.; et al. Nerandomilast in Patients with Idiopathic Pulmonary Fibrosis. N. Engl. J. Med. 2025, 392, 2193–2202. https://doi.org/10.1056/nejmoa2414108.
+
+7. Maher, T.M.; Assassi, S.; Azuma, A.; Cottin, V.; Hoffmann-Vold, A.-M.; Kreuter, M.; Oldham, J.M.; Richeldi, L.; Valenzuela, C.; Wijsenbeek, M.S.; et al. Nerandomilast in Patients with Progressive Pulmonary Fibrosis. N. Engl. J. Med. 2025, 392, 2203–2214. https://doi.org/10.1056/nejmoa2503643.
+
+8. U.S. Food and Drug Administration. FDA approves drug to treat idiopathic pulmonary fibrosis. Available online: https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-idiopathic-pulmonary-fibrosis (accessed on 5 September 2026).
+
+9. U.S. Food and Drug Administration. FDA approves drug to treat chronic, progressive lung disease. Available online: https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-chronic-progressive-lung-disease (accessed on 5 September 2026).
+
+10. European Medicines Agency. Jascayd: EPAR—Medicine Overview. Available online: https://www.ema.europa.eu/en/medicines/human/EPAR/jascayd (accessed on 5 September 2026).
+
+11. Crestani, B.; Huggins, J.T.; Kaye, M.; Costabel, U.; Glaspole, I.; Ogura, T.; Song, J.W.; Stansen, W.; Quaresma, M.; Stowasser, S.; et al. Long-term safety and tolerability of nintedanib in patients with idiopathic pulmonary fibrosis: results from the open-label extension study, INPULSIS-ON. Lancet Respir. Med. 2019, 7, 60–68. https://doi.org/10.1016/s2213-2600(18)30339-4.
+
+12. Chaudhuri, N.; Azuma, A.; Sroka-Saidi, K.; Erhardt, E.; Ritter, I.; Harari, S. Safety and Tolerability of Nintedanib in Patients with Fibrosing Interstitial Lung Diseases: Post-marketing Data. Adv. Ther. 2024, 41, 4581–4590. https://doi.org/10.1007/s12325-024-03023-4.
+
+13. Inoue, Y.; Ogura, T.; Azuma, A.; Kondoh, Y.; Homma, S.; Muraishi, K.; Ikeda, R.; Ochiai, K.; Sugiyama, Y.; Nukiwa, T. Real-World Safety, Tolerability  and Effectiveness of Nintedanib in Patients with Idiopathic Pulmonary Fibrosis: Final Report of Post-marketing Surveillance in Japan. Adv. Ther. 2025, 42, 1075–1093. https://doi.org/10.1007/s12325-024-03079-2.
+
+14. Boehringer Ingelheim Pharmaceuticals, Inc. OFEV (Nintedanib) Capsules, for Oral Use: Full Prescribing Information. Available online: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da1c9f37-779e-4682-816f-93d0faa4cfc9 (accessed on 5 September 2026).
+
+15. Marzin, K.; Kretschmar, G.; Luedtke, D.; Kraemer, S.; Kuelzer, R.; Schlenker‐Herceg, R.; Schmid, U.; Schnell, D.; Dallinger, C. Pharmacokinetics of Nintedanib in Subjects With Hepatic Impairment. J. Clin. Pharmacol. 2018, 58, 357–363. https://doi.org/10.1002/jcph.1025.
+
+16. Wind, S.; Schmid, U.; Freiwald, M.; Marzin, K.; Lotz, R.; Ebner, T.; Stopfer, P.; Dallinger, C. Clinical Pharmacokinetics and Pharmacodynamics of Nintedanib. Clin. Pharmacokinet. 2019, 58, 1131–1147. https://doi.org/10.1007/s40262-019-00766-0.
+
+17. European Association for the Study of the Liver. EASL Clinical Practice Guidelines: Drug-induced liver injury. J. Hepatol. 2019, 70, 1222–1261. https://doi.org/10.1016/j.jhep.2019.02.014.
+
+18. Fontana, R.J.; Liou, I.; Reuben, A.; Suzuki, A.; Fiel, M.I.; Lee, W.; Navarro, V. AASLD practice guidance on drug, herbal, and dietary supplement–induced liver injury. Hepatology 2023, 77, 1036–1065. https://doi.org/10.1002/hep.32689.
+
+19. Andrade, R.J.; Chalasani, N.; Björnsson, E.S.; Suzuki, A.; Kullak-Ublick, G.A.; Watkins, P.B.; Devarbhavi, H.; Merz, M.; Lucena, M.I.; Kaplowitz, N.; et al. Drug-induced liver injury. Nat. Rev. Dis. Primers 2019, 5, 58. https://doi.org/10.1038/s41572-019-0105-0.
+
+20. Ou, X.; Wu, Y.; Cheng, Q.; Yin, W.; Rong, C.; He, S.; Wei, L.; Yu, P. Clinical profiles and risk predictors of drug-induced liver injury from pirfenidone and nintedanib used to treat idiopathic pulmonary fibrosis: a real-world analysis of a tertiary Chinese hospital cohort combined with FAERS data mining. Transl. Gastroenterol. Hepatol. 2026, 11, 9. https://doi.org/10.21037/tgh-25-104.
+
+21. Raschi, E.; Fusaroli, M.; Gatti, M.; Caraceni, P.; Poluzzi, E.; De Ponti, F. Liver Injury with Nintedanib: A Pharmacovigilance–Pharmacokinetic Appraisal. Pharmaceuticals 2022, 15, 645. https://doi.org/10.3390/ph15050645.
+
+22. Sun, X.; Wang, H.; Zhan, X.; Yan, Y.; Chen, K.; An, Z.; Zhou, H. Comparison of the safety profiles for pirfenidone and nintedanib: a disproportionality analysis of the US food and drug administration adverse event reporting system. Front. Pharmacol. 2024, 15, 1256649. https://doi.org/10.3389/fphar.2024.1256649.
+
+23. He, M.; Yang, T.; Zhou, J.; Wang, R.; Li, X. A real-world study of antifibrotic drugs-related adverse events based on the United States food and drug administration adverse event reporting system and VigiAccess databases. Front. Pharmacol. 2024, 15, 1310286. https://doi.org/10.3389/fphar.2024.1310286.
+
+24. Wang, T.; Cui, Z.; Ou, Y.; Lou, S.; Chen, H.; Zhu, C.; Zhou, L.; Zou, F. Post-marketing safety concerns with pirfenidone and nintedanib: an analysis of individual case safety reports from the FDA adverse event reporting system database and the Japanese adverse drug event report databases. Front. Pharmacol. 2025, 16, 1530697. https://doi.org/10.3389/fphar.2025.1530697.
+
+25. Liao, K.-M.; Chen, C.-Y. Risk of potential hepatotoxicity from pirfenidone or nintedanib in patients with idiopathic pulmonary fibrosis: results of a retrospective analysis of a large insurance database in Taiwan. Front. Pharmacol. 2024, 15, 1309712. https://doi.org/10.3389/fphar.2024.1309712.
+
+26. Hilberg, F.; Roth, G.J.; Krssak, M.; Kautschitsch, S.; Sommergruber, W.; Tontsch-Grunt, U.; Garin-Chesa, P.; Bader, G.; Zoephel, A.; Quant, J.; et al. BIBF 1120: Triple Angiokinase Inhibitor with Sustained Receptor Blockade and Good Antitumor Efficacy. Cancer Res. 2008, 68, 4774–4782. https://doi.org/10.1158/0008-5472.can-07-6307.
+
+27. Roth, G.J.; Binder, R.; Colbatzky, F.; Dallinger, C.; Schlenker-Herceg, R.; Hilberg, F.; Wollin, S.-L.; Kaiser, R. Nintedanib: From Discovery to the Clinic. J. Med. Chem. 2015, 58, 1053–1063. https://doi.org/10.1021/jm501562a.
+
+28. Nakashima, S.; Sato, R.; Fukami, T.; Kudo, T.; Hashiba, S.; Morinaga, G.; Nakano, M.; Ludwig-Schwellinger, E.; Matsui, A.; Ishiguro, N.; et al. Characterization of Enzymes Involved in Nintedanib Metabolism in Humans. Drug Metab. Dispos. 2023, 51, 733–742. https://doi.org/10.1124/dmd.122.001113.
+
+29. Nakashima, S.; Fukami, T.; Kudo, T.; Nakano, M.; Matsui, A.; Ishiguro, N.; Nakajima, M. Iminium ion metabolites are formed from nintedanib by human CYP3A4. Drug Metab. Pharmacokinet. 2024, 57, 101025. https://doi.org/10.1016/j.dmpk.2024.101025.
+
+30. Ravindra, K.C.; Vaidya, V.S.; Wang, Z.; Federspiel, J.D.; Virgen-Slane, R.; Everley, R.A.; Grove, J.I.; Stephens, C.; Ocana, M.F.; Robles-Díaz, M.; et al. Tandem mass tag-based quantitative proteomic profiling identifies candidate serum biomarkers of drug-induced liver injury in humans. Nat. Commun. 2023, 14, 1215. https://doi.org/10.1038/s41467-023-36858-6.
+
+31. Antoine, D.J.; Dear, J.W.; Lewis, P.S.; Platt, V.; Coyle, J.; Masson, M.; Thanacoody, R.H.; Gray, A.J.; Webb, D.J.; Moggs, J.G.; et al. Mechanistic Biomarkers Provide Early and Sensitive Detection of Acetaminophen-Induced Acute Liver Injury at First Presentation to Hospital. Hepatology 2013, 58, 777–787. https://doi.org/10.1002/hep.26294.
+
+32. MacParland, S.A.; Liu, J.C.; Ma, X.-Z.; Innes, B.T.; Bartczak, A.M.; Gage, B.K.; Manuel, J.; Khuu, N.; Echeverri, J.; Linares, I.; et al. Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations. Nat. Commun. 2018, 9, 4383. https://doi.org/10.1038/s41467-018-06318-7.
+
+33. Bergen, V.; Kodella, K.; Srikrishnan, S.; Barrandon, O.; Anderson, S.; Rogers-Grazado, M.; Fowler, C.; Beyene, H.; Robichaud, N.; Fulton, T.; et al. A large-scale human toxicogenomics resource for drug-induced liver injury prediction. Nat. Commun. 2025, 16, 9860. https://doi.org/10.1038/s41467-025-65690-3.
+
+34. Subramanian, A.; Narayan, R.; Corsello, S.M.; Peck, D.D.; Natoli, T.E.; Lu, X.; Gould, J.; Davis, J.F.; Tubelli, A.A.; Asiedu, J.K.; et al. A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles. Cell 2017, 171, 1437–1452.e17. https://doi.org/10.1016/j.cell.2017.10.049.
+
+35. Srivatsan, S.R.; McFaline-Figueroa, J.L.; Ramani, V.; Saunders, L.; Cao, J.; Packer, J.; Pliner, H.A.; Jackson, D.L.; Daza, R.M.; Christiansen, L.; et al. Massively multiplex chemical transcriptomics at single-cell resolution. Science 2020, 367, 45–51. https://doi.org/10.1126/science.aax6234.
+
+36. Osorio, D.; Zhong, Y.; Li, G.; Xu, Q.; Yang, Y.; Tian, Y.; Chapkin, R.S.; Huang, J.Z.; Cai, J.J. scTenifoldKnk: An efficient virtual knockout tool for gene function predictions via single-cell gene regulatory network perturbation. Patterns 2022, 3, 100434. https://doi.org/10.1016/j.patter.2022.100434.
+
+37. Wei, Z.; Wang, Y.; Gao, Y.; Wang, S.; Li, P.; Si, D.; Gao, Y.; Wu, S.; Li, D.; Dong, K.; et al. Benchmarking algorithms for generalizable single-cell perturbation response prediction. Nat. Methods. 2026, 23, 451–464. https://doi.org/10.1038/s41592-025-02980-0.
+
+38. Ahlmann-Eltze, C.; Huber, W.; Anders, S. Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines. Nat. Methods. 2025, 22, 1657–1661. https://doi.org/10.1038/s41592-025-02772-6.
+
+39. Ledoit, O.; Wolf, M. A well-conditioned estimator for large-dimensional covariance matrices. J. Multivar. Anal. 2004, 88, 365–411. https://doi.org/10.1016/s0047-259x(03)00096-4.
+
+40. Kolde, R.; Laur, S.; Adler, P.; Vilo, J. Robust rank aggregation for gene list integration and meta-analysis. Bioinformatics 2012, 28, 573–580. https://doi.org/10.1093/bioinformatics/btr709.
+
+41. Köhler, S.; Bauer, S.; Horn, D.; Robinson, P.N. Walking the Interactome for Prioritization of Candidate Disease Genes. Am. J. Hum. Genet. 2008, 82, 949–958. https://doi.org/10.1016/j.ajhg.2008.02.013.
+
+42. Vanunu, O.; Magger, O.; Ruppin, E.; Shlomi, T.; Sharan, R. Associating Genes and Protein Complexes with Disease via Network Propagation. PLoS Comput. Biol. 2010, 6, e1000641. https://doi.org/10.1371/journal.pcbi.1000641.
+
+43. Schäfer, J.; Strimmer, K. A Shrinkage Approach to Large-Scale Covariance Matrix Estimation and Implications for Functional Genomics. Stat. Appl. Genet. Mol. Biol. 2005, 4, Article32. https://doi.org/10.2202/1544-6115.1175.
+
+44. Bonatti, M.; Pitozzi, V.; Caruso, P.; Pontis, S.; Pittelli, M.G.; Frati, C.; Madeddu, D.; Quaini, F.; Lagrasta, C.A.M.; Minato, I.; et al. Transcriptomic analysis reveals lipid metabolism and macrophage involvement associated with nintedanib treatment in a rat bleomycin model. Br. J. Pharmacol. 2026, 183, 3395–3408. https://doi.org/10.1111/bph.70311.
+
+45. Bousamaki, J.; Maciag, G.; Petersen, A.G.; Korntner, S.H.; Jansen, S.M.; Pors, S.E.; Mamsen, L.S.; Rasmussen, S.A.; Salinas, C.G.; Kruse, L.H.; et al. Nintedanib Lacks Efficacy in a Spirometry‐Confirmed and Bleomycin‐Induced Mouse Model of Idiopathic Pulmonary Fibrosis. Basic Clin. Pharmacol. Toxicol. 2026, 138, e70220. https://doi.org/10.1111/bcpt.70220.
+
+46. Watson, C.K.; Schloesser, D.; Fundel-Clemens, K.; Lerner, C.; Gabler, S.; Baskaran, P.; Wohnhaas, C.T.; Dichtl, S.; Huber, H.J.; Ask, K.; et al. Antifibrotic Drug Nintedanib Inhibits CSF1R to Promote IL-4–associated Tissue Repair Macrophages. Am. J. Respir. Cell Mol. Biol. 2023, 68, 366–380. https://doi.org/10.1165/rcmb.2022-0021oc.
+
+47. Lauer, D.; Magnin, C.Y.; Kolly, L.R.; Wang, H.; Brunner, M.; Chabria, M.; Cereghetti, G.M.; Gabryś, H.S.; Tanadini-Lang, S.; Uldry, A.-C.; et al. Radioproteomics stratifies molecular response to antifibrotic treatment in pulmonary fibrosis. JCI Insight 2024, 9, e181757. https://doi.org/10.1172/jci.insight.181757.
+
+48. von Elm, E.; Altman, D.G.; Egger, M.; Pocock, S.J.; Gøtzsche, P.C.; Vandenbroucke, J.P.; for the STROBE Initiative The Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) Statement: Guidelines for Reporting Observational Studies. Ann. Intern. Med. 2007, 147, 573–577. https://doi.org/10.7326/0003-4819-147-8-200710160-00010.
+
+49. Fusaroli, M.; Salvo, F.; Begaud, B.; AlShammari, T.M.; Bate, A.; Battini, V.; Brueckner, A.; Candore, G.; Carnovale, C.; Crisafulli, S.; et al. The Reporting of a Disproportionality Analysis for Drug Safety Signal Detection Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV): Development and Statement. Drug Saf. 2024, 47, 575–584. https://doi.org/10.1007/s40264-024-01421-9.
+
+50. Fusaroli, M.; Salvo, F.; Begaud, B.; AlShammari, T.M.; Bate, A.; Battini, V.; Brueckner, A.; Candore, G.; Carnovale, C.; Crisafulli, S.; et al. The REporting of A Disproportionality Analysis for DrUg Safety Signal Detection Using Individual Case Safety Reports in PharmacoVigilance (READUS-PV): Explanation and Elaboration. Drug Saf. 2024, 47, 585–599. https://doi.org/10.1007/s40264-024-01423-7.
+
+51. Simonsohn, U.; Simmons, J.P.; Nelson, L.D. Specification curve analysis. Nat. Hum. Behav. 2020, 4, 1208–1214. https://doi.org/10.1038/s41562-020-0912-z.
+
+52. Efron, B. Bootstrap Methods: Another Look at the Jackknife. Ann. Stat. 1979, 7, 1–26. https://doi.org/10.1214/aos/1176344552.
+
+53. Benjamini, Y.; Hochberg, Y. Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing. J. R. Stat. Soc. Ser. B Stat. Methodol. 1995, 57, 289–300. https://doi.org/10.1111/j.2517-6161.1995.tb02031.x.
+
+54. Davis, M.I.; Hunt, J.P.; Herrgard, S.; Ciceri, P.; Wodicka, L.M.; Pallares, G.; Hocker, M.; Treiber, D.K.; Zarrinkar, P.P. Comprehensive analysis of kinase inhibitor selectivity. Nat. Biotechnol. 2011, 29, 1046–1051. https://doi.org/10.1038/nbt.1990.
+
+55. Szklarczyk, D.; Kirsch, R.; Koutrouli, M.; Nastou, K.; Mehryary, F.; Hachilif, R.; Gable, A.L.; Fang, T.; Doncheva, N.T.; Pyysalo, S.; et al. The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest. Nucleic Acids Res. 2023, 51, D638–D646. https://doi.org/10.1093/nar/gkac1000.
+
+56. Adduri, A.K.; Gautam, D.; Bevilacqua, B.; Naghipourfar, M.; Imran, A.; Shah, R.; Teyssier, N.; Verma, R.; Carpenter, C.; Eraslan, B.; et al. Predicting cellular responses to perturbation across diverse contexts with State. Cell 2026, 189, 5914–5931.e20. https://doi.org/10.1016/j.cell.2026.07.052.
+
+57. Youngblut, N.D.; Carpenter, C.; Nayebnazar, A.; Adduri, A.; Shah, R.; Ricci-Tam, C.; Prashar, J.; Ilango, R.; Teyssier, N.; Konermann, S.; et al. scBaseCount: An AI agent-curated, standardized, auto-updated single-cell data repository. Cell 2026, 189, 5932–5944.e6. https://doi.org/10.1016/j.cell.2026.08.025.
+
+58. Moeini, A.; Torrecilla, S.; Tovar, V.; Montironi, C.; Andreu-Oller, C.; Peix, J.; Higuera, M.; Pfister, D.; Ramadori, P.; Pinyol, R.; et al. An Immune Gene Expression Signature Associated With Development of Human Hepatocellular Carcinoma Identifies Mice That Respond to Chemopreventive Agents. Gastroenterology 2019, 157, 1383–1397.e11. https://doi.org/10.1053/j.gastro.2019.07.028.
+
+59. Huang, X.; Cai, H.; Ammar, R.; Zhang, Y.; Wang, Y.; Ravi, K.; Thompson, J.; Jarai, G. Molecular characterization of a precision-cut rat liver slice model for the evaluation of antifibrotic compounds. Am. J. Physiol. Gastrointest. Liver Physiol. 2019, 316, G15–G24. https://doi.org/10.1152/ajpgi.00281.2018.
+
+60. Huang, X.; Li, L.; Ammar, R.; Zhang, Y.; Wang, Y.; Ravi, K.; Thompson, J.; Jarai, G. Molecular characterization of a precision-cut rat lung slice model for the evaluation of antifibrotic drugs. Am. J. Physiol. Lung Cell. Mol. Physiol. 2019, 316, L348–L357. https://doi.org/10.1152/ajplung.00339.2018.
+
+61. Zhang, L.; Qu, S.; Wang, L.; Wang, C.; Yu, Q.; Zhang, Z.; Diao, Y.; Zhang, B.; Li, Y.; Shi, Y.; et al. Tianlongkechuanling Inhibits Pulmonary Fibrosis Through Down-Regulation of Arginase-Ornithine Pathway. Front. Pharmacol. 2021, 12, 661129. https://doi.org/10.3389/fphar.2021.661129.
+
+62. Kullak-Ublick, G.A.; Andrade, R.J.; Merz, M.; End, P.; Benesic, A.; Gerbes, A.L.; Aithal, G.P. Drug-induced liver injury: recent advances in diagnosis and risk assessment. Gut 2017, 66, 1154–1164. https://doi.org/10.1136/gutjnl-2016-313369.
+
+63. Weaver, R.J.; Blomme, E.A.; Chadwick, A.E.; Copple, I.M.; Gerets, H.H.J.; Goldring, C.E.; Guillouzo, A.; Hewitt, P.G.; Ingelman-Sundberg, M.; Jensen, K.G.; et al. Managing the challenge of drug-induced liver injury: a roadmap for the development and deployment of preclinical predictive models. Nat. Rev. Drug Discov. 2020, 19, 131–148. https://doi.org/10.1038/s41573-019-0048-x.
+
+64. Ramachandran, P.; Dobie, R.; Wilson-Kanamori, J.R.; Dora, E.F.; Henderson, B.E.P.; Luu, N.T.; Portman, J.R.; Matchett, K.P.; Brice, M.; Marwick, J.A.; et al. Resolving the fibrotic niche of human liver cirrhosis at single-cell level. Nature 2019, 575, 512–518. https://doi.org/10.1038/s41586-019-1631-3.
+
+65. Chevalley, M.; Roohani, Y.H.; Mehrjou, A.; Leskovec, J.; Schwab, P. A large-scale benchmark for network inference from single-cell perturbation data. Commun. Biol. 2025, 8, 412. https://doi.org/10.1038/s42003-025-07764-y.
+
+66. Ding, B.-S.; Nolan, D.J.; Butler, J.M.; James, D.; Babazadeh, A.O.; Rosenwaks, Z.; Mittal, V.; Kobayashi, H.; Shido, K.; Lyden, D.; et al. Inductive angiocrine signals from sinusoidal endothelium are required for liver regeneration. Nature 2010, 468, 310–315. https://doi.org/10.1038/nature09493.
+
+67. Fang, Z.; Che, B.; Ling, Y.; Liu, P.; Liu, J.; Song, P.; Yue, Z.; Ruan, B.; Lin, Z.; Xu, H.; et al. Liver endothelial zonation orchestrates hepatic steatosis onset through retinoic acid–regulated FGF1. Sci. Adv. 2026, 12, eaed4384. https://doi.org/10.1126/sciadv.aed4384.
+
+68. Ding, B.-S.; Cao, Z.; Lis, R.; Nolan, D.J.; Guo, P.; Simons, M.; Penfold, M.E.; Shido, K.; Rabbany, S.Y.; Rafii, S. Divergent angiocrine signals from vascular niche balance liver regeneration and fibrosis. Nature 2014, 505, 97–102. https://doi.org/10.1038/nature12681.
+
+69. Böhm, F.; Speicher, T.; Hellerbrand, C.; Dickson, C.; Partanen, J.M.; Ornitz, D.M.; Werner, S. FGF Receptors 1 and 2 Control Chemically Induced Injury and Compound Detoxification in Regenerating Livers of Mice. Gastroenterology 2010, 139, 1385–1396.e8. https://doi.org/10.1053/j.gastro.2010.06.069.
+
+70. Zhao, Y.-N.; Liu, Z.-D.; Yan, T.; Xu, T.-X.; Jin, T.-Y.; Jiang, Y.-S.; Zuo, W.; Lee, K.Y.; Huang, L.-J.; Wang, Y. Macrophage-specific FGFR1 deletion alleviates high-fat-diet-induced liver inflammation by inhibiting the MAPKs/TNF pathways. Acta Pharmacol. Sin. 2024, 45, 988–1001. https://doi.org/10.1038/s41401-024-01226-7.
+
+71. Wollin, L.; Togbe, D.; Ryffel, B. Effects of Nintedanib in an Animal Model of Liver Fibrosis. Biomed Res. Int. 2020, 2020, 3867198. https://doi.org/10.1155/2020/3867198.
+
+72. Wu, Y.-T.; Li, Q.-Z.; Wu, Y.-Q.; Mu, M.; Wu, H.; Tian, H.-Y.; Zhao, X.-K. Nintedanib attenuates NLRP3 inflammasome-driven liver fibrosis by targeting Src signaling. Int. Immunopharmacol. 2024, 143, 113630. https://doi.org/10.1016/j.intimp.2024.113630.
+
+73. Mu, X.; Zeng, C.; Liu, H.; Sun, X.; Cao, Y.; Wu, M.; Yin, T.; Su, Y.; Zhao, J.; Wu, T.; et al. Decoupling efficacy from toxicity: Inhalable liposomal nintedanib for safe and effective treatment of pulmonary fibrosis. Eur. J. Pharm. Biopharm. 2026, 224, 115097. https://doi.org/10.1016/j.ejpb.2026.115097.
+
+74. Fares, W.H.; Castagna, M. Safety and Pharmacokinetic Data for Inhaled Administration of Nintedanib Dry Powder Inhalation for Treatment of Pulmonary Fibrotic Diseases. J. Aerosol Med. Pulm. Drug Deliv. 2026, 39, 185–197. https://doi.org/10.1177/19412711251414386.
+
+75. Miceli, V.; Callari, A.; Calzolari, E.; Castelbuono, S.; Carcione, C.; Lanzarone, N.; Martino, L.; Conaldi, P.G.; Pinzani, M.; Vitulo, P. Circulating biomarkers in patients with progressive fibrosing interstitial lung disease treated with nintedanib: a pilot study. Sci. Rep. 2025, 15, 27115. https://doi.org/10.1038/s41598-025-12952-1.
+
+76. Maher, T.M.; Jenkins, R.G.; Bonella, F.; Assassi, S.; Diefenbach, C.; Ittrich, C.; Rohr, K.B.; Kolb, M. Circulating biomarkers in subjects with progressive pulmonary fibrosis: data from the INBUILD trial. ERJ Open Res. 2026, 12, 00158–2025. https://doi.org/10.1183/23120541.00158-2025.
+
+77. Yakubovsky, O.; Bahar Halpern, K.; Shir, S.; Novoselsky, R.; Afriat, A.; Egozi, A.; Barkai, T.; Harnik, Y.; Hoefflin, R.; Korem Kohanim, Y.; et al. A spatial atlas of the healthy human liver from live donors. Nature 2026, 653, 1148–1157. https://doi.org/10.1038/s41586-026-10377-y.
+
+78. Weiss, C.A.M.; Brown, L.A.; Miranda, L.; Pellizzoni, P.; Steigerwald, S.; Remmert, K.; Hernandez, J.M.; Borgwardt, K.; Kleiner, D.E.; Ben-Moshe, S.; et al. Single-cell spatial proteomics maps human liver zonation patterns and their vulnerability to disruption in tissue architecture. Nat. Metab. 2026, 8, 741–756. https://doi.org/10.1038/s42255-026-01459-2.
+
+79. EMBL-European Bioinformatics Institute. ChEMBL: nintedanib (CHEMBL502835). Available online: https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL502835 (accessed on 4 September 2026).
+
+80. U.S. Food and Drug Administration. openFDA drug adverse event API. Release updated 30 July 2026. Available online: https://api.fda.gov/drug/event.json (accessed on 4 September 2026).
+
+81. National Center for Biotechnology Information. Gene Expression Omnibus: GSE70138 [dataset]. Available online: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138 (accessed on 4 September 2026).
+
+82. Ma’ayan Laboratory. Harmonizome: Sci-Plex chemical perturbation gene sets. Available online: https://maayanlab.cloud/Harmonizome/resource/Sci-Plex (accessed on 2 October 2026).
+
+83. National Center for Biotechnology Information. Gene Expression Omnibus: GSE115469 [dataset]. Available online: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115469 (accessed on 4 September 2026).
+
+84. National Center for Biotechnology Information. Gene Expression Omnibus: GSE125975 [dataset]. Available online: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE125975 (accessed on 19 September 2026).
+
+85. National Center for Biotechnology Information. Gene Expression Omnibus: GSE278200 [dataset]. Available online: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278200 (accessed on 4 September 2026).
+
+86. National Center for Biotechnology Information. Gene Expression Omnibus: GSE308578 [dataset]. Available online: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE308578 (accessed on 4 September 2026).
+
+87. National Center for Biotechnology Information. Gene Expression Omnibus: GSE151374 [dataset]. Available online: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE151374 (accessed on 4 September 2026).
+
+88. National Center for Biotechnology Information. BioProject: PRJNA635636 [dataset]. Available online: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA635636 (accessed on 4 September 2026).
+
+89. National Center for Biotechnology Information. Gene Expression Omnibus: GSE120804 [dataset]. Available online: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120804 (accessed on 4 September 2026).
+
+90. National Center for Biotechnology Information. Gene Expression Omnibus: GSE120679 [dataset]. Available online: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120679 (accessed on 4 September 2026).
+
+91. EMBL-European Bioinformatics Institute. PRIDE Archive: PXD024058 [dataset]. Available online: https://www.ebi.ac.uk/pride/archive/projects/PXD024058 (accessed on 4 September 2026).
+
+92. EMBL-European Bioinformatics Institute. PRIDE Archive: PXD052594 [dataset]. Available online: https://www.ebi.ac.uk/pride/archive/projects/PXD052594 (accessed on 4 September 2026).
+
+93. Lauer, D.; Gote-Schniering, J. Radioproteomics Stratifies Molecular Response to Antifibrotic Treatment in Pulmonary Fibrosis; Version 1; Zenodo: 2024. https://doi.org/10.5281/zenodo.11395642.
+
+94. National Center for Biotechnology Information. Gene Expression Omnibus: GSE299128 [dataset]. Available online: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE299128 (accessed on 4 September 2026).
+
+95. DNA Data Bank of Japan. BioProject: PRJDB12477; DRA012991 [dataset]. Available online: https://ddbj.nig.ac.jp/resource/bioproject/PRJDB12477 (accessed on 4 September 2026).
+
+96. EMBL-European Bioinformatics Institute. ChEMBL activity API: nintedanib (CHEMBL502835). Available online: https://www.ebi.ac.uk/chembl/api/data/activity.json?molecule_chembl_id=CHEMBL502835&limit=1000 (accessed on 4 September 2026).
+
+97. STRING Consortium. STRING application programming interface. Available online: https://string-db.org/help/api/ (accessed on 2 October 2026).

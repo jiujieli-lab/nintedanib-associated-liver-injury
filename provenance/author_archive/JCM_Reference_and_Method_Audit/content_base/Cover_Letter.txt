@@ -1,0 +1,23 @@
+Editors
+Journal of Clinical Medicine
+
+Dear Editors,
+
+Please consider our manuscript, “Clinical proteomics-guided network integration prioritizes PDGFRA and FLT4 for investigation of nintedanib-associated liver injury”, for publication as an Article in Journal of Clinical Medicine.
+
+Nintedanib benefits patients with fibrosing interstitial lung disease, but hepatic adverse effects can interrupt treatment. We address the translational question of which receptor and liver-cell context should be investigated to improve hepatic tolerability while preserving pulmonary antifibrotic activity. The study connects comparative pharmacovigilance and a human serum injury-protein phenotype with biochemical pharmacology, cellular drug responses and donor-balanced liver networks.
+
+PDGFRA and FLT4 remained the leading priorities across several integration rules and retained top-five positions in all 5000 source-weight perturbations. Published experimental measurements provide a biochemical basis for their engagement by nintedanib. Independent hepatic exposure identifies KDR as a pharmacodynamic comparator, while pulmonary datasets define relevant activity-preservation readouts. Matched-background and target-pair analyses delimit the interpretation of these priorities and guide receptor-specific perturbation and rescue experiments at controlled drug exposure.
+
+The manuscript fits the journal’s clinical and translational scope by linking a treatment-limiting safety problem to measurable human injury proteins and a focused experimental strategy. It provides an integrated basis for selecting hepatic receptor contexts and pharmacodynamic comparators, with source-specific methods, complete supporting results and reproducibility materials.
+
+Thank you for considering the manuscript.
+
+Sincerely,
+Hui Liu
+Corresponding author
+Jiangxi Provincial Key Laboratory of Cell Precision Therapy
+School of Basic Medical Sciences, Jiujiang University
+School of Nursing, Jiujiang University
+Jiujiang 332005, China
+Email: LIUHUIOKCA@163.com

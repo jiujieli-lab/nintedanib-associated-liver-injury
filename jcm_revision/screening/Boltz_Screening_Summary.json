@@ -1,0 +1,83 @@
+{
+  "runs": [
+    {
+      "target": "PDGFRA",
+      "job_id": "sm_scr_yj8Mql4gJXVkMnpXutHZ",
+      "status": "succeeded",
+      "input_n": 16,
+      "scored_n": 12,
+      "filtered_n": 4,
+      "filtered_compounds": [
+        "nintedanib",
+        "sunitinib",
+        "ponatinib",
+        "MAZ51"
+      ],
+      "top5_binding_confidence": [
+        {
+          "compound": "crenolanib",
+          "score": 0.9209288358688354
+        },
+        {
+          "compound": "ripretinib",
+          "score": 0.8489325046539307
+        },
+        {
+          "compound": "axitinib",
+          "score": 0.845274806022644
+        },
+        {
+          "compound": "tivozanib",
+          "score": 0.8214894533157349
+        },
+        {
+          "compound": "imatinib",
+          "score": 0.8044793605804443
+        }
+      ],
+      "started_at": "2026-10-02T15:13:19.437Z",
+      "completed_at": "2026-10-02T15:26:35.674Z"
+    },
+    {
+      "target": "FLT4",
+      "job_id": "sm_scr_kQsmq9RzAoo0cc3iuVM1",
+      "status": "succeeded",
+      "input_n": 16,
+      "scored_n": 12,
+      "filtered_n": 4,
+      "filtered_compounds": [
+        "nintedanib",
+        "sunitinib",
+        "ponatinib",
+        "MAZ51"
+      ],
+      "top5_binding_confidence": [
+        {
+          "compound": "tivozanib",
+          "score": 0.7886714935302734
+        },
+        {
+          "compound": "lenvatinib",
+          "score": 0.7540518045425415
+        },
+        {
+          "compound": "pazopanib",
+          "score": 0.7465399503707886
+        },
+        {
+          "compound": "axitinib",
+          "score": 0.7428815364837646
+        },
+        {
+          "compound": "ripretinib",
+          "score": 0.7368612289428711
+        }
+      ],
+      "started_at": "2026-10-02T15:14:21.728Z",
+      "completed_at": "2026-10-02T15:16:35.242Z"
+    }
+  ],
+  "scoring_scope": "Target-specific AI model outputs; not biochemical affinities or clinical probabilities",
+  "filtered_interpretation": "No score generated; filtering does not demonstrate absence of binding",
+  "software": "boltz-api 0.43.0"
+}

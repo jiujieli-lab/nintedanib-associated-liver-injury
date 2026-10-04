@@ -1,0 +1,17 @@
+name,chembl_id,canonical_smiles,standard_inchi_key,structure_url,identity_resolution
+nintedanib,CHEMBL502835,COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1,XZXHXSATPCNXJR-ZIADKAODSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL502835.json,Keep established ChEMBL502835 Z keto-enamine parent. PubChem common-name resolution returns a different enol-imine tautomer; exact InChIKey query validates selected parent.
+imatinib,CHEMBL941,Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1,KTUFNOKKBVMGRW-UHFFFAOYSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL941.json,
+crenolanib,CHEMBL2105728,CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1,DYNHJHQFHQTFTP-UHFFFAOYSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL2105728.json,
+avapritinib,CHEMBL4204794,Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1,DWYRIWUZIJHQKQ-SANMLTNESA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL4204794.json,
+ripretinib,CHEMBL4216467,CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21,CEFJVGZHQAGLHS-UHFFFAOYSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL4216467.json,
+axitinib,CHEMBL1289926,CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1,RITAVMQDGBJQJZ-FMIVXFBMSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1289926.json,
+tivozanib,CHEMBL1289494,COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC,SPMVMDHWKHCIDT-UHFFFAOYSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1289494.json,
+lenvatinib,CHEMBL1289601,COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O,WOSKHXYHFSIKNG-UHFFFAOYSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1289601.json,
+sunitinib,CHEMBL535,CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\C(=O)Nc3ccc(F)cc32)c1C,WINHZLLDWRZWRT-ATVHPVEESA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL535.json,
+pazopanib,CHEMBL477772,Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O,CUIHSIWYWATEQL-UHFFFAOYSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL477772.json,
+sorafenib,CHEMBL1336,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1,MLDQJTXFUGDVEO-UHFFFAOYSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1336.json,
+regorafenib,CHEMBL1946170,CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1,FNHKPVJBJVTLMP-UHFFFAOYSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1946170.json,
+ponatinib,CHEMBL1171837,Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12,PHXJVRSECIGDHY-UHFFFAOYSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1171837.json,
+MAZ51,CHEMBL597366,CN(C)c1ccc(/C=C2\C(=O)Nc3ccccc32)c2ccccc12,VFCXONOPGCDDBQ-AQTBWJFISA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL597366.json,"ChEMBL search hit with absent pref_name; exact stereochemical InChIKey matches PubChem CID9839842, whose synonyms include MAZ51. Research comparator; other isomer records exist."
+pirfenidone,CHEMBL1256391,Cc1ccc(=O)n(-c2ccccc2)c1,ISWRGOKTTBVCFA-UHFFFAOYSA-N,https://www.ebi.ac.uk/chembl/api/data/molecule/CHEMBL1256391.json,
+nerandomilast,CHEMBL5314532,C1CC(C1)(CO)NC2=NC(=NC3=C2[S@](=O)CC3)N4CCC(CC4)C5=NC=C(C=N5)Cl,UHYCLWAANUGUMN-SSEXGKCCSA-N,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/166177189/property/IsomericSMILES,InChI,InChIKey/JSON",PubChem 166177189 (5R) sulfoxide matches JASCAYD label section 11. ChEMBL5314532 sulfur stereochemistry unspecified; ChEMBL max_phase stale. Use selected PubChem stereospecific parent.

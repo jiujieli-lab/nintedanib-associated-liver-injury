@@ -1,0 +1,15 @@
+{
+  "primary_searches": 96,
+  "expected_primary_searches": 96,
+  "compound_target_groups": 32,
+  "every_group_has_three_searches": true,
+  "retained_primary_poses": 955,
+  "all_ligand_MMFF_converged": true,
+  "all_pose_SDFs_parse": true,
+  "all_scores_finite_and_match_raw_result": true,
+  "summed_job_elapsed_seconds_not_wall_time": 10244.724320256992,
+  "nintedanib_within_target_median_score_rank": {
+    "PDGFRA": 14,
+    "FLT4": 3
+  }
+}

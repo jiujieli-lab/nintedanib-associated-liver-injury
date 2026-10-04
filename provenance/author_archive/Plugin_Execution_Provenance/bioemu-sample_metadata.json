@@ -1,0 +1,820 @@
+{
+  "retrieved_date": "2026-10-02",
+  "schema": {
+    "tool_key": "bioemu-sample",
+    "description": "Protein conformational ensemble sampling using BioEmu",
+    "input_schema": {
+      "$defs": {
+        "Chain": {
+          "description": "Represents a single molecular chain with optional modifications.\n\nA chain consists of a sequence (protein, DNA, RNA, or ligand) along with\nits entity type and any chemical modifications. This class supports both\nsimple use cases (just a sequence) and complex cases with post-translational\nmodifications or nucleotide modifications.\n\nAttributes:\n    id (str | None): Optional chain identifier. ``None`` when the\n        consumer assigns identifiers positionally; set explicitly when the\n        chain's identity must be preserved (e.g. inverse-folding outputs\n        keyed to an input structure's chains).\n\n    sequence (str): The sequence of the chain. Format depends on entity_type:\n\n        - Protein: Amino acid sequence in single-letter code (e.g., \"MVLSPADKTN\")\n        - DNA: Nucleotide sequence (e.g., \"ATCGATCG\")\n        - RNA: Nucleotide sequence (e.g., \"AUGCAUGC\")\n        - Ligand: SMILES string or other model-specific format\n\n    entity_type (str | None): Type of molecular entity. Valid options:\n        ``\"protein\"``, ``\"dna\"``, ``\"rna\"``, ``\"ligand\"``. If ``None``,\n        automatically inferred from sequence composition using\n        ``detect_sequence_type()``.\n\n    modifications (list[ChainModification]): List of\n        modifications to apply to this chain. Each modification can be either:\n\n        - A ChainModification object\n        - A dict with ``position`` and ``modification_code`` keys (e.g. from JSON deserialization)\n        - A tuple of (position, modification_code) for convenience\n\n        All dicts and tuples are automatically converted to ChainModification objects.\n        Default: empty list (no modifications).\n\nExamples:\n    >>> # Simple protein chain (no modifications)\n    >>> chain = Chain(sequence=\"MVLSPADKTN\")\n    >>>\n    >>> # Protein with phosphorylation using ChainModification objects\n    >>> chain = Chain(\n    ...     sequence=\"MVLSPADKTN\",\n    ...     entity_type=\"protein\",\n    ...     modifications=[ChainModification(position=5, modification_code=\"SEP\")],\n    ... )\n    >>>\n    >>> # Protein with phosphorylation using tuples (more convenient)\n    >>> chain = Chain(sequence=\"MVLSPADKTN\", entity_type=\"protein\", modifications=[(5, \"SEP\")])\n    >>>\n    >>> # RNA with multiple modifications using tuples\n    >>> chain = Chain(sequence=\"AUGCAUGC\", entity_type=\"rna\", modifications=[(1, \"2MG\"), (4, \"5MC\")])\n\nNote:\n    The entity_type is automatically inferred if not provided, but can be\n    explicitly set for clarity or to override auto-detection. Modifications\n    are validated to ensure they don't exceed the sequence length.",
+          "properties": {
+            "id": {
+              "anyOf": [
+                {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional chain identifier; None when identifiers are assigned positionally.",
+              "title": "Id"
+            },
+            "sequence": {
+              "description": "Sequence of the chain (protein, DNA, RNA, or ligand SMILES)",
+              "title": "Sequence",
+              "type": "string"
+            },
+            "entity_type": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Entity type: 'protein', 'dna', 'rna', or 'ligand'. Auto-inferred if None.",
+              "title": "Entity Type"
+            },
+            "modifications": {
+              "description": "List of modifications to apply to this chain",
+              "items": {
+                "$ref": "#/$defs/ChainModification"
+              },
+              "title": "Modifications",
+              "type": "array"
+            }
+          },
+          "required": [
+            "sequence"
+          ],
+          "title": "Chain",
+          "type": "object"
+        },
+        "ChainModification": {
+          "description": "Represents a modification to a specific position in a molecular chain.\n\nModifications are specified using Chemical Component Dictionary (CCD) codes\nfrom the wwPDB.\n\nIMPORTANT NOTE: THE MODIFICATION POSITIONS USE 1-BASED INDEXING, WHICH\nFOLLOWS THE STANDARD BIOLOGICAL CONVENTIONS.\n\nAttributes:\n    position (int): 1-based position in the sequence where the modification occurs.\n        Must be greater than or equal to 1 and within the sequence length.\n\n    modification_code (str): Chemical Component Dictionary (CCD) code identifying\n        the modification. Commonly used examples for different entity types include:\n\n        - Protein PTMs: \"SEP\" (phosphoserine), \"TPO\" (phosphothreonine),\n          \"HY3\" (hydroxyproline), \"P1L\" (pyroglutamic acid)\n        - RNA modifications: \"2MG\" (2'-O-methylguanosine), \"5MC\" (5-methylcytidine),\n          \"PSU\" (pseudouridine)\n        - DNA modifications: \"6OG\" (8-oxoguanine), \"6MA\" (N6-methyladenine)\n\nExamples:\n    >>> # Phosphoserine at position 5\n    >>> mod = ChainModification(position=5, modification_code=\"SEP\")\n    >>>\n    >>> # 2'-O-methylguanosine at position 1 in RNA\n    >>> mod = ChainModification(position=1, modification_code=\"2MG\")\n\nNote:\n    Position indexing is 1-based (first residue/base is position 1), following\n    standard biological conventions and matching the format expected by most\n    structure prediction tools.",
+          "properties": {
+            "position": {
+              "description": "1-based position in the sequence where modification occurs",
+              "title": "Position",
+              "type": "integer"
+            },
+            "modification_code": {
+              "description": "Chemical Component Dictionary (CCD) code for the modification",
+              "title": "Modification Code",
+              "type": "string"
+            }
+          },
+          "required": [
+            "position",
+            "modification_code"
+          ],
+          "title": "ChainModification",
+          "type": "object"
+        },
+        "Complex": {
+          "additionalProperties": false,
+          "description": "An ordered multi-entity molecular complex.\n\nRepresents one or more chains (biopolymer ``Chain`` and/or ligand ``Fragment``)\nin a deterministic input order, each carrying an optional ``id``. Used as the\ncanonical multi-entity input to structure-prediction tools (whose inputs declare\n``complexes: list[Complex]``) and as the base of the inverse-folding output\ntype (``DesignedComplex``), so a design feeds a structure predictor directly\nvia LSP.\n\nConstruction is lenient. ``chains`` accepts:\n\n- A bare string (shorthand for a single-chain complex).\n- A list mixing strings (biopolymer sequences / SMILES — multi-fragment SMILES\n  auto-splits into N ``Fragment`` entries), dicts (``Chain`` or ``Fragment``\n  kwargs), ``Chain``/``Fragment`` instances, or ``Ligands`` collections\n  (expanded into one ``Fragment`` per fragment).\n\nThere is no chain-count cap; ``chain_label(i)`` generates positional fallback\nIDs A..Z, AA..ZZ, AAA... for chains without an explicit ``id``.\n\nUse ``Complex.from_structure(structure)`` to build a faithful ``Complex`` from\nan existing ``Structure`` (polymer chains + ligand HETATMs in input order).\n\nAttributes:\n    chains (list[Chain | Fragment]): Chains in the complex, in input order.",
+          "properties": {
+            "chains": {
+              "description": "Chains in the complex. Strings, dicts, Chain, Fragment, or Ligands.",
+              "items": {
+                "anyOf": [
+                  {
+                    "$ref": "#/$defs/Chain"
+                  },
+                  {
+                    "$ref": "#/$defs/Fragment"
+                  }
+                ]
+              },
+              "title": "Chains",
+              "type": "array"
+            }
+          },
+          "required": [
+            "chains"
+          ],
+          "title": "Complex",
+          "type": "object"
+        },
+        "ComplexMSAs": {
+          "additionalProperties": false,
+          "description": "MSAs for one complex's protein chains, keyed by chain index.\n\n``paired`` marks the per-chain MSAs as row-aligned across chains by taxonomy\n(row N of every chain is the same organism), which lets downstream predictors\nengage cross-chain pairing. Unpaired MSAs are independent per chain. A bare\n``dict[int, MSA]`` supplied to ``StructurePredictionInput.msas`` is coerced to\nan unpaired ``ComplexMSAs``.\n\nAttributes:\n    per_chain (dict[int, MSA]): Chain index (position in ``Complex.chains``)\n        → its MSA. When ``paired`` is ``True`` these are the row-aligned paired MSAs.\n    paired (bool): Whether the per-chain MSAs are row-aligned across chains.\n        When ``True``, all chains must share the same row count.\n    unpaired_per_chain (dict[int, MSA] | None): For paired heterocomplexes only,\n        each chain's deep *unpaired* MSA (independent homologs), retained alongside\n        the paired rows so predictors can use full per-chain depth. ``None`` otherwise.",
+          "properties": {
+            "per_chain": {
+              "additionalProperties": {
+                "$ref": "#/$defs/MSA"
+              },
+              "description": "Chain index → MSA for each protein chain.",
+              "title": "Per Chain",
+              "type": "object"
+            },
+            "paired": {
+              "default": false,
+              "description": "Whether rows are taxonomy-aligned across chains.",
+              "title": "Paired",
+              "type": "boolean"
+            },
+            "unpaired_per_chain": {
+              "anyOf": [
+                {
+                  "additionalProperties": {
+                    "$ref": "#/$defs/MSA"
+                  },
+                  "type": "object"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Deep per-chain unpaired MSAs retained alongside paired rows; set only for paired heterocomplexes.",
+              "title": "Unpaired Per-Chain MSAs"
+            }
+          },
+          "required": [
+            "per_chain"
+          ],
+          "title": "ComplexMSAs",
+          "type": "object"
+        },
+        "Fragment": {
+          "additionalProperties": false,
+          "description": "A single small molecule with optional CCD code.\n\nAt least one of ``smiles`` or ``ccd_code`` must be provided. When only one\nis given, the other is resolved automatically from the CCD database. When\nboth are given, they are validated to refer to the same molecule.\n\nA Fragment must contain exactly one molecule. For multi-component inputs\n(dot-separated SMILES, multiple CCD codes), use ``Ligands`` instead.\n\nThe RDKit ``Mol`` object is lazy-loaded from the SMILES on first access\nvia the ``mol`` property. Use ``Fragment.from_mol()`` to construct from an\nexisting Mol.\n\nAttributes:\n    smiles (str | None): SMILES string (canonicalized to RDKit form on construction).\n    ccd_code (str | None): CCD code from the Chemical Component Dictionary.\n    entity_type (Literal[\"ligand\"]): Always ``\"ligand\"``. Lets Fragments be used\n        interchangeably with ``Chain`` in structure-prediction inputs.\n    name (str | None): Human-readable molecule name.\n    metrics (dict[str, float]): Computed metrics for this fragment.",
+          "properties": {
+            "id": {
+              "anyOf": [
+                {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Optional identifier (free-form; e.g. a chain letter for in-complex use).",
+              "title": "Id"
+            },
+            "smiles": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "SMILES string",
+              "title": "Smiles"
+            },
+            "ccd_code": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "CCD code",
+              "title": "Ccd Code"
+            },
+            "entity_type": {
+              "const": "ligand",
+              "default": "ligand",
+              "description": "Always 'ligand'",
+              "title": "Entity Type",
+              "type": "string"
+            },
+            "name": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Molecule name",
+              "title": "Name"
+            },
+            "metrics": {
+              "additionalProperties": {
+                "type": "number"
+              },
+              "description": "Computed metrics",
+              "title": "Metrics",
+              "type": "object"
+            }
+          },
+          "title": "Fragment",
+          "type": "object"
+        },
+        "MSA": {
+          "additionalProperties": false,
+          "description": "Multiple Sequence Alignment (MSA) representation.\n\nA Pydantic model for storing and analyzing aligned biological sequences.\nSupports both protein and nucleotide alignments. Sequences are always held\nin memory. Use ``MSA.from_file()`` to load from FASTA or A3M files.\n\nAttributes:\n    aligned_sequences (list[str]): Aligned sequences with ``-`` characters\n        indicating gaps. All sequences must have the same length.\n    sequence_ids (list[str]): Identifiers for each sequence. Auto-generated\n        as ``seq_0``, ``seq_1``, ... if not provided.",
+          "properties": {
+            "aligned_sequences": {
+              "description": "Aligned sequences, all same length, with '-' for gaps",
+              "items": {
+                "type": "string"
+              },
+              "title": "Aligned Sequences",
+              "type": "array"
+            },
+            "sequence_ids": {
+              "description": "Sequence identifiers",
+              "items": {
+                "type": "string"
+              },
+              "title": "Sequence Ids",
+              "type": "array"
+            }
+          },
+          "required": [
+            "aligned_sequences",
+            "sequence_ids"
+          ],
+          "title": "MSA",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Input object for BioEmu conformational ensemble sampling.\n\nAttributes:\n    complexes (list[Complex]): Protein complexes to sample.\n        BioEmu supports monomer-only inputs, so each complex must contain one\n        protein chain.\n    msas (list[ComplexMSAs] | None): Pre-computed MSAs, one\n        entry per complex. Each entry maps chain index to its MSA. BioEmu is\n        single-chain, so only chain index ``0`` is read. Populated by\n        ``preprocess()`` or supplied directly. Default: ``None``.",
+      "properties": {
+        "complexes": {
+          "description": "List of complexes to predict structure for containing chains and entity types.",
+          "items": {
+            "$ref": "#/$defs/Complex"
+          },
+          "title": "Complexes",
+          "type": "array"
+        },
+        "msas": {
+          "anyOf": [
+            {
+              "items": {
+                "$ref": "#/$defs/ComplexMSAs"
+              },
+              "type": "array"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Per-complex MSAs; a bare dict[int, MSA] is coerced to an unpaired ComplexMSAs.",
+          "title": "MSAs"
+        }
+      },
+      "required": [
+        "complexes"
+      ],
+      "title": "BioEmuInput",
+      "type": "object"
+    },
+    "config_schema": {
+      "$defs": {
+        "Mmseqs2HomologySearchConfig": {
+          "additionalProperties": false,
+          "description": "Configuration for ``mmseqs2-homology-search``.\n\nAttributes:\n    search_mode (Literal[\"local\", \"remote\"]): ``\"local\"`` runs MMseqs2\n        against a registry-provisioned DB on disk; ``\"remote\"`` (the\n        default) queries the ColabFold MSA API over the network and needs\n        no local DB.\n    dataset (Literal[\"colabfold-envdb-202108\", \"uniref30-2302\"]): Local-only\n        (ignored when remote). Registered key of the searchable reference\n        database; one ColabFold protein DB.\n    device (str): Local-only (ignored when remote). A ``cuda`` device runs\n        MMseqs2-GPU and requires a ``.idx_pad`` index, an NVIDIA GPU\n        (Turing+), and a Linux host; ``\"cpu\"`` (the default) runs the CPU\n        pipeline. A specific device such as ``\"cuda:1\"`` is honoured.\n    use_metagenomic_db (bool): Include the metagenomic/environmental DB\n        (ColabFoldDB envdb) to deepen unpaired MSAs. Works in both modes;\n        local mode requires the ``colabfold-envdb-202108`` dataset\n        provisioned. Default ``False``. Does not affect cross-chain pairing.\n    pairing_strategy (Literal[\"greedy\", \"complete\"]): Cross-chain pairing\n        strategy for paired (multi-chain) groups. ``\"greedy\"`` pairs a\n        species found in at least two chains; ``\"complete\"`` only pairs a\n        species present in every chain. Ignored for singleton groups.\n    sensitivity (float | None): Local-only (ignored when remote). MMseqs2\n        ``-s`` override; ignored on a ``cuda`` device. ``None`` uses the\n        dataset's registered default.\n    num_threads (int | None): Local-only. CPU threads; ``None`` auto-detects\n        all cores.\n    timeout (int | None): Local subprocess cap, or seconds to wait for a remote submission.\n        Generous by default: the MSA server queues, and a submission carries many queries.\n        ``None`` waits indefinitely.\n\nNote:\n    A3M files are written to a per-call temporary directory and parsed\n    into in-memory ``MSA`` objects on the result. The temp dir is\n    cleaned up after the call returns. Use ``result.export(path, \"a3m\")``\n    to materialize files at a chosen location — same persistence API\n    as every other proto-tool with file outputs.",
+          "properties": {
+            "verbose": {
+              "default": 0,
+              "description": "Verbosity level (0=quiet, 1=info, 2=debug, 3=raw subprocess stderr). True→1, False→0.",
+              "maximum": 3,
+              "minimum": 0,
+              "reload_on_change": false,
+              "title": "Verbose",
+              "type": "integer"
+            },
+            "device": {
+              "default": "cpu",
+              "description": "`cuda` (or `cuda:N`) runs MMseqs2-GPU, needing a `.idx_pad` index and Linux; `cpu` runs on CPU.",
+              "reload_on_change": false,
+              "title": "Device",
+              "type": "string"
+            },
+            "timeout": {
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": 21600,
+              "description": "Seconds per local subprocess or remote submission; `None` waits indefinitely.",
+              "reload_on_change": false,
+              "title": "Timeout"
+            },
+            "seed": {
+              "anyOf": [
+                {
+                  "exclusiveMaximum": 4294967296,
+                  "minimum": 0,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Random seed for reproducible results. Some cacheable tools gate cache on this field.",
+              "reload_on_change": false,
+              "title": "Random Seed"
+            },
+            "search_mode": {
+              "default": "remote",
+              "description": "`remote` queries ColabFold's MSA API; `local` runs MMseqs2 against a registry-provisioned DB.",
+              "enum": [
+                "local",
+                "remote"
+              ],
+              "reload_on_change": false,
+              "title": "Search Mode",
+              "type": "string"
+            },
+            "dataset": {
+              "default": "uniref30-2302",
+              "description": "Registered ColabFold protein database to search (e.g. `uniref30-2302`); one per call.",
+              "enum": [
+                "colabfold-envdb-202108",
+                "uniref30-2302"
+              ],
+              "reload_on_change": false,
+              "title": "Dataset",
+              "type": "string"
+            },
+            "use_metagenomic_db": {
+              "default": false,
+              "description": "Include the metagenomic/environmental DB (ColabFoldDB envdb); local mode needs it provisioned.",
+              "reload_on_change": false,
+              "title": "Use Metagenomic Database",
+              "type": "boolean"
+            },
+            "pairing_strategy": {
+              "default": "greedy",
+              "description": "Cross-chain pairing for paired groups: `greedy` (species in >=2 chains) or `complete` (all).",
+              "enum": [
+                "greedy",
+                "complete"
+              ],
+              "reload_on_change": false,
+              "title": "Pairing Strategy",
+              "type": "string"
+            },
+            "sensitivity": {
+              "anyOf": [
+                {
+                  "maximum": 9,
+                  "minimum": 1,
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "MMseqs2 `-s` override (1.0-9.0); ignored on GPU; `None` uses the dataset's default.",
+              "reload_on_change": false,
+              "title": "MMseqs2 Sensitivity"
+            },
+            "num_threads": {
+              "anyOf": [
+                {
+                  "minimum": 1,
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "CPU threads; `None` auto-detects all available cores.",
+              "reload_on_change": false,
+              "title": "Number of Threads"
+            }
+          },
+          "title": "Mmseqs2HomologySearchConfig",
+          "type": "object"
+        }
+      },
+      "additionalProperties": false,
+      "description": "Configuration object for BioEmu conformational ensemble sampling.\n\nBioEmu always requires MSA-derived Evoformer embeddings. Unlike structure\nprediction tools (which have an optional ``use_msa`` toggle), this config\nalways runs MMseqs2 homology search during preprocessing to generate MSAs. If MSAs\nare pre-supplied on the input, the search is skipped.\n\nAttributes:\n    num_samples (int): Number of conformations to sample per input sequence.\n    model_name (Literal['bioemu-v1.0', 'bioemu-v1.1', 'bioemu-v1.2']):\n        Checkpoint variant (v1.1 = Science paper; v1.2 = extended MD + folding-FE).\n    filter_samples (bool): Drop unphysical samples (steric clashes, chain breaks).\n    batch_size (int): Upstream's ``batch_size_100``; effective batch is\n        ``batch_size * (100 / L) ** 2``.\n    denoiser_type (Literal['dpm', 'heun']): Sampler algorithm — ``dpm``\n        is 50 deterministic steps; ``heun`` is stochastic.\n    denoiser_config (str | None): Path to a custom denoiser/steering YAML;\n        overrides ``denoiser_type`` when set.\n    msa_host_url (str | None): Override the ColabFold MMseqs2 MSA server URL.\n    cache_embeds_dir (str | None): Directory to cache MSA embeddings across runs.\n    cache_so3_dir (str | None): Directory to cache SO3 precomputations across runs.\n    output_dir (str | None): Optional directory for raw BioEmu outputs.\n    msa_search_config (Mmseqs2HomologySearchConfig | None): MMseqs2 homology\n        search config (MSA generation). Defaults are used when ``None``.\n    include_pae_matrix (bool): Redeclared but unused (no PAE in conformational sampling).\n    timeout (int | None): Maximum execution time in seconds. Default: 3600.\n    device (str): Inference device (inherited).\n    verbose (bool): Verbose logging toggle (inherited).",
+      "properties": {
+        "verbose": {
+          "default": 0,
+          "description": "Verbosity level (0=quiet, 1=info, 2=debug, 3=raw subprocess stderr). True→1, False→0.",
+          "maximum": 3,
+          "minimum": 0,
+          "reload_on_change": false,
+          "title": "Verbose",
+          "type": "integer"
+        },
+        "timeout": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": 3600,
+          "description": "Maximum execution time in seconds. None waits indefinitely.",
+          "reload_on_change": false,
+          "title": "Timeout"
+        },
+        "seed": {
+          "anyOf": [
+            {
+              "exclusiveMaximum": 4294967296,
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Random seed for reproducible results. Some cacheable tools gate cache on this field.",
+          "reload_on_change": false,
+          "title": "Random Seed"
+        },
+        "include_pae_matrix": {
+          "default": false,
+          "description": "Unused by BioEmu (inherited from StructurePredictionConfig)",
+          "reload_on_change": false,
+          "title": "Include PAE Matrix",
+          "type": "boolean"
+        },
+        "num_samples": {
+          "default": 500,
+          "description": "Number of conformations to sample per sequence",
+          "minimum": 1,
+          "reload_on_change": false,
+          "title": "Number of Samples",
+          "type": "integer"
+        },
+        "model_name": {
+          "default": "bioemu-v1.1",
+          "description": "BioEmu checkpoint (v1.1 = Science paper; v1.2 = extended MD + folding-FE training)",
+          "enum": [
+            "bioemu-v1.0",
+            "bioemu-v1.1",
+            "bioemu-v1.2"
+          ],
+          "reload_on_change": true,
+          "title": "Model Name",
+          "type": "string"
+        },
+        "filter_samples": {
+          "default": true,
+          "description": "Drop unphysical samples (steric clashes, chain discontinuities)",
+          "reload_on_change": false,
+          "title": "Filter Samples",
+          "type": "boolean"
+        },
+        "batch_size": {
+          "default": 10,
+          "description": "Batch size at L=100; effective batch scales as batch_size * (100/L)^2",
+          "minimum": 1,
+          "reload_on_change": false,
+          "title": "Batch Size",
+          "type": "integer"
+        },
+        "denoiser_type": {
+          "default": "dpm",
+          "description": "Diffusion sampler algorithm (dpm = 50 deterministic steps; heun = stochastic)",
+          "enum": [
+            "dpm",
+            "heun"
+          ],
+          "reload_on_change": false,
+          "title": "Denoiser Type",
+          "type": "string"
+        },
+        "denoiser_config": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Path to a custom denoiser/steering YAML; overrides denoiser_type when set",
+          "examples": [
+            "physical_steering.yaml"
+          ],
+          "reload_on_change": false,
+          "title": "Denoiser Config Path"
+        },
+        "msa_host_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Override the ColabFold MMseqs2 MSA server URL",
+          "reload_on_change": false,
+          "title": "MSA Host URL"
+        },
+        "cache_embeds_dir": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Directory to cache MSA embeddings across runs",
+          "reload_on_change": false,
+          "title": "MSA Embeds Cache Dir"
+        },
+        "cache_so3_dir": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Directory to cache SO3 precomputations across runs",
+          "reload_on_change": false,
+          "title": "SO3 Cache Dir"
+        },
+        "output_dir": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Optional directory for raw BioEmu output files",
+          "reload_on_change": false,
+          "title": "Output Directory"
+        },
+        "msa_search_config": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Mmseqs2HomologySearchConfig"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Configuration for MMseqs2 homology search (MSA generation); None uses defaults",
+          "reload_on_change": false,
+          "title": "MSA Search Config"
+        }
+      },
+      "title": "BioEmuConfig",
+      "type": "object"
+    },
+    "output_schema": {
+      "$defs": {
+        "BFactorType": {
+          "description": "What the B-factor column contains.",
+          "enum": [
+            "temperature_factor",
+            "pLDDT",
+            "normalized_pLDDT",
+            "confidence",
+            "unknown",
+            "unspecified"
+          ],
+          "title": "BFactorType",
+          "type": "string"
+        },
+        "Metrics": {
+          "additionalProperties": true,
+          "description": "Dual-access metric container for tool outputs.\n\nStores arbitrary metric values via Pydantic's ``extra=\"allow\"``, so values\nare accessible both as attributes (``m.plddt``) and as items (``m[\"plddt\"]``).\nSubclasses may declare additional Pydantic fields for raw model outputs\n(logits, vocab, pdb_source, etc.) — those live in ``__dict__`` and do not\nleak into metric iteration. ``items``, ``keys``, ``values``, and\n``__contains__`` walk ``__pydantic_extra__`` only.\n\nSubclasses declare ``metric_spec`` to document ranges, types, and\navailability. Validation against the spec is performed by test helpers\n(``tests/tool_infra_tests/_metric_helpers.py``), not at construction.\n\nExample:\n    >>> class ESM2Score(Metrics):\n    ...     metric_spec: ClassVar = {\n    ...         \"perplexity\": {\"type\": \"float\", \"min\": 1.0, \"max\": None},\n    ...         \"log_likelihood\": {\"type\": \"float\", \"min\": None, \"max\": 0.0},\n    ...     }\n    ...     logits: list[list[float]] | None = None  # raw model output\n    >>> s = ESM2Score(perplexity=3.14, log_likelihood=-10.5, logits=[[0.1]])\n    >>> s.perplexity\n    3.14\n    >>> s[\"perplexity\"]\n    3.14\n    >>> s.logits\n    [[0.1]]\n    >>> list(s.items())\n    [('perplexity', 3.14), ('log_likelihood', -10.5)]\n    >>> \"logits\" in s\n    False\n\nAttributes:\n    metric_spec (ClassVar[dict[str, MetricSpec]]): Per-subclass declarative\n        metadata describing each metric's type, range, and availability.\n        Empty on the base class; subclasses override.\n    primary_metric (str | None): Name of the metric that best summarizes\n        the result overall (e.g. ``\"avg_plddt\"`` for AlphaFold2). Used by\n        downstream UI and reporting to pick a headline value.",
+          "properties": {
+            "primary_metric": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Headline metric used to rank results.",
+              "title": "Primary Metric"
+            },
+            "metric_type": {
+              "default": "Metrics",
+              "description": "Concrete Metrics subclass tag; enables typed reconstruction after a serialization round-trip.",
+              "title": "Metric Type",
+              "type": "string"
+            }
+          },
+          "title": "Metrics",
+          "type": "object"
+        },
+        "Structure": {
+          "additionalProperties": false,
+          "description": "Standardized representation of a macromolecular structure (protein, nucleic acid, etc.).\n\nA Pydantic model storing structure content as a PDB or CIF format string.\nThe ``structure`` field accepts either the raw content string or a path to a\n``.pdb``/``.cif``/``.mmcif`` file — paths are loaded transparently at construction\ntime. ``Structure.from_file()`` is also available as an explicit factory.\n\n``Structure.model_validate`` also accepts a bare ``str`` or ``Path`` as shorthand\nfor ``{\"structure\": <value>}``, so any nested field typed ``Structure`` (e.g.\n``SequenceStructurePair.structure``, ``MutationInput.structure``) takes a raw\nPDB/CIF string or file path directly — no ``{\"structure\": ...}`` envelope required.\n\nHeavy objects (gemmi parsed structure) are lazy-loaded via ``PrivateAttr``.\n\nAttributes:\n    structure (str): Raw structure content in PDB or CIF format.\n    structure_format (Literal[\"pdb\", \"cif\"] | None): Format of the content string (auto-detected if omitted).\n    b_factor_type (BFactorType): What the B-factor column represents.\n    source (str | None): Optional source identifier (filepath or tool name).\n    metrics (Metrics): Associated metrics (e.g., pLDDT, pTM scores,\n        per-chain lists, pairwise matrices). None values are stripped at construction.",
+          "properties": {
+            "structure": {
+              "description": "Raw structure content (PDB or CIF format string)",
+              "title": "PDB or CIF Content",
+              "type": "string"
+            },
+            "structure_format": {
+              "anyOf": [
+                {
+                  "enum": [
+                    "pdb",
+                    "cif"
+                  ],
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Format of the structure content",
+              "title": "Structure Format"
+            },
+            "b_factor_type": {
+              "$ref": "#/$defs/BFactorType",
+              "default": "unspecified",
+              "description": "What the B-factor column represents",
+              "title": "B-Factor Type"
+            },
+            "source": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "default": null,
+              "description": "Origin identifier (e.g. file path, PDB ID, or producing tool name)",
+              "title": "Source"
+            },
+            "metrics": {
+              "$ref": "#/$defs/Metrics",
+              "description": "Structure-level metrics attached by the producing tool (e.g. pLDDT, pTM, PAE)",
+              "title": "Associated Metrics"
+            }
+          },
+          "required": [
+            "structure"
+          ],
+          "title": "Structure",
+          "type": "object"
+        },
+        "StructureEnsemble": {
+          "description": "Container for a conformational ensemble of structures.\n\nThis class represents an ensemble of sampled conformations for a single\ninput sequence, with each conformation stored as a Structure.\n\nAttributes:\n    structures (list[Structure]): List of sampled conformational\n        structures. Each Structure represents a single backbone\n        conformation from the ensemble.\n\n    sequence (str): The input protein sequence.",
+          "properties": {
+            "structures": {
+              "description": "Sampled conformational structures, one per frame in the ensemble.",
+              "items": {
+                "$ref": "#/$defs/Structure"
+              },
+              "title": "Structures",
+              "type": "array"
+            },
+            "sequence": {
+              "description": "Input protein sequence shared by all conformations in the ensemble.",
+              "title": "Sequence",
+              "type": "string"
+            }
+          },
+          "required": [
+            "structures",
+            "sequence"
+          ],
+          "title": "StructureEnsemble",
+          "type": "object"
+        }
+      },
+      "description": "Output object for BioEmu conformational ensemble sampling.\n\nAttributes:\n    ensembles (list[StructureEnsemble]): Generated ensembles, one per\n        input complex.",
+      "examples": [
+        {
+          "errors": [],
+          "execution_time": 45.2,
+          "metadata": {
+            "blast_version": "2.14.0",
+            "database_size": 1000000
+          },
+          "success": true,
+          "timestamp": "2025-10-06T10:30:00Z",
+          "tool_id": "blast-search",
+          "warnings": []
+        }
+      ],
+      "properties": {
+        "ensembles": {
+          "description": "Generated protein conformational ensembles",
+          "items": {
+            "$ref": "#/$defs/StructureEnsemble"
+          },
+          "title": "Ensembles",
+          "type": "array"
+        }
+      },
+      "required": [
+        "ensembles"
+      ],
+      "title": "BioEmuOutput",
+      "type": "object"
+    },
+    "has_example": true,
+    "status": "needs_deploy"
+  },
+  "example": {
+    "result": {
+      "complexes": [
+        {
+          "chains": [
+            {
+              "id": null,
+              "sequence": "MKTL",
+              "entity_type": "protein",
+              "modifications": []
+            }
+          ]
+        }
+      ],
+      "msas": [
+        {
+          "per_chain": {
+            "0": {
+              "aligned_sequences": [
+                "MKTL",
+                "MKTL"
+              ],
+              "sequence_ids": [
+                "query",
+                "dummy_homolog"
+              ]
+            }
+          },
+          "paired": false,
+          "unpaired_per_chain": null
+        }
+      ]
+    }
+  },
+  "info": {
+    "tool_key": "bioemu-sample",
+    "description": "Protein conformational ensemble sampling using BioEmu",
+    "category": "structure_dynamics",
+    "source": "https://github.com/evo-design/proto-tools/tree/main/proto_tools/tools/structure_dynamics/bioemu",
+    "links": {
+      "github": "https://github.com/microsoft/bioemu",
+      "organizations": [
+        "Microsoft Research"
+      ]
+    },
+    "bibtex": "@article{lewis2025bioemu,\n  title={Scalable emulation of protein equilibrium ensembles with generative deep learning},\n  author={Lewis, Sarah and Hempel, Tim and Jim{\\'e}nez-Luna, Jos{\\'e} and Gastegger, Michael and Xie, Yu and Foong, Andrew Y K and Satorras, Victor Garc{\\'i}a and Abdin, Osama and Veeling, Bastiaan S and Zaporozhets, Iryna and Chen, Yaoyi and Yang, Soojung and Foster, Adam E and Schneuing, Arne and Nigam, Jigyasa and Barbero, Federico and Stimper, Vincent and Campbell, Andrew and Yim, Jason and Lienen, Marten and Shi, Yu and Zheng, Shuxin and Schulz, Hannes and Munir, Usman and Sordillo, Roberto and Tomioka, Ryota and Clementi, Cecilia and No{\\'e}, Frank},\n  journal={Science},\n  volume={389},\n  number={6761},\n  pages={eadv9817},\n  year={2025},\n  publisher={American Association for the Advancement of Science},\n  doi={10.1126/science.adv9817}\n}",
+    "doi": "10.1126/science.adv9817",
+    "docs_url": "https://bio-pro.mintlify.app/tools/structure-dynamics/bioemu",
+    "license": {
+      "code": {
+        "spdx": "MIT",
+        "url": "https://github.com/microsoft/bioemu/blob/main/LICENSE"
+      },
+      "commercial_use": "yes",
+      "redistribution": true,
+      "attribution_required": false,
+      "notes": "BioEmu (Microsoft Research) code is MIT; HuggingFace microsoft/bioemu model card declares MIT. Bundles vendored AlphaFold2 (Apache-2.0) and ColabFold (MIT) for MSA embedding.",
+      "last_updated": "2026-05-01"
+    },
+    "weights_access": "open"
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "number": 98,
+    "doi": "10.1021/acs.jcim.1c00203",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facs.jcim.1c00203",
+    "status": "fetched",
+    "file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_98.json"
+  },
+  {
+    "number": 99,
+    "doi": "10.1021/acs.jcim.5c02271",
+    "source_url": "https://api.crossref.org/works/10.1021%2Facs.jcim.5c02271",
+    "status": "fetched",
+    "file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_99.json"
+  },
+  {
+    "number": 100,
+    "doi": "10.5281/zenodo.22140358",
+    "source_url": "https://api.datacite.org/dois/10.5281%2Fzenodo.22140358",
+    "status": "fetched",
+    "file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_100.json"
+  },
+  {
+    "number": 101,
+    "doi": "10.1093/nar/gkad1011",
+    "source_url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkad1011",
+    "status": "fetched",
+    "file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_101.json"
+  },
+  {
+    "number": 102,
+    "doi": "10.1093/nar/gkab1061",
+    "source_url": "https://api.crossref.org/works/10.1093%2Fnar%2Fgkab1061",
+    "status": "fetched",
+    "file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_102.json"
+  },
+  {
+    "number": 103,
+    "doi": "10.1038/s41586-021-03819-2",
+    "source_url": "https://api.crossref.org/works/10.1038%2Fs41586-021-03819-2",
+    "status": "fetched",
+    "file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_103.json"
+  },
+  {
+    "number": 104,
+    "doi": "10.2210/pdb6JOL/pdb",
+    "source_url": "https://api.datacite.org/dois/10.2210%2Fpdb6JOL%2Fpdb",
+    "status": "error",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "number": 105,
+    "doi": "10.1016/j.ajpath.2020.06.006",
+    "source_url": "https://api.crossref.org/works/10.1016%2Fj.ajpath.2020.06.006",
+    "status": "error",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "number": 106,
+    "doi": "10.1007/s10456-020-09718-w",
+    "source_url": "https://api.crossref.org/works/10.1007%2Fs10456-020-09718-w",
+    "status": "fetched",
+    "file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_106.json"
+  },
+  {
+    "number": 107,
+    "doi": "10.1038/nbt1358",
+    "source_url": "https://api.crossref.org/works/10.1038%2Fnbt1358",
+    "status": "fetched",
+    "file": "/workspace/scratch/c5634a2d588f/work/jcm_revision/journal_audit/new_reference_metadata/new_ref_107.json"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "freeze_date_utc": "2026-09-19",
+  "external_liver_validation_used_in_network_design_or_thresholds": false,
+  "fixed_primary_setting": {
+    "edge_mode": "positive",
+    "k_neighbors": 20,
+    "restart_probability": 0.5,
+    "primary_seed_weights": "absolute discovery DO_vs_HV Cliff delta",
+    "expression_threshold": 0.1
+  },
+  "files": {
+    "candidate_network_summary.csv": "46a65c25813d66554a6fd9eb46b16211eb14569ae9c04621ba7dd55e2fcd7320",
+    "network_specification_scores.csv": "715556deaa7c6c41b529aca5f28e8f3d252ac135d8d68ea8a66736cc604feb08",
+    "network_donor_lodo_scores.csv": "ff855b8f520bf1d1d133ad2d2e7677442c8df982db243e43859313d73d6b9fe9",
+    "network_null_matching_sensitivity.csv": "47aa0b421a7d466f38b6df1ffa031a13b915677a6c781ec659ce8f09d6bedfd8",
+    "network_shrinkage_ablation.csv": "13af5126c14736dc9137ee776d153e84ef93447ee781f9b67f3bd1272c704569",
+    "network_target_anchor_contributions.csv": "42eca3b02ac3307b296a00d17d116959f06830a0c9ff0ef6bc50594a29b66025",
+    "run_network_diffusion.py": "c0b238b3b2ad48cc40efe9351173509b41ca7fd191361437b0bbf3fecec51010"
+  }
+}

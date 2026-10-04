@@ -1,0 +1,51 @@
+JCM CONTENT BASE — INTERNAL INTEGRATION HANDOFF
+
+Files
+- JCM_Content_Base.docx: intermediate manuscript; no embedded figures; source reference numbers retained.
+- build_jcm_content_base.py: reproducible source-to-base builder.
+- Supplementary_Results_Integration.txt: publication wording of the complete moved Results and S12 legend, with corrected figure numbers.
+- Moved_Original_Results_Exact.txt: exact source wording and paragraph identities for reconciliation.
+- Paragraph_Disposition.json/.tsv: every source paragraph accounted for.
+- Content_Base_Report.json; Content_Base_QA.json: counts, provenance hash and checks.
+- JCM_Content_Base_Text.txt: readable extraction.
+
+Narrative
+Clinical adverse-event context and human injury proteins lead to pharmacology and cellular responses, then measured PDGFRA/FLT4 engagement. The integration section leads with the stable receptor pair and donor/weight robustness. A concise localization/numerical-calibration bridge and sparse-network qualifications explain how to test the pair. Independent hepatic exposure supports KDR as a pharmacodynamic comparator; pulmonary results define the activity to preserve. No new screening, docking or molecular-dynamics claim was inserted.
+
+Main/supplementary mapping
+Main Figures 1–4 retain their numbers.
+Source Main Figure 5 becomes Supplementary Figure S12. Its complete original Results paragraphs 88–90 and legend are retained in the supplement integration text.
+Source Main Figure 6 becomes Main Figure 5.
+Source Main Figure 7 becomes Main Figure 6.
+Main Figure 7 is available for the actual screening results; it is not mentioned speculatively in this base.
+S11 remains supplementary. Its complete source paragraph 100 is retained there, while the main text gives the matched-background interpretation.
+Complete source paragraphs 92–95 and 97 (network decomposition/calibration/sensitivity) and 111 (pulmonary cellular/protein context) accompany the supplementary text. Their material limitations remain stated in the main text; no result was dropped solely for being nonsignificant.
+
+JCM formatting and metadata
+Abstract: 243 words, Background/Objectives, Methods, Results, Conclusions.
+Main Results: 2640 versus source 3337 words.
+Numbered Introduction, Materials and Methods, Results, Discussion and Conclusions, with numbered subsection headings.
+Backmatter reordered to Supplementary Materials, Author Contributions, Funding, IRB Statement, Informed Consent Statement, Data Availability, Acknowledgments, Conflicts of Interest and Abbreviations.
+Source author spelling/order, affiliations, correspondence, contributions, funding and IRB text preserved; no author identity or approval was invented.
+Author affiliations are actual superscripts. Mathematical exponents and existing indexed equations retain safe superscripts/subscripts; molecule/gene digits remain intact.
+References have the verified ACS metadata and typography, including refs 56/57/69 e-pages, ref 75 Carcione C., and all nine Davis 2011 authors. No global renumbering yet.
+
+Root integration actions
+1. Add only observed screening/docking/MD results, their methods and exact provider/model/job provenance.
+2. Reconcile abstract Results/Conclusions and Methods/Acknowledgments AI disclosure with the actually completed work.
+3. Insert the supplementary integration text into the final supplementary information and include S12 in the figure supplement.
+4. Place editable Tables 1 and 2 and final Main Figures 1–7 near their first citations. Both source table XMLs are unchanged in the base.
+5. Once all new citations and table positions are final, renumber references globally by first occurrence across main text, tables and legends. Synchronize supplement citations with the same final map. The source numbers 1–97 all remain cited in the base main text or tables.
+6. Update Additional file names/descriptions, data availability and external archive pointer to the actual final deliverables. The base retains existing bundle descriptions.
+7. Render and inspect every final page after composition. This intermediate base is not a render-approved final user deliverable.
+
+Claim/evidence discipline
+- Clinical reporting disproportionality: Figure 1, report-based denominators; no incidence/causality inference.
+- Human injury phenotype: Figure 2, released 13-protein panel; FBP1 contrast and non-detection sensitivity retained.
+- Pharmacology/cellular input: Figures 3–4, biochemical endpoints separate, cellular consensus not biological replication.
+- Stable relative priority: Figure 5, fixed 17-target universe and stability analyses; sparse detection and competitive-null result retained.
+- Virtual pair intervention: S11, within-atlas edge deletion and matched-null comparison; no directional, synergistic or causal receptor claim.
+- Independent liver response: Figure 6, Kdr candidate-family result, genome-wide q and null rank association retained.
+- Pulmonary preservation: S5–S10 and extended Results, direct molecular effects distinguished from uncalibrated global reversal.
+
+No evidence was selected or reanalysed on the basis of a desired direction in this editorial base. All transferred numerical Results have complete source copies and publication-ready remapped text. The remaining translational intervention direction is stated as an experimental question, consistent with the source conclusion.

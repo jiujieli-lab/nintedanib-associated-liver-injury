@@ -1,0 +1,24 @@
+{
+  "abstract": "Heat shock protein 90 (Hsp90) is a ubiquitous chaperone of all of the oncogenic tyrosine kinases. Many Hsp90 inhibitors, alone or in combination, have shown significant antitumor efficacy against the kinase-positive na\u00efve and mutant models. However, clinical trials of these inhibitors are unsuccessful due to insufficient clinical benefits and nonoptimal safety profiles. Recently, much progress has been reported on the Hsp90-cochaperone-client complex, which will undoubtedly assist in the understanding of the interactions between Hsp90 and its clients. Meanwhile, Hsp90 inhibitors have shown promise against patients' resistance caused by early generation tyrosine kinase inhibitors (TKIs), and at least 13 Hsp90 inhibitors are being reevaluated in the clinic. In this regard, the objectives of the current perspective are to summarize the structure and function of the Hsp90-cochaperone-client complex, to analyze the structural and functional insights into the Hsp90-client interactions to address several existing unresolved problems with Hsp90 inhibitors, and to highlight the preclinical and clinical studies of Hsp90 inhibitors as an effective treatment against resistance to tyrosine kinase inhibitors.",
+  "authors": "Wang M, Shen A, Zhang C, Song Z, Ai J, Liu H, Sun L, Ding J, Geng M, Zhang A.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_28",
+    "creation_date": "2021-01-15"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4425084",
+  "doi": "10.1021/acs.jmedchem.5b01106",
+  "doi_chembl": null,
+  "first_page": "5563",
+  "issue": "12",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "5586",
+  "patent_id": null,
+  "pubmed_id": 26844689,
+  "src_id": 1,
+  "title": "Development of Heat Shock Protein (Hsp90) Inhibitors To Combat Resistance to Tyrosine Kinase Inhibitors through Hsp90-Kinase Interactions.",
+  "volume": "59",
+  "year": 2016
+}

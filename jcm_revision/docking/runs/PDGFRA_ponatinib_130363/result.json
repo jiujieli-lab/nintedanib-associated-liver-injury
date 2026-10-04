@@ -1,0 +1,93 @@
+{
+  "target": "PDGFRA",
+  "name": "ponatinib",
+  "canonical_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+  "formal_charge": 0,
+  "seed": 130363,
+  "exhaustiveness": 32,
+  "cpu": 2,
+  "n_poses": 10,
+  "energy_range": 5,
+  "scoring_function": "vina",
+  "ligand_MMFF_converged": true,
+  "receptor": "PDGFRA_6JOL_receptor.pdbqt",
+  "box_center": [
+    -38.4125,
+    157.04899999999998,
+    0.794
+  ],
+  "box_size": [
+    22.0,
+    28.72200000000001,
+    25.84
+  ],
+  "elapsed_seconds": 129.33580352900026,
+  "pose_energies": [
+    [
+      -12.801,
+      -17.291,
+      -0.609,
+      4.49,
+      -0.609
+    ],
+    [
+      -11.886,
+      -16.277,
+      -0.388,
+      4.169,
+      -0.609
+    ],
+    [
+      -11.196,
+      -14.944,
+      -0.788,
+      3.927,
+      -0.609
+    ],
+    [
+      -10.409,
+      -13.711,
+      -0.958,
+      3.651,
+      -0.609
+    ],
+    [
+      -10.339,
+      -14.021,
+      -0.553,
+      3.627,
+      -0.609
+    ],
+    [
+      -10.241,
+      -13.713,
+      -0.729,
+      3.592,
+      -0.609
+    ],
+    [
+      -10.237,
+      -13.591,
+      -0.846,
+      3.591,
+      -0.609
+    ],
+    [
+      -10.216,
+      -15.15,
+      0.742,
+      3.583,
+      -0.609
+    ],
+    [
+      -9.993,
+      -13.067,
+      -1.04,
+      3.505,
+      -0.609
+    ]
+  ],
+  "best_vina_score_kcal_mol": -12.801,
+  "reference_RMSD_A_receptor_frame": [],
+  "output_dir": "runs/PDGFRA_ponatinib_130363"
+}

@@ -1,0 +1,20 @@
+{
+  "total_gene_rows": 95731,
+  "total_runs": 210,
+  "numeric_zero_runs": 132,
+  "nonzero_runs": 78,
+  "primary_threshold": 1e-12,
+  "maximum_displacement_in_zero_cluster": 2.8410975691468848e-15,
+  "minimum_max_displacement_in_nonzero_cluster": 4.732020841348245e-07,
+  "drug_target_total_runs": 102,
+  "drug_target_zero_runs": 73,
+  "drug_targets_total": 17,
+  "drug_targets_any_valid_run": 13,
+  "drug_targets_with_valid_three_seed_compartment": [
+    "AXL",
+    "FLT1",
+    "FLT3",
+    "KDR"
+  ],
+  "interpretation": "A percentile rank from a run with only floating-point-scale displacement cannot establish a biological network perturbation."
+}

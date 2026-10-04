@@ -1,0 +1,24 @@
+{
+  "abstract": "Computational and experimental studies were applied to the discovery of a series of novel vascular endothelial growth factor receptor 2 (VEGFR-2) inhibitors. Eight compounds exhibited nanomolar IC50 values against VEGFR-2, and compounds 6, 19, 22, and 23 showed potent antiproliferative effects against several cell lines. Particularly, compound 23 behaved better than FDA approved drugs, sorafenib and sunitinib, in antiproliferative activity against cell lines related to all nine tumor types tested (GI50 values), and it was better or comparable in safety (LC50 values). Compound 23 even demonstrated a high potency on one of the drug-resistant cell lines (NCI/ADR-RES) responsible for ovarian cancer and cell lines contributing to prostate cancer, regarded as one of the VEGF/VEGFR pathway drug-resistant tumors. This compound is likely a promising candidate for the treatment of leukemia, non-small cell lung cancer (NSCLC), colon cancer, ovarian cancer, and breast cancer with a suitable balance of both efficacy and safety.",
+  "authors": "Zhang Y, Chen Y, Zhang D, Wang L, Lu T, Jiao Y.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_25",
+    "creation_date": "2018-12-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4028913",
+  "doi": "10.1021/acs.jmedchem.7b01091",
+  "doi_chembl": null,
+  "first_page": "140",
+  "issue": "1",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "157",
+  "patent_id": null,
+  "pubmed_id": 29189002,
+  "src_id": 1,
+  "title": "Discovery of Novel Potent VEGFR-2 Inhibitors Exerting Significant Antiproliferative Activity against Cancer Cell Lines.",
+  "volume": "61",
+  "year": 2018
+}

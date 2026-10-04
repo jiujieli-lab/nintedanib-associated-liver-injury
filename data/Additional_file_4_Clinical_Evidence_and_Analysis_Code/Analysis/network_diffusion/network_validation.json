@@ -1,0 +1,21 @@
+{
+  "decision": "PASS",
+  "checks": {
+    "fixed_17_candidate_universe_retained": true,
+    "three_compartments_retained": true,
+    "fifty_primary_target_compartment_scores": true,
+    "eighteen_specs_by_four_clinical_weights": true,
+    "five_real_donor_omissions": true,
+    "all_primary_numerically_finite": true,
+    "maximum_linear_solve_residual_below_1e_10": true,
+    "tail_probabilities_respect_null_resolution": true,
+    "q_values_between_zero_and_one": true,
+    "all_main_scores_nonnegative": true,
+    "sum_anchor_contributions_equals_primary_score": true,
+    "no_detection_supported_significant_stable_target": true
+  },
+  "n_checks": 12,
+  "n_lodo_zero_null_variance": 1,
+  "runtime_numeric_precision": "64-bit floating point",
+  "warning": "A successful numerical validation is not validation of a liver-toxicity mechanism."
+}

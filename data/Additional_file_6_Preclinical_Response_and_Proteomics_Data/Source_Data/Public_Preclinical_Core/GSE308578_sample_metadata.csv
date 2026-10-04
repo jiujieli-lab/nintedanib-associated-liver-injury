@@ -1,0 +1,44 @@
+sample,title,geo_accession,treatment,biosample,sra_relation,group,experimental_unit,species,tissue,dose_time
+4016716208,BLEO-IPF Nintedanib Vehicle Sample 4016716208,GSM9248615,BLEO-IPF Nintedanib Vehicle,SAMN51608587,SRX30588481,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4028945057,BLEO-IPF Nintedanib Vehicle Sample 4028945057,GSM9248624,BLEO-IPF Nintedanib Vehicle,SAMN51608578,SRX30588490,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016713374,BLEO-IPF Nintedanib Vehicle Sample 4016713374,GSM9248596,BLEO-IPF Nintedanib Vehicle,SAMN51608606,SRX30588462,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016713166,BLEO-IPF Nintedanib Sample 4016713166,GSM9248594,BLEO-IPF Nintedanib,SAMN51608608,SRX30588460,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016716110,BLEO-IPF Nintedanib Sample 4016716110,GSM9248613,BLEO-IPF Nintedanib,SAMN51608589,SRX30588479,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016714066,BLEO-IPF Nintedanib Sample 4016714066,GSM9248609,BLEO-IPF Nintedanib,SAMN51608593,SRX30588475,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016712662,BLEO-IPF Nintedanib Vehicle Sample 4016712662,GSM9248591,BLEO-IPF Nintedanib Vehicle,SAMN51608611,SRX30588457,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016713856,BLEO-IPF Nintedanib Vehicle Sample 4016713856,GSM9248602,BLEO-IPF Nintedanib Vehicle,SAMN51608600,SRX30588468,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016712501,BLEO-IPF Nintedanib Sample 4016712501,GSM9248590,BLEO-IPF Nintedanib,SAMN51608612,SRX30588456,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4042731873,BLEO-IPF Nintedanib Sample 4042731873,GSM9248628,BLEO-IPF Nintedanib,SAMN51608574,SRX30588494,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016716042,BLEO-IPF Nintedanib Sample 4016716042,GSM9248611,BLEO-IPF Nintedanib,SAMN51608591,SRX30588477,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016713659,BLEO-IPF Nintedanib Sample 4016713659,GSM9248599,BLEO-IPF Nintedanib,SAMN51608603,SRX30588465,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016713786,BLEO-IPF Nintedanib Vehicle Sample 4016713786,GSM9248601,BLEO-IPF Nintedanib Vehicle,SAMN51608601,SRX30588467,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016716514,BLEO-IPF Nintedanib Vehicle Sample 4016716514,GSM9248619,BLEO-IPF Nintedanib Vehicle,SAMN51608583,SRX30588485,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016714052,BLEO-IPF Nintedanib Sample 4016714052,GSM9248607,BLEO-IPF Nintedanib,SAMN51608595,SRX30588473,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016716695,BLEO-IPF Nintedanib Sample 4016716695,GSM9248620,BLEO-IPF Nintedanib,SAMN51608582,SRX30588486,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4042731910,BLEO-IPF Nintedanib Sample 4042731910,GSM9248629,BLEO-IPF Nintedanib,SAMN51608573,SRX30588495,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016716137,BLEO-IPF Nintedanib Vehicle Sample 4016716137,GSM9248614,BLEO-IPF Nintedanib Vehicle,SAMN51608588,SRX30588480,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016716374,BLEO-IPF Nintedanib Sample 4016716374,GSM9248617,BLEO-IPF Nintedanib,SAMN51608585,SRX30588483,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4042731431,BLEO-IPF Nintedanib Vehicle Sample 4042731431,GSM9248627,BLEO-IPF Nintedanib Vehicle,SAMN51608575,SRX30588493,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016712351,BLEO-IPF Nintedanib Vehicle Sample 4016712351,GSM9248589,BLEO-IPF Nintedanib Vehicle,SAMN51608613,SRX30588455,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016713471,BLEO-IPF Nintedanib Sample 4016713471,GSM9248598,BLEO-IPF Nintedanib,SAMN51608604,SRX30588464,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016713700,BLEO-IPF Nintedanib Vehicle Sample 4016713700,GSM9248600,BLEO-IPF Nintedanib Vehicle,SAMN51608602,SRX30588466,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016714039,BLEO-IPF Nintedanib Sample 4016714039,GSM9248606,BLEO-IPF Nintedanib,SAMN51608596,SRX30588472,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4042732101,BLEO-IPF Nintedanib Vehicle Sample 4042732101,GSM9248631,BLEO-IPF Nintedanib Vehicle,SAMN51608571,SRX30588497,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016714060,BLEO-IPF Nintedanib Sample 4016714060,GSM9248608,BLEO-IPF Nintedanib,SAMN51608594,SRX30588474,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4042712499,BLEO-IPF Nintedanib Vehicle Sample 4042712499,GSM9248626,BLEO-IPF Nintedanib Vehicle,SAMN51608576,SRX30588492,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4028944919,BLEO-IPF Nintedanib Sample 4028944919,GSM9248622,BLEO-IPF Nintedanib,SAMN51608580,SRX30588488,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4028944922,BLEO-IPF Nintedanib Sample 4028944922,GSM9248623,BLEO-IPF Nintedanib,SAMN51608579,SRX30588489,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016716106,BLEO-IPF Nintedanib Vehicle Sample 4016716106,GSM9248612,BLEO-IPF Nintedanib Vehicle,SAMN51608590,SRX30588478,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016714086,BLEO-IPF Nintedanib Vehicle Sample 4016714086,GSM9248610,BLEO-IPF Nintedanib Vehicle,SAMN51608592,SRX30588476,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016716344,CTRL Vehicle Sample 4016716344,GSM9248616,CTRL Vehicle,SAMN51608586,SRX30588482,CTRL,independent animal,Mus musculus,inferior lung lobe,saline + vehicle
+4016713960,CTRL Vehicle Sample 4016713960,GSM9248605,CTRL Vehicle,SAMN51608597,SRX30588471,CTRL,independent animal,Mus musculus,inferior lung lobe,saline + vehicle
+4016713358,CTRL Vehicle Sample 4016713358,GSM9248595,CTRL Vehicle,SAMN51608607,SRX30588461,CTRL,independent animal,Mus musculus,inferior lung lobe,saline + vehicle
+4016713893,CTRL Vehicle Sample 4016713893,GSM9248603,CTRL Vehicle,SAMN51608599,SRX30588469,CTRL,independent animal,Mus musculus,inferior lung lobe,saline + vehicle
+4042731953,CTRL Vehicle Sample 4042731953,GSM9248630,CTRL Vehicle,SAMN51608572,SRX30588496,CTRL,independent animal,Mus musculus,inferior lung lobe,saline + vehicle
+4028945088,BLEO-IPF Nintedanib Vehicle Sample 4028945088,GSM9248625,BLEO-IPF Nintedanib Vehicle,SAMN51608577,SRX30588491,BLM_vehicle,independent animal,Mus musculus,inferior lung lobe,BLM 2 mg/kg IT + vehicle
+4016713435,BLEO-IPF Nintedanib Sample 4016713435,GSM9248597,BLEO-IPF Nintedanib,SAMN51608605,SRX30588463,NINT,independent animal,Mus musculus,inferior lung lobe,BLM + nintedanib 60 mg/kg PO BID days 8–28
+4016713931,CTRL Vehicle Sample 4016713931,GSM9248604,CTRL Vehicle,SAMN51608598,SRX30588470,CTRL,independent animal,Mus musculus,inferior lung lobe,saline + vehicle
+4016716507,CTRL Vehicle Sample 4016716507,GSM9248618,CTRL Vehicle,SAMN51608584,SRX30588484,CTRL,independent animal,Mus musculus,inferior lung lobe,saline + vehicle
+4016716901,CTRL Vehicle Sample 4016716901,GSM9248621,CTRL Vehicle,SAMN51608581,SRX30588487,CTRL,independent animal,Mus musculus,inferior lung lobe,saline + vehicle
+4016712981,CTRL Vehicle Sample 4016712981,GSM9248592,CTRL Vehicle,SAMN51608610,SRX30588458,CTRL,independent animal,Mus musculus,inferior lung lobe,saline + vehicle
+4016713070,CTRL Vehicle Sample 4016713070,GSM9248593,CTRL Vehicle,SAMN51608609,SRX30588459,CTRL,independent animal,Mus musculus,inferior lung lobe,saline + vehicle

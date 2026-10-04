@@ -1,0 +1,143 @@
+{
+  "tool_key": "pdb-fetch-entry",
+  "description": "Fetch structure metadata (title, method, resolution) from RCSB PDB",
+  "input_schema": {
+    "additionalProperties": false,
+    "description": "Input for PDB entry metadata fetch.\n\nAttributes:\n    pdb_id (str): PDB accession (e.g. '1LBG').",
+    "properties": {
+      "pdb_id": {
+        "description": "PDB accession (e.g. '1LBG')",
+        "title": "PDB ID",
+        "type": "string"
+      }
+    },
+    "required": [
+      "pdb_id"
+    ],
+    "title": "PdbFetchEntryInput",
+    "type": "object"
+  },
+  "config_schema": {
+    "additionalProperties": false,
+    "description": "Configuration for PDB entry metadata fetches (no user-facing settings).",
+    "properties": {
+      "verbose": {
+        "default": 0,
+        "description": "Verbosity level (0=quiet, 1=info, 2=debug, 3=raw subprocess stderr). True→1, False→0.",
+        "maximum": 3,
+        "minimum": 0,
+        "reload_on_change": false,
+        "title": "Verbose",
+        "type": "integer"
+      },
+      "timeout": {
+        "anyOf": [
+          {
+            "minimum": 1,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": 3600,
+        "description": "Maximum execution time in seconds. None waits indefinitely.",
+        "reload_on_change": false,
+        "title": "Timeout"
+      },
+      "seed": {
+        "anyOf": [
+          {
+            "exclusiveMaximum": 4294967296,
+            "minimum": 0,
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Random seed for reproducible results. Some cacheable tools gate cache on this field.",
+        "reload_on_change": false,
+        "title": "Random Seed"
+      }
+    },
+    "title": "PdbFetchEntryConfig",
+    "type": "object"
+  },
+  "output_schema": {
+    "description": "Output from PDB entry metadata fetch.\n\nAttributes:\n    title (str | None): Structure title.\n    method (str | None): Experimental method.\n    resolution (float | None): Resolution in angstroms.\n    source_url (str | None): URL used for the request.",
+    "examples": [
+      {
+        "errors": [],
+        "execution_time": 45.2,
+        "metadata": {
+          "blast_version": "2.14.0",
+          "database_size": 1000000
+        },
+        "success": true,
+        "timestamp": "2025-10-06T10:30:00Z",
+        "tool_id": "blast-search",
+        "warnings": []
+      }
+    ],
+    "properties": {
+      "title": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Human-readable RCSB entry title",
+        "title": "Title"
+      },
+      "method": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "PDB experimental method (e.g. X-RAY DIFFRACTION, SOLUTION NMR, ELECTRON MICROSCOPY)",
+        "title": "Experimental Method"
+      },
+      "resolution": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Resolution in Å (None for NMR or fiber diffraction)",
+        "title": "Resolution"
+      },
+      "source_url": {
+        "anyOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "default": null,
+        "description": "Request URL",
+        "title": "Source URL"
+      }
+    },
+    "title": "PdbFetchEntryOutput",
+    "type": "object"
+  },
+  "has_example": true,
+  "status": "ready_to_run"
+}

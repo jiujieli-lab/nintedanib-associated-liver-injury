@@ -1,0 +1,24 @@
+{
+  "abstract": "Rearranged during transfection (RET) is a receptor tyrosine kinase essential for the normal development and maturation of a diverse range of tissues. Aberrant RET signaling in cancers, due to RET mutations, gene fusions, and overexpression, results in the activation of downstream pathways promoting survival, growth, and metastasis. Pharmacological manipulation of RET is effective in treating RET-driven cancers, and efforts toward developing RET-specific therapies have increased over the last 5 years. In 2020, RET-selective inhibitors pralsetinib and selpercatinib achieved clinical approval, which marked the first approvals for kinase inhibitors specifically developed to target the RET oncoprotein. This Perspective discusses current development and clinical applications for RET precision medicine by providing an overview of the incremental improvement of kinase inhibitors for use in RET-driven malignancies.",
+  "authors": "Saha D, Ryan KR, Lakkaniga NR, Acharya B, Garcia NG, Smith EL, Frett B.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_33",
+    "creation_date": "2023-05-31"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL5150004",
+  "doi": "10.1021/acs.jmedchem.0c02167",
+  "doi_chembl": null,
+  "first_page": "11747",
+  "issue": "16.0",
+  "journal": "J Med Chem",
+  "journal_full_title": "Journal of medicinal chemistry.",
+  "last_page": "11773",
+  "patent_id": null,
+  "pubmed_id": 34402300,
+  "src_id": 1,
+  "title": "Targeting Rearranged during Transfection in Cancer: A Perspective on Small-Molecule Inhibitors and Their Clinical Development.",
+  "volume": "64",
+  "year": 2021
+}

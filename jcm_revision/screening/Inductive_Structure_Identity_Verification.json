@@ -1,0 +1,386 @@
+[
+  {
+    "compound": "nintedanib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1",
+    "returned_smiles": "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1",
+    "verified_inchikey": "XZXHXSATPCNXJR-ZIADKAODSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "nintedanib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1",
+    "returned_smiles": "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1",
+    "verified_inchikey": "XZXHXSATPCNXJR-ZIADKAODSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "nintedanib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1",
+    "returned_smiles": "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1",
+    "verified_inchikey": "XZXHXSATPCNXJR-ZIADKAODSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "imatinib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "returned_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "verified_inchikey": "KTUFNOKKBVMGRW-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "crenolanib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1",
+    "returned_smiles": "CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1",
+    "verified_inchikey": "DYNHJHQFHQTFTP-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "avapritinib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1",
+    "returned_smiles": "Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1",
+    "verified_inchikey": "DWYRIWUZIJHQKQ-SANMLTNESA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "ripretinib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21",
+    "returned_smiles": "CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21",
+    "verified_inchikey": "CEFJVGZHQAGLHS-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "axitinib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1",
+    "returned_smiles": "CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1",
+    "verified_inchikey": "RITAVMQDGBJQJZ-FMIVXFBMSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "tivozanib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC",
+    "returned_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC",
+    "verified_inchikey": "SPMVMDHWKHCIDT-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "lenvatinib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O",
+    "returned_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O",
+    "verified_inchikey": "WOSKHXYHFSIKNG-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "sunitinib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+    "returned_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+    "verified_inchikey": "WINHZLLDWRZWRT-ATVHPVEESA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "pazopanib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O",
+    "returned_smiles": "Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O",
+    "verified_inchikey": "CUIHSIWYWATEQL-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "sorafenib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+    "returned_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+    "verified_inchikey": "MLDQJTXFUGDVEO-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "regorafenib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1",
+    "returned_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1",
+    "verified_inchikey": "FNHKPVJBJVTLMP-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "ponatinib",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+    "returned_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+    "verified_inchikey": "PHXJVRSECIGDHY-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "MAZ51",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "CN(C)c1ccc(/C=C2\\C(=O)Nc3ccccc32)c2ccccc12",
+    "returned_smiles": "CN(C)c1ccc(/C=C2\\C(=O)Nc3ccccc32)c2ccccc12",
+    "verified_inchikey": "VFCXONOPGCDDBQ-AQTBWJFISA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "pirfenidone",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "Cc1ccc(=O)n(-c2ccccc2)c1",
+    "returned_smiles": "Cc1ccc(=O)n(-c2ccccc2)c1",
+    "verified_inchikey": "ISWRGOKTTBVCFA-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "nerandomilast",
+    "model_id": "mcp_public_logd",
+    "input_smiles": "C1CC(C1)(CO)NC2=NC(=NC3=C2[S@](=O)CC3)N4CCC(CC4)C5=NC=C(C=N5)Cl",
+    "returned_smiles": "O=[S@@]1CCc2nc(N3CCC(c4ncc(Cl)cn4)CC3)nc(NC3(CO)CCC3)c21",
+    "verified_inchikey": "UHYCLWAANUGUMN-SSEXGKCCSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "imatinib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "returned_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "verified_inchikey": "KTUFNOKKBVMGRW-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "crenolanib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1",
+    "returned_smiles": "CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1",
+    "verified_inchikey": "DYNHJHQFHQTFTP-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "avapritinib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1",
+    "returned_smiles": "Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1",
+    "verified_inchikey": "DWYRIWUZIJHQKQ-SANMLTNESA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "ripretinib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21",
+    "returned_smiles": "CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21",
+    "verified_inchikey": "CEFJVGZHQAGLHS-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "axitinib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1",
+    "returned_smiles": "CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1",
+    "verified_inchikey": "RITAVMQDGBJQJZ-FMIVXFBMSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "tivozanib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC",
+    "returned_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC",
+    "verified_inchikey": "SPMVMDHWKHCIDT-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "lenvatinib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O",
+    "returned_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O",
+    "verified_inchikey": "WOSKHXYHFSIKNG-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "sunitinib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+    "returned_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+    "verified_inchikey": "WINHZLLDWRZWRT-ATVHPVEESA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "pazopanib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O",
+    "returned_smiles": "Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O",
+    "verified_inchikey": "CUIHSIWYWATEQL-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "sorafenib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+    "returned_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+    "verified_inchikey": "MLDQJTXFUGDVEO-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "regorafenib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1",
+    "returned_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1",
+    "verified_inchikey": "FNHKPVJBJVTLMP-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "ponatinib",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+    "returned_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+    "verified_inchikey": "PHXJVRSECIGDHY-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "MAZ51",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "CN(C)c1ccc(/C=C2\\C(=O)Nc3ccccc32)c2ccccc12",
+    "returned_smiles": "CN(C)c1ccc(/C=C2\\C(=O)Nc3ccccc32)c2ccccc12",
+    "verified_inchikey": "VFCXONOPGCDDBQ-AQTBWJFISA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "pirfenidone",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "Cc1ccc(=O)n(-c2ccccc2)c1",
+    "returned_smiles": "Cc1ccc(=O)n(-c2ccccc2)c1",
+    "verified_inchikey": "ISWRGOKTTBVCFA-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "nerandomilast",
+    "model_id": "mcp_public_apka",
+    "input_smiles": "C1CC(C1)(CO)NC2=NC(=NC3=C2[S@](=O)CC3)N4CCC(CC4)C5=NC=C(C=N5)Cl",
+    "returned_smiles": "O=[S@@]1CCc2nc(N3CCC(c4ncc(Cl)cn4)CC3)nc(NC3(CO)CCC3)c21",
+    "verified_inchikey": "UHYCLWAANUGUMN-SSEXGKCCSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "imatinib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "returned_smiles": "Cc1ccc(NC(=O)c2ccc(CN3CCN(C)CC3)cc2)cc1Nc1nccc(-c2cccnc2)n1",
+    "verified_inchikey": "KTUFNOKKBVMGRW-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "crenolanib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1",
+    "returned_smiles": "CC1(COc2ccc3c(c2)ncn3-c2ccc3cccc(N4CCC(N)CC4)c3n2)COC1",
+    "verified_inchikey": "DYNHJHQFHQTFTP-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "avapritinib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1",
+    "returned_smiles": "Cn1cc(-c2cc3c(N4CCN(c5ncc([C@@](C)(N)c6ccc(F)cc6)cn5)CC4)ncnn3c2)cn1",
+    "verified_inchikey": "DWYRIWUZIJHQKQ-SANMLTNESA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "ripretinib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21",
+    "returned_smiles": "CCn1c(=O)c(-c2cc(NC(=O)Nc3ccccc3)c(F)cc2Br)cc2cnc(NC)cc21",
+    "verified_inchikey": "CEFJVGZHQAGLHS-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "axitinib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1",
+    "returned_smiles": "CNC(=O)c1ccccc1Sc1ccc2c(/C=C/c3ccccn3)n[nH]c2c1",
+    "verified_inchikey": "RITAVMQDGBJQJZ-FMIVXFBMSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "tivozanib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC",
+    "returned_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)Nc4cc(C)on4)c(Cl)c3)c2cc1OC",
+    "verified_inchikey": "SPMVMDHWKHCIDT-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "lenvatinib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O",
+    "returned_smiles": "COc1cc2nccc(Oc3ccc(NC(=O)NC4CC4)c(Cl)c3)c2cc1C(N)=O",
+    "verified_inchikey": "WOSKHXYHFSIKNG-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "sunitinib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+    "returned_smiles": "CCN(CC)CCNC(=O)c1c(C)[nH]c(/C=C2\\C(=O)Nc3ccc(F)cc32)c1C",
+    "verified_inchikey": "WINHZLLDWRZWRT-ATVHPVEESA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "pazopanib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O",
+    "returned_smiles": "Cc1ccc(Nc2nccc(N(C)c3ccc4c(C)n(C)nc4c3)n2)cc1S(N)(=O)=O",
+    "verified_inchikey": "CUIHSIWYWATEQL-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "sorafenib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+    "returned_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)cc2)ccn1",
+    "verified_inchikey": "MLDQJTXFUGDVEO-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "regorafenib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1",
+    "returned_smiles": "CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1",
+    "verified_inchikey": "FNHKPVJBJVTLMP-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "ponatinib",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+    "returned_smiles": "Cc1ccc(C(=O)Nc2ccc(CN3CCN(C)CC3)c(C(F)(F)F)c2)cc1C#Cc1cnc2cccnn12",
+    "verified_inchikey": "PHXJVRSECIGDHY-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "MAZ51",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "CN(C)c1ccc(/C=C2\\C(=O)Nc3ccccc32)c2ccccc12",
+    "returned_smiles": "CN(C)c1ccc(/C=C2\\C(=O)Nc3ccccc32)c2ccccc12",
+    "verified_inchikey": "VFCXONOPGCDDBQ-AQTBWJFISA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "pirfenidone",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "Cc1ccc(=O)n(-c2ccccc2)c1",
+    "returned_smiles": "Cc1ccc(=O)n(-c2ccccc2)c1",
+    "verified_inchikey": "ISWRGOKTTBVCFA-UHFFFAOYSA-N",
+    "identity_match": true
+  },
+  {
+    "compound": "nerandomilast",
+    "model_id": "mcp_public_bpka",
+    "input_smiles": "C1CC(C1)(CO)NC2=NC(=NC3=C2[S@](=O)CC3)N4CCC(CC4)C5=NC=C(C=N5)Cl",
+    "returned_smiles": "O=[S@@]1CCc2nc(N3CCC(c4ncc(Cl)cn4)CC3)nc(NC3(CO)CCC3)c21",
+    "verified_inchikey": "UHYCLWAANUGUMN-SSEXGKCCSA-N",
+    "identity_match": true
+  }
+]

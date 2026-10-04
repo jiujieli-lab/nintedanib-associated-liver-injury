@@ -1,0 +1,27 @@
+JOURNAL OF CLINICAL MEDICINE — IMPLEMENTATION AUDIT
+Checked: 2 October 2026. Journal: MDPI Journal of Clinical Medicine (not ASM Journal of Clinical Microbiology).
+
+Official sources retrieved in full:
+https://www.mdpi.com/journal/jcm/instructions?isWechatMiniProgram=false
+https://www.mdpi.com/authors/references
+https://www.mdpi.com/authors/layout
+https://mdpi-res.com/data/mdpi-acs-references-guide-v11-2025.12.pdf
+HTML, extracted text and the current ACS reference guide are retained beside this report. The first source was accessible through direct retrieval after the browsing service returned HTTP429.
+
+APPLICATION TO THIS MANUSCRIPT
+The existing source is a secondary, multimodal study of nintedanib-associated liver injury that prioritizes PDGFRA/FLT4. Its article category is original research. Keep the existing scientific framework and avoid implying that computational affinity, network perturbation or simulation demonstrates a protective intervention direction.
+
+1. Replace Background with Introduction, Methods with Materials and Methods, and add numbered main/subsections. Preserve the Conclusions section. A long article is permitted; compress only redundancies rather than removing source findings.
+2. Reduce the existing ~315-word abstract to approximately250 words. Required labels are Background/Objectives, Methods, Results, Conclusions. Preserve the leading target result and distinguish prioritization from demonstrated protection. Keep3–10keywords.
+3. Preserve the author order, affiliations and correspondence from the actual source DOCX: Shaoxin Huang; Yong Yang; Xinyu Zhou; Xinyi Chen; Shan Li; Wenyan Fan; Jianjun Xiong; Hui Liu (corresponding, LIUHUIOKCA@163.com). Do not replace these from unrelated project memories. The source does not contain the other authors' email addresses or ORCIDs; do not invent them. Superscript affiliation markers should be formatted, not left as baseline digits.
+4. Place editable Tables1–2 and publication-preview figures immediately after first substantive citation. All figure TIFFs should be RGB8-bit; prefer at least600dpi at intended publication size. The requested new1200dpi figures satisfy that preference. Existing300dpi raster figures retain their original detail and cannot gain genuine detail merely by changing the DPI tag. Ensure everypanel is legible at the embedded size.
+5. Keep the submission upload set within120MB. Supply large computational source packages separately as a clearly labeled reproducibility archive; do not describe a large outer archive as the exact portal upload set. Files larger than250MB belong in an external repository. No explicit numerical main-figure/table cap was found.
+6. Use MDPI back-matter labels: Supplementary Materials; Author Contributions; Funding; Institutional Review Board Statement; Informed Consent Statement; Data Availability Statement; Acknowledgments; Conflicts of Interest. Preserve grant numbers82260633,82460633,20262BAC240201 from the source. Do not manufacture a waiver/approval. Describe this secondary analysis accurately and keep source-study ethics attribution.
+7. The existing truthful AI disclosure describes analytical code and quantitative visualization assistance. Because the actual work is substantive, include concise Methods disclosure and the tool/purpose/accountability statement in Acknowledgments. A language-only statement would not match the completed work. Report Boltz/Proto/Inductive method/model versions separately as computational methods actually used.
+8. A graphical abstract is optional artwork, not a duplicate main figure. Minimum dimensions are560×1100px(height×width); maintain readable text and original artwork. A square image above both pixel minima remains dimensionally sufficient.
+9. Use sequential square-bracket citations before punctuation. Recalculate order after moving tables, because database references presently occur in tables at the end. Format references using the supplied ACS JSON: surname/initials; semicolons; up to10authors before et al.; journal title in italics; year bold; volume italic; full title; full pages/e-location; DOI. Original frozen access dates are preserved.
+10. Ensure every supplementary citation maps to the final main reference list. The corrected96-page Additional1 PDF supplied here repairs five old labels and six in-text citations against the current97-reference master. Further global renumbering should be applied with the accompanying parameterized script after the revised master is fixed. Supplementary filenames/titles in the main text and actual files must match.
+11. The cover letter should identify the clinical safety problem, the PDGFRA/FLT4 advance, JCM fit, manuscript exclusivity and all-author approval. Reviewer suggestions belong in the submission form. Acknowledge any actual earlier MDPI submission if one exists; none was established from the source materials.
+
+REVIEW STATUS
+This is an implementation audit, not a certification that all future submission requirements have been satisfied. Formatting, final reference order, file sizes and actual computational execution status must be checked on the final assembled package. No claim is made that docking or MD was completed by this journal/reference audit.

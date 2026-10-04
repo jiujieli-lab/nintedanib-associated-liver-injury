@@ -1,0 +1,100 @@
+{
+  "target": "PDGFRA",
+  "name": "nintedanib",
+  "canonical_smiles": "COC(=O)c1ccc2c(c1)NC(=O)/C2=C(\\Nc1ccc(N(C)C(=O)CN2CCN(C)CC2)cc1)c1ccccc1",
+  "formal_charge": 0,
+  "seed": 104729,
+  "exhaustiveness": 32,
+  "cpu": 2,
+  "n_poses": 10,
+  "energy_range": 5,
+  "scoring_function": "vina",
+  "ligand_MMFF_converged": true,
+  "receptor": "PDGFRA_6JOL_receptor.pdbqt",
+  "box_center": [
+    -38.4125,
+    157.04899999999998,
+    0.794
+  ],
+  "box_size": [
+    22.0,
+    28.72200000000001,
+    25.84
+  ],
+  "elapsed_seconds": 273.3706140329996,
+  "pose_energies": [
+    [
+      -8.502,
+      -12.975,
+      -2.16,
+      4.473,
+      -2.16
+    ],
+    [
+      -8.345,
+      -12.447,
+      -2.448,
+      4.391,
+      -2.16
+    ],
+    [
+      -8.341,
+      -12.9,
+      -1.99,
+      4.389,
+      -2.16
+    ],
+    [
+      -8.155,
+      -12.612,
+      -1.993,
+      4.291,
+      -2.16
+    ],
+    [
+      -7.918,
+      -11.778,
+      -2.466,
+      4.166,
+      -2.16
+    ],
+    [
+      -7.817,
+      -11.927,
+      -2.163,
+      4.113,
+      -2.16
+    ],
+    [
+      -7.786,
+      -12.037,
+      -2.005,
+      4.096,
+      -2.16
+    ],
+    [
+      -7.722,
+      -11.971,
+      -1.973,
+      4.063,
+      -2.16
+    ],
+    [
+      -7.66,
+      -11.785,
+      -2.066,
+      4.03,
+      -2.16
+    ],
+    [
+      -7.621,
+      -11.603,
+      -2.187,
+      4.01,
+      -2.16
+    ]
+  ],
+  "best_vina_score_kcal_mol": -8.502,
+  "reference_RMSD_A_receptor_frame": [],
+  "output_dir": "runs/PDGFRA_nintedanib_104729"
+}

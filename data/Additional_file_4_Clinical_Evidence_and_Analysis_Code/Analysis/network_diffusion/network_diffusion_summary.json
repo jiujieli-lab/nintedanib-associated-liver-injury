@@ -1,0 +1,146 @@
+{
+  "method": "donor_equal_LedoitWolf_clinical_seed_RWR",
+  "n_null": 1999,
+  "random_seed": 20260919,
+  "candidate_list": [
+    "FLT4",
+    "PDGFRA",
+    "FGFR1",
+    "KDR",
+    "JAK1",
+    "LYN",
+    "FLT1",
+    "FGFR2",
+    "FGFR3",
+    "ABL1",
+    "CDK4",
+    "FLT3",
+    "FGFR4",
+    "TYK2",
+    "AXL",
+    "LRRK2",
+    "MET"
+  ],
+  "clinical_seeds": [
+    "ACO1",
+    "ASS1",
+    "FAH",
+    "CPS1",
+    "ALDOB",
+    "HPD",
+    "OTC",
+    "DMGDH",
+    "GSTA1",
+    "FBP1",
+    "PCK2",
+    "CES1",
+    "LECT2"
+  ],
+  "primary_clinical_weight": "absolute discovery DO_vs_HV Cliff delta normalized to sum one",
+  "primary_spec": {
+    "edge": "positive",
+    "k_neighbors": 20,
+    "restart": 0.5
+  },
+  "specification_count": 18,
+  "inputs": [
+    {
+      "file": "Source_Data/Liver_Single_Cell/hepatocyte_network_matrix.csv.gz",
+      "sha256": "ca04e809eba7018afb80841fdbc6bf53ce7f40e2cee81983d05ef6285e8c9f4a",
+      "n_genes": 705,
+      "n_cells": 3501,
+      "n_donors": 5
+    },
+    {
+      "file": "Source_Data/Liver_Single_Cell/endothelial_network_matrix.csv.gz",
+      "sha256": "b1227a4e090fad260c7264c2fb28d8b3bd86c22c0d8f53ffc02e87ca0ecd7d84",
+      "n_genes": 717,
+      "n_cells": 844,
+      "n_donors": 5
+    },
+    {
+      "file": "Source_Data/Liver_Single_Cell/macrophage_network_matrix.csv.gz",
+      "sha256": "506b1c291e43ab5a0c86a46995cac411a6d1b17e592f30486ef174ed0a604b1b",
+      "n_genes": 716,
+      "n_cells": 1192,
+      "n_donors": 5
+    }
+  ],
+  "n_eligible_target_compartment": 50,
+  "n_primary_q_lt_0_05": 3,
+  "n_expression_supported_stability_passes": 0,
+  "max_linear_solve_residual": 8.881784197001252e-16,
+  "stability_passes": [
+    {
+      "compartment": "Endothelial",
+      "gene_symbol": "LRRK2",
+      "matched_null_z": 27.423817324962346,
+      "empirical_q_bh": 0.008333333333333335,
+      "spec_top_quartile_frequency": 1.0,
+      "lodo_top_quartile_count": 4.0
+    },
+    {
+      "compartment": "Macrophage",
+      "gene_symbol": "PDGFRA",
+      "matched_null_z": 7.299415501160558,
+      "empirical_q_bh": 0.008333333333333335,
+      "spec_top_quartile_frequency": 1.0,
+      "lodo_top_quartile_count": 5.0
+    }
+  ],
+  "rank_robust_candidates": [
+    {
+      "compartment": "Hepatocyte",
+      "gene_symbol": "AXL",
+      "matched_null_z": 0.2960125439880451,
+      "empirical_q_bh": 0.9328947368421053,
+      "spec_top_quartile_frequency": 0.8888888888888888,
+      "lodo_top_quartile_count": 4.0
+    },
+    {
+      "compartment": "Endothelial",
+      "gene_symbol": "PDGFRA",
+      "matched_null_z": 1.887171473062771,
+      "empirical_q_bh": 0.46666666666666673,
+      "spec_top_quartile_frequency": 1.0,
+      "lodo_top_quartile_count": 4.0
+    },
+    {
+      "compartment": "Endothelial",
+      "gene_symbol": "LRRK2",
+      "matched_null_z": 27.423817324962346,
+      "empirical_q_bh": 0.008333333333333335,
+      "spec_top_quartile_frequency": 1.0,
+      "lodo_top_quartile_count": 4.0
+    },
+    {
+      "compartment": "Macrophage",
+      "gene_symbol": "PDGFRA",
+      "matched_null_z": 7.299415501160558,
+      "empirical_q_bh": 0.008333333333333335,
+      "spec_top_quartile_frequency": 1.0,
+      "lodo_top_quartile_count": 5.0
+    },
+    {
+      "compartment": "Macrophage",
+      "gene_symbol": "FGFR2",
+      "matched_null_z": 1.8512294975373875,
+      "empirical_q_bh": 0.46666666666666673,
+      "spec_top_quartile_frequency": 1.0,
+      "lodo_top_quartile_count": 4.0
+    },
+    {
+      "compartment": "Macrophage",
+      "gene_symbol": "FGFR3",
+      "matched_null_z": 2.679632811492293,
+      "empirical_q_bh": 0.17500000000000002,
+      "spec_top_quartile_frequency": 1.0,
+      "lodo_top_quartile_count": 5.0
+    }
+  ],
+  "execution_seconds": 27.969446182250977,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "interpretation": "Expression-adjusted proximity to a human DILI protein signature; undirected and noncausal. LODO is within-atlas donor robustness, not independent validation. Fixed prefiltered gene universe."
+}

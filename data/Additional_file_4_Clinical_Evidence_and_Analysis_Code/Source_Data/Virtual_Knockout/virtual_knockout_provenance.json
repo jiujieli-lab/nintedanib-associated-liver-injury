@@ -1,0 +1,12 @@
+{
+  "software": "scTenifoldpy 0.4.0 (import module scTenifold)",
+  "seeds": [
+    20260904,
+    20260911,
+    20260918
+  ],
+  "sampling": "up to 60 cells per donor without replacement before each network build",
+  "network_ensemble": "3 principal-component regression networks per seed",
+  "target_screening": "multi-assay pChEMBL>=6 targets expressed in the compartment; independent-document support is annotated separately, and canonical targets are allowed at >=1% donor-mean detection",
+  "interpretation": "unsigned network displacement used for prioritisation only; no protective direction or causal effect inferred"
+}

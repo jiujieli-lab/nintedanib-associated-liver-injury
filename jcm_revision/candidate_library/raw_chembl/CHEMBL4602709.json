@@ -1,0 +1,24 @@
+{
+  "abstract": "Parkinson's disease (PD) is a debilitating and common neurodegenerative disease. New insights implicating c-Abl activation as a driving force in PD have opened a new drug development avenue for PD treatment beyond the symptomatic relief by L-DOPA. BCR-Abl inhibitors, which include nilotinib and ponatinib, have been found to inhibit this process, and nilotinib has shown improvement in outcomes in a 12-patient, nonrandomized trial. However, nilotinib is a potent inhibitor of hERG, a cardiac K<sup>+</sup> channel whose inhibition increases risk of sudden death. We used our machine learning approach to predict novel molecules that would inhibit c-Abl while also having minimal liability against hERG. Of our six novel compounds tested, we identified two that had c-Abl potencies comparable to nilotinib, but with significantly improved profiles regarding the hERG channel. Our best compound exhibited a hERG IC<sub>50</sub> of 12.1 \u03bcM (compared to nilotinib with an IC<sub>50</sub> of 0.45 \u03bcM and ponatinib with IC<sub>50</sub> of 0.767 \u03bcM). This work is a step forward for a machine learning enabled, multiparameter optimization of a chemical space and represents a significant advance in the development of novel Parkinson's therapies.",
+  "authors": "Kaiser TM, Dentmon ZW, Dalloul CE, Sharma SK, Liotta DC.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_29",
+    "creation_date": "2021-07-01"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4602709",
+  "doi": "10.1021/acsmedchemlett.9b00612",
+  "doi_chembl": null,
+  "first_page": "491",
+  "issue": "4",
+  "journal": "ACS Med Chem Lett",
+  "journal_full_title": "ACS medicinal chemistry letters.",
+  "last_page": "496",
+  "patent_id": null,
+  "pubmed_id": 32292555,
+  "src_id": 1,
+  "title": "Accelerated Discovery of Novel Ponatinib Analogs with Improved Properties for the Treatment of Parkinson's Disease.",
+  "volume": "11",
+  "year": 2020
+}

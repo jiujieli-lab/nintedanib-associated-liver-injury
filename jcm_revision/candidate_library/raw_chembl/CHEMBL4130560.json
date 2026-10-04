@@ -1,0 +1,24 @@
+{
+  "abstract": "Idiopathic pulmonary fibrosis (IPF) is a serious and deadly disease for which treatment options are limited. The recent approval of antifibrosis agent nintedanib represents one of the first therapeutic approaches for the treatment of IPF. Here, we report novel indolinone-based multikinase inhibitors that target angiogenesis and fibrosis pathways and may serve as potential therapeutics for IPF. KBP-7018 is a novel, tyrosine kinase-selective inhibitor with potent effects on three fibrotic kinases (c-KIT, PDGFR, and RET). The pharmacokinetics (PK) properties of KBP-7018 were favorable in mice, rats, and dogs. In a bleomycin (BLM)-induced mouse pulmonary fibrosis model, 10, 30, and 100 mg/kg daily doses (q.d.) of KBP-7018 improved the 28-day survival rate in a dose-dependent manner. The improved efficacy of KBP-7018 compared to nintedanib provided a certain level of chemical validation for the involvement of PDGFR, c-KIT, and RET in IPF. Thus, KBP-7018 represents a novel multikinase inhibitor with differentiated activity, highly enhanced selectivity, and acceptable PK profiles that will enter phase I clinical trials.",
+  "authors": "Huang Z, Li H, Zhang Q, Lu F, Hong M, Zhang Z, Guo X, Zhu Y, Li S, Liu H.",
+  "chembl_release": {
+    "chembl_release": "CHEMBL_26",
+    "creation_date": "2020-01-10"
+  },
+  "contact": null,
+  "doc_type": "PUBLICATION",
+  "document_chembl_id": "CHEMBL4130560",
+  "doi": "10.1021/acsmedchemlett.7b00164",
+  "doi_chembl": null,
+  "first_page": "1142",
+  "issue": "11",
+  "journal": "ACS Med Chem Lett",
+  "journal_full_title": "ACS medicinal chemistry letters.",
+  "last_page": "1147",
+  "patent_id": null,
+  "pubmed_id": 29152045,
+  "src_id": 1,
+  "title": "Discovery of Indolinone-Based Multikinase Inhibitors as Potential Therapeutics for Idiopathic Pulmonary Fibrosis.",
+  "volume": "8",
+  "year": 2017
+}

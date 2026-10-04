@@ -1,0 +1,223 @@
+target_chembl_id,gene_symbol,uniprot_accession,target_pref_name,n_activities,n_documents,n_assays,max_pchembl,median_pchembl,min_pchembl,q25_pchembl,q75_pchembl,potent_pchembl_ge_6,replicated_potent,multi_document_potent,pharmacology_tier
+CHEMBL1974,FLT3,P36888,Receptor-type tyrosine-protein kinase FLT3,8,2,8,9.38,8.504999999999999,7.58,8.205,9.15,True,True,True,multi_document_noncanonical
+CHEMBL279,KDR,P35968,Vascular endothelial growth factor receptor 2,5,5,5,8.98,8.51,7.89,8.42,8.54,True,True,True,canonical_target
+CHEMBL1913,PDGFRB,P09619,Platelet-derived growth factor receptor beta,6,6,6,8.74,7.96,7.19,7.3775,8.549999999999999,True,True,True,canonical_target
+CHEMBL2007,PDGFRA,P16234,Platelet-derived growth factor receptor alpha,7,7,7,8.72,7.8,6.25,7.49,8.24,True,True,True,canonical_target
+CHEMBL1936,KIT,P10721,Mast/stem cell growth factor receptor Kit,8,1,8,8.57,7.869999999999999,6.51,7.2625,8.315,True,True,False,single_document_or_single_assay_screen
+CHEMBL2815,NTRK1,P04629,High affinity nerve growth factor receptor,2,2,2,8.35,7.795,7.24,7.5175,8.0725,True,True,True,multi_document_noncanonical
+CHEMBL2835,JAK1,P23458,Tyrosine-protein kinase JAK1,2,1,2,8.32,6.96,5.6,6.279999999999999,7.640000000000001,True,True,False,single_document_or_single_assay_screen
+CHEMBL1955,FLT4,P35916,Vascular endothelial growth factor receptor 3,4,4,4,8.3,7.68,7.02,7.3575,7.9925,True,True,True,canonical_target
+CHEMBL2742,FGFR3,P22607,Fibroblast growth factor receptor 3,5,4,5,8.23,7.03,6.85,6.97,7.43,True,True,True,canonical_target
+CHEMBL258,LCK,P06239,Tyrosine-protein kinase Lck,2,2,2,8.21,8.005,7.8,7.9025,8.1075,True,True,True,multi_document_noncanonical
+CHEMBL2041,RET,P07949,Proto-oncogene tyrosine-protein kinase receptor Ret,5,2,5,8.02,7.52,7.46,7.51,8.01,True,True,True,multi_document_noncanonical
+CHEMBL1862,ABL1,P00519,Tyrosine-protein kinase ABL1,15,1,15,8.0,7.19,5.16,6.415,7.33,True,True,False,single_document_or_single_assay_screen
+CHEMBL4895,AXL,P30530,Tyrosine-protein kinase receptor UFO,2,2,2,7.92,7.345,6.77,7.057499999999999,7.6325,True,True,True,multi_document_noncanonical
+CHEMBL1868,FLT1,P17948,Vascular endothelial growth factor receptor 1,5,5,5,7.89,7.2,6.95,6.98,7.47,True,True,True,canonical_target
+CHEMBL267,SRC,P12931,Proto-oncogene tyrosine-protein kinase Src,3,3,3,7.8,6.81,6.24,6.525,7.305,True,True,True,multi_document_noncanonical
+CHEMBL3650,FGFR1,P11362,Fibroblast growth factor receptor 1,6,6,6,7.5,7.305,7.04,7.175,7.4125,True,True,True,canonical_target
+CHEMBL1075104,LRRK2,Q5S007,Leucine-rich repeat serine/threonine-protein kinase 2,2,1,2,7.43,7.385,7.34,7.3625,7.4075,True,True,False,single_document_or_single_assay_screen
+CHEMBL3553,TYK2,P29597,Non-receptor tyrosine-protein kinase TYK2,2,1,2,7.43,6.865,6.3,6.5825,7.1475,True,True,False,single_document_or_single_assay_screen
+CHEMBL4142,FGFR2,P21802,Fibroblast growth factor receptor 2,2,2,2,7.43,6.945,6.46,6.7025,7.1875,True,True,True,canonical_target
+CHEMBL3905,LYN,P07948,Tyrosine-protein kinase Lyn,3,3,3,7.26,6.71,6.03,6.37,6.984999999999999,True,True,True,multi_document_noncanonical
+CHEMBL331,CDK4,P11802,Cyclin-dependent kinase 4,2,1,2,6.8,6.47,6.14,6.305,6.635,True,True,False,single_document_or_single_assay_screen
+CHEMBL3717,MET,P08581,Hepatocyte growth factor receptor,3,1,3,6.7,6.47,6.34,6.404999999999999,6.585,True,True,False,single_document_or_single_assay_screen
+CHEMBL3973,FGFR4,P22455,Fibroblast growth factor receptor 4,2,2,2,6.21,5.98,5.75,5.865,6.095,True,True,True,multi_document_noncanonical
+CHEMBL4948,MAP2K5,Q13163,Dual specificity mitogen-activated protein kinase kinase 5,1,1,1,8.74,8.74,8.74,8.74,8.74,True,False,False,single_document_or_single_assay_screen
+CHEMBL4522,BMP2K,Q9NSY1,BMP-2-inducible protein kinase,1,1,1,8.66,8.66,8.66,8.66,8.66,True,False,False,single_document_or_single_assay_screen
+CHEMBL240,KCNH2,Q12809,Voltage-gated inwardly rectifying potassium channel KCNH2,1,1,1,8.59,8.59,8.59,8.59,8.59,True,False,False,single_document_or_single_assay_screen
+CHEMBL5776,MAP3K7,O43318,Mitogen-activated protein kinase kinase kinase 7,1,1,1,8.39,8.39,8.39,8.39,8.39,True,False,False,single_document_or_single_assay_screen
+CHEMBL4578,MELK,Q14680,Maternal embryonic leucine zipper kinase,1,1,1,8.31,8.31,8.31,8.31,8.31,True,False,False,single_document_or_single_assay_screen
+CHEMBL6191,MAP3K19,Q56UN5,Mitogen-activated protein kinase kinase kinase 19,1,1,1,8.28,8.28,8.28,8.28,8.28,True,False,False,single_document_or_single_assay_screen
+CHEMBL2148,JAK3,P52333,Tyrosine-protein kinase JAK3,1,1,1,8.09,8.09,8.09,8.09,8.09,True,False,False,single_document_or_single_assay_screen
+CHEMBL1908382,PRP4K,Q13523,Serine/threonine-protein kinase PRP4 homolog,1,1,1,8.08,8.08,8.08,8.08,8.08,True,False,False,single_document_or_single_assay_screen
+CHEMBL5331,MERTK,Q12866,Tyrosine-protein kinase Mer,1,1,1,8.07,8.07,8.07,8.07,8.07,True,False,False,single_document_or_single_assay_screen
+CHEMBL4224,CLK1,P49759,Dual specificity protein kinase CLK1,1,1,1,8.06,8.06,8.06,8.06,8.06,True,False,False,single_document_or_single_assay_screen
+CHEMBL4598,STK4,Q13043,Serine/threonine-protein kinase 4,1,1,1,8.05,8.05,8.05,8.05,8.05,True,False,False,single_document_or_single_assay_screen
+CHEMBL5914,MAP3K2,Q9Y2U5,Mitogen-activated protein kinase kinase kinase 2,1,1,1,8.03,8.03,8.03,8.03,8.03,True,False,False,single_document_or_single_assay_screen
+CHEMBL3587,MAP2K1,Q02750,Dual specificity mitogen-activated protein kinase kinase 1,1,1,1,8.0,8.0,8.0,8.0,8.0,True,False,False,single_document_or_single_assay_screen
+CHEMBL5319,DDR1,Q08345,Epithelial discoidin domain-containing receptor 1,1,1,1,7.92,7.92,7.92,7.92,7.92,True,False,False,single_document_or_single_assay_screen
+CHEMBL5415,SRPK3,Q9UPE1,SRSF protein kinase 3,1,1,1,7.92,7.92,7.92,7.92,7.92,True,False,False,single_document_or_single_assay_screen
+CHEMBL2971,JAK2,O60674,Tyrosine-protein kinase JAK2,1,1,1,7.85,7.85,7.85,7.85,7.85,True,False,False,single_document_or_single_assay_screen
+CHEMBL4273,PRKG1,Q13976,cGMP-dependent protein kinase 1,1,1,1,7.85,7.85,7.85,7.85,7.85,True,False,False,single_document_or_single_assay_screen
+CHEMBL5667,PIP4K2B,P78356,Phosphatidylinositol 5-phosphate 4-kinase type-2 beta,1,1,1,7.77,7.77,7.77,7.77,7.77,True,False,False,single_document_or_single_assay_screen
+CHEMBL5861,GRK4,P32298,G protein-coupled receptor kinase 4,1,1,1,7.77,7.77,7.77,7.77,7.77,True,False,False,single_document_or_single_assay_screen
+CHEMBL3938,STK16,O75716,Serine/threonine-protein kinase 16,1,1,1,7.75,7.75,7.75,7.75,7.75,True,False,False,single_document_or_single_assay_screen
+CHEMBL4203,CLK4,Q9HAZ1,Dual specificity protein kinase CLK4,1,1,1,7.75,7.75,7.75,7.75,7.75,True,False,False,single_document_or_single_assay_screen
+CHEMBL5606,STK11,Q15831,Serine/threonine-protein kinase STK11,1,1,1,7.75,7.75,7.75,7.75,7.75,True,False,False,single_document_or_single_assay_screen
+CHEMBL4898,NTRK2,Q16620,BDNF/NT-3 growth factors receptor,1,1,1,7.72,7.72,7.72,7.72,7.72,True,False,False,single_document_or_single_assay_screen
+CHEMBL4597,CDK16,Q00536,Cyclin-dependent kinase 16,1,1,1,7.68,7.68,7.68,7.68,7.68,True,False,False,single_document_or_single_assay_screen
+CHEMBL5483,INSRR,P14616,Insulin receptor-related protein,1,1,1,7.68,7.68,7.68,7.68,7.68,True,False,False,single_document_or_single_assay_screen
+CHEMBL5698,NUAK2,Q9H093,NUAK family SNF1-like kinase 2,1,1,1,7.68,7.68,7.68,7.68,7.68,True,False,False,single_document_or_single_assay_screen
+CHEMBL3983,TTK,P33981,Dual specificity protein kinase TTK,1,1,1,7.66,7.66,7.66,7.66,7.66,True,False,False,single_document_or_single_assay_screen
+CHEMBL5975,RIOK1,Q9BRS2,Serine/threonine-protein kinase RIO1,1,1,1,7.64,7.64,7.64,7.64,7.64,True,False,False,single_document_or_single_assay_screen
+CHEMBL1981,INSR,P06213,Insulin receptor,1,1,1,7.62,7.62,7.62,7.62,7.62,True,False,False,single_document_or_single_assay_screen
+CHEMBL4247,ALK,Q9UM73,ALK tyrosine kinase receptor,1,1,1,7.51,7.51,7.51,7.51,7.51,True,False,False,single_document_or_single_assay_screen
+CHEMBL5608,NTRK3,Q16288,NT-3 growth factor receptor,1,1,1,7.5,7.5,7.5,7.5,7.5,True,False,False,single_document_or_single_assay_screen
+CHEMBL5970,MAP3K3,Q99759,Mitogen-activated protein kinase kinase kinase 3,1,1,1,7.47,7.47,7.47,7.47,7.47,True,False,False,single_document_or_single_assay_screen
+CHEMBL5749,MAP4K1,Q92918,Mitogen-activated protein kinase kinase kinase kinase 1,1,1,1,7.46,7.46,7.46,7.46,7.46,True,False,False,single_document_or_single_assay_screen
+CHEMBL5659,RIOK3,O14730,Serine/threonine-protein kinase RIO3,1,1,1,7.44,7.44,7.44,7.44,7.44,True,False,False,single_document_or_single_assay_screen
+CHEMBL5668,SRPK2,P78362,SRSF protein kinase 2,1,1,1,7.44,7.44,7.44,7.44,7.44,True,False,False,single_document_or_single_assay_screen
+CHEMBL4375,SRPK1,Q96SB4,SRSF protein kinase 1,1,1,1,7.43,7.43,7.43,7.43,7.43,True,False,False,single_document_or_single_assay_screen
+CHEMBL4708,STK3,Q13188,Serine/threonine-protein kinase 3,1,1,1,7.42,7.42,7.42,7.42,7.42,True,False,False,single_document_or_single_assay_screen
+CHEMBL2964,MAP2K2,P36507,Dual specificity mitogen-activated protein kinase kinase 2,1,1,1,7.38,7.38,7.38,7.38,7.38,True,False,False,single_document_or_single_assay_screen
+CHEMBL5122,DDR2,Q16832,Discoidin domain-containing receptor 2,1,1,1,7.38,7.38,7.38,7.38,7.38,True,False,False,single_document_or_single_assay_screen
+CHEMBL1844,CSF1R,P07333,Macrophage colony-stimulating factor 1 receptor,1,1,1,7.32,7.32,7.32,7.32,7.32,True,False,False,single_document_or_single_assay_screen
+CHEMBL5941,STK26,Q9P289,Serine/threonine-protein kinase 26,1,1,1,7.31,7.31,7.31,7.31,7.31,True,False,False,single_document_or_single_assay_screen
+CHEMBL5969,PIP5K1A,Q99755,Phosphatidylinositol 4-phosphate 5-kinase type-1 alpha,1,1,1,7.31,7.31,7.31,7.31,7.31,True,False,False,single_document_or_single_assay_screen
+CHEMBL4202,SLK,Q9H2G2,STE20-like serine/threonine-protein kinase,1,1,1,7.29,7.29,7.29,7.29,7.29,True,False,False,single_document_or_single_assay_screen
+CHEMBL3788,PLK4,O00444,Serine/threonine-protein kinase PLK4,1,1,1,7.28,7.28,7.28,7.28,7.28,True,False,False,single_document_or_single_assay_screen
+CHEMBL4527,TNIK,Q9UKE5,TRAF2 and NCK-interacting protein kinase,1,1,1,7.28,7.28,7.28,7.28,7.28,True,False,False,single_document_or_single_assay_screen
+CHEMBL5467,BMPR2,Q13873,Bone morphogenetic protein receptor type-2,1,1,1,7.25,7.25,7.25,7.25,7.25,True,False,False,single_document_or_single_assay_screen
+CHEMBL3906,RPS6KA2,Q15349,Ribosomal protein S6 kinase alpha-2,1,1,1,7.24,7.24,7.24,7.24,7.24,True,False,False,single_document_or_single_assay_screen
+CHEMBL5047,ULK3,Q6PHR2,Serine/threonine-protein kinase ULK3,1,1,1,7.22,7.22,7.22,7.22,7.22,True,False,False,single_document_or_single_assay_screen
+CHEMBL1957,IGF1R,P08069,Insulin-like growth factor 1 receptor,1,1,1,7.21,7.21,7.21,7.21,7.21,True,False,False,single_document_or_single_assay_screen
+CHEMBL3830,AAK1,Q2M2I8,AP2-associated protein kinase 1,1,1,1,7.2,7.2,7.2,7.2,7.2,True,False,False,single_document_or_single_assay_screen
+CHEMBL2345,RPS6KA3,P51812,Ribosomal protein S6 kinase alpha-3,1,1,1,7.19,7.19,7.19,7.19,7.19,True,False,False,single_document_or_single_assay_screen
+CHEMBL3982,FER,P16591,Tyrosine-protein kinase Fer,1,1,1,7.14,7.14,7.14,7.14,7.14,True,False,False,single_document_or_single_assay_screen
+CHEMBL2073,YES1,P07947,Tyrosine-protein kinase Yes,1,1,1,7.1,7.1,7.1,7.1,7.1,True,False,False,single_document_or_single_assay_screen
+CHEMBL5469,PTK2B,Q14289,Protein-tyrosine kinase 2-beta,1,1,1,7.09,7.09,7.09,7.09,7.09,True,False,False,single_document_or_single_assay_screen
+CHEMBL5518,MINK1,Q8N4C8,Misshapen-like kinase 1,1,1,1,7.09,7.09,7.09,7.09,7.09,True,False,False,single_document_or_single_assay_screen
+CHEMBL2116,PRKAA2,P54646,5'-AMP-activated protein kinase catalytic subunit alpha-2,1,1,1,7.08,7.08,7.08,7.08,7.08,True,False,False,single_document_or_single_assay_screen
+CHEMBL262,GSK3B,P49841,Glycogen synthase kinase-3 beta,1,1,1,7.08,7.08,7.08,7.08,7.08,True,False,False,single_document_or_single_assay_screen
+CHEMBL3981,STK10,O94804,Serine/threonine-protein kinase 10,1,1,1,7.06,7.06,7.06,7.06,7.06,True,False,False,single_document_or_single_assay_screen
+CHEMBL4045,PRKAA1,Q13131,5'-AMP-activated protein kinase catalytic subunit alpha-1,1,1,1,7.06,7.06,7.06,7.06,7.06,True,False,False,single_document_or_single_assay_screen
+CHEMBL5790,CDK17,Q00537,Cyclin-dependent kinase 17,1,1,1,7.03,7.03,7.03,7.03,7.03,True,False,False,single_document_or_single_assay_screen
+CHEMBL1163129,SBK1,Q52WX2,Serine/threonine-protein kinase SBK1,1,1,1,6.96,6.96,6.96,6.96,6.96,True,False,False,single_document_or_single_assay_screen
+CHEMBL4525,STK17A,Q9UEE5,Serine/threonine-protein kinase 17A,1,1,1,6.96,6.96,6.96,6.96,6.96,True,False,False,single_document_or_single_assay_screen
+CHEMBL4627,MYLK3,Q32MK0,Myosin light chain kinase,1,1,1,6.96,6.96,6.96,6.96,6.96,True,False,False,single_document_or_single_assay_screen
+CHEMBL5082,STK24,Q9Y6E0,Serine/threonine-protein kinase 24,1,1,1,6.96,6.96,6.96,6.96,6.96,True,False,False,single_document_or_single_assay_screen
+CHEMBL3357,IRAK1,P51617,Interleukin-1 receptor-associated kinase 1,1,1,1,6.92,6.92,6.92,6.92,6.92,True,False,False,single_document_or_single_assay_screen
+CHEMBL1163124,MAP3K13,O43283,Mitogen-activated protein kinase kinase kinase 13,1,1,1,6.85,6.85,6.85,6.85,6.85,True,False,False,single_document_or_single_assay_screen
+CHEMBL1908389,MAP3K12,Q12852,Mitogen-activated protein kinase kinase kinase 12,1,1,1,6.85,6.85,6.85,6.85,6.85,True,False,False,single_document_or_single_assay_screen
+CHEMBL4004,PHKG1,Q16816,"Phosphorylase b kinase gamma catalytic chain, skeletal muscle/heart isoform",1,1,1,6.85,6.85,6.85,6.85,6.85,True,False,False,single_document_or_single_assay_screen
+CHEMBL5836,EPHB6,O15197,Ephrin type-B receptor 6,1,1,1,6.85,6.85,6.85,6.85,6.85,True,False,False,single_document_or_single_assay_screen
+CHEMBL5408,TBK1,Q9UHD2,Serine/threonine-protein kinase TBK1,1,1,1,6.82,6.82,6.82,6.82,6.82,True,False,False,single_document_or_single_assay_screen
+CHEMBL5627,LTK,P29376,Leukocyte tyrosine kinase receptor,1,1,1,6.82,6.82,6.82,6.82,6.82,True,False,False,single_document_or_single_assay_screen
+CHEMBL6166,MAP4K4,O95819,Mitogen-activated protein kinase kinase kinase kinase 4,1,1,1,6.82,6.82,6.82,6.82,6.82,True,False,False,single_document_or_single_assay_screen
+CHEMBL5784,NUAK1,O60285,NUAK family SNF1-like kinase 1,1,1,1,6.8,6.8,6.8,6.8,6.8,True,False,False,single_document_or_single_assay_screen
+CHEMBL3529,IKBKE,Q14164,Inhibitor of nuclear factor kappa-B kinase subunit epsilon,1,1,1,6.77,6.77,6.77,6.77,6.77,True,False,False,single_document_or_single_assay_screen
+CHEMBL2553,RPS6KA1,Q15418,Ribosomal protein S6 kinase alpha-1,1,1,1,6.75,6.75,6.75,6.75,6.75,True,False,False,single_document_or_single_assay_screen
+CHEMBL3935,AURKC,Q9UQB9,Aurora kinase C,1,1,1,6.72,6.72,6.72,6.72,6.72,True,False,False,single_document_or_single_assay_screen
+CHEMBL4501,RPS6KB1,P23443,Ribosomal protein S6 kinase beta-1,1,1,1,6.72,6.72,6.72,6.72,6.72,True,False,False,single_document_or_single_assay_screen
+CHEMBL4237,RPS6KA5,O75582,Ribosomal protein S6 kinase alpha-5,1,1,1,6.7,6.7,6.7,6.7,6.7,True,False,False,single_document_or_single_assay_screen
+CHEMBL2695,PTK2,Q05397,Focal adhesion kinase 1,1,1,1,6.68,6.68,6.68,6.68,6.68,True,False,False,single_document_or_single_assay_screen
+CHEMBL2959,ITK,Q08881,Tyrosine-protein kinase ITK/TSK,1,1,1,6.68,6.68,6.68,6.68,6.68,True,False,False,single_document_or_single_assay_screen
+CHEMBL2999,PAK3,O75914,Serine/threonine-protein kinase PAK 3,1,1,1,6.68,6.68,6.68,6.68,6.68,True,False,False,single_document_or_single_assay_screen
+CHEMBL5334,TNK1,Q13470,Non-receptor tyrosine-protein kinase TNK1,1,1,1,6.68,6.68,6.68,6.68,6.68,True,False,False,single_document_or_single_assay_screen
+CHEMBL2872,MAP3K9,P80192,Mitogen-activated protein kinase kinase kinase 9,1,1,1,6.66,6.66,6.66,6.66,6.66,True,False,False,single_document_or_single_assay_screen
+CHEMBL4924,RPS6KA6,Q9UK32,Ribosomal protein S6 kinase alpha-6,1,1,1,6.64,6.64,6.64,6.64,6.64,True,False,False,single_document_or_single_assay_screen
+CHEMBL4937,CSNK1E,P49674,Casein kinase I isoform epsilon,1,1,1,6.64,6.64,6.64,6.64,6.64,True,False,False,single_document_or_single_assay_screen
+CHEMBL5464,RIPK1,Q13546,Receptor-interacting serine/threonine-protein kinase 1,1,1,1,6.62,6.62,6.62,6.62,6.62,True,False,False,single_document_or_single_assay_screen
+CHEMBL2349,PHKG2,P15735,"Phosphorylase b kinase gamma catalytic chain, liver/testis isoform",1,1,1,6.58,6.58,6.58,6.58,6.58,True,False,False,single_document_or_single_assay_screen
+CHEMBL5258,CAMK1G,Q96NX5,Calcium/calmodulin-dependent protein kinase type 1G,1,1,1,6.58,6.58,6.58,6.58,6.58,True,False,False,single_document_or_single_assay_screen
+CHEMBL2637,MAPK10,P53779,Mitogen-activated protein kinase 10,1,1,1,6.57,6.57,6.57,6.57,6.57,True,False,False,single_document_or_single_assay_screen
+CHEMBL5699,SIK2,Q9H0K1,Serine/threonine-protein kinase SIK2,1,1,1,6.55,6.55,6.55,6.55,6.55,True,False,False,single_document_or_single_assay_screen
+CHEMBL2428,MYLK,Q15746,"Myosin light chain kinase, smooth muscle",1,1,1,6.54,6.54,6.54,6.54,6.54,True,False,False,single_document_or_single_assay_screen
+CHEMBL4630,CHEK1,O14757,Serine/threonine-protein kinase Chk1,1,1,1,6.54,6.54,6.54,6.54,6.54,True,False,False,single_document_or_single_assay_screen
+CHEMBL5330,MAP4K2,Q12851,Mitogen-activated protein kinase kinase kinase kinase 2,1,1,1,6.54,6.54,6.54,6.54,6.54,True,False,False,single_document_or_single_assay_screen
+CHEMBL5432,MAP4K3,Q8IVH8,Mitogen-activated protein kinase kinase kinase kinase 3,1,1,1,6.54,6.54,6.54,6.54,6.54,True,False,False,single_document_or_single_assay_screen
+CHEMBL3055,CDK7,P50613,Cyclin-dependent kinase 7,1,1,1,6.52,6.52,6.52,6.52,6.52,True,False,False,single_document_or_single_assay_screen
+CHEMBL4454,FGR,P09769,Tyrosine-protein kinase Fgr,1,1,1,6.52,6.52,6.52,6.52,6.52,True,False,False,single_document_or_single_assay_screen
+CHEMBL5251,BTK,Q06187,Tyrosine-protein kinase BTK,1,1,1,6.51,6.51,6.51,6.51,6.51,True,False,False,single_document_or_single_assay_screen
+CHEMBL6006,ULK1,O75385,Serine/threonine-protein kinase ULK1,1,1,1,6.47,6.47,6.47,6.47,6.47,True,False,False,single_document_or_single_assay_screen
+CHEMBL2250,BLK,P51451,Tyrosine-protein kinase Blk,1,1,1,6.42,6.42,6.42,6.42,6.42,True,False,False,single_document_or_single_assay_screen
+CHEMBL5435,ULK2,Q8IYT8,Serine/threonine-protein kinase ULK2,1,1,1,6.42,6.42,6.42,6.42,6.42,True,False,False,single_document_or_single_assay_screen
+CHEMBL5907,LATS2,Q9NRM7,Serine/threonine-protein kinase LATS2,1,1,1,6.42,6.42,6.42,6.42,6.42,True,False,False,single_document_or_single_assay_screen
+CHEMBL4852,MAP4K5,Q9Y4K4,Mitogen-activated protein kinase kinase kinase kinase 5,1,1,1,6.41,6.41,6.41,6.41,6.41,True,False,False,single_document_or_single_assay_screen
+CHEMBL2185,AURKB,Q96GD4,Aurora kinase B,1,1,1,6.38,6.38,6.38,6.38,6.38,True,False,False,single_document_or_single_assay_screen
+CHEMBL6167,LATS1,O95835,Serine/threonine-protein kinase LATS1,1,1,1,6.38,6.38,6.38,6.38,6.38,True,False,False,single_document_or_single_assay_screen
+CHEMBL2850,GSK3A,P49840,Glycogen synthase kinase-3 alpha,1,1,1,6.37,6.37,6.37,6.37,6.37,True,False,False,single_document_or_single_assay_screen
+CHEMBL5426,MYLK4,Q86YV6,Myosin light chain kinase family member 4,1,1,1,6.36,6.36,6.36,6.36,6.36,True,False,False,single_document_or_single_assay_screen
+CHEMBL6083,RIPK4,P57078,Receptor-interacting serine/threonine-protein kinase 4,1,1,1,6.36,6.36,6.36,6.36,6.36,True,False,False,single_document_or_single_assay_screen
+CHEMBL6162,CDK14,O94921,Cyclin-dependent kinase 14,1,1,1,6.33,6.33,6.33,6.33,6.33,True,False,False,single_document_or_single_assay_screen
+CHEMBL5316,CDK18,Q07002,Cyclin-dependent kinase 18,1,1,1,6.29,6.29,6.29,6.29,6.29,True,False,False,single_document_or_single_assay_screen
+CHEMBL1163108,STK39,Q9UEW8,STE20/SPS1-related proline-alanine-rich protein kinase,1,1,1,6.28,6.28,6.28,6.28,6.28,True,False,False,single_document_or_single_assay_screen
+CHEMBL5683,DCLK1,O15075,Serine/threonine-protein kinase DCLK1,1,1,1,6.27,6.27,6.27,6.27,6.27,True,False,False,single_document_or_single_assay_screen
+CHEMBL5072,EPHB1,P54762,Ephrin type-B receptor 1,1,1,1,6.26,6.26,6.26,6.26,6.26,True,False,False,single_document_or_single_assay_screen
+CHEMBL5684,MUSK,O15146,"Muscle, skeletal receptor tyrosine-protein kinase",1,1,1,6.23,6.23,6.23,6.23,6.23,True,False,False,single_document_or_single_assay_screen
+CHEMBL5903,ACVR1,Q04771,Activin receptor type-1,1,1,1,6.22,6.22,6.22,6.22,6.22,True,False,False,single_document_or_single_assay_screen
+CHEMBL3125,RPS6KA4,O75676,Ribosomal protein S6 kinase alpha-4,1,1,1,6.21,6.21,6.21,6.21,6.21,True,False,False,single_document_or_single_assay_screen
+CHEMBL1841,FYN,P06241,Tyrosine-protein kinase Fyn,1,1,1,6.2,6.2,6.2,6.2,6.2,True,False,False,single_document_or_single_assay_screen
+CHEMBL2276,MAPK8,P45983,Mitogen-activated protein kinase 8,1,1,1,6.2,6.2,6.2,6.2,6.2,True,False,False,single_document_or_single_assay_screen
+CHEMBL5256,CAMKK1,Q8N5S9,Calcium/calmodulin-dependent protein kinase kinase 1,1,1,1,6.2,6.2,6.2,6.2,6.2,True,False,False,single_document_or_single_assay_screen
+CHEMBL2595,PRKD3,O94806,Serine/threonine-protein kinase D3,1,1,1,6.19,6.19,6.19,6.19,6.19,True,False,False,single_document_or_single_assay_screen
+CHEMBL3980,STK17B,O94768,Serine/threonine-protein kinase 17B,1,1,1,6.17,6.17,6.17,6.17,6.17,True,False,False,single_document_or_single_assay_screen
+CHEMBL6082,SIK1,P57059,Serine/threonine-protein kinase SIK1,1,1,1,6.17,6.17,6.17,6.17,6.17,True,False,False,single_document_or_single_assay_screen
+CHEMBL2708,MAP3K11,Q16584,Mitogen-activated protein kinase kinase kinase 11,1,1,1,6.16,6.16,6.16,6.16,6.16,True,False,False,single_document_or_single_assay_screen
+CHEMBL4900,PRKD2,Q9BZL6,Serine/threonine-protein kinase D2,1,1,1,6.14,6.14,6.14,6.14,6.14,True,False,False,single_document_or_single_assay_screen
+CHEMBL3384,PKN1,Q16512,Serine/threonine-protein kinase N1,1,1,1,6.13,6.13,6.13,6.13,6.13,True,False,False,single_document_or_single_assay_screen
+CHEMBL4225,CLK2,P49760,Dual specificity protein kinase CLK2,1,1,1,6.12,6.12,6.12,6.12,6.12,True,False,False,single_document_or_single_assay_screen
+CHEMBL5600,MARK3,P27448,MAP/microtubule affinity-regulating kinase 3,1,1,1,6.11,6.11,6.11,6.11,6.11,True,False,False,single_document_or_single_assay_screen
+CHEMBL6123,DCLK3,Q9C098,Serine/threonine-protein kinase DCLK3,1,1,1,6.11,6.11,6.11,6.11,6.11,True,False,False,single_document_or_single_assay_screen
+CHEMBL4576,HIPK2,Q9H2X6,Homeodomain-interacting protein kinase 2,1,1,1,6.1,6.1,6.1,6.1,6.1,True,False,False,single_document_or_single_assay_screen
+CHEMBL3778,IRAK4,Q9NWZ3,Interleukin-1 receptor-associated kinase 4,1,1,1,6.09,6.09,6.09,6.09,6.09,True,False,False,single_document_or_single_assay_screen
+CHEMBL5651,STK35,Q8TDR2,Serine/threonine-protein kinase 35,1,1,1,6.09,6.09,6.09,6.09,6.09,True,False,False,single_document_or_single_assay_screen
+CHEMBL4367,TXK,P42681,Tyrosine-protein kinase TXK,1,1,1,6.07,6.07,6.07,6.07,6.07,True,False,False,single_document_or_single_assay_screen
+CHEMBL4577,HIPK3,Q9H422,Homeodomain-interacting protein kinase 3,1,1,1,6.07,6.07,6.07,6.07,6.07,True,False,False,single_document_or_single_assay_screen
+CHEMBL4070,CSNK2A2,P19784,Casein kinase II subunit alpha',1,1,1,6.05,6.05,6.05,6.05,6.05,True,False,False,single_document_or_single_assay_screen
+CHEMBL5284,CAMKK2,Q96RR4,Calcium/calmodulin-dependent protein kinase kinase 2,1,1,1,6.04,6.04,6.04,6.04,6.04,True,False,False,single_document_or_single_assay_screen
+CHEMBL4526,EPHA6,Q9UF33,Ephrin type-A receptor 6,1,1,1,6.03,6.03,6.03,6.03,6.03,True,False,False,single_document_or_single_assay_screen
+CHEMBL3863,PRKD1,Q15139,Serine/threonine-protein kinase D1,1,1,1,6.0,6.0,6.0,6.0,6.0,True,False,False,single_document_or_single_assay_screen
+CHEMBL5607,GRK1,Q15835,Rhodopsin kinase GRK1,1,1,1,6.0,6.0,6.0,6.0,6.0,True,False,False,single_document_or_single_assay_screen
+CHEMBL6186,SGK3,Q96BR1,Serine/threonine-protein kinase Sgk3,1,1,1,6.0,6.0,6.0,6.0,6.0,True,False,False,single_document_or_single_assay_screen
+CHEMBL5147,EPHB4,P54760,Ephrin type-B receptor 4,1,1,1,5.96,5.96,5.96,5.96,5.96,False,False,False,weak_or_incomplete
+CHEMBL6005,STK33,Q9BYT3,Serine/threonine-protein kinase 33,1,1,1,5.96,5.96,5.96,5.96,5.96,False,False,False,weak_or_incomplete
+CHEMBL1075133,GRK7,Q8WTQ7,Rhodopsin kinase GRK7,1,1,1,5.92,5.92,5.92,5.92,5.92,False,False,False,weak_or_incomplete
+CHEMBL1075167,HIPK4,Q8NE63,Homeodomain-interacting protein kinase 4,1,1,1,5.92,5.92,5.92,5.92,5.92,False,False,False,weak_or_incomplete
+CHEMBL5455,FES,P07332,Tyrosine-protein kinase Fes/Fps,1,1,1,5.92,5.92,5.92,5.92,5.92,False,False,False,weak_or_incomplete
+CHEMBL5810,EPHA1,P21709,Ephrin type-A receptor 1,1,1,1,5.92,5.92,5.92,5.92,5.92,False,False,False,weak_or_incomplete
+CHEMBL1163104,OXSR1,O95747,Serine/threonine-protein kinase OSR1,1,1,1,5.89,5.89,5.89,5.89,5.89,False,False,False,weak_or_incomplete
+CHEMBL2828,CSNK1D,P48730,Casein kinase I isoform delta,1,1,1,5.89,5.89,5.89,5.89,5.89,False,False,False,weak_or_incomplete
+CHEMBL4524,PAK5,Q9P286,Serine/threonine-protein kinase PAK 5,1,1,1,5.89,5.89,5.89,5.89,5.89,False,False,False,weak_or_incomplete
+CHEMBL5427,HIPK1,Q86Z02,Homeodomain-interacting protein kinase 1,1,1,1,5.89,5.89,5.89,5.89,5.89,False,False,False,weak_or_incomplete
+CHEMBL5728,CDKL2,Q92772,Cyclin-dependent kinase-like 2,1,1,1,5.89,5.89,5.89,5.89,5.89,False,False,False,weak_or_incomplete
+CHEMBL1163127,MAP3K15,Q6ZN16,Mitogen-activated protein kinase kinase kinase 15,1,1,1,5.85,5.85,5.85,5.85,5.85,False,False,False,weak_or_incomplete
+CHEMBL301,CDK2,P24941,Cyclin-dependent kinase 2,1,1,1,5.85,5.85,5.85,5.85,5.85,False,False,False,weak_or_incomplete
+CHEMBL3032,PKN2,Q16513,Serine/threonine-protein kinase N2,1,1,1,5.85,5.85,5.85,5.85,5.85,False,False,False,weak_or_incomplete
+CHEMBL3831,MARK2,Q7KZI7,Serine/threonine-protein kinase MARK2,1,1,1,5.85,5.85,5.85,5.85,5.85,False,False,False,weak_or_incomplete
+CHEMBL4128,TEK,Q02763,Angiopoietin-1 receptor,1,1,1,5.85,5.85,5.85,5.85,5.85,False,False,False,weak_or_incomplete
+CHEMBL5940,MARK1,Q9P0L2,Serine/threonine-protein kinase MARK1,1,1,1,5.85,5.85,5.85,5.85,5.85,False,False,False,weak_or_incomplete
+CHEMBL4599,TNK2,Q07912,Activated CDC42 kinase 1,1,1,1,5.8,5.8,5.8,5.8,5.8,False,False,False,weak_or_incomplete
+CHEMBL5543,DYRK1B,Q9Y463,Dual specificity tyrosine-phosphorylation-regulated kinase 1B,1,1,1,5.8,5.8,5.8,5.8,5.8,False,False,False,weak_or_incomplete
+CHEMBL1163126,CILK1,Q9UPZ9,Serine/threonine-protein kinase ICK,1,1,1,5.77,5.77,5.77,5.77,5.77,False,False,False,weak_or_incomplete
+CHEMBL1163101,ERN1,O75460,Serine/threonine-protein kinase/endoribonuclease IRE1,1,1,1,5.7,5.7,5.7,5.7,5.7,False,False,False,weak_or_incomplete
+CHEMBL4014,ABL2,P42684,Tyrosine-protein kinase ABL2,1,1,1,5.7,5.7,5.7,5.7,5.7,False,False,False,weak_or_incomplete
+CHEMBL5116,SBK3,P0C264,Uncharacterized serine/threonine-protein kinase SBK3,1,1,1,5.7,5.7,5.7,5.7,5.7,False,False,False,weak_or_incomplete
+CHEMBL5358,EIF2AK4,Q9P2K8,eIF-2-alpha kinase GCN2,1,1,1,5.7,5.7,5.7,5.7,5.7,False,False,False,weak_or_incomplete
+CHEMBL5754,MARK4,Q96L34,MAP/microtubule affinity-regulating kinase 4,1,1,1,5.7,5.7,5.7,5.7,5.7,False,False,False,weak_or_incomplete
+CHEMBL2109,MAP2K3,P46734,Dual specificity mitogen-activated protein kinase kinase 3,1,1,1,5.68,5.68,5.68,5.68,5.68,False,False,False,weak_or_incomplete
+CHEMBL2468,DAPK3,O43293,Death-associated protein kinase 3,1,1,1,5.68,5.68,5.68,5.68,5.68,False,False,False,weak_or_incomplete
+CHEMBL5073,CAMK1D,Q8IU85,Calcium/calmodulin-dependent protein kinase type 1D,1,1,1,5.66,5.66,5.66,5.66,5.66,False,False,False,weak_or_incomplete
+CHEMBL5274,TIE1,P35590,Tyrosine-protein kinase receptor Tie-1,1,1,1,5.66,5.66,5.66,5.66,5.66,False,False,False,weak_or_incomplete
+CHEMBL2873,MAP3K10,Q02779,Mitogen-activated protein kinase kinase kinase 10,1,1,1,5.64,5.64,5.64,5.64,5.64,False,False,False,weak_or_incomplete
+CHEMBL5332,MAPK7,Q13164,Mitogen-activated protein kinase 7,1,1,1,5.6,5.6,5.6,5.6,5.6,False,False,False,weak_or_incomplete
+CHEMBL4223,FRK,P42685,Tyrosine-protein kinase FRK,1,1,1,5.57,5.57,5.57,5.57,5.57,False,False,False,weak_or_incomplete
+CHEMBL5654,MYO3B,Q8WXR4,Myosin-IIIb,1,1,1,5.57,5.57,5.57,5.57,5.57,False,False,False,weak_or_incomplete
+CHEMBL2534,PDPK1,O15530,3-phosphoinositide-dependent protein kinase 1,1,1,1,5.55,5.55,5.55,5.55,5.55,False,False,False,weak_or_incomplete
+CHEMBL2068,EPHA2,P29317,Ephrin type-A receptor 2,1,1,1,5.54,5.54,5.54,5.54,5.54,False,False,False,weak_or_incomplete
+CHEMBL5491,WEE1,P30291,Wee1-like protein kinase,1,1,1,5.54,5.54,5.54,5.54,5.54,False,False,False,weak_or_incomplete
+CHEMBL4482,PAK4,O96013,Serine/threonine-protein kinase PAK 4,1,1,1,5.52,5.52,5.52,5.52,5.52,False,False,False,weak_or_incomplete
+CHEMBL3123,DAPK2,Q9UIK4,Death-associated protein kinase 2,1,1,1,5.5,5.5,5.5,5.5,5.5,False,False,False,weak_or_incomplete
+CHEMBL4487,PAK2,Q13177,Serine/threonine-protein kinase PAK 2,1,1,1,5.48,5.48,5.48,5.48,5.48,False,False,False,weak_or_incomplete
+CHEMBL2803,ZAP70,P43403,Tyrosine-protein kinase ZAP-70,1,1,1,5.46,5.46,5.46,5.46,5.46,False,False,False,weak_or_incomplete
+CHEMBL4147,CAMK2A,Q9UQM7,Calcium/calmodulin-dependent protein kinase type II subunit alpha,1,1,1,5.44,5.44,5.44,5.44,5.44,False,False,False,weak_or_incomplete
+CHEMBL2494,CAMK4,Q16566,Calcium/calmodulin-dependent protein kinase type IV,1,1,1,5.43,5.43,5.43,5.43,5.43,False,False,False,weak_or_incomplete
+CHEMBL2897,MAP2K4,P45985,Dual specificity mitogen-activated protein kinase kinase 4,1,1,1,5.43,5.43,5.43,5.43,5.43,False,False,False,weak_or_incomplete
+CHEMBL5568,ROS1,P08922,Proto-oncogene tyrosine-protein kinase ROS,1,1,1,5.43,5.43,5.43,5.43,5.43,False,False,False,weak_or_incomplete
+CHEMBL2777,MYLK2,Q9H1R3,"Myosin light chain kinase 2, skeletal/cardiac muscle",1,1,1,5.4,5.4,5.4,5.4,5.4,False,False,False,weak_or_incomplete
+CHEMBL4439,TGFBR1,P36897,TGF-beta receptor type-1,1,1,1,5.38,5.38,5.38,5.38,5.38,False,False,False,weak_or_incomplete
+CHEMBL5311,ACVRL1,P37023,Activin receptor type-1-like,1,1,1,5.38,5.38,5.38,5.38,5.38,False,False,False,weak_or_incomplete
+CHEMBL3476,CHUK,O15111,Inhibitor of nuclear factor kappa-B kinase subunit alpha,1,1,1,5.35,5.35,5.35,5.35,5.35,False,False,False,weak_or_incomplete
+CHEMBL1163128,MAST1,Q9Y2H9,Microtubule-associated serine/threonine-protein kinase 1,1,1,1,5.34,5.34,5.34,5.34,5.34,False,False,False,weak_or_incomplete
+CHEMBL5310,ACVR1B,P36896,Activin receptor type-1B,1,1,1,5.31,5.31,5.31,5.31,5.31,False,False,False,weak_or_incomplete
+CHEMBL5314,TYRO3,Q06418,Tyrosine-protein kinase receptor TYRO3,1,1,1,5.31,5.31,5.31,5.31,5.31,False,False,False,weak_or_incomplete
+CHEMBL3234,HCK,P08631,Tyrosine-protein kinase HCK,1,1,1,5.28,5.28,5.28,5.28,5.28,False,False,False,weak_or_incomplete
+CHEMBL5081,IRAK3,Q9Y616,Interleukin-1 receptor-associated kinase 3,1,1,1,5.28,5.28,5.28,5.28,5.28,False,False,False,weak_or_incomplete
+CHEMBL3920,PRKCQ,Q04759,Protein kinase C theta type,1,1,1,5.26,5.26,5.26,5.26,5.26,False,False,False,weak_or_incomplete
+CHEMBL2493,CAMK1,Q14012,Calcium/calmodulin-dependent protein kinase type 1,1,1,1,5.23,5.23,5.23,5.23,5.23,False,False,False,weak_or_incomplete
+CHEMBL6003,TSSK1B,Q9BXA7,Testis-specific serine/threonine-protein kinase 1,1,1,1,5.21,5.21,5.21,5.21,5.21,False,False,False,weak_or_incomplete
+CHEMBL3629,CSNK2A1,P68400,Casein kinase II subunit alpha,1,1,1,5.12,5.12,5.12,5.12,5.12,False,False,False,weak_or_incomplete
+CHEMBL4954,EPHA3,P29320,Ephrin type-A receptor 3,1,1,1,5.07,5.07,5.07,5.07,5.07,False,False,False,weak_or_incomplete
+CHEMBL1942,ADRA2B,P18089,Alpha-2B adrenergic receptor,1,1,1,4.96,4.96,4.96,4.96,4.96,False,False,False,weak_or_incomplete
+CHEMBL251,ADORA2A,P29274,Adenosine receptor A2a,1,1,1,4.68,4.68,4.68,4.68,4.68,False,False,False,weak_or_incomplete
+CHEMBL225,HTR2C,P28335,5-hydroxytryptamine receptor 2C,1,1,1,4.6,4.6,4.6,4.6,4.6,False,False,False,weak_or_incomplete
